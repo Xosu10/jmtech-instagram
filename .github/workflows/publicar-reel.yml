@@ -75,7 +75,7 @@ jobs:
 
       - name: Comprobar ffmpeg y musica
         run: |
-          ffmpeg -version | head -1
+          python -c "from jmtech.reel import _ffmpeg; print('ffmpeg:', _ffmpeg())"
           echo "Canciones disponibles: $(ls musica/*.mp3 2>/dev/null | wc -l)"
 
       - name: Crear y publicar el reel

@@ -192,6 +192,12 @@ def sintetizar_musica(ruta_wav, dur=DUR, sr=44100, bpm=104, semilla=7):
 def _ffmpeg():
     exe = os.environ.get("FFMPEG_BIN") or shutil.which("ffmpeg")
     if not exe:
+        try:                                       # copia gratuita incluida en el paquete imageio-ffmpeg
+            import imageio_ffmpeg
+            exe = imageio_ffmpeg.get_ffmpeg_exe()
+        except Exception:                          # noqa: BLE001
+            exe = None
+    if not exe:
         raise RuntimeError("No se encuentra ffmpeg (herramienta gratuita de vídeo).")
     return exe
 

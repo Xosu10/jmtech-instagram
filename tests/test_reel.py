@@ -12,7 +12,15 @@ from jmtech.reel import generar_reel, sintetizar_musica
 
 from test_publicador import Respuesta, SesionApi, TOKEN
 
-FFMPEG = shutil.which("ffmpeg")
+def _buscar_ffmpeg():
+    try:
+        from jmtech.reel import _ffmpeg
+        return _ffmpeg()
+    except RuntimeError:
+        return None
+
+
+FFMPEG = _buscar_ffmpeg()
 requiere_ffmpeg = pytest.mark.skipif(not FFMPEG, reason="ffmpeg no está instalado")
 
 
