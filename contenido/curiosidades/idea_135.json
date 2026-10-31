@@ -1,0 +1,69 @@
+{
+ "id": "idea_135",
+ "idea": 135,
+ "titulo": "¿Por qué los juegos actuales ocupan 100 o 200 GB?",
+ "titulo_pantalla": "¿Por qué los juegos pesan tanto?",
+ "escenas": [
+  {
+   "texto": "¿Por qué los juegos actuales ocupan cien o doscientos gigas?",
+   "imagen": "disco_lleno_juegos_aislado_01.png",
+   "provisional": "ssd_nvme_disipador_aislado_01.png"
+  },
+  {
+   "texto": "Muchos ocupan cien gigas o más, frente a los pocos megas de los clásicos.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "100 GB o más",
+    "texto": "es lo que ocupan muchos juegos actuales, frente a los pocos megas de los clásicos",
+    "pie": "Orden de magnitud"
+   }
+  },
+  {
+   "texto": "Pesan tanto por las texturas de altísima resolución, el audio en varios idiomas, y los vídeos y escenas grabadas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué pesan tanto",
+    "titulo": "Mucho más detalle",
+    "acento": "naranja",
+    "puntos": [
+     "Texturas de altísima resolución",
+     "Audio en varios idiomas",
+     "Vídeos y escenas grabadas"
+    ]
+   }
+  },
+  {
+   "texto": "Para reducirlo se mejora la compresión, se descarga solo lo necesario, y se instala en un SSD rápido para que cargue antes.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué se hace",
+    "titulo": "Menos peso, más rapidez",
+    "acento": "azul",
+    "puntos": [
+     "Mejor compresión",
+     "Descargar solo lo necesario",
+     "Instalar en un SSD rápido"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "💾",
+ "puntos": [
+  "Muchos juegos ocupan 100 GB o más.",
+  "Pesan por las texturas, el audio y los vídeos.",
+  "Se reduce con compresión y SSD rápido."
+ ],
+ "etiquetas": [
+  "#videojuegos",
+  "#almacenamiento",
+  "#ssd"
+ ],
+ "fuentes": [
+  "Wikipedia: Textura (gráficos por computadora)",
+  "Wikipedia: Compresión de datos"
+ ]
+}

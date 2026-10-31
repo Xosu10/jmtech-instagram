@@ -1,0 +1,57 @@
+{
+ "id": "idea_134",
+ "idea": 134,
+ "titulo": "¿Cómo graban los movimientos de los actores para convertirlos en personajes?",
+ "titulo_pantalla": "La captura de movimiento",
+ "escenas": [
+  {
+   "texto": "¿Cómo graban los movimientos de los actores para convertirlos en personajes?",
+   "imagen": "captura_movimiento_aislado_01.png",
+   "provisional": "empresa_diagnostico_dispositivos_aislado_01.png"
+  },
+  {
+   "texto": "El actor lleva marcadores o sensores, varias cámaras siguen su movimiento, y el ordenador lo traslada a un personaje digital.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El actor lleva marcadores o sensores",
+     "Varias cámaras siguen su movimiento",
+     "El ordenador lo traslada al personaje"
+    ]
+   }
+  },
+  {
+   "texto": "Se hace porque da animaciones más naturales, se usa en cine y videojuegos, y ahorra mucho trabajo a mano.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Para qué se usa",
+    "titulo": "Animación más natural",
+    "acento": "azul",
+    "puntos": [
+     "Animaciones más naturales",
+     "Cine y videojuegos",
+     "Ahorra mucho trabajo manual"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎭",
+ "puntos": [
+  "El actor lleva marcadores o sensores.",
+  "Varias cámaras siguen su movimiento.",
+  "El ordenador lo traslada a un personaje digital."
+ ],
+ "etiquetas": [
+  "#capturademovimiento",
+  "#videojuegos",
+  "#cine"
+ ],
+ "fuentes": [
+  "Wikipedia: Captura de movimiento",
+  "Wikipedia: Animación por computadora"
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "id": "idea_121",
+ "idea": 121,
+ "titulo": "¿Cómo nació Minecraft y por qué su creador acabó vendiéndolo?",
+ "titulo_pantalla": "Minecraft: nacimiento y venta",
+ "escenas": [
+  {
+   "texto": "¿Cómo nació Minecraft y por qué su creador acabó vendiéndolo?",
+   "imagen": "voxel_mundo_aislado_01.png"
+  },
+  {
+   "texto": "Lo creó Markus Persson, conocido como Notch, y lo publicó por fases. Llegó la versión completa en dos mil once, y en dos mil catorce lo compró Microsoft.",
+   "grafico": "linea",
+   "params": {
+    "hitos": [
+     {
+      "cuando": "2009",
+      "texto": "Markus «Notch» Persson publica las primeras versiones"
+     },
+     {
+      "cuando": "2011",
+      "texto": "Sale la versión completa"
+     },
+     {
+      "cuando": "2014",
+      "texto": "Microsoft compra el estudio, Mojang"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Microsoft pagó unos dos mil quinientos millones de dólares.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "2.500 millones",
+    "texto": "de dólares pagó Microsoft por Mojang, el estudio de Minecraft",
+    "pie": "Cifra aproximada"
+   }
+  },
+  {
+   "texto": "Según explicó, no quería la responsabilidad de dirigir algo tan enorme y prefería volver a proyectos pequeños.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué vendió",
+    "titulo": "Demasiado grande",
+    "acento": "naranja",
+    "puntos": [
+     "La fama le pesaba",
+     "No quería dirigir algo tan enorme",
+     "Prefería proyectos pequeños"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⛏️",
+ "puntos": [
+  "Lo creó Markus Persson («Notch») y salió por fases.",
+  "Microsoft compró Mojang en 2014 por unos 2.500 millones de dólares.",
+  "Según explicó, no quería dirigir algo tan enorme."
+ ],
+ "etiquetas": [
+  "#minecraft",
+  "#videojuegos",
+  "#historia"
+ ],
+ "fuentes": [
+  "Wikipedia: Minecraft",
+  "Wikipedia: Mojang Studios"
+ ]
+}

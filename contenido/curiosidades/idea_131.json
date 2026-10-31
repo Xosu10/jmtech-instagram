@@ -1,0 +1,71 @@
+{
+ "id": "idea_131",
+ "idea": 131,
+ "titulo": "¿Por qué las pantallas táctiles funcionan con los dedos, pero no con cualquier objeto?",
+ "titulo_pantalla": "¿Por qué la pantalla táctil sólo nota el dedo?",
+ "escenas": [
+  {
+   "texto": "¿Por qué las pantallas táctiles funcionan con los dedos pero no con cualquier objeto?",
+   "imagen": "pantalla_tactil_aislado_01.png",
+   "provisional": "movil_pantalla_nueva_01.png"
+  },
+  {
+   "texto": "Tu dedo conduce un poco de electricidad y altera el campo de la pantalla, así que la pantalla lo detecta. Un objeto cualquiera no, y la pantalla no se entera.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Tu dedo",
+     "titulo": "La pantalla lo nota",
+     "puntos": [
+      "Conduce un poco de electricidad",
+      "Altera el campo de la pantalla",
+      "La pantalla lo detecta"
+     ]
+    },
+    "der": {
+     "cabecera": "Un objeto cualquiera",
+     "titulo": "Pasa desapercibido",
+     "puntos": [
+      "No conduce electricidad",
+      "No altera el campo",
+      "La pantalla no se entera"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "Para solucionarlo existen guantes táctiles con hilo conductor y lápices con una punta especial.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Soluciones",
+    "titulo": "Para usarla con guantes",
+    "acento": "azul",
+    "puntos": [
+     "Guantes con hilo conductor",
+     "Lápices con punta especial",
+     "Pantallas antiguas usaban presión"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "👆",
+ "puntos": [
+  "Tu dedo conduce electricidad y altera el campo de la pantalla.",
+  "Un objeto cualquiera no lo hace.",
+  "Hay guantes y lápices especiales."
+ ],
+ "etiquetas": [
+  "#pantallatactil",
+  "#moviles",
+  "#curiosidadestech"
+ ],
+ "fuentes": [
+  "Wikipedia: Pantalla táctil",
+  "Wikipedia: Pantalla capacitiva"
+ ]
+}

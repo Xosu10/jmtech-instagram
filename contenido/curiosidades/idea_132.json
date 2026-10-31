@@ -1,0 +1,65 @@
+{
+ "id": "idea_132",
+ "idea": 132,
+ "titulo": "¿Cómo sabe el GPS dónde estás sin necesitar Internet?",
+ "titulo_pantalla": "¿Cómo sabe el GPS dónde estás?",
+ "escenas": [
+  {
+   "texto": "¿Cómo sabe el GPS dónde estás sin necesitar Internet?",
+   "imagen": "gps_satelites_aislado_01.png",
+   "provisional": "movil_transferencia_01.png"
+  },
+  {
+   "texto": "Los satélites emiten la hora exacta y su posición, tu móvil calcula cuánto tarda la señal en llegar, y con cuatro satélites o más calcula dónde estás.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Los satélites emiten la hora y su posición",
+     "Tu móvil calcula cuánto tarda la señal",
+     "Con cuatro satélites o más, calcula dónde estás"
+    ]
+   }
+  },
+  {
+   "texto": "El GPS solo recibe señal de los satélites. Internet se usa para los mapas y el tráfico.",
+   "grafico": "mito",
+   "params": {
+    "mito": "El GPS necesita Internet",
+    "realidad": "Solo recibe señal de satélites; Internet se usa para los mapas y el tráfico."
+   }
+  },
+  {
+   "texto": "Por eso, descarga los mapas sin conexión y tu móvil te guiará aunque no tengas cobertura.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consejo",
+    "titulo": "Mapas sin conexión",
+    "acento": "azul",
+    "puntos": [
+     "Descarga mapas sin conexión",
+     "Sin cobertura, el GPS sigue funcionando",
+     "El primer arranque tarda más"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🛰️",
+ "puntos": [
+  "Los satélites emiten la hora y su posición.",
+  "Con cuatro satélites o más, el móvil calcula dónde estás.",
+  "No necesita Internet: descarga los mapas."
+ ],
+ "etiquetas": [
+  "#gps",
+  "#moviles",
+  "#curiosidadestech"
+ ],
+ "fuentes": [
+  "Wikipedia: Sistema de posicionamiento global",
+  "GPS.gov: cómo funciona el GPS"
+ ]
+}

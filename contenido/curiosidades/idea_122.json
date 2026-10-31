@@ -1,0 +1,66 @@
+{
+ "id": "idea_122",
+ "idea": 122,
+ "titulo": "¿Por qué el creador de Flappy Bird decidió eliminar su propio juego?",
+ "titulo_pantalla": "¿Por qué retiró Flappy Bird?",
+ "escenas": [
+  {
+   "texto": "¿Por qué el creador de Flappy Bird decidió eliminar su propio juego?",
+   "imagen": "pajaro_tuberias_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "Dong Nguyen lo publicó en dos mil trece. Meses después se volvió el juego más descargado, y en febrero de dos mil catorce lo retiró.",
+   "grafico": "linea",
+   "params": {
+    "hitos": [
+     {
+      "cuando": "2013",
+      "texto": "Dong Nguyen publica Flappy Bird"
+     },
+     {
+      "cuando": "Enero 2014",
+      "texto": "Se vuelve uno de los juegos más descargados"
+     },
+     {
+      "cuando": "Febrero 2014",
+      "texto": "Su creador lo retira de las tiendas"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Contó que el éxito le había arruinado su vida sencilla y que le preocupaba lo adictivo que resultaba.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué lo quitó",
+    "titulo": "El peso del éxito",
+    "acento": "naranja",
+    "puntos": [
+     "Dijo que arruinaba su vida sencilla",
+     "Le preocupaba que fuera adictivo",
+     "La presión de la fama"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🐦",
+ "puntos": [
+  "Dong Nguyen lo publicó en 2013 y se volvió muy popular.",
+  "Lo retiró en febrero de 2014.",
+  "Dijo que el éxito le arruinaba la vida sencilla."
+ ],
+ "etiquetas": [
+  "#flappybird",
+  "#videojuegos",
+  "#historia"
+ ],
+ "fuentes": [
+  "Wikipedia: Flappy Bird",
+  "Forbes: entrevista a Dong Nguyen (2014)"
+ ]
+}

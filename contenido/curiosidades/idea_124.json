@@ -1,0 +1,66 @@
+{
+ "id": "idea_124",
+ "idea": 124,
+ "titulo": "¿Por qué Internet hacía aquellos ruidos infernales al conectarse?",
+ "titulo_pantalla": "Los ruidos del módem",
+ "escenas": [
+  {
+   "texto": "¿Por qué Internet hacía aquellos ruidos infernales al conectarse?",
+   "imagen": "modem_telefono_aislado_01.png",
+   "provisional": "empresa_soporte_remoto_aislado_01.png"
+  },
+  {
+   "texto": "Era la conversación entre dos módems: marcaban el número, se saludaban con tonos y acordaban la velocidad.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El módem marca el número del proveedor",
+     "Los dos equipos se saludan con tonos",
+     "Acuerdan la velocidad y se conectan"
+    ]
+   }
+  },
+  {
+   "texto": "Y se oía porque el módem tenía altavoz, que servía para saber si la conexión iba bien.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué se oía",
+    "titulo": "Un altavoz a propósito",
+    "acento": "azul",
+    "puntos": [
+     "Los tonos eran la conversación",
+     "El altavoz dejaba oírla",
+     "Servía para detectar problemas"
+    ]
+   }
+  },
+  {
+   "texto": "La velocidad máxima de aquellos módems era de cincuenta y seis kilobits por segundo, miles de veces menos que una fibra actual.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "56 kbps",
+    "texto": "era la velocidad máxima de aquellos módems, miles de veces menos que una fibra actual",
+    "pie": "Orden de magnitud"
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📞",
+ "puntos": [
+  "Era la conversación entre dos módems.",
+  "El altavoz servía para saber si la conexión iba bien.",
+  "Iban a 56 kbps como máximo."
+ ],
+ "etiquetas": [
+  "#internet",
+  "#modem",
+  "#nostalgia"
+ ],
+ "fuentes": [
+  "Wikipedia: Módem",
+  "Wikipedia: Recomendación V.90"
+ ]
+}

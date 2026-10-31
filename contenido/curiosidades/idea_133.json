@@ -1,0 +1,66 @@
+{
+ "id": "idea_133",
+ "idea": 133,
+ "titulo": "¿Cómo saben los auriculares inalámbricos cuándo te los quitas?",
+ "titulo_pantalla": "¿Cómo saben cuándo te los quitas?",
+ "escenas": [
+  {
+   "texto": "¿Cómo saben los auriculares inalámbricos cuándo te los quitas?",
+   "imagen": "auriculares_inalambricos_aislado_01.png",
+   "provisional": "perifericos_setup_aislado_01.png"
+  },
+  {
+   "texto": "Llevan sensores. Un sensor óptico mide la luz en tu oreja, y si deja de haber contacto, lo nota y pausa la música.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Un sensor óptico mide la luz en tu oreja",
+     "Si deja de haber contacto, lo nota",
+     "Pausa la música al quitártelos"
+    ]
+   }
+  },
+  {
+   "texto": "Hay dos tipos: los ópticos, que detectan si algo tapa la luz, y los capacitivos, que notan el contacto con la piel.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Sensor óptico",
+     "titulo": "Detecta la luz",
+     "puntos": [
+      "Mide si algo la tapa",
+      "Funciona sin tocar la piel"
+     ]
+    },
+    "der": {
+     "cabecera": "Sensor capacitivo",
+     "titulo": "Detecta la piel",
+     "puntos": [
+      "Nota el contacto",
+      "Reacciona a la humedad"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎧",
+ "puntos": [
+  "Los auriculares llevan sensores de proximidad.",
+  "Si dejan de notar tu oreja, pausan la música.",
+  "Hay sensores ópticos y capacitivos."
+ ],
+ "etiquetas": [
+  "#auriculares",
+  "#sensores",
+  "#curiosidadestech"
+ ],
+ "fuentes": [
+  "Wikipedia: Sensor de proximidad",
+  "Apple: sensores de detección de oído"
+ ]
+}

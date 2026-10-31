@@ -191,3 +191,42 @@ def test_el_flujo_de_la_nube_coincide_con_el_calendario():
     texto = (RAIZ / ".github" / "workflows" / "publicar-curiosidad.yml").read_text(encoding="utf-8")
     assert '"0 15 * * 1,3,5"' in texto and '"0 16 * * 1,3,5"' in texto
     assert cargar_config()["hora_curiosidad"] == "17:00"
+
+
+# ---------- Plan completo ----------
+def _plan():
+    return json.loads((RAIZ / "contenido" / "plan_curiosidades.json").read_text(encoding="utf-8"))["plan"]
+
+
+def test_el_plan_tiene_una_ficha_por_dia_y_fechas_validas():
+    from datetime import date
+    fechas = [p["fecha"] for p in _plan()]
+    assert len(set(fechas)) == len(fechas)
+    assert all(date.fromisoformat(f).weekday() in (0, 2, 4) for f in fechas)       # lunes, miércoles, viernes
+    assert fechas == sorted(fechas)
+    for p in _plan():
+        assert (RAIZ / "contenido" / "curiosidades" / f"{p['id']}.json").exists(), p["id"]
+
+
+def test_toda_imagen_pedida_a_la_otra_ia_esta_en_la_biblioteca_o_entregada():
+    bib = {i["archivo"] for i in json.loads((RAIZ / "contenido" / "biblioteca_imagenes.json").read_text(encoding="utf-8"))["imagenes"]}
+    anteriores = {"refrigeracion_aire_vs_liquida_aislado_01.png", "cpu_calor_aislado_01.png", "cpu_circuitos_aislado_01.png",
+                  "cpu_termometro_aislado_01.png", "ram_ddr5_unico_aislado_01.png", "metafora_mesa_trabajo_aislado_01.png",
+                  "ia_modelo_chip_aislado_01.png", "pc_polvo_interior_aislado_01.png", "ventilador_polvo_aislado_01.png",
+                  "limpieza_pc_herramientas_aislado_01.png"}
+    for ruta in ESPECS:
+        e = cur.cargar_espec(ruta)
+        for archivo, escena in cur.imagenes_pendientes(e):
+            assert archivo in bib or archivo in anteriores, f"{e['id']} escena {escena}: {archivo} no está pedida"
+
+
+def test_el_montaje_no_repite_lo_que_no_ha_cambiado(tmp_path, monkeypatch):
+    llamadas = []
+    monkeypatch.setattr(cur, "encolar", lambda espec, fecha, carpeta, musica=None, inicio=10.0, extra=None: (
+        llamadas.append(espec["id"]), cur.guardar_cola(carpeta, [v for v in cur.cargar_cola(carpeta) if v["id"] != espec["id"]] +
+                                                       [{"fecha": fecha, "id": espec["id"], "video": "v.mp4", "pie": "x", **extra}]),
+        (tmp_path / "v.mp4").write_bytes(b"v"))[-1] or (None, 0))
+    mont, esp = cur.montar_plan(tmp_path, None, hasta="2026-11-09", provisional=True, avisar=lambda *_: None)
+    assert len(mont) == len(llamadas) >= 3
+    mont2, _ = cur.montar_plan(tmp_path, None, hasta="2026-11-09", provisional=True, avisar=lambda *_: None)
+    assert mont2 == []                                 # nada ha cambiado: no se vuelve a montar

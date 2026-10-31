@@ -196,7 +196,13 @@ def _barras(t, dur, params):
         if largo > 8:
             _rect(d, 40, y + 56, 40 + largo, y + 118, acento, 16)
         if a > 0.6:
-            _texto(d, (40 + max(largo, 120) - 18, y + 87), it["texto"], font("Bold", 36), (255, 255, 255), (a - 0.6) / 0.4, "rm")
+            f_val = font("Bold", 36)
+            ancho_txt = f_val.getlength(it["texto"]) / S
+            alfa_txt = (a - 0.6) / 0.4
+            if 860 * it["valor"] / tope >= ancho_txt + 50:   # cabe dentro de la barra (según su largo final)
+                _texto(d, (40 + largo - 18, y + 87), it["texto"], f_val, (255, 255, 255), alfa_txt, "rm")
+            else:                                            # barra corta: el valor va a su derecha
+                _texto(d, (40 + largo + 18, y + 87), it["texto"], f_val, (255, 255, 255), alfa_txt, "lm")
         y += alto_fila
     if params.get("nota"):
         _texto(d, (ANCHO / 2, ALTO - 28), params["nota"], font("Medium", 24), (130, 150, 185), _paso(p, 0.6, 0.8))

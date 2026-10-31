@@ -1,0 +1,57 @@
+{
+ "id": "idea_130",
+ "idea": 130,
+ "titulo": "¿Cómo sabe tu móvil que lo estás girando?",
+ "titulo_pantalla": "¿Cómo sabe el móvil que lo giras?",
+ "escenas": [
+  {
+   "texto": "¿Cómo sabe tu móvil que lo estás girando?",
+   "imagen": "movil_giro_aislado_01.png",
+   "provisional": "diagnostico_movil_tablet_aislado_01.png"
+  },
+  {
+   "texto": "Gracias a sensores: el acelerómetro mide hacia dónde tira la gravedad, el giroscopio mide cuánto giras, y el móvil gira la pantalla en consecuencia.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El acelerómetro mide hacia dónde tira la gravedad",
+     "El giroscopio mide cuánto giras",
+     "El móvil gira la pantalla en consecuencia"
+    ]
+   }
+  },
+  {
+   "texto": "Son sensores diminutos, fabricados dentro de un chip, y se usan también para contar pasos, para los juegos y para la realidad virtual.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Para qué más sirven",
+    "titulo": "Sensores diminutos",
+    "acento": "azul",
+    "puntos": [
+     "Contar pasos",
+     "Controlar juegos con el movimiento",
+     "Realidad virtual y aumentada"
+    ]
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🔄",
+ "puntos": [
+  "El acelerómetro mide hacia dónde tira la gravedad.",
+  "El giroscopio mide cuánto giras.",
+  "El móvil gira la pantalla en consecuencia."
+ ],
+ "etiquetas": [
+  "#moviles",
+  "#sensores",
+  "#curiosidadestech"
+ ],
+ "fuentes": [
+  "Wikipedia: Acelerómetro",
+  "Wikipedia: Giroscopio"
+ ]
+}

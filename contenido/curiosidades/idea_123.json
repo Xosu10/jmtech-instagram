@@ -1,0 +1,65 @@
+{
+ "id": "idea_123",
+ "idea": 123,
+ "titulo": "¿Qué es MissingNo, el Pokémon que no debería existir?",
+ "titulo_pantalla": "MissingNo: ¿el Pokémon que no existe?",
+ "escenas": [
+  {
+   "texto": "¿Qué es MissingNo, el Pokémon que no debería existir?",
+   "imagen": "glitch_pixeles_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "MissingNo significa «número que falta». Aparece cuando el juego pide un dato que no existe, y muestra un bloque de píxeles en su lugar.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El juego busca un dato que no existe",
+     "Muestra un bloque de píxeles en su lugar",
+     "Y puede estropear parte de la partida"
+    ]
+   }
+  },
+  {
+   "texto": "Y no es una criatura secreta: es un fallo, un hueco de datos que el juego rellena como puede.",
+   "grafico": "mito",
+   "params": {
+    "mito": "MissingNo es un Pokémon secreto",
+    "realidad": "Es un fallo, no una criatura: un hueco de datos que el juego rellena como puede."
+   }
+  },
+  {
+   "texto": "Se hizo famoso por un truco muy conocido, y porque podía corromper la partida guardada.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué se hizo famoso",
+    "titulo": "Un glitch de leyenda",
+    "acento": "azul",
+    "puntos": [
+     "Un truco muy conocido",
+     "Alteraba la memoria del juego",
+     "Podía corromper la partida guardada"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "👾",
+ "puntos": [
+  "MissingNo significa «número que falta».",
+  "Es un fallo del juego, no una criatura secreta.",
+  "Se hizo famoso por un truco muy conocido."
+ ],
+ "etiquetas": [
+  "#missingno",
+  "#pokemon",
+  "#retrogaming"
+ ],
+ "fuentes": [
+  "Wikipedia: MissingNo.",
+  "Bulbapedia: MissingNo."
+ ]
+}

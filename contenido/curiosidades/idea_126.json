@@ -1,0 +1,65 @@
+{
+ "id": "idea_126",
+ "idea": 126,
+ "titulo": "¿Qué era el infrarrojo de los móviles y por qué había que alinearlos?",
+ "titulo_pantalla": "El infrarrojo de los móviles",
+ "escenas": [
+  {
+   "texto": "¿Qué era el infrarrojo de los móviles y por qué había que alinearlos?",
+   "imagen": "moviles_infrarrojo_aislado_01.png",
+   "provisional": "empresa_diagnostico_dispositivos_aislado_01.png"
+  },
+  {
+   "texto": "Un móvil emitía un haz de luz infrarroja, el otro lo recibía si estaban enfrentados, y así se pasaban contactos o fotos.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Un móvil emitía un haz de luz infrarroja",
+     "El otro lo recibía si estaban enfrentados",
+     "Se pasaban contactos o fotos"
+    ]
+   }
+  },
+  {
+   "texto": "Había que alinearlos porque la luz infrarroja va en línea recta, cualquier obstáculo la bloquea y el alcance era muy corto.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué alinearlos",
+    "titulo": "La luz va recta",
+    "acento": "naranja",
+    "puntos": [
+     "Va en línea recta",
+     "Cualquier obstáculo la bloquea",
+     "Alcance muy corto"
+    ]
+   }
+  },
+  {
+   "texto": "Desapareció porque era lento y Bluetooth y wifi no exigen apuntar.",
+   "grafico": "mito",
+   "params": {
+    "mito": "El infrarrojo desapareció por capricho",
+    "realidad": "Era lento y exigía apuntar; el Bluetooth y el wifi lo hacen sin alinear nada."
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📲",
+ "puntos": [
+  "El infrarrojo mandaba datos con un haz de luz.",
+  "Había que alinear los móviles porque la luz va en línea recta.",
+  "Lo sustituyeron el Bluetooth y el wifi."
+ ],
+ "etiquetas": [
+  "#nostalgia",
+  "#moviles",
+  "#curiosidadestech"
+ ],
+ "fuentes": [
+  "Wikipedia: IrDA",
+  "Wikipedia: Infrarrojo"
+ ]
+}

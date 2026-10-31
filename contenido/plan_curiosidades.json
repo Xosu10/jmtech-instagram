@@ -973,6 +973,141 @@
    "estado": "pendiente",
    "titulo": "¿Cuándo merece la pena reparar un ordenador y cuándo comprar otro?",
    "cat": "D"
+  },
+  {
+   "fecha": "2027-07-28",
+   "idea": 121,
+   "id": "idea_121",
+   "estado": "pendiente",
+   "titulo": "¿Cómo nació Minecraft y por qué su creador acabó vendiéndolo?",
+   "cat": "G",
+   "nota": "Segunda lista de ideas."
+  },
+  {
+   "fecha": "2027-07-30",
+   "idea": 129,
+   "id": "idea_129",
+   "estado": "pendiente",
+   "titulo": "¿Por qué el símbolo de encendido tiene esa forma?",
+   "cat": "F",
+   "nota": "Segunda lista de ideas."
+  },
+  {
+   "fecha": "2027-08-02",
+   "idea": 124,
+   "id": "idea_124",
+   "estado": "pendiente",
+   "titulo": "¿Por qué Internet hacía aquellos ruidos infernales al conectarse?",
+   "cat": "L",
+   "nota": "Segunda lista de ideas."
+  },
+  {
+   "fecha": "2027-08-04",
+   "idea": 123,
+   "id": "idea_123",
+   "estado": "pendiente",
+   "titulo": "¿Qué es MissingNo, el Pokémon que no debería existir?",
+   "cat": "H",
+   "nota": "Segunda lista de ideas."
+  },
+  {
+   "fecha": "2027-08-06",
+   "idea": 130,
+   "id": "idea_130",
+   "estado": "pendiente",
+   "titulo": "¿Cómo sabe tu móvil que lo estás girando?",
+   "cat": "F",
+   "nota": "Segunda lista de ideas."
+  },
+  {
+   "fecha": "2027-08-09",
+   "idea": 126,
+   "id": "idea_126",
+   "estado": "pendiente",
+   "titulo": "¿Qué era el infrarrojo de los móviles y por qué había que alinearlos?",
+   "cat": "K",
+   "nota": "Segunda lista de ideas."
+  },
+  {
+   "fecha": "2027-08-11",
+   "idea": 132,
+   "id": "idea_132",
+   "estado": "pendiente",
+   "titulo": "¿Cómo sabe el GPS dónde estás sin necesitar Internet?",
+   "cat": "F",
+   "nota": "Segunda lista de ideas."
+  },
+  {
+   "fecha": "2027-08-13",
+   "idea": 122,
+   "id": "idea_122",
+   "estado": "pendiente",
+   "titulo": "¿Por qué el creador de Flappy Bird decidió eliminar su propio juego?",
+   "cat": "G",
+   "nota": "Segunda lista de ideas."
+  },
+  {
+   "fecha": "2027-08-16",
+   "idea": 127,
+   "id": "idea_127",
+   "estado": "pendiente",
+   "titulo": "¿Cuál fue la primera página web de la historia y sigue existiendo?",
+   "cat": "L",
+   "nota": "Segunda lista de ideas."
+  },
+  {
+   "fecha": "2027-08-18",
+   "idea": 133,
+   "id": "idea_133",
+   "estado": "pendiente",
+   "titulo": "¿Cómo saben los auriculares inalámbricos cuándo te los quitas?",
+   "cat": "F",
+   "nota": "Segunda lista de ideas."
+  },
+  {
+   "fecha": "2027-08-20",
+   "idea": 125,
+   "id": "idea_125",
+   "estado": "pendiente",
+   "titulo": "¿Qué pasó con Messenger y por qué desapareció?",
+   "cat": "L",
+   "nota": "Segunda lista de ideas."
+  },
+  {
+   "fecha": "2027-08-23",
+   "idea": 131,
+   "id": "idea_131",
+   "estado": "pendiente",
+   "titulo": "¿Por qué las pantallas táctiles funcionan con los dedos, pero no con cualquier objeto?",
+   "cat": "F",
+   "nota": "Segunda lista de ideas."
+  },
+  {
+   "fecha": "2027-08-25",
+   "idea": 134,
+   "id": "idea_134",
+   "estado": "pendiente",
+   "titulo": "¿Cómo graban los movimientos de los actores para convertirlos en personajes?",
+   "cat": "H",
+   "nota": "Segunda lista de ideas."
+  },
+  {
+   "fecha": "2027-08-27",
+   "idea": 128,
+   "id": "idea_128",
+   "estado": "pendiente",
+   "titulo": "¿Por qué el botón de «Me gusta» cambió las redes sociales?",
+   "cat": "L",
+   "nota": "Segunda lista de ideas."
+  },
+  {
+   "fecha": "2027-08-30",
+   "idea": 135,
+   "id": "idea_135",
+   "estado": "pendiente",
+   "titulo": "¿Por qué los juegos actuales ocupan 100 o 200 GB?",
+   "cat": "I",
+   "nota": "Segunda lista de ideas."
   }
  ],
  "descartadas": {

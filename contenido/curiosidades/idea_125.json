@@ -1,0 +1,66 @@
+{
+ "id": "idea_125",
+ "idea": 125,
+ "titulo": "¿Qué pasó con Messenger y por qué desapareció?",
+ "titulo_pantalla": "¿Qué pasó con el Messenger?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasó con Messenger y por qué desapareció?",
+   "imagen": "chat_antiguo_aislado_01.png",
+   "provisional": "empresa_soporte_remoto_aislado_01.png"
+  },
+  {
+   "texto": "Nació en mil novecientos noventa y nueve. Microsoft lo sustituyó por Skype en dos mil trece, y Skype también cerró en dos mil veinticinco.",
+   "grafico": "linea",
+   "params": {
+    "hitos": [
+     {
+      "cuando": "1999",
+      "texto": "Nace MSN Messenger"
+     },
+     {
+      "cuando": "2013",
+      "texto": "Microsoft lo sustituye por Skype"
+     },
+     {
+      "cuando": "2025",
+      "texto": "Skype también cierra"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Desapareció porque llegaron el móvil y las aplicaciones de mensajería, las redes sociales ofrecían chat integrado y Microsoft prefirió unificar sus servicios.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué desapareció",
+    "titulo": "Cambió la forma de chatear",
+    "acento": "naranja",
+    "puntos": [
+     "Llegó el móvil con apps de mensajería",
+     "Las redes ofrecían chat integrado",
+     "Microsoft unificó sus servicios"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "💬",
+ "puntos": [
+  "MSN Messenger nació en 1999.",
+  "Microsoft lo sustituyó por Skype en 2013 y Skype cerró en 2025.",
+  "Las apps de mensajería del móvil lo desplazaron."
+ ],
+ "etiquetas": [
+  "#messenger",
+  "#nostalgia",
+  "#internet"
+ ],
+ "fuentes": [
+  "Wikipedia: Windows Live Messenger",
+  "Microsoft: cierre de Skype"
+ ]
+}

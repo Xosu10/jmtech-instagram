@@ -1,0 +1,66 @@
+{
+ "id": "idea_127",
+ "idea": 127,
+ "titulo": "¿Cuál fue la primera página web de la historia y sigue existiendo?",
+ "titulo_pantalla": "La primera página web",
+ "escenas": [
+  {
+   "texto": "¿Cuál fue la primera página web de la historia y sigue existiendo?",
+   "imagen": "primera_web_aislado_01.png",
+   "provisional": "empresa_soporte_remoto_aislado_01.png"
+  },
+  {
+   "texto": "Tim Berners-Lee propuso la web en el CERN en mil novecientos ochenta y nueve, y la primera página se publicó en mil novecientos noventa y uno.",
+   "grafico": "linea",
+   "params": {
+    "hitos": [
+     {
+      "cuando": "1989",
+      "texto": "Tim Berners-Lee propone la web en el CERN"
+     },
+     {
+      "cuando": "1991",
+      "texto": "Se publica la primera página web"
+     },
+     {
+      "cuando": "2013",
+      "texto": "El CERN la restaura en su dirección original"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Era solo texto y enlaces, y explicaba qué era la web. Y sí, hoy se puede visitar.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Cómo era",
+    "titulo": "Solo texto y enlaces",
+    "acento": "azul",
+    "puntos": [
+     "Explicaba qué era la web",
+     "Solo texto y enlaces",
+     "Hoy se puede visitar"
+    ]
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🌍",
+ "puntos": [
+  "Tim Berners-Lee propuso la web en el CERN en 1989.",
+  "La primera página se publicó en 1991.",
+  "El CERN la restauró y hoy se puede visitar."
+ ],
+ "etiquetas": [
+  "#internet",
+  "#historia",
+  "#curiosidadestech"
+ ],
+ "fuentes": [
+  "CERN: la primera página web",
+  "Wikipedia: World Wide Web"
+ ]
+}

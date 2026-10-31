@@ -1,0 +1,70 @@
+{
+ "id": "idea_128",
+ "idea": 128,
+ "titulo": "¿Por qué el botón de «Me gusta» cambió las redes sociales?",
+ "titulo_pantalla": "El botón de «Me gusta»",
+ "escenas": [
+  {
+   "texto": "¿Por qué el botón de Me gusta cambió las redes sociales?",
+   "imagen": "boton_me_gusta_aislado_01.png",
+   "provisional": "empresa_kit_streaming_aislado_01.png"
+  },
+  {
+   "texto": "Facebook lo lanzó en dos mil nueve. Convirtió la aprobación en un número que podías ver al instante.",
+   "grafico": "linea",
+   "params": {
+    "hitos": [
+     {
+      "cuando": "2009",
+      "texto": "Facebook lanza el botón «Me gusta»"
+     },
+     {
+      "cuando": "Después",
+      "texto": "Casi todas las redes lo copian"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Y cambió cómo se usan: se publica pensando en gustar, y los algoritmos aprendieron qué te engancha.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué cambió",
+    "titulo": "Aprobación en números",
+    "acento": "naranja",
+    "puntos": [
+     "La aprobación se mide al instante",
+     "Se publica pensando en gustar",
+     "Los algoritmos aprenden qué te engancha"
+    ]
+   }
+  },
+  {
+   "texto": "No fue solo un botón: marcó cómo se diseñan las redes sociales.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Un simple botón no cambia nada",
+    "realidad": "Convirtió la aprobación en un número y marcó cómo se diseñan las redes."
+   }
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "👍",
+ "puntos": [
+  "Facebook lanzó el botón en 2009.",
+  "Convirtió la aprobación en un número visible.",
+  "Cambió cómo se diseñan las redes sociales."
+ ],
+ "etiquetas": [
+  "#redessociales",
+  "#megusta",
+  "#curiosidadestech"
+ ],
+ "fuentes": [
+  "Wikipedia: Botón «Me gusta»",
+  "Wikipedia: Facebook"
+ ]
+}

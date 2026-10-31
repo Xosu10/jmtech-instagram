@@ -1,0 +1,57 @@
+{
+ "id": "idea_129",
+ "idea": 129,
+ "titulo": "¿Por qué el símbolo de encendido tiene esa forma?",
+ "titulo_pantalla": "¿Por qué el botón de encendido es así?",
+ "escenas": [
+  {
+   "texto": "¿Por qué el símbolo de encendido tiene esa forma?",
+   "imagen": "boton_encendido_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Es un uno y un cero juntos: el uno significa encendido, el cero significa apagado, y se unieron en un solo dibujo.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El uno significa encendido",
+     "El cero significa apagado",
+     "Se unieron en un solo dibujo"
+    ]
+   }
+  },
+  {
+   "texto": "Es un símbolo normalizado desde hace décadas, está en casi todos los aparatos y se entiende sin palabras.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Un estándar",
+    "titulo": "Se entiende sin palabras",
+    "acento": "azul",
+    "puntos": [
+     "Normalizado desde hace décadas",
+     "Está en casi todos los aparatos",
+     "Se entiende sin palabras"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⏻",
+ "puntos": [
+  "Es un uno y un cero unidos en un dibujo.",
+  "Es un símbolo normalizado desde hace décadas.",
+  "Se entiende sin palabras."
+ ],
+ "etiquetas": [
+  "#curiosidadestech",
+  "#diseno",
+  "#informatica"
+ ],
+ "fuentes": [
+  "Wikipedia: Símbolo de encendido",
+  "Wikipedia: Sistema binario"
+ ]
+}
