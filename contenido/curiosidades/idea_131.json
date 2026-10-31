@@ -7,7 +7,7 @@
   {
    "texto": "¿Por qué las pantallas táctiles funcionan con los dedos pero no con cualquier objeto?",
    "imagen": "pantalla_tactil_aislado_01.png",
-   "provisional": "movil_pantalla_nueva_01.png"
+   "provisional": "movil_pantalla_nueva_aislado_01.png"
   },
   {
    "texto": "Tu dedo conduce un poco de electricidad y altera el campo de la pantalla, así que la pantalla lo detecta. Un objeto cualquiera no, y la pantalla no se entera.",
