@@ -1,0 +1,65 @@
+{
+ "id": "idea_116",
+ "idea": 116,
+ "titulo": "¿Qué es realmente la nube y dónde se guardan nuestras fotografías?",
+ "titulo_pantalla": "¿Qué es la nube de verdad?",
+ "escenas": [
+  {
+   "texto": "¿Qué es realmente la nube y dónde se guardan nuestras fotografías?",
+   "imagen": "nube_fotos_aislado_01.png",
+   "provisional": "empresa_soporte_remoto_aislado_01.png"
+  },
+  {
+   "texto": "Subes la foto desde tu móvil, llega a un centro de datos y se copia en varios servidores.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Subes la foto desde tu móvil",
+     "Llega a un centro de datos",
+     "Se copia en varios servidores"
+    ]
+   }
+  },
+  {
+   "texto": "La nube no flota por Internet: son ordenadores de otra empresa, en edificios reales llamados centros de datos.",
+   "grafico": "mito",
+   "params": {
+    "mito": "La nube es algo que flota en Internet",
+    "realidad": "Son ordenadores de otra empresa, en edificios reales llamados centros de datos."
+   }
+  },
+  {
+   "texto": "Por eso conviene guardar tus fotos importantes también en otro sitio y activar la verificación en dos pasos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consejo",
+    "titulo": "No dependas de un solo sitio",
+    "acento": "azul",
+    "puntos": [
+     "No es una copia de seguridad perfecta",
+     "Guarda lo importante también en otro sitio",
+     "Activa la verificación en dos pasos"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "☁️",
+ "puntos": [
+  "La nube son ordenadores de otra empresa en centros de datos.",
+  "Tu foto se copia en varios servidores.",
+  "Guarda lo importante también en otro sitio."
+ ],
+ "etiquetas": [
+  "#nube",
+  "#fotos",
+  "#copiadeseguridad"
+ ],
+ "fuentes": [
+  "Wikipedia: Computación en la nube",
+  "Wikipedia: Centro de procesamiento de datos"
+ ]
+}

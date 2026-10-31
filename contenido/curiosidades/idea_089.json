@@ -1,0 +1,57 @@
+{
+ "id": "idea_089",
+ "idea": 89,
+ "titulo": "¿Por qué algunos videojuegos provocan mareos?",
+ "titulo_pantalla": "¿Por qué marean algunos videojuegos?",
+ "escenas": [
+  {
+   "texto": "¿Por qué algunos videojuegos provocan mareos?",
+   "imagen": "mareo_juegos_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Tus ojos ven movimiento, tu oído no lo siente, y tu cerebro se confunde y te marea.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Los ojos ven movimiento",
+     "El oído no lo siente",
+     "El cerebro se confunde y te marea"
+    ]
+   }
+  },
+  {
+   "texto": "Para evitarlo, desactiva el desenfoque y el balanceo de cámara, sube los FPS y ajusta el campo de visión, y descansa.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Cómo evitarlo",
+    "titulo": "Tres ajustes",
+    "acento": "azul",
+    "puntos": [
+     "Quita el desenfoque y el balanceo",
+     "Sube los FPS y ajusta el campo de visión",
+     "Descansa y siéntate más lejos"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🌀",
+ "puntos": [
+  "Los ojos ven movimiento y el oído no lo siente.",
+  "Quita el desenfoque y el balanceo de cámara.",
+  "Sube los FPS y descansa."
+ ],
+ "etiquetas": [
+  "#videojuegos",
+  "#mareo",
+  "#gaming"
+ ],
+ "fuentes": [
+  "Wikipedia: Mareo por movimiento",
+  "Wikipedia: Mareo por realidad virtual"
+ ]
+}

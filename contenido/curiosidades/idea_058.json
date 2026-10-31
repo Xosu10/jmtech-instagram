@@ -1,0 +1,59 @@
+{
+ "id": "idea_058",
+ "idea": 58,
+ "titulo": "¿Por qué los ordenadores utilizan ceros y unos?",
+ "titulo_pantalla": "¿Por qué ceros y unos?",
+ "escenas": [
+  {
+   "texto": "Un transistor solo tiene dos estados: encendido y apagado. Por eso los ordenadores hablan en ceros y unos.",
+   "grafico": "bits",
+   "params": {
+    "texto": "Todo es 0 y 1"
+   }
+  },
+  {
+   "texto": "Es muy fiable, porque la corriente pasa o no pasa, es fácil de fabricar a miles de millones, y resiste mejor el ruido eléctrico.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué solo dos",
+    "titulo": "Simple y fiable",
+    "acento": "azul",
+    "puntos": [
+     "Pasa corriente o no pasa",
+     "Fácil de fabricar a millones",
+     "Resiste el ruido eléctrico"
+    ]
+   }
+  },
+  {
+   "texto": "Un cero o un uno es un bit, ocho bits forman un byte, y con bytes se codifican letras, fotos y vídeo.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Un 0 o un 1 es un bit",
+     "Ocho bits forman un byte",
+     "Con bytes se codifica todo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🔢",
+ "puntos": [
+  "Un transistor solo tiene dos estados: encendido y apagado.",
+  "Es fiable y fácil de fabricar.",
+  "Con bits y bytes se codifica todo."
+ ],
+ "etiquetas": [
+  "#binario",
+  "#informatica",
+  "#curiosidadestech"
+ ],
+ "fuentes": [
+  "Wikipedia: Sistema binario",
+  "Wikipedia: Bit"
+ ]
+}

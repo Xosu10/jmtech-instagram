@@ -1,0 +1,71 @@
+{
+ "id": "idea_108",
+ "idea": 108,
+ "titulo": "¿Te acuerdas de las demos de videojuegos que venían en las revistas?",
+ "titulo_pantalla": "Las demos de las revistas",
+ "escenas": [
+  {
+   "texto": "¿Te acuerdas de las demos de videojuegos que venían en las revistas?",
+   "imagen": "revista_demo_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "Las revistas traían un CD con demos: las instalabas, jugabas unos niveles, y si te gustaba, comprabas el juego.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "La revista traía un CD con demos",
+     "Las instalabas y jugabas unos niveles",
+     "Si te gustaba, comprabas el juego"
+    ]
+   }
+  },
+  {
+   "texto": "Existían porque casi no había internet rápido y los juegos pesaban demasiado para descargarlos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué existían",
+    "titulo": "Antes de la banda ancha",
+    "acento": "azul",
+    "puntos": [
+     "Casi no había internet rápido",
+     "Los juegos pesaban demasiado",
+     "Era publicidad que podías probar"
+    ]
+   }
+  },
+  {
+   "texto": "Hoy hay demos en las tiendas digitales y pruebas por tiempo limitado, y todo se descarga en minutos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Hoy",
+    "titulo": "Todo en la tienda digital",
+    "acento": "naranja",
+    "puntos": [
+     "Demos en las tiendas digitales",
+     "Pruebas por tiempo limitado",
+     "Se descarga en minutos"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "💿",
+ "puntos": [
+  "Las revistas traían CD con demos.",
+  "Existían porque no había internet rápido.",
+  "Hoy hay demos en las tiendas digitales."
+ ],
+ "etiquetas": [
+  "#retrogaming",
+  "#nostalgia",
+  "#revistas"
+ ],
+ "fuentes": [
+  "Wikipedia: Demo (videojuegos)",
+  "Wikipedia: Revista de videojuegos"
+ ]
+}

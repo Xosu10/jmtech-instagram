@@ -1,0 +1,69 @@
+{
+ "id": "idea_117",
+ "idea": 117,
+ "titulo": "¿Por qué los móviles actuales tienen mucha más potencia que los ordenadores antiguos?",
+ "titulo_pantalla": "¿Por qué un móvil supera a un PC antiguo?",
+ "escenas": [
+  {
+   "texto": "¿Por qué los móviles actuales son más potentes que los ordenadores antiguos?",
+   "imagen": "movil_vs_pc_antiguo_aislado_01.png",
+   "provisional": "empresa_diagnostico_dispositivos_aislado_01.png"
+  },
+  {
+   "texto": "El ordenador que guió al Apolo a la Luna tenía unos cuatro kilobytes de memoria de trabajo. Tu móvil tiene millones de veces más.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "4 KB",
+    "texto": "de memoria de trabajo tenía el ordenador de guiado del Apolo",
+    "pie": "Valor aproximado"
+   }
+  },
+  {
+   "texto": "La razón son los transistores, que cada vez son más pequeños: hoy caben miles de millones en un solo chip.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "La razón",
+    "titulo": "Transistores diminutos",
+    "acento": "azul",
+    "puntos": [
+     "Cada vez son más pequeños",
+     "Miles de millones en un chip",
+     "Su número crece cada pocos años"
+    ]
+   }
+  },
+  {
+   "texto": "Y además, el móvil trae pantalla, cámaras y sensores, todo en un chip eficiente fabricado en masa.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Y además",
+    "titulo": "Todo en uno",
+    "acento": "naranja",
+    "puntos": [
+     "Pantalla, cámaras y sensores",
+     "Todo en un chip eficiente",
+     "Fabricación en masa"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📱",
+ "puntos": [
+  "El ordenador del Apolo tenía unos 4 KB de memoria de trabajo.",
+  "Los transistores son cada vez más pequeños.",
+  "Un móvil es millones de veces más potente."
+ ],
+ "etiquetas": [
+  "#movil",
+  "#historiainformatica",
+  "#curiosidadestech"
+ ],
+ "fuentes": [
+  "Wikipedia: Computadora de guiado del Apolo",
+  "Wikipedia: Ley de Moore"
+ ]
+}

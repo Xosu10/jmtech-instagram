@@ -1,0 +1,54 @@
+{
+ "id": "idea_057",
+ "idea": 57,
+ "titulo": "¿Puedes romper tu PC al tocar sus componentes con electricidad estática?",
+ "titulo_pantalla": "¿La estática puede romper tu PC?",
+ "escenas": [
+  {
+   "texto": "¿Puedes romper tu PC al tocar sus componentes con electricidad estática?",
+   "imagen": "estatica_chispa_aislado_01.png",
+   "provisional": "herramientas_kit_precision_aislado_01.png"
+  },
+  {
+   "texto": "Sí, aunque no lo notes: una chispa que ni sientes puede dañar un componente.",
+   "grafico": "mito",
+   "params": {
+    "mito": "La estática no rompe nada si no la sientes",
+    "realidad": "Una chispa que ni notas puede dañar un componente."
+   }
+  },
+  {
+   "texto": "Para evitarlo, toca una pieza metálica de la caja, usa una pulsera antiestática y evita alfombras y ropa de lana.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Cómo evitarla",
+    "titulo": "Tres hábitos",
+    "acento": "azul",
+    "puntos": [
+     "Toca una pieza metálica de la caja",
+     "Usa una pulsera antiestática",
+     "Evita alfombras y ropa de lana"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚡",
+ "puntos": [
+  "Una chispa que ni sientes puede dañar un componente.",
+  "Toca metal o usa una pulsera antiestática.",
+  "Evita alfombras y ropa de lana."
+ ],
+ "etiquetas": [
+  "#estatica",
+  "#montajepc",
+  "#consejos"
+ ],
+ "fuentes": [
+  "Wikipedia: Descarga electrostática",
+  "Corsair: cómo evitar la electricidad estática al montar un PC"
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "id": "idea_068",
+ "idea": 68,
+ "titulo": "¿Por qué la gente consigue ejecutar DOOM hasta en una calculadora?",
+ "titulo_pantalla": "¿Por qué DOOM corre en todas partes?",
+ "escenas": [
+  {
+   "texto": "¿Por qué la gente consigue ejecutar DOOM hasta en una calculadora?",
+   "imagen": "calculadora_pixeles_aislado_01.png",
+   "provisional": "herramientas_kit_precision_aislado_01.png"
+  },
+  {
+   "texto": "Porque id Software publicó el código fuente, está escrito en un lenguaje que se adapta a casi todo, y pide muy poco hardware.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Se publicó el código fuente",
+     "Está escrito en C: se adapta a casi todo",
+     "Pide muy poco hardware"
+    ]
+   }
+  },
+  {
+   "texto": "Cuatro megas de memoria bastaban para ejecutarlo cuando salió, en mil novecientos noventa y tres.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "4 MB",
+    "texto": "de RAM bastaban para ejecutar DOOM en 1993",
+    "pie": "Requisitos originales, aproximados"
+   }
+  },
+  {
+   "texto": "Y se sigue haciendo por pura diversión: es un reto técnico, una prueba de lo que puede un aparato y un homenaje entre programadores.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué se sigue haciendo",
+    "titulo": "Pura diversión",
+    "acento": "naranja",
+    "puntos": [
+     "Es un reto técnico",
+     "Muestra lo que puede un aparato",
+     "Un homenaje entre programadores"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🔫",
+ "puntos": [
+  "id Software publicó el código fuente.",
+  "Pide muy poco hardware y se adapta a casi todo.",
+  "Se hace por reto y por homenaje."
+ ],
+ "etiquetas": [
+  "#doom",
+  "#retrogaming",
+  "#programacion"
+ ],
+ "fuentes": [
+  "Wikipedia: Doom (videojuego de 1993)",
+  "Wikipedia: Doom en dispositivos no convencionales"
+ ]
+}

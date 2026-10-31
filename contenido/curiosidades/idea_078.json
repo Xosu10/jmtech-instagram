@@ -1,0 +1,71 @@
+{
+ "id": "idea_078",
+ "idea": 78,
+ "titulo": "¿Por qué las misiones de escolta son tan odiadas por los jugadores?",
+ "titulo_pantalla": "¿Por qué odiamos las misiones de escolta?",
+ "escenas": [
+  {
+   "texto": "¿Por qué las misiones de escolta son tan odiadas por los jugadores?",
+   "imagen": "escolta_camino_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Porque el personaje a proteger suele ser torpe, si muere fracasas, y tú no controlas lo que hace.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué frustran",
+    "titulo": "Todo en tu contra",
+    "acento": "naranja",
+    "puntos": [
+     "El aliado es torpe",
+     "Si muere, fracasas",
+     "Tú no controlas lo que hace"
+    ]
+   }
+  },
+  {
+   "texto": "Por dentro, el juego calcula el camino del aliado, se atasca con obstáculos o enemigos, y el error lo pagas tú.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El juego calcula el camino del aliado",
+     "Se atasca con obstáculos o enemigos",
+     "Tú pagas el error"
+    ]
+   }
+  },
+  {
+   "texto": "Hoy se han mejorado: aliados que se esconden o se curan solos, o que ni siquiera pueden morir.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Cómo lo han mejorado",
+    "titulo": "Aliados más listos",
+    "acento": "azul",
+    "puntos": [
+     "Aliados que se esconden y se curan",
+     "Que no se les pueda matar",
+     "Que ayuden en el combate"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🛡️",
+ "puntos": [
+  "El aliado suele ser torpe y, si muere, fracasas.",
+  "Tú no controlas lo que hace.",
+  "Hoy se han mejorado con aliados más listos."
+ ],
+ "etiquetas": [
+  "#videojuegos",
+  "#gaming",
+  "#curiosidadesgamer"
+ ],
+ "fuentes": [
+  "Wikipedia: Misión de escolta",
+  "Wikipedia: Inteligencia artificial en videojuegos"
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "id": "idea_079",
+ "idea": 79,
+ "titulo": "¿Qué secretos de videojuegos tardaron años en descubrirse?",
+ "titulo_pantalla": "Secretos que tardaron años en aparecer",
+ "escenas": [
+  {
+   "texto": "¿Qué secretos de videojuegos tardaron años en descubrirse?",
+   "imagen": "habitacion_secreta_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Muchos secretos tardan años porque exigen condiciones muy raras, no dan pistas y, cuando salieron, había pocos jugadores buscándolos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué tardan",
+    "titulo": "Casi imposibles de encontrar",
+    "acento": "naranja",
+    "puntos": [
+     "Condiciones muy raras",
+     "Sin ninguna pista",
+     "Pocos jugadores buscándolos"
+    ]
+   }
+  },
+  {
+   "texto": "Hoy las comunidades los encuentran desmontando el código del juego, y descubren salas escondidas y personajes descartados.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Los fans analizan el código",
+     "Encuentran salas y objetos ocultos",
+     "Los comparten con todo el mundo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🔎",
+ "puntos": [
+  "Los secretos exigen condiciones muy raras.",
+  "Hoy las comunidades analizan el código del juego.",
+  "Encuentran salas y personajes descartados."
+ ],
+ "etiquetas": [
+  "#videojuegos",
+  "#secretos",
+  "#gaming"
+ ],
+ "fuentes": [
+  "Wikipedia: Huevo de Pascua (medios)",
+  "Wikipedia: Minería de datos en videojuegos"
+ ]
+}

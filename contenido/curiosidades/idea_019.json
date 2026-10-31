@@ -1,0 +1,54 @@
+{
+ "id": "idea_019",
+ "idea": 19,
+ "titulo": "¿Es malo usar el portátil siempre enchufado?",
+ "titulo_pantalla": "¿Es malo usar el portátil siempre enchufado?",
+ "escenas": [
+  {
+   "texto": "¿Es malo usar el portátil siempre enchufado?",
+   "imagen": "portatil_enchufado_aislado_01.png",
+   "provisional": "portatil_bateria_cambio_aislado_01.png"
+  },
+  {
+   "texto": "No lo destruye, pero el calor y estar siempre al cien por cien de carga desgastan la batería más rápido.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Usarlo siempre enchufado destruye la batería",
+    "realidad": "No la destruye, pero el calor y estar siempre llena la desgastan más rápido."
+   }
+  },
+  {
+   "texto": "Para cuidarla, activa el límite de carga si tu portátil lo tiene, evita el calor y no lo uses sobre mantas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Cómo cuidarla",
+    "titulo": "Tres hábitos",
+    "acento": "azul",
+    "puntos": [
+     "Activa el límite de carga",
+     "Evita el calor: nada de mantas",
+     "Usa la batería de vez en cuando"
+    ]
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🔋",
+ "puntos": [
+  "No destruye la batería, pero la desgasta más rápido.",
+  "Activa el límite de carga y evita el calor.",
+  "Usa la batería de vez en cuando."
+ ],
+ "etiquetas": [
+  "#portatil",
+  "#bateria",
+  "#consejos"
+ ],
+ "fuentes": [
+  "Wikipedia: Batería de ion de litio",
+  "Battery University: cómo alargar la vida de una batería de litio"
+ ]
+}

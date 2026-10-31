@@ -1,0 +1,65 @@
+{
+ "id": "idea_060",
+ "idea": 60,
+ "titulo": "¿Es verdad que Windows se vuelve más lento con los años?",
+ "titulo_pantalla": "¿Windows se vuelve lento con los años?",
+ "escenas": [
+  {
+   "texto": "¿Es verdad que Windows se vuelve más lento con los años?",
+   "imagen": "windows_lento_anos_aislado_01.png",
+   "provisional": "windows_optimizacion_aislado_01.png"
+  },
+  {
+   "texto": "Se acumulan programas y servicios, se llena el disco, y el polvo calienta el procesador, que baja su velocidad.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué pasa",
+    "titulo": "Se acumula de todo",
+    "acento": "naranja",
+    "puntos": [
+     "Se acumulan programas y servicios",
+     "Se llena el disco",
+     "El polvo calienta el procesador"
+    ]
+   }
+  },
+  {
+   "texto": "Windows no se estropea solo: se ralentiza por lo que se acumula, y limpiarlo o reinstalarlo lo deja casi como nuevo.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Windows se estropea solo con el tiempo",
+    "realidad": "Se ralentiza por lo que se acumula; limpiarlo o reinstalarlo lo deja casi como nuevo."
+   }
+  },
+  {
+   "texto": "Desinstala lo que no uses, libera espacio y, si sigue lento, reinstala Windows.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Desinstala lo que no uses",
+     "Libera espacio",
+     "Si sigue lento, reinstala Windows"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🐢",
+ "puntos": [
+  "Se acumulan programas y el disco se llena.",
+  "Windows no se estropea solo.",
+  "Limpiar o reinstalar lo deja casi como nuevo."
+ ],
+ "etiquetas": [
+  "#windows",
+  "#rendimiento",
+  "#consejos"
+ ],
+ "fuentes": [
+  "Microsoft: mejorar el rendimiento de Windows",
+  "Wikipedia: Obsolescencia del software"
+ ]
+}

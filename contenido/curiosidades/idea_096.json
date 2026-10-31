@@ -1,0 +1,69 @@
+{
+ "id": "idea_096",
+ "idea": 96,
+ "titulo": "¿Por qué Los Sims hablan un idioma inventado?",
+ "titulo_pantalla": "¿Por qué los Sims hablan en simlish?",
+ "escenas": [
+  {
+   "texto": "¿Por qué Los Sims hablan un idioma inventado?",
+   "imagen": "globos_dialogo_simbolos_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Sirve igual en cualquier país, evita traducir todos los diálogos y deja que imagines lo que dicen.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué un idioma inventado",
+    "titulo": "El simlish",
+    "acento": "azul",
+    "puntos": [
+     "Sirve igual en cualquier país",
+     "Evita traducir los diálogos",
+     "Deja imaginar lo que dicen"
+    ]
+   }
+  },
+  {
+   "texto": "Nació con el primer juego, en el año dos mil.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "2000",
+    "texto": "es el año en que The Sims estrenó el simlish",
+    "pie": "Año de lanzamiento del primer juego"
+   }
+  },
+  {
+   "texto": "Hoy hasta artistas reales graban sus canciones en simlish, y es parte de la identidad del juego.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Y hoy",
+    "titulo": "Un idioma de culto",
+    "acento": "naranja",
+    "puntos": [
+     "Artistas reales graban canciones",
+     "Hay emisoras en simlish",
+     "Es parte de la identidad del juego"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "💬",
+ "puntos": [
+  "El simlish sirve igual en cualquier país.",
+  "Evita traducir los diálogos.",
+  "Hoy hasta artistas reales graban en simlish."
+ ],
+ "etiquetas": [
+  "#lossims",
+  "#videojuegos",
+  "#curiosidadesgamer"
+ ],
+ "fuentes": [
+  "Wikipedia: Simlish",
+  "Wikipedia: Los Sims"
+ ]
+}

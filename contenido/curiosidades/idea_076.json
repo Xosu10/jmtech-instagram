@@ -1,0 +1,54 @@
+{
+ "id": "idea_076",
+ "idea": 76,
+ "titulo": "¿Qué son las paredes invisibles y por qué existen?",
+ "titulo_pantalla": "¿Por qué existen las paredes invisibles?",
+ "escenas": [
+  {
+   "texto": "¿Qué son las paredes invisibles y por qué existen?",
+   "imagen": "pared_invisible_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Sirven para delimitar la zona jugable, evitar que te salgas del mapa y guiarte sin poner carteles.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Para qué sirven",
+    "titulo": "Límites invisibles",
+    "acento": "azul",
+    "puntos": [
+     "Delimitar la zona jugable",
+     "Evitar que salgas del mapa",
+     "Guiar al jugador sin carteles"
+    ]
+   }
+  },
+  {
+   "texto": "No son un fallo, son una herramienta de diseño: un bloque invisible es más barato que construir todo el terreno.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Las paredes invisibles son un fallo del juego",
+    "realidad": "Son una herramienta de diseño: un bloque invisible es más barato que construir todo el terreno."
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧱",
+ "puntos": [
+  "Delimitan la zona jugable y guían al jugador.",
+  "No son un fallo, son una herramienta de diseño.",
+  "Es más barato que construir todo el terreno."
+ ],
+ "etiquetas": [
+  "#videojuegos",
+  "#gaming",
+  "#diseno"
+ ],
+ "fuentes": [
+  "Wikipedia: Pared invisible",
+  "Wikipedia: Diseño de niveles"
+ ]
+}

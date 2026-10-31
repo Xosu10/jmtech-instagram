@@ -1,0 +1,68 @@
+{
+ "id": "idea_098",
+ "idea": 98,
+ "titulo": "¿Por qué los videojuegos de terror consiguen asustarnos aunque sepamos que no son reales?",
+ "titulo_pantalla": "¿Por qué nos asusta el terror?",
+ "escenas": [
+  {
+   "texto": "¿Por qué los videojuegos de terror nos asustan aunque sepamos que no son reales?",
+   "imagen": "pasillo_terror_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Usan el sonido y la música, la espera, porque lo que no ves asusta más, y la sensación de estar indefenso.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué usan",
+    "titulo": "Los ingredientes del miedo",
+    "acento": "naranja",
+    "puntos": [
+     "El sonido y la música",
+     "La espera: lo que no ves asusta más",
+     "Sentirte indefenso"
+    ]
+   }
+  },
+  {
+   "texto": "Saber que es mentira no basta: tu cuerpo reacciona antes de que tu cabeza razone.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Si sé que es mentira, no debería asustarme",
+    "realidad": "Tu cuerpo reacciona antes de que tu cabeza razone: el miedo es automático."
+   }
+  },
+  {
+   "texto": "Y por eso gusta: la adrenalina es emocionante, es un miedo seguro, y compartirlo une al grupo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Y por eso gusta",
+    "titulo": "Miedo con red",
+    "acento": "azul",
+    "puntos": [
+     "La adrenalina es emocionante",
+     "Es un miedo seguro",
+     "Compartirlo une al grupo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "👻",
+ "puntos": [
+  "Usan sonido, espera y sensación de indefensión.",
+  "El cuerpo reacciona antes de que la cabeza razone.",
+  "Es un miedo seguro y gusta."
+ ],
+ "etiquetas": [
+  "#terror",
+  "#videojuegos",
+  "#psicologia"
+ ],
+ "fuentes": [
+  "Wikipedia: Videojuego de terror",
+  "Wikipedia: Reacción de lucha o huida"
+ ]
+}

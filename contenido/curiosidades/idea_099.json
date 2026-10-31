@@ -1,0 +1,68 @@
+{
+ "id": "idea_099",
+ "idea": 99,
+ "titulo": "¿Cómo consigue Mario Kart que las carreras sean tan caóticas y divertidas?",
+ "titulo_pantalla": "¿Por qué son tan caóticas las carreras de karts?",
+ "escenas": [
+  {
+   "texto": "¿Cómo consiguen los juegos de karts que las carreras sean tan caóticas y divertidas?",
+   "imagen": "karts_carrera_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Los objetos que recibes dependen de tu posición: los últimos reciben ayudas más potentes y los primeros, menos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "El truco",
+    "titulo": "Los objetos dependen del puesto",
+    "acento": "azul",
+    "puntos": [
+     "Dependen de tu posición",
+     "Los últimos reciben ayudas potentes",
+     "Los primeros reciben menos"
+    ]
+   }
+  },
+  {
+   "texto": "No es todo suerte: está diseñado para que casi todos tengan opciones hasta la última curva.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Todo depende de la suerte",
+    "realidad": "Está diseñado para que casi todos tengan opciones hasta la última curva."
+   }
+  },
+  {
+   "texto": "El resultado son carreras ajustadas, remontadas de última hora y partidas que enganchan.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "El resultado",
+    "titulo": "Diversión asegurada",
+    "acento": "naranja",
+    "puntos": [
+     "Carreras muy ajustadas",
+     "Remontadas de última hora",
+     "Partidas que enganchan"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🏁",
+ "puntos": [
+  "Los objetos dependen de tu posición en la carrera.",
+  "Está diseñado para que casi todos tengan opciones.",
+  "Resultan carreras ajustadas y remontadas."
+ ],
+ "etiquetas": [
+  "#karts",
+  "#videojuegos",
+  "#diseno"
+ ],
+ "fuentes": [
+  "Wikipedia: Mario Kart",
+  "Wikipedia: Rubber banding (dificultad dinámica)"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "id": "idea_090",
+ "idea": 90,
+ "titulo": "¿Es mejor jugar con teclado y ratón o con mando?",
+ "titulo_pantalla": "¿Teclado y ratón o mando?",
+ "escenas": [
+  {
+   "texto": "¿Es mejor jugar con teclado y ratón o con mando?",
+   "imagen": "teclado_raton_gaming_aislado_01.png",
+   "provisional": "perifericos_setup_aislado_01.png"
+  },
+  {
+   "texto": "El teclado y el ratón dan más precisión al apuntar y muchos atajos. El mando es más cómodo en el sofá y ideal en carreras y plataformas.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Teclado y ratón",
+     "titulo": "Precisión",
+     "puntos": [
+      "Más precisión al apuntar",
+      "Muchos atajos",
+      "Ideal en shooters y estrategia"
+     ]
+    },
+    "der": {
+     "cabecera": "Mando",
+     "titulo": "Comodidad",
+     "puntos": [
+      "Cómodo desde el sofá",
+      "Control suave y vibración",
+      "Ideal en carreras y plataformas"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "Elige según el juego: para apuntar y controlar, teclado y ratón; para conducir y saltar, mando. Y lo mejor es probar los dos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Elige según",
+    "titulo": "El juego",
+    "acento": "azul",
+    "puntos": [
+     "Apuntar y controlar: teclado y ratón",
+     "Conducir y saltar: mando",
+     "Lo mejor: probar los dos"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⌨️",
+ "puntos": [
+  "El teclado y ratón dan precisión y atajos.",
+  "El mando da comodidad y control suave.",
+  "Elige según el juego."
+ ],
+ "etiquetas": [
+  "#gaming",
+  "#teclado",
+  "#mando"
+ ],
+ "fuentes": [
+  "Wikipedia: Teclado de computadora",
+  "Wikipedia: Mando de videojuegos"
+ ]
+}

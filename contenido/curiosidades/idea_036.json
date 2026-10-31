@@ -1,0 +1,68 @@
+{
+ "id": "idea_036",
+ "idea": 36,
+ "titulo": "¿Un ordenador de 2.000 € es el doble de rápido que uno de 1.000 €?",
+ "titulo_pantalla": "¿El doble de dinero, el doble de rápido?",
+ "escenas": [
+  {
+   "texto": "¿Un ordenador de dos mil euros es el doble de rápido que uno de mil?",
+   "imagen": "balanza_precio_rendimiento_aislado_01.png",
+   "provisional": "empresa_asesoramiento_comparativa_aislado_01.png"
+  },
+  {
+   "texto": "No. El rendimiento no crece al mismo ritmo que el coste: las últimas mejoras son las más caras.",
+   "grafico": "mito",
+   "params": {
+    "mito": "El doble de dinero es el doble de rápido",
+    "realidad": "El rendimiento no crece al mismo ritmo que el coste: las últimas mejoras son las más caras."
+   }
+  },
+  {
+   "texto": "Se llama rendimientos decrecientes: las primeras mejoras cuestan poco y las últimas cuestan mucho, así que ganas cada vez menos por cada paso.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Se llama",
+    "titulo": "Rendimientos decrecientes",
+    "acento": "naranja",
+    "puntos": [
+     "Las primeras mejoras cuestan poco",
+     "Las últimas cuestan mucho",
+     "Cada vez ganas menos"
+    ]
+   }
+  },
+  {
+   "texto": "Lo importante es definir qué vas a hacer con el equipo, equilibrar las piezas y gastar donde más se nota.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo importante",
+    "titulo": "Gasta con cabeza",
+    "acento": "azul",
+    "puntos": [
+     "Define qué vas a hacer con él",
+     "Equilibra las piezas",
+     "Gasta donde más se nota"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚖️",
+ "puntos": [
+  "El doble de dinero no es el doble de rápido.",
+  "Las últimas mejoras son las más caras.",
+  "Define qué harás con el equipo y equilibra las piezas."
+ ],
+ "etiquetas": [
+  "#comprarpc",
+  "#rendimiento",
+  "#presupuesto"
+ ],
+ "fuentes": [
+  "Wikipedia: Rendimientos decrecientes",
+  "Corsair: cómo elegir las piezas de un PC"
+ ]
+}

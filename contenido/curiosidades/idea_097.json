@@ -1,0 +1,66 @@
+{
+ "id": "idea_097",
+ "idea": 97,
+ "titulo": "¿Cómo se generan los miles de planetas de No Man's Sky?",
+ "titulo_pantalla": "¿Cómo genera planetas No Man's Sky?",
+ "escenas": [
+  {
+   "texto": "¿Cómo se generan los miles de planetas de No Man's Sky?",
+   "imagen": "planetas_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Según sus creadores, el juego tiene dieciocho trillones de planetas.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "18 trillones",
+    "texto": "de planetas, según sus creadores",
+    "pie": "Cifra del estudio Hello Games"
+   }
+  },
+  {
+   "texto": "Una fórmula matemática crea cada planeta a partir de un número, y solo lo genera cuando llegas.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Una fórmula crea cada planeta",
+     "Parte de un número semilla",
+     "Solo se genera cuando llegas"
+    ]
+   }
+  },
+  {
+   "texto": "Así no hace falta guardarlos: se calculan igual para todos los jugadores y caben en tu consola.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "El truco",
+    "titulo": "Calcular en vez de guardar",
+    "acento": "azul",
+    "puntos": [
+     "No se guardan los planetas",
+     "Se calculan igual para todos",
+     "Por eso cabe en tu consola"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🪐",
+ "puntos": [
+  "Un algoritmo crea cada planeta a partir de un número.",
+  "Solo se genera cuando llegas.",
+  "Así caben dieciocho trillones en tu consola."
+ ],
+ "etiquetas": [
+  "#nomansky",
+  "#videojuegos",
+  "#curiosidadesgamer"
+ ],
+ "fuentes": [
+  "Wikipedia: No Man's Sky",
+  "Wikipedia: Generación procedural"
+ ]
+}

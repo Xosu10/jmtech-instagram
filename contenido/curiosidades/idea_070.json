@@ -1,0 +1,70 @@
+{
+ "id": "idea_070",
+ "idea": 70,
+ "titulo": "¿Cuáles fueron los videojuegos que cambiaron la historia de la industria?",
+ "titulo_pantalla": "Juegos que cambiaron la historia",
+ "escenas": [
+  {
+   "texto": "¿Cuáles fueron los videojuegos que cambiaron la historia de la industria?",
+   "imagen": "recreativa_arcade_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "Pong llevó los videojuegos al gran público. Super Mario Bros ayudó a reactivar la industria. Doom popularizó los disparos en primera persona. Y Minecraft demostró que un juego independiente podía triunfar.",
+   "grafico": "linea",
+   "params": {
+    "hitos": [
+     {
+      "cuando": "1972",
+      "texto": "Pong lleva los videojuegos al gran público"
+     },
+     {
+      "cuando": "1985",
+      "texto": "Super Mario Bros ayuda a reactivar la industria"
+     },
+     {
+      "cuando": "1993",
+      "texto": "Doom populariza los disparos en primera persona"
+     },
+     {
+      "cuando": "2011",
+      "texto": "Minecraft demuestra que un juego independiente puede triunfar"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Tienen algo en común: cambiaron cómo se juega, abrieron géneros nuevos e inspiraron a miles de estudios.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué tienen en común",
+    "titulo": "Abrieron camino",
+    "acento": "azul",
+    "puntos": [
+     "Cambiaron cómo se juega",
+     "Abrieron géneros nuevos",
+     "Inspiraron a miles de estudios"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🏆",
+ "puntos": [
+  "Pong llevó los videojuegos al gran público.",
+  "Mario, Doom y Minecraft cambiaron la industria.",
+  "Abrieron géneros e inspiraron a miles de estudios."
+ ],
+ "etiquetas": [
+  "#videojuegos",
+  "#historia",
+  "#gaming"
+ ],
+ "fuentes": [
+  "Wikipedia: Historia de los videojuegos",
+  "Wikipedia: Crisis de los videojuegos de 1983"
+ ]
+}

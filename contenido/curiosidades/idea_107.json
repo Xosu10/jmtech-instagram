@@ -1,0 +1,74 @@
+{
+ "id": "idea_107",
+ "idea": 107,
+ "titulo": "¿Por qué antes los videojuegos incluían manuales enormes?",
+ "titulo_pantalla": "¿Por qué traían manuales gigantes?",
+ "escenas": [
+  {
+   "texto": "¿Por qué antes los videojuegos incluían manuales enormes?",
+   "imagen": "manual_juego_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "Traían los controles y trucos, la historia y los personajes, y mapas y consejos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué traían",
+    "titulo": "Todo en papel",
+    "acento": "azul",
+    "puntos": [
+     "Controles y trucos",
+     "Historia y personajes",
+     "Mapas y consejos"
+    ]
+   }
+  },
+  {
+   "texto": "Los juegos no se explicaban solos, no había guía integrada ni internet, y el manual era parte de la experiencia de abrir la caja.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué",
+    "titulo": "Un juego no se explicaba solo",
+    "acento": "naranja",
+    "puntos": [
+     "No había tutoriales dentro",
+     "Tampoco internet para buscar",
+     "Era parte de la experiencia"
+    ]
+   }
+  },
+  {
+   "texto": "Hoy los tutoriales están dentro del juego, hay guías en vídeo y todo llega por la tienda digital.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Hoy",
+    "titulo": "Todo en pantalla",
+    "acento": "azul",
+    "puntos": [
+     "Tutoriales dentro del juego",
+     "Guías en vídeo",
+     "Todo en la tienda digital"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Los manuales traían controles, historia y mapas.",
+  "Los juegos no se explicaban solos y no había internet.",
+  "Hoy los tutoriales están dentro del juego."
+ ],
+ "etiquetas": [
+  "#retrogaming",
+  "#nostalgia",
+  "#videojuegos"
+ ],
+ "fuentes": [
+  "Wikipedia: Manual de videojuego",
+  "Wikipedia: Historia de los videojuegos"
+ ]
+}

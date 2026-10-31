@@ -1,0 +1,66 @@
+{
+ "id": "idea_118",
+ "idea": 118,
+ "titulo": "¿Cómo nacieron los memes de Internet y por qué se hacen virales?",
+ "titulo_pantalla": "¿Cómo nacen los memes?",
+ "escenas": [
+  {
+   "texto": "¿Cómo nacieron los memes de Internet y por qué se hacen virales?",
+   "imagen": "memes_aislado_01.png",
+   "provisional": "empresa_kit_streaming_aislado_01.png"
+  },
+  {
+   "texto": "La palabra meme la inventó Richard Dawkins en mil novecientos setenta y seis, para hablar de ideas que se copian de persona en persona.",
+   "grafico": "linea",
+   "params": {
+    "hitos": [
+     {
+      "cuando": "1976",
+      "texto": "Richard Dawkins inventa la palabra «meme»"
+     },
+     {
+      "cuando": "Años 90",
+      "texto": "Aparecen los primeros virales de Internet"
+     },
+     {
+      "cuando": "Años 2000",
+      "texto": "Las redes sociales los multiplican"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Se hacen virales porque se entienden al instante, se pueden remezclar y dan ganas de compartirlos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué se hacen virales",
+    "titulo": "Fáciles de compartir",
+    "acento": "azul",
+    "puntos": [
+     "Se entienden al instante",
+     "Se pueden remezclar",
+     "Dan ganas de compartirlos"
+    ]
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "😂",
+ "puntos": [
+  "Richard Dawkins inventó la palabra meme en 1976.",
+  "Las redes sociales multiplicaron los memes.",
+  "Son fáciles de entender, remezclar y compartir."
+ ],
+ "etiquetas": [
+  "#memes",
+  "#internet",
+  "#cultura"
+ ],
+ "fuentes": [
+  "Wikipedia: Meme de Internet",
+  "Wikipedia: Richard Dawkins"
+ ]
+}

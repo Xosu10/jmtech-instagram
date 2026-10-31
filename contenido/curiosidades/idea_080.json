@@ -1,0 +1,66 @@
+{
+ "id": "idea_080",
+ "idea": 80,
+ "titulo": "¿Por qué existen los trofeos y logros en los videojuegos?",
+ "titulo_pantalla": "¿Por qué hay trofeos y logros?",
+ "escenas": [
+  {
+   "texto": "¿Por qué existen los trofeos y logros en los videojuegos?",
+   "imagen": "trofeos_logros_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Xbox 360 estrenó los logros en dos mil cinco, Steam los incorporó en dos mil siete y PlayStation añadió los trofeos en dos mil ocho.",
+   "grafico": "linea",
+   "params": {
+    "hitos": [
+     {
+      "cuando": "2005",
+      "texto": "Xbox 360 estrena los logros"
+     },
+     {
+      "cuando": "2007",
+      "texto": "Steam incorpora los suyos"
+     },
+     {
+      "cuando": "2008",
+      "texto": "PlayStation 3 añade los trofeos"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Sirven para retarte a seguir jugando, enseñarte cosas del juego y que puedas presumir ante tus amigos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Para qué sirven",
+    "titulo": "Un empujón extra",
+    "acento": "azul",
+    "puntos": [
+     "Retan a seguir jugando",
+     "Enseñan cosas del juego",
+     "Permiten presumir"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🏅",
+ "puntos": [
+  "Xbox 360 estrenó los logros en 2005.",
+  "Steam y PlayStation los adoptaron después.",
+  "Retan, enseñan y permiten presumir."
+ ],
+ "etiquetas": [
+  "#logros",
+  "#trofeos",
+  "#videojuegos"
+ ],
+ "fuentes": [
+  "Wikipedia: Logro (videojuegos)",
+  "Wikipedia: Trofeo (PlayStation)"
+ ]
+}

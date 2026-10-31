@@ -1,0 +1,71 @@
+{
+ "id": "idea_110",
+ "idea": 110,
+ "titulo": "¿Cómo funcionaban las antiguas máquinas recreativas de los salones arcade?",
+ "titulo_pantalla": "Cómo funcionaban las recreativas",
+ "escenas": [
+  {
+   "texto": "¿Cómo funcionaban las antiguas máquinas recreativas de los salones arcade?",
+   "imagen": "recreativa_arcade_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "Metías una moneda, un mecanismo daba un crédito y la placa lanzaba la partida.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Metías una moneda",
+     "Un mecanismo daba un crédito",
+     "La placa lanzaba la partida"
+    ]
+   }
+  },
+  {
+   "texto": "Dentro había una placa especializada para ese juego, un monitor de tubo, y una fuente y mandos muy robustos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Dentro de la máquina",
+    "titulo": "Hecha para aguantar",
+    "acento": "azul",
+    "puntos": [
+     "Una placa especializada",
+     "Un monitor de tubo",
+     "Fuente y mandos robustos"
+    ]
+   }
+  },
+  {
+   "texto": "Y estaban diseñadas para el negocio: partidas cortas, dificultad creciente para que pagaras otra, y puntuaciones que picaban a competir.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "El negocio",
+    "titulo": "Una partida más",
+    "acento": "naranja",
+    "puntos": [
+     "Partidas cortas",
+     "Dificultad creciente",
+     "Puntuaciones para competir"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🕹️",
+ "puntos": [
+  "Una moneda daba un crédito y la placa lanzaba la partida.",
+  "Dentro había una placa especializada y un monitor de tubo.",
+  "Estaban diseñadas para que pagaras otra partida."
+ ],
+ "etiquetas": [
+  "#arcade",
+  "#retrogaming",
+  "#recreativas"
+ ],
+ "fuentes": [
+  "Wikipedia: Máquina recreativa",
+  "Wikipedia: Edad de oro de los videojuegos arcade"
+ ]
+}

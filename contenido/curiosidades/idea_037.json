@@ -1,0 +1,64 @@
+{
+ "id": "idea_037",
+ "idea": 37,
+ "titulo": "¿Qué errores comete la gente al comprar un portátil?",
+ "titulo_pantalla": "Errores al comprar un portátil",
+ "escenas": [
+  {
+   "texto": "¿Qué errores comete la gente al comprar un portátil?",
+   "imagen": "portatil_compra_errores_aislado_01.png",
+   "provisional": "portatil_abierto_aislado_01.png"
+  },
+  {
+   "texto": "Los típicos: fijarse solo en el procesador, olvidar la pantalla y la batería, y no mirar si se puede ampliar la memoria o el disco.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Errores típicos",
+    "titulo": "No te pase",
+    "acento": "naranja",
+    "puntos": [
+     "Fijarse solo en el procesador",
+     "Olvidar pantalla y batería",
+     "No ver si se puede ampliar"
+    ]
+   }
+  },
+  {
+   "texto": "Antes de comprar, piensa en qué lo vas a usar, revisa pantalla, batería y puertos, y lee opiniones comparando modelos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Antes de comprar",
+    "titulo": "Tres pasos",
+    "acento": "azul",
+    "puntos": [
+     "Piensa en qué lo vas a usar",
+     "Revisa pantalla, batería y puertos",
+     "Lee opiniones y compara modelos"
+    ]
+   }
+  },
+  {
+   "texto": "Si quieres, te asesoramos antes de comprarlo.",
+   "imagen": "empresa_asesoramiento_comparativa_aislado_01.png"
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "💼",
+ "puntos": [
+  "No te fijes solo en el procesador.",
+  "Revisa pantalla, batería y puertos.",
+  "Comprueba si se puede ampliar."
+ ],
+ "etiquetas": [
+  "#portatil",
+  "#comprarportatil",
+  "#consejos"
+ ],
+ "fuentes": [
+  "Wikipedia: Computadora portátil",
+  "Corsair: qué mirar al comprar un portátil"
+ ]
+}

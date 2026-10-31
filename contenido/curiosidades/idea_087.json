@@ -1,0 +1,79 @@
+{
+ "id": "idea_087",
+ "idea": 87,
+ "titulo": "¿Los auriculares gaming son realmente mejores que unos normales?",
+ "titulo_pantalla": "¿Son mejores los auriculares gaming?",
+ "escenas": [
+  {
+   "texto": "¿Los auriculares gaming son realmente mejores que unos normales?",
+   "imagen": "auriculares_gaming_aislado_01.png",
+   "provisional": "perifericos_setup_aislado_01.png"
+  },
+  {
+   "texto": "No siempre. A igualdad de coste, unos buenos auriculares normales suelen sonar mejor. Lo gaming añade micrófono y comodidad.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Los auriculares gaming siempre suenan mejor",
+    "realidad": "A igual coste, unos buenos auriculares normales suelen sonar mejor; lo gaming añade micrófono y comodidad."
+   }
+  },
+  {
+   "texto": "Los gaming traen micrófono y están pensados para sesiones largas. Los normales son más versátiles, pero necesitas micrófono aparte.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Gaming",
+     "titulo": "Todo en uno",
+     "puntos": [
+      "Micrófono incluido",
+      "Pensados para sesiones largas",
+      "Efectos de sonido envolvente"
+     ]
+    },
+    "der": {
+     "cabecera": "Normales",
+     "titulo": "Más versátiles",
+     "puntos": [
+      "Suelen sonar mejor",
+      "Sirven para todo",
+      "Micrófono aparte"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "Elige según tu caso: si solo juegas, unos gaming; si también escuchas música, unos buenos normales con micrófono.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Elige según",
+    "titulo": "Tu caso",
+    "acento": "azul",
+    "puntos": [
+     "Solo juegas: gaming",
+     "También música: buenos normales",
+     "Mira siempre la comodidad"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎧",
+ "puntos": [
+  "A igual coste, unos buenos normales suelen sonar mejor.",
+  "Los gaming añaden micrófono y comodidad.",
+  "Elige según tu uso."
+ ],
+ "etiquetas": [
+  "#auriculares",
+  "#gaming",
+  "#perifericos"
+ ],
+ "fuentes": [
+  "Wikipedia: Auriculares",
+  "RTINGS: auriculares para juegos frente a auriculares normales"
+ ]
+}

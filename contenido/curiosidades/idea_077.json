@@ -1,0 +1,57 @@
+{
+ "id": "idea_077",
+ "idea": 77,
+ "titulo": "¿Cómo consiguen los videojuegos crear mundos gigantescos sin cargarlo todo a la vez?",
+ "titulo_pantalla": "¿Cómo cargan mundos gigantes?",
+ "escenas": [
+  {
+   "texto": "¿Cómo crean los videojuegos mundos gigantescos sin cargarlo todo a la vez?",
+   "imagen": "mundo_abierto_trozos_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Dividen el mundo en trozos, solo cargan los cercanos y simplifican o descargan los lejanos.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El mundo se divide en trozos",
+     "Solo se cargan los cercanos",
+     "Los lejanos se simplifican o descargan"
+    ]
+   }
+  },
+  {
+   "texto": "Para que no lo notes, reducen el detalle con la distancia, descartan lo que no ves y cargan trozos mientras caminas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Los trucos",
+    "titulo": "Que no se note",
+    "acento": "azul",
+    "puntos": [
+     "Menos detalle cuanto más lejos",
+     "Se descarta lo que no ves",
+     "Se cargan trozos mientras caminas"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🗺️",
+ "puntos": [
+  "El mundo se divide en trozos.",
+  "Solo se cargan los cercanos.",
+  "Se reduce el detalle con la distancia."
+ ],
+ "etiquetas": [
+  "#mundoabierto",
+  "#videojuegos",
+  "#curiosidadesgamer"
+ ],
+ "fuentes": [
+  "Wikipedia: Nivel de detalle",
+  "Wikipedia: Carga continua (streaming) en videojuegos"
+ ]
+}

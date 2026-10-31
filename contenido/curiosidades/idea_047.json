@@ -1,0 +1,69 @@
+{
+ "id": "idea_047",
+ "idea": 47,
+ "titulo": "¿Por qué los centros de datos necesitan cantidades gigantescas de agua y electricidad?",
+ "titulo_pantalla": "¿Por qué gastan tanto los centros de datos?",
+ "escenas": [
+  {
+   "texto": "¿Por qué los centros de datos necesitan tanta agua y electricidad?",
+   "imagen": "centro_datos_agua_aislado_01.png",
+   "provisional": "empresa_diagnostico_dispositivos_aislado_01.png"
+  },
+  {
+   "texto": "Tienen miles de servidores encendidos las veinticuatro horas, todo ese calor hay que sacarlo, y la inteligencia artificial exige más potencia.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué gastan tanto",
+    "titulo": "Calor sin parar",
+    "acento": "naranja",
+    "puntos": [
+     "Miles de servidores sin descanso",
+     "Todo ese calor hay que sacarlo",
+     "La IA exige más potencia"
+    ]
+   }
+  },
+  {
+   "texto": "En dos mil veinticuatro, los centros de datos consumieron en torno a uno y medio de cada cien de la electricidad mundial.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "1,5 de cada 100",
+    "texto": "es la parte de la electricidad mundial que usaron los centros de datos en 2024",
+    "pie": "Agencia Internacional de la Energía"
+   }
+  },
+  {
+   "texto": "Para reducirlo, se mejora la refrigeración, se usan energías renovables y se reutiliza el calor.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Cómo lo reducen",
+    "titulo": "Más eficiencia",
+    "acento": "azul",
+    "puntos": [
+     "Refrigeración más eficiente",
+     "Energías renovables",
+     "Reutilizar el calor"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🏭",
+ "puntos": [
+  "Miles de servidores sin descanso generan mucho calor.",
+  "En 2024 usaron en torno al 1,5 por ciento de la electricidad mundial.",
+  "Se busca más eficiencia y energías renovables."
+ ],
+ "etiquetas": [
+  "#centrosdedatos",
+  "#ia",
+  "#energia"
+ ],
+ "fuentes": [
+  "Agencia Internacional de la Energía: energía e inteligencia artificial",
+  "Wikipedia: Centro de procesamiento de datos"
+ ]
+}

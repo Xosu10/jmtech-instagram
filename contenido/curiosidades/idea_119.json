@@ -1,0 +1,54 @@
+{
+ "id": "idea_119",
+ "idea": 119,
+ "titulo": "¿Por qué los productos gaming suelen tener tantas luces RGB?",
+ "titulo_pantalla": "¿Por qué tanta luz RGB?",
+ "escenas": [
+  {
+   "texto": "¿Por qué los productos gaming tienen tantas luces RGB?",
+   "imagen": "rgb_luces_aislado_01.png",
+   "provisional": "pc_premium_rgb_negro_ambiente_01.png"
+  },
+  {
+   "texto": "Se ven bien y destacan, son baratas de añadir y permiten personalizar tu equipo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué hay tanta luz",
+    "titulo": "Estética y marketing",
+    "acento": "azul",
+    "puntos": [
+     "Se ve bien y destaca",
+     "Es barato de añadir",
+     "Permite personalizar el equipo"
+    ]
+   }
+  },
+  {
+   "texto": "Pero no mejoran el rendimiento: las luces solo adornan.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Las luces RGB dan más rendimiento",
+    "realidad": "No hacen nada por el rendimiento: solo adornan."
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🌈",
+ "puntos": [
+  "Las luces se ven bien y son baratas de añadir.",
+  "Permiten personalizar el equipo.",
+  "No mejoran el rendimiento."
+ ],
+ "etiquetas": [
+  "#rgb",
+  "#gaming",
+  "#pcgamer"
+ ],
+ "fuentes": [
+  "Wikipedia: Modelo de color RGB",
+  "Wikipedia: Modding de computadoras"
+ ]
+}

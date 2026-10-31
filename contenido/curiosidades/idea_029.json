@@ -1,0 +1,65 @@
+{
+ "id": "idea_029",
+ "idea": 29,
+ "titulo": "¿Por qué tu Wi-Fi va lento en el ordenador, pero bien en el móvil?",
+ "titulo_pantalla": "¿Por qué el wifi va lento en el PC?",
+ "escenas": [
+  {
+   "texto": "¿Por qué tu wifi va lento en el ordenador pero bien en el móvil?",
+   "imagen": "router_wifi_aislado_01.png",
+   "provisional": "empresa_soporte_remoto_aislado_01.png"
+  },
+  {
+   "texto": "Porque el móvil y el PC usan adaptadores distintos: el del PC puede ser más antiguo o estar mal configurado.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Si el móvil va bien, el PC también debería ir bien",
+    "realidad": "Usan adaptadores distintos: el del PC puede ser más antiguo o estar mal configurado."
+   }
+  },
+  {
+   "texto": "Las causas habituales son un adaptador antiguo, controladores sin actualizar y una antena mal colocada.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas habituales",
+    "titulo": "Casi siempre es esto",
+    "acento": "naranja",
+    "puntos": [
+     "Adaptador wifi antiguo",
+     "Controladores sin actualizar",
+     "Antena mal colocada o tapada"
+    ]
+   }
+  },
+  {
+   "texto": "Prueba a acercarte o usar la banda de cinco gigahercios, actualiza el controlador y, si puedes, conecta por cable.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Acércate o usa la banda de 5 GHz",
+     "Actualiza el controlador del adaptador",
+     "Prueba con cable"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📡",
+ "puntos": [
+  "El PC y el móvil usan adaptadores distintos.",
+  "Suele ser un adaptador antiguo o un controlador sin actualizar.",
+  "Prueba la banda de 5 GHz o el cable."
+ ],
+ "etiquetas": [
+  "#wifi",
+  "#internet",
+  "#averias"
+ ],
+ "fuentes": [
+  "Wikipedia: Wi-Fi",
+  "Microsoft: solucionar problemas de conexión wifi"
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "id": "idea_020",
+ "idea": 20,
+ "titulo": "¿Cuántos años puede durar un ordenador bien cuidado?",
+ "titulo_pantalla": "¿Cuánto dura un PC bien cuidado?",
+ "escenas": [
+  {
+   "texto": "¿Cuántos años puede durar un ordenador bien cuidado?",
+   "imagen": "pc_longevidad_aislado_01.png",
+   "provisional": "pc_limpieza_aislado_01.png"
+  },
+  {
+   "texto": "Un PC suele durar entre cinco y ocho años antes de quedarse corto. Con cuidado, puede durar más.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "5 a 8 años",
+    "texto": "es lo que suele durar un PC antes de quedarse corto",
+    "pie": "Orientativo; con buen cuidado, más"
+   }
+  },
+  {
+   "texto": "Lo que más lo alarga es limpiarlo con regularidad, tener una buena fuente y refrigeración, y actualizar el SSD y la RAM.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué lo alarga",
+    "titulo": "Cuidar y actualizar",
+    "acento": "azul",
+    "puntos": [
+     "Limpieza regular",
+     "Buena fuente y refrigeración",
+     "Actualizar SSD y RAM"
+    ]
+   }
+  },
+  {
+   "texto": "Y un PC no se rompe a los cinco años: se queda corto para lo nuevo. Con mejoras, puede seguir mucho más.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Un PC se rompe a los cinco años",
+    "realidad": "No se rompe: se queda corto para lo nuevo. Con cuidado y mejoras, puede seguir mucho más."
+   }
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📆",
+ "puntos": [
+  "Un PC suele durar entre 5 y 8 años.",
+  "Limpieza, buena fuente y refrigeración lo alargan.",
+  "Con mejoras puede seguir mucho más."
+ ],
+ "etiquetas": [
+  "#pc",
+  "#mantenimiento",
+  "#consejos"
+ ],
+ "fuentes": [
+  "Corsair: cuánto dura un PC",
+  "Wikipedia: Obsolescencia"
+ ]
+}

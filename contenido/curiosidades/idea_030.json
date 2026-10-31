@@ -1,0 +1,70 @@
+{
+ "id": "idea_030",
+ "idea": 30,
+ "titulo": "¿Se puede recuperar la información de un disco duro estropeado?",
+ "titulo_pantalla": "¿Se pueden recuperar los datos de un disco?",
+ "escenas": [
+  {
+   "texto": "¿Se puede recuperar la información de un disco duro estropeado?",
+   "imagen": "hdd_abierto_aislado_01.png"
+  },
+  {
+   "texto": "Depende del fallo. Si es lógico, como archivos borrados o un formateo, suele poder recuperarse. Si es físico, hace falta un laboratorio.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Fallo lógico",
+     "titulo": "Suele tener arreglo",
+     "puntos": [
+      "Archivos borrados o formateo",
+      "Se recupera con programas",
+      "Cuanto antes, mejor"
+     ]
+    },
+    "der": {
+     "cabecera": "Fallo físico",
+     "titulo": "Más complicado",
+     "puntos": [
+      "Clics, ruidos o no lo detecta",
+      "Hace falta un laboratorio",
+      "Cuanto menos lo uses, mejor"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "Si falla tu disco: deja de usarlo ya, no lo abras ni lo golpees y pide ayuda profesional.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Si falla tu disco",
+    "titulo": "Qué hacer",
+    "acento": "azul",
+    "puntos": [
+     "Deja de usarlo ya",
+     "No lo abras ni lo golpees",
+     "Pide ayuda profesional"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "💽",
+ "puntos": [
+  "Si el fallo es lógico, suele poder recuperarse.",
+  "Si es físico, hace falta un laboratorio.",
+  "Deja de usarlo y pide ayuda profesional."
+ ],
+ "etiquetas": [
+  "#recuperaciondatos",
+  "#discoduro",
+  "#datos"
+ ],
+ "fuentes": [
+  "Wikipedia: Recuperación de datos",
+  "Wikipedia: Unidad de disco duro"
+ ]
+}

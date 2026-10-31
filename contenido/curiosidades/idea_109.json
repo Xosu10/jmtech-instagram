@@ -1,0 +1,71 @@
+{
+ "id": "idea_109",
+ "idea": 109,
+ "titulo": "¿Por qué antes era tan habitual jugar a pantalla dividida y ahora mucho menos?",
+ "titulo_pantalla": "¿Qué fue de la pantalla dividida?",
+ "escenas": [
+  {
+   "texto": "¿Por qué antes era tan habitual jugar a pantalla dividida y ahora mucho menos?",
+   "imagen": "pantalla_dividida_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "El juego en línea lo sustituyó, dibujar cuatro vistas pide mucha potencia, y los gráficos actuales son mucho más exigentes.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué desapareció",
+    "titulo": "Tres razones",
+    "acento": "naranja",
+    "puntos": [
+     "El juego online lo sustituyó",
+     "Dibujar cuatro vistas pide potencia",
+     "Los gráficos actuales exigen más"
+    ]
+   }
+  },
+  {
+   "texto": "Un jugador es una vista; cuatro jugadores son cuatro vistas, y el trabajo se multiplica.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Un jugador: una vista",
+     "Cuatro jugadores: cuatro vistas",
+     "El trabajo se multiplica"
+    ]
+   }
+  },
+  {
+   "texto": "Pero no ha muerto: sigue en juegos de coches y de fiesta, y muchos jugadores lo echan de menos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Pero sigue vivo",
+    "titulo": "El modo sofá",
+    "acento": "azul",
+    "puntos": [
+     "Sigue en juegos de coches y fiesta",
+     "Hay modos de sofá independientes",
+     "Muchos lo echan de menos"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "👥",
+ "puntos": [
+  "El juego en línea lo sustituyó.",
+  "Dibujar cuatro vistas pide mucha potencia.",
+  "Aún sobrevive en juegos de coches y de fiesta."
+ ],
+ "etiquetas": [
+  "#pantalladividida",
+  "#retrogaming",
+  "#nostalgia"
+ ],
+ "fuentes": [
+  "Wikipedia: Pantalla dividida (videojuegos)",
+  "Wikipedia: Multijugador local"
+ ]
+}

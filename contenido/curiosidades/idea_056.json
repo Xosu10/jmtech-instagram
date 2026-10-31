@@ -1,0 +1,71 @@
+{
+ "id": "idea_056",
+ "idea": 56,
+ "titulo": "¿Por qué los ordenadores tienen una pila en la placa base?",
+ "titulo_pantalla": "¿Por qué hay una pila en la placa?",
+ "escenas": [
+  {
+   "texto": "¿Por qué los ordenadores tienen una pila en la placa base?",
+   "imagen": "pila_placa_base_aislado_01.png",
+   "provisional": "placa_base_aislado_01.png"
+  },
+  {
+   "texto": "Guarda la hora y los ajustes de la BIOS, funciona aunque desenchufes el PC, y se gasta con los años.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Guarda la hora y los ajustes de la BIOS",
+     "Funciona aunque desenchufes el PC",
+     "Se gasta con los años"
+    ]
+   }
+  },
+  {
+   "texto": "Si se agota, la fecha y la hora se reinician, pierdes los ajustes de la BIOS o aparecen errores al arrancar.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Señales de que se gasta",
+    "titulo": "Pila agotada",
+    "acento": "naranja",
+    "puntos": [
+     "La fecha y la hora se reinician",
+     "Pierdes los ajustes de la BIOS",
+     "Errores al arrancar"
+    ]
+   }
+  },
+  {
+   "texto": "La buena noticia: es una pila de botón y se cambia en un minuto, con el PC apagado y desenchufado.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Buena noticia",
+    "titulo": "Se cambia fácil",
+    "acento": "azul",
+    "puntos": [
+     "Es una pila de botón",
+     "Se cambia en un minuto",
+     "Con el PC apagado y desenchufado"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🔋",
+ "puntos": [
+  "La pila guarda la hora y los ajustes de la BIOS.",
+  "Si se agota, se pierden la fecha y los ajustes.",
+  "Se cambia en un minuto."
+ ],
+ "etiquetas": [
+  "#placabase",
+  "#bios",
+  "#mantenimiento"
+ ],
+ "fuentes": [
+  "Wikipedia: CMOS y pila de la placa base",
+  "Corsair: cambiar la pila CMOS"
+ ]
+}

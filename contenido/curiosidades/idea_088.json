@@ -1,0 +1,71 @@
+{
+ "id": "idea_088",
+ "idea": 88,
+ "titulo": "¿Los mandos inalámbricos tienen más retraso que los de cable?",
+ "titulo_pantalla": "¿Mando con cable o inalámbrico?",
+ "escenas": [
+  {
+   "texto": "¿Los mandos inalámbricos tienen más retraso que los de cable?",
+   "imagen": "mando_inalambrico_aislado_01.png",
+   "provisional": "perifericos_setup_aislado_01.png"
+  },
+  {
+   "texto": "Un poco, pero muy poco. El cable tiene el retraso mínimo, y el inalámbrico suma unos milisegundos a cambio de libertad.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Con cable",
+     "titulo": "Retraso mínimo",
+     "puntos": [
+      "La respuesta más rápida",
+      "No necesita pilas",
+      "Menos libertad"
+     ]
+    },
+    "der": {
+     "cabecera": "Inalámbrico",
+     "titulo": "Libertad",
+     "puntos": [
+      "Unos milisegundos más",
+      "Sin cables por medio",
+      "Pilas o batería"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "En la práctica, para jugar normal no se nota. En competitivo, mejor cable o receptor propio, que suele ir mejor que el Bluetooth.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En la práctica",
+    "titulo": "Casi no se nota",
+    "acento": "azul",
+    "puntos": [
+     "Jugando normal, no se nota",
+     "En competitivo, mejor cable",
+     "El receptor propio suele ir mejor que Bluetooth"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "El mando con cable tiene el retraso mínimo.",
+  "El inalámbrico suma unos milisegundos.",
+  "En competitivo, mejor cable o receptor propio."
+ ],
+ "etiquetas": [
+  "#mando",
+  "#gaming",
+  "#inputlag"
+ ],
+ "fuentes": [
+  "Wikipedia: Mando de videojuegos",
+  "RTINGS: latencia de mandos con cable e inalámbricos"
+ ]
+}

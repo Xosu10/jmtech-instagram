@@ -1,0 +1,65 @@
+{
+ "id": "idea_018",
+ "idea": 18,
+ "titulo": "¿Por qué tu ordenador hace cada vez más ruido?",
+ "titulo_pantalla": "¿Por qué hace más ruido tu PC?",
+ "escenas": [
+  {
+   "texto": "¿Por qué tu ordenador hace cada vez más ruido?",
+   "imagen": "ventilador_ruido_aislado_01.png",
+   "provisional": "ventilador_cambio_aislado_01.png"
+  },
+  {
+   "texto": "Casi siempre es polvo, que obliga a los ventiladores a trabajar más, ventiladores desgastados, o vibraciones y cables que rozan las aspas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas habituales",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Polvo: los ventiladores trabajan más",
+     "Ventiladores desgastados",
+     "Vibraciones o cables rozando aspas"
+    ]
+   }
+  },
+  {
+   "texto": "Limpia el polvo, revisa que ningún cable roce y cambia el ventilador que suene mal.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Limpia el polvo",
+     "Revisa que ningún cable roce",
+     "Cambia el ventilador que suene mal"
+    ]
+   }
+  },
+  {
+   "texto": "Un PC más ruidoso no está a punto de romperse, pero es una señal que conviene no ignorar.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Un PC que suena más está a punto de romperse",
+    "realidad": "Suele ser polvo o un ventilador cansado, pero es una señal: no la ignores."
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📢",
+ "puntos": [
+  "El ruido suele ser polvo o ventiladores desgastados.",
+  "Limpia, revisa cables y cambia el ventilador que suene mal.",
+  "Es una señal que no hay que ignorar."
+ ],
+ "etiquetas": [
+  "#ruido",
+  "#ventiladores",
+  "#mantenimiento"
+ ],
+ "fuentes": [
+  "Corsair: por qué hace ruido tu PC",
+  "Wikipedia: Ventilador de computadora"
+ ]
+}

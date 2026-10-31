@@ -1,0 +1,71 @@
+{
+ "id": "idea_086",
+ "idea": 86,
+ "titulo": "¿Es mejor jugar en un monitor gaming o en una televisión?",
+ "titulo_pantalla": "¿Monitor gaming o televisión?",
+ "escenas": [
+  {
+   "texto": "¿Es mejor jugar en un monitor gaming o en una televisión?",
+   "imagen": "monitor_vs_tv_aislado_01.png",
+   "provisional": "perifericos_setup_aislado_01.png"
+  },
+  {
+   "texto": "El monitor responde más rápido y suele refrescar más. La tele es mucho más grande y cómoda desde el sofá, pero puede tener más retraso.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Monitor gaming",
+     "titulo": "Rapidez",
+     "puntos": [
+      "Respuesta rápida",
+      "Mejor frecuencia de refresco",
+      "Ideal a poca distancia"
+     ]
+    },
+    "der": {
+     "cabecera": "Televisión",
+     "titulo": "Tamaño",
+     "puntos": [
+      "Pantalla mucho más grande",
+      "Cómoda desde el sofá",
+      "Puede tener más retraso"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "Elige según dónde juegas: escritorio y competitivo, monitor; sofá y consola, televisión con modo juego y ciento veinte hercios.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Elige según",
+    "titulo": "Dónde juegas",
+    "acento": "azul",
+    "puntos": [
+     "Escritorio y competitivo: monitor",
+     "Sofá y consola: televisión",
+     "En la tele, busca modo juego y 120 Hz"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🖥️",
+ "puntos": [
+  "El monitor responde más rápido; la tele es más grande.",
+  "Escritorio: monitor. Sofá: televisión.",
+  "En la tele, busca modo juego y 120 Hz."
+ ],
+ "etiquetas": [
+  "#monitor",
+  "#gaming",
+  "#television"
+ ],
+ "fuentes": [
+  "Wikipedia: Monitor de computadora",
+  "NVIDIA: guía de monitores para juegos"
+ ]
+}

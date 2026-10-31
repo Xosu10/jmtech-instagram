@@ -1,0 +1,68 @@
+{
+ "id": "idea_028",
+ "idea": 28,
+ "titulo": "¿Qué significan los pitidos de tu ordenador al encenderlo?",
+ "titulo_pantalla": "¿Qué significan los pitidos del PC?",
+ "escenas": [
+  {
+   "texto": "¿Qué significan los pitidos de tu ordenador al encenderlo?",
+   "imagen": "altavoz_pitidos_aislado_01.png",
+   "provisional": "placa_base_aislado_01.png"
+  },
+  {
+   "texto": "Al arrancar, la placa se prueba a sí misma. Un pitido corto suele significar que todo va bien, y otros patrones indican un fallo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué son",
+    "titulo": "El autodiagnóstico",
+    "acento": "azul",
+    "puntos": [
+     "La placa se prueba a sí misma",
+     "Un pitido corto suele ser bueno",
+     "Otros patrones indican un fallo"
+    ]
+   }
+  },
+  {
+   "texto": "Y no todos los pitidos significan lo mismo: cada fabricante usa sus códigos, así que mira el manual de tu placa.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Todos los pitidos significan lo mismo",
+    "realidad": "Cada fabricante de BIOS usa sus códigos: mira el manual de tu placa."
+   }
+  },
+  {
+   "texto": "Los fallos más habituales suelen ser la RAM o la gráfica, y las placas modernas usan además luces de diagnóstico.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo más habitual",
+    "titulo": "Suelen ser estos",
+    "acento": "naranja",
+    "puntos": [
+     "Pitidos repetidos: suele ser la RAM",
+     "Pitidos largos: suele ser la gráfica",
+     "Las placas nuevas usan luces"
+    ]
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🔊",
+ "puntos": [
+  "Al arrancar, la placa se prueba a sí misma.",
+  "Cada fabricante usa sus códigos: mira el manual.",
+  "Suele ser la RAM o la gráfica."
+ ],
+ "etiquetas": [
+  "#averias",
+  "#placabase",
+  "#soportetecnico"
+ ],
+ "fuentes": [
+  "Wikipedia: Código de pitidos de la BIOS",
+  "Wikipedia: Autodiagnóstico al encender (POST)"
+ ]
+}

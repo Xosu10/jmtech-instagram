@@ -1,0 +1,66 @@
+{
+ "id": "idea_067",
+ "idea": 67,
+ "titulo": "¿Cuál fue el primer easter egg de los videojuegos?",
+ "titulo_pantalla": "El primer easter egg de los videojuegos",
+ "escenas": [
+  {
+   "texto": "¿Cuál fue el primer easter egg de los videojuegos?",
+   "imagen": "huevo_pascua_pixel_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "Fue en Adventure, para Atari, en mil novecientos setenta y nueve. Su programador, Warren Robinett, escondió una sala secreta con su nombre.",
+   "grafico": "linea",
+   "params": {
+    "hitos": [
+     {
+      "cuando": "1979",
+      "texto": "Warren Robinett esconde su firma en Adventure"
+     },
+     {
+      "cuando": "1980",
+      "texto": "Un chico de doce años descubre la sala secreta"
+     },
+     {
+      "cuando": "Después",
+      "texto": "Atari decide mantenerla y la llaman «easter egg»"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Lo hizo porque Atari no daba créditos a sus programadores. Los jefes decidieron mantenerla.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué la escondió",
+    "titulo": "Una firma secreta",
+    "acento": "azul",
+    "puntos": [
+     "Atari no daba créditos",
+     "Quería dejar su firma",
+     "Los jefes la mantuvieron"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🥚",
+ "puntos": [
+  "Fue en Adventure, para Atari, en 1979.",
+  "Warren Robinett escondió una sala con su nombre.",
+  "Atari decidió mantenerla."
+ ],
+ "etiquetas": [
+  "#easteregg",
+  "#retrogaming",
+  "#atari"
+ ],
+ "fuentes": [
+  "Wikipedia: Adventure (videojuego de 1980)",
+  "Wikipedia: Huevo de Pascua (medios)"
+ ]
+}

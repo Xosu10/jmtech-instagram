@@ -1,0 +1,73 @@
+{
+ "id": "idea_002",
+ "idea": 2,
+ "titulo": "¿Necesitas 16, 32 o 64 GB de RAM?",
+ "titulo_pantalla": "¿Cuánta RAM necesitas de verdad?",
+ "escenas": [
+  {
+   "texto": "¿Necesitas dieciséis, treinta y dos o sesenta y cuatro gigas de RAM?",
+   "imagen": "ram_ddr5_unico_aislado_01.png"
+  },
+  {
+   "texto": "Dieciséis para ofimática y juegos, treinta y dos para streaming, edición y mucha multitarea, y sesenta y cuatro o más para vídeo pesado, máquinas virtuales o IA.",
+   "grafico": "resumen",
+   "params": {
+    "filas": [
+     {
+      "cabecera": "Ofimática y juegos",
+      "titulo": "16 GB",
+      "acento": "azul"
+     },
+     {
+      "cabecera": "Streaming, edición, multitarea",
+      "titulo": "32 GB",
+      "acento": "azul"
+     },
+     {
+      "cabecera": "Vídeo pesado, máquinas virtuales, IA",
+      "titulo": "64 GB o más",
+      "acento": "naranja"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Y tener más RAM no hace el PC más rápido por sí sola: solo ayuda si la estás llenando.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Cuanta más RAM, más rápido va el PC",
+    "realidad": "Más RAM solo ayuda si la estás llenando; si no, no notarás nada."
+   }
+  },
+  {
+   "texto": "Para saberlo, abre el Administrador de tareas con tus programas abiertos y mira cuánta memoria usas.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Abre el Administrador de tareas",
+     "Trabaja como siempre",
+     "Mira cuánta memoria usas"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧠",
+ "puntos": [
+  "16 GB para ofimática y juegos; 32 GB para edición y multitarea.",
+  "64 GB o más para vídeo pesado, máquinas virtuales o IA.",
+  "Más RAM solo ayuda si la llenas."
+ ],
+ "etiquetas": [
+  "#ram",
+  "#pcgamer",
+  "#hardware"
+ ],
+ "fuentes": [
+  "Corsair: cuánta RAM necesitas",
+  "Wikipedia: Memoria de acceso aleatorio"
+ ]
+}

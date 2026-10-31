@@ -1,0 +1,64 @@
+{
+ "id": "idea_040",
+ "idea": 40,
+ "titulo": "¿Cuándo merece la pena reparar un ordenador y cuándo comprar otro?",
+ "titulo_pantalla": "¿Reparar o comprar otro?",
+ "escenas": [
+  {
+   "texto": "¿Cuándo merece la pena reparar un ordenador y cuándo comprar otro?",
+   "imagen": "reparar_o_comprar_aislado_01.png",
+   "provisional": "empresa_asesoramiento_comparativa_aislado_01.png"
+  },
+  {
+   "texto": "Merece la pena reparar si cuesta mucho menos que uno nuevo, el equipo es relativamente reciente y solo falla una pieza.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Merece la pena reparar si",
+    "titulo": "Reparar",
+    "acento": "azul",
+    "puntos": [
+     "Cuesta mucho menos que uno nuevo",
+     "El equipo es relativamente reciente",
+     "Falla una sola pieza"
+    ]
+   }
+  },
+  {
+   "texto": "Mejor comprar si la reparación cuesta la mitad o más que uno nuevo, el equipo tiene muchos años o fallan varias cosas a la vez.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Mejor comprar si",
+    "titulo": "Comprar",
+    "acento": "naranja",
+    "puntos": [
+     "Reparar cuesta la mitad o más",
+     "Tiene muchos años y va justo",
+     "Fallan varias cosas a la vez"
+    ]
+   }
+  },
+  {
+   "texto": "Y si dudas, te ayudamos a decidir.",
+   "imagen": "empresa_asesoramiento_comparativa_aislado_01.png"
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🛠️",
+ "puntos": [
+  "Repara si es barato, reciente y falla una sola pieza.",
+  "Compra si reparar cuesta la mitad o más.",
+  "Si dudas, te ayudamos a decidir."
+ ],
+ "etiquetas": [
+  "#reparacion",
+  "#comprarpc",
+  "#consejos"
+ ],
+ "fuentes": [
+  "Wikipedia: Obsolescencia",
+  "Wikipedia: Reparación de ordenadores"
+ ]
+}

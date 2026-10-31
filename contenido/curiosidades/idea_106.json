@@ -1,0 +1,60 @@
+{
+ "id": "idea_106",
+ "idea": 106,
+ "titulo": "¿Qué tenía de especial la Dreamcast y por qué fracasó?",
+ "titulo_pantalla": "La Dreamcast: ¿por qué fracasó?",
+ "escenas": [
+  {
+   "texto": "¿Qué tenía de especial la Dreamcast y por qué fracasó?",
+   "imagen": "consola_blanca_espiral_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "Traía módem para jugar en línea, una tarjeta de memoria con pantalla propia y unos gráficos muy avanzados para su época.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué tenía de especial",
+    "titulo": "Adelantada a su tiempo",
+    "acento": "azul",
+    "puntos": [
+     "Módem para jugar en línea",
+     "Tarjeta de memoria con pantalla",
+     "Gráficos muy avanzados"
+    ]
+   }
+  },
+  {
+   "texto": "Pero salió tras una consola que había decepcionado, PlayStation 2 llegó con muchísimo tirón y SEGA perdía dinero.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué fracasó",
+    "titulo": "Mal momento",
+    "acento": "naranja",
+    "puntos": [
+     "Llegó tras una consola decepcionante",
+     "PlayStation 2 tuvo muchísimo tirón",
+     "SEGA perdía dinero"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🌀",
+ "puntos": [
+  "Tenía módem integrado, tarjeta de memoria con pantalla y buenos gráficos.",
+  "Llegó en mal momento y PlayStation 2 tuvo mucho tirón.",
+  "SEGA dejó de fabricar consolas en 2001."
+ ],
+ "etiquetas": [
+  "#dreamcast",
+  "#sega",
+  "#retrogaming"
+ ],
+ "fuentes": [
+  "Wikipedia: Dreamcast",
+  "Wikipedia: Sega"
+ ]
+}

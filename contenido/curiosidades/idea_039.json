@@ -1,0 +1,71 @@
+{
+ "id": "idea_039",
+ "idea": 39,
+ "titulo": "¿Qué es más importante para jugar, el procesador o la gráfica?",
+ "titulo_pantalla": "¿Procesador o gráfica para jugar?",
+ "escenas": [
+  {
+   "texto": "¿Qué es más importante para jugar, el procesador o la gráfica?",
+   "imagen": "cpu_vs_gpu_aislado_01.png",
+   "provisional": "empresa_asesoramiento_comparativa_aislado_01.png"
+  },
+  {
+   "texto": "La gráfica dibuja la imagen y manda en resoluciones altas. El procesador calcula la lógica del juego y manda cuando buscas muchos FPS.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Gráfica",
+     "titulo": "Dibuja la imagen",
+     "puntos": [
+      "Manda en resoluciones altas",
+      "La que más pesa en la mayoría",
+      "Calidad visual"
+     ]
+    },
+    "der": {
+     "cabecera": "Procesador",
+     "titulo": "Calcula el juego",
+     "puntos": [
+      "Manda con FPS muy altos",
+      "Importa en estrategia y simulación",
+      "Lógica y física"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "Como regla práctica: en la mayoría de juegos, prioriza la gráfica; pero equilibra y no descuides el procesador.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Regla práctica",
+    "titulo": "Prioriza, pero equilibra",
+    "acento": "azul",
+    "puntos": [
+     "Mayoría de juegos: la gráfica",
+     "Competitivo con muchos FPS: el procesador",
+     "Siempre, equilibra las piezas"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚖️",
+ "puntos": [
+  "La gráfica manda en resoluciones altas.",
+  "El procesador manda con muchos FPS.",
+  "Prioriza la gráfica, pero equilibra."
+ ],
+ "etiquetas": [
+  "#pcgamer",
+  "#tarjetagrafica",
+  "#procesador"
+ ],
+ "fuentes": [
+  "Wikipedia: Unidad central de procesamiento",
+  "NVIDIA: guía de componentes para juegos"
+ ]
+}

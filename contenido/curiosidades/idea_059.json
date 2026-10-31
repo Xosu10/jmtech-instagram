@@ -1,0 +1,65 @@
+{
+ "id": "idea_059",
+ "idea": 59,
+ "titulo": "¿Qué pasa si conectas una memoria USB infectada a tu ordenador?",
+ "titulo_pantalla": "¿Qué pasa con un USB infectado?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si conectas una memoria USB infectada a tu ordenador?",
+   "imagen": "usb_infectada_aislado_01.png",
+   "provisional": "datos_copia_seguridad_aislado_01.png"
+  },
+  {
+   "texto": "Conectas el USB, abres un archivo o el USB se hace pasar por un teclado, y el virus se instala y se propaga.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Conectas el USB",
+     "Abres un archivo, o se hace pasar por un teclado",
+     "El virus se instala y se propaga"
+    ]
+   }
+  },
+  {
+   "texto": "No hace falta ni abrir un archivo: algunos USB maliciosos escriben órdenes ellos solos como si fueran un teclado.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Solo me infecto si abro un archivo",
+    "realidad": "Algunos USB maliciosos se hacen pasar por un teclado y escriben órdenes ellos solos."
+   }
+  },
+  {
+   "texto": "Para protegerte, no conectes USB de origen desconocido, mantén Windows y el antivirus al día y desactiva la ejecución automática.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Cómo protegerte",
+    "titulo": "Tres reglas",
+    "acento": "azul",
+    "puntos": [
+     "No uses USB de origen desconocido",
+     "Mantén Windows y antivirus al día",
+     "Desactiva la ejecución automática"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🔌",
+ "puntos": [
+  "Un USB malicioso puede infectar tu equipo.",
+  "Algunos se hacen pasar por un teclado.",
+  "No conectes USB de origen desconocido."
+ ],
+ "etiquetas": [
+  "#seguridad",
+  "#usb",
+  "#virus"
+ ],
+ "fuentes": [
+  "Wikipedia: Ataque BadUSB",
+  "Microsoft: seguridad de Windows y dispositivos USB"
+ ]
+}

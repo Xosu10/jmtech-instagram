@@ -1,0 +1,63 @@
+{
+ "id": "idea_038",
+ "idea": 38,
+ "titulo": "¿Es mejor un monitor de 144 Hz que uno de 60 Hz?",
+ "titulo_pantalla": "¿144 Hz o 60 Hz?",
+ "escenas": [
+  {
+   "texto": "¿Es mejor un monitor de ciento cuarenta y cuatro hercios que uno de sesenta?",
+   "imagen": "monitor_144hz_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Que la pantalla se actualice ciento cuarenta y cuatro veces por segundo, en lugar de sesenta, da más fluidez.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "144 Hz",
+    "texto": "la pantalla se actualiza 144 veces por segundo, frente a 60 de un monitor normal",
+    "pie": "Hercios = veces por segundo"
+   }
+  },
+  {
+   "texto": "Para aprovecharlo necesitas una gráfica que dé más de sesenta FPS, un cable compatible y activarlo en Windows.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Para aprovecharlo",
+    "titulo": "Tres cosas",
+    "acento": "azul",
+    "puntos": [
+     "Una gráfica que dé más de 60 FPS",
+     "Un cable DisplayPort o HDMI reciente",
+     "Activarlo en Windows"
+    ]
+   }
+  },
+  {
+   "texto": "Si no, seguirás viendo sesenta aunque el monitor sea de ciento cuarenta y cuatro.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Con un monitor de 144 Hz todo es más fluido sin hacer nada",
+    "realidad": "Si no lo activas o tu PC no da esos FPS, seguirás viendo 60."
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🖥️",
+ "puntos": [
+  "144 Hz significa 144 actualizaciones por segundo.",
+  "Necesitas gráfica, cable y activarlo en Windows.",
+  "Si no, seguirás viendo 60."
+ ],
+ "etiquetas": [
+  "#monitor",
+  "#144hz",
+  "#gaming"
+ ],
+ "fuentes": [
+  "Wikipedia: Frecuencia de actualización",
+  "NVIDIA: guía de frecuencia de actualización"
+ ]
+}

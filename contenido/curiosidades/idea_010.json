@@ -1,0 +1,68 @@
+{
+ "id": "idea_010",
+ "idea": 10,
+ "titulo": "¿Por qué dos tarjetas gráficas con la misma VRAM rinden diferente?",
+ "titulo_pantalla": "Misma VRAM, distinto rendimiento",
+ "escenas": [
+  {
+   "texto": "¿Por qué dos tarjetas gráficas con la misma VRAM rinden diferente?",
+   "imagen": "gpu_memoria_aislado_01.png",
+   "provisional": "gpu_triple_ventilador_aislado_01.png"
+  },
+  {
+   "texto": "Porque la VRAM solo es la cantidad de memoria. El rendimiento depende sobre todo del chip gráfico.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Misma VRAM, mismo rendimiento",
+    "realidad": "La VRAM es solo la cantidad de memoria: el rendimiento depende sobre todo del chip."
+   }
+  },
+  {
+   "texto": "Lo que cuenta es el chip, con sus núcleos y su arquitectura, la velocidad y el ancho del bus de memoria, y la refrigeración.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que de verdad cuenta",
+    "titulo": "El chip gráfico",
+    "acento": "azul",
+    "puntos": [
+     "Núcleos y arquitectura del chip",
+     "Velocidad y ancho del bus de memoria",
+     "Refrigeración y controladores"
+    ]
+   }
+  },
+  {
+   "texto": "Piensa en la VRAM como el tamaño de la mesa: una mesa grande no hace más rápido a quien trabaja en ella.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Una analogía",
+    "titulo": "La mesa y el trabajador",
+    "acento": "naranja",
+    "puntos": [
+     "VRAM: el tamaño de la mesa",
+     "El chip: quien trabaja",
+     "Mesa grande, mismo ritmo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎞️",
+ "puntos": [
+  "La VRAM es solo la cantidad de memoria.",
+  "El rendimiento depende sobre todo del chip gráfico.",
+  "Importan el bus de memoria y la refrigeración."
+ ],
+ "etiquetas": [
+  "#tarjetagrafica",
+  "#vram",
+  "#pcgamer"
+ ],
+ "fuentes": [
+  "Wikipedia: Unidad de procesamiento gráfico",
+  "NVIDIA: qué es la VRAM"
+ ]
+}

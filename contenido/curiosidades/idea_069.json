@@ -1,0 +1,57 @@
+{
+ "id": "idea_069",
+ "idea": 69,
+ "titulo": "¿Por qué Pokémon se vende en dos versiones diferentes?",
+ "titulo_pantalla": "¿Por qué Pokémon tiene dos versiones?",
+ "escenas": [
+  {
+   "texto": "¿Por qué Pokémon se vende en dos versiones diferentes?",
+   "imagen": "cartucho_generico_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "Cada versión tiene criaturas exclusivas, así que para completar la colección tienes que intercambiar con otros jugadores.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Cada versión tiene criaturas exclusivas",
+     "Para completar la colección hay que intercambiar",
+     "Así los jugadores se juntan y hablan"
+    ]
+   }
+  },
+  {
+   "texto": "La idea nació de coleccionar e intercambiar, y el cable de la Game Boy lo hizo posible: el juego se pensó para compartirse.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Detrás de la idea",
+    "titulo": "Jugar es compartir",
+    "acento": "azul",
+    "puntos": [
+     "Nació de coleccionar e intercambiar",
+     "El cable de la Game Boy lo hizo posible",
+     "Pensado para jugar juntos"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🔄",
+ "puntos": [
+  "Cada versión tiene criaturas exclusivas.",
+  "Para completar la colección hay que intercambiar.",
+  "El juego se pensó para compartirse."
+ ],
+ "etiquetas": [
+  "#pokemon",
+  "#videojuegos",
+  "#curiosidadesgamer"
+ ],
+ "fuentes": [
+  "Wikipedia: Pokémon Rojo y Azul",
+  "Wikipedia: Satoshi Tajiri"
+ ]
+}

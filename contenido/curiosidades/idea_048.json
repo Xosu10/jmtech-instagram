@@ -1,0 +1,69 @@
+{
+ "id": "idea_048",
+ "idea": 48,
+ "titulo": "¿Por qué las grandes empresas están invirtiendo tanto dinero en chips para IA?",
+ "titulo_pantalla": "¿Por qué tanta inversión en chips de IA?",
+ "escenas": [
+  {
+   "texto": "¿Por qué las grandes empresas invierten tanto dinero en chips para IA?",
+   "imagen": "chip_ia_npu_aislado_01.png",
+   "provisional": "pc_optimizacion_cpu_ram_aislado_01.png"
+  },
+  {
+   "texto": "Entrenar y usar IA exige chips muy potentes, quien los tiene gana ventaja, y hay pocos fabricantes.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué invierten tanto",
+    "titulo": "Quien tiene chips, manda",
+    "acento": "azul",
+    "puntos": [
+     "La IA exige chips muy potentes",
+     "Quien los tiene, gana ventaja",
+     "Hay pocos fabricantes"
+    ]
+   }
+  },
+  {
+   "texto": "Las grandes tecnológicas invierten cientos de miles de millones de dólares al año en centros de datos y chips.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "Cientos de miles de millones",
+    "texto": "de dólares al año invierten las grandes tecnológicas en centros de datos e IA",
+    "pie": "Orden de magnitud; las cifras cambian"
+   }
+  },
+  {
+   "texto": "Y eso te afecta: se encarecen las piezas del PC y los fabricantes priorizan los centros de datos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consecuencia",
+    "titulo": "También en tu PC",
+    "acento": "naranja",
+    "puntos": [
+     "Se encarecen las piezas del PC",
+     "Se prioriza a los centros de datos",
+     "Los países disputan la fabricación"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "💰",
+ "puntos": [
+  "La IA exige chips muy potentes y hay pocos fabricantes.",
+  "Las tecnológicas invierten cientos de miles de millones al año.",
+  "Eso encarece las piezas del PC."
+ ],
+ "etiquetas": [
+  "#ia",
+  "#chips",
+  "#tecnologia"
+ ],
+ "fuentes": [
+  "Wikipedia: Unidad de procesamiento gráfico",
+  "Agencia Internacional de la Energía: energía e IA"
+ ]
+}

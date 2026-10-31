@@ -1,0 +1,71 @@
+{
+ "id": "idea_017",
+ "idea": 17,
+ "titulo": "¿Una refrigeración líquida necesita mantenimiento?",
+ "titulo_pantalla": "¿La refrigeración líquida necesita mantenimiento?",
+ "escenas": [
+  {
+   "texto": "¿Una refrigeración líquida necesita mantenimiento?",
+   "imagen": "aio_mantenimiento_aislado_01.png",
+   "provisional": "pc_gaming_aio_negro_aislado_01.png"
+  },
+  {
+   "texto": "Depende del tipo. La todo en uno viene sellada de fábrica y apenas necesita nada. Un circuito a medida pide más cuidado.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Todo en uno",
+     "titulo": "Sellada",
+     "puntos": [
+      "Viene cerrada de fábrica",
+      "No se rellena",
+      "Solo limpiar el polvo"
+     ]
+    },
+    "der": {
+     "cabecera": "Circuito a medida",
+     "titulo": "Más trabajo",
+     "puntos": [
+      "Cambiar el líquido de vez en cuando",
+      "Limpiar el sistema",
+      "Más cuidado en general"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "Vigila las señales de aviso: la temperatura sube sin motivo, la bomba hace ruidos extraños, o hay manchas de líquido.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Señales de aviso",
+    "titulo": "Revisa si ves esto",
+    "acento": "naranja",
+    "puntos": [
+     "La temperatura sube sin motivo",
+     "La bomba hace ruidos extraños",
+     "Hay manchas o fugas de líquido"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "💧",
+ "puntos": [
+  "La todo en uno viene sellada y apenas necesita mantenimiento.",
+  "Un circuito a medida pide más cuidado.",
+  "Vigila temperatura, ruidos y fugas."
+ ],
+ "etiquetas": [
+  "#refrigeracionliquida",
+  "#pcgamer",
+  "#mantenimiento"
+ ],
+ "fuentes": [
+  "Corsair: mantenimiento de la refrigeración líquida",
+  "Wikipedia: Refrigeración líquida de computadoras"
+ ]
+}

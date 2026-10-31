@@ -1,0 +1,77 @@
+{
+ "id": "idea_009",
+ "idea": 9,
+ "titulo": "¿Más núcleos de procesador significa más velocidad?",
+ "titulo_pantalla": "¿Más núcleos es más velocidad?",
+ "escenas": [
+  {
+   "texto": "¿Más núcleos de procesador significa más velocidad?",
+   "imagen": "cpu_nucleos_aislado_01.png",
+   "provisional": "cpu_instalacion_aislado_01.png"
+  },
+  {
+   "texto": "No siempre. Más núcleos ayudan cuando hay muchas tareas a la vez, pero no hacen más rápida una sola tarea.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Más núcleos siempre significa más velocidad",
+    "realidad": "Ayudan con muchas tareas a la vez, pero no aceleran una sola tarea."
+   }
+  },
+  {
+   "texto": "Pocos núcleos muy rápidos van bien en muchos juegos. Muchos núcleos brillan al editar vídeo o hacer varias cosas a la vez.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Pocos núcleos rápidos",
+     "titulo": "Respuesta ágil",
+     "puntos": [
+      "Muy bien en muchos juegos",
+      "Rápidos con una sola tarea"
+     ]
+    },
+    "der": {
+     "cabecera": "Muchos núcleos",
+     "titulo": "Trabajo en paralelo",
+     "puntos": [
+      "Editar vídeo y renderizar",
+      "Hacer varias cosas a la vez"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "Elige según lo que hagas: para jugar, buena velocidad por núcleo; para editar, más núcleos; y para uso diario, con pocos núcleos modernos vas sobrado.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Elige según",
+    "titulo": "Lo que haces",
+    "acento": "azul",
+    "puntos": [
+     "Jugar: buena velocidad por núcleo",
+     "Editar o renderizar: más núcleos",
+     "Uso diario: pocos núcleos bastan"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Más núcleos ayudan con muchas tareas a la vez.",
+  "No hacen más rápida una sola tarea.",
+  "Elige según lo que hagas."
+ ],
+ "etiquetas": [
+  "#procesador",
+  "#nucleos",
+  "#pcgamer"
+ ],
+ "fuentes": [
+  "Wikipedia: Procesador multinúcleo",
+  "Corsair: núcleos y subprocesos de una CPU"
+ ]
+}

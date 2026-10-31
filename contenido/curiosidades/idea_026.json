@@ -1,0 +1,71 @@
+{
+ "id": "idea_026",
+ "idea": 26,
+ "titulo": "¿Por qué tu ordenador se reinicia sin avisar?",
+ "titulo_pantalla": "¿Por qué se reinicia solo mi PC?",
+ "escenas": [
+  {
+   "texto": "¿Por qué tu ordenador se reinicia sin avisar?",
+   "imagen": "pc_se_apaga_calor_aislado_01.png",
+   "provisional": "pc_limpieza_aislado_01.png"
+  },
+  {
+   "texto": "Las causas habituales son el calor o el polvo, una fuente de alimentación débil, y RAM o controladores con fallos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Posibles causas",
+    "titulo": "Casi siempre es esto",
+    "acento": "naranja",
+    "puntos": [
+     "Calor o polvo",
+     "Fuente de alimentación débil",
+     "RAM o controladores con fallos"
+    ]
+   }
+  },
+  {
+   "texto": "Mira en el Visor de eventos qué error aparece, comprueba las temperaturas y prueba la memoria con la herramienta de Windows.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Mira el error en el Visor de eventos",
+     "Comprueba las temperaturas",
+     "Prueba la RAM con Windows"
+    ]
+   }
+  },
+  {
+   "texto": "Y a veces no es avería: Windows también reinicia tras las actualizaciones automáticas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "No siempre es avería",
+    "titulo": "Windows también reinicia",
+    "acento": "azul",
+    "puntos": [
+     "Actualizaciones automáticas",
+     "Revisa el horario de actividad",
+     "Si no hay motivo, pide diagnóstico"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🔁",
+ "puntos": [
+  "Suele ser calor, la fuente, la RAM o los controladores.",
+  "Mira el Visor de eventos y las temperaturas.",
+  "A veces es solo una actualización de Windows."
+ ],
+ "etiquetas": [
+  "#averias",
+  "#windows",
+  "#soportetecnico"
+ ],
+ "fuentes": [
+  "Microsoft: solucionar reinicios inesperados de Windows",
+  "Corsair: por qué se reinicia un PC"
+ ]
+}
