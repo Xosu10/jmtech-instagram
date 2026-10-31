@@ -39,6 +39,8 @@ def problemas_pie(pie: str) -> list[str]:
         fallos.append("no dice «sin compromiso»")
     if "MD" not in pie:
         fallos.append("no invita a escribir por MD")
+    if "no vendemos" not in pie.lower():
+        fallos.append("no aclara que JM TECH no vende hardware (solo servicio y asesoramiento)")
     if "solo en murcia" not in pie.lower():
         fallos.append("no dice que el servicio es solo en Murcia")
     if not re.search(r"domicilio|\bcasa\b", pie.lower()):

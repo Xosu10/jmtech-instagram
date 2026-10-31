@@ -70,7 +70,7 @@ def generar_informe(estado: dict, ahora_utc: datetime | None = None, ruta: Path 
     ]
     for p in ultimas:
         nombre = temas.get(p.get("tema"), {}).get("nombre", p.get("tema", ""))
-        lineas.append(f"| {p['fecha']}{' (prueba)' if p.get('prueba') else ''} | {nombre} | {p.get('estilo', '')} | "
+        lineas.append(f"| {p['fecha']}{' (fuera de calendario)' if p.get('prueba') else ''} | {nombre} | {p.get('estilo', '')} | "
                       f"{p.get('retraso_min', 0)} min | {p.get('permalink', '')} |")
     if not ultimas:
         lineas.append("| – | – | – | – | – |")

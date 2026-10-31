@@ -125,7 +125,7 @@ def preparar(ahora_utc=None, *, dry_run=False, ignorar_hora=False, tema=None, es
     if fallos:
         raise ErrorPublicacion("El contenido no pasa las comprobaciones: " + "; ".join(fallos))
     pie = pie_de_foto(t, pub.variante)
-    nombre = f"prueba_{d.fecha.isoformat()}_{ahora:%H%M}.jpg" if prueba else f"{d.fecha.isoformat()}.jpg"
+    nombre = f"prueba_{d.fecha.isoformat()}_{ahora:%H%M%S}_{pub.tema_id}.jpg" if prueba else f"{d.fecha.isoformat()}.jpg"
     objeto_asset = indice_assets(catalogo).get(pub.asset)
     if pub.asset not in (None, DIBUJO) and objeto_asset is None:
         raise ErrorPublicacion(f"El asset «{pub.asset}» no está en el catálogo de assets aprobados.")

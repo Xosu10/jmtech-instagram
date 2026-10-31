@@ -1,10 +1,15 @@
 name: Publicar en Instagram
 
-# FASE 4: solo se lanza a mano (Actions -> Publicar en Instagram -> Run workflow).
-# Por defecto es una PRUEBA EN SECO: genera todo pero no llama a Instagram.
-# Los disparos automaticos (lunes a viernes, 19:00 Madrid) se activan en la Fase 6.
+# PUBLICACION AUTOMATICA: lunes a viernes a las 19:00 (hora de Madrid).
+# GitHub programa en UTC. Hora de Madrid = UTC+1 en invierno y UTC+2 en verano, asi que hay DOS disparos
+# (17:00 y 18:00 UTC) y el programa solo publica si en Madrid son las 19:00-20:30 (y nunca dos veces el mismo dia).
+# Para PAUSAR: en config/calendario.json pon "pausado": true.
+# A mano (Actions -> Publicar en Instagram -> Run workflow) es una PRUEBA EN SECO por defecto.
 
 on:
+  schedule:
+    - cron: "0 17 * * 1-5"
+    - cron: "0 18 * * 1-5"
   workflow_dispatch:
     inputs:
       dry_run:

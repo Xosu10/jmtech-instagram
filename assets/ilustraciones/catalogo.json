@@ -851,6 +851,828 @@
       "notas_calidad": "Sin uso por ahora (fondo genérico).",
       "aprobado": true,
       "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "cpu_pasta_termica_aislado_01.png",
+      "original": "cpu_pasta_termica_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "cpu",
+      "etiquetas": [
+        "CPU",
+        "pasta térmica",
+        "disipador"
+      ],
+      "temas": [
+        "pasta_limpieza"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "pc_limpieza_aislado_01.png",
+      "original": "pc_limpieza_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "pc",
+      "etiquetas": [
+        "limpieza",
+        "polvo",
+        "brocha",
+        "aire comprimido"
+      ],
+      "temas": [
+        "pasta_limpieza"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "pc_limpieza_pasta_termica_aislado_01.png",
+      "original": "pc_limpieza_pasta_termica_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "pc",
+      "etiquetas": [
+        "limpieza",
+        "pasta térmica",
+        "ventilador",
+        "CPU"
+      ],
+      "temas": [
+        "pasta_limpieza"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Extra no pedido. Margen 2,2 %.",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "portatil_limpieza_aislado_01.png",
+      "original": "portatil_limpieza_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "portatil",
+      "etiquetas": [
+        "limpieza",
+        "ventilador",
+        "herramientas"
+      ],
+      "temas": [
+        "pasta_limpieza"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "datos_backup_recuperacion_aislado_01.png",
+      "original": "datos_backup_recuperacion_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "datos",
+      "etiquetas": [
+        "backup",
+        "recuperación",
+        "carpeta",
+        "disco externo"
+      ],
+      "temas": [
+        "backup_recuperacion"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Extra no pedido. Margen 8,1 %.",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "datos_copia_seguridad_aislado_01.png",
+      "original": "datos_copia_seguridad_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "datos",
+      "etiquetas": [
+        "backup",
+        "disco externo",
+        "escudo"
+      ],
+      "temas": [
+        "backup_recuperacion"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "datos_recuperacion_aislado_01.png",
+      "original": "datos_recuperacion_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "datos",
+      "etiquetas": [
+        "recuperación",
+        "HDD",
+        "archivos"
+      ],
+      "temas": [
+        "backup_recuperacion"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "empresa_asesoramiento_comparativa_aislado_01.png",
+      "original": "empresa_asesoramiento_comparativa_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "empresa",
+      "etiquetas": [
+        "asesoramiento",
+        "comparativa",
+        "portátil",
+        "tablet"
+      ],
+      "temas": [
+        "asesoramiento"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "empresa_asesoramiento_componentes_aislado_01.png",
+      "original": "empresa_asesoramiento_componentes_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "empresa",
+      "etiquetas": [
+        "asesoramiento",
+        "componentes",
+        "RAM",
+        "SSD",
+        "GPU"
+      ],
+      "temas": [
+        "asesoramiento",
+        "montaje_pc"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "empresa_instalacion_programas_aislado_01.png",
+      "original": "empresa_instalacion_programas_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "empresa",
+      "etiquetas": [
+        "programas",
+        "instalación",
+        "portátil"
+      ],
+      "temas": [
+        "windows_programas"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "empresa_software_seguridad_aislado_01.png",
+      "original": "empresa_software_seguridad_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "empresa",
+      "etiquetas": [
+        "seguridad",
+        "limpieza",
+        "software"
+      ],
+      "temas": [
+        "windows_programas"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Extra no pedido. Margen 3,5 %.",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "pc_instalacion_windows_aislado_01.png",
+      "original": "pc_instalacion_windows_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "pc",
+      "etiquetas": [
+        "instalación",
+        "sistema",
+        "progreso"
+      ],
+      "temas": [
+        "windows_programas"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "empresa_script_aislado_01.png",
+      "original": "empresa_script_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "empresa",
+      "etiquetas": [
+        "script",
+        "automatización",
+        "engranaje"
+      ],
+      "temas": [
+        "script_software"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "empresa_software_profesional_aislado_01.png",
+      "original": "empresa_software_profesional_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "empresa",
+      "etiquetas": [
+        "software profesional",
+        "diseño",
+        "estación"
+      ],
+      "temas": [
+        "script_software"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "empresa_soporte_remoto_aislado_01.png",
+      "original": "empresa_soporte_remoto_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "empresa",
+      "etiquetas": [
+        "soporte remoto",
+        "conexión",
+        "cursor"
+      ],
+      "temas": [
+        "soporte_remoto"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Margen 2,7 %. Falta la segunda imagen (_02).",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "movil_cambio_bateria_aislado_02.png",
+      "original": "movil_cambio_bateria_aislado_02.png",
+      "tipo": "aislado",
+      "categoria": "movil",
+      "etiquetas": [
+        "móvil",
+        "batería",
+        "apertura"
+      ],
+      "temas": [
+        "movil_bateria"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "movil_conector_carga_aislado_01.png",
+      "original": "movil_conector_carga_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "movil",
+      "etiquetas": [
+        "móvil",
+        "conector de carga",
+        "USB-C"
+      ],
+      "temas": [
+        "movil_pantalla_conector"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "movil_pantalla_nueva_aislado_01.png",
+      "original": "movil_pantalla_nueva_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "movil",
+      "etiquetas": [
+        "móvil",
+        "pantalla",
+        "sustitución"
+      ],
+      "temas": [
+        "movil_pantalla_conector"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "movil_transferencia_aislado_01.png",
+      "original": "movil_transferencia_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "movil",
+      "etiquetas": [
+        "transferencia",
+        "móvil",
+        "archivos"
+      ],
+      "temas": [
+        "movil_transferencia"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "movil_transferencia_aislado_02.png",
+      "original": "movil_transferencia_aislado_02.png",
+      "tipo": "aislado",
+      "categoria": "movil",
+      "etiquetas": [
+        "transferencia",
+        "móvil",
+        "nube"
+      ],
+      "temas": [
+        "movil_transferencia"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "pc_optimizacion_cpu_ram_aislado_01.png",
+      "original": "pc_optimizacion_cpu_ram_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "pc",
+      "etiquetas": [
+        "optimización",
+        "CPU",
+        "RAM",
+        "rendimiento"
+      ],
+      "temas": [
+        "gaming"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Extra no pedido. Margen 2,5 %.",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "portatil_abierto_aislado_01.png",
+      "original": "portatil_abierto_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "portatil",
+      "etiquetas": [
+        "portátil",
+        "batería",
+        "autonomía"
+      ],
+      "temas": [
+        "bateria_portatil"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "portatil_bateria_cambio_aislado_01.png",
+      "original": "portatil_bateria_cambio_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "portatil",
+      "etiquetas": [
+        "portátil",
+        "batería",
+        "sustitución"
+      ],
+      "temas": [
+        "bateria_portatil"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "portatil_teclado_bisagras_aislado_01.png",
+      "original": "portatil_teclado_bisagras_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "portatil",
+      "etiquetas": [
+        "portátil",
+        "teclado",
+        "bisagras",
+        "componentes"
+      ],
+      "temas": [
+        "tarjeta_grafica",
+        "diagnostico"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Extra no pedido. Margen 1,8 %.",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "refrigeracion_bloque_agua_aislado_01.png",
+      "original": "refrigeracion_bloque_agua_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "refrigeracion",
+      "etiquetas": [
+        "custom loop",
+        "bloque de agua",
+        "depósito"
+      ],
+      "temas": [
+        "custom_loop"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "refrigeracion_custom_loop_aislado_01.png",
+      "original": "refrigeracion_custom_loop_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "refrigeracion",
+      "etiquetas": [
+        "custom loop",
+        "tubo rígido",
+        "PC"
+      ],
+      "temas": [
+        "custom_loop"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Ilustrativo: no usar como esquema de montaje.",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "tablet_bateria_aislado_01.png",
+      "original": "tablet_bateria_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "tablet",
+      "etiquetas": [
+        "tablet",
+        "batería",
+        "sustitución"
+      ],
+      "temas": [
+        "tablet"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "tablet_reparacion_aislado_01.png",
+      "original": "tablet_reparacion_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "tablet",
+      "etiquetas": [
+        "tablet",
+        "pantalla",
+        "reparación"
+      ],
+      "temas": [
+        "tablet"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "tv_pared_aislado_02.png",
+      "original": "tv_pared_aislado_02.png",
+      "tipo": "aislado",
+      "categoria": "tv",
+      "etiquetas": [
+        "televisor",
+        "soporte",
+        "parte trasera"
+      ],
+      "temas": [
+        "tv_pared"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Muestra la parte trasera de la TV con soporte fijo.",
+      "aprobado": true,
+      "fecha": "2026-10-31"
     }
   ]
 }

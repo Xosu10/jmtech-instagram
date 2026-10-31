@@ -38,10 +38,11 @@ def test_detecta_precios_ofertas_y_contacto(malo):
 
 
 def test_el_pie_debe_tener_5_o_6_hashtags_y_md():
-    ok = ("Hola\n📩 Pide presupuesto sin compromiso por MD.\n"
+    ok = ("Hola\n🧩 No vendemos hardware: te asesoramos y nosotros lo montamos.\n📩 Pide presupuesto sin compromiso por MD.\n"
           "📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n#a #b #c #d #e")
     assert problemas_pie(ok) == []
     assert problemas_pie(ok.replace("Solo en Murcia", "En la zona"))                  # debe decir «solo en Murcia»
+    assert problemas_pie(ok.replace("No vendemos", "Tenemos"))                        # debe aclarar que no vende hardware
     assert problemas_pie(ok.replace("domicilio", "x").replace("casa", "y"))            # debe explicar cómo se presta
     assert problemas_pie(ok.replace("#e", ""))                 # 4 hashtags
     assert problemas_pie(ok + " #f #g")                        # 7 hashtags
