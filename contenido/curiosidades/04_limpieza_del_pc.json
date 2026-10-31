@@ -1,0 +1,20 @@
+{
+  "id": "04_limpieza_del_pc",
+  "titulo": "¿Cada cuánto hay que limpiar el PC?",
+  "titulo_pantalla": "¿Cada cuánto limpiar el PC?",
+  "escenas": [
+    {"texto": "¿Cada cuánto hay que limpiar el PC? Más a menudo de lo que crees.", "imagen": "pc_polvo_interior_aislado_01.png", "provisional": "pc_limpieza_aislado_01.png"},
+    {"texto": "El polvo se pega a los ventiladores y al disipador. Mueven menos aire, el PC se calienta más y hace más ruido.", "imagen": "ventilador_polvo_aislado_01.png", "provisional": "ventilador_cambio_aislado_01.png"},
+    {"texto": "Como norma, cada tres a seis meses. Si tienes mascotas, fumas o hay mucho polvo, cada dos o tres meses.", "grafico": "resumen",
+     "params": {"filas": [{"cabecera": "Casa normal", "titulo": "Cada 3 a 6 meses", "acento": "azul"},
+                          {"cabecera": "Mascotas, tabaco o mucho polvo", "titulo": "Cada 2 o 3 meses", "acento": "naranja"}]}},
+    {"texto": "Y si los ventiladores suenan más de lo normal, la caja está caliente o el PC va lento, ya toca limpiar.", "grafico": "tarjeta",
+     "params": {"cabecera": "Señales de aviso", "titulo": "Es hora de limpiar", "acento": "naranja",
+                "puntos": ["Ventiladores más ruidosos", "Caja caliente al tocarla", "PC más lento de lo normal"]}},
+    {"texto": "Con el PC apagado y desenchufado, aire a presión y una brocha suave, queda limpio en pocos minutos.", "imagen": "limpieza_pc_herramientas_aislado_01.png", "provisional": "herramientas_kit_precision_aislado_01.png"},
+    {"texto": "¿No te atreves a abrirlo? Escríbenos por mensaje.", "cierre": true}
+  ],
+  "descripcion": "¿Cada cuánto hay que limpiar el PC? 🧹\n\nComo norma, cada 3 a 6 meses. Si tienes mascotas, fumas o hay mucho polvo, cada 2 o 3 meses.\n\nSeñales de aviso: ventiladores más ruidosos, caja caliente al tocarla o un PC más lento de lo normal.\n\nCon el PC apagado y desenchufado, aire a presión y una brocha suave, en pocos minutos queda limpio. ¿No te atreves a abrirlo? Escríbenos por MD.",
+  "hashtags": ["#informatica", "#limpiezapc", "#pcgamer", "#curiosidades", "#tecnologia", "#murcia"],
+  "fuentes": ["Corsair: cómo limpiar tu PC y cada cuánto hacerlo", "Darkflash: cómo y cuándo limpiar tu PC"]
+}

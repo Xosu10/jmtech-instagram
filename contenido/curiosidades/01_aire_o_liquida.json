@@ -1,0 +1,27 @@
+{
+  "id": "01_aire_o_liquida",
+  "titulo": "¿Disipador de aire o refrigeración líquida?",
+  "titulo_pantalla": "¿Aire o líquida? Cómo refrigerar tu PC",
+  "escenas": [
+    {"texto": "¿Aire o líquida? No hay una mejor para todos. Depende del procesador que vayas a montar.", "imagen": "refrigeracion_aire_vs_liquida_aislado_01.png", "provisional": "pc_gaming_aio_blanco_aislado_01.png"},
+    {"texto": "Todo lo que consume tu procesador acaba en calor. Uno normal ronda los sesenta y cinco vatios. Uno de gama alta puede superar los doscientos.", "grafico": "barras",
+     "params": {"titulo": "Calor que genera al trabajar", "nota": "Cifras orientativas, según el modelo",
+                "items": [{"etiqueta": "Procesador normal", "valor": 65, "texto": "unos 65 W", "acento": "azul"},
+                          {"etiqueta": "Procesador de gama alta", "valor": 230, "texto": "más de 200 W", "acento": "naranja"}]}},
+    {"texto": "El disipador de aire lleva el calor por tubos hasta unas aletas de metal, y un ventilador lo saca fuera. Sencillo y casi sin mantenimiento.", "grafico": "flujo", "params": {"modo": "aire"}},
+    {"texto": "La líquida lo transporta con agua hasta un radiador, que puede ser mucho más grande, donde los ventiladores lo enfrían.", "grafico": "flujo", "params": {"modo": "liquido"}},
+    {"texto": "Con un procesador normal, el aire rinde de sobra, tiene menos piezas que puedan fallar y cuesta menos.", "grafico": "tarjeta",
+     "params": {"cabecera": "Procesador normal", "titulo": "Disipador de aire", "acento": "azul",
+                "puntos": ["Rinde de sobra", "Menos piezas que puedan fallar", "Cuesta menos"]}},
+    {"texto": "Con uno muy potente, un radiador grande da más margen para que no se caliente de más y tenga que ir más lento.", "grafico": "tarjeta",
+     "params": {"cabecera": "Procesador potente", "titulo": "Líquida con radiador grande", "acento": "naranja",
+                "puntos": ["Más margen de refrigeración", "Evita que baje su velocidad", "Radiador de 240 o 360 mm"]}},
+    {"texto": "Resumiendo: procesador normal, aire. Procesador potente, líquida grande.", "grafico": "resumen",
+     "params": {"filas": [{"cabecera": "Procesador normal", "titulo": "Disipador de aire", "acento": "azul"},
+                          {"cabecera": "Procesador potente", "titulo": "Líquida grande", "acento": "naranja"}]}},
+    {"texto": "¿Dudas con tu PC? Escríbenos por mensaje.", "cierre": true}
+  ],
+  "descripcion": "¿Disipador de aire o refrigeración líquida? 🌬️💧\n\nNo hay una mejor para todos: depende del procesador.\n\n💨 Procesador normal (unos 65 W): el aire rinde de sobra, tiene menos piezas que puedan fallar y cuesta menos.\n💧 Procesador potente (más de 200 W en picos): una líquida con radiador grande da más margen de refrigeración.\n\n¿Quieres que te ayudemos a elegir o a montar tu PC? Escríbenos por MD.",
+  "hashtags": ["#informatica", "#pcgamer", "#refrigeracion", "#curiosidades", "#tecnologia", "#murcia"],
+  "fuentes": ["Corsair: guía de refrigeración de CPU por aire y líquida", "Wikipedia: Disipador y refrigeración por agua de computadoras", "Intel ARK: potencia de los procesadores Core de gama alta (253 W en el Core i9-14900K)"]
+}

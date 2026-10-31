@@ -13,6 +13,8 @@
   "hora_publicacion": "19:00",
   "hora_reel": "15:00",
   "reels": true,
+  "hora_curiosidad": "17:00",
+  "curiosidades": true,
   "pausado": false,
   "semilla": 2028,
   "dias_sin_publicar": [],

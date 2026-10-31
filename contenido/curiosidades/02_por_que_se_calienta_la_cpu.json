@@ -1,0 +1,20 @@
+{
+  "id": "02_por_que_se_calienta_la_cpu",
+  "titulo": "¿Por qué se calientan los procesadores?",
+  "titulo_pantalla": "¿Por qué se calienta tanto el procesador?",
+  "escenas": [
+    {"texto": "¿Por qué se calienta tanto un procesador? La respuesta está en su interior.", "imagen": "cpu_calor_aislado_01.png", "provisional": "cpu_pasta_termica_aislado_01.png"},
+    {"texto": "Dentro hay miles de millones de interruptores diminutos que se encienden y se apagan sin parar.", "imagen": "cpu_circuitos_aislado_01.png", "provisional": "cpu_instalacion_aislado_01.png"},
+    {"texto": "Cada cambio gasta un poco de energía. Y toda esa energía acaba convertida en calor.", "grafico": "pasos",
+     "params": {"pasos": ["Entra la electricidad", "Los interruptores cambian", "La energía se vuelve calor"]}},
+    {"texto": "Cuanta más velocidad, más cambios por segundo, y por eso más calor que sacar.", "grafico": "tarjeta",
+     "params": {"cabecera": "Más velocidad", "titulo": "Más calor", "acento": "naranja",
+                "puntos": ["Más cambios por segundo", "Más energía gastada", "Más calor que evacuar"]}},
+    {"texto": "Si se pasa de temperatura, el procesador se protege: baja su velocidad y tu PC va más lento.", "imagen": "cpu_termometro_aislado_01.png", "provisional": "cpu_pasta_termica_aislado_01.png"},
+    {"texto": "Por eso necesita un buen disipador y una buena pasta térmica que le ayude a soltar ese calor.", "imagen": "cpu_pasta_termica_aislado_01.png"},
+    {"texto": "¿Dudas con tu PC? Escríbenos por mensaje.", "cierre": true}
+  ],
+  "descripcion": "¿Por qué se calientan los procesadores? 🔥\n\nDentro hay miles de millones de interruptores diminutos que cambian sin parar. Cada cambio gasta energía, y esa energía acaba en calor. Cuanta más velocidad, más calor.\n\nSi se pasa de temperatura, el procesador baja su velocidad para protegerse. Por eso un buen disipador y una buena pasta térmica marcan la diferencia.\n\n¿Tu PC va lento o suena como un avión? Escríbenos por MD.",
+  "hashtags": ["#informatica", "#procesador", "#pcgamer", "#curiosidades", "#tecnologia", "#murcia"],
+  "fuentes": ["Wikipedia: Microprocesador y estrangulamiento térmico (thermal throttling)", "Tom's Hardware: qué ocurre cuando falla el disipador de la CPU", "Corsair: guía de refrigeración de CPU"]
+}

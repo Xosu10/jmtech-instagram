@@ -1,0 +1,23 @@
+{
+  "id": "03_ram_e_ia",
+  "titulo": "¿Qué es la RAM y por qué es tan importante para la IA?",
+  "titulo_pantalla": "La RAM y la inteligencia artificial",
+  "escenas": [
+    {"texto": "¿Qué es la RAM y por qué importa tanto para la inteligencia artificial?", "imagen": "ram_ddr5_unico_aislado_01.png", "provisional": "ram_ddr5_par_aislado_01.png"},
+    {"texto": "La RAM es la mesa de trabajo de tu PC: ahí está todo lo que usas ahora mismo. El disco es el archivador.", "imagen": "metafora_mesa_trabajo_aislado_01.png", "provisional": "pc_optimizacion_cpu_ram_aislado_01.png"},
+    {"texto": "Es muy rápida, pero se vacía al apagar. Cuanta más tienes, más cosas puedes tener abiertas a la vez.", "grafico": "tarjeta",
+     "params": {"cabecera": "La RAM", "titulo": "La mesa de trabajo", "acento": "azul",
+                "puntos": ["Muy rápida", "Guarda lo que usas ahora", "Se vacía al apagar el PC"]}},
+    {"texto": "Un modelo de inteligencia artificial es un archivo enorme. Para funcionar, tiene que estar cargado en memoria.", "imagen": "ia_modelo_chip_aislado_01.png", "provisional": "ram_ddr5_par_aislado_01.png"},
+    {"texto": "Si no cabe, va mucho más lento o directamente no arranca.", "grafico": "tarjeta",
+     "params": {"cabecera": "Poca memoria", "titulo": "IA lenta o que no arranca", "acento": "naranja",
+                "puntos": ["El modelo no cabe entero", "Pasa a un almacenamiento más lento", "Respuestas a trompicones"]}},
+    {"texto": "Para el uso diario, dieciséis gigas suelen bastar. Para usar IA en casa, treinta y dos o más te dan margen.", "grafico": "resumen",
+     "params": {"filas": [{"cabecera": "Uso diario", "titulo": "16 GB de RAM", "acento": "azul"},
+                          {"cabecera": "IA en tu PC", "titulo": "32 GB o más", "acento": "naranja"}]}},
+    {"texto": "¿Dudas con tu PC? Escríbenos por mensaje.", "cierre": true}
+  ],
+  "descripcion": "¿Qué es la RAM y por qué importa tanto para la IA? 🧠\n\nLa RAM es la mesa de trabajo de tu PC: muy rápida, guarda lo que usas ahora y se vacía al apagar. El disco es el archivador.\n\nLos modelos de inteligencia artificial son archivos enormes que deben estar cargados en memoria. Si no caben, van lentos o no arrancan.\n\nCifras orientativas: 16 GB para el uso diario, 32 GB o más para IA en casa. ¿Quieres ampliar la memoria de tu PC? Escríbenos por MD.",
+  "hashtags": ["#informatica", "#ram", "#inteligenciaartificial", "#curiosidades", "#tecnologia", "#murcia"],
+  "fuentes": ["Corsair: memoria para modelos de lenguaje locales, cuánta RAM necesitas", "Wikipedia: Memoria de acceso aleatorio", "Evetech: requisitos de RAM para modelos de lenguaje en un PC"]
+}
