@@ -2,12 +2,19 @@ name: Verificar conexion con Instagram
 
 # Se lanza a mano. Comprueba que el token guardado en GitHub Secrets funciona
 # y escribe solo el usuario y el id de la cuenta (no son secretos). El token nunca se muestra.
+# Prueba los dos tipos de token que Meta puede dar:
+#   1) token de Instagram (host graph.instagram.com)
+#   2) token de usuario del sistema (host graph.facebook.com)
 
 on:
   workflow_dispatch:
 
 permissions:
   contents: read
+
+env:
+  # Identificador publico de la cuenta @jmtechmurcia (no es un secreto).
+  IG_USER_ID: "17841471351315429"
 
 jobs:
   verificar:
@@ -21,14 +28,29 @@ jobs:
             echo "ERROR: no existe el secreto IG_ACCESS_TOKEN en GitHub."
             exit 1
           fi
-          respuesta=$(curl -sS -G "https://graph.instagram.com/me" \
+
+          echo "Prueba 1: token de Instagram (graph.instagram.com)"
+          r1=$(curl -sS -G "https://graph.instagram.com/me" \
             --data-urlencode "fields=user_id,username" \
             --data-urlencode "access_token=$IG_ACCESS_TOKEN")
-          if echo "$respuesta" | jq -e '.error' > /dev/null; then
-            echo "ERROR: Instagram rechazo la peticion."
-            echo "$respuesta" | jq '{codigo: .error.code, tipo: .error.type, mensaje: .error.message}'
-            exit 1
+          if ! echo "$r1" | jq -e '.error' > /dev/null; then
+            echo "CONEXION CORRECTA (token de Instagram)"
+            echo "Usuario de Instagram: $(echo "$r1" | jq -r '.username')"
+            echo "Id de la cuenta: $(echo "$r1" | jq -r '.user_id')"
+            exit 0
           fi
-          echo "CONEXION CORRECTA"
-          echo "Usuario de Instagram: $(echo "$respuesta" | jq -r '.username')"
-          echo "Id de la cuenta: $(echo "$respuesta" | jq -r '.user_id')"
+          echo "No vale como token de Instagram: $(echo "$r1" | jq -r '.error.message')"
+
+          echo "Prueba 2: token de usuario del sistema (graph.facebook.com)"
+          r2=$(curl -sS -G "https://graph.facebook.com/$IG_USER_ID" \
+            --data-urlencode "fields=id,username" \
+            --data-urlencode "access_token=$IG_ACCESS_TOKEN")
+          if ! echo "$r2" | jq -e '.error' > /dev/null; then
+            echo "CONEXION CORRECTA (token de usuario del sistema)"
+            echo "Usuario de Instagram: $(echo "$r2" | jq -r '.username')"
+            echo "Id de la cuenta: $(echo "$r2" | jq -r '.id')"
+            exit 0
+          fi
+          echo "ERROR: Instagram rechazo el token en las dos pruebas."
+          echo "$r2" | jq '{codigo: .error.code, tipo: .error.type, subcodigo: .error.error_subcode, mensaje: .error.message}'
+          exit 1
