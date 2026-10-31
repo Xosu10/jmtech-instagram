@@ -1,0 +1,102 @@
+name: Publicar en Instagram
+
+# FASE 4: solo se lanza a mano (Actions -> Publicar en Instagram -> Run workflow).
+# Por defecto es una PRUEBA EN SECO: genera todo pero no llama a Instagram.
+# Los disparos automaticos (lunes a viernes, 19:00 Madrid) se activan en la Fase 6.
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Prueba en seco (NO publica en Instagram)"
+        type: boolean
+        default: true
+      prueba:
+        description: "Publicacion de prueba (no cuenta como la del dia)"
+        type: boolean
+        default: false
+      ignorar_hora:
+        description: "Publicar aunque no sea la hora (solo manual)"
+        type: boolean
+        default: false
+      tema:
+        description: "Tema concreto (solo para pruebas), por ejemplo: streaming"
+        type: string
+        default: ""
+      estilo:
+        description: "Estilo (solo para pruebas)"
+        type: choice
+        options: ["A", "B", "C"]
+        default: "A"
+
+concurrency:
+  group: publicar-instagram
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  PYTHONPATH: src
+  TZ: Europe/Madrid
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Preparar la publicacion de hoy
+        id: preparar
+        env:
+          DRY_RUN: ${{ inputs.dry_run }}
+          PRUEBA: ${{ inputs.prueba }}
+          IGNORAR_HORA: ${{ inputs.ignorar_hora }}
+          TEMA: ${{ inputs.tema }}
+          ESTILO: ${{ inputs.estilo }}
+        run: |
+          args=()
+          [ "$DRY_RUN" = "true" ] && args+=(--dry-run)
+          [ "$PRUEBA" = "true" ] && args+=(--prueba --estilo "$ESTILO")
+          [ "$IGNORAR_HORA" = "true" ] && args+=(--ignorar-hora)
+          [ -n "$TEMA" ] && args+=(--tema "$TEMA")
+          python -m jmtech.publicador preparar "${args[@]}"
+
+      - name: Guardar la imagen en el repositorio
+        if: steps.preparar.outputs.hay_publicacion == 'true' && inputs.dry_run != true
+        run: |
+          git config user.name "JM TECH bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add publicaciones
+          git diff --cached --quiet || git commit -m "chore: imagen de la publicacion"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Publicar en Instagram
+        if: steps.preparar.outputs.hay_publicacion == 'true'
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          args=()
+          [ "$DRY_RUN" = "true" ] && args+=(--dry-run)
+          python -m jmtech.publicador publicar "${args[@]}"
+
+      - name: Guardar el estado
+        if: always() && steps.preparar.outputs.hay_publicacion == 'true' && inputs.dry_run != true
+        run: |
+          git config user.name "JM TECH bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add estado ESTADO.md
+          git diff --cached --quiet || git commit -m "chore: estado de las publicaciones"
+          git pull --rebase origin main
+          git push origin HEAD:main

@@ -28,3 +28,6 @@ Thumbs.db
 
 # Addendum de trabajo (nombre de pila de José)
 ADDENDUM_ASSETS.md
+
+# Ficheros temporales del publicador
+.pendiente*.json

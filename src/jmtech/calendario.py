@@ -25,13 +25,17 @@ class Publicacion:
     campana_id: str | None = None
 
 
-def cargar_config(ruta: Path | None = None) -> dict:
-    with open(ruta or RUTA_CONFIG, encoding="utf-8") as f:
-        cfg = json.load(f)
+def completar_config(cfg: dict) -> dict:
+    """Calcula los campos internos (_inicio, _festivos, _campanas) a partir de los editables."""
     cfg["_inicio"] = date.fromisoformat(cfg["fecha_inicio"])
     cfg["_festivos"] = {date.fromisoformat(d) for d in cfg.get("dias_sin_publicar", [])}
     cfg["_campanas"] = {date.fromisoformat(c["fecha"]): c for c in cfg.get("campanas", [])}
     return cfg
+
+
+def cargar_config(ruta: Path | None = None) -> dict:
+    with open(ruta or RUTA_CONFIG, encoding="utf-8") as f:
+        return completar_config(json.load(f))
 
 
 def es_dia_publicable(dia: date, cfg: dict) -> bool:
