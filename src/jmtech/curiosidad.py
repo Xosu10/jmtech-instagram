@@ -137,10 +137,15 @@ def _a_wav(ruta_audio, ruta_wav):
         return w.getnframes() / w.getframerate()
 
 
+def _pronunciar(texto: str) -> str:
+    """Cómo se debe decir en voz alta lo que en pantalla se escribe de otra forma (el número de palabras no cambia)."""
+    return re.sub(r"\bVI\b", "seis", texto)             # «GTA VI» se escribe con numeral romano pero se dice «GTA seis»
+
+
 def sintetizar_escena(texto, ruta_base, voz=VOZ, velocidad=VELOCIDAD):
     """Devuelve (wav, palabras[(inicio, duración, texto)], duración). Con Edge TTS (voz Ximena)."""
     mp3 = Path(f"{ruta_base}.mp3")
-    palabras = asyncio.run(_tts(texto, voz, velocidad, mp3))
+    palabras = asyncio.run(_tts(_pronunciar(texto), voz, velocidad, mp3))
     dur = _a_wav(mp3, Path(f"{ruta_base}.wav"))
     mp3.unlink(missing_ok=True)
     if not palabras:                           # plan B: reparto proporcional a la longitud de cada palabra

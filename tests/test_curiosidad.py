@@ -232,3 +232,10 @@ def test_el_montaje_no_repite_lo_que_no_ha_cambiado(tmp_path, monkeypatch):
     assert len(mont) == len(llamadas) >= 3
     mont2, _ = cur.montar_plan(tmp_path, None, hasta="2026-11-09", provisional=True, avisar=lambda *_: None)
     assert mont2 == []                                 # nada ha cambiado: no se vuelve a montar
+
+
+def test_gta_vi_se_dice_gta_seis_sin_cambiar_el_numero_de_palabras():
+    texto = "Mañana sale GTA VI. Vice City, VIVA."
+    voz = cur._pronunciar(texto)
+    assert "GTA seis" in voz and "Vice City" in voz and "VIVA" in voz
+    assert len(voz.split()) == len(texto.split())
