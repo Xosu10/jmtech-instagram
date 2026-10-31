@@ -65,7 +65,6 @@ def test_los_temas_del_catalogo_existen(tema):
     assert all(tt in ids for a in CATALOGO for tt in a.temas)
 
 
-@pytest.mark.xfail(reason="Pendiente del lote de la otra IA: cada publicación debe tener al menos 2 assets", strict=False)
 def test_cada_publicacion_tiene_al_menos_dos_assets_aprobados():
     escasos = {t["id"]: sum(1 for a in CATALOGO if t["id"] in a.temas) for t in cargar_temas()}
     assert {k: v for k, v in escasos.items() if v < 2} == {}

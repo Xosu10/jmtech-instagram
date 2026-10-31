@@ -60,9 +60,13 @@ class Selector:
         self.contador[tema_id] = n + 1
         giro = n % len(orden)
         rot = orden[giro:] + orden[:giro]
-        previo_tema = self.ultimo_tema.get(tema_id)
-        elegido = (next((c for c in rot if c != self.ultimo_global and c != previo_tema), None)
-                   or next((c for c in rot if c != self.ultimo_global), None) or rot[0])
+        previo_asset, previo_estilo = self.ultimo_tema.get(tema_id, (None, None))
+        permitidos = [c for c in rot if c != self.ultimo_global]                 # regla dura: no repetir el de ayer
+        elegido = (next((c for c in permitidos if c != previo_asset), None)       # lo ideal: asset distinto al de la vez anterior
+                   or next((c for c in permitidos if estilo != previo_estilo), None)   # si no, al menos otro diseño
+                   or (permitidos or rot)[0])
+        if elegido == previo_asset and estilo == previo_estilo and previo_asset != DIBUJO:
+            elegido = DIBUJO               # último recurso: misma imagen y mismo diseño que la vez anterior -> se usa el dibujo
         self.ultimo_global = None if elegido == DIBUJO else elegido
-        self.ultimo_tema[tema_id] = elegido
+        self.ultimo_tema[tema_id] = (elegido, estilo)
         return elegido

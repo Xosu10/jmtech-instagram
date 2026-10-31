@@ -30,6 +30,27 @@
       ]
     },
     {
+      "id": "diagnostico_movil_tablet",
+      "nombre": "Diagnóstico de móvil y tablet",
+      "chip": "DIAGNÓSTICO",
+      "titulo_linea1": "Diagnóstico de",
+      "titulo_linea2_azul": "móvil y tablet",
+      "subtitulo": "Averiguamos qué falla en tu móvil o tablet antes de repararlo.",
+      "puntos": [
+        "Revisión del móvil o la tablet",
+        "Pantalla, batería y carga",
+        "Software y rendimiento",
+        "Te explicamos el resultado"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: diagnóstico de móvil y tablet.",
+      "pies_de_foto": [
+        "📱 ¿Tu móvil o tu tablet se apaga, va lento o no carga?\n\nHacemos un diagnóstico para localizar el problema: revisamos pantalla, batería, conector de carga y software.\n\nAntes de reparar nada, te explicamos qué falla y qué opciones hay.\n\n🔧 Qué incluye: Revisión del móvil o la tablet · Pantalla, batería y carga · Software y rendimiento · Te explicamos el resultado.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #DiagnosticoMovil #Tablet #ServicioTecnico #Murcia #Reparacion",
+        "Saber qué le pasa es el primer paso 🔍\n\nRevisamos tu móvil o tu tablet y te contamos el resultado con claridad: qué falla, qué se puede arreglar y cómo.\n\nAsí decides con toda la información.\n\n🔧 Qué incluye: Revisión del móvil o la tablet · Pantalla, batería y carga · Software y rendimiento · Te explicamos el resultado.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Diagnostico #Movil #Tablet #Murcia #SolucionesTecnologicas",
+        "¿Dudas si compensa reparar tu móvil o tu tablet? 🤔\n\nCon un diagnóstico previo sabrás qué le ocurre antes de gastar nada en la reparación.\n\nTambién revisamos el software y el rendimiento.\n\n🔧 Qué incluye: Revisión del móvil o la tablet · Pantalla, batería y carga · Software y rendimiento · Te explicamos el resultado.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #ServicioTecnico #Movil #Tablet #Murcia #Informatica"
+      ]
+    },
+    {
       "id": "asesoramiento",
       "nombre": "Asesoramiento personalizado",
       "chip": "ASESORAMIENTO",
@@ -60,57 +81,78 @@
       "puntos": [
         "Te asesoramos qué piezas comprar",
         "Montaje completo de tu PC",
-        "Opción con Windows y drivers instalados",
-        "Listo para encender y usar"
+        "Equipos gaming y premium",
+        "Revisión final antes de entregarlo"
       ],
       "ilustracion": "torre de PC con panel lateral transparente y componentes iluminados en azul",
       "texto_alternativo": "Publicación de JM TECH: montaje de PC, con opción de instalación de Windows y drivers.",
       "pies_de_foto": [
-        "🖥️ ¿Tienes los componentes y no sabes cómo montarlos?\n\nNos encargamos del montaje de tu PC y, si quieres, lo dejamos listo para usar con Windows y los drivers instalados.\n\nTú te olvidas de cables, tornillos y manuales.\n\n🔧 Qué incluye: Te asesoramos qué piezas comprar · Montaje completo de tu PC · Opción con Windows y drivers instalados · Listo para encender y usar.\n\n🧩 No vendemos piezas: te asesoramos para que sepas exactamente qué comprar y, cuando ya lo tienes, nosotros lo montamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #MontajePC #PCGamer #Murcia #ServicioTecnico #Informatica",
-        "Un PC bien montado se nota 💻\n\nMontaje completo de tu equipo y, si lo prefieres, instalación de Windows y drivers incluida para que lo enciendas y funcione.\n\nNos encargamos de todo el proceso.\n\n🔧 Qué incluye: Te asesoramos qué piezas comprar · Montaje completo de tu PC · Opción con Windows y drivers instalados · Listo para encender y usar.\n\n🧩 No vendemos piezas: te asesoramos para que sepas exactamente qué comprar y, cuando ya lo tienes, nosotros lo montamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #MontajePC #PCGaming #Murcia #Hardware #SolucionesTecnologicas",
-        "Del cajón de componentes a un PC listo 🔧\n\nMontamos tu equipo con cuidado y, si quieres, lo entregamos con Windows y drivers instalados.\n\nNos encargamos de todo el proceso.\n\n🔧 Qué incluye: Te asesoramos qué piezas comprar · Montaje completo de tu PC · Opción con Windows y drivers instalados · Listo para encender y usar.\n\n🧩 No vendemos piezas: te asesoramos para que sepas exactamente qué comprar y, cuando ya lo tienes, nosotros lo montamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #MontajePC #PCGaming #Hardware #Murcia #Informatica"
+        "🖥️ ¿Tienes los componentes y no sabes cómo montarlos?\n\nNos encargamos del montaje de tu PC y, si quieres, lo dejamos listo para usar con Windows y los drivers instalados.\n\nTú te olvidas de cables, tornillos y manuales.\n\n🔧 Qué incluye: Te asesoramos qué piezas comprar · Montaje completo de tu PC · Equipos gaming y premium · Revisión final antes de entregarlo.\n\n🧩 No vendemos piezas: te asesoramos para que sepas exactamente qué comprar y, cuando ya lo tienes, nosotros lo montamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #MontajePC #PCGamer #Murcia #ServicioTecnico #Informatica",
+        "Un PC bien montado se nota 💻\n\nMontaje completo de tu equipo y, si lo prefieres, instalación de Windows y drivers incluida para que lo enciendas y funcione.\n\nNos encargamos de todo el proceso.\n\n🔧 Qué incluye: Te asesoramos qué piezas comprar · Montaje completo de tu PC · Equipos gaming y premium · Revisión final antes de entregarlo.\n\n🧩 No vendemos piezas: te asesoramos para que sepas exactamente qué comprar y, cuando ya lo tienes, nosotros lo montamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #MontajePC #PCGaming #Murcia #Hardware #SolucionesTecnologicas",
+        "Del cajón de componentes a un PC listo 🔧\n\nMontamos tu equipo con cuidado y, si quieres, lo entregamos con Windows y drivers instalados.\n\nNos encargamos de todo el proceso.\n\n🔧 Qué incluye: Te asesoramos qué piezas comprar · Montaje completo de tu PC · Equipos gaming y premium · Revisión final antes de entregarlo.\n\n🧩 No vendemos piezas: te asesoramos para que sepas exactamente qué comprar y, cuando ya lo tienes, nosotros lo montamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #MontajePC #PCGaming #Hardware #Murcia #Informatica"
       ]
     },
     {
-      "id": "custom_loop",
-      "nombre": "PC de alta gama (custom loop)",
-      "chip": "ALTA GAMA",
-      "titulo_linea1": "PC de alta gama",
-      "titulo_linea2_azul": "con custom loop",
-      "subtitulo": "Montaje de refrigeración líquida rígida e instalación de Windows.",
+      "id": "montaje_windows_drivers",
+      "nombre": "Montaje con instalación de Windows y drivers",
+      "chip": "MONTAJE PC",
+      "titulo_linea1": "PC montado y",
+      "titulo_linea2_azul": "listo para usar",
+      "subtitulo": "Montamos tu PC e instalamos Windows y los drivers.",
       "puntos": [
         "Te asesoramos qué comprar",
-        "Montaje de custom loop rígido",
-        "Instalación de Windows",
-        "Para equipos de alto rendimiento"
+        "Montaje completo del PC",
+        "Instalación de Windows y drivers",
+        "Listo para encender y usar"
       ],
-      "ilustracion": "torre de PC con tubos rígidos de refrigeración líquida en azul y bloque de agua",
-      "texto_alternativo": "Publicación de JM TECH: montaje de custom loop rígido y Windows para PC de alta gama.",
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: montaje con instalación de Windows y drivers.",
       "pies_de_foto": [
-        "💧 ¿Sueñas con un PC de refrigeración líquida?\n\nNos encargamos del montaje de custom loop rígido y de la instalación de Windows, para que tu equipo de alta gama quede listo para rendir.\n\nUn trabajo a medida para un equipo a medida.\n\n🔧 Qué incluye: Te asesoramos qué comprar · Montaje de custom loop rígido · Instalación de Windows · Para equipos de alto rendimiento.\n\n🧩 No vendemos hardware: te asesoramos sobre qué componentes y qué refrigeración necesitas y, cuando ya los tienes, montamos tu custom loop.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #CustomLoop #WaterCooling #PCGaming #Murcia #MontajePC",
-        "Cuando el PC es tu pasión, el montaje también importa ⚙️\n\nMontamos tu custom loop rígido y dejamos Windows instalado para que solo te preocupes de disfrutarlo.\n\nCada montaje es distinto, así que preparamos el presupuesto según tu proyecto.\n\n🔧 Qué incluye: Te asesoramos qué comprar · Montaje de custom loop rígido · Instalación de Windows · Para equipos de alto rendimiento.\n\n🧩 No vendemos hardware: te asesoramos sobre qué componentes y qué refrigeración necesitas y, cuando ya los tienes, montamos tu custom loop.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #CustomLoop #LiquidCooling #Hardware #Murcia #PCGamer",
-        "Cada tubo cuenta 💙\n\nMontamos tu custom loop rígido con el cuidado que requiere un trabajo a medida y dejamos Windows instalado.\n\nCada proyecto es distinto: partimos de tu idea para el presupuesto.\n\n🔧 Qué incluye: Te asesoramos qué comprar · Montaje de custom loop rígido · Instalación de Windows · Para equipos de alto rendimiento.\n\n🧩 No vendemos hardware: te asesoramos sobre qué componentes y qué refrigeración necesitas y, cuando ya los tienes, montamos tu custom loop.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #CustomLoop #WaterCooling #PCGamer #Murcia #Hardware"
+        "💻 ¿Quieres tu PC montado y listo para usar desde el primer día?\n\nMontamos tu equipo, instalamos Windows y los drivers y comprobamos que todo arranca y funciona.\n\nTú compras las piezas; antes, te asesoramos para que elijas bien.\n\n🔧 Qué incluye: Te asesoramos qué comprar · Montaje completo del PC · Instalación de Windows y drivers · Listo para encender y usar.\n\n🧩 No vendemos piezas: te asesoramos para que sepas qué comprar y, cuando ya lo tienes, nosotros lo montamos y lo dejamos listo.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #MontajePC #Windows #Drivers #Murcia #ServicioTecnico",
+        "Del montaje al primer arranque, todo hecho 🚀\n\nNos encargamos de montar el PC y de dejarlo con Windows y los drivers instalados.\n\nSolo tienes que encenderlo.\n\n🔧 Qué incluye: Te asesoramos qué comprar · Montaje completo del PC · Instalación de Windows y drivers · Listo para encender y usar.\n\n🧩 No vendemos piezas: te asesoramos para que sepas qué comprar y, cuando ya lo tienes, nosotros lo montamos y lo dejamos listo.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #PCGaming #MontajePC #Windows #Murcia #Informatica",
+        "Montar el PC es solo la mitad del trabajo 🔧\n\nTambién instalamos Windows y los drivers para que no tengas que preocuparte de nada más.\n\nTe explicamos cómo queda todo.\n\n🔧 Qué incluye: Te asesoramos qué comprar · Montaje completo del PC · Instalación de Windows y drivers · Listo para encender y usar.\n\n🧩 No vendemos piezas: te asesoramos para que sepas qué comprar y, cuando ya lo tienes, nosotros lo montamos y lo dejamos listo.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #MontajeDePC #Drivers #Hardware #Murcia #SolucionesTecnologicas"
       ]
     },
     {
-      "id": "tarjeta_grafica",
-      "nombre": "Tarjeta gráfica y sustitución de componente",
+      "id": "componentes",
+      "nombre": "Instalación y sustitución de componentes",
       "chip": "COMPONENTES",
-      "titulo_linea1": "Mejora tu PC",
-      "titulo_linea2_azul": "pieza a pieza",
-      "subtitulo": "Instalamos tarjetas gráficas y sustituimos componentes.",
+      "titulo_linea1": "Cambia una pieza",
+      "titulo_linea2_azul": "de tu equipo",
+      "subtitulo": "Sustituimos e instalamos el componente que necesite tu PC.",
       "puntos": [
-        "Te asesoramos qué pieza elegir",
-        "Instalación de tarjeta gráfica",
-        "Sustitución de componentes",
-        "Comprobamos la compatibilidad"
+        "Te asesoramos qué pieza comprar",
+        "Instalación y sustitución",
+        "Comprobamos la compatibilidad",
+        "Equipo funcionando al terminar"
       ],
-      "ilustracion": "tarjeta gráfica de tres ventiladores y piezas de PC",
-      "texto_alternativo": "Publicación de JM TECH: instalación de tarjeta gráfica y sustitución de componentes del PC.",
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: instalación y sustitución de componentes.",
       "pies_de_foto": [
-        "🖥️ ¿Tu tarjeta gráfica se ha quedado corta o quieres cambiar una pieza?\n\nNos encargamos de instalar tu nueva gráfica y de sustituir el componente que lo necesite, comprobando que todo encaja y funciona.\n\nTú eliges la pieza; nosotros nos ocupamos del resto.\n\n🔧 Qué incluye: Te asesoramos qué pieza elegir · Instalación de tarjeta gráfica · Sustitución de componentes · Comprobamos la compatibilidad.\n\n🧩 No vendemos hardware: te asesoramos sobre qué pieza elegir; tú la compras y nosotros la instalamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #TarjetaGrafica #GPU #Hardware #Murcia #PCGaming",
-        "Cambiar una pieza es más fácil si lo hace quien sabe 🔧\n\nInstalamos tarjetas gráficas y sustituimos componentes de tu PC con el cuidado que requiere cada uno.\n\nSi no sabes qué pieza necesitas, te asesoramos.\n\n🔧 Qué incluye: Te asesoramos qué pieza elegir · Instalación de tarjeta gráfica · Sustitución de componentes · Comprobamos la compatibilidad.\n\n🧩 No vendemos hardware: te asesoramos sobre qué pieza elegir; tú la compras y nosotros la instalamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Componentes #GPU #MontajePC #Murcia #ServicioTecnico",
-        "Una gráfica nueva, instalada como toca ⚡\n\nColocamos la tarjeta, revisamos las conexiones y dejamos el equipo funcionando.\n\nLo mismo si lo que hay que cambiar es la memoria, el disco u otra pieza.\n\n🔧 Qué incluye: Te asesoramos qué pieza elegir · Instalación de tarjeta gráfica · Sustitución de componentes · Comprobamos la compatibilidad.\n\n🧩 No vendemos hardware: te asesoramos sobre qué pieza elegir; tú la compras y nosotros la instalamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #TarjetaGrafica #Hardware #PCGamer #Murcia #SolucionesTecnologicas"
+        "🔧 ¿Se ha estropeado una pieza de tu PC o quieres cambiarla por otra mejor?\n\nTe asesoramos sobre qué componente comprar y, cuando ya lo tienes, lo instalamos y comprobamos que todo funciona.\n\nCada equipo es distinto: partimos de lo que tienes.\n\n🔧 Qué incluye: Te asesoramos qué pieza comprar · Instalación y sustitución · Comprobamos la compatibilidad · Equipo funcionando al terminar.\n\n🧩 No vendemos hardware: te asesoramos sobre qué pieza elegir; tú la compras y nosotros la instalamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #Componentes #Hardware #PC #Murcia #ServicioTecnico",
+        "Cambiar un componente requiere saber qué comprar 🧩\n\nTe ayudamos a elegir la pieza adecuada y nos encargamos de sustituirla en tu equipo.\n\nRevisamos la compatibilidad antes de empezar.\n\n🔧 Qué incluye: Te asesoramos qué pieza comprar · Instalación y sustitución · Comprobamos la compatibilidad · Equipo funcionando al terminar.\n\n🧩 No vendemos hardware: te asesoramos sobre qué pieza elegir; tú la compras y nosotros la instalamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Hardware #Sustitucion #PCGamer #Murcia #SolucionesTecnologicas",
+        "Una pieza nueva, instalada con cuidado ⚙️\n\nSustituimos componentes de tu PC y comprobamos que el equipo arranca y funciona con normalidad.\n\nSi dudas qué necesitas, te asesoramos.\n\n🔧 Qué incluye: Te asesoramos qué pieza comprar · Instalación y sustitución · Comprobamos la compatibilidad · Equipo funcionando al terminar.\n\n🧩 No vendemos hardware: te asesoramos sobre qué pieza elegir; tú la compras y nosotros la instalamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #MontajePC #Componentes #Informatica #Murcia #Hardware"
+      ]
+    },
+    {
+      "id": "ram",
+      "nombre": "Instalación y optimización de RAM",
+      "chip": "MEMORIA RAM",
+      "titulo_linea1": "Más memoria",
+      "titulo_linea2_azul": "para tu equipo",
+      "subtitulo": "Instalamos y configuramos la memoria RAM de tu equipo.",
+      "puntos": [
+        "Te asesoramos qué RAM comprar",
+        "Instalación de la memoria",
+        "Configuración y ajustes",
+        "Comprobación de funcionamiento"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: instalación y optimización de RAM.",
+      "pies_de_foto": [
+        "🧠 ¿Tu equipo va justo de memoria o quieres ampliarla?\n\nTe asesoramos sobre qué RAM comprar, la instalamos y comprobamos que el equipo la reconoce y la aprovecha.\n\nTambién ajustamos su configuración si hace falta.\n\n🔧 Qué incluye: Te asesoramos qué RAM comprar · Instalación de la memoria · Configuración y ajustes · Comprobación de funcionamiento.\n\n🧩 No vendemos memoria: te asesoramos sobre qué RAM comprar; tú la compras y nosotros la instalamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #RAM #Memoria #Hardware #Murcia #ServicioTecnico",
+        "Ampliar la RAM, sin quebraderos de cabeza 💡\n\nNos encargamos de instalar y optimizar la memoria de tu equipo.\n\nTú compras los módulos (te decimos cuáles) y nosotros hacemos el resto.\n\n🔧 Qué incluye: Te asesoramos qué RAM comprar · Instalación de la memoria · Configuración y ajustes · Comprobación de funcionamiento.\n\n🧩 No vendemos memoria: te asesoramos sobre qué RAM comprar; tú la compras y nosotros la instalamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #RAM #Rendimiento #PC #Murcia #SolucionesTecnologicas",
+        "La memoria adecuada, bien instalada ⚡\n\nInstalamos y configuramos la RAM para que trabaje como debe.\n\nTe explicamos qué hemos hecho y por qué.\n\n🔧 Qué incluye: Te asesoramos qué RAM comprar · Instalación de la memoria · Configuración y ajustes · Comprobación de funcionamiento.\n\n🧩 No vendemos memoria: te asesoramos sobre qué RAM comprar; tú la compras y nosotros la instalamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #MemoriaRAM #Optimizacion #Informatica #Murcia #Hardware"
       ]
     },
     {
@@ -135,87 +177,213 @@
       ]
     },
     {
-      "id": "migracion_hdd_ssd",
-      "nombre": "Migración HDD → SSD",
-      "chip": "MIGRACIÓN",
-      "titulo_linea1": "Del HDD al SSD",
-      "titulo_linea2_azul": "con tus datos",
-      "subtitulo": "Migramos tu sistema y tus archivos a un disco más rápido.",
+      "id": "tarjeta_grafica",
+      "nombre": "Instalación de tarjeta gráfica",
+      "chip": "GRÁFICA",
+      "titulo_linea1": "Instalación de",
+      "titulo_linea2_azul": "tarjeta gráfica",
+      "subtitulo": "Instalamos tu nueva tarjeta gráfica y comprobamos que funciona.",
       "puntos": [
-        "Copia de tu sistema y archivos",
-        "Instalación del nuevo SSD",
-        "Arranque desde el disco nuevo",
-        "Te explicamos todo el proceso"
+        "Te asesoramos qué gráfica elegir",
+        "Instalación de la tarjeta",
+        "Drivers y comprobación",
+        "Revisión de conexiones"
       ],
-      "ilustracion": "disco duro, flecha azul y SSD",
-      "texto_alternativo": "Publicación de JM TECH: migración del sistema de un disco duro a un SSD.",
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: instalación de tarjeta gráfica.",
       "pies_de_foto": [
-        "🚀 ¿Quieres un SSD pero no quieres empezar de cero?\n\nMigramos tu sistema y tus archivos de un disco duro a un SSD, para que tu equipo siga como lo conoces pero más ágil.\n\nNos encargamos del proceso completo.\n\n🔧 Qué incluye: Copia de tu sistema y archivos · Instalación del nuevo SSD · Arranque desde el disco nuevo · Te explicamos todo el proceso.\n\n🧩 No vendemos hardware: tú compras el SSD (te asesoramos cuál) y nosotros hacemos la migración.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #SSD #Migracion #Informatica #Murcia #ServicioTecnico",
-        "Cambia de disco y sigue con lo tuyo 💡\n\nPasamos tu sistema, tus programas y tus archivos a un SSD nuevo.\n\nAntes de empezar te explicamos cómo lo haremos.\n\n🔧 Qué incluye: Copia de tu sistema y archivos · Instalación del nuevo SSD · Arranque desde el disco nuevo · Te explicamos todo el proceso.\n\n🧩 No vendemos hardware: tú compras el SSD (te asesoramos cuál) y nosotros hacemos la migración.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #SSD #HDD #Rendimiento #Murcia #SolucionesTecnologicas",
-        "Del disco duro al SSD, paso a paso 🔄\n\nHacemos la copia, instalamos el SSD y comprobamos que el equipo arranca desde el disco nuevo.\n\nTe lo contamos con claridad.\n\n🔧 Qué incluye: Copia de tu sistema y archivos · Instalación del nuevo SSD · Arranque desde el disco nuevo · Te explicamos todo el proceso.\n\n🧩 No vendemos hardware: tú compras el SSD (te asesoramos cuál) y nosotros hacemos la migración.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Migracion #SSD #PC #Murcia #Informatica"
+        "🖥️ ¿Vas a cambiar tu tarjeta gráfica y no quieres complicarte?\n\nTe asesoramos para que elijas una compatible con tu equipo y, cuando ya la tienes, la instalamos con sus drivers y comprobamos que funciona.\n\nTú eliges; nosotros instalamos.\n\n🔧 Qué incluye: Te asesoramos qué gráfica elegir · Instalación de la tarjeta · Drivers y comprobación · Revisión de conexiones.\n\n🧩 No vendemos tarjetas gráficas: te asesoramos sobre cuál elegir; tú la compras y nosotros la instalamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #TarjetaGrafica #GPU #Hardware #Murcia #PCGaming",
+        "Una gráfica nueva, instalada como toca ⚡\n\nColocamos la tarjeta, revisamos las conexiones, instalamos los drivers y dejamos el equipo listo.\n\nSi no sabes qué gráfica necesitas, te aconsejamos.\n\n🔧 Qué incluye: Te asesoramos qué gráfica elegir · Instalación de la tarjeta · Drivers y comprobación · Revisión de conexiones.\n\n🧩 No vendemos tarjetas gráficas: te asesoramos sobre cuál elegir; tú la compras y nosotros la instalamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #GPU #Gaming #PCGamer #Murcia #ServicioTecnico",
+        "Más potencia gráfica, bien instalada 🎮\n\nNos encargamos de la instalación de tu tarjeta gráfica, desde el montaje físico hasta los drivers.\n\nRevisamos todo antes de entregártelo.\n\n🔧 Qué incluye: Te asesoramos qué gráfica elegir · Instalación de la tarjeta · Drivers y comprobación · Revisión de conexiones.\n\n🧩 No vendemos tarjetas gráficas: te asesoramos sobre cuál elegir; tú la compras y nosotros la instalamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #TarjetaGrafica #Instalacion #Hardware #Murcia #SolucionesTecnologicas"
+      ]
+    },
+    {
+      "id": "placa_base",
+      "nombre": "Instalación de placa base",
+      "chip": "PLACA BASE",
+      "titulo_linea1": "Cambia la placa",
+      "titulo_linea2_azul": "base de tu PC",
+      "subtitulo": "Instalamos tu nueva placa base y dejamos el equipo funcionando.",
+      "puntos": [
+        "Te asesoramos qué placa comprar",
+        "Desmontaje y montaje de la placa",
+        "Comprobación de compatibilidad",
+        "Equipo listo para arrancar"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: instalación de placa base.",
+      "pies_de_foto": [
+        "🧩 ¿Necesitas cambiar la placa base de tu PC?\n\nTe asesoramos para que compres una placa compatible con el resto de tus piezas y, cuando ya la tienes, nos encargamos de desmontar, instalar y comprobar que todo arranca.\n\nEs un trabajo delicado: lo hacemos con calma.\n\n🔧 Qué incluye: Te asesoramos qué placa comprar · Desmontaje y montaje de la placa · Comprobación de compatibilidad · Equipo listo para arrancar.\n\n🧩 No vendemos placas base: te asesoramos sobre cuál comprar; tú la compras y nosotros la instalamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #PlacaBase #Hardware #PC #Murcia #ServicioTecnico",
+        "La placa base es el corazón del PC ❤️\n\nSi quieres renovarla, te ayudamos a elegir una compatible y la instalamos por ti.\n\nDespués comprobamos que el equipo arranca y funciona.\n\n🔧 Qué incluye: Te asesoramos qué placa comprar · Desmontaje y montaje de la placa · Comprobación de compatibilidad · Equipo listo para arrancar.\n\n🧩 No vendemos placas base: te asesoramos sobre cuál comprar; tú la compras y nosotros la instalamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #PlacaBase #MontajePC #PCGamer #Murcia #Informatica",
+        "Cambiar la placa base no es solo atornillar 🔧\n\nHay que revisar compatibilidad, conexiones y configuración.\n\nNos encargamos de todo el proceso.\n\n🔧 Qué incluye: Te asesoramos qué placa comprar · Desmontaje y montaje de la placa · Comprobación de compatibilidad · Equipo listo para arrancar.\n\n🧩 No vendemos placas base: te asesoramos sobre cuál comprar; tú la compras y nosotros la instalamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Hardware #Placa #Informatica #Murcia #SolucionesTecnologicas"
+      ]
+    },
+    {
+      "id": "cpu",
+      "nombre": "Instalación de CPU",
+      "chip": "PROCESADOR",
+      "titulo_linea1": "Instalación de",
+      "titulo_linea2_azul": "tu procesador",
+      "subtitulo": "Instalamos tu procesador con su pasta térmica y su disipador.",
+      "puntos": [
+        "Te asesoramos qué CPU comprar",
+        "Instalación del procesador",
+        "Pasta térmica y disipador",
+        "Comprobación de arranque"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: instalación de CPU.",
+      "pies_de_foto": [
+        "⚙️ ¿Vas a actualizar tu procesador?\n\nTe asesoramos para elegir una CPU compatible con tu placa y, cuando ya la tienes, la instalamos con su pasta térmica y su disipador.\n\nAl terminar, comprobamos que el equipo arranca correctamente.\n\n🔧 Qué incluye: Te asesoramos qué CPU comprar · Instalación del procesador · Pasta térmica y disipador · Comprobación de arranque.\n\n🧩 No vendemos procesadores: te asesoramos sobre cuál elegir; tú lo compras y nosotros lo instalamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #CPU #Procesador #Hardware #Murcia #ServicioTecnico",
+        "El procesador es una pieza delicada 🔬\n\nNos encargamos de instalarlo con cuidado, aplicar la pasta térmica y montar el disipador.\n\nTú compras la CPU; nosotros la instalamos.\n\n🔧 Qué incluye: Te asesoramos qué CPU comprar · Instalación del procesador · Pasta térmica y disipador · Comprobación de arranque.\n\n🧩 No vendemos procesadores: te asesoramos sobre cuál elegir; tú lo compras y nosotros lo instalamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Procesador #MontajePC #PCGaming #Murcia #Informatica",
+        "Actualizar la CPU sin miedo a hacerlo mal 🚀\n\nInstalamos tu procesador, aplicamos la pasta térmica y montamos el disipador.\n\nTe explicamos qué hemos hecho.\n\n🔧 Qué incluye: Te asesoramos qué CPU comprar · Instalación del procesador · Pasta térmica y disipador · Comprobación de arranque.\n\n🧩 No vendemos procesadores: te asesoramos sobre cuál elegir; tú lo compras y nosotros lo instalamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #CPU #Hardware #Actualizacion #Murcia #SolucionesTecnologicas"
+      ]
+    },
+    {
+      "id": "custom_loop",
+      "nombre": "PC de alta gama (custom loop)",
+      "chip": "ALTA GAMA",
+      "titulo_linea1": "PC de alta gama",
+      "titulo_linea2_azul": "con custom loop",
+      "subtitulo": "Montaje de refrigeración líquida rígida e instalación de Windows.",
+      "puntos": [
+        "Te asesoramos qué comprar",
+        "Montaje de custom loop rígido",
+        "Instalación de Windows",
+        "Para equipos de alto rendimiento"
+      ],
+      "ilustracion": "torre de PC con tubos rígidos de refrigeración líquida en azul y bloque de agua",
+      "texto_alternativo": "Publicación de JM TECH: montaje de custom loop rígido y Windows para PC de alta gama.",
+      "pies_de_foto": [
+        "💧 ¿Sueñas con un PC de refrigeración líquida?\n\nNos encargamos del montaje de custom loop rígido y de la instalación de Windows, para que tu equipo de alta gama quede listo para rendir.\n\nUn trabajo a medida para un equipo a medida.\n\n🔧 Qué incluye: Te asesoramos qué comprar · Montaje de custom loop rígido · Instalación de Windows · Para equipos de alto rendimiento.\n\n🧩 No vendemos hardware: te asesoramos sobre qué componentes y qué refrigeración necesitas y, cuando ya los tienes, montamos tu custom loop.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #CustomLoop #WaterCooling #PCGaming #Murcia #MontajePC",
+        "Cuando el PC es tu pasión, el montaje también importa ⚙️\n\nMontamos tu custom loop rígido y dejamos Windows instalado para que solo te preocupes de disfrutarlo.\n\nCada montaje es distinto, así que preparamos el presupuesto según tu proyecto.\n\n🔧 Qué incluye: Te asesoramos qué comprar · Montaje de custom loop rígido · Instalación de Windows · Para equipos de alto rendimiento.\n\n🧩 No vendemos hardware: te asesoramos sobre qué componentes y qué refrigeración necesitas y, cuando ya los tienes, montamos tu custom loop.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #CustomLoop #LiquidCooling #Hardware #Murcia #PCGamer",
+        "Cada tubo cuenta 💙\n\nMontamos tu custom loop rígido con el cuidado que requiere un trabajo a medida y dejamos Windows instalado.\n\nCada proyecto es distinto: partimos de tu idea para el presupuesto.\n\n🔧 Qué incluye: Te asesoramos qué comprar · Montaje de custom loop rígido · Instalación de Windows · Para equipos de alto rendimiento.\n\n🧩 No vendemos hardware: te asesoramos sobre qué componentes y qué refrigeración necesitas y, cuando ya los tienes, montamos tu custom loop.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #CustomLoop #WaterCooling #PCGamer #Murcia #Hardware"
+      ]
+    },
+    {
+      "id": "pasta_termica",
+      "nombre": "Cambio de pasta térmica",
+      "chip": "PASTA TÉRMICA",
+      "titulo_linea1": "Cambio de",
+      "titulo_linea2_azul": "pasta térmica",
+      "subtitulo": "Renovamos la pasta térmica de tu CPU para cuidar su temperatura.",
+      "puntos": [
+        "Retirada de la pasta antigua",
+        "Aplicación de pasta nueva",
+        "Revisión del disipador",
+        "Para PC y portátiles"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: cambio de pasta térmica.",
+      "pies_de_foto": [
+        "🌡️ ¿Tu equipo se calienta más de lo normal o hace mucho ruido?\n\nCambiamos la pasta térmica de la CPU: retiramos la antigua, aplicamos la nueva y revisamos el disipador.\n\nAyuda a que el equipo trabaje en mejores condiciones.\n\n🔧 Qué incluye: Retirada de la pasta antigua · Aplicación de pasta nueva · Revisión del disipador · Para PC y portátiles.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #PastaTermica #Mantenimiento #PC #Murcia #ServicioTecnico",
+        "La pasta térmica se seca con el tiempo ⏳\n\nSi tu equipo lleva años sin mantenimiento, conviene renovarla.\n\nNos encargamos de hacerlo con el cuidado que requiere.\n\n🔧 Qué incluye: Retirada de la pasta antigua · Aplicación de pasta nueva · Revisión del disipador · Para PC y portátiles.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #PastaTermica #Temperatura #PCGaming #Murcia #Informatica",
+        "Un pequeño cambio para cuidar tu procesador 🧊\n\nRenovamos la pasta térmica y comprobamos el montaje del disipador.\n\nTambién puedes pedirnos una limpieza interior.\n\n🔧 Qué incluye: Retirada de la pasta antigua · Aplicación de pasta nueva · Revisión del disipador · Para PC y portátiles.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Mantenimiento #CPU #Refrigeracion #Murcia #SolucionesTecnologicas"
       ]
     },
     {
       "id": "pasta_limpieza",
-      "nombre": "Pasta térmica y limpieza (sobremesa y portátil)",
+      "nombre": "Limpieza y pasta térmica de sobremesa",
       "chip": "MANTENIMIENTO",
       "titulo_linea1": "Limpieza y",
       "titulo_linea2_azul": "pasta térmica",
-      "subtitulo": "Cuidamos la temperatura de tu PC de sobremesa o portátil.",
+      "subtitulo": "Limpiamos tu PC de sobremesa y renovamos la pasta térmica.",
       "puntos": [
         "Limpieza interior de polvo",
+        "Limpieza de ventiladores",
         "Cambio de pasta térmica",
-        "Sobremesa y portátiles",
-        "Mantenimiento preventivo"
+        "Revisión final del equipo"
       ],
-      "ilustracion": "CPU con jeringa de pasta térmica, torre de PC y portátil con brocha",
-      "texto_alternativo": "Publicación de JM TECH: limpieza y cambio de pasta térmica en PC de sobremesa y portátiles.",
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: limpieza y pasta térmica de sobremesa.",
       "pies_de_foto": [
-        "🧼 ¿Tu PC o tu portátil hace ruido o se calienta más de lo normal?\n\nHacemos una limpieza interior y cambiamos la pasta térmica, tanto en equipos de sobremesa como en portátiles.\n\nCuidar la temperatura ayuda a que el equipo trabaje en mejores condiciones.\n\n🔧 Qué incluye: Limpieza interior de polvo · Cambio de pasta térmica · Sobremesa y portátiles · Mantenimiento preventivo.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #PastaTermica #Limpieza #Mantenimiento #Murcia #ServicioTecnico",
-        "El polvo también se acumula dentro del PC 🌬️\n\nLimpiamos el interior y renovamos la pasta térmica para que tu equipo trabaje más fresco.\n\nPrevenir hoy puede ahorrarte una avería mañana.\n\n🔧 Qué incluye: Limpieza interior de polvo · Cambio de pasta térmica · Sobremesa y portátiles · Mantenimiento preventivo.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Limpieza #PastaTermica #PCGaming #Murcia #Informatica",
-        "Mantenimiento para tu portátil y tu sobremesa 🔧\n\nAbrimos, limpiamos, cambiamos la pasta térmica y lo dejamos montado.\n\nSi lo necesitas, recogemos el equipo en tu casa.\n\n🔧 Qué incluye: Limpieza interior de polvo · Cambio de pasta térmica · Sobremesa y portátiles · Mantenimiento preventivo.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Mantenimiento #Portatil #PastaTermica #Murcia #ServicioTecnico"
+        "🧼 ¿Tu PC de sobremesa hace ruido o se calienta más de lo normal?\n\nAbrimos el equipo, limpiamos el polvo de ventiladores y componentes y renovamos la pasta térmica.\n\nAsí trabaja en mejores condiciones.\n\n🔧 Qué incluye: Limpieza interior de polvo · Limpieza de ventiladores · Cambio de pasta térmica · Revisión final del equipo.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #PastaTermica #Limpieza #Mantenimiento #Murcia #ServicioTecnico",
+        "El polvo también se acumula dentro del PC 🌬️\n\nLimpiamos el interior y renovamos la pasta térmica para que tu equipo trabaje más fresco.\n\nPrevenir hoy puede ahorrarte una avería mañana.\n\n🔧 Qué incluye: Limpieza interior de polvo · Limpieza de ventiladores · Cambio de pasta térmica · Revisión final del equipo.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Limpieza #PastaTermica #PCGaming #Murcia #Informatica",
+        "Mantenimiento completo para tu sobremesa 🔧\n\nLimpieza interior y pasta térmica nueva, y el equipo cerrado y comprobado al terminar.\n\nTe contamos cómo lo hemos encontrado.\n\n🔧 Qué incluye: Limpieza interior de polvo · Limpieza de ventiladores · Cambio de pasta térmica · Revisión final del equipo.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Mantenimiento #Sobremesa #PastaTermica #Murcia #SolucionesTecnologicas"
       ]
     },
     {
-      "id": "windows_programas",
-      "nombre": "Instalación de Windows y de programas",
-      "chip": "WINDOWS",
-      "titulo_linea1": "Windows y tus",
-      "titulo_linea2_azul": "programas listos",
-      "subtitulo": "Instalamos el sistema y el software que necesitas.",
+      "id": "limpieza_portatil",
+      "nombre": "Limpieza de portátil",
+      "chip": "PORTÁTILES",
+      "titulo_linea1": "Limpieza de",
+      "titulo_linea2_azul": "portátil",
+      "subtitulo": "Limpiamos el interior de tu portátil para que respire mejor.",
       "puntos": [
-        "Formateo e instalación de Windows",
-        "Instalación de programas",
-        "Configuración inicial",
-        "Te explicamos cómo queda"
+        "Apertura y limpieza interior",
+        "Limpieza del ventilador",
+        "Pasta térmica si hace falta",
+        "Revisión al cerrar"
       ],
-      "ilustracion": "ventana de sistema genérica con barra de progreso, sin logos",
-      "texto_alternativo": "Publicación de JM TECH: instalación de Windows y de programas.",
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: limpieza de portátil.",
       "pies_de_foto": [
-        "💻 ¿Tu PC necesita empezar de cero o te faltan programas por instalar?\n\nNos encargamos de instalar Windows y los programas que necesitas, y de dejarlo configurado para usarlo con normalidad.\n\nTe explicamos qué necesita tu equipo antes de empezar.\n\n🔧 Qué incluye: Formateo e instalación de Windows · Instalación de programas · Configuración inicial · Te explicamos cómo queda.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #Windows #Programas #Informatica #Murcia #ServicioTecnico",
-        "Un equipo nuevo o recién formateado, listo para trabajar ⚡\n\nInstalamos el sistema, los programas y los ajustes básicos.\n\nTú solo tienes que encenderlo.\n\n🔧 Qué incluye: Formateo e instalación de Windows · Instalación de programas · Configuración inicial · Te explicamos cómo queda.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Windows #Formateo #Software #Murcia #SolucionesTecnologicas",
-        "¿Cuántos programas te faltan por instalar? 🧩\n\nLos instalamos y configuramos por ti, junto con Windows si lo necesitas.\n\nSin pelearte con instaladores ni ajustes.\n\n🔧 Qué incluye: Formateo e instalación de Windows · Instalación de programas · Configuración inicial · Te explicamos cómo queda.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Software #Windows #PC #Murcia #Informatica"
+        "💻 ¿Tu portátil se calienta, hace ruido o va más lento de lo normal?\n\nLo abrimos, limpiamos el polvo del ventilador y de los conductos y, si hace falta, renovamos la pasta térmica.\n\nLo dejamos cerrado y comprobado.\n\n🔧 Qué incluye: Apertura y limpieza interior · Limpieza del ventilador · Pasta térmica si hace falta · Revisión al cerrar.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #LimpiezaPortatil #Portatil #Mantenimiento #Murcia #ServicioTecnico",
+        "El polvo en un portátil se nota 🌬️\n\nHacemos una limpieza interior para que el aire circule mejor.\n\nSi quieres, también cambiamos la pasta térmica.\n\n🔧 Qué incluye: Apertura y limpieza interior · Limpieza del ventilador · Pasta térmica si hace falta · Revisión al cerrar.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Portatil #Limpieza #Temperatura #Murcia #Informatica",
+        "Mantenimiento para que tu portátil respire 🧼\n\nDesmontamos, limpiamos y volvemos a montar con cuidado.\n\nTe explicamos el estado en el que lo encontramos.\n\n🔧 Qué incluye: Apertura y limpieza interior · Limpieza del ventilador · Pasta térmica si hace falta · Revisión al cerrar.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Portatiles #Mantenimiento #Limpieza #Murcia #SolucionesTecnologicas"
       ]
     },
     {
-      "id": "backup_recuperacion",
-      "nombre": "Copia de seguridad y recuperación de datos",
-      "chip": "DATOS",
-      "titulo_linea1": "Protege y",
-      "titulo_linea2_azul": "recupera tus datos",
-      "subtitulo": "Copias de seguridad y recuperación de archivos.",
+      "id": "limpieza_teclado",
+      "nombre": "Desmontaje y limpieza de teclado",
+      "chip": "TECLADO",
+      "titulo_linea1": "Limpieza a fondo",
+      "titulo_linea2_azul": "de tu teclado",
+      "subtitulo": "Desmontamos tu teclado y lo limpiamos por dentro y por fuera.",
       "puntos": [
-        "Copia de seguridad básica",
-        "Análisis de tu caso",
-        "Recuperación de archivos",
-        "Te explicamos las opciones"
+        "Desmontaje del teclado",
+        "Limpieza de teclas y base",
+        "Montaje de nuevo",
+        "Comprobación de todas las teclas"
       ],
-      "ilustracion": "disco duro con flecha de recuperación y archivos",
-      "texto_alternativo": "Publicación de JM TECH: copias de seguridad y recuperación de datos.",
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: desmontaje y limpieza de teclado.",
       "pies_de_foto": [
-        "💽 ¿Has perdido archivos o quieres evitar perderlos?\n\nHacemos copias de seguridad básicas para proteger lo importante y, si ya has perdido datos, analizamos tu caso y te explicamos qué se puede hacer.\n\nNo podemos prometer resultados antes de analizarlo.\n\n🔧 Qué incluye: Copia de seguridad básica · Análisis de tu caso · Recuperación de archivos · Te explicamos las opciones.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #CopiaDeSeguridad #RecuperacionDeDatos #Backup #Murcia #ServicioTecnico",
-        "Tus fotos y tus documentos importan 📁\n\nTe ayudamos a hacer una copia de seguridad básica. Y si algo se ha perdido, estudiamos tu caso con calma.\n\nSi has perdido archivos, mejor no seguir usando el disco hasta que lo veamos.\n\n🔧 Qué incluye: Copia de seguridad básica · Análisis de tu caso · Recuperación de archivos · Te explicamos las opciones.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Backup #Datos #RecuperacionDeDatos #Murcia #Informatica",
-        "Mejor prevenir que lamentar 🛡️\n\nUna copia de seguridad a tiempo evita muchos disgustos. Nos encargamos de prepararla y de explicarte cómo mantenerla.\n\nY si ya ha pasado algo, analizamos tu caso.\n\n🔧 Qué incluye: Copia de seguridad básica · Análisis de tu caso · Recuperación de archivos · Te explicamos las opciones.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #CopiaDeSeguridad #Datos #Backup #Murcia #SolucionesTecnologicas"
+        "⌨️ ¿Se te han pegado las teclas o ha caído algo sobre el teclado?\n\nLo desmontamos, lo limpiamos con cuidado y lo montamos de nuevo comprobando que todas las teclas responden.\n\nSi ha entrado líquido, primero lo revisamos: no podemos asegurar el resultado antes de verlo.\n\n🔧 Qué incluye: Desmontaje del teclado · Limpieza de teclas y base · Montaje de nuevo · Comprobación de todas las teclas.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #LimpiezaTeclado #Teclado #Mantenimiento #Murcia #ServicioTecnico",
+        "Un teclado sucio se nota al teclear 🧽\n\nHacemos un desmontaje y una limpieza a fondo de teclas y base.\n\nAl terminar, comprobamos que todo funciona.\n\n🔧 Qué incluye: Desmontaje del teclado · Limpieza de teclas y base · Montaje de nuevo · Comprobación de todas las teclas.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Teclado #Limpieza #Informatica #Murcia #SolucionesTecnologicas",
+        "Teclas que fallan o van duras 🔍\n\nRevisamos y limpiamos el teclado para mejorar la pulsación.\n\nTe explicamos qué hemos encontrado.\n\n🔧 Qué incluye: Desmontaje del teclado · Limpieza de teclas y base · Montaje de nuevo · Comprobación de todas las teclas.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Teclado #Reparacion #Portatil #Murcia #ServicioTecnico"
+      ]
+    },
+    {
+      "id": "cambio_ventilador",
+      "nombre": "Cambio de ventilador",
+      "chip": "VENTILACIÓN",
+      "titulo_linea1": "Cambio de",
+      "titulo_linea2_azul": "ventilador",
+      "subtitulo": "Sustituimos el ventilador que hace ruido o ha dejado de girar.",
+      "puntos": [
+        "Revisión del ventilador",
+        "Te asesoramos qué ventilador comprar",
+        "Sustitución del ventilador",
+        "Comprobación de temperaturas"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: cambio de ventilador.",
+      "pies_de_foto": [
+        "🌀 ¿Tu ventilador hace ruido, vibra o ha dejado de girar?\n\nLo revisamos y lo sustituimos: te asesoramos sobre qué ventilador comprar y, cuando ya lo tienes, nos encargamos del cambio.\n\nAl terminar comprobamos que gira y refrigera bien.\n\n🔧 Qué incluye: Revisión del ventilador · Te asesoramos qué ventilador comprar · Sustitución del ventilador · Comprobación de temperaturas.\n\n🧩 No vendemos ventiladores: te asesoramos sobre cuál comprar; tú lo compras y nosotros lo cambiamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #Ventilador #Refrigeracion #Hardware #Murcia #ServicioTecnico",
+        "Un ventilador averiado afecta a todo el equipo 🌡️\n\nSi no refrigera bien, el PC o el portátil se calientan y rinden peor.\n\nNos encargamos de sustituirlo con cuidado.\n\n🔧 Qué incluye: Revisión del ventilador · Te asesoramos qué ventilador comprar · Sustitución del ventilador · Comprobación de temperaturas.\n\n🧩 No vendemos ventiladores: te asesoramos sobre cuál comprar; tú lo compras y nosotros lo cambiamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Ventilador #Temperatura #PC #Murcia #Informatica",
+        "Más silencio y mejor refrigeración 🔇\n\nCambiamos ventiladores de PC y de portátil.\n\nTe explicamos qué ocurría y qué hemos hecho.\n\n🔧 Qué incluye: Revisión del ventilador · Te asesoramos qué ventilador comprar · Sustitución del ventilador · Comprobación de temperaturas.\n\n🧩 No vendemos ventiladores: te asesoramos sobre cuál comprar; tú lo compras y nosotros lo cambiamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #CambioDeVentilador #Mantenimiento #Hardware #Murcia #SolucionesTecnologicas"
+      ]
+    },
+    {
+      "id": "optimizacion_pc",
+      "nombre": "Optimización de PC",
+      "chip": "OPTIMIZACIÓN",
+      "titulo_linea1": "Optimización",
+      "titulo_linea2_azul": "de tu PC",
+      "subtitulo": "Ajustamos tu equipo para que trabaje de la mejor forma posible.",
+      "puntos": [
+        "Revisión de rendimiento",
+        "Limpieza de procesos y programas",
+        "Ajustes del sistema y drivers",
+        "Te explicamos qué hacemos"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: optimización de PC.",
+      "pies_de_foto": [
+        "⚙️ ¿Tu PC va lento, tarda en arrancar o se queda colgado?\n\nRevisamos su rendimiento y ajustamos el sistema, los drivers y los programas que arrancan con el equipo.\n\nTe explicamos qué hemos tocado y por qué.\n\n🔧 Qué incluye: Revisión de rendimiento · Limpieza de procesos y programas · Ajustes del sistema y drivers · Te explicamos qué hacemos.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #OptimizacionPC #Rendimiento #PC #Murcia #ServicioTecnico",
+        "Un PC bien ajustado se nota 💡\n\nHacemos una optimización a medida de tu equipo, partiendo de cómo lo usas.\n\nCada equipo es distinto.\n\n🔧 Qué incluye: Revisión de rendimiento · Limpieza de procesos y programas · Ajustes del sistema y drivers · Te explicamos qué hacemos.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Optimizacion #Windows #Informatica #Murcia #SolucionesTecnologicas",
+        "Antes de comprar un equipo nuevo, revisa el que tienes 🔍\n\nA veces con una buena optimización se mejora mucho el día a día.\n\nLo vemos contigo.\n\n🔧 Qué incluye: Revisión de rendimiento · Limpieza de procesos y programas · Ajustes del sistema y drivers · Te explicamos qué hacemos.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Rendimiento #PC #Mantenimiento #Murcia #Informatica"
       ]
     },
     {
@@ -240,6 +408,48 @@
       ]
     },
     {
+      "id": "gaming_streaming",
+      "nombre": "Optimización de gaming y streaming",
+      "chip": "GAMING + STREAM",
+      "titulo_linea1": "Gaming y",
+      "titulo_linea2_azul": "streaming a punto",
+      "subtitulo": "Ajustamos tu PC para jugar y hacer directos con buen rendimiento.",
+      "puntos": [
+        "Revisión de rendimiento",
+        "Ajustes para jugar y emitir",
+        "Drivers y configuración",
+        "Te explicamos los cambios"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: optimización de gaming y streaming.",
+      "pies_de_foto": [
+        "🎮 ¿Juegas y emites desde el mismo PC y notas que le cuesta?\n\nRevisamos tu equipo y ajustamos drivers, sistema y configuración para que rinda mejor en las dos cosas.\n\nPartimos de lo que tienes.\n\n🔧 Qué incluye: Revisión de rendimiento · Ajustes para jugar y emitir · Drivers y configuración · Te explicamos los cambios.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #Streaming #PCGaming #Optimizacion #Murcia #ServicioTecnico",
+        "Jugar y emitir a la vez exige un PC bien ajustado 🔴\n\nOptimizamos tu equipo para gaming y streaming, y te explicamos cada ajuste.\n\nSin complicaciones para ti.\n\n🔧 Qué incluye: Revisión de rendimiento · Ajustes para jugar y emitir · Drivers y configuración · Te explicamos los cambios.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Streamer #Gaming #OBS #Murcia #SolucionesTecnologicas",
+        "Tu directo merece un PC a punto 🚀\n\nRevisamos rendimiento, drivers y ajustes para que puedas jugar y emitir con más soltura.\n\nTambién puedes pedirnos la configuración de OBS.\n\n🔧 Qué incluye: Revisión de rendimiento · Ajustes para jugar y emitir · Drivers y configuración · Te explicamos los cambios.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Streaming #PCGamer #Rendimiento #Murcia #Informatica"
+      ]
+    },
+    {
+      "id": "bios_xmp",
+      "nombre": "Configuración BIOS/UEFI y XMP/EXPO",
+      "chip": "BIOS / XMP",
+      "titulo_linea1": "BIOS y perfil",
+      "titulo_linea2_azul": "XMP / EXPO",
+      "subtitulo": "Configuramos la BIOS y activamos el perfil de tu memoria.",
+      "puntos": [
+        "Revisión de la BIOS/UEFI",
+        "Perfil XMP/EXPO de la memoria",
+        "Ajustes prudentes",
+        "Comprobación de estabilidad"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: configuración BIOS/UEFI y XMP/EXPO.",
+      "pies_de_foto": [
+        "🛠️ ¿Tu memoria RAM no funciona a la velocidad que debería?\n\nRevisamos la BIOS/UEFI de tu equipo y activamos el perfil XMP o EXPO de tu memoria para que trabaje como indica.\n\nDespués comprobamos que el equipo es estable.\n\n🔧 Qué incluye: Revisión de la BIOS/UEFI · Perfil XMP/EXPO de la memoria · Ajustes prudentes · Comprobación de estabilidad.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #BIOS #XMP #EXPO #Murcia #ServicioTecnico",
+        "La BIOS es el primer paso para un PC bien configurado ⚙️\n\nTe ayudamos a revisarla y a ajustar lo necesario, sin tocar lo que no hace falta.\n\nTe explicamos cada cambio.\n\n🔧 Qué incluye: Revisión de la BIOS/UEFI · Perfil XMP/EXPO de la memoria · Ajustes prudentes · Comprobación de estabilidad.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #UEFI #BIOS #PCGaming #Murcia #Informatica",
+        "XMP o EXPO: la memoria a su velocidad 🚀\n\nActivamos el perfil de tu RAM y comprobamos que el sistema es estable.\n\nSi no sabes por dónde empezar, lo hacemos nosotros.\n\n🔧 Qué incluye: Revisión de la BIOS/UEFI · Perfil XMP/EXPO de la memoria · Ajustes prudentes · Comprobación de estabilidad.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #XMP #RAM #Hardware #Murcia #SolucionesTecnologicas"
+      ]
+    },
+    {
       "id": "streaming",
       "nombre": "Empieza a hacer streaming",
       "chip": "STREAMING",
@@ -261,45 +471,317 @@
       ]
     },
     {
-      "id": "movil_pantalla_conector",
-      "nombre": "Móvil: cambio de pantalla y de conector de carga",
-      "chip": "MÓVILES",
-      "titulo_linea1": "Pantalla rota",
-      "titulo_linea2_azul": "o no carga",
-      "subtitulo": "Cambiamos la pantalla y el conector de carga de tu móvil.",
+      "id": "windows",
+      "nombre": "Instalación de Windows",
+      "chip": "WINDOWS",
+      "titulo_linea1": "Instalación de",
+      "titulo_linea2_azul": "Windows",
+      "subtitulo": "Instalamos Windows con los drivers y la configuración que necesitas.",
       "puntos": [
-        "Cambio de pantalla de móvil",
-        "Cambio de conector de carga",
-        "Revisamos qué falla antes",
-        "Recogida en casa si lo necesitas"
+        "Instalación de Windows",
+        "Drivers del equipo",
+        "Configuración inicial",
+        "Te explicamos las opciones"
       ],
-      "ilustracion": "móvil con pantalla rota, pantalla nueva y placa del conector",
-      "texto_alternativo": "Publicación de JM TECH: cambio de pantalla y de conector de carga de móvil.",
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: instalación de Windows.",
       "pies_de_foto": [
-        "📱 ¿Se te ha roto la pantalla del móvil o ya no carga bien?\n\nCambiamos la pantalla y el conector de carga, y antes de tocar nada revisamos qué falla.\n\nSi lo necesitas, recogemos el móvil en tu casa.\n\n🔧 Qué incluye: Cambio de pantalla de móvil · Cambio de conector de carga · Revisamos qué falla antes · Recogida en casa si lo necesitas.\n\n🧩 No vendemos repuestos: te asesoramos sobre qué pieza comprar; tú la compras y nosotros la cambiamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #ReparacionMovil #CambioDePantalla #Movil #Murcia #ServicioTecnico",
-        "Una pantalla rota no tiene por qué ser el final 💥\n\nSustituimos la pantalla de tu móvil y también el conector de carga cuando falla.\n\nTe explicamos el problema y las opciones.\n\n🔧 Qué incluye: Cambio de pantalla de móvil · Cambio de conector de carga · Revisamos qué falla antes · Recogida en casa si lo necesitas.\n\n🧩 No vendemos repuestos: te asesoramos sobre qué pieza comprar; tú la compras y nosotros la cambiamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Movil #Pantalla #Reparacion #Murcia #SolucionesTecnologicas",
-        "¿Tienes que mover el cable para que cargue? 🔌\n\nPuede ser el conector de carga. Lo revisamos y lo cambiamos si hace falta.\n\nTambién cambiamos pantallas de móvil.\n\n🔧 Qué incluye: Cambio de pantalla de móvil · Cambio de conector de carga · Revisamos qué falla antes · Recogida en casa si lo necesitas.\n\n🧩 No vendemos repuestos: te asesoramos sobre qué pieza comprar; tú la compras y nosotros la cambiamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #ConectorDeCarga #ReparacionMovil #Movil #Murcia #ServicioTecnico"
+        "💻 ¿Necesitas instalar Windows en tu equipo?\n\nNos encargamos de la instalación, de los drivers y de la configuración inicial, según lo que necesites.\n\nAntes de empezar te explicamos las opciones.\n\n🔧 Qué incluye: Instalación de Windows · Drivers del equipo · Configuración inicial · Te explicamos las opciones.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #Windows #InstalacionWindows #Informatica #Murcia #ServicioTecnico",
+        "Un Windows bien instalado marca la diferencia ⚡\n\nInstalamos el sistema con los drivers adecuados y lo dejamos configurado para usarlo.\n\nTú solo tienes que encender el equipo.\n\n🔧 Qué incluye: Instalación de Windows · Drivers del equipo · Configuración inicial · Te explicamos las opciones.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Windows #Drivers #PC #Murcia #SolucionesTecnologicas",
+        "Instalar Windows no tiene por qué ser un lío 🧩\n\nNos ocupamos de todo el proceso, incluidos los drivers y los ajustes básicos.\n\nSi necesitas algo concreto, cuéntanoslo.\n\n🔧 Qué incluye: Instalación de Windows · Drivers del equipo · Configuración inicial · Te explicamos las opciones.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #InstalacionWindows #Software #Informatica #Murcia #ServicioTecnico"
       ]
     },
     {
-      "id": "movil_bateria",
-      "nombre": "Móvil: cambio de batería",
-      "chip": "MÓVILES",
-      "titulo_linea1": "Tu móvil con",
-      "titulo_linea2_azul": "batería nueva",
-      "subtitulo": "Cambio de batería para recuperar autonomía.",
+      "id": "formateo_windows",
+      "nombre": "Formateo e instalación de Windows (con copia de seguridad)",
+      "chip": "FORMATEO",
+      "titulo_linea1": "Empieza de cero",
+      "titulo_linea2_azul": "con Windows nuevo",
+      "subtitulo": "Formateamos tu equipo e instalamos Windows, con copia previa si quieres.",
       "puntos": [
-        "Cambio de batería de móvil",
+        "Copia de seguridad previa",
+        "Formateo del equipo",
+        "Instalación de Windows",
+        "Drivers y configuración"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: formateo e instalación de Windows (con copia de seguridad).",
+      "pies_de_foto": [
+        "🧹 ¿Tu PC va lento o da errores y quieres empezar de cero?\n\nHacemos una copia de seguridad de lo importante, formateamos el equipo, instalamos Windows y los drivers.\n\nSi no quieres copia, también podemos formatear directamente.\n\n🔧 Qué incluye: Copia de seguridad previa · Formateo del equipo · Instalación de Windows · Drivers y configuración.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #Formateo #Windows #Backup #Murcia #ServicioTecnico",
+        "Formatear sin perder lo importante 📁\n\nAntes de borrar nada, guardamos una copia de tus archivos.\n\nDespués instalamos Windows y dejamos el equipo listo.\n\n🔧 Qué incluye: Copia de seguridad previa · Formateo del equipo · Instalación de Windows · Drivers y configuración.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #FormateoPC #CopiaDeSeguridad #Windows #Murcia #Informatica",
+        "Un equipo como recién instalado 💡\n\nFormateo, instalación de Windows y configuración, con copia de seguridad opcional.\n\nTe explicamos cada paso.\n\n🔧 Qué incluye: Copia de seguridad previa · Formateo del equipo · Instalación de Windows · Drivers y configuración.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Formatear #Windows #PC #Murcia #SolucionesTecnologicas"
+      ]
+    },
+    {
+      "id": "programas",
+      "nombre": "Instalación de programas",
+      "chip": "PROGRAMAS",
+      "titulo_linea1": "Instalamos tus",
+      "titulo_linea2_azul": "programas",
+      "subtitulo": "Instalamos y configuramos los programas que necesitas.",
+      "puntos": [
+        "Instalación de programas",
+        "Configuración básica",
+        "Revisión de que funcionan",
+        "Te explicamos lo básico"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: instalación de programas.",
+      "pies_de_foto": [
+        "🧩 ¿Te faltan programas por instalar o no sabes cómo configurarlos?\n\nLos instalamos y los dejamos configurados para que puedas usarlos desde el primer momento.\n\nSin pelearte con instaladores ni ajustes.\n\n🔧 Qué incluye: Instalación de programas · Configuración básica · Revisión de que funcionan · Te explicamos lo básico.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #Programas #Software #Instalacion #Murcia #ServicioTecnico",
+        "Un equipo nuevo, pero sin tus programas 😅\n\nNos encargamos de instalar lo que necesitas y de configurarlo.\n\nTú nos dices qué usas.\n\n🔧 Qué incluye: Instalación de programas · Configuración básica · Revisión de que funcionan · Te explicamos lo básico.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #InstalacionDeProgramas #PC #Informatica #Murcia #SolucionesTecnologicas",
+        "Todo instalado y funcionando ✅\n\nInstalamos programas en tu PC o portátil y comprobamos que arrancan y funcionan.\n\nSi tienes dudas de uso, te las resolvemos.\n\n🔧 Qué incluye: Instalación de programas · Configuración básica · Revisión de que funcionan · Te explicamos lo básico.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Software #Programas #Configuracion #Murcia #ServicioTecnico"
+      ]
+    },
+    {
+      "id": "software_profesional",
+      "nombre": "Instalación y configuración de software profesional",
+      "chip": "SOFTWARE",
+      "titulo_linea1": "Software",
+      "titulo_linea2_azul": "profesional listo",
+      "subtitulo": "Instalamos y configuramos el software que usa tu negocio.",
+      "puntos": [
+        "Instalación del software",
+        "Configuración inicial",
+        "Adaptado a tu puesto",
+        "Te explicamos lo básico"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: instalación y configuración de software profesional.",
+      "pies_de_foto": [
+        "🖥️ ¿Tu negocio usa software profesional y necesitas dejarlo instalado y configurado?\n\nNos encargamos de la instalación y de la configuración inicial, adaptada a tu forma de trabajar.\n\nPara autónomos y empresas.\n\n🔧 Qué incluye: Instalación del software · Configuración inicial · Adaptado a tu puesto · Te explicamos lo básico.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #SoftwareProfesional #Empresas #Autonomos #Murcia #Informatica",
+        "Ponte a trabajar sin perder tiempo instalando 🛠️\n\nPreparamos el software profesional de tu equipo y comprobamos que funciona.\n\nSi lo necesitas, te explicamos lo básico.\n\n🔧 Qué incluye: Instalación del software · Configuración inicial · Adaptado a tu puesto · Te explicamos lo básico.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Software #Productividad #Empresas #Murcia #SolucionesTecnologicas",
+        "Cada puesto de trabajo, bien configurado 🧰\n\nInstalamos y configuramos el software que usas en tu día a día.\n\nPartimos de lo que necesita tu negocio.\n\n🔧 Qué incluye: Instalación del software · Configuración inicial · Adaptado a tu puesto · Te explicamos lo básico.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #SoftwareProfesional #Configuracion #Pymes #Murcia #ServicioTecnico"
+      ]
+    },
+    {
+      "id": "perifericos",
+      "nombre": "Configuración de periféricos",
+      "chip": "PERIFÉRICOS",
+      "titulo_linea1": "Periféricos",
+      "titulo_linea2_azul": "bien configurados",
+      "subtitulo": "Configuramos tu teclado, ratón, micrófono, cámara y más.",
+      "puntos": [
+        "Instalación de drivers",
+        "Configuración de periféricos",
+        "Ajustes para trabajar o jugar",
+        "Pruebas de funcionamiento"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: configuración de periféricos.",
+      "pies_de_foto": [
+        "🎧 ¿Tienes un periférico nuevo y no lo reconoce el equipo o no sabes configurarlo?\n\nInstalamos los drivers y lo configuramos: teclado, ratón, micrófono, cámara, auriculares y más.\n\nTe lo dejamos probado.\n\n🔧 Qué incluye: Instalación de drivers · Configuración de periféricos · Ajustes para trabajar o jugar · Pruebas de funcionamiento.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #Perifericos #Configuracion #Setup #Murcia #ServicioTecnico",
+        "Tu setup, a tu manera 🖱️\n\nConfiguramos tus periféricos para trabajar, jugar o hacer streaming.\n\nCuéntanos qué usas y cómo lo quieres.\n\n🔧 Qué incluye: Instalación de drivers · Configuración de periféricos · Ajustes para trabajar o jugar · Pruebas de funcionamiento.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Setup #Perifericos #Gaming #Murcia #Informatica",
+        "Los periféricos también necesitan ajustes ⚙️\n\nDrivers, perfiles y pruebas para que todo funcione como esperas.\n\nSi te falta algo, te asesoramos.\n\n🔧 Qué incluye: Instalación de drivers · Configuración de periféricos · Ajustes para trabajar o jugar · Pruebas de funcionamiento.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Perifericos #Streaming #PC #Murcia #SolucionesTecnologicas"
+      ]
+    },
+    {
+      "id": "optimizacion_windows",
+      "nombre": "Optimización de Windows",
+      "chip": "WINDOWS",
+      "titulo_linea1": "Optimización",
+      "titulo_linea2_azul": "de Windows",
+      "subtitulo": "Revisamos y ajustamos Windows para que trabaje mejor.",
+      "puntos": [
+        "Revisión del sistema",
+        "Limpieza de programas innecesarios",
+        "Ajustes de arranque y rendimiento",
+        "Actualizaciones y drivers"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: optimización de Windows.",
+      "pies_de_foto": [
+        "⚡ ¿Windows tarda en arrancar o va más lento que antes?\n\nRevisamos el sistema, quitamos lo que sobra y ajustamos el arranque, las actualizaciones y los drivers.\n\nTe explicamos qué hemos hecho.\n\n🔧 Qué incluye: Revisión del sistema · Limpieza de programas innecesarios · Ajustes de arranque y rendimiento · Actualizaciones y drivers.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #OptimizacionWindows #Windows #Rendimiento #Murcia #ServicioTecnico",
+        "Con el tiempo, Windows acumula de todo 🧹\n\nHacemos una puesta a punto: programas innecesarios, ajustes y actualizaciones.\n\nSin formatear si no hace falta.\n\n🔧 Qué incluye: Revisión del sistema · Limpieza de programas innecesarios · Ajustes de arranque y rendimiento · Actualizaciones y drivers.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Windows #Mantenimiento #PC #Murcia #Informatica",
+        "Un Windows más ordenado, un PC más agradable 💡\n\nOptimizamos el sistema a partir de cómo lo usas.\n\nSi hace falta algo más, te lo contamos antes.\n\n🔧 Qué incluye: Revisión del sistema · Limpieza de programas innecesarios · Ajustes de arranque y rendimiento · Actualizaciones y drivers.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Windows #Optimizacion #Software #Murcia #SolucionesTecnologicas"
+      ]
+    },
+    {
+      "id": "malware",
+      "nombre": "Eliminación de virus y malware",
+      "chip": "SEGURIDAD",
+      "titulo_linea1": "Eliminamos virus",
+      "titulo_linea2_azul": "y malware",
+      "subtitulo": "Limpiamos tu equipo de virus y malware y te damos consejos.",
+      "puntos": [
+        "Análisis del equipo",
+        "Eliminación de virus y malware",
+        "Revisión de la seguridad",
+        "Consejos para evitarlos"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: eliminación de virus y malware.",
+      "pies_de_foto": [
+        "🛡️ ¿Tu equipo va lento, muestra anuncios raros o crees que tiene un virus?\n\nLo analizamos, eliminamos el malware y revisamos la seguridad.\n\nAl terminar te damos consejos para evitar que vuelva a pasar.\n\n🔧 Qué incluye: Análisis del equipo · Eliminación de virus y malware · Revisión de la seguridad · Consejos para evitarlos.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #Virus #Malware #Seguridad #Murcia #ServicioTecnico",
+        "Un equipo infectado puede poner en riesgo tus datos 🔒\n\nHacemos un análisis a fondo y limpiamos el sistema.\n\nSi el equipo está muy afectado, te explicamos las opciones.\n\n🔧 Qué incluye: Análisis del equipo · Eliminación de virus y malware · Revisión de la seguridad · Consejos para evitarlos.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #EliminarVirus #Ciberseguridad #PC #Murcia #Informatica",
+        "Antivirus no siempre es suficiente 🔍\n\nRevisamos tu equipo con calma y lo dejamos limpio.\n\nCuéntanos qué has notado.\n\n🔧 Qué incluye: Análisis del equipo · Eliminación de virus y malware · Revisión de la seguridad · Consejos para evitarlos.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Malware #Seguridad #Windows #Murcia #SolucionesTecnologicas"
+      ]
+    },
+    {
+      "id": "recuperacion_sistema",
+      "nombre": "Recuperación del sistema",
+      "chip": "SISTEMA",
+      "titulo_linea1": "Recuperamos",
+      "titulo_linea2_azul": "tu sistema",
+      "subtitulo": "Si Windows no arranca o falla, estudiamos cómo recuperarlo.",
+      "puntos": [
+        "Análisis del problema",
+        "Recuperación del sistema",
+        "Copia de tus archivos si es posible",
+        "Te explicamos las opciones"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: recuperación del sistema.",
+      "pies_de_foto": [
+        "🛟 ¿Windows no arranca, se reinicia solo o muestra errores?\n\nAnalizamos qué ocurre e intentamos recuperar el sistema. Si es posible, antes ponemos a salvo tus archivos.\n\nNo podemos prometer el resultado antes de verlo.\n\n🔧 Qué incluye: Análisis del problema · Recuperación del sistema · Copia de tus archivos si es posible · Te explicamos las opciones.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #RecuperacionDelSistema #Windows #Errores #Murcia #ServicioTecnico",
+        "Un equipo que no arranca tiene arreglo muchas veces 🔧\n\nRevisamos el problema y te contamos las opciones: reparar, recuperar o reinstalar.\n\nDecides con toda la información.\n\n🔧 Qué incluye: Análisis del problema · Recuperación del sistema · Copia de tus archivos si es posible · Te explicamos las opciones.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Windows #Reparacion #PC #Murcia #Informatica",
+        "Antes de formatear, mira si se puede recuperar 💡\n\nEstudiamos tu caso y buscamos la mejor salida para tu sistema y tus archivos.\n\nTe lo explicamos con claridad.\n\n🔧 Qué incluye: Análisis del problema · Recuperación del sistema · Copia de tus archivos si es posible · Te explicamos las opciones.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #SistemaOperativo #Recuperacion #Windows #Murcia #SolucionesTecnologicas"
+      ]
+    },
+    {
+      "id": "copias_seguridad",
+      "nombre": "Copias de seguridad",
+      "chip": "BACKUP",
+      "titulo_linea1": "Protege tus",
+      "titulo_linea2_azul": "archivos",
+      "subtitulo": "Hacemos una copia de seguridad de lo importante.",
+      "puntos": [
+        "Copia de seguridad básica",
+        "Fotos, documentos y archivos",
+        "Selección de lo importante",
+        "Te explicamos cómo mantenerla"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: copias de seguridad.",
+      "pies_de_foto": [
+        "💾 ¿Qué pasaría si tu equipo dejara de funcionar mañana?\n\nHacemos una copia de seguridad de tus fotos, documentos y archivos importantes.\n\nY te explicamos cómo mantenerla al día.\n\n🔧 Qué incluye: Copia de seguridad básica · Fotos, documentos y archivos · Selección de lo importante · Te explicamos cómo mantenerla.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #CopiaDeSeguridad #Backup #Datos #Murcia #ServicioTecnico",
+        "Mejor prevenir que lamentar 🛡️\n\nUna copia a tiempo evita muchos disgustos.\n\nNos encargamos de prepararla y de dejarla ordenada.\n\n🔧 Qué incluye: Copia de seguridad básica · Fotos, documentos y archivos · Selección de lo importante · Te explicamos cómo mantenerla.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Backup #Proteccion #Informatica #Murcia #SolucionesTecnologicas",
+        "Tus recuerdos, a salvo 📸\n\nCopiamos lo que te importa para que no dependa de un único disco.\n\nCuéntanos qué quieres guardar.\n\n🔧 Qué incluye: Copia de seguridad básica · Fotos, documentos y archivos · Selección de lo importante · Te explicamos cómo mantenerla.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #CopiasDeSeguridad #Fotos #Datos #Murcia #Informatica"
+      ]
+    },
+    {
+      "id": "migracion_hdd_ssd",
+      "nombre": "Migración HDD → SSD",
+      "chip": "MIGRACIÓN",
+      "titulo_linea1": "Del HDD al SSD",
+      "titulo_linea2_azul": "con tus datos",
+      "subtitulo": "Migramos tu sistema y tus archivos a un disco más rápido.",
+      "puntos": [
+        "Copia de tu sistema y archivos",
+        "Instalación del nuevo SSD",
+        "Arranque desde el disco nuevo",
+        "Te explicamos todo el proceso"
+      ],
+      "ilustracion": "disco duro, flecha azul y SSD",
+      "texto_alternativo": "Publicación de JM TECH: migración del sistema de un disco duro a un SSD.",
+      "pies_de_foto": [
+        "🚀 ¿Quieres un SSD pero no quieres empezar de cero?\n\nMigramos tu sistema y tus archivos de un disco duro a un SSD, para que tu equipo siga como lo conoces pero más ágil.\n\nNos encargamos del proceso completo.\n\n🔧 Qué incluye: Copia de tu sistema y archivos · Instalación del nuevo SSD · Arranque desde el disco nuevo · Te explicamos todo el proceso.\n\n🧩 No vendemos hardware: tú compras el SSD (te asesoramos cuál) y nosotros hacemos la migración.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #SSD #Migracion #Informatica #Murcia #ServicioTecnico",
+        "Cambia de disco y sigue con lo tuyo 💡\n\nPasamos tu sistema, tus programas y tus archivos a un SSD nuevo.\n\nAntes de empezar te explicamos cómo lo haremos.\n\n🔧 Qué incluye: Copia de tu sistema y archivos · Instalación del nuevo SSD · Arranque desde el disco nuevo · Te explicamos todo el proceso.\n\n🧩 No vendemos hardware: tú compras el SSD (te asesoramos cuál) y nosotros hacemos la migración.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #SSD #HDD #Rendimiento #Murcia #SolucionesTecnologicas",
+        "Del disco duro al SSD, paso a paso 🔄\n\nHacemos la copia, instalamos el SSD y comprobamos que el equipo arranca desde el disco nuevo.\n\nTe lo contamos con claridad.\n\n🔧 Qué incluye: Copia de tu sistema y archivos · Instalación del nuevo SSD · Arranque desde el disco nuevo · Te explicamos todo el proceso.\n\n🧩 No vendemos hardware: tú compras el SSD (te asesoramos cuál) y nosotros hacemos la migración.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Migracion #SSD #PC #Murcia #Informatica"
+      ]
+    },
+    {
+      "id": "migracion_pc",
+      "nombre": "Migración de PC y portátil",
+      "chip": "MIGRACIÓN",
+      "titulo_linea1": "Cambia de equipo",
+      "titulo_linea2_azul": "con tus datos",
+      "subtitulo": "Pasamos tus archivos y ajustes del equipo antiguo al nuevo.",
+      "puntos": [
+        "Copia de archivos y ajustes",
+        "Instalación de programas",
+        "Configuración del equipo nuevo",
+        "Te lo dejamos listo"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: migración de PC y portátil.",
+      "pies_de_foto": [
+        "🔄 ¿Has estrenado PC o portátil y no quieres empezar de cero?\n\nPasamos tus archivos y tus ajustes del equipo antiguo al nuevo, instalamos tus programas y lo dejamos configurado.\n\nTú compras el equipo; nosotros hacemos el traslado.\n\n🔧 Qué incluye: Copia de archivos y ajustes · Instalación de programas · Configuración del equipo nuevo · Te lo dejamos listo.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #MigracionPC #NuevoEquipo #Portatil #Murcia #ServicioTecnico",
+        "Un equipo nuevo, con todo lo que ya tenías 📁\n\nNos encargamos de trasladar tu información y de configurar el equipo.\n\nTe explicamos cómo queda.\n\n🔧 Qué incluye: Copia de archivos y ajustes · Instalación de programas · Configuración del equipo nuevo · Te lo dejamos listo.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Migracion #PC #Datos #Murcia #SolucionesTecnologicas",
+        "Estrenar sin complicaciones 🎉\n\nMigramos tu PC o tu portátil con cuidado para que continúes donde lo dejaste.\n\nCuéntanos qué necesitas pasar.\n\n🔧 Qué incluye: Copia de archivos y ajustes · Instalación de programas · Configuración del equipo nuevo · Te lo dejamos listo.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #NuevoPC #Migracion #Informatica #Murcia #ServicioTecnico"
+      ]
+    },
+    {
+      "id": "recuperacion_datos",
+      "nombre": "Recuperación de datos",
+      "chip": "DATOS",
+      "titulo_linea1": "Recupera tus",
+      "titulo_linea2_azul": "datos",
+      "subtitulo": "Analizamos tu caso y te explicamos qué se puede hacer.",
+      "puntos": [
+        "Análisis de tu caso",
+        "Recuperación de archivos",
+        "Te explicamos las opciones",
+        "Cuanto menos lo uses, mejor"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: recuperación de datos.",
+      "pies_de_foto": [
+        "¿Fotos, documentos o proyectos que creías perdidos? 💾\n\nSi has perdido archivos, antes de formatear o seguir usando el disco, escríbenos. Cuanto menos se toque el dispositivo, más posibilidades hay de recuperar la información.\n\nAnalizamos tu caso y te explicamos qué se puede hacer.\n\n🔧 Qué incluye: Análisis de tu caso · Recuperación de archivos · Te explicamos las opciones · Cuanto menos lo uses, mejor.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #RecuperacionDeDatos #Murcia #ServicioTecnico #Informatica #Datos",
+        "Un disco que no responde no siempre significa que todo esté perdido 💽\n\nNo podemos prometerte resultados antes de analizarlo, pero sí estudiar tu caso y explicarte con claridad qué opciones hay.\n\nSi no lo tocas mientras tanto, mejor.\n\n🔧 Qué incluye: Análisis de tu caso · Recuperación de archivos · Te explicamos las opciones · Cuanto menos lo uses, mejor.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #RecuperacionDeDatos #Disco #Murcia #SolucionesTecnologicas #Informatica",
+        "Has borrado algo sin querer o el disco falla 😟\n\nEstudiamos tu caso con calma y te contamos qué se puede intentar.\n\nPara que no se repita, después te ayudamos con una copia de seguridad.\n\n🔧 Qué incluye: Análisis de tu caso · Recuperación de archivos · Te explicamos las opciones · Cuanto menos lo uses, mejor.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Datos #Recuperacion #Backup #Murcia #ServicioTecnico"
+      ]
+    },
+    {
+      "id": "bateria_portatil",
+      "nombre": "Portátil con batería nueva",
+      "chip": "PORTÁTILES",
+      "titulo_linea1": "Portátil con",
+      "titulo_linea2_azul": "batería nueva",
+      "subtitulo": "Cambio de batería para volver a usarlo sin enchufe.",
+      "puntos": [
+        "Cambio de batería de portátil",
         "Recupera tu autonomía",
-        "Revisión previa del equipo",
         "A domicilio o en nuestro taller"
       ],
-      "ilustracion": "móvil con batería nueva al lado",
-      "texto_alternativo": "Publicación de JM TECH: cambio de batería de móvil.",
+      "ilustracion": "portátil abierto con icono de batería llena y un rayo",
+      "texto_alternativo": "Publicación de JM TECH: cambio de batería de portátil.",
       "pies_de_foto": [
-        "🔋 ¿Tu móvil se queda sin batería cada vez antes?\n\nCambiamos la batería para que recuperes autonomía y vuelvas a usarlo sin depender del cargador.\n\nNos encargamos de todo; si lo necesitas, recogemos el móvil en tu casa.\n\n🔧 Qué incluye: Cambio de batería de móvil · Recupera tu autonomía · Revisión previa del equipo · A domicilio o en nuestro taller.\n\n🧩 No vendemos baterías: te asesoramos sobre cuál comprar; tú la compras y nosotros la cambiamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #BateriaMovil #Movil #Reparacion #Murcia #ServicioTecnico",
-        "Un móvil que no aguanta el día pierde su gracia 📱\n\nRevisamos tu móvil y sustituimos la batería.\n\nTe explicamos el estado de tu equipo antes de empezar.\n\n🔧 Qué incluye: Cambio de batería de móvil · Recupera tu autonomía · Revisión previa del equipo · A domicilio o en nuestro taller.\n\n🧩 No vendemos baterías: te asesoramos sobre cuál comprar; tú la compras y nosotros la cambiamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Bateria #Movil #Autonomia #Murcia #SolucionesTecnologicas",
-        "Recupera la autonomía de tu móvil ⚡\n\nCambio de batería de móvil, a domicilio o en nuestro taller.\n\nPrimero lo revisamos y después decidimos contigo.\n\n🔧 Qué incluye: Cambio de batería de móvil · Recupera tu autonomía · Revisión previa del equipo · A domicilio o en nuestro taller.\n\n🧩 No vendemos baterías: te asesoramos sobre cuál comprar; tú la compras y nosotros la cambiamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #CambioDeBateria #Movil #Reparacion #Murcia #ServicioTecnico"
+        "🔋 ¿Tu portátil dura cada vez menos sin enchufar?\n\nCambiamos la batería de tu portátil para que recuperes autonomía y puedas volver a usarlo sin depender del cargador.\n\nNos encargamos de todo.\n\n🔧 Qué incluye: Cambio de batería de portátil · Recupera tu autonomía · A domicilio o en nuestro taller.\n\n🧩 No vendemos baterías: te asesoramos sobre cuál comprar; tú la compras y nosotros la cambiamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #Portatil #Bateria #ServicioTecnico #Murcia #Informatica",
+        "Un portátil que no aguanta la batería pierde su gracia 🔌\n\nNos encargamos del cambio de batería para que vuelvas a moverte con él.\n\nSi lo necesitas, recogemos el equipo en tu casa.\n\n🔧 Qué incluye: Cambio de batería de portátil · Recupera tu autonomía · A domicilio o en nuestro taller.\n\n🧩 No vendemos baterías: te asesoramos sobre cuál comprar; tú la compras y nosotros la cambiamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Portatil #Bateria #Reparacion #Murcia #SolucionesTecnologicas",
+        "Tu portátil, otra vez sin depender del cargador 🔌\n\nCambiamos la batería para que recuperes autonomía y vuelvas a moverte con él.\n\nPrimero revisamos el equipo y te explicamos las opciones.\n\n🔧 Qué incluye: Cambio de batería de portátil · Recupera tu autonomía · A domicilio o en nuestro taller.\n\n🧩 No vendemos baterías: te asesoramos sobre cuál comprar; tú la compras y nosotros la cambiamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Portatil #Bateria #Reparacion #Murcia #ServicioTecnico"
+      ]
+    },
+    {
+      "id": "teclado_portatil",
+      "nombre": "Cambio de teclado de portátil",
+      "chip": "PORTÁTILES",
+      "titulo_linea1": "Cambio de",
+      "titulo_linea2_azul": "teclado",
+      "subtitulo": "Sustituimos el teclado de tu portátil por uno nuevo.",
+      "puntos": [
+        "Te asesoramos qué teclado comprar",
+        "Sustitución del teclado",
+        "Comprobación de todas las teclas",
+        "Recogida en casa si lo necesitas"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: cambio de teclado de portátil.",
+      "pies_de_foto": [
+        "⌨️ ¿Te fallan teclas del portátil o el teclado está dañado?\n\nTe asesoramos sobre qué teclado comprar y, cuando ya lo tienes, lo sustituimos y comprobamos todas las teclas.\n\nSi lo necesitas, recogemos el portátil en tu casa.\n\n🔧 Qué incluye: Te asesoramos qué teclado comprar · Sustitución del teclado · Comprobación de todas las teclas · Recogida en casa si lo necesitas.\n\n🧩 No vendemos teclados: te asesoramos sobre cuál comprar; tú lo compras y nosotros lo cambiamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #TecladoPortatil #Portatil #Reparacion #Murcia #ServicioTecnico",
+        "Un teclado nuevo para tu portátil 💻\n\nHacemos el cambio con cuidado y dejamos el equipo probado.\n\nPrimero revisamos qué le pasa.\n\n🔧 Qué incluye: Te asesoramos qué teclado comprar · Sustitución del teclado · Comprobación de todas las teclas · Recogida en casa si lo necesitas.\n\n🧩 No vendemos teclados: te asesoramos sobre cuál comprar; tú lo compras y nosotros lo cambiamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #CambioDeTeclado #Portatiles #Hardware #Murcia #SolucionesTecnologicas",
+        "Teclas que no responden: ¿qué hacer? 🔍\n\nVemos si basta una limpieza o si conviene cambiar el teclado.\n\nTe contamos las opciones.\n\n🔧 Qué incluye: Te asesoramos qué teclado comprar · Sustitución del teclado · Comprobación de todas las teclas · Recogida en casa si lo necesitas.\n\n🧩 No vendemos teclados: te asesoramos sobre cuál comprar; tú lo compras y nosotros lo cambiamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Teclado #Portatil #Reparacion #Murcia #Informatica"
+      ]
+    },
+    {
+      "id": "bisagras_portatil",
+      "nombre": "Cambio de bisagras de portátil",
+      "chip": "PORTÁTILES",
+      "titulo_linea1": "Bisagras rotas",
+      "titulo_linea2_azul": "o flojas",
+      "subtitulo": "Sustituimos las bisagras de tu portátil.",
+      "puntos": [
+        "Revisión de las bisagras",
+        "Te asesoramos qué comprar",
+        "Sustitución de las bisagras",
+        "Comprobación al abrir y cerrar"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: cambio de bisagras de portátil.",
+      "pies_de_foto": [
+        "💻 ¿La tapa de tu portátil está floja, suena o no se sostiene?\n\nRevisamos las bisagras y las sustituimos. Te asesoramos sobre qué pieza comprar y nos encargamos del cambio.\n\nSi la carcasa está dañada, te lo contamos antes de empezar.\n\n🔧 Qué incluye: Revisión de las bisagras · Te asesoramos qué comprar · Sustitución de las bisagras · Comprobación al abrir y cerrar.\n\n🧩 No vendemos repuestos: te asesoramos sobre qué bisagras comprar; tú las compras y nosotros las cambiamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #BisagrasPortatil #Portatil #Reparacion #Murcia #ServicioTecnico",
+        "Una bisagra rota puede dañar más el portátil ⚠️\n\nCuanto antes se cambie, mejor.\n\nNos encargamos de sustituirla con cuidado.\n\n🔧 Qué incluye: Revisión de las bisagras · Te asesoramos qué comprar · Sustitución de las bisagras · Comprobación al abrir y cerrar.\n\n🧩 No vendemos repuestos: te asesoramos sobre qué bisagras comprar; tú las compras y nosotros las cambiamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Bisagras #Portatiles #Hardware #Murcia #SolucionesTecnologicas",
+        "Abrir y cerrar sin miedo 🔧\n\nCambiamos las bisagras de tu portátil y comprobamos que la tapa queda firme.\n\nTe explicamos cómo lo vemos.\n\n🔧 Qué incluye: Revisión de las bisagras · Te asesoramos qué comprar · Sustitución de las bisagras · Comprobación al abrir y cerrar.\n\n🧩 No vendemos repuestos: te asesoramos sobre qué bisagras comprar; tú las compras y nosotros las cambiamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Portatil #Reparacion #Bisagras #Murcia #Informatica"
       ]
     },
     {
@@ -324,24 +806,171 @@
       ]
     },
     {
-      "id": "tablet",
-      "nombre": "Tablet: cambio de batería y reparación",
-      "chip": "TABLETS",
-      "titulo_linea1": "Tu tablet",
-      "titulo_linea2_azul": "de vuelta",
-      "subtitulo": "Cambio de batería y reparación de tablets.",
+      "id": "movil_backup",
+      "nombre": "Backup de móvil",
+      "chip": "MÓVILES",
+      "titulo_linea1": "Copia de seguridad",
+      "titulo_linea2_azul": "de tu móvil",
+      "subtitulo": "Hacemos una copia de tus datos antes de cambiar o reparar el móvil.",
       "puntos": [
-        "Cambio de batería de tablet",
-        "Reparación de tablet",
-        "Diagnóstico previo",
+        "Copia de fotos y contactos",
+        "Archivos y aplicaciones",
+        "Te explicamos cómo restaurarla",
+        "Antes de reparar o cambiar"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: backup de móvil.",
+      "pies_de_foto": [
+        "📱 ¿Vas a reparar o cambiar de móvil y no quieres perder nada?\n\nHacemos una copia de seguridad de tus fotos, contactos, archivos y aplicaciones.\n\nY te explicamos cómo restaurarla.\n\n🔧 Qué incluye: Copia de fotos y contactos · Archivos y aplicaciones · Te explicamos cómo restaurarla · Antes de reparar o cambiar.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #BackupMovil #Movil #CopiaDeSeguridad #Murcia #ServicioTecnico",
+        "Tu móvil guarda media vida 📸\n\nHaz una copia antes de que pase algo.\n\nNos encargamos de prepararla y de dejarla a salvo.\n\n🔧 Qué incluye: Copia de fotos y contactos · Archivos y aplicaciones · Te explicamos cómo restaurarla · Antes de reparar o cambiar.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Backup #Movil #Fotos #Murcia #SolucionesTecnologicas",
+        "Antes de una reparación, una copia 💡\n\nAsí tus datos no dependen de que todo salga bien.\n\nCuéntanos qué móvil tienes.\n\n🔧 Qué incluye: Copia de fotos y contactos · Archivos y aplicaciones · Te explicamos cómo restaurarla · Antes de reparar o cambiar.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #CopiaMovil #Datos #Smartphone #Murcia #Informatica"
+      ]
+    },
+    {
+      "id": "movil_pantalla",
+      "nombre": "Cambio de pantalla de móvil",
+      "chip": "MÓVILES",
+      "titulo_linea1": "Pantalla rota",
+      "titulo_linea2_azul": "en tu móvil",
+      "subtitulo": "Cambiamos la pantalla de tu móvil.",
+      "puntos": [
+        "Te asesoramos qué pantalla comprar",
+        "Cambio de pantalla",
+        "Comprobación del táctil",
         "Recogida en casa si lo necesitas"
       ],
-      "ilustracion": "tablet con pantalla y batería de recambio",
-      "texto_alternativo": "Publicación de JM TECH: cambio de batería y reparación de tablets.",
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: cambio de pantalla de móvil.",
       "pies_de_foto": [
-        "📱 ¿Tu tablet se apaga o ya no aguanta la batería?\n\nCambiamos la batería y reparamos tablets, empezando siempre por un diagnóstico para saber qué falla.\n\nSi lo necesitas, recogemos el equipo en tu casa.\n\n🔧 Qué incluye: Cambio de batería de tablet · Reparación de tablet · Diagnóstico previo · Recogida en casa si lo necesitas.\n\n🧩 No vendemos repuestos: tú compras la batería o la pieza (te asesoramos cuál) y nosotros la cambiamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #Tablet #BateriaTablet #Reparacion #Murcia #ServicioTecnico",
-        "Tu tablet puede volver a funcionar 🔧\n\nRevisamos qué le pasa y te contamos las opciones: cambio de batería o reparación.\n\nSin compromiso.\n\n🔧 Qué incluye: Cambio de batería de tablet · Reparación de tablet · Diagnóstico previo · Recogida en casa si lo necesitas.\n\n🧩 No vendemos repuestos: tú compras la batería o la pieza (te asesoramos cuál) y nosotros la cambiamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #ReparacionTablet #Tablet #Bateria #Murcia #SolucionesTecnologicas",
-        "Batería gastada, pantalla que falla... 🔋\n\nReparamos tablets y cambiamos baterías, a domicilio o en nuestro taller.\n\nPrimero entendemos el problema.\n\n🔧 Qué incluye: Cambio de batería de tablet · Reparación de tablet · Diagnóstico previo · Recogida en casa si lo necesitas.\n\n🧩 No vendemos repuestos: tú compras la batería o la pieza (te asesoramos cuál) y nosotros la cambiamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Tablet #Reparacion #Bateria #Murcia #ServicioTecnico"
+        "📱 ¿Se te ha roto la pantalla del móvil?\n\nTe asesoramos sobre qué pantalla comprar y, cuando ya la tienes, nos encargamos del cambio y comprobamos que el táctil responde.\n\nSi lo necesitas, recogemos el móvil en tu casa.\n\n🔧 Qué incluye: Te asesoramos qué pantalla comprar · Cambio de pantalla · Comprobación del táctil · Recogida en casa si lo necesitas.\n\n🧩 No vendemos repuestos: si hace falta una pieza, te asesoramos sobre cuál comprar; tú la compras y nosotros la instalamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #CambioDePantalla #Movil #Reparacion #Murcia #ServicioTecnico",
+        "Una pantalla rota no tiene por qué ser el final 💥\n\nSustituimos la pantalla de tu móvil y lo dejamos probado.\n\nAntes de empezar, revisamos que no haya más daños.\n\n🔧 Qué incluye: Te asesoramos qué pantalla comprar · Cambio de pantalla · Comprobación del táctil · Recogida en casa si lo necesitas.\n\n🧩 No vendemos repuestos: si hace falta una pieza, te asesoramos sobre cuál comprar; tú la compras y nosotros la instalamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #PantallaMovil #Smartphone #Reparacion #Murcia #SolucionesTecnologicas",
+        "Cristal roto, pero el móvil sigue siendo tuyo 😅\n\nCambiamos la pantalla con cuidado.\n\nTe explicamos qué vemos en cada caso.\n\n🔧 Qué incluye: Te asesoramos qué pantalla comprar · Cambio de pantalla · Comprobación del táctil · Recogida en casa si lo necesitas.\n\n🧩 No vendemos repuestos: si hace falta una pieza, te asesoramos sobre cuál comprar; tú la compras y nosotros la instalamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Movil #Pantalla #ServicioTecnico #Murcia #Informatica"
+      ]
+    },
+    {
+      "id": "movil_bateria",
+      "nombre": "Móvil: cambio de batería",
+      "chip": "MÓVILES",
+      "titulo_linea1": "Tu móvil con",
+      "titulo_linea2_azul": "batería nueva",
+      "subtitulo": "Cambio de batería para recuperar autonomía.",
+      "puntos": [
+        "Cambio de batería de móvil",
+        "Recupera tu autonomía",
+        "Revisión previa del equipo",
+        "A domicilio o en nuestro taller"
+      ],
+      "ilustracion": "móvil con batería nueva al lado",
+      "texto_alternativo": "Publicación de JM TECH: cambio de batería de móvil.",
+      "pies_de_foto": [
+        "🔋 ¿Tu móvil se queda sin batería cada vez antes?\n\nCambiamos la batería para que recuperes autonomía y vuelvas a usarlo sin depender del cargador.\n\nNos encargamos de todo; si lo necesitas, recogemos el móvil en tu casa.\n\n🔧 Qué incluye: Cambio de batería de móvil · Recupera tu autonomía · Revisión previa del equipo · A domicilio o en nuestro taller.\n\n🧩 No vendemos baterías: te asesoramos sobre cuál comprar; tú la compras y nosotros la cambiamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #BateriaMovil #Movil #Reparacion #Murcia #ServicioTecnico",
+        "Un móvil que no aguanta el día pierde su gracia 📱\n\nRevisamos tu móvil y sustituimos la batería.\n\nTe explicamos el estado de tu equipo antes de empezar.\n\n🔧 Qué incluye: Cambio de batería de móvil · Recupera tu autonomía · Revisión previa del equipo · A domicilio o en nuestro taller.\n\n🧩 No vendemos baterías: te asesoramos sobre cuál comprar; tú la compras y nosotros la cambiamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Bateria #Movil #Autonomia #Murcia #SolucionesTecnologicas",
+        "Recupera la autonomía de tu móvil ⚡\n\nCambio de batería de móvil, a domicilio o en nuestro taller.\n\nPrimero lo revisamos y después decidimos contigo.\n\n🔧 Qué incluye: Cambio de batería de móvil · Recupera tu autonomía · Revisión previa del equipo · A domicilio o en nuestro taller.\n\n🧩 No vendemos baterías: te asesoramos sobre cuál comprar; tú la compras y nosotros la cambiamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #CambioDeBateria #Movil #Reparacion #Murcia #ServicioTecnico"
+      ]
+    },
+    {
+      "id": "movil_conector",
+      "nombre": "Cambio de conector de carga de móvil",
+      "chip": "MÓVILES",
+      "titulo_linea1": "Tu móvil no",
+      "titulo_linea2_azul": "carga bien",
+      "subtitulo": "Cambiamos el conector de carga de tu móvil.",
+      "puntos": [
+        "Revisión del conector",
+        "Te asesoramos qué pieza comprar",
+        "Cambio del conector de carga",
+        "Comprobación de la carga"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: cambio de conector de carga de móvil.",
+      "pies_de_foto": [
+        "🔌 ¿Tienes que mover el cable para que cargue?\n\nPuede ser el conector de carga. Lo revisamos y, si hace falta, lo cambiamos.\n\nTe asesoramos sobre qué pieza comprar y nos encargamos del cambio.\n\n🔧 Qué incluye: Revisión del conector · Te asesoramos qué pieza comprar · Cambio del conector de carga · Comprobación de la carga.\n\n🧩 No vendemos repuestos: si hace falta una pieza, te asesoramos sobre cuál comprar; tú la compras y nosotros la instalamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #ConectorDeCarga #Movil #Reparacion #Murcia #ServicioTecnico",
+        "A veces no es el cargador, es el conector 🔍\n\nPrimero comprobamos qué falla y después te contamos las opciones.\n\nSin sorpresas.\n\n🔧 Qué incluye: Revisión del conector · Te asesoramos qué pieza comprar · Cambio del conector de carga · Comprobación de la carga.\n\n🧩 No vendemos repuestos: si hace falta una pieza, te asesoramos sobre cuál comprar; tú la compras y nosotros la instalamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Carga #Movil #Smartphone #Murcia #SolucionesTecnologicas",
+        "Tu móvil, otra vez cargando con normalidad ⚡\n\nCambiamos el conector de carga y probamos que carga bien.\n\nSi lo necesitas, recogemos el móvil en tu casa.\n\n🔧 Qué incluye: Revisión del conector · Te asesoramos qué pieza comprar · Cambio del conector de carga · Comprobación de la carga.\n\n🧩 No vendemos repuestos: si hace falta una pieza, te asesoramos sobre cuál comprar; tú la compras y nosotros la instalamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #CambioDeConector #Movil #Reparacion #Murcia #Informatica"
+      ]
+    },
+    {
+      "id": "tablet_transferencia",
+      "nombre": "Transferencia de datos de tablet",
+      "chip": "TABLETS",
+      "titulo_linea1": "Estrena tablet",
+      "titulo_linea2_azul": "con tus datos",
+      "subtitulo": "Pasamos tus datos de la tablet antigua a la nueva.",
+      "puntos": [
+        "Transferencia de archivos y fotos",
+        "Aplicaciones y ajustes",
+        "Configuración de la tablet nueva",
+        "Te explicamos qué se puede pasar"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: transferencia de datos de tablet.",
+      "pies_de_foto": [
+        "📲 ¿Has estrenado tablet y no sabes cómo pasar todo?\n\nNos encargamos de transferir tus archivos, fotos, aplicaciones y ajustes de la tablet antigua a la nueva.\n\nDepende de los dos equipos; te explicamos qué se puede pasar.\n\n🔧 Qué incluye: Transferencia de archivos y fotos · Aplicaciones y ajustes · Configuración de la tablet nueva · Te explicamos qué se puede pasar.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #Tablet #Transferencia #Datos #Murcia #ServicioTecnico",
+        "Una tablet nueva, con lo de siempre 🎉\n\nPasamos tus datos y la dejamos configurada.\n\nTú disfrútala.\n\n🔧 Qué incluye: Transferencia de archivos y fotos · Aplicaciones y ajustes · Configuración de la tablet nueva · Te explicamos qué se puede pasar.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #NuevaTablet #Migracion #Tablets #Murcia #SolucionesTecnologicas",
+        "Tus fotos y archivos, en la tablet nueva 📸\n\nHacemos la transferencia con cuidado y te contamos cómo queda todo.\n\nSi lo necesitas, vamos a tu casa.\n\n🔧 Qué incluye: Transferencia de archivos y fotos · Aplicaciones y ajustes · Configuración de la tablet nueva · Te explicamos qué se puede pasar.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Transferencia #Tablet #Fotos #Murcia #Informatica"
+      ]
+    },
+    {
+      "id": "tablet_pantalla",
+      "nombre": "Cambio de pantalla de tablet",
+      "chip": "TABLETS",
+      "titulo_linea1": "Pantalla rota",
+      "titulo_linea2_azul": "en tu tablet",
+      "subtitulo": "Cambiamos la pantalla de tu tablet.",
+      "puntos": [
+        "Te asesoramos qué pantalla comprar",
+        "Cambio de pantalla",
+        "Comprobación del táctil",
+        "Recogida en casa si lo necesitas"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: cambio de pantalla de tablet.",
+      "pies_de_foto": [
+        "📱 ¿Se ha roto la pantalla de tu tablet?\n\nTe asesoramos sobre qué pantalla comprar y, cuando ya la tienes, nos encargamos del cambio y de comprobar el táctil.\n\nSi lo necesitas, recogemos la tablet en tu casa.\n\n🔧 Qué incluye: Te asesoramos qué pantalla comprar · Cambio de pantalla · Comprobación del táctil · Recogida en casa si lo necesitas.\n\n🧩 No vendemos repuestos: si hace falta una pieza, te asesoramos sobre cuál comprar; tú la compras y nosotros la instalamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #PantallaTablet #Tablet #Reparacion #Murcia #ServicioTecnico",
+        "Una tablet con la pantalla rota puede volver a usarse 🔧\n\nRevisamos el daño y sustituimos la pantalla.\n\nTe explicamos las opciones antes de empezar.\n\n🔧 Qué incluye: Te asesoramos qué pantalla comprar · Cambio de pantalla · Comprobación del táctil · Recogida en casa si lo necesitas.\n\n🧩 No vendemos repuestos: si hace falta una pieza, te asesoramos sobre cuál comprar; tú la compras y nosotros la instalamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Tablet #CambioDePantalla #Tablets #Murcia #SolucionesTecnologicas",
+        "Pantalla agrietada, ¿y ahora qué? 🤔\n\nLo vemos contigo y te decimos si compensa repararla.\n\nSin compromiso.\n\n🔧 Qué incluye: Te asesoramos qué pantalla comprar · Cambio de pantalla · Comprobación del táctil · Recogida en casa si lo necesitas.\n\n🧩 No vendemos repuestos: si hace falta una pieza, te asesoramos sobre cuál comprar; tú la compras y nosotros la instalamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Tablet #Pantalla #Reparacion #Murcia #Informatica"
+      ]
+    },
+    {
+      "id": "tablet_bateria",
+      "nombre": "Cambio de batería de tablet",
+      "chip": "TABLETS",
+      "titulo_linea1": "Tablet con",
+      "titulo_linea2_azul": "batería nueva",
+      "subtitulo": "Cambiamos la batería de tu tablet para recuperar autonomía.",
+      "puntos": [
+        "Revisión previa de la tablet",
+        "Te asesoramos qué batería comprar",
+        "Cambio de batería",
+        "Comprobación de la carga"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: cambio de batería de tablet.",
+      "pies_de_foto": [
+        "🔋 ¿Tu tablet se apaga o ya no aguanta la batería?\n\nCambiamos la batería: te asesoramos sobre cuál comprar y nos encargamos del cambio.\n\nSi lo necesitas, recogemos el equipo en tu casa.\n\n🔧 Qué incluye: Revisión previa de la tablet · Te asesoramos qué batería comprar · Cambio de batería · Comprobación de la carga.\n\n🧩 No vendemos repuestos: si hace falta una pieza, te asesoramos sobre cuál comprar; tú la compras y nosotros la instalamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #BateriaTablet #Tablet #Reparacion #Murcia #ServicioTecnico",
+        "Una tablet que no dura es incómoda 😕\n\nSustituimos la batería para que recuperes autonomía.\n\nPrimero revisamos qué le ocurre.\n\n🔧 Qué incluye: Revisión previa de la tablet · Te asesoramos qué batería comprar · Cambio de batería · Comprobación de la carga.\n\n🧩 No vendemos repuestos: si hace falta una pieza, te asesoramos sobre cuál comprar; tú la compras y nosotros la instalamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Tablet #Bateria #Autonomia #Murcia #SolucionesTecnologicas",
+        "Recupera la autonomía de tu tablet ⚡\n\nCambio de batería con comprobación de carga al terminar.\n\nTe explicamos el estado del equipo.\n\n🔧 Qué incluye: Revisión previa de la tablet · Te asesoramos qué batería comprar · Cambio de batería · Comprobación de la carga.\n\n🧩 No vendemos repuestos: si hace falta una pieza, te asesoramos sobre cuál comprar; tú la compras y nosotros la instalamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #CambioDeBateria #Tablets #Reparacion #Murcia #Informatica"
+      ]
+    },
+    {
+      "id": "tablet_reparacion",
+      "nombre": "Reparación de tablet",
+      "chip": "TABLETS",
+      "titulo_linea1": "Reparamos",
+      "titulo_linea2_azul": "tu tablet",
+      "subtitulo": "Revisamos tu tablet y reparamos lo que falla.",
+      "puntos": [
+        "Diagnóstico previo",
+        "Reparación de la avería",
+        "Te asesoramos sobre piezas",
+        "Recogida en casa si lo necesitas"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: reparación de tablet.",
+      "pies_de_foto": [
+        "🛠️ ¿Tu tablet no enciende, no carga o falla?\n\nEmpezamos por un diagnóstico para saber qué le pasa y después te contamos cómo repararla.\n\nSi hace falta alguna pieza, te asesoramos sobre cuál comprar.\n\n🔧 Qué incluye: Diagnóstico previo · Reparación de la avería · Te asesoramos sobre piezas · Recogida en casa si lo necesitas.\n\n🧩 No vendemos repuestos: si hace falta una pieza, te asesoramos sobre cuál comprar; tú la compras y nosotros la instalamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #ReparacionTablet #Tablet #ServicioTecnico #Murcia #Reparacion",
+        "Antes de rendirte con tu tablet, revísala 🔍\n\nMuchas averías tienen arreglo.\n\nTe explicamos el problema con claridad.\n\n🔧 Qué incluye: Diagnóstico previo · Reparación de la avería · Te asesoramos sobre piezas · Recogida en casa si lo necesitas.\n\n🧩 No vendemos repuestos: si hace falta una pieza, te asesoramos sobre cuál comprar; tú la compras y nosotros la instalamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Tablets #Reparacion #Diagnostico #Murcia #SolucionesTecnologicas",
+        "Tablet averiada: lo primero es saber por qué 💡\n\nLa revisamos, te damos las opciones y la reparamos si decides seguir adelante.\n\nSin compromiso.\n\n🔧 Qué incluye: Diagnóstico previo · Reparación de la avería · Te asesoramos sobre piezas · Recogida en casa si lo necesitas.\n\n🧩 No vendemos repuestos: si hace falta una pieza, te asesoramos sobre cuál comprar; tú la compras y nosotros la instalamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Tablet #Averia #ServicioTecnico #Murcia #Informatica"
       ]
     },
     {
@@ -364,6 +993,28 @@
         "📺 Tu tele en la pared, en vez de ocupar mueble.\n\nNos encargamos de instalar tu televisor en la pared, tanto si es de hasta 43 pulgadas como si es de 43 en adelante.\n\nVamos a tu casa.\n\n🔧 Qué incluye: TV de hasta 43 pulgadas · TV de 43 pulgadas en adelante · Instalación a domicilio · Presupuesto según tu televisor.\n\n🧩 No vendemos televisores ni soportes: te asesoramos sobre el soporte que necesitas; tú lo compras y nosotros instalamos tu TV.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio a domicilio solo en Murcia: vamos a tu casa a instalar tu televisor.\n\n#JMTech #InstalacionTV #TV #Hogar #Murcia #ServicioTecnico",
         "Gana espacio y comodidad en tu salón 🛋️\n\nInstalamos tu televisor en la pared, ya sea de hasta 43 pulgadas o de 43 en adelante.\n\nNos desplazamos a tu casa.\n\n🔧 Qué incluye: TV de hasta 43 pulgadas · TV de 43 pulgadas en adelante · Instalación a domicilio · Presupuesto según tu televisor.\n\n🧩 No vendemos televisores ni soportes: te asesoramos sobre el soporte que necesitas; tú lo compras y nosotros instalamos tu TV.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Instalamos tu televisor en tu casa.\n\n#JMTech #InstalacionTV #SoporteTV #Hogar #Murcia #SolucionesTecnologicas",
         "Adiós al mueble de la tele 📺\n\nInstalamos tu televisor en la pared, tanto si es de hasta 43 pulgadas como de 43 en adelante.\n\nVamos a tu casa.\n\n🔧 Qué incluye: TV de hasta 43 pulgadas · TV de 43 pulgadas en adelante · Instalación a domicilio · Presupuesto según tu televisor.\n\n🧩 No vendemos televisores ni soportes: te asesoramos sobre el soporte que necesitas; tú lo compras y nosotros instalamos tu TV.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: servicio en casa del cliente.\n\n#JMTech #InstalacionTV #TV #Hogar #Murcia #ServicioTecnico"
+      ]
+    },
+    {
+      "id": "soporte_remoto",
+      "nombre": "Servicio técnico en remoto",
+      "chip": "EN REMOTO",
+      "titulo_linea1": "Soporte técnico",
+      "titulo_linea2_azul": "en remoto",
+      "subtitulo": "Resolvemos tu problema informático a distancia, sin moverte de casa.",
+      "puntos": [
+        "Diagnóstico por conexión remota",
+        "Instalación y configuración de software",
+        "Resolución de problemas del sistema",
+        "Te explicamos cada paso"
+      ],
+      "pie_imagen": "Servicio solo en Murcia  ·  En remoto, a domicilio o en taller",
+      "ilustracion": "dos equipos conectados con flechas azules y un cursor de control remoto",
+      "texto_alternativo": "Publicación de JM TECH: servicio técnico en remoto para resolver problemas informáticos a distancia.",
+      "pies_de_foto": [
+        "🖥️ ¿Tienes un problema con tu equipo y no puedes moverte de casa?\n\nNos conectamos a tu ordenador en remoto, con tu permiso, para revisar qué le pasa y resolverlo a distancia siempre que sea posible.\n\nTe explicamos cada paso mientras lo hacemos.\n\n🔧 Qué incluye: Diagnóstico por conexión remota · Instalación y configuración de software · Resolución de problemas del sistema · Te explicamos cada paso.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: asistencia en remoto y, si hace falta, recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #SoporteRemoto #ServicioTecnico #Informatica #Murcia #AsistenciaRemota",
+        "Soporte técnico sin salir de casa 🏠\n\nRevisamos tu equipo por conexión remota: diagnóstico, instalación y configuración de programas y ajustes del sistema.\n\nSi después hace falta una revisión en persona, también podemos hacerla.\n\n🔧 Qué incluye: Diagnóstico por conexión remota · Instalación y configuración de software · Resolución de problemas del sistema · Te explicamos cada paso.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · En remoto, o con recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #SoporteTecnico #Remoto #PC #Murcia #SolucionesTecnologicas",
+        "Muchos problemas informáticos se pueden resolver a distancia 💡\n\nTe ayudamos por conexión remota, con tu autorización, y te contamos qué estamos haciendo en cada momento.\n\nSi no se puede resolver así, te proponemos la mejor alternativa.\n\n🔧 Qué incluye: Diagnóstico por conexión remota · Instalación y configuración de software · Resolución de problemas del sistema · Te explicamos cada paso.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: en remoto, a domicilio (recogida o servicio en tu casa) o en nuestro taller.\n\n#JMTech #AsistenciaRemota #Informatica #SoporteTecnico #Murcia #ServicioTecnico"
       ]
     },
     {
@@ -431,45 +1082,113 @@
       ]
     },
     {
-      "id": "bateria_portatil",
-      "nombre": "Portátil con batería nueva",
-      "chip": "PORTÁTILES",
-      "titulo_linea1": "Portátil con",
-      "titulo_linea2_azul": "batería nueva",
-      "subtitulo": "Cambio de batería para volver a usarlo sin enchufe.",
+      "id": "automatizacion",
+      "nombre": "Automatización de procesos",
+      "chip": "EMPRESAS",
+      "titulo_linea1": "Automatiza",
+      "titulo_linea2_azul": "tus procesos",
+      "subtitulo": "Ahorra tiempo en las tareas repetitivas de tu negocio.",
       "puntos": [
-        "Cambio de batería de portátil",
-        "Recupera tu autonomía",
-        "A domicilio o en nuestro taller"
+        "Tareas repetitivas automatizadas",
+        "Tú nos cuentas qué te quita tiempo",
+        "Solución creada a tu medida",
+        "Para autónomos y empresas"
       ],
-      "ilustracion": "portátil abierto con icono de batería llena y un rayo",
-      "texto_alternativo": "Publicación de JM TECH: cambio de batería de portátil.",
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: automatización de procesos.",
+      "pie_imagen": "Servicio solo en Murcia",
       "pies_de_foto": [
-        "🔋 ¿Tu portátil dura cada vez menos sin enchufar?\n\nCambiamos la batería de tu portátil para que recuperes autonomía y puedas volver a usarlo sin depender del cargador.\n\nNos encargamos de todo.\n\n🔧 Qué incluye: Cambio de batería de portátil · Recupera tu autonomía · A domicilio o en nuestro taller.\n\n🧩 No vendemos baterías: te asesoramos sobre cuál comprar; tú la compras y nosotros la cambiamos.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: recogemos tu equipo a domicilio, vamos a tu casa o lo traes a nuestro taller.\n\n#JMTech #Portatil #Bateria #ServicioTecnico #Murcia #Informatica",
-        "Un portátil que no aguanta la batería pierde su gracia 🔌\n\nNos encargamos del cambio de batería para que vuelvas a moverte con él.\n\nSi lo necesitas, recogemos el equipo en tu casa.\n\n🔧 Qué incluye: Cambio de batería de portátil · Recupera tu autonomía · A domicilio o en nuestro taller.\n\n🧩 No vendemos baterías: te asesoramos sobre cuál comprar; tú la compras y nosotros la cambiamos.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #Portatil #Bateria #Reparacion #Murcia #SolucionesTecnologicas",
-        "Tu portátil, otra vez sin depender del cargador 🔌\n\nCambiamos la batería para que recuperes autonomía y vuelvas a moverte con él.\n\nPrimero revisamos el equipo y te explicamos las opciones.\n\n🔧 Qué incluye: Cambio de batería de portátil · Recupera tu autonomía · A domicilio o en nuestro taller.\n\n🧩 No vendemos baterías: te asesoramos sobre cuál comprar; tú la compras y nosotros la cambiamos.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: recogida a domicilio, servicio en tu casa o entrega en el taller.\n\n#JMTech #Portatil #Bateria #Reparacion #Murcia #ServicioTecnico"
+        "⚙️ ¿Cuántas horas pierdes cada semana en tareas repetitivas?\n\nAutomatizamos procesos de tu negocio para que dediques ese tiempo a lo que de verdad importa: tus clientes.\n\nSoluciones a medida para autónomos y empresas.\n\n🔧 Qué incluye: Tareas repetitivas automatizadas · Tú nos cuentas qué te quita tiempo · Solución creada a tu medida · Para autónomos y empresas.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso.\n📍 Servicio solo en Murcia: en tu casa o negocio, o en nuestro taller.\n\n#JMTech #Automatizacion #Productividad #Empresas #Murcia #SolucionesTecnologicas",
+        "Lo que se repite todos los días, se puede automatizar 🚀\n\nAnalizamos cómo trabajas y te proponemos cómo ahorrar tiempo en tareas manuales.\n\nCada negocio es distinto, así que partimos de tu caso.\n\n🔧 Qué incluye: Tareas repetitivas automatizadas · Tú nos cuentas qué te quita tiempo · Solución creada a tu medida · Para autónomos y empresas.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Solo en Murcia · Vamos a tu casa o negocio, o lo preparamos en nuestro taller.\n\n#JMTech #Automatizacion #Autonomos #Empresas #Murcia #Productividad",
+        "Primero cuéntanos qué te quita tiempo ⏱️\n\nAnalizamos tus tareas repetitivas y creamos la automatización que las resuelve: un script, un programa o una herramienta a tu medida.\n\nPartimos de tu caso.\n\n🔧 Qué incluye: Tareas repetitivas automatizadas · Tú nos cuentas qué te quita tiempo · Solución creada a tu medida · Para autónomos y empresas.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Atendemos solo en Murcia: en tu casa, en tu negocio o en nuestro taller.\n\n#JMTech #Automatizacion #Productividad #Autonomos #Murcia #SolucionesTecnologicas"
       ]
     },
     {
-      "id": "soporte_remoto",
-      "nombre": "Servicio técnico en remoto",
-      "chip": "EN REMOTO",
-      "titulo_linea1": "Soporte técnico",
-      "titulo_linea2_azul": "en remoto",
-      "subtitulo": "Resolvemos tu problema informático a distancia, sin moverte de casa.",
+      "id": "programa_local",
+      "nombre": "Programas locales a medida",
+      "chip": "A MEDIDA",
+      "titulo_linea1": "Programas",
+      "titulo_linea2_azul": "a tu medida",
+      "subtitulo": "Creamos un programa para tu ordenador que resuelve tu necesidad.",
       "puntos": [
-        "Diagnóstico por conexión remota",
-        "Instalación y configuración de software",
-        "Resolución de problemas del sistema",
-        "Te explicamos cada paso"
+        "Tú nos cuentas la necesidad",
+        "Programa creado a tu medida",
+        "Pruebas y entrega",
+        "Te explicamos cómo usarlo"
       ],
-      "pie_imagen": "Servicio solo en Murcia  ·  En remoto, a domicilio o en taller",
-      "ilustracion": "dos equipos conectados con flechas azules y un cursor de control remoto",
-      "texto_alternativo": "Publicación de JM TECH: servicio técnico en remoto para resolver problemas informáticos a distancia.",
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: programas locales a medida.",
+      "pie_imagen": "Servicio solo en Murcia",
       "pies_de_foto": [
-        "🖥️ ¿Tienes un problema con tu equipo y no puedes moverte de casa?\n\nNos conectamos a tu ordenador en remoto, con tu permiso, para revisar qué le pasa y resolverlo a distancia siempre que sea posible.\n\nTe explicamos cada paso mientras lo hacemos.\n\n🔧 Qué incluye: Diagnóstico por conexión remota · Instalación y configuración de software · Resolución de problemas del sistema · Te explicamos cada paso.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Servicio solo en Murcia: asistencia en remoto y, si hace falta, recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #SoporteRemoto #ServicioTecnico #Informatica #Murcia #AsistenciaRemota",
-        "Soporte técnico sin salir de casa 🏠\n\nRevisamos tu equipo por conexión remota: diagnóstico, instalación y configuración de programas y ajustes del sistema.\n\nSi después hace falta una revisión en persona, también podemos hacerla.\n\n🔧 Qué incluye: Diagnóstico por conexión remota · Instalación y configuración de software · Resolución de problemas del sistema · Te explicamos cada paso.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Solo en Murcia · En remoto, o con recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n\n#JMTech #SoporteTecnico #Remoto #PC #Murcia #SolucionesTecnologicas",
-        "Muchos problemas informáticos se pueden resolver a distancia 💡\n\nTe ayudamos por conexión remota, con tu autorización, y te contamos qué estamos haciendo en cada momento.\n\nSi no se puede resolver así, te proponemos la mejor alternativa.\n\n🔧 Qué incluye: Diagnóstico por conexión remota · Instalación y configuración de software · Resolución de problemas del sistema · Te explicamos cada paso.\n\n🧩 Ofrecemos solo servicio técnico y asesoramiento: no vendemos hardware.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Atendemos solo en Murcia: en remoto, a domicilio (recogida o servicio en tu casa) o en nuestro taller.\n\n#JMTech #AsistenciaRemota #Informatica #SoporteTecnico #Murcia #ServicioTecnico"
+        "💻 ¿Necesitas un programa para tu ordenador que ninguna aplicación hace como tú quieres?\n\nNos cuentas tu necesidad y creamos un programa local a tu medida para resolverla.\n\nPara autónomos y empresas.\n\n🔧 Qué incluye: Tú nos cuentas la necesidad · Programa creado a tu medida · Pruebas y entrega · Te explicamos cómo usarlo.\n\n🧩 No vendemos programas hechos ni hardware: creamos la herramienta a medida de tu necesidad.\n\n📩 Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso.\n📍 Servicio solo en Murcia: en tu casa o negocio, o en nuestro taller.\n\n#JMTech #ProgramaAMedida #Software #Empresas #Murcia #Desarrollo",
+        "Primero tu problema, después la herramienta 🛠️\n\nDiseñamos y desarrollamos un programa que encaje con tu forma de trabajar.\n\nLo probamos contigo antes de entregarlo.\n\n🔧 Qué incluye: Tú nos cuentas la necesidad · Programa creado a tu medida · Pruebas y entrega · Te explicamos cómo usarlo.\n\n🧩 No vendemos programas hechos ni hardware: creamos la herramienta a medida de tu necesidad.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Solo en Murcia · Vamos a tu casa o negocio, o lo preparamos en nuestro taller.\n\n#JMTech #DesarrolloAMedida #Programas #Autonomos #Murcia #SolucionesTecnologicas",
+        "Si el programa que necesitas no existe, lo creamos 🚀\n\nPartimos de tu caso y te explicamos cómo usarlo.\n\nCada negocio es distinto.\n\n🔧 Qué incluye: Tú nos cuentas la necesidad · Programa creado a tu medida · Pruebas y entrega · Te explicamos cómo usarlo.\n\n🧩 No vendemos programas hechos ni hardware: creamos la herramienta a medida de tu necesidad.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Atendemos solo en Murcia: en tu casa, en tu negocio o en nuestro taller.\n\n#JMTech #Software #AMedida #Empresas #Murcia #Informatica"
+      ]
+    },
+    {
+      "id": "integracion",
+      "nombre": "Integración de sistemas",
+      "chip": "A MEDIDA",
+      "titulo_linea1": "Conectamos",
+      "titulo_linea2_azul": "tus sistemas",
+      "subtitulo": "Hacemos que tus programas y herramientas se entiendan entre sí.",
+      "puntos": [
+        "Análisis de tus sistemas",
+        "Conexión entre programas",
+        "Pruebas de funcionamiento",
+        "Te explicamos cómo funciona"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: integración de sistemas.",
+      "pie_imagen": "Servicio solo en Murcia",
+      "pies_de_foto": [
+        "🔗 ¿Usas varios programas que no se hablan entre sí y repites datos a mano?\n\nAnalizamos tus herramientas y creamos la integración que las conecta.\n\nPartimos de tu caso, para autónomos y empresas.\n\n🔧 Qué incluye: Análisis de tus sistemas · Conexión entre programas · Pruebas de funcionamiento · Te explicamos cómo funciona.\n\n🧩 No vendemos programas hechos ni hardware: creamos la herramienta a medida de tu necesidad.\n\n📩 Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso.\n📍 Servicio solo en Murcia: en tu casa o negocio, o en nuestro taller.\n\n#JMTech #Integracion #Automatizacion #Empresas #Murcia #Software",
+        "Menos copiar y pegar, más tiempo para tu negocio ⏱️\n\nConectamos tus sistemas para que la información fluya sola.\n\nLo probamos antes de entregarlo.\n\n🔧 Qué incluye: Análisis de tus sistemas · Conexión entre programas · Pruebas de funcionamiento · Te explicamos cómo funciona.\n\n🧩 No vendemos programas hechos ni hardware: creamos la herramienta a medida de tu necesidad.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Solo en Murcia · Vamos a tu casa o negocio, o lo preparamos en nuestro taller.\n\n#JMTech #IntegracionDeSistemas #Productividad #Pymes #Murcia #SolucionesTecnologicas",
+        "Tus herramientas, trabajando juntas 🤝\n\nNos cuentas qué necesitas conectar y diseñamos la solución.\n\nTe explicamos cómo funciona.\n\n🔧 Qué incluye: Análisis de tus sistemas · Conexión entre programas · Pruebas de funcionamiento · Te explicamos cómo funciona.\n\n🧩 No vendemos programas hechos ni hardware: creamos la herramienta a medida de tu necesidad.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Atendemos solo en Murcia: en tu casa, en tu negocio o en nuestro taller.\n\n#JMTech #Integracion #Software #Empresas #Murcia #Informatica"
+      ]
+    },
+    {
+      "id": "mant_software",
+      "nombre": "Mantenimiento de software",
+      "chip": "A MEDIDA",
+      "titulo_linea1": "Mantenimiento",
+      "titulo_linea2_azul": "de tu software",
+      "subtitulo": "Mantenemos funcionando las herramientas que creamos o que ya usas.",
+      "puntos": [
+        "Revisión periódica",
+        "Corrección de errores",
+        "Pequeñas mejoras",
+        "Te explicamos lo que hacemos"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: mantenimiento de software.",
+      "pie_imagen": "Servicio solo en Murcia",
+      "pies_de_foto": [
+        "🛠️ ¿Tienes un programa o un script que de vez en cuando falla?\n\nHacemos el mantenimiento: revisamos, corregimos errores y hacemos pequeñas mejoras.\n\nPara que tu herramienta siga siendo útil con el tiempo.\n\n🔧 Qué incluye: Revisión periódica · Corrección de errores · Pequeñas mejoras · Te explicamos lo que hacemos.\n\n🧩 No vendemos programas hechos ni hardware: creamos la herramienta a medida de tu necesidad.\n\n📩 Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso.\n📍 Servicio solo en Murcia: en tu casa o negocio, o en nuestro taller.\n\n#JMTech #MantenimientoSoftware #Software #Empresas #Murcia #Desarrollo",
+        "El software también necesita cuidados 💡\n\nTe ayudamos a mantener al día lo que usa tu negocio.\n\nPartimos de lo que ya tienes.\n\n🔧 Qué incluye: Revisión periódica · Corrección de errores · Pequeñas mejoras · Te explicamos lo que hacemos.\n\n🧩 No vendemos programas hechos ni hardware: creamos la herramienta a medida de tu necesidad.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Solo en Murcia · Vamos a tu casa o negocio, o lo preparamos en nuestro taller.\n\n#JMTech #Mantenimiento #Programas #Pymes #Murcia #SolucionesTecnologicas",
+        "Una herramienta que funciona hoy y mañana 🔄\n\nRevisiones y correcciones para que no te falle cuando más la necesitas.\n\nHablamos de lo que necesites.\n\n🔧 Qué incluye: Revisión periódica · Corrección de errores · Pequeñas mejoras · Te explicamos lo que hacemos.\n\n🧩 No vendemos programas hechos ni hardware: creamos la herramienta a medida de tu necesidad.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Atendemos solo en Murcia: en tu casa, en tu negocio o en nuestro taller.\n\n#JMTech #Software #Soporte #Autonomos #Murcia #Informatica"
+      ]
+    },
+    {
+      "id": "mant_seguridad",
+      "nombre": "Mantenimiento con seguridad y actualizaciones",
+      "chip": "A MEDIDA",
+      "titulo_linea1": "Software seguro",
+      "titulo_linea2_azul": "y al día",
+      "subtitulo": "Mantenimiento con revisiones de seguridad y actualizaciones.",
+      "puntos": [
+        "Revisión de seguridad",
+        "Actualizaciones del software",
+        "Corrección de errores",
+        "Te explicamos lo que hacemos"
+      ],
+      "ilustracion": "",
+      "texto_alternativo": "Publicación de JM TECH: mantenimiento con seguridad y actualizaciones.",
+      "pie_imagen": "Servicio solo en Murcia",
+      "pies_de_foto": [
+        "🔒 ¿Quieres que tu software esté revisado y actualizado?\n\nHacemos un mantenimiento con revisión de seguridad y actualizaciones de las herramientas que usa tu negocio.\n\nTe explicamos cada paso.\n\n🔧 Qué incluye: Revisión de seguridad · Actualizaciones del software · Corrección de errores · Te explicamos lo que hacemos.\n\n🧩 No vendemos programas hechos ni hardware: creamos la herramienta a medida de tu necesidad.\n\n📩 Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso.\n📍 Servicio solo en Murcia: en tu casa o negocio, o en nuestro taller.\n\n#JMTech #Seguridad #Actualizaciones #Software #Murcia #Empresas",
+        "Actualizar a tiempo evita problemas 🛡️\n\nTe ayudamos a mantener tus programas al día y revisados.\n\nSin tecnicismos.\n\n🔧 Qué incluye: Revisión de seguridad · Actualizaciones del software · Corrección de errores · Te explicamos lo que hacemos.\n\n🧩 No vendemos programas hechos ni hardware: creamos la herramienta a medida de tu necesidad.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Solo en Murcia · Vamos a tu casa o negocio, o lo preparamos en nuestro taller.\n\n#JMTech #MantenimientoSoftware #Ciberseguridad #Pymes #Murcia #SolucionesTecnologicas",
+        "Seguridad y mantenimiento, en un solo servicio ✅\n\nRevisamos, actualizamos y corregimos lo que haga falta.\n\nPartimos de tu caso.\n\n🔧 Qué incluye: Revisión de seguridad · Actualizaciones del software · Corrección de errores · Te explicamos lo que hacemos.\n\n🧩 No vendemos programas hechos ni hardware: creamos la herramienta a medida de tu necesidad.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Atendemos solo en Murcia: en tu casa, en tu negocio o en nuestro taller.\n\n#JMTech #Software #Seguridad #Autonomos #Murcia #Informatica"
       ]
     }
   ]

@@ -380,6 +380,18 @@ RESPALDO = {
     "script_software": "automatizacion", "bateria_portatil": "bateria_portatil", "soporte_remoto": "diagnostico",
     # temas de la versión anterior (11 temas)
     "recuperacion_datos": "recuperacion_datos", "windows": "windows", "automatizacion": "automatizacion",
+    # una publicación por servicio (56)
+    "diagnostico_movil_tablet": "diagnostico", "montaje_windows_drivers": "montaje_pc", "componentes": "montaje_pc",
+    "ram": "montaje_pc", "placa_base": "montaje_pc", "cpu": "montaje_pc", "pasta_termica": "consola_mantenimiento",
+    "limpieza_portatil": "bateria_portatil", "limpieza_teclado": "bateria_portatil", "cambio_ventilador": "consola_mantenimiento",
+    "optimizacion_pc": "windows", "gaming_streaming": "streaming", "bios_xmp": "montaje_pc", "formateo_windows": "windows",
+    "programas": "windows", "software_profesional": "automatizacion", "perifericos": "streaming",
+    "optimizacion_windows": "windows", "malware": "windows", "recuperacion_sistema": "recuperacion_datos",
+    "copias_seguridad": "recuperacion_datos", "migracion_pc": "recuperacion_datos", "teclado_portatil": "bateria_portatil",
+    "bisagras_portatil": "bateria_portatil", "movil_backup": "diagnostico", "movil_pantalla": "diagnostico",
+    "movil_conector": "diagnostico", "tablet_transferencia": "diagnostico", "tablet_pantalla": "diagnostico",
+    "tablet_bateria": "diagnostico", "tablet_reparacion": "diagnostico", "programa_local": "automatizacion",
+    "integracion": "automatizacion", "mant_software": "automatizacion", "mant_seguridad": "automatizacion",
 }
 
 

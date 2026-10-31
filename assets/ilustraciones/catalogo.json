@@ -40,8 +40,8 @@
         "genérica"
       ],
       "temas": [
-        "consola_mantenimiento",
-        "ssd_consola"
+        "ssd_consola",
+        "consola_mantenimiento"
       ],
       "tamano_px": [
         1254,
@@ -69,8 +69,8 @@
         "ventilación"
       ],
       "temas": [
-        "consola_mantenimiento",
-        "ssd_consola"
+        "ssd_consola",
+        "consola_mantenimiento"
       ],
       "tamano_px": [
         1254,
@@ -155,9 +155,9 @@
         "migración"
       ],
       "temas": [
+        "ssd_hdd",
         "migracion_hdd_ssd",
-        "backup_recuperacion",
-        "ssd_hdd"
+        "migracion_pc"
       ],
       "tamano_px": [
         1254,
@@ -186,7 +186,9 @@
         "móvil"
       ],
       "temas": [
-        "diagnostico"
+        "diagnostico",
+        "diagnostico_movil_tablet",
+        "malware"
       ],
       "tamano_px": [
         1254,
@@ -214,7 +216,9 @@
         "cámara"
       ],
       "temas": [
-        "streaming"
+        "gaming_streaming",
+        "streaming",
+        "perifericos"
       ],
       "tamano_px": [
         1254,
@@ -242,7 +246,13 @@
         "automatización"
       ],
       "temas": [
-        "script_software"
+        "software_profesional",
+        "script_software",
+        "automatizacion",
+        "programa_local",
+        "integracion",
+        "mant_software",
+        "mant_seguridad"
       ],
       "tamano_px": [
         1254,
@@ -268,9 +278,9 @@
         "tarjeta gráfica"
       ],
       "temas": [
-        "tarjeta_grafica",
         "montaje_pc",
-        "gaming"
+        "componentes",
+        "tarjeta_grafica"
       ],
       "tamano_px": [
         1254,
@@ -297,8 +307,9 @@
       ],
       "temas": [
         "ssd_hdd",
-        "backup_recuperacion",
-        "migracion_hdd_ssd"
+        "copias_seguridad",
+        "migracion_hdd_ssd",
+        "recuperacion_datos"
       ],
       "tamano_px": [
         1254,
@@ -326,9 +337,12 @@
       ],
       "temas": [
         "diagnostico",
-        "tarjeta_grafica",
-        "pasta_limpieza",
-        "montaje_pc"
+        "componentes",
+        "placa_base",
+        "limpieza_portatil",
+        "limpieza_teclado",
+        "teclado_portatil",
+        "bisagras_portatil"
       ],
       "tamano_px": [
         1254,
@@ -383,7 +397,9 @@
         "conector USB-C"
       ],
       "temas": [
-        "movil_pantalla_conector"
+        "diagnostico_movil_tablet",
+        "movil_pantalla",
+        "movil_conector"
       ],
       "tamano_px": [
         1254,
@@ -412,6 +428,7 @@
       ],
       "temas": [
         "montaje_pc",
+        "montaje_windows_drivers",
         "gaming"
       ],
       "tamano_px": [
@@ -441,6 +458,7 @@
       ],
       "temas": [
         "montaje_pc",
+        "montaje_windows_drivers",
         "gaming"
       ],
       "tamano_px": [
@@ -499,6 +517,7 @@
       ],
       "temas": [
         "montaje_pc",
+        "tarjeta_grafica",
         "gaming"
       ],
       "tamano_px": [
@@ -527,8 +546,12 @@
         "monitor"
       ],
       "temas": [
+        "asesoramiento",
+        "montaje_windows_drivers",
+        "gaming_streaming",
         "streaming",
-        "gaming"
+        "windows",
+        "perifericos"
       ],
       "tamano_px": [
         1254,
@@ -555,8 +578,9 @@
       ],
       "temas": [
         "montaje_pc",
-        "tarjeta_grafica",
-        "diagnostico"
+        "componentes",
+        "placa_base",
+        "bios_xmp"
       ],
       "tamano_px": [
         1254,
@@ -582,8 +606,10 @@
         "memoria RAM"
       ],
       "temas": [
-        "tarjeta_grafica",
-        "montaje_pc"
+        "montaje_pc",
+        "componentes",
+        "ram",
+        "bios_xmp"
       ],
       "tamano_px": [
         1254,
@@ -610,10 +636,10 @@
         "NVMe"
       ],
       "temas": [
+        "componentes",
         "ssd_hdd",
-        "ssd_consola",
         "migracion_hdd_ssd",
-        "tarjeta_grafica"
+        "ssd_consola"
       ],
       "tamano_px": [
         1254,
@@ -641,7 +667,11 @@
         "batería"
       ],
       "temas": [
-        "tablet"
+        "diagnostico_movil_tablet",
+        "tablet_transferencia",
+        "tablet_pantalla",
+        "tablet_bateria",
+        "tablet_reparacion"
       ],
       "tamano_px": [
         1254,
@@ -782,8 +812,11 @@
         "escritorio"
       ],
       "temas": [
+        "custom_loop",
+        "gaming",
+        "gaming_streaming",
         "streaming",
-        "gaming"
+        "perifericos"
       ],
       "tamano_px": [
         1024,
@@ -863,6 +896,8 @@
         "disipador"
       ],
       "temas": [
+        "cpu",
+        "pasta_termica",
         "pasta_limpieza"
       ],
       "tamano_px": [
@@ -892,7 +927,8 @@
         "aire comprimido"
       ],
       "temas": [
-        "pasta_limpieza"
+        "pasta_limpieza",
+        "cambio_ventilador"
       ],
       "tamano_px": [
         1254,
@@ -921,7 +957,10 @@
         "CPU"
       ],
       "temas": [
-        "pasta_limpieza"
+        "cpu",
+        "pasta_termica",
+        "pasta_limpieza",
+        "cambio_ventilador"
       ],
       "tamano_px": [
         1254,
@@ -949,7 +988,9 @@
         "herramientas"
       ],
       "temas": [
-        "pasta_limpieza"
+        "limpieza_portatil",
+        "limpieza_teclado",
+        "cambio_ventilador"
       ],
       "tamano_px": [
         1254,
@@ -978,7 +1019,11 @@
         "disco externo"
       ],
       "temas": [
-        "backup_recuperacion"
+        "recuperacion_sistema",
+        "copias_seguridad",
+        "migracion_pc",
+        "recuperacion_datos",
+        "movil_backup"
       ],
       "tamano_px": [
         1254,
@@ -1006,7 +1051,10 @@
         "escudo"
       ],
       "temas": [
-        "backup_recuperacion"
+        "formateo_windows",
+        "copias_seguridad",
+        "migracion_pc",
+        "movil_backup"
       ],
       "tamano_px": [
         1254,
@@ -1034,7 +1082,7 @@
         "archivos"
       ],
       "temas": [
-        "backup_recuperacion"
+        "recuperacion_datos"
       ],
       "tamano_px": [
         1254,
@@ -1094,7 +1142,9 @@
       ],
       "temas": [
         "asesoramiento",
-        "montaje_pc"
+        "ram",
+        "tarjeta_grafica",
+        "placa_base"
       ],
       "tamano_px": [
         1254,
@@ -1122,7 +1172,8 @@
         "portátil"
       ],
       "temas": [
-        "windows_programas"
+        "programas",
+        "software_profesional"
       ],
       "tamano_px": [
         1254,
@@ -1150,7 +1201,15 @@
         "software"
       ],
       "temas": [
-        "windows_programas"
+        "optimizacion_pc",
+        "windows",
+        "formateo_windows",
+        "programas",
+        "optimizacion_windows",
+        "malware",
+        "recuperacion_sistema",
+        "mant_software",
+        "mant_seguridad"
       ],
       "tamano_px": [
         1254,
@@ -1178,7 +1237,12 @@
         "progreso"
       ],
       "temas": [
-        "windows_programas"
+        "montaje_windows_drivers",
+        "optimizacion_pc",
+        "windows",
+        "formateo_windows",
+        "optimizacion_windows",
+        "recuperacion_sistema"
       ],
       "tamano_px": [
         1254,
@@ -1206,7 +1270,8 @@
         "engranaje"
       ],
       "temas": [
-        "script_software"
+        "script_software",
+        "automatizacion"
       ],
       "tamano_px": [
         1254,
@@ -1234,7 +1299,10 @@
         "estación"
       ],
       "temas": [
-        "script_software"
+        "programas",
+        "software_profesional",
+        "programa_local",
+        "mant_seguridad"
       ],
       "tamano_px": [
         1254,
@@ -1262,7 +1330,8 @@
         "cursor"
       ],
       "temas": [
-        "soporte_remoto"
+        "soporte_remoto",
+        "integracion"
       ],
       "tamano_px": [
         1254,
@@ -1276,6 +1345,35 @@
         "C"
       ],
       "notas_calidad": "Margen 2,7 %. Falta la segunda imagen (_02).",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "empresa_soporte_remoto_aislado_02.png",
+      "original": "empresa_soporte_remoto_aislado_02.png",
+      "tipo": "aislado",
+      "categoria": "empresa",
+      "etiquetas": [
+        "soporte remoto",
+        "conexión",
+        "auriculares"
+      ],
+      "temas": [
+        "soporte_remoto",
+        "integracion"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
       "aprobado": true,
       "fecha": "2026-10-31"
     },
@@ -1318,7 +1416,7 @@
         "USB-C"
       ],
       "temas": [
-        "movil_pantalla_conector"
+        "movil_conector"
       ],
       "tamano_px": [
         1254,
@@ -1346,7 +1444,7 @@
         "sustitución"
       ],
       "temas": [
-        "movil_pantalla_conector"
+        "movil_pantalla"
       ],
       "tamano_px": [
         1254,
@@ -1402,7 +1500,9 @@
         "nube"
       ],
       "temas": [
-        "movil_transferencia"
+        "movil_transferencia",
+        "movil_backup",
+        "tablet_transferencia"
       ],
       "tamano_px": [
         1254,
@@ -1431,7 +1531,13 @@
         "rendimiento"
       ],
       "temas": [
-        "gaming"
+        "ram",
+        "cpu",
+        "optimizacion_pc",
+        "gaming",
+        "gaming_streaming",
+        "bios_xmp",
+        "optimizacion_windows"
       ],
       "tamano_px": [
         1254,
@@ -1459,6 +1565,7 @@
         "autonomía"
       ],
       "temas": [
+        "migracion_pc",
         "bateria_portatil"
       ],
       "tamano_px": [
@@ -1516,8 +1623,11 @@
         "componentes"
       ],
       "temas": [
-        "tarjeta_grafica",
-        "diagnostico"
+        "componentes",
+        "limpieza_portatil",
+        "limpieza_teclado",
+        "teclado_portatil",
+        "bisagras_portatil"
       ],
       "tamano_px": [
         1254,
@@ -1601,7 +1711,8 @@
         "sustitución"
       ],
       "temas": [
-        "tablet"
+        "tablet_bateria",
+        "tablet_reparacion"
       ],
       "tamano_px": [
         1254,
@@ -1629,7 +1740,8 @@
         "reparación"
       ],
       "temas": [
-        "tablet"
+        "tablet_pantalla",
+        "tablet_reparacion"
       ],
       "tamano_px": [
         1254,

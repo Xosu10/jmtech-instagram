@@ -31,22 +31,26 @@ def hoja_contactos():
     catalogo = cargar_catalogo()
     nombres = indice_assets(catalogo)
     semilla = cargar_config()["semilla"]
-    tw, th, margen, cab = 360, 450, 16, 64
-    hoja = Image.new("RGB", (margen + len(temas) * (tw + margen), cab + 3 * (th + margen) + margen), (240, 244, 250))
-    d = ImageDraw.Draw(hoja)
-    avisos = []
-    for i, t in enumerate(temas):
-        x = margen + i * (tw + margen)
-        d.text((x, 18), t["id"], font=font("Bold", 13), fill=(16, 22, 36))
-        for j, e in enumerate(ESTILOS):
-            cands = Selector(catalogo, semilla).candidatos(t["id"], e)
-            elegido = next((c for c in cands if c != "dibujo"), "dibujo")       # en la hoja se prefiere el asset
-            img, info = renderizar(t, e, nombres.get(elegido))
-            guardar_jpeg(img, destino / f"{t['id']}_{e}.jpg")
-            avisos += [f"{t['id']} {e}: {a}" for a in info["avisos"]]
-            hoja.paste(img.resize((tw, th), Image.LANCZOS), (x, cab + j * (th + margen)))
-    hoja.save(SALIDA / "hoja_contactos.jpg", quality=88)
-    print("Hoja:", SALIDA / "hoja_contactos.jpg")
+    tw, th, margen, cab, por_hoja = 360, 450, 16, 64, 14
+    avisos, hojas = [], []
+    for pagina in range(0, len(temas), por_hoja):
+        lote = temas[pagina:pagina + por_hoja]
+        hoja = Image.new("RGB", (margen + len(lote) * (tw + margen), cab + 3 * (th + margen) + margen), (240, 244, 250))
+        d = ImageDraw.Draw(hoja)
+        for i, t in enumerate(lote):
+            x = margen + i * (tw + margen)
+            d.text((x, 18), f"{pagina + i + 1}. {t['id']}", font=font("Bold", 13), fill=(16, 22, 36))
+            for j, e in enumerate(ESTILOS):
+                cands = Selector(catalogo, semilla).candidatos(t["id"], e)
+                elegido = next((c for c in cands if c != "dibujo"), "dibujo")       # en la hoja se prefiere el asset
+                img, info = renderizar(t, e, nombres.get(elegido))
+                guardar_jpeg(img, destino / f"{t['id']}_{e}.jpg")
+                avisos += [f"{t['id']} {e}: {a}" for a in info["avisos"]]
+                hoja.paste(img.resize((tw, th), Image.LANCZOS), (x, cab + j * (th + margen)))
+        ruta = SALIDA / f"hoja_contactos_{pagina // por_hoja + 1}.jpg"
+        hoja.save(ruta, quality=88)
+        hojas.append(ruta)
+    print("Hojas:", *hojas, sep="\n  ")
     print("Avisos de maquetación:", avisos or "ninguno")
 
 
