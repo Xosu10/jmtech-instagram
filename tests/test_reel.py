@@ -81,3 +81,21 @@ def test_sin_dar_direccion_publica_el_fallo_de_subida_sube(tmp_path):
     c = ClienteInstagram(TOKEN, "123", sesion=s, dormir=lambda _: None)
     with pytest.raises(ErrorInstagram):
         c.publicar_reel(video, "pie")
+
+
+def test_el_asset_nunca_toca_el_texto_en_ninguno_de_los_56_servicios():
+    from jmtech.reel import FLOTE, HUECO, SOBREPASO, Y_CTA, calcular_geometria
+    problemas = []
+    for tid, t in indice_temas().items():
+        g = calcular_geometria(t)
+        arriba, abajo = g["zona_asset"]
+        mitad = g["alto_caja"] * SOBREPASO / 2 + FLOTE
+        techo, suelo = g["y_asset_centro"] - mitad, g["y_asset_centro"] + mitad
+        fin_lista = g["ys_puntos"][-1] + g["puntos"][-1].height
+        if techo < g["y_sub_fin"] + HUECO - 1 or suelo > g["y_puntos"] - HUECO + 1:
+            problemas.append(f"{tid}: el asset toca el texto")
+        if g["alto_caja"] < 200:
+            problemas.append(f"{tid}: asset demasiado pequeño ({g['alto_caja']} px)")
+        if fin_lista > Y_CTA - 15:
+            problemas.append(f"{tid}: la lista toca el botón")
+    assert problemas == []
