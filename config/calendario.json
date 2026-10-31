@@ -1,0 +1,24 @@
+{
+  "_ayuda": [
+    "Archivo de ajustes del calendario. Se edita a mano.",
+    "fecha_inicio: primer dia en que puede publicarse (solo cuentan de lunes a viernes).",
+    "dias_sin_publicar: lista de fechas AAAA-MM-DD en las que NO se publica (festivos, vacaciones).",
+    "pausado: true detiene todas las publicaciones automaticas; false las reanuda.",
+    "semilla: numero que fija el orden de los temas. Mientras no cambie, el orden es siempre el mismo.",
+    "campanas: publicaciones especiales que sustituyen a la rotacion en una fecha concreta (Fase 7).",
+    "campanas_previstas: recordatorio de campanas por disenar. No se publican hasta pasarlas a 'campanas'."
+  ],
+  "fecha_inicio": "2026-11-02",
+  "zona_horaria": "Europe/Madrid",
+  "hora_publicacion": "19:00",
+  "pausado": false,
+  "semilla": 2026,
+  "dias_sin_publicar": [],
+  "campanas": [],
+  "campanas_previstas": [
+    {"fecha": "2026-11-23", "nombre": "Aviso previo de Black Friday", "pendiente": "oferta por decidir"},
+    {"fecha": "2026-11-27", "nombre": "Black Friday", "pendiente": "oferta por decidir"},
+    {"fecha": "2026-11-30", "nombre": "Cyber Monday", "pendiente": "oferta por decidir"},
+    {"fecha": "2026-12", "nombre": "Navidad", "pendiente": "mensaje por decidir"}
+  ]
+}
