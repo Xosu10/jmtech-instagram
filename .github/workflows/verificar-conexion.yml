@@ -49,6 +49,16 @@ jobs:
             echo "CONEXION CORRECTA (token de usuario del sistema)"
             echo "Usuario de Instagram: $(echo "$r2" | jq -r '.username')"
             echo "Id de la cuenta: $(echo "$r2" | jq -r '.id')"
+            echo "Comprobando permiso de publicar (sin publicar nada)..."
+            r3=$(curl -sS -G "https://graph.facebook.com/$IG_USER_ID/content_publishing_limit" \
+              --data-urlencode "fields=quota_usage,config" \
+              --data-urlencode "access_token=$IG_ACCESS_TOKEN")
+            if echo "$r3" | jq -e '.error' > /dev/null; then
+              echo "AVISO: no se pudo consultar el limite de publicacion."
+              echo "$r3" | jq '{codigo: .error.code, tipo: .error.type, subcodigo: .error.error_subcode, mensaje: .error.message}'
+              exit 1
+            fi
+            echo "PERMISO DE PUBLICAR CORRECTO. Publicaciones usadas hoy: $(echo "$r3" | jq -r '.data[0].quota_usage // 0') de $(echo "$r3" | jq -r '.data[0].config.quota_total // "?"')"
             exit 0
           fi
           echo "ERROR: Instagram rechazo el token en las dos pruebas."
