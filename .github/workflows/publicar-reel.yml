@@ -34,6 +34,10 @@ on:
         description: "Opcional: video ya subido al repositorio (ruta). Vacio = se genera"
         type: string
         default: ""
+      musica_indice:
+        description: "Opcional (reel de prueba): 0, 1, 2... para una cancion distinta en cada reel de un lote"
+        type: string
+        default: ""
 
 concurrency:
   group: publicar-reel
@@ -86,11 +90,13 @@ jobs:
           TEMA: ${{ inputs.tema }}
           ASSET: ${{ inputs.asset }}
           VIDEO: ${{ inputs.video }}
+          MUSICA_INDICE: ${{ inputs.musica_indice }}
         run: |
           if [ -n "$TEMA" ]; then
             args=(reel --tema "$TEMA")
             [ -n "$ASSET" ] && args+=(--asset "$ASSET")
             [ -n "$VIDEO" ] && args+=(--video "$VIDEO")
+            [ -n "$MUSICA_INDICE" ] && args+=(--musica-indice "$MUSICA_INDICE")
           else
             args=(reel-hoy)
             [ "$IGNORAR_HORA" = "true" ] && args+=(--ignorar-hora)

@@ -15,6 +15,7 @@ import math
 import os
 import sys
 import time
+import zlib
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta, timezone
 from datetime import time as hora_t
@@ -239,7 +240,7 @@ def publicar(pend, *, dry_run=False, cliente=None, ruta_estado=None, ahora_utc=N
 
 # ---------- Reels ----------
 def publicar_reel(tema_id, asset_nombre, video=None, musica=None, musica_inicio=0.0, dry_run=False, cliente=None,
-                  ruta_estado=None, ahora_utc=None):
+                  ruta_estado=None, ahora_utc=None, musica_indice=None):
     """Genera (si no se da `video`) y publica un reel con el texto y el asset de la publicación."""
     from .reel import generar_reel
 
@@ -256,7 +257,10 @@ def publicar_reel(tema_id, asset_nombre, video=None, musica=None, musica_inicio=
     if video and Path(video).exists():
         ruta = Path(video)
     else:
+        if not musica:                       # canción de la biblioteca, distinta según el servicio
+            musica, musica_inicio = elegir_musica(musica_manual(tema_id, ahora_utc, musica_indice))
         ruta = generar_reel(t, asset, RAIZ / "salida_reels" / f"reel_{tema_id}.mp4", musica=musica, musica_inicio=musica_inicio)
+        print(f"Música: {Path(musica).name if musica else 'propia'}")
     print(f"Reel listo: {ruta.name} ({ruta.stat().st_size / 1e6:.1f} MB)")
     if dry_run:
         print(f"PRUEBA EN SECO: no se llama a Instagram. Pie:\n---\n{pie}\n---")
@@ -294,6 +298,13 @@ def elegir_musica(dia: date, carpeta=None):
     n = dia.toordinal()
     paso = next(k for k in range(3, 3 + len(pistas) + 1) if math.gcd(k, len(pistas)) == 1)   # salta de forma que nunca repite
     return pistas[(n * paso) % len(pistas)], float(8 + (n * 13) % 30)
+
+
+def musica_manual(tema_id: str, ahora_utc, indice=None) -> date:
+    """Día 'virtual' para elegir canción en un reel manual: con `indice` (0, 1, 2...) cada reel del lote lleva una
+    canción distinta; sin él, cambia con el servicio."""
+    hoy = ahora_madrid(ahora_utc).date().toordinal()
+    return date.fromordinal(hoy + (indice if indice is not None else zlib.crc32(tema_id.encode()) % 997))
 
 
 def reel_hoy(ahora_utc=None, *, dry_run=False, ignorar_hora=False, cfg=None, estado=None, cliente=None,
@@ -395,6 +406,7 @@ def main(argv=None) -> int:
     p.add_argument("--video", help="reel: vídeo ya creado (si no, se genera)")
     p.add_argument("--musica", help="reel: canción a usar (si no, música propia)")
     p.add_argument("--musica-inicio", type=float, default=0.0)
+    p.add_argument("--musica-indice", type=int, default=None, help="reel manual: 0, 1, 2... una canción distinta por reel")
     a = p.parse_args(argv)
     try:
         if a.orden == "reel-hoy":
@@ -403,7 +415,8 @@ def main(argv=None) -> int:
         if a.orden == "reel":
             if not a.tema:
                 p.error("reel necesita --tema")
-            publicar_reel(a.tema, a.asset, a.video, a.musica, a.musica_inicio, dry_run=a.dry_run)
+            publicar_reel(a.tema, a.asset, a.video, a.musica, a.musica_inicio, dry_run=a.dry_run,
+                          musica_indice=a.musica_indice)
             return 0
         if a.orden in ("preparar", "hoy"):
             pend = preparar(dry_run=a.dry_run, ignorar_hora=a.ignorar_hora, tema=a.tema, estilo=a.estilo,
