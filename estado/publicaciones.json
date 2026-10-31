@@ -83,6 +83,21 @@
       "permalink": "https://www.instagram.com/p/DfKYLCgl6lf/",
       "publicado_utc": "2026-10-31T14:31:30Z",
       "retraso_min": 0
+    },
+    {
+      "fecha": "2026-10-31",
+      "tema": "tarjeta_grafica",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_prueba_tarjeta_grafica.mp4",
+      "asset": "gpu_triple_ventilador_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": true,
+      "tipo": "reel",
+      "media_id": "18132927074492547",
+      "permalink": "https://www.instagram.com/reel/DfKhf3xougq/",
+      "publicado_utc": "2026-10-31T15:52:57Z",
+      "retraso_min": 0
     }
   ]
 }
