@@ -1,0 +1,34 @@
+name: Verificar conexion con Instagram
+
+# Se lanza a mano. Comprueba que el token guardado en GitHub Secrets funciona
+# y escribe solo el usuario y el id de la cuenta (no son secretos). El token nunca se muestra.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comprobar el token
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          if [ -z "$IG_ACCESS_TOKEN" ]; then
+            echo "ERROR: no existe el secreto IG_ACCESS_TOKEN en GitHub."
+            exit 1
+          fi
+          respuesta=$(curl -sS -G "https://graph.instagram.com/me" \
+            --data-urlencode "fields=user_id,username" \
+            --data-urlencode "access_token=$IG_ACCESS_TOKEN")
+          if echo "$respuesta" | jq -e '.error' > /dev/null; then
+            echo "ERROR: Instagram rechazo la peticion."
+            echo "$respuesta" | jq '{codigo: .error.code, tipo: .error.type, mensaje: .error.message}'
+            exit 1
+          fi
+          echo "CONEXION CORRECTA"
+          echo "Usuario de Instagram: $(echo "$respuesta" | jq -r '.username')"
+          echo "Id de la cuenta: $(echo "$respuesta" | jq -r '.user_id')"

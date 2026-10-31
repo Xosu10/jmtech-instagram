@@ -25,3 +25,6 @@ salida_prueba/
 *.log
 .DS_Store
 Thumbs.db
+
+# Addendum de trabajo (nombre de pila de José)
+ADDENDUM_ASSETS.md
