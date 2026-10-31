@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import os
 import sys
 import time
@@ -54,17 +55,17 @@ def ahora_madrid(ahora_utc: datetime | None = None) -> datetime:
     return ahora_utc.astimezone(ZONA)
 
 
-def inicio_ventana(dia: date, cfg: dict) -> datetime:
-    return datetime.combine(dia, hora_t.fromisoformat(cfg["hora_publicacion"]), tzinfo=ZONA)
+def inicio_ventana(dia: date, cfg: dict, clave: str = "hora_publicacion") -> datetime:
+    return datetime.combine(dia, hora_t.fromisoformat(cfg[clave]), tzinfo=ZONA)
 
 
-def en_ventana(ahora: datetime, cfg: dict) -> bool:
-    ini = inicio_ventana(ahora.date(), cfg)
+def en_ventana(ahora: datetime, cfg: dict, clave: str = "hora_publicacion") -> bool:
+    ini = inicio_ventana(ahora.date(), cfg, clave)
     return ini <= ahora < ini + timedelta(minutes=VENTANA_MIN)
 
 
-def retraso_min(ahora: datetime, cfg: dict) -> int:
-    return max(0, int((ahora - inicio_ventana(ahora.date(), cfg)).total_seconds() // 60))
+def retraso_min(ahora: datetime, cfg: dict, clave: str = "hora_publicacion") -> int:
+    return max(0, int((ahora - inicio_ventana(ahora.date(), cfg, clave)).total_seconds() // 60))
 
 
 # ---------- Qué toca hoy ----------
@@ -78,7 +79,7 @@ class Decision:
 
 
 def decidir(ahora_utc, cfg, estado, *, ignorar_hora=False, tema=None, estilo=None, prueba=False,
-            catalogo=None, asset=None) -> Decision:
+            catalogo=None, asset=None, tipo="post") -> Decision:
     ahora = ahora_madrid(ahora_utc)
     hoy = ahora.date()
     if prueba:
@@ -94,11 +95,14 @@ def decidir(ahora_utc, cfg, estado, *, ignorar_hora=False, tema=None, estilo=Non
         return Decision("omitir", "el sistema está pausado (config/calendario.json)", hoy)
     if not es_dia_publicable(hoy, cfg):
         return Decision("omitir", "hoy no toca publicar (fin de semana, festivo o antes de la fecha de inicio)", hoy)
-    if not ignorar_hora and not en_ventana(ahora, cfg):
+    clave = "hora_reel" if tipo == "reel" else "hora_publicacion"
+    if tipo == "reel" and not cfg.get("reels", True):
+        return Decision("omitir", "los reels están desactivados (config/calendario.json)", hoy)
+    if not ignorar_hora and not en_ventana(ahora, cfg, clave):
         return Decision("omitir", f"en Madrid son las {ahora:%H:%M}, fuera de la ventana de publicación "
-                                  f"({cfg['hora_publicacion']} + {VENTANA_MIN} min)", hoy)
-    if est.publicado_el(estado, hoy):
-        return Decision("omitir", "ya se publicó hoy (evita duplicados)", hoy)
+                                  f"({cfg[clave]} + {VENTANA_MIN} min)", hoy)
+    if est.publicado_el(estado, hoy, tipo):
+        return Decision("omitir", f"ya se publicó hoy {'el reel' if tipo == 'reel' else 'la publicación'} (evita duplicados)", hoy)
     return Decision("publicar", "toca publicar", hoy, publicacion_del_dia(hoy, cfg, catalogo))
 
 
@@ -167,10 +171,15 @@ def esperar_url(url, *, sesion=requests, intentos=18, cada_s=10, dormir=time.sle
     raise ErrorPublicacion(f"La imagen no está disponible en {url} ({ultimo}). ¿Se subió al repositorio?")
 
 
-def ya_en_instagram(cliente, pie, ahora_utc):
-    """Si Instagram ya tiene una publicación con este pie en las últimas 24 h, la devuelve."""
+def ya_en_instagram(cliente, pie, ahora_utc, tipo="post"):
+    """Si Instagram ya tiene una publicación (o un reel) con este pie en las últimas 24 h, la devuelve.
+
+    La publicación y su reel comparten pie: por eso se distingue por tipo (IMAGE o VIDEO)."""
+    esperado = "VIDEO" if tipo == "reel" else "IMAGE"
     try:
         for m in cliente.ultimos_medios(10):
+            if m.get("media_type") not in (None, esperado):
+                continue
             if m.get("caption") == pie:
                 ts = datetime.strptime(m["timestamp"], "%Y-%m-%dT%H:%M:%S%z")
                 if ahora_utc - ts < timedelta(hours=24):
@@ -274,6 +283,70 @@ def publicar_reel(tema_id, asset_nombre, video=None, musica=None, musica_inicio=
     return registro
 
 
+def elegir_musica(dia: date, carpeta=None):
+    """Canción y segundo de inicio del día, de forma reproducible. Nunca la misma dos días seguidos.
+
+    Devuelve (ruta, inicio) o (None, 0.0) si no hay música: entonces se usa la música propia sintetizada."""
+    carpeta = Path(carpeta or os.environ.get("MUSICA_DIR") or RAIZ / "musica")
+    pistas = sorted(carpeta.glob("*.mp3")) if carpeta.exists() else []
+    if not pistas:
+        return None, 0.0
+    n = dia.toordinal()
+    paso = next(k for k in range(3, 3 + len(pistas) + 1) if math.gcd(k, len(pistas)) == 1)   # salta de forma que nunca repite
+    return pistas[(n * paso) % len(pistas)], float(8 + (n * 13) % 30)
+
+
+def reel_hoy(ahora_utc=None, *, dry_run=False, ignorar_hora=False, cfg=None, estado=None, cliente=None,
+             ruta_estado=None, carpeta_musica=None, catalogo=None):
+    """Reel automático del día: mismo tema, imagen y pie que la publicación de las 19:00."""
+    from .reel import generar_reel
+
+    ahora_utc = ahora_utc or datetime.now(UTC)
+    cfg = cfg or cargar_config()
+    estado = est.cargar(ruta_estado) if estado is None else estado
+    catalogo = cargar_catalogo() if catalogo is None else catalogo
+    d = decidir(ahora_utc, cfg, estado, ignorar_hora=ignorar_hora, catalogo=catalogo, tipo="reel")
+    if d.accion == "omitir":
+        print(f"No hay reel ahora: {d.motivo}.")
+        return None
+    pub = d.publicacion
+    if pub.tipo == "campana":
+        raise ErrorPublicacion(f"Hoy hay una campaña ({pub.campana_id}) y aún no tiene reel diseñado.")
+    t = indice_temas()[pub.tema_id]
+    problemas = problemas_tema(t)
+    if problemas:
+        raise ErrorPublicacion("El contenido no pasa las comprobaciones: " + "; ".join(problemas))
+    pie = pie_de_foto(t, pub.variante)
+    objeto = indice_assets(catalogo).get(pub.asset)
+    pista, inicio = elegir_musica(d.fecha, carpeta_musica)
+    ruta = generar_reel(t, objeto, RAIZ / "salida_reels" / f"reel_{d.fecha.isoformat()}.mp4", musica=pista, musica_inicio=inicio)
+    print(f"Reel listo: {t['nombre']} · imagen {pub.asset} · música {pista.name if pista else 'propia'} (desde {inicio:.0f} s)")
+    if dry_run:
+        print(f"PRUEBA EN SECO: no se llama a Instagram. Pie:\n---\n{pie}\n---")
+        return None
+    cliente = cliente or ClienteInstagram(os.environ.get("IG_ACCESS_TOKEN"), os.environ.get("IG_USER_ID", IG_USER_ID))
+    previo = ya_en_instagram(cliente, pie, ahora_utc, "reel")
+    if previo:
+        media_id, permalink = previo["id"], previo.get("permalink")
+        print("Instagram ya tiene el reel de hoy; se anota sin repetirlo.")
+    else:
+        media_id = cliente.publicar_reel(ruta, pie)
+        permalink = cliente.permalink(media_id)
+    ahora = ahora_madrid(ahora_utc)
+    retraso = retraso_min(ahora, cfg, "hora_reel")
+    if retraso > AVISO_RETRASO_MIN:
+        print(f"::warning::El reel salió con {retraso} minutos de retraso.")
+    registro = est.registrar(estado, fecha=d.fecha.isoformat(), tema=pub.tema_id, estilo="reel", variante=pub.variante,
+                             imagen=ruta.name, asset=pub.asset, resultado="publicado", prueba=False, tipo="reel",
+                             media_id=media_id, permalink=permalink,
+                             publicado_utc=ahora_utc.astimezone(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"), retraso_min=retraso,
+                             musica=pista.name if pista else "propia")
+    est.guardar(estado, ruta_estado)
+    est.generar_informe(estado, ahora_utc)
+    print(f"PUBLICADO (reel): {permalink}")
+    return registro
+
+
 # ---------- Prueba en seco de un rango ----------
 def simular(desde: date, hasta: date) -> int:
     """Recorre cada día como si fueran las 19:00 en Madrid, sin tocar Instagram. Devuelve nº de problemas."""
@@ -311,7 +384,7 @@ def _salida_github(clave, valor):
 
 def main(argv=None) -> int:
     p = argparse.ArgumentParser(prog="jmtech.publicador")
-    p.add_argument("orden", choices=["preparar", "publicar", "hoy", "simular", "verificar", "informe", "reel"])
+    p.add_argument("orden", choices=["preparar", "publicar", "hoy", "simular", "verificar", "informe", "reel", "reel-hoy"])
     p.add_argument("fechas", nargs="*", help="solo para simular: DESDE HASTA (AAAA-MM-DD)")
     p.add_argument("--dry-run", action="store_true", help="no llama a Instagram")
     p.add_argument("--ignorar-hora", action="store_true", help="publica aunque no sea la hora (solo manual)")
@@ -324,6 +397,9 @@ def main(argv=None) -> int:
     p.add_argument("--musica-inicio", type=float, default=0.0)
     a = p.parse_args(argv)
     try:
+        if a.orden == "reel-hoy":
+            reel_hoy(dry_run=a.dry_run, ignorar_hora=a.ignorar_hora)
+            return 0
         if a.orden == "reel":
             if not a.tema:
                 p.error("reel necesita --tema")

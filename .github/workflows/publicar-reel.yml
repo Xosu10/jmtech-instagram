@@ -1,30 +1,42 @@
-name: Publicar un reel
+name: Publicar el reel del dia
 
-# Solo a mano. Genera un reel (texto + asset animados + musica) o usa un video ya subido al repositorio
-# y lo publica en Instagram. Por defecto es PRUEBA EN SECO.
+# REEL AUTOMATICO: lunes a viernes a las 15:00 (hora de Madrid), del mismo servicio que la publicacion de las 19:00.
+# GitHub programa en UTC. Madrid = UTC+1 en invierno y UTC+2 en verano: DOS disparos (13:00 y 14:00 UTC) y el programa
+# solo publica si en Madrid son las 15:00-16:30 (y nunca dos reels el mismo dia).
+# Musica: repositorio privado jmtech-musica (clave de solo lectura en el secreto MUSICA_DEPLOY_KEY).
+# Si falta la clave, usa musica propia generada por codigo.
+# Para PAUSAR: en config/calendario.json pon "reels": false (o "pausado": true para todo).
+# A mano (Run workflow): con "tema" crea un reel de prueba; sin "tema" ejecuta el reel del dia. Prueba en seco por defecto.
 
 on:
+  schedule:
+    - cron: "0 13 * * 1-5"
+    - cron: "0 14 * * 1-5"
   workflow_dispatch:
     inputs:
       dry_run:
         description: "Prueba en seco (NO publica en Instagram)"
         type: boolean
         default: true
+      ignorar_hora:
+        description: "Publicar el reel del dia aunque no sea la hora (solo manual)"
+        type: boolean
+        default: false
       tema:
-        description: "Tema (id), por ejemplo: tarjeta_grafica"
+        description: "Opcional: tema (id) para un reel de prueba, por ejemplo: tarjeta_grafica"
         type: string
-        default: "tarjeta_grafica"
+        default: ""
       asset:
-        description: "Archivo del catalogo, por ejemplo: gpu_triple_ventilador_aislado_01.png"
+        description: "Opcional: archivo del catalogo para el reel de prueba"
         type: string
         default: ""
       video:
-        description: "Video ya subido al repositorio (ruta), por ejemplo: publicaciones/reels/mi_reel.mp4. Vacio = se genera"
+        description: "Opcional: video ya subido al repositorio (ruta). Vacio = se genera"
         type: string
         default: ""
 
 concurrency:
-  group: publicar-instagram
+  group: publicar-reel
   cancel-in-progress: false
 
 permissions:
@@ -33,13 +45,25 @@ permissions:
 env:
   PYTHONPATH: src
   TZ: Europe/Madrid
+  MUSICA_DIR: musica
 
 jobs:
   reel:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      TIENE_CLAVE: ${{ secrets.MUSICA_DEPLOY_KEY != '' }}
     steps:
       - uses: actions/checkout@v4
+
+      - name: Descargar la musica (repositorio privado)
+        if: env.TIENE_CLAVE == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: Xosu10/jmtech-musica
+          ssh-key: ${{ secrets.MUSICA_DEPLOY_KEY }}
+          path: musica
+          persist-credentials: false
 
       - uses: actions/setup-python@v5
         with:
@@ -49,20 +73,28 @@ jobs:
       - name: Instalar dependencias
         run: pip install -r requirements.txt
 
-      - name: Comprobar ffmpeg
-        run: ffmpeg -version | head -1
+      - name: Comprobar ffmpeg y musica
+        run: |
+          ffmpeg -version | head -1
+          echo "Canciones disponibles: $(ls musica/*.mp3 2>/dev/null | wc -l)"
 
       - name: Crear y publicar el reel
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           DRY_RUN: ${{ inputs.dry_run }}
+          IGNORAR_HORA: ${{ inputs.ignorar_hora }}
           TEMA: ${{ inputs.tema }}
           ASSET: ${{ inputs.asset }}
           VIDEO: ${{ inputs.video }}
         run: |
-          args=(reel --tema "$TEMA")
-          [ -n "$ASSET" ] && args+=(--asset "$ASSET")
-          [ -n "$VIDEO" ] && args+=(--video "$VIDEO")
+          if [ -n "$TEMA" ]; then
+            args=(reel --tema "$TEMA")
+            [ -n "$ASSET" ] && args+=(--asset "$ASSET")
+            [ -n "$VIDEO" ] && args+=(--video "$VIDEO")
+          else
+            args=(reel-hoy)
+            [ "$IGNORAR_HORA" = "true" ] && args+=(--ignorar-hora)
+          fi
           [ "$DRY_RUN" = "true" ] && args+=(--dry-run)
           python -m jmtech.publicador "${args[@]}"
 

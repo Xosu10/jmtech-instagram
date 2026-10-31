@@ -99,7 +99,7 @@ class ClienteInstagram:
         return fila.get("quota_usage", 0), (fila.get("config") or {}).get("quota_total")
 
     def ultimos_medios(self, n=10):
-        d = self._llamar("GET", f"{self.ig}/media", reintentos=3, fields="id,caption,timestamp,permalink", limit=n)
+        d = self._llamar("GET", f"{self.ig}/media", reintentos=3, fields="id,caption,timestamp,permalink,media_type", limit=n)
         return d.get("data", [])
 
     def permalink(self, media_id):

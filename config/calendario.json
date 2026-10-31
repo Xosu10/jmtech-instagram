@@ -11,6 +11,8 @@
   "fecha_inicio": "2026-11-02",
   "zona_horaria": "Europe/Madrid",
   "hora_publicacion": "19:00",
+  "hora_reel": "15:00",
+  "reels": true,
   "pausado": false,
   "semilla": 2028,
   "dias_sin_publicar": [],
