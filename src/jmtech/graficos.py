@@ -351,6 +351,8 @@ def _linea_tiempo(t, dur, params):
     p = t / max(dur, 0.01)
     im, d = _lienzo()
     hitos = params["hitos"]
+    if params.get("panel"):
+        _tarjeta_base(d, 20, 20, 920, 540, BLUE, 1.0)
     paso = 500 / len(hitos)
     _linea(d, [(110, 40), (110, 40 + (len(hitos) - 0.35) * paso * _paso(p, 0.0, 0.85))], (60, 90, 150), 6)
     for i, h in enumerate(hitos):
@@ -449,7 +451,26 @@ def _terminal(t, dur, params):
     return _salida(im)
 
 
-TIPOS = ("flujo", "barras", "tarjeta", "resumen", "pasos", "dato", "mito", "linea", "comparar", "bits", "terminal")
+ACENTOS["rosa"] = (255, 70, 160)
+
+
+def _rotulo(t, dur, params):
+    """Texto grande sobre vídeo (sin tarjeta): una cifra o frase de impacto y una línea pequeña debajo."""
+    p = t / max(dur, 0.01)
+    im, d = _lienzo()
+    acento = ACENTOS.get(params.get("acento", "rosa"), BLUE)
+    a = _paso(p, 0.03, 0.22)
+    _rect(d, 0, 120, ANCHO, 430, (4, 8, 20, int(150 * a)), 40)
+    f = _ajustar(params["linea1"], "Bold", 124, 880)
+    _texto(d, (ANCHO / 2, 250 + 14 * (1 - a)), params["linea1"], f, BLANCO, a)
+    ancho = min(f.getlength(params["linea1"]) / S, 880)
+    _linea(d, [(ANCHO / 2 - ancho / 2, 330), (ANCHO / 2 - ancho / 2 + ancho * _paso(p, 0.1, 0.4), 330)], acento, 8)
+    if params.get("linea2"):
+        _texto_multilinea(d, ANCHO / 2, 385, params["linea2"], font("Medium", 38), (205, 220, 245), _paso(p, 0.2, 0.45), 860, 46, "mm")
+    return _salida(im)
+
+
+TIPOS = ("flujo", "barras", "tarjeta", "resumen", "pasos", "dato", "mito", "linea", "comparar", "bits", "terminal", "rotulo")
 
 
 def grafico(tipo, params, t, dur):
@@ -475,4 +496,6 @@ def grafico(tipo, params, t, dur):
         return _bits(t, dur, params)
     if tipo == "terminal":
         return _terminal(t, dur, params)
+    if tipo == "rotulo":
+        return _rotulo(t, dur, params)
     raise ValueError(f"Tipo de gráfico desconocido: {tipo}")

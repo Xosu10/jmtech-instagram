@@ -119,6 +119,10 @@ def preparar(carpeta, hasta: date, cola_dir, musica_dir, avisar=print):
                 listo = False
         datos.append(dict(id=e["base"], fecha=e["fecha"], hora=e["hora"], tipo=e["tipo"], titulo=e["titulo"], archivo=nombre,
                           ruta=str(destino), descripcion=e["descripcion"], listo=listo and destino.exists()))
+    vigentes = {d["archivo"] for d in datos}
+    for viejo in (carpeta / "videos").glob("*.mp4"):                    # vídeos de curiosidades cuya fecha cambió: fuera
+        if viejo.name not in vigentes and any(k in viejo.name for k in ("_curiosidad_", "_automatiza_", "_especial_")):
+            viejo.unlink()
     datos.sort(key=lambda d: (d["fecha"], d["hora"] or "00:00", d["tipo"]))
     (carpeta / "calendario.html").write_text(_HTML.replace("__DATOS__", json.dumps(
         {"generado": datetime.now().strftime("%d/%m/%Y %H:%M"), "entradas": datos}, ensure_ascii=False)), encoding="utf-8")

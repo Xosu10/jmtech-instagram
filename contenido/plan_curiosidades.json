@@ -69,12 +69,13 @@
   },
   {
    "fecha": "2026-11-18",
-   "idea": 71,
-   "id": "idea_071",
+   "idea": null,
+   "id": "especial_gtavi",
    "estado": "pendiente",
-   "titulo": "¿Qué hacen los NPC cuando no los estás mirando?",
-   "cat": "H",
-   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+   "titulo": "Especial GTA VI: mañana sale el juego más esperado",
+   "cat": "S",
+   "serie": "especial",
+   "nota": "Especial con tráileres oficiales (Rockstar)."
   },
   {
    "fecha": "2026-11-20",
@@ -1308,6 +1309,15 @@
    "titulo": "¿Por qué los juegos actuales ocupan 100 o 200 GB?",
    "cat": "I",
    "nota": "Segunda lista de ideas."
+  },
+  {
+   "fecha": "2027-09-01",
+   "idea": 71,
+   "id": "idea_071",
+   "estado": "pendiente",
+   "titulo": "¿Qué hacen los NPC cuando no los estás mirando?",
+   "cat": "H",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
    "fecha": "2027-09-14",

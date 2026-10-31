@@ -1,0 +1,31 @@
+{
+ "id": "especial_gtavi",
+ "serie": "especial",
+ "titulo": "Especial GTA VI: mañana sale el juego más esperado",
+ "titulo_pantalla": "Especial GTA VI",
+ "insignia": "ESPECIAL · GTA VI",
+ "max_palabras": 215,
+ "emoji": "🎮",
+ "cierre_lineas": ["¿Un PC listo para GTA VI?", "Te asesoramos y te lo montamos"],
+ "escenas": [
+  {"texto": "Mañana sale GTA VI. Y no es un lanzamiento más.", "clip": {"archivo": "GTAVI_Trailer_2.mp4", "inicio": 152.5, "pan": [0.4, 0.6]},
+   "grafico": "rotulo", "params": {"linea1": "MAÑANA", "linea2": "Sale Grand Theft Auto VI"}},
+  {"texto": "Se estrena el diecinueve de noviembre de dos mil veintiséis, en PlayStation cinco y Xbox Series.", "clip": {"archivo": "GTAVI_Trailer_2.mp4", "inicio": 34.5, "pan": [0.3, 0.7]},
+   "grafico": "rotulo", "params": {"linea1": "19 NOV 2026", "linea2": "PlayStation 5 y Xbox Series X|S"}},
+  {"texto": "Rockstar no ha dado cifras, pero los analistas estiman entre mil y mil quinientos millones de dólares. Sería el videojuego más caro de la historia.", "clip": {"archivo": "GTAVI_Trailer_2.mp4", "inicio": 116.5, "pan": [0.2, 0.8]},
+   "grafico": "rotulo", "params": {"linea1": "1.000-1.500 M$", "linea2": "Estimación de analistas: no hay cifra oficial"}},
+  {"texto": "También es de los proyectos más ambiciosos: Rockstar lo presenta como la evolución más grande e inmersiva de la saga, con Vice City y todo el estado de Leonida.", "clip": {"archivo": "GTAVI_Trailer_2.mp4", "inicio": 137.5, "pan": [0.3, 0.7]},
+   "grafico": "rotulo", "params": {"linea1": "LEONIDA", "linea2": "Vice City y mucho más"}},
+  {"texto": "Hay quien teme por la economía: un economista de la Universidad Pompeu Fabra calcula que podría costar a Estados Unidos unos mil millones de dólares en un solo día, por quienes no irían a trabajar. Es una estimación, no un dato medido.", "clip": {"archivo": "GTAVI_Trailer_2.mp4", "inicio": 124.5, "pan": [0.3, 0.7]},
+   "grafico": "tarjeta", "params": {"cabecera": "Estimación de un economista", "titulo": "Un día de productividad", "acento": "rosa", "puntos": ["Unos 1.000 millones de dólares, en EE. UU.", "Por quienes faltarían al trabajo", "Es un cálculo, no un dato medido"]}},
+  {"texto": "También hubo filtraciones: en dos mil veintidós, un hacker robó y publicó unos noventa vídeos de desarrollo. Rockstar confirmó que eran reales, y el responsable fue condenado.", "clip": {"archivo": "GTAVI_Trailer_2.mp4", "inicio": 120.5, "pan": [0.3, 0.7]},
+   "grafico": "linea", "params": {"panel": true, "hitos": [{"cuando": "2022", "texto": "Se filtran unos 90 vídeos de desarrollo"}, {"cuando": "Después", "texto": "Rockstar confirma que son reales"}, {"cuando": "Más tarde", "texto": "El responsable es condenado"}]}},
+  {"texto": "¿Y en PC? Rockstar no lo ha anunciado. Hay rumores que apuntan a dos mil veintisiete, pero no están confirmados.", "clip": {"archivo": "GTAVI_Trailer_2.mp4", "inicio": 14.5, "pan": [0.3, 0.7]},
+   "grafico": "tarjeta", "params": {"cabecera": "Versión para PC", "titulo": "Sin confirmar", "acento": "naranja", "puntos": ["Rockstar no la ha anunciado", "Los rumores apuntan a 2027", "De momento, solo consolas"]}},
+  {"texto": "Si quieres un PC listo para cuando llegue GTA VI, habla con nosotros: te asesoramos y te lo montamos.", "cierre": true}
+ ],
+ "descripcion": "🚨 ESPECIAL GTA VI: mañana, 19 de noviembre, sale Grand Theft Auto VI.\n\n• Fecha: 19 de noviembre de 2026, en PlayStation 5 y Xbox Series X|S.\n• Presupuesto: Rockstar no ha dado cifras; los analistas estiman entre 1.000 y 1.500 millones de dólares.\n• Impacto: un economista calcula unos 1.000 millones de dólares de productividad perdida en un día en EE. UU. (estimación, no dato medido).\n• Filtraciones: en 2022 se filtraron unos 90 vídeos de desarrollo; Rockstar confirmó que eran reales.\n• PC: no anunciado; los rumores apuntan a 2027, sin confirmar.\n\n¿Quieres un PC listo para cuando llegue? Te asesoramos y te lo montamos: escríbenos por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": ["#gta6", "#gtavi", "#rockstargames", "#videojuegos", "#pcgamer", "#murcia"],
+ "fuentes": ["Take-Two Interactive: resultados trimestrales y fecha de lanzamiento", "Rockstar Games: tráileres oficiales de GTA VI", "Business Insider: estimaciones del presupuesto", "Prensa económica: estimación del profesor José García Montalvo (UPF)"],
+ "aviso_legal": "Imágenes y tráileres: © Rockstar Games / Take-Two Interactive. Contenido informativo no oficial."
+}

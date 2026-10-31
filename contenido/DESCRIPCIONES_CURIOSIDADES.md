@@ -1,6 +1,6 @@
-# Descripciones de los vídeos de curiosidades
+# Descripciones de los vídeos de curiosidades y de «Automatiza esto»
 
-Texto que acompañará a cada vídeo en Instagram (incluye fuentes, aviso de voz con IA, marca y hashtags). Ordenado por fecha de publicación (17:00).
+Texto de cada vídeo en Instagram (con fuentes, aviso de voz con IA, marca y hashtags). Ordenado por fecha de publicación (17:00).
 
 ## lunes 02/11/2026 · ¿Por qué se calientan los procesadores?
 
@@ -90,6 +90,26 @@ No hay una mejor para todos: depende del procesador.
 #informatica #pcgamer #refrigeracion #curiosidades #tecnologia #murcia
 ```
 
+## martes 10/11/2026 · Automatiza esto: ordenar tus fotos y descargas sin tocar nada
+
+```
+Automatiza esto: ordenar tus fotos y descargas sin tocar nada ⚙️
+
+• No vuelves a ordenar a mano
+• Funciona en tu propio PC
+• Tus fotos no salen de tu equipo
+
+¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #fotos
+```
+
 ## miércoles 11/11/2026 · ¿SSD SATA o NVMe? ¿Notarás realmente la diferencia?
 
 ```
@@ -155,25 +175,29 @@ No hay una mejor para todos: depende del procesador.
 #informatica #curiosidades #tecnologia #murcia #pastatermica #pcgamer #mantenimiento
 ```
 
-## miércoles 18/11/2026 · ¿Qué hacen los NPC cuando no los estás mirando?
+## miércoles 18/11/2026 · Especial GTA VI: mañana sale el juego más esperado
 
 ```
-¿Qué hacen los NPC cuando no los estás mirando? 🕹️
+🚨 ESPECIAL GTA VI: mañana, 19 de noviembre, sale Grand Theft Auto VI.
 
-• En la mayoría de juegos, los NPC solo existen mientras estás cerca.
-• Se pausan para ahorrar procesador y memoria.
-• Algunos juegos les dan rutinas diarias.
+• Fecha: 19 de noviembre de 2026, en PlayStation 5 y Xbox Series X|S.
+• Presupuesto: Rockstar no ha dado cifras; los analistas estiman entre 1.000 y 1.500 millones de dólares.
+• Impacto: un economista calcula unos 1.000 millones de dólares de productividad perdida en un día en EE. UU. (estimación, no dato medido).
+• Filtraciones: en 2022 se filtraron unos 90 vídeos de desarrollo; Rockstar confirmó que eran reales.
+• PC: no anunciado; los rumores apuntan a 2027, sin confirmar.
 
-¿Te pasa algo parecido? Cuéntanoslo por MD.
+¿Quieres un PC listo para cuando llegue? Te asesoramos y te lo montamos: escríbenos por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
 
 📚 Fuentes consultadas:
-• Wikipedia: Personaje no jugable
-• Wikipedia: Inteligencia artificial en videojuegos
+• Take-Two Interactive: resultados trimestrales y fecha de lanzamiento
+• Rockstar Games: tráileres oficiales de GTA VI
+• Business Insider: estimaciones del presupuesto
+• Prensa económica: estimación del profesor José García Montalvo (UPF)
 
-🎙️ Voz generada con IA. Imágenes ilustrativas.
+🎙️ Voz generada con IA. Imágenes y tráileres: © Rockstar Games / Take-Two Interactive. Contenido informativo no oficial.
 🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
 
-#informatica #curiosidades #tecnologia #murcia #videojuegos #npc #gaming
+#gta6 #gtavi #rockstargames #videojuegos #pcgamer #murcia
 ```
 
 ## viernes 20/11/2026 · Mi ordenador enciende, pero no aparece imagen. ¿Qué puede estar pasando?
@@ -217,6 +241,26 @@ Si tu equipo necesita ayuda, escríbenos por MD.
 🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
 
 #informatica #curiosidades #tecnologia #murcia #fps #gaming #monitor
+```
+
+## martes 24/11/2026 · Automatiza esto: presupuestos y facturas en PDF desde un Excel
+
+```
+Automatiza esto: presupuestos y facturas en PDF desde un Excel ⚙️
+
+• Menos errores
+• Ahorro de horas cada mes
+• Con tu logo y tu estilo
+
+¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #facturas
 ```
 
 ## miércoles 25/11/2026 · ¿Cómo dar una segunda vida a un ordenador antiguo por poco dinero?
@@ -346,6 +390,26 @@ Si tu equipo necesita ayuda, escríbenos por MD.
 #informatica #curiosidades #tecnologia #murcia #historiainformatica #disquete #curiosidadestech
 ```
 
+## martes 08/12/2026 · Automatiza esto: una copia de seguridad que se hace sola cada día
+
+```
+Automatiza esto: una copia de seguridad que se hace sola cada día ⚙️
+
+• Tus archivos siempre protegidos
+• Sin acordarte de nada
+• Aviso si hay algún problema
+
+¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #copiadeseguridad
+```
+
 ## miércoles 09/12/2026 · ¿Qué es el cuello de botella de un PC?
 
 ```
@@ -470,6 +534,26 @@ Si tu equipo necesita ayuda, escríbenos por MD.
 🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
 
 #informatica #curiosidades #tecnologia #murcia #4k #fps #gaming
+```
+
+## martes 22/12/2026 · Automatiza esto: correos personalizados enviados en bloque
+
+```
+Automatiza esto: correos personalizados enviados en bloque ⚙️
+
+• Menos trabajo repetitivo
+• Mensajes más cercanos
+• Siempre con consentimiento
+
+¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #emailmarketing
 ```
 
 ## miércoles 23/12/2026 · ¿Es mejor comprar un PC montado o hacerlo por piezas?
@@ -661,6 +745,26 @@ Si tu equipo necesita ayuda, escríbenos por MD.
 #informatica #curiosidades #tecnologia #murcia #pc #consejos #mantenimiento
 ```
 
+## martes 12/01/2027 · Automatiza esto: resumir los gastos del mes desde el extracto del banco
+
+```
+Automatiza esto: resumir los gastos del mes desde el extracto del banco ⚙️
+
+• Informe mensual al instante
+• Tus datos no salen de tu PC
+• Detecta gastos repetidos
+
+¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #finanzaspersonales
+```
+
 ## miércoles 13/01/2027 · ¿Por qué los desarrolladores esconden habitaciones secretas?
 
 ```
@@ -785,6 +889,26 @@ Si tu equipo necesita ayuda, escríbenos por MD.
 🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
 
 #informatica #curiosidades #tecnologia #murcia #ia #pcgamer #ram
+```
+
+## martes 26/01/2027 · Automatiza esto: los pedidos de tu tienda online directos a una hoja de cálculo
+
+```
+Automatiza esto: los pedidos de tu tienda online directos a una hoja de cálculo ⚙️
+
+• Sin copiar pedidos
+• Menos errores
+• Envíos más ágiles
+
+¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #ecommerce
 ```
 
 ## miércoles 27/01/2027 · ¿Por qué necesitábamos tarjetas de memoria para guardar nuestras partidas?
@@ -913,6 +1037,26 @@ Si tu equipo necesita ayuda, escríbenos por MD.
 #informatica #curiosidades #tecnologia #murcia #portatil #mantenimiento #limpieza
 ```
 
+## martes 09/02/2027 · Automatiza esto: un aviso cuando baja el precio de lo que quieres comprar
+
+```
+Automatiza esto: un aviso cuando baja el precio de lo que quieres comprar ⚙️
+
+• Compras en el mejor momento
+• Sin mirar la web cada día
+• Avisos a tu gusto
+
+¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #compras
+```
+
 ## miércoles 10/02/2027 · ¿Cómo consiguen los speedrunners terminar juegos en pocos minutos?
 
 ```
@@ -1037,6 +1181,26 @@ Si tu equipo necesita ayuda, escríbenos por MD.
 🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
 
 #informatica #curiosidades #tecnologia #murcia #ia #privacidad #nube
+```
+
+## martes 23/02/2027 · Automatiza esto: un informe semanal que se envía solo
+
+```
+Automatiza esto: un informe semanal que se envía solo ⚙️
+
+• Informe siempre puntual
+• Datos fiables
+• Horas liberadas cada semana
+
+¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #informes
 ```
 
 ## miércoles 24/02/2027 · ¿Cómo guardaban las partidas los videojuegos antes de las memory cards?
@@ -1165,6 +1329,26 @@ Si tu equipo necesita ayuda, escríbenos por MD.
 #informatica #curiosidades #tecnologia #murcia #limpiezapc #mantenimiento #consejos
 ```
 
+## martes 09/03/2027 · Automatiza esto: convertir y renombrar cientos de archivos de golpe
+
+```
+Automatiza esto: convertir y renombrar cientos de archivos de golpe ⚙️
+
+• Cientos de archivos en minutos
+• Un clic y listo
+• Reutilizable siempre
+
+¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #archivos
+```
+
 ## miércoles 10/03/2027 · ¿Por qué los jefes finales de los videojuegos suelen ser tan difíciles?
 
 ```
@@ -1289,6 +1473,26 @@ Si tu equipo necesita ayuda, escríbenos por MD.
 🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
 
 #informatica #curiosidades #tecnologia #murcia #npu #ia #portatiles
+```
+
+## martes 23/03/2027 · Automatiza esto: un panel web con el stock de tu negocio al día
+
+```
+Automatiza esto: un panel web con el stock de tu negocio al día ⚙️
+
+• Stock siempre al día
+• Avisos de reposición
+• Visible desde el móvil
+
+¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #inventario
 ```
 
 ## miércoles 24/03/2027 · ¿Por qué antes los videojuegos tenían pantallas de carga tan largas?
@@ -1480,6 +1684,26 @@ Si tu equipo necesita ayuda, escríbenos por MD.
 #informatica #curiosidades #tecnologia #murcia #monitor #gaming #television
 ```
 
+## martes 13/04/2027 · Automatiza esto: una app de la compra compartida con tu familia
+
+```
+Automatiza esto: una app de la compra compartida con tu familia ⚙️
+
+• Una sola lista para todos
+• Cambios al instante
+• Hecha a vuestra medida
+
+¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #android
+```
+
 ## miércoles 14/04/2027 · ¿Un ordenador de 2.000 € es el doble de rápido que uno de 1.000 €?
 
 ```
@@ -1604,6 +1828,26 @@ Si tu equipo necesita ayuda, escríbenos por MD.
 🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
 
 #informatica #curiosidades #tecnologia #murcia #nube #fotos #copiadeseguridad
+```
+
+## martes 27/04/2027 · Automatiza esto: una app para que tu equipo rellene partes de trabajo en el móvil
+
+```
+Automatiza esto: una app para que tu equipo rellene partes de trabajo en el móvil ⚙️
+
+• Menos papel
+• Información al momento
+• Sin pérdida de datos
+
+¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #appandroid
 ```
 
 ## miércoles 28/04/2027 · ¿Por qué dos tarjetas gráficas con la misma VRAM rinden diferente?
@@ -1732,6 +1976,26 @@ Si tu equipo necesita ayuda, escríbenos por MD.
 #informatica #curiosidades #tecnologia #murcia #auriculares #gaming #perifericos
 ```
 
+## martes 11/05/2027 · Automatiza esto: el mantenimiento semanal de tu PC sin hacer nada
+
+```
+Automatiza esto: el mantenimiento semanal de tu PC sin hacer nada ⚙️
+
+• PC más ágil
+• Sin acordarte de nada
+• Informe de cada revisión
+
+¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #mantenimiento
+```
+
 ## miércoles 12/05/2027 · ¿Qué errores comete la gente al comprar un portátil?
 
 ```
@@ -1856,6 +2120,26 @@ Si tu equipo necesita ayuda, escríbenos por MD.
 🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
 
 #informatica #curiosidades #tecnologia #murcia #movil #historiainformatica #curiosidadestech
+```
+
+## martes 25/05/2027 · Automatiza esto: comparar dos Excel y encontrar las diferencias sin errores
+
+```
+Automatiza esto: comparar dos Excel y encontrar las diferencias sin errores ⚙️
+
+• Cero errores por cansancio
+• Revisión en segundos
+• Informe claro
+
+¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #excel
 ```
 
 ## miércoles 26/05/2027 · ¿Necesitas 16, 32 o 64 GB de RAM?
@@ -1984,6 +2268,26 @@ Si tu equipo necesita ayuda, escríbenos por MD.
 #informatica #curiosidades #tecnologia #murcia #mando #gaming #inputlag
 ```
 
+## martes 08/06/2027 · Automatiza esto: tus podcasts descargados solos cada mañana
+
+```
+Automatiza esto: tus podcasts descargados solos cada mañana ⚙️
+
+• Siempre al día
+• Memoria bajo control
+• Sin abrir ninguna app
+
+¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #podcasts
+```
+
 ## miércoles 09/06/2027 · ¿Es mejor un monitor de 144 Hz que uno de 60 Hz?
 
 ```
@@ -2108,6 +2412,26 @@ Si tu equipo necesita ayuda, escríbenos por MD.
 🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
 
 #informatica #curiosidades #tecnologia #murcia #memes #internet #cultura
+```
+
+## martes 22/06/2027 · Automatiza esto: copias de seguridad del negocio con aviso si algo falla
+
+```
+Automatiza esto: copias de seguridad del negocio con aviso si algo falla ⚙️
+
+• Copia verificada cada día
+• Aviso inmediato si falla
+• Recuperación probada
+
+¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #backup
 ```
 
 ## miércoles 23/06/2027 · ¿Cuáles fueron los videojuegos que cambiaron la historia de la industria?
@@ -2299,6 +2623,26 @@ Si tu equipo necesita ayuda, escríbenos por MD.
 #informatica #curiosidades #tecnologia #murcia #arcade #retrogaming #recreativas
 ```
 
+## martes 13/07/2027 · Automatiza esto: recordatorios para que no se te pase ningún vencimiento
+
+```
+Automatiza esto: recordatorios para que no se te pase ningún vencimiento ⚙️
+
+• Sin olvidos ni recargos
+• Avisos con la antelación que quieras
+• Todo en un solo lugar
+
+¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #recordatorios
+```
+
 ## miércoles 14/07/2027 · ¿Qué pasa si conectas una memoria USB infectada a tu ordenador?
 
 ```
@@ -2423,6 +2767,26 @@ Si tu equipo necesita ayuda, escríbenos por MD.
 🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
 
 #informatica #curiosidades #tecnologia #murcia #reparacion #comprarpc #consejos
+```
+
+## martes 27/07/2027 · Automatiza esto: archivar solas las facturas que recibes por correo
+
+```
+Automatiza esto: archivar solas las facturas que recibes por correo ⚙️
+
+• Cierres de mes más rápidos
+• Nada se pierde
+• Gestoría contenta
+
+¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #gestion
 ```
 
 ## miércoles 28/07/2027 · ¿Cómo nació Minecraft y por qué su creador acabó vendiéndolo?
@@ -2551,6 +2915,26 @@ Si tu equipo necesita ayuda, escríbenos por MD.
 #informatica #curiosidades #tecnologia #murcia #nostalgia #moviles #curiosidadestech
 ```
 
+## martes 10/08/2027 · Automatiza esto: un panel sencillo del presupuesto de tu hogar
+
+```
+Automatiza esto: un panel sencillo del presupuesto de tu hogar ⚙️
+
+• Todo de un vistazo
+• Sin suscripciones
+• Tus datos en tu casa
+
+¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #presupuesto
+```
+
 ## miércoles 11/08/2027 · ¿Cómo sabe el GPS dónde estás sin necesitar Internet?
 
 ```
@@ -2677,6 +3061,26 @@ Si tu equipo necesita ayuda, escríbenos por MD.
 #informatica #curiosidades #tecnologia #murcia #pantallatactil #moviles #curiosidadestech
 ```
 
+## martes 24/08/2027 · Automatiza esto: un formulario web que avisa a tu equipo al instante
+
+```
+Automatiza esto: un formulario web que avisa a tu equipo al instante ⚙️
+
+• Ninguna solicitud se pierde
+• Respuesta inmediata
+• Imagen más profesional
+
+¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #web
+```
+
 ## miércoles 25/08/2027 · ¿Cómo graban los movimientos de los actores para convertirlos en personajes?
 
 ```
@@ -2738,4 +3142,105 @@ Si tu equipo necesita ayuda, escríbenos por MD.
 🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
 
 #informatica #curiosidades #tecnologia #murcia #videojuegos #almacenamiento #ssd
+```
+
+## miércoles 01/09/2027 · ¿Qué hacen los NPC cuando no los estás mirando?
+
+```
+¿Qué hacen los NPC cuando no los estás mirando? 🕹️
+
+• En la mayoría de juegos, los NPC solo existen mientras estás cerca.
+• Se pausan para ahorrar procesador y memoria.
+• Algunos juegos les dan rutinas diarias.
+
+¿Te pasa algo parecido? Cuéntanoslo por MD.
+
+📚 Fuentes consultadas:
+• Wikipedia: Personaje no jugable
+• Wikipedia: Inteligencia artificial en videojuegos
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#informatica #curiosidades #tecnologia #murcia #videojuegos #npc #gaming
+```
+
+## martes 14/09/2027 · Automatiza esto: unir y ordenar tus PDF y documentos escaneados
+
+```
+Automatiza esto: unir y ordenar tus PDF y documentos escaneados ⚙️
+
+• Documentos siempre ordenados
+• Búsquedas rápidas
+• Sin trabajo manual
+
+¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #documentos
+```
+
+## martes 28/09/2027 · Automatiza esto: un registro horario sencillo con panel para tu equipo
+
+```
+Automatiza esto: un registro horario sencillo con panel para tu equipo ⚙️
+
+• Registro más sencillo
+• Informes automáticos
+• Menos papeleo
+
+¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #gestion
+```
+
+## martes 12/10/2027 · Automatiza esto: un registro de las caídas de tu internet para reclamar
+
+```
+Automatiza esto: un registro de las caídas de tu internet para reclamar ⚙️
+
+• Pruebas con fecha y hora
+• Informe fácil de enseñar
+• Funciona solo
+
+¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #internet
+```
+
+## martes 26/10/2027 · Automatiza esto: sincronizar dos programas sin teclear los datos dos veces
+
+```
+Automatiza esto: sincronizar dos programas sin teclear los datos dos veces ⚙️
+
+• Cada dato, una sola vez
+• Sin errores de copia
+• Todo al día en ambos sitios
+
+¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.
+
+ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado.
+
+
+🎙️ Voz generada con IA. Imágenes ilustrativas.
+🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.
+
+#automatizacion #python #productividad #murcia #jmtech #integracion
 ```

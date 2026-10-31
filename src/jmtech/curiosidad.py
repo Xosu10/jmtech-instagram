@@ -72,11 +72,11 @@ def problemas_espec(e: dict) -> list[str]:
         palabras += len(esc.get("texto", "").split())
         if esc.get("grafico") and esc["grafico"] not in TIPOS:
             fallos.append(f"escena {i}: gráfico «{esc['grafico']}» desconocido")
-        elif not esc.get("imagen") and not esc.get("grafico") and not esc.get("cierre"):
+        elif not esc.get("imagen") and not esc.get("grafico") and not esc.get("cierre") and not esc.get("clip"):
             fallos.append(f"escena {i}: falta la imagen o el gráfico")
         fallos += [f"escena {i}: {f}" for f in problemas_texto(esc.get("texto", ""))]
-    if palabras > 150:
-        fallos.append(f"el guion tiene {palabras} palabras (máximo 150 para que dure menos de ~55 s)")
+    if palabras > e.get("max_palabras", 150):
+        fallos.append(f"el guion tiene {palabras} palabras (máximo {e.get('max_palabras', 150)})")
     if not HASHTAGS[0] <= len(e.get("hashtags", [])) <= HASHTAGS[1]:
         fallos.append(f"debe tener entre {HASHTAGS[0]} y {HASHTAGS[1]} hashtags")
     if len(construir_descripcion(e)) > MAX_DESCRIPCION:
@@ -112,7 +112,7 @@ def construir_descripcion(e: dict) -> str:
     etiquetas = " ".join(h if h.startswith("#") else f"#{h}" for h in hashtags_de(e))
     return (f"{e.get('descripcion') or descripcion_de(e)}\n\n"
             f"{cabecera_fuentes}\n{fuentes}\n\n"
-            "🎙️ Voz generada con IA. Imágenes ilustrativas.\n"
+            f"🎙️ Voz generada con IA. {e.get('aviso_legal') or 'Imágenes ilustrativas.'}\n"
             "🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.\n\n"
             f"{etiquetas}")
 
@@ -359,6 +359,74 @@ def imagenes_pendientes(espec):
     return pendientes
 
 
+# ---------- Escenas con trozos de vídeo (especiales) ----------
+CARPETA_TRAILERS = Path(os.environ.get("TRAILERS_DIR") or r"C:\Users\xosu1\GarageVI Script\trailers")
+
+
+class _LectorClip:
+    """Lee un trozo de vídeo apaisado como fotogramas verticales (recorte central con un suave desplazamiento lateral)."""
+
+    def __init__(self, ruta, inicio, dur, pan=(0.35, 0.65), recorte=(0.8, 0.1)):
+        x0, x1 = pan
+        alto, desde = recorte                    # quita las franjas negras de arriba y abajo del tráiler
+        vf = f"crop=iw:ih*{alto}:0:ih*{desde},scale=-2:{H},crop={W}:{H}:'(iw-{W})*({x0}+({x1}-{x0})*t/{max(dur, 0.1)})':0"
+        self.p = subprocess.Popen([_ffmpeg(), "-loglevel", "error", "-ss", str(inicio), "-t", str(dur), "-i", str(ruta), "-vf", vf,
+                                   "-r", str(FPS), "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], stdout=subprocess.PIPE)
+        self.tam, self.ultimo = W * H * 3, None
+
+    def siguiente(self):
+        b = self.p.stdout.read(self.tam)
+        if len(b) == self.tam:
+            self.ultimo = Image.frombytes("RGB", (W, H), b)
+        return self.ultimo
+
+    def cerrar(self):
+        try:
+            self.p.kill()
+            self.p.stdout.close()
+        except OSError:
+            pass
+
+
+def _adornos_clip(insignia):
+    """Capas fijas sobre el vídeo: degradados para leer el texto, logo, insignia y pie de marca."""
+    y = np.arange(H, dtype=np.float32)[:, None]
+    alfa = np.maximum(165 * np.clip(1 - y / 560, 0, 1), 215 * np.clip((y - 980) / 700, 0, 1))
+    velos = Image.fromarray(np.dstack([np.zeros((H, W, 3), np.uint8), np.broadcast_to(alfa, (H, W)).astype(np.uint8)]), "RGBA")
+    logo = _lockup(Image.open(LOGO_OSCURO).convert("RGBA"), mw=190, tw=300, gap=14)
+    logo = logo.resize((logo.width // S, logo.height // S), Image.LANCZOS)
+    capas = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    capas.alpha_composite(logo, ((W - logo.width) // 2, 130))
+    if insignia:
+        f = font("Bold", 36)
+        ancho = int(f.getlength(insignia) / S) + 70
+        pill = Image.new("RGBA", (ancho * S, 76 * S), (0, 0, 0, 0))
+        ImageDraw.Draw(pill).rounded_rectangle([0, 0, ancho * S, 76 * S], 38 * S, fill=(255, 70, 160, 235))
+        ImageDraw.Draw(pill).text((ancho * S // 2, 38 * S), insignia, font=f, fill=(255, 255, 255), anchor="mm")
+        pill = pill.resize((ancho, 76), Image.LANCZOS)
+        capas.alpha_composite(pill, ((W - ancho) // 2, 360))
+    pie = _capa_texto("JM TECH · Servicio técnico en Murcia", font("Medium", 28), (205, 220, 245))
+    capas.alpha_composite(pie, ((W - pie.width) // 2, Y_PIE))
+    velos.alpha_composite(capas)
+    return velos
+
+
+def _fotograma_clip(e, rel, adornos, escena_grafico):
+    esc = e["esc"]["clip"]
+    if e.get("lector") is None:
+        ruta = Path(esc["archivo"])
+        ruta = ruta if ruta.is_absolute() else CARPETA_TRAILERS / ruta
+        e["lector"] = _LectorClip(ruta, esc["inicio"], e["dur"] + PAUSA + 1.5, tuple(esc.get("pan", (0.35, 0.65))), tuple(esc.get("recorte", (0.8, 0.1))))
+    f = e["lector"].siguiente() or Image.new("RGB", (W, H))
+    fr = f.convert("RGBA")
+    fr.alpha_composite(adornos)
+    if escena_grafico:
+        capa = grafico(e["esc"]["grafico"], e["esc"].get("params", {}), rel, e["dur"] + PAUSA)
+        _poner(fr, capa, (W - capa.width) // 2, 560, _suave(rel / 0.3))
+    a = _suave(rel / 0.25)
+    return fr if a >= 1 else Image.blend(Image.new("RGBA", fr.size, (0, 0, 0, 255)), fr, a)
+
+
 def generar_video(espec, salida, musica=None, inicio_musica=10.0, sintetizador=sintetizar_escena, previsualizar=None):
     """Monta el MP4 de una curiosidad. Devuelve (ruta, duración_s)."""
     fallos = problemas_espec(espec)
@@ -387,6 +455,8 @@ def generar_video(espec, salida, musica=None, inicio_musica=10.0, sintetizador=s
         e["imagen"] = _imagen_escena(imagen_de_escena(esc, espec["id"])[0]) if esc.get("imagen") and not esc.get("grafico") else None
         e["capas"] = [[_capa_trozo(tr, k) for k in range(len(tr))] for tr in e["trozos"]]
     final = _tarjeta_final(espec.get("cierre_lineas"))
+    adornos = _adornos_clip(espec.get("insignia")) if any(x["esc"].get("clip") for x in escenas) else None
+    ultimo = -1
 
     cmd = [_ffmpeg(), "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
            "-i", str(audio), "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-profile:v", "high", "-level", "4.1",
@@ -400,16 +470,23 @@ def generar_video(espec, salida, musica=None, inicio_musica=10.0, sintetizador=s
     try:
         for i in range(n):
             tt = i / FPS
-            fr = fondo.copy()
             idx = max(k for k, e in enumerate(escenas) if e["ini"] <= tt)
             e = escenas[idx]
             rel = tt - e["ini"]
+            if idx != ultimo:
+                if ultimo >= 0 and escenas[ultimo].get("lector"):
+                    escenas[ultimo]["lector"].cerrar()
+                ultimo = idx
             # imagen o tarjeta final, con fundido de entrada
             alfa = _suave(rel / 0.3)
-            if e["esc"].get("cierre"):
+            if e["esc"].get("clip"):
+                fr = _fotograma_clip(e, rel, adornos, bool(e["esc"].get("grafico")))
+            elif e["esc"].get("cierre"):
+                fr = fondo.copy()
                 _poner(fr, final, 0, Y_IMAGEN, alfa)
             else:
-                if idx > 0 and rel < 0.3 and not escenas[idx - 1]["esc"].get("cierre"):      # fundido cruzado con la anterior
+                fr = fondo.copy()
+                if idx > 0 and rel < 0.3 and not escenas[idx - 1]["esc"].get("cierre") and not escenas[idx - 1]["esc"].get("clip"):  # fundido cruzado
                     _dibujar_escena(fr, escenas[idx - 1], escenas[idx - 1]["dur"] + rel, 1 - alfa)
                 _dibujar_escena(fr, e, rel, alfa)
             # subtítulo: el trozo que se está diciendo, con la palabra actual en azul
