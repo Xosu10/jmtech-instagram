@@ -327,6 +327,8 @@ def reel_hoy(ahora_utc=None, *, dry_run=False, ignorar_hora=False, cfg=None, est
     problemas = problemas_tema(t)
     if problemas:
         raise ErrorPublicacion("El contenido no pasa las comprobaciones: " + "; ".join(problemas))
+    from .facebook import compartir_en_facebook
+
     pie = pie_de_foto(t, pub.variante)
     objeto = indice_assets(catalogo).get(pub.asset)
     pista, inicio = elegir_musica(d.fecha, carpeta_musica)
@@ -343,6 +345,7 @@ def reel_hoy(ahora_utc=None, *, dry_run=False, ignorar_hora=False, cfg=None, est
     else:
         media_id = cliente.publicar_reel(ruta, pie)
         permalink = cliente.permalink(media_id)
+    fb = None if previo else compartir_en_facebook(cfg, ruta, pie)
     ahora = ahora_madrid(ahora_utc)
     retraso = retraso_min(ahora, cfg, "hora_reel")
     if retraso > AVISO_RETRASO_MIN:
@@ -351,7 +354,7 @@ def reel_hoy(ahora_utc=None, *, dry_run=False, ignorar_hora=False, cfg=None, est
                              imagen=ruta.name, asset=pub.asset, resultado="publicado", prueba=False, tipo="reel",
                              media_id=media_id, permalink=permalink,
                              publicado_utc=ahora_utc.astimezone(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"), retraso_min=retraso,
-                             musica=pista.name if pista else "propia")
+                             musica=pista.name if pista else "propia", **(fb or {}))
     est.guardar(estado, ruta_estado)
     est.generar_informe(estado, ahora_utc)
     print(f"PUBLICADO (reel): {permalink}")

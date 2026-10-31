@@ -15,6 +15,7 @@
   "reels": true,
   "hora_curiosidad": "17:00",
   "curiosidades": true,
+  "facebook_page_id": "",
   "pausado": false,
   "semilla": 2028,
   "dias_sin_publicar": [],

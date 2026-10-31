@@ -617,6 +617,8 @@ def publicar_curiosidad(video, pie, id_video, fecha, *, dry_run=False, cliente=N
     else:
         media_id = cliente.publicar_reel(ruta, pie)
         permalink = cliente.permalink(media_id)
+    from .facebook import compartir_en_facebook
+    fb = None if previo else compartir_en_facebook(cfg, ruta, pie)
     retraso = 0 if prueba else retraso_min(ahora_madrid(ahora_utc), cfg, "hora_curiosidad")
     if retraso > AVISO_RETRASO_MIN:
         print(f"::warning::La curiosidad salió con {retraso} minutos de retraso.")
@@ -624,7 +626,7 @@ def publicar_curiosidad(video, pie, id_video, fecha, *, dry_run=False, cliente=N
     registro = est.registrar(estado, fecha=fecha, tema=id_video, estilo="curiosidad", variante=0, imagen=ruta.name,
                              asset="curiosidad", resultado="publicado", prueba=False, tipo="curiosidad",
                              media_id=media_id, permalink=permalink,
-                             publicado_utc=ahora_utc.astimezone(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"), retraso_min=retraso)
+                             publicado_utc=ahora_utc.astimezone(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"), retraso_min=retraso, **(fb or {}))
     est.guardar(estado, ruta_estado)
     est.generar_informe(estado, ahora_utc)
     print(f"PUBLICADO (curiosidad): {permalink}")
