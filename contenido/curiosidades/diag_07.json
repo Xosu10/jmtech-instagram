@@ -1,0 +1,82 @@
+{
+ "id": "diag_07",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: el móvil se calienta",
+ "titulo_pantalla": "Diagnóstico: el móvil se calienta",
+ "escenas": [
+  {
+   "texto": "Notas el móvil caliente incluso sin usarlo.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "MÓVIL CALIENTE",
+    "linea2": "Incluso sin usarlo",
+    "acento": "naranja"
+   }
+  },
+  {
+   "texto": "Suele ser una aplicación consumiendo en segundo plano, un mal cargador, o una batería desgastada.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Una aplicación consumiendo en segundo plano",
+     "Carga con un cargador inadecuado",
+     "Batería desgastada"
+    ]
+   }
+  },
+  {
+   "texto": "Mira qué aplicación consume más, quita la funda al cargar, y reinicia y actualiza el sistema.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Mira qué app consume más",
+     "Quita la funda al cargar",
+     "Reinicia y actualiza el sistema"
+    ]
+   }
+  },
+  {
+   "texto": "Si se hincha, huele raro o se apaga por el calor, deja de usarlo y llévalo a revisar.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "Se hincha o se deforma",
+     "Se apaga por el calor",
+     "Huele raro o sale humo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: una aplicación consumiendo en segundo plano, carga con un cargador inadecuado, batería desgastada.",
+  "Prueba: mira qué app consume más.",
+  "Técnico si: se hincha o se deforma."
+ ],
+ "fuentes": [
+  "Wikipedia: Batería de ion de litio",
+  "Google: cuidado de la batería del móvil"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#movil"
+ ]
+}

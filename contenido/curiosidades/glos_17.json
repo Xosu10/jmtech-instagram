@@ -1,0 +1,65 @@
+{
+ "id": "glos_17",
+ "serie": "glosario",
+ "titulo": "¿Qué es Controlador? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es Controlador?",
+ "escenas": [
+  {
+   "texto": "¿Qué es Controlador? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "Controlador",
+    "significado": "El traductor entre el sistema y tu hardware"
+   }
+  },
+  {
+   "texto": "Un controlador, o driver, es el programa que permite que Windows use una pieza concreta, como la gráfica, la impresora o el sonido.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "Controlador",
+    "acento": "azul",
+    "puntos": [
+     "Traduce entre sistema y hardware",
+     "Cada pieza tiene el suyo",
+     "Se actualiza de vez en cuando"
+    ]
+   }
+  },
+  {
+   "texto": "Un controlador antiguo o dañado causa fallos, cuelgues o rendimiento bajo. Descárgalos siempre de la web oficial del fabricante.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Descárgalos del fabricante",
+     "Actualiza el de la gráfica",
+     "Un driver dañado da fallos"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Un controlador, o driver, es el programa que permite que Windows use una pieza concreta, como la gráfica, la impresora o el sonido.",
+  "Descárgalos del fabricante",
+  "Actualiza el de la gráfica"
+ ],
+ "fuentes": [
+  "Wikipedia: Controlador de dispositivo"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#drivers"
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "id": "mito_11",
+ "serie": "mito",
+ "titulo": "¿Mito o realidad? Más gigahercios significa un procesador mejor",
+ "titulo_pantalla": "¿Mito o realidad?",
+ "escenas": [
+  {
+   "texto": "¿Mito o realidad? Más gigahercios significa un procesador mejor.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Más gigahercios significa un procesador mejor",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es un mito. También importan los núcleos, la arquitectura y la generación. Dos procesadores con los mismos gigahercios pueden rendir muy distinto.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Más gigahercios significa un procesador mejor",
+    "revelar": true,
+    "veredicto": "MITO"
+   }
+  },
+  {
+   "texto": "Compara núcleos, generación y el uso que le vas a dar, no solo los gigahercios.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que debes saber",
+    "titulo": "Las claves",
+    "acento": "azul",
+    "puntos": [
+     "Núcleos y arquitectura",
+     "Generación del procesador",
+     "El uso que le vas a dar"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧐",
+ "puntos": [
+  "MITO: También importan los núcleos, la arquitectura y la generación. Dos procesadores con los mismos gigahercios pueden rendir muy distinto.",
+  "Núcleos y arquitectura",
+  "Generación del procesador"
+ ],
+ "fuentes": [
+  "Wikipedia: Frecuencia de reloj",
+  "Wikipedia: Microprocesador"
+ ],
+ "hashtags": [
+  "#mitoorealidad",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#procesador"
+ ]
+}

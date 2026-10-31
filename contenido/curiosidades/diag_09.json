@@ -1,0 +1,77 @@
+{
+ "id": "diag_09",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: tengo wifi pero no hay internet",
+ "titulo_pantalla": "Diagnóstico: wifi sin internet",
+ "escenas": [
+  {
+   "texto": "Aparece conectado, pero no carga nada.",
+   "imagen": "router_wifi_aislado_01.png"
+  },
+  {
+   "texto": "Suele ser un corte del operador, un fallo de DNS, o un router saturado.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "El router sin conexión con el operador",
+     "Fallo de DNS o configuración",
+     "Interferencias o router saturado"
+    ]
+   }
+  },
+  {
+   "texto": "Mira si otros dispositivos tienen internet, reinicia el router esperando dos minutos y prueba con cable.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Mira si otros dispositivos tienen internet",
+     "Reinicia el router y espera dos minutos",
+     "Prueba con cable"
+    ]
+   }
+  },
+  {
+   "texto": "Si ningún dispositivo tiene internet y las luces no son normales, llama a tu operador o a un técnico.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "Ningún dispositivo tiene internet",
+     "Las luces del router no son normales",
+     "Los cortes se repiten cada día"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: el router sin conexión con el operador, fallo de dns o configuración, interferencias o router saturado.",
+  "Prueba: mira si otros dispositivos tienen internet.",
+  "Técnico si: ningún dispositivo tiene internet."
+ ],
+ "fuentes": [
+  "Wikipedia: Sistema de nombres de dominio",
+  "Microsoft: solucionar problemas de conexión"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#wifi"
+ ]
+}

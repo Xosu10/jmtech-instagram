@@ -1,0 +1,66 @@
+{
+ "id": "mito_18",
+ "serie": "mito",
+ "titulo": "¿Mito o realidad? Los virus solo vienen de páginas raras",
+ "titulo_pantalla": "¿Mito o realidad?",
+ "escenas": [
+  {
+   "texto": "¿Mito o realidad? Los virus solo vienen de páginas raras.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Los virus solo vienen de páginas raras",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es un mito. También llegan por correos, mensajes, anuncios y programas que parecen normales.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Los virus solo vienen de páginas raras",
+    "revelar": true,
+    "veredicto": "MITO"
+   }
+  },
+  {
+   "texto": "Desconfía de los adjuntos inesperados, descarga solo de fuentes oficiales y no te fíes de las prisas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que debes saber",
+    "titulo": "Las claves",
+    "acento": "azul",
+    "puntos": [
+     "Desconfía de adjuntos inesperados",
+     "Descarga solo de fuentes oficiales",
+     "No te fíes de las prisas"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧐",
+ "puntos": [
+  "MITO: También llegan por correos, mensajes, anuncios y programas que parecen normales.",
+  "Desconfía de adjuntos inesperados",
+  "Descarga solo de fuentes oficiales"
+ ],
+ "fuentes": [
+  "INCIBE: cómo evitar el malware",
+  "Wikipedia: Phishing"
+ ],
+ "hashtags": [
+  "#mitoorealidad",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#seguridad"
+ ]
+}

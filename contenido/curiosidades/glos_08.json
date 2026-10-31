@@ -1,0 +1,65 @@
+{
+ "id": "glos_08",
+ "serie": "glosario",
+ "titulo": "¿Qué es RAID? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es RAID?",
+ "escenas": [
+  {
+   "texto": "¿Qué es RAID? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "RAID",
+    "significado": "Varios discos trabajando juntos"
+   }
+  },
+  {
+   "texto": "RAID combina varios discos en uno. Algunas formas buscan más velocidad, y otras más seguridad copiando los datos en dos discos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "RAID",
+    "acento": "azul",
+    "puntos": [
+     "Une varios discos",
+     "Unas formas buscan velocidad",
+     "Otras guardan los datos duplicados"
+    ]
+   }
+  },
+  {
+   "texto": "Pero cuidado: RAID no es una copia de seguridad. Si borras un archivo o te entra un virus, se borra en todos los discos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "No sustituye a una copia de seguridad",
+     "Protege del fallo de un disco",
+     "No protege de borrados ni virus"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "RAID combina varios discos en uno.",
+  "No sustituye a una copia de seguridad",
+  "Protege del fallo de un disco"
+ ],
+ "fuentes": [
+  "Wikipedia: RAID"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#raid"
+ ]
+}

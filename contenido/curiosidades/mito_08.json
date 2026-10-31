@@ -1,0 +1,65 @@
+{
+ "id": "mito_08",
+ "serie": "mito",
+ "titulo": "¿Mito o realidad? Hay que expulsar siempre el pendrive antes de sacarlo",
+ "titulo_pantalla": "¿Mito o realidad?",
+ "escenas": [
+  {
+   "texto": "¿Mito o realidad? Hay que expulsar siempre el pendrive antes de sacarlo.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Hay que expulsar siempre el pendrive antes de sacarlo",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es verdad a medias. Si estás copiando datos, sí. Si no, hoy Windows suele permitir sacarlo sin problema, pero expulsar evita sustos.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Hay que expulsar siempre el pendrive antes de sacarlo",
+    "revelar": true,
+    "veredicto": "A MEDIAS"
+   }
+  },
+  {
+   "texto": "Espera a que termine la copia, expulsa si tienes dudas, y ten más cuidado con los discos externos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que debes saber",
+    "titulo": "Las claves",
+    "acento": "azul",
+    "puntos": [
+     "Espera a que termine la copia",
+     "Expulsa si tienes dudas",
+     "Más cuidado con discos externos"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧐",
+ "puntos": [
+  "A MEDIAS: Si estás copiando datos, sí. Si no, hoy Windows suele permitir sacarlo sin problema, pero expulsar evita sustos.",
+  "Espera a que termine la copia",
+  "Expulsa si tienes dudas"
+ ],
+ "fuentes": [
+  "Microsoft: quitar dispositivos de almacenamiento de forma segura"
+ ],
+ "hashtags": [
+  "#mitoorealidad",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#pendrive"
+ ]
+}

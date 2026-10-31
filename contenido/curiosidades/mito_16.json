@@ -1,0 +1,65 @@
+{
+ "id": "mito_16",
+ "serie": "mito",
+ "titulo": "¿Mito o realidad? Meter el móvil mojado en arroz lo seca",
+ "titulo_pantalla": "¿Mito o realidad?",
+ "escenas": [
+  {
+   "texto": "¿Mito o realidad? Meter el móvil mojado en arroz lo seca.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Meter el móvil mojado en arroz lo seca",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es un mito. El arroz apenas absorbe humedad. Lo mejor es apagarlo, secarlo por fuera y llevarlo a un técnico.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Meter el móvil mojado en arroz lo seca",
+    "revelar": true,
+    "veredicto": "MITO"
+   }
+  },
+  {
+   "texto": "Apágalo al instante, no lo cargues ni lo calientes, y llévalo a revisar cuanto antes.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que debes saber",
+    "titulo": "Las claves",
+    "acento": "azul",
+    "puntos": [
+     "Apágalo al instante",
+     "No lo cargues ni lo calientes",
+     "Llévalo a revisar cuanto antes"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧐",
+ "puntos": [
+  "MITO: El arroz apenas absorbe humedad. Lo mejor es apagarlo, secarlo por fuera y llevarlo a un técnico.",
+  "Apágalo al instante",
+  "No lo cargues ni lo calientes"
+ ],
+ "fuentes": [
+  "Wikipedia: Daños por agua en dispositivos electrónicos"
+ ],
+ "hashtags": [
+  "#mitoorealidad",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#movil"
+ ]
+}

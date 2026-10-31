@@ -1,0 +1,76 @@
+{
+ "id": "diag_24",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: pantallazo azul que se repite",
+ "titulo_pantalla": "Diagnóstico: pantallazo azul repetido",
+ "escenas": [
+  {
+   "texto": "Cada pocas horas, pantalla azul y reinicio.",
+   "imagen": "pantalla_azul_aislado_01.png"
+  },
+  {
+   "texto": "Suelen ser controladores defectuosos, RAM o disco con errores, o sobrecalentamiento.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Controladores defectuosos",
+     "RAM o disco con errores",
+     "Sobrecalentamiento"
+    ]
+   }
+  },
+  {
+   "texto": "Anota el código de error, desinstala lo último que instalaste y prueba la memoria.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Anota el código de error",
+     "Desinstala lo último que instalaste",
+     "Prueba la RAM con la herramienta de Windows"
+    ]
+   }
+  },
+  {
+   "texto": "Si se repite varias veces al día o hay archivos importantes, no esperes.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "Se repite varias veces al día",
+     "Hay archivos importantes en riesgo",
+     "Cambia el error cada vez"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: controladores defectuosos, ram o disco con errores, sobrecalentamiento.",
+  "Prueba: anota el código de error.",
+  "Técnico si: se repite varias veces al día."
+ ],
+ "fuentes": [
+  "Microsoft: solucionar errores de pantalla azul"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#windows"
+ ]
+}

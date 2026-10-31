@@ -1,0 +1,65 @@
+{
+ "id": "glos_26",
+ "serie": "glosario",
+ "titulo": "¿Qué es NFC? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es NFC?",
+ "escenas": [
+  {
+   "texto": "¿Qué es NFC? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "NFC",
+    "significado": "Comunicación a muy corta distancia"
+   }
+  },
+  {
+   "texto": "Es una tecnología que permite que dos aparatos se comuniquen cuando están a pocos centímetros, como al pagar con el móvil.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "NFC",
+    "acento": "azul",
+    "puntos": [
+     "Funciona a pocos centímetros",
+     "Se usa en pagos y tarjetas",
+     "No necesita emparejarse"
+    ]
+   }
+  },
+  {
+   "texto": "Por eso es bastante segura: alguien tendría que estar muy cerca. Se usa en pagos, entradas y tarjetas de transporte.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Pagar con el móvil",
+     "Abrir puertas o fichar",
+     "Tarjetas de transporte"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Es una tecnología que permite que dos aparatos se comuniquen cuando están a pocos centímetros, como al pagar con el móvil.",
+  "Pagar con el móvil",
+  "Abrir puertas o fichar"
+ ],
+ "fuentes": [
+  "Wikipedia: Comunicación de campo cercano"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#nfc"
+ ]
+}

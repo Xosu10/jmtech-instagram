@@ -1,0 +1,81 @@
+{
+ "id": "diag_17",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: el Bluetooth no conecta",
+ "titulo_pantalla": "Diagnóstico: Bluetooth no conecta",
+ "escenas": [
+  {
+   "texto": "Los auriculares aparecen pero no se enlazan.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "BLUETOOTH",
+    "linea2": "Aparece, pero no conecta",
+    "acento": "naranja"
+   }
+  },
+  {
+   "texto": "Casi siempre está conectado a otro aparato, el Bluetooth no está bien activado, o falta batería.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Dispositivo conectado a otro aparato",
+     "Bluetooth del equipo mal activado",
+     "Controlador o batería baja"
+    ]
+   }
+  },
+  {
+   "texto": "Apaga y activa el Bluetooth, elimina el dispositivo y vuelve a emparejarlo, y comprueba que está cargado.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Apaga el Bluetooth y vuélvelo a activar",
+     "Elimina el dispositivo y vuelve a emparejarlo",
+     "Carga el dispositivo"
+    ]
+   }
+  },
+  {
+   "texto": "Si el equipo no encuentra nada cercano, puede fallar el adaptador.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "No aparece ningún dispositivo cercano",
+     "Se corta constantemente",
+     "Falla tras actualizar"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: dispositivo conectado a otro aparato, bluetooth del equipo mal activado, controlador o batería baja.",
+  "Prueba: apaga el bluetooth y vuélvelo a activar.",
+  "Técnico si: no aparece ningún dispositivo cercano."
+ ],
+ "fuentes": [
+  "Microsoft: solucionar problemas de Bluetooth"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#bluetooth"
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "id": "diag_14",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: la pantalla parpadea",
+ "titulo_pantalla": "Diagnóstico: la pantalla parpadea",
+ "escenas": [
+  {
+   "texto": "La imagen parpadea, se apaga un instante o se ve con rayas.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "PANTALLA",
+    "linea2": "Parpadea o se ve con rayas",
+    "acento": "naranja"
+   }
+  },
+  {
+   "texto": "Suele ser un cable flojo, una frecuencia mal configurada, o un controlador de la gráfica con problemas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Cable de vídeo flojo o dañado",
+     "Frecuencia de actualización mal configurada",
+     "Controlador de la gráfica con problemas"
+    ]
+   }
+  },
+  {
+   "texto": "Cambia o revisa el cable, ajusta la frecuencia y actualiza el controlador de la gráfica.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Cambia o revisa el cable",
+     "Revisa la frecuencia en los ajustes",
+     "Actualiza el controlador de la gráfica"
+    ]
+   }
+  },
+  {
+   "texto": "Si falla con otro monitor y aparecen rayas o colores raros, puede ser la gráfica.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "Falla también con otro monitor",
+     "Aparecen rayas o colores raros",
+     "Se apaga al moverla"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: cable de vídeo flojo o dañado, frecuencia de actualización mal configurada, controlador de la gráfica con problemas.",
+  "Prueba: cambia o revisa el cable.",
+  "Técnico si: falla también con otro monitor."
+ ],
+ "fuentes": [
+  "Microsoft: solucionar parpadeos de pantalla"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#pantalla"
+ ]
+}

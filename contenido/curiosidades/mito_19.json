@@ -1,0 +1,66 @@
+{
+ "id": "mito_19",
+ "serie": "mito",
+ "titulo": "¿Mito o realidad? Actualizar siempre al instante es lo mejor",
+ "titulo_pantalla": "¿Mito o realidad?",
+ "escenas": [
+  {
+   "texto": "¿Mito o realidad? Actualizar siempre al instante es lo mejor.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Actualizar siempre al instante es lo mejor",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es verdad a medias. Las actualizaciones de seguridad conviene instalarlas pronto. Las versiones grandes, mejor esperar unos días y tener copia.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Actualizar siempre al instante es lo mejor",
+    "revelar": true,
+    "veredicto": "A MEDIAS"
+   }
+  },
+  {
+   "texto": "Seguridad, cuanto antes; versiones grandes, espera unos días; y haz copia antes de actualizar.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que debes saber",
+    "titulo": "Las claves",
+    "acento": "azul",
+    "puntos": [
+     "Seguridad: cuanto antes",
+     "Versiones grandes: espera unos días",
+     "Haz copia antes de actualizar"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧐",
+ "puntos": [
+  "A MEDIAS: Las actualizaciones de seguridad conviene instalarlas pronto. Las versiones grandes, mejor esperar unos días y tener copia.",
+  "Seguridad: cuanto antes",
+  "Versiones grandes: espera unos días"
+ ],
+ "fuentes": [
+  "Microsoft: Windows Update",
+  "Wikipedia: Parche (informática)"
+ ],
+ "hashtags": [
+  "#mitoorealidad",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#actualizaciones"
+ ]
+}

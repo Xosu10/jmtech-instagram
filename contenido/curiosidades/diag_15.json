@@ -1,0 +1,81 @@
+{
+ "id": "diag_15",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: el USB no se reconoce",
+ "titulo_pantalla": "Diagnóstico: el USB no se reconoce",
+ "escenas": [
+  {
+   "texto": "Conectas el pendrive y el equipo no lo detecta.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "USB",
+    "linea2": "El equipo no lo reconoce",
+    "acento": "naranja"
+   }
+  },
+  {
+   "texto": "Suelen ser un puerto dañado, un problema de controlador o energía, o el propio pendrive estropeado.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Puerto o cable dañado",
+     "Controlador o energía USB",
+     "Pendrive estropeado"
+    ]
+   }
+  },
+  {
+   "texto": "Prueba otro puerto, prueba el pendrive en otro equipo y reinicia.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Prueba otro puerto",
+     "Prueba el pendrive en otro equipo",
+     "Reinicia el equipo"
+    ]
+   }
+  },
+  {
+   "texto": "Si hay datos importantes, no insistas: cada intento puede empeorarlo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "Lo reconoce otro equipo pero este no",
+     "Es un disco con datos importantes",
+     "Hace ruidos o se calienta"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: puerto o cable dañado, controlador o energía usb, pendrive estropeado.",
+  "Prueba: prueba otro puerto.",
+  "Técnico si: lo reconoce otro equipo pero este no."
+ ],
+ "fuentes": [
+  "Microsoft: solucionar el reconocimiento de dispositivos USB"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#usb"
+ ]
+}

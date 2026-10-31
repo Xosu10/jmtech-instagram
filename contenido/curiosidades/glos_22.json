@@ -1,0 +1,65 @@
+{
+ "id": "glos_22",
+ "serie": "glosario",
+ "titulo": "¿Qué es Trazado de rayos? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es Trazado de rayos?",
+ "escenas": [
+  {
+   "texto": "¿Qué es Trazado de rayos? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "Trazado de rayos",
+    "significado": "Luz simulada de forma realista"
+   }
+  },
+  {
+   "texto": "Es una técnica que calcula el camino de la luz para crear reflejos, sombras e iluminación muy realistas en los videojuegos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "Trazado de rayos",
+    "acento": "azul",
+    "puntos": [
+     "Simula el camino de la luz",
+     "Reflejos y sombras realistas",
+     "Exige mucha potencia"
+    ]
+   }
+  },
+  {
+   "texto": "Se ve muy bien, pero baja los FPS, así que necesitas una gráfica compatible y suficiente. Puedes activarlo solo si te compensa.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Necesita una gráfica compatible",
+     "Baja los FPS",
+     "Se puede activar o no"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Es una técnica que calcula el camino de la luz para crear reflejos, sombras e iluminación muy realistas en los videojuegos.",
+  "Necesita una gráfica compatible",
+  "Baja los FPS"
+ ],
+ "fuentes": [
+  "Wikipedia: Trazado de rayos"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#raytracing"
+ ]
+}

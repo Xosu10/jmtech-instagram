@@ -1,0 +1,81 @@
+{
+ "id": "diag_04",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: el ratón va a saltos",
+ "titulo_pantalla": "Diagnóstico: el ratón va a saltos",
+ "escenas": [
+  {
+   "texto": "El cursor se mueve a tirones o se queda parado.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "RATÓN",
+    "linea2": "El cursor va a saltos",
+    "acento": "naranja"
+   }
+  },
+  {
+   "texto": "Casi siempre son pilas bajas, una superficie inadecuada, o interferencias en el receptor.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Pilas bajas o mala conexión",
+     "Superficie brillante o sucia",
+     "Puerto USB o receptor con interferencias"
+    ]
+   }
+  },
+  {
+   "texto": "Cambia las pilas, usa una alfombrilla limpia y prueba otro puerto USB.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Cambia las pilas",
+     "Usa una alfombrilla limpia",
+     "Prueba otro puerto USB"
+    ]
+   }
+  },
+  {
+   "texto": "Si falla con otro ratón también, el problema está en el equipo y conviene revisarlo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "Falla con otro ratón también",
+     "El cursor se congela en todo el equipo",
+     "Hay mensajes de error de controlador"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: pilas bajas o mala conexión, superficie brillante o sucia, puerto usb o receptor con interferencias.",
+  "Prueba: cambia las pilas.",
+  "Técnico si: falla con otro ratón también."
+ ],
+ "fuentes": [
+  "Microsoft: solucionar problemas del ratón"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#raton"
+ ]
+}

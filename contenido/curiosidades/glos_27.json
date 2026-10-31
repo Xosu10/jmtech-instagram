@@ -1,0 +1,66 @@
+{
+ "id": "glos_27",
+ "serie": "glosario",
+ "titulo": "¿Qué es Verificación en dos pasos? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es Verificación en dos pasos?",
+ "escenas": [
+  {
+   "texto": "¿Qué es Verificación en dos pasos? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "Verificación en dos pasos",
+    "significado": "Una segunda llave para entrar"
+   }
+  },
+  {
+   "texto": "Es una comprobación extra al iniciar sesión, además de la contraseña, como un código que te llega al móvil o a una aplicación.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "Verificación en dos pasos",
+    "acento": "azul",
+    "puntos": [
+     "Pide algo más que la contraseña",
+     "Un código en el móvil o una app",
+     "También con llave física"
+    ]
+   }
+  },
+  {
+   "texto": "Aunque te roben la contraseña, no podrán entrar sin tu segundo paso. Actívala en el correo y en el banco.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Actívala en el correo",
+     "Y en el banco",
+     "Mejor con aplicación que con SMS"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Es una comprobación extra al iniciar sesión, además de la contraseña, como un código que te llega al móvil o a una aplicación.",
+  "Actívala en el correo",
+  "Y en el banco"
+ ],
+ "fuentes": [
+  "INCIBE: verificación en dos pasos",
+  "Wikipedia: Autenticación multifactor"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#2fa"
+ ]
+}

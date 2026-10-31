@@ -1,0 +1,65 @@
+{
+ "id": "glos_06",
+ "serie": "glosario",
+ "titulo": "¿Qué es USB-C? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es USB-C?",
+ "escenas": [
+  {
+   "texto": "¿Qué es USB-C? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "USB-C",
+    "significado": "Un tipo de conector, no una velocidad"
+   }
+  },
+  {
+   "texto": "USB-C es la forma del conector, ovalada y reversible. No dice nada de la velocidad ni de la potencia de carga.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "USB-C",
+    "acento": "azul",
+    "puntos": [
+     "Se enchufa por cualquier lado",
+     "Es solo la forma del conector",
+     "La velocidad depende del puerto y del cable"
+    ]
+   }
+  },
+  {
+   "texto": "Dos cables USB-C idénticos pueden ser muy distintos: uno solo carga, otro transmite vídeo y datos rápidos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Mira las especificaciones del cable",
+     "No todos cargan igual de rápido",
+     "No todos llevan vídeo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "USB-C es la forma del conector, ovalada y reversible.",
+  "Mira las especificaciones del cable",
+  "No todos cargan igual de rápido"
+ ],
+ "fuentes": [
+  "Wikipedia: USB-C"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#usbc"
+ ]
+}

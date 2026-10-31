@@ -1,0 +1,66 @@
+{
+ "id": "glos_13",
+ "serie": "glosario",
+ "titulo": "¿Qué es Phishing? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es Phishing?",
+ "escenas": [
+  {
+   "texto": "¿Qué es Phishing? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "Phishing",
+    "significado": "El engaño para robar tus datos"
+   }
+  },
+  {
+   "texto": "Es un engaño en el que alguien se hace pasar por tu banco, una tienda o un servicio para que le des tus datos o contraseñas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "Phishing",
+    "acento": "azul",
+    "puntos": [
+     "Suplanta a una entidad conocida",
+     "Llega por correo, mensaje o llamada",
+     "Busca que actúes con prisa"
+    ]
+   }
+  },
+  {
+   "texto": "Para evitarlo, no pulses en enlaces inesperados, entra siempre desde la web oficial y desconfía de las urgencias.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "No pulses enlaces inesperados",
+     "Entra desde la web oficial",
+     "Desconfía de las prisas"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Es un engaño en el que alguien se hace pasar por tu banco, una tienda o un servicio para que le des tus datos o contraseñas.",
+  "No pulses enlaces inesperados",
+  "Entra desde la web oficial"
+ ],
+ "fuentes": [
+  "INCIBE: qué es el phishing",
+  "Wikipedia: Phishing"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#phishing"
+ ]
+}

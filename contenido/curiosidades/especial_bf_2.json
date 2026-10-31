@@ -1,0 +1,78 @@
+{
+ "id": "especial_bf_2",
+ "serie": "especial",
+ "titulo": "Black Friday en JM TECH: precios especiales",
+ "titulo_pantalla": "Black Friday en JM TECH",
+ "insignia": null,
+ "emoji": "🔥",
+ "cierre_lineas": [
+  "Black Friday en JM TECH",
+  "Precios especiales en servicios"
+ ],
+ "hashtags": [
+  "#blackfriday",
+  "#ciberlunes",
+  "#informatica",
+  "#pcgamer",
+  "#murcia",
+  "#jmtech"
+ ],
+ "escenas": [
+  {
+   "texto": "Black Friday en JM TECH: precios especiales en servicios seleccionados.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "BLACK FRIDAY",
+    "linea2": "Precios especiales en JM TECH",
+    "acento": "naranja"
+   }
+  },
+  {
+   "texto": "Limpieza y cambio de pasta térmica, ampliación de memoria y disco, y montaje de PC con asesoramiento.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Para tu equipo",
+    "titulo": "Servicios seleccionados",
+    "acento": "naranja",
+    "puntos": [
+     "Limpieza y pasta térmica",
+     "Ampliación de RAM y SSD",
+     "Montaje de PC y asesoramiento"
+    ]
+   }
+  },
+  {
+   "texto": "También optimización de Windows, instalación de programas, y scripts y aplicaciones a medida.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Y además",
+    "titulo": "Software y automatización",
+    "acento": "azul",
+    "puntos": [
+     "Optimización de Windows",
+     "Instalación de programas",
+     "Scripts y apps a medida"
+    ]
+   }
+  },
+  {
+   "texto": "Y recuerda: no vendemos hardware. Te asesoramos para que compres bien lo que necesitas, y nosotros lo instalamos.",
+   "imagen": "empresa_asesoramiento_componentes_aislado_01.png"
+  },
+  {
+   "texto": "Escríbenos por mensaje y te contamos el precio especial. Servicio solo en Murcia, a domicilio o en nuestro taller.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "ESCRÍBENOS",
+    "linea2": "Por mensaje: te decimos el precio especial",
+    "acento": "naranja"
+   }
+  },
+  {
+   "texto": "Black Friday en JM TECH. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "descripcion": "🔥 BLACK FRIDAY en JM TECH: precios especiales en servicios seleccionados.\n\n• Limpieza y cambio de pasta térmica\n• Ampliación de RAM y SSD\n• Montaje de PC y asesoramiento\n• Optimización de Windows e instalación de programas\n• Scripts y apps a medida\n\n🧩 No vendemos hardware: te asesoramos sobre qué comprar y lo instalamos.\n📩 Escríbenos por MD y te decimos el precio especial. 📍 Servicio solo en Murcia: a domicilio, en tu casa o en nuestro taller.",
+ "fuentes": []
+}

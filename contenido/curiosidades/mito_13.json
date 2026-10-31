@@ -1,0 +1,66 @@
+{
+ "id": "mito_13",
+ "serie": "mito",
+ "titulo": "¿Mito o realidad? Tapar la cámara web es una paranoia",
+ "titulo_pantalla": "¿Mito o realidad?",
+ "escenas": [
+  {
+   "texto": "¿Mito o realidad? Tapar la cámara web es una paranoia.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Tapar la cámara web es una paranoia",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es un mito. Es una precaución sencilla y barata: si alguien se colara en tu equipo, tendría la cámara bloqueada.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Tapar la cámara web es una paranoia",
+    "revelar": true,
+    "veredicto": "MITO"
+   }
+  },
+  {
+   "texto": "Una tapa o una pegatina basta, pero lo más importante es no instalar programas dudosos y revisar los permisos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que debes saber",
+    "titulo": "Las claves",
+    "acento": "azul",
+    "puntos": [
+     "Una tapa o pegatina basta",
+     "No instales programas dudosos",
+     "Revisa los permisos de la cámara"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧐",
+ "puntos": [
+  "MITO: Es una precaución sencilla y barata: si alguien se colara en tu equipo, tendría la cámara bloqueada.",
+  "Una tapa o pegatina basta",
+  "No instales programas dudosos"
+ ],
+ "fuentes": [
+  "Wikipedia: Cámara web",
+  "Wikipedia: Malware"
+ ],
+ "hashtags": [
+  "#mitoorealidad",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#privacidad"
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "id": "mito_14",
+ "serie": "mito",
+ "titulo": "¿Mito o realidad? Reiniciar el router cada día es necesario",
+ "titulo_pantalla": "¿Mito o realidad?",
+ "escenas": [
+  {
+   "texto": "¿Mito o realidad? Reiniciar el router cada día es necesario.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Reiniciar el router cada día es necesario",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es un mito. Un router bien configurado no necesita reinicios diarios. Reiniciarlo solo ayuda si hay un fallo.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Reiniciar el router cada día es necesario",
+    "revelar": true,
+    "veredicto": "MITO"
+   }
+  },
+  {
+   "texto": "Reinicia si se corta o va muy lento, mantén el firmware al día, y si falla mucho, puede que sea viejo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que debes saber",
+    "titulo": "Las claves",
+    "acento": "azul",
+    "puntos": [
+     "Reinicia si se corta o va lento",
+     "Mantén el firmware al día",
+     "Si falla mucho, puede estar viejo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧐",
+ "puntos": [
+  "MITO: Un router bien configurado no necesita reinicios diarios. Reiniciarlo solo ayuda si hay un fallo.",
+  "Reinicia si se corta o va lento",
+  "Mantén el firmware al día"
+ ],
+ "fuentes": [
+  "Wikipedia: Router",
+  "Wikipedia: Firmware"
+ ],
+ "hashtags": [
+  "#mitoorealidad",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#router"
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "id": "diag_06",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: la webcam no funciona",
+ "titulo_pantalla": "Diagnóstico: la webcam no funciona",
+ "escenas": [
+  {
+   "texto": "Entras en la videollamada y la imagen no aparece.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "WEBCAM",
+    "linea2": "Sin imagen en la videollamada",
+    "acento": "naranja"
+   }
+  },
+  {
+   "texto": "Suelen ser permisos desactivados, otra aplicación usando la cámara, o un controlador dañado.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Permisos de cámara desactivados",
+     "Otra aplicación la está usando",
+     "Controlador o cable dañado"
+    ]
+   }
+  },
+  {
+   "texto": "Revisa los permisos de la cámara, cierra otras aplicaciones de vídeo y reinstala el controlador.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Revisa los permisos de cámara",
+     "Cierra otras aplicaciones de vídeo",
+     "Reinstala el controlador"
+    ]
+   }
+  },
+  {
+   "texto": "Si no aparece en el sistema ni en ninguna aplicación, puede ser un fallo físico.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "La cámara no aparece en el sistema",
+     "Hay un interruptor físico que no cambia nada",
+     "Falla en todas las aplicaciones"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: permisos de cámara desactivados, otra aplicación la está usando, controlador o cable dañado.",
+  "Prueba: revisa los permisos de cámara.",
+  "Técnico si: la cámara no aparece en el sistema."
+ ],
+ "fuentes": [
+  "Microsoft: solucionar problemas de la cámara en Windows"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#webcam"
+ ]
+}

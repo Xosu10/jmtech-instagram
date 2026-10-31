@@ -63,7 +63,10 @@ def test_la_descripcion_avisa_de_voz_ia_cita_fuentes_y_marca(ruta):
     e = cur.cargar_espec(ruta)
     d = cur.construir_descripcion(e)
     assert "Voz generada con IA" in d
-    assert ("Fuentes consultadas" in d) if e.get("fuentes") else ("Ejemplo ilustrativo" in d and e.get("serie") == "automatizacion")
+    if e.get("fuentes"):
+        assert "Fuentes consultadas" in d
+    else:
+        assert ("Ejemplo ilustrativo" in d) if e.get("serie") == "automatizacion" else ("Contenido informativo" in d)
     assert "sin compromiso" in d and "MD" in d and "Murcia" in d
     assert len(d) <= cur.MAX_DESCRIPCION
 

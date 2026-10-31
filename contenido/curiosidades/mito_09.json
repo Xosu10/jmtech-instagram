@@ -1,0 +1,66 @@
+{
+ "id": "mito_09",
+ "serie": "mito",
+ "titulo": "¿Mito o realidad? El wifi de 5 gigahercios llega más lejos que el de 2,4",
+ "titulo_pantalla": "¿Mito o realidad?",
+ "escenas": [
+  {
+   "texto": "¿Mito o realidad? El wifi de 5 gigahercios llega más lejos que el de 2,4.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "El wifi de 5 gigahercios llega más lejos que el de 2,4",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es un mito. Es al revés: la banda de 2,4 llega más lejos, y la de 5 es más rápida de cerca.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "El wifi de 5 gigahercios llega más lejos que el de 2,4",
+    "revelar": true,
+    "veredicto": "MITO"
+   }
+  },
+  {
+   "texto": "Para estar cerca del router, la de 5; para estar lejos o con paredes de por medio, la de 2,4.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que debes saber",
+    "titulo": "Las claves",
+    "acento": "azul",
+    "puntos": [
+     "2,4 GHz: más alcance",
+     "5 GHz: más velocidad",
+     "Elige según la distancia al router"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧐",
+ "puntos": [
+  "MITO: Es al revés: la banda de 2,4 llega más lejos, y la de 5 es más rápida de cerca.",
+  "2,4 GHz: más alcance",
+  "5 GHz: más velocidad"
+ ],
+ "fuentes": [
+  "Wikipedia: Wi-Fi",
+  "Wikipedia: Banda ISM"
+ ],
+ "hashtags": [
+  "#mitoorealidad",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#wifi"
+ ]
+}

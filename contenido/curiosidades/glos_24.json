@@ -1,0 +1,65 @@
+{
+ "id": "glos_24",
+ "serie": "glosario",
+ "titulo": "¿Qué es Latencia? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es Latencia?",
+ "escenas": [
+  {
+   "texto": "¿Qué es Latencia? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "Latencia",
+    "significado": "El tiempo de espera"
+   }
+  },
+  {
+   "texto": "Es el tiempo que pasa desde que haces algo hasta que se produce la respuesta. Se mide en milisegundos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "Latencia",
+    "acento": "azul",
+    "puntos": [
+     "Tiempo entre acción y respuesta",
+     "Se mide en milisegundos",
+     "Cuanto menos, mejor"
+    ]
+   }
+  },
+  {
+   "texto": "En juegos online se llama ping. Con cable y servidores cercanos baja, y con wifi saturado sube.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Con cable baja",
+     "Con wifi saturado sube",
+     "Importa más que los megas al jugar"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Es el tiempo que pasa desde que haces algo hasta que se produce la respuesta.",
+  "Con cable baja",
+  "Con wifi saturado sube"
+ ],
+ "fuentes": [
+  "Wikipedia: Latencia (ingeniería)"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#latencia"
+ ]
+}

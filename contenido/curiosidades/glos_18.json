@@ -1,0 +1,65 @@
+{
+ "id": "glos_18",
+ "serie": "glosario",
+ "titulo": "¿Qué es Firmware? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es Firmware?",
+ "escenas": [
+  {
+   "texto": "¿Qué es Firmware? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "Firmware",
+    "significado": "El programa interno de un aparato"
+   }
+  },
+  {
+   "texto": "Es el programa que lleva grabado dentro un aparato, como un router, un SSD o una tele, y que controla su funcionamiento básico.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "Firmware",
+    "acento": "azul",
+    "puntos": [
+     "Va grabado en el propio aparato",
+     "Controla su funcionamiento",
+     "Se actualiza con cuidado"
+    ]
+   }
+  },
+  {
+   "texto": "Actualizarlo corrige fallos y mejora la seguridad. Pero no lo apagues durante la actualización, porque podrías dejarlo inservible.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Corrige fallos y mejora la seguridad",
+     "No apagues durante la actualización",
+     "Hazlo desde el sitio oficial"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Es el programa que lleva grabado dentro un aparato, como un router, un SSD o una tele, y que controla su funcionamiento básico.",
+  "Corrige fallos y mejora la seguridad",
+  "No apagues durante la actualización"
+ ],
+ "fuentes": [
+  "Wikipedia: Firmware"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#firmware"
+ ]
+}

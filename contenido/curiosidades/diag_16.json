@@ -1,0 +1,76 @@
+{
+ "id": "diag_16",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: el portátil no carga",
+ "titulo_pantalla": "Diagnóstico: el portátil no carga",
+ "escenas": [
+  {
+   "texto": "Lo enchufas y no sube la batería.",
+   "imagen": "portatil_enchufado_aislado_01.png"
+  },
+  {
+   "texto": "Suele ser un cargador dañado, un conector flojo, o una batería agotada.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Cargador o cable dañado",
+     "Conector de carga flojo",
+     "Batería agotada"
+    ]
+   }
+  },
+  {
+   "texto": "Prueba otro enchufe, mira el cable y la punta del conector y comprueba la batería.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Prueba otro enchufe",
+     "Mira el cable y la punta del conector",
+     "Retira la batería si es extraíble"
+    ]
+   }
+  },
+  {
+   "texto": "Si el conector se mueve o el cargador se calienta, no insistas: puede ser peligroso.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "El conector se mueve o está quemado",
+     "La luz de carga no se enciende",
+     "Se calienta el cargador"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: cargador o cable dañado, conector de carga flojo, batería agotada.",
+  "Prueba: prueba otro enchufe.",
+  "Técnico si: el conector se mueve o está quemado."
+ ],
+ "fuentes": [
+  "Wikipedia: Batería de ion de litio"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#portatil"
+ ]
+}

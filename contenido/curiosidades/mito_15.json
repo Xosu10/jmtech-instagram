@@ -1,0 +1,66 @@
+{
+ "id": "mito_15",
+ "serie": "mito",
+ "titulo": "¿Mito o realidad? Una contraseña con símbolos raros es más segura que una larga",
+ "titulo_pantalla": "¿Mito o realidad?",
+ "escenas": [
+  {
+   "texto": "¿Mito o realidad? Una contraseña con símbolos raros es más segura que una larga.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Una contraseña con símbolos raros es más segura que una larga",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es un mito. La longitud pesa más: una frase larga es más difícil de adivinar que una palabra corta con símbolos.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Una contraseña con símbolos raros es más segura que una larga",
+    "revelar": true,
+    "veredicto": "MITO"
+   }
+  },
+  {
+   "texto": "Usa frases largas, no repitas contraseñas y apóyate en un gestor de contraseñas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que debes saber",
+    "titulo": "Las claves",
+    "acento": "azul",
+    "puntos": [
+     "Mejor una frase larga",
+     "No repitas contraseñas",
+     "Usa un gestor de contraseñas"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧐",
+ "puntos": [
+  "MITO: La longitud pesa más: una frase larga es más difícil de adivinar que una palabra corta con símbolos.",
+  "Mejor una frase larga",
+  "No repitas contraseñas"
+ ],
+ "fuentes": [
+  "INCIBE: contraseñas seguras",
+  "Wikipedia: Contraseña"
+ ],
+ "hashtags": [
+  "#mitoorealidad",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#contrasenas"
+ ]
+}

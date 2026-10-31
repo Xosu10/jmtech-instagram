@@ -1,0 +1,65 @@
+{
+ "id": "glos_16",
+ "serie": "glosario",
+ "titulo": "¿Qué es Caché? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es Caché?",
+ "escenas": [
+  {
+   "texto": "¿Qué es Caché? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "Caché",
+    "significado": "Memoria de acceso rápido"
+   }
+  },
+  {
+   "texto": "Es una memoria muy rápida que guarda copias de lo que más usas, para no tener que buscarlo de nuevo cada vez.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "Caché",
+    "acento": "azul",
+    "puntos": [
+     "Guarda copias de lo más usado",
+     "Está en el procesador, el navegador y más",
+     "Hace todo más rápido"
+    ]
+   }
+  },
+  {
+   "texto": "Si una web se ve mal o una aplicación falla, borrar su caché suele arreglarlo. Pero no hace falta hacerlo siempre.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Bórrala si una web se ve mal",
+     "No hace falta hacerlo siempre",
+     "Borrarla no acelera el equipo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Es una memoria muy rápida que guarda copias de lo que más usas, para no tener que buscarlo de nuevo cada vez.",
+  "Bórrala si una web se ve mal",
+  "No hace falta hacerlo siempre"
+ ],
+ "fuentes": [
+  "Wikipedia: Caché (informática)"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#cache"
+ ]
+}

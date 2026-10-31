@@ -1,0 +1,66 @@
+{
+ "id": "mito_17",
+ "serie": "mito",
+ "titulo": "¿Mito o realidad? El modo oscuro siempre ahorra batería",
+ "titulo_pantalla": "¿Mito o realidad?",
+ "escenas": [
+  {
+   "texto": "¿Mito o realidad? El modo oscuro siempre ahorra batería.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "El modo oscuro siempre ahorra batería",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es verdad a medias. Solo en las pantallas OLED, donde los píxeles negros se apagan. En las pantallas LCD apenas cambia.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "El modo oscuro siempre ahorra batería",
+    "revelar": true,
+    "veredicto": "A MEDIAS"
+   }
+  },
+  {
+   "texto": "En OLED sí ahorra, en LCD casi nada, y elígelo también por comodidad.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que debes saber",
+    "titulo": "Las claves",
+    "acento": "azul",
+    "puntos": [
+     "OLED: sí ahorra",
+     "LCD: casi nada",
+     "Elígelo también por comodidad"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧐",
+ "puntos": [
+  "A MEDIAS: Solo en las pantallas OLED, donde los píxeles negros se apagan. En las pantallas LCD apenas cambia.",
+  "OLED: sí ahorra",
+  "LCD: casi nada"
+ ],
+ "fuentes": [
+  "Wikipedia: OLED",
+  "Google: modo oscuro y consumo en pantallas OLED"
+ ],
+ "hashtags": [
+  "#mitoorealidad",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#pantalla"
+ ]
+}

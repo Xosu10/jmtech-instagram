@@ -1,0 +1,65 @@
+{
+ "id": "glos_21",
+ "serie": "glosario",
+ "titulo": "¿Qué es VRAM? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es VRAM?",
+ "escenas": [
+  {
+   "texto": "¿Qué es VRAM? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "VRAM",
+    "significado": "La memoria de la tarjeta gráfica"
+   }
+  },
+  {
+   "texto": "Es la memoria que usa la tarjeta gráfica para guardar las texturas y las imágenes antes de dibujarlas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "VRAM",
+    "acento": "azul",
+    "puntos": [
+     "Es la memoria de la gráfica",
+     "Guarda texturas e imágenes",
+     "No es lo mismo que la RAM"
+    ]
+   }
+  },
+  {
+   "texto": "Si te quedas corto, el juego tiene que bajar la calidad o se vuelve a tirones. Más resolución y más detalle piden más VRAM.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Más resolución, más VRAM",
+     "Si falta, el juego da tirones",
+     "Importa también para la IA"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Es la memoria que usa la tarjeta gráfica para guardar las texturas y las imágenes antes de dibujarlas.",
+  "Más resolución, más VRAM",
+  "Si falta, el juego da tirones"
+ ],
+ "fuentes": [
+  "Wikipedia: Memoria de vídeo"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#vram"
+ ]
+}

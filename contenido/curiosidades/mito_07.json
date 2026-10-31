@@ -1,0 +1,65 @@
+{
+ "id": "mito_07",
+ "serie": "mito",
+ "titulo": "¿Mito o realidad? Vaciar la papelera de reciclaje acelera el PC",
+ "titulo_pantalla": "¿Mito o realidad?",
+ "escenas": [
+  {
+   "texto": "¿Mito o realidad? Vaciar la papelera de reciclaje acelera el PC.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Vaciar la papelera de reciclaje acelera el PC",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es un mito. Los archivos de la papelera solo ocupan espacio. No ralentizan el equipo, salvo que el disco esté casi lleno.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Vaciar la papelera de reciclaje acelera el PC",
+    "revelar": true,
+    "veredicto": "MITO"
+   }
+  },
+  {
+   "texto": "Vacíala si necesitas espacio, y deja siempre un margen libre en el disco, porque un disco casi lleno sí va más lento.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que debes saber",
+    "titulo": "Las claves",
+    "acento": "azul",
+    "puntos": [
+     "Vacíala para recuperar espacio",
+     "Un disco casi lleno sí ralentiza",
+     "Deja siempre espacio libre"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧐",
+ "puntos": [
+  "MITO: Los archivos de la papelera solo ocupan espacio. No ralentizan el equipo, salvo que el disco esté casi lleno.",
+  "Vacíala para recuperar espacio",
+  "Un disco casi lleno sí ralentiza"
+ ],
+ "fuentes": [
+  "Microsoft: liberar espacio en el disco"
+ ],
+ "hashtags": [
+  "#mitoorealidad",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#windows"
+ ]
+}

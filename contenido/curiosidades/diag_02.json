@@ -1,0 +1,76 @@
+{
+ "id": "diag_02",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: Windows se queda reiniciándose",
+ "titulo_pantalla": "Diagnóstico: Windows en bucle de reinicio",
+ "escenas": [
+  {
+   "texto": "El PC arranca, se reinicia, y vuelta a empezar.",
+   "imagen": "reinicio_aislado_01.png"
+  },
+  {
+   "texto": "Suele ser una actualización fallida, un controlador dañado, o un disco con errores.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Una actualización que ha fallado",
+     "Controladores dañados",
+     "Disco con errores o poca memoria libre"
+    ]
+   }
+  },
+  {
+   "texto": "Espera unos minutos sin apagar, entra en el modo seguro y desinstala la última actualización.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Espera unos minutos sin apagar",
+     "Entra en el modo seguro",
+     "Desinstala la última actualización o controlador"
+    ]
+   }
+  },
+  {
+   "texto": "Si no puedes entrar ni en modo seguro, o tienes archivos importantes, mejor que lo mire un técnico.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "No puedes entrar ni en modo seguro",
+     "Aparece un error de disco",
+     "Has perdido archivos importantes"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: una actualización que ha fallado, controladores dañados, disco con errores o poca memoria libre.",
+  "Prueba: espera unos minutos sin apagar.",
+  "Técnico si: no puedes entrar ni en modo seguro."
+ ],
+ "fuentes": [
+  "Microsoft: solucionar bucles de reinicio de Windows"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#windows"
+ ]
+}

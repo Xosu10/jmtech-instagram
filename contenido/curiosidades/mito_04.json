@@ -1,0 +1,66 @@
+{
+ "id": "mito_04",
+ "serie": "mito",
+ "titulo": "¿Mito o realidad? Cargar el móvil toda la noche lo estropea",
+ "titulo_pantalla": "¿Mito o realidad?",
+ "escenas": [
+  {
+   "texto": "¿Mito o realidad? Cargar el móvil toda la noche lo estropea.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Cargar el móvil toda la noche lo estropea",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es verdad a medias. Los móviles modernos dejan de cargar al llegar al máximo, pero el calor y estar siempre al máximo desgastan la batería algo más rápido.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Cargar el móvil toda la noche lo estropea",
+    "revelar": true,
+    "veredicto": "A MEDIAS"
+   }
+  },
+  {
+   "texto": "Activa la carga optimizada si tu móvil la tiene, evita el calor, y no pasa nada por hacerlo de vez en cuando.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que debes saber",
+    "titulo": "Las claves",
+    "acento": "azul",
+    "puntos": [
+     "Activa la carga optimizada",
+     "Evita el calor al cargar",
+     "De vez en cuando no pasa nada"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧐",
+ "puntos": [
+  "A MEDIAS: Los móviles modernos dejan de cargar al llegar al máximo, pero el calor y estar siempre al máximo desgastan la batería algo más rápido.",
+  "Activa la carga optimizada",
+  "Evita el calor al cargar"
+ ],
+ "fuentes": [
+  "Wikipedia: Batería de ion de litio",
+  "Battery University: cómo alargar la vida de las baterías"
+ ],
+ "hashtags": [
+  "#mitoorealidad",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#bateria"
+ ]
+}

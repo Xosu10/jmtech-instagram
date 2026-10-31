@@ -1,0 +1,66 @@
+{
+ "id": "glos_23",
+ "serie": "glosario",
+ "titulo": "¿Qué es Reescalado? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es Reescalado?",
+ "escenas": [
+  {
+   "texto": "¿Qué es Reescalado? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "Reescalado",
+    "significado": "DLSS y FSR"
+   }
+  },
+  {
+   "texto": "Es una técnica que dibuja el juego a menos resolución y lo amplía con inteligencia artificial o con algoritmos, para ganar fotogramas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "Reescalado",
+    "acento": "azul",
+    "puntos": [
+     "Dibuja a menor resolución",
+     "Amplía con IA o algoritmos",
+     "Se llama DLSS o FSR"
+    ]
+   }
+  },
+  {
+   "texto": "Ganas FPS casi sin perder calidad. Es muy útil si tu gráfica va justa o si quieres jugar en cuatro K.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Más FPS",
+     "Casi sin perder calidad",
+     "Muy útil con gráficas justas"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Es una técnica que dibuja el juego a menos resolución y lo amplía con inteligencia artificial o con algoritmos, para ganar fotogramas.",
+  "Más FPS",
+  "Casi sin perder calidad"
+ ],
+ "fuentes": [
+  "Wikipedia: NVIDIA DLSS",
+  "AMD: FidelityFX Super Resolution"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#dlss"
+ ]
+}

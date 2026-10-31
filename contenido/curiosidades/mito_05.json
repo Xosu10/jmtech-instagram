@@ -1,0 +1,65 @@
+{
+ "id": "mito_05",
+ "serie": "mito",
+ "titulo": "¿Mito o realidad? Borrar la caché siempre acelera el dispositivo",
+ "titulo_pantalla": "¿Mito o realidad?",
+ "escenas": [
+  {
+   "texto": "¿Mito o realidad? Borrar la caché siempre acelera el dispositivo.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Borrar la caché siempre acelera el dispositivo",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es un mito. La caché sirve para ir más rápido. Borrarla solo ayuda si hay un fallo o te falta espacio.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Borrar la caché siempre acelera el dispositivo",
+    "revelar": true,
+    "veredicto": "MITO"
+   }
+  },
+  {
+   "texto": "Bórrala si una aplicación falla o necesitas espacio. Si no, déjala trabajar.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que debes saber",
+    "titulo": "Las claves",
+    "acento": "azul",
+    "puntos": [
+     "Bórrala si una app falla",
+     "O si te falta espacio",
+     "Si no, déjala trabajar"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧐",
+ "puntos": [
+  "MITO: La caché sirve para ir más rápido. Borrarla solo ayuda si hay un fallo o te falta espacio.",
+  "Bórrala si una app falla",
+  "O si te falta espacio"
+ ],
+ "fuentes": [
+  "Wikipedia: Caché (informática)"
+ ],
+ "hashtags": [
+  "#mitoorealidad",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#cache"
+ ]
+}

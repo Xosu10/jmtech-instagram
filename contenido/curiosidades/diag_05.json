@@ -1,0 +1,81 @@
+{
+ "id": "diag_05",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: no sale sonido",
+ "titulo_pantalla": "Diagnóstico: no sale sonido",
+ "escenas": [
+  {
+   "texto": "Todo funciona, pero no se oye nada.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "SIN SONIDO",
+    "linea2": "Todo en marcha, pero en silencio",
+    "acento": "naranja"
+   }
+  },
+  {
+   "texto": "Suele ser el volumen en silencio, una salida de audio equivocada, o un controlador de audio dañado.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Volumen silenciado o salida equivocada",
+     "Cable o altavoces mal conectados",
+     "Controlador de audio dañado"
+    ]
+   }
+  },
+  {
+   "texto": "Mira el volumen, elige la salida correcta y reinstala el controlador de audio.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Mira el volumen y el mezclador",
+     "Elige la salida de audio correcta",
+     "Actualiza o reinstala el controlador"
+    ]
+   }
+  },
+  {
+   "texto": "Si no suena ni con auriculares y no aparece ningún dispositivo de audio, conviene revisarlo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "Tampoco suena con auriculares",
+     "No aparece ningún dispositivo de audio",
+     "Falló tras una actualización"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: volumen silenciado o salida equivocada, cable o altavoces mal conectados, controlador de audio dañado.",
+  "Prueba: mira el volumen y el mezclador.",
+  "Técnico si: tampoco suena con auriculares."
+ ],
+ "fuentes": [
+  "Microsoft: solucionar problemas de audio en Windows"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#audio"
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "id": "diag_23",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: el móvil no carga",
+ "titulo_pantalla": "Diagnóstico: el móvil no carga",
+ "escenas": [
+  {
+   "texto": "Lo enchufas y la batería no sube.",
+   "imagen": "movil_conector_carga_aislado_01.png"
+  },
+  {
+   "texto": "Lo más frecuente es suciedad en el puerto, un cable dañado, o un conector estropeado.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Suciedad en el puerto de carga",
+     "Cable o cargador dañado",
+     "Batería o conector estropeados"
+    ]
+   }
+  },
+  {
+   "texto": "Prueba otro cable y otro cargador, limpia el puerto con cuidado y reinicia el móvil.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Prueba otro cable y otro cargador",
+     "Limpia el puerto con cuidado",
+     "Reinicia el móvil"
+    ]
+   }
+  },
+  {
+   "texto": "Si el conector se mueve o carga solo en cierta posición, hay que cambiar el conector.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "Carga solo en cierta posición",
+     "El conector se mueve",
+     "Se calienta al enchufarlo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: suciedad en el puerto de carga, cable o cargador dañado, batería o conector estropeados.",
+  "Prueba: prueba otro cable y otro cargador.",
+  "Técnico si: carga solo en cierta posición."
+ ],
+ "fuentes": [
+  "Apple y Google: soporte de carga del móvil"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#movil"
+ ]
+}

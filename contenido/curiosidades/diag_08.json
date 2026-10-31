@@ -1,0 +1,77 @@
+{
+ "id": "diag_08",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: la batería del móvil dura muy poco",
+ "titulo_pantalla": "Diagnóstico: batería del móvil gastada",
+ "escenas": [
+  {
+   "texto": "Antes aguantaba el día entero, y ahora no llega a la tarde.",
+   "imagen": "movil_cambio_bateria_aislado_01.png"
+  },
+  {
+   "texto": "Lo normal es una batería desgastada, aplicaciones muy hambrientas, o el brillo demasiado alto.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Batería desgastada por los años",
+     "Aplicaciones con mucho consumo",
+     "Pantalla con mucho brillo o datos mal ajustados"
+    ]
+   }
+  },
+  {
+   "texto": "Mira el estado de la batería en los ajustes, revisa las aplicaciones que más gastan y baja el brillo.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Mira el estado de la batería en ajustes",
+     "Revisa las apps que más gastan",
+     "Baja el brillo y activa el ahorro"
+    ]
+   }
+  },
+  {
+   "texto": "Si el estado de la batería es muy bajo, lo mejor es cambiarla.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "El estado de la batería es muy bajo",
+     "Se apaga con carga restante",
+     "Se hincha la tapa o la pantalla"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: batería desgastada por los años, aplicaciones con mucho consumo, pantalla con mucho brillo o datos mal ajustados.",
+  "Prueba: mira el estado de la batería en ajustes.",
+  "Técnico si: el estado de la batería es muy bajo."
+ ],
+ "fuentes": [
+  "Apple y Google: salud de la batería",
+  "Wikipedia: Batería de ion de litio"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#bateria"
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "id": "glos_04",
+ "serie": "glosario",
+ "titulo": "¿Qué es HDMI? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es HDMI?",
+ "escenas": [
+  {
+   "texto": "¿Qué es HDMI? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "HDMI",
+    "significado": "Conexión de vídeo y audio digital"
+   }
+  },
+  {
+   "texto": "Es el cable que lleva imagen y sonido a la vez desde un equipo hasta una pantalla o televisión.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "HDMI",
+    "acento": "azul",
+    "puntos": [
+     "Lleva imagen y sonido",
+     "Es el más común en televisores",
+     "Tiene varias versiones"
+    ]
+   }
+  },
+  {
+   "texto": "La versión importa: para jugar a cuatro K y ciento veinte imágenes por segundo necesitas HDMI dos punto uno, tanto en el cable como en los dos aparatos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "HDMI 2.1 para 4K a 120 imágenes",
+     "Cable y puertos deben ser compatibles",
+     "No todos los cables sirven"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Es el cable que lleva imagen y sonido a la vez desde un equipo hasta una pantalla o televisión.",
+  "HDMI 2.1 para 4K a 120 imágenes",
+  "Cable y puertos deben ser compatibles"
+ ],
+ "fuentes": [
+  "Wikipedia: HDMI"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#hdmi"
+ ]
+}

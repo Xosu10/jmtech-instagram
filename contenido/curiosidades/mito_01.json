@@ -1,0 +1,65 @@
+{
+ "id": "mito_01",
+ "serie": "mito",
+ "titulo": "¿Mito o realidad? Cerrar las aplicaciones del móvil ahorra batería",
+ "titulo_pantalla": "¿Mito o realidad?",
+ "escenas": [
+  {
+   "texto": "¿Mito o realidad? Cerrar las aplicaciones del móvil ahorra batería.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Cerrar las aplicaciones del móvil ahorra batería",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es un mito. Los móviles actuales congelan las aplicaciones que no usas, y volver a abrirlas desde cero puede gastar más batería.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Cerrar las aplicaciones del móvil ahorra batería",
+    "revelar": true,
+    "veredicto": "MITO"
+   }
+  },
+  {
+   "texto": "Cierra solo la que falle, y mira en los ajustes qué aplicación gasta más. Lo que más consume es la pantalla.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que debes saber",
+    "titulo": "Las claves",
+    "acento": "azul",
+    "puntos": [
+     "Cierra solo las que fallan",
+     "Lo que más gasta es la pantalla",
+     "Mira en ajustes qué app consume más"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧐",
+ "puntos": [
+  "MITO: Los móviles actuales congelan las aplicaciones que no usas, y volver a abrirlas desde cero puede gastar más batería.",
+  "Cierra solo las que fallan",
+  "Lo que más gasta es la pantalla"
+ ],
+ "fuentes": [
+  "Apple y Google: documentación sobre aplicaciones en segundo plano"
+ ],
+ "hashtags": [
+  "#mitoorealidad",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#movil"
+ ]
+}

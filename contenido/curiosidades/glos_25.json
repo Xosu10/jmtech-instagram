@@ -1,0 +1,65 @@
+{
+ "id": "glos_25",
+ "serie": "glosario",
+ "titulo": "¿Qué es Ancho de banda? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es Ancho de banda?",
+ "escenas": [
+  {
+   "texto": "¿Qué es Ancho de banda? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "Ancho de banda",
+    "significado": "Cuánto cabe por tu conexión"
+   }
+  },
+  {
+   "texto": "Es la cantidad de datos que pueden pasar por tu conexión cada segundo. Es como el número de carriles de una autopista.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "Ancho de banda",
+    "acento": "azul",
+    "puntos": [
+     "Datos por segundo",
+     "Se mide en megabits",
+     "Es como los carriles de una autopista"
+    ]
+   }
+  },
+  {
+   "texto": "Si en tu casa hay muchos aparatos viendo vídeo a la vez, necesitas más. Pero para jugar o ir a una web, importa poco.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Más aparatos, más ancho de banda",
+     "El vídeo en alta calidad gasta mucho",
+     "Jugar online gasta muy poco"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Es la cantidad de datos que pueden pasar por tu conexión cada segundo.",
+  "Más aparatos, más ancho de banda",
+  "El vídeo en alta calidad gasta mucho"
+ ],
+ "fuentes": [
+  "Wikipedia: Ancho de banda"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#anchodebanda"
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "id": "mito_03",
+ "serie": "mito",
+ "titulo": "¿Mito o realidad? Más megapíxeles significa mejor cámara",
+ "titulo_pantalla": "¿Mito o realidad?",
+ "escenas": [
+  {
+   "texto": "¿Mito o realidad? Más megapíxeles significa mejor cámara.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Más megapíxeles significa mejor cámara",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es un mito. Importan más el tamaño del sensor, la calidad de la lente y el procesado de la imagen.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Más megapíxeles significa mejor cámara",
+    "revelar": true,
+    "veredicto": "MITO"
+   }
+  },
+  {
+   "texto": "Fíjate en el sensor, en la lente y en cómo procesa la foto, no solo en los megapíxeles.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que debes saber",
+    "titulo": "Las claves",
+    "acento": "azul",
+    "puntos": [
+     "Tamaño del sensor",
+     "Calidad de la lente",
+     "Procesado de la imagen"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧐",
+ "puntos": [
+  "MITO: Importan más el tamaño del sensor, la calidad de la lente y el procesado de la imagen.",
+  "Tamaño del sensor",
+  "Calidad de la lente"
+ ],
+ "fuentes": [
+  "Wikipedia: Megapíxel",
+  "Wikipedia: Sensor de imagen"
+ ],
+ "hashtags": [
+  "#mitoorealidad",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#camara"
+ ]
+}

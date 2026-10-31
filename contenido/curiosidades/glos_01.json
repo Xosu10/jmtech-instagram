@@ -1,0 +1,66 @@
+{
+ "id": "glos_01",
+ "serie": "glosario",
+ "titulo": "¿Qué es BIOS? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es BIOS?",
+ "escenas": [
+  {
+   "texto": "¿Qué es BIOS? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "BIOS",
+    "significado": "El programa que arranca tu placa base"
+   }
+  },
+  {
+   "texto": "Es un pequeño programa grabado en un chip de la placa base. Al encender el PC, comprueba que todo está en su sitio y arranca el sistema. Hoy se suele llamar UEFI.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "BIOS",
+    "acento": "azul",
+    "puntos": [
+     "Va grabado en la placa base",
+     "Revisa el hardware al encender",
+     "Su versión moderna se llama UEFI"
+    ]
+   }
+  },
+  {
+   "texto": "Desde ahí cambias el orden de arranque, activas la memoria a su velocidad real y compruebas que se detecta todo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Elegir desde qué disco arranca",
+     "Activar los perfiles de la RAM",
+     "Comprobar qué hardware se detecta"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Es un pequeño programa grabado en un chip de la placa base.",
+  "Elegir desde qué disco arranca",
+  "Activar los perfiles de la RAM"
+ ],
+ "fuentes": [
+  "Wikipedia: BIOS",
+  "Wikipedia: UEFI"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#bios"
+ ]
+}

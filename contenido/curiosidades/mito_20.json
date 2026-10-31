@@ -1,0 +1,65 @@
+{
+ "id": "mito_20",
+ "serie": "mito",
+ "titulo": "¿Mito o realidad? Los programas optimizadores aceleran tu PC",
+ "titulo_pantalla": "¿Mito o realidad?",
+ "escenas": [
+  {
+   "texto": "¿Mito o realidad? Los programas optimizadores aceleran tu PC.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Los programas optimizadores aceleran tu PC",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es un mito. La mayoría prometen mucho y hacen poco, y algunos hasta instalan más basura. Casi todo se arregla con limpieza y menos programas al inicio.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Los programas optimizadores aceleran tu PC",
+    "revelar": true,
+    "veredicto": "MITO"
+   }
+  },
+  {
+   "texto": "Desinstala lo que no uses, quita programas del inicio y evita los optimizadores milagrosos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que debes saber",
+    "titulo": "Las claves",
+    "acento": "azul",
+    "puntos": [
+     "Desinstala lo que no uses",
+     "Quita programas del inicio",
+     "Evita los optimizadores milagrosos"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧐",
+ "puntos": [
+  "MITO: La mayoría prometen mucho y hacen poco, y algunos hasta instalan más basura. Casi todo se arregla con limpieza y menos programas al inicio.",
+  "Desinstala lo que no uses",
+  "Quita programas del inicio"
+ ],
+ "fuentes": [
+  "Microsoft: mejorar el rendimiento de Windows"
+ ],
+ "hashtags": [
+  "#mitoorealidad",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#rendimiento"
+ ]
+}

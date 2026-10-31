@@ -1,0 +1,65 @@
+{
+ "id": "glos_05",
+ "serie": "glosario",
+ "titulo": "¿Qué es DisplayPort? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es DisplayPort?",
+ "escenas": [
+  {
+   "texto": "¿Qué es DisplayPort? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "DisplayPort",
+    "significado": "Conexión de vídeo para monitores"
+   }
+  },
+  {
+   "texto": "Es una conexión de vídeo pensada para ordenadores. Admite imágenes de mucha calidad y muchos fotogramas por segundo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "DisplayPort",
+    "acento": "azul",
+    "puntos": [
+     "Pensada para ordenadores",
+     "Muy buena con monitores gaming",
+     "Permite varias pantallas"
+    ]
+   }
+  },
+  {
+   "texto": "Si tu monitor es de alta frecuencia, un cable DisplayPort suele ser la opción más segura para aprovecharla.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Ideal para monitores de 144 Hz o más",
+     "Se puede conectar más de una pantalla",
+     "El cable debe ser de calidad"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Es una conexión de vídeo pensada para ordenadores.",
+  "Ideal para monitores de 144 Hz o más",
+  "Se puede conectar más de una pantalla"
+ ],
+ "fuentes": [
+  "Wikipedia: DisplayPort"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#displayport"
+ ]
+}

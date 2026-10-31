@@ -1,0 +1,65 @@
+{
+ "id": "glos_10",
+ "serie": "glosario",
+ "titulo": "¿Qué es Router? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es Router?",
+ "escenas": [
+  {
+   "texto": "¿Qué es Router? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "Router",
+    "significado": "El aparato que reparte tu internet"
+   }
+  },
+  {
+   "texto": "Es el aparato que conecta tu casa con internet y reparte la conexión entre todos tus dispositivos, por cable o por wifi.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "Router",
+    "acento": "azul",
+    "puntos": [
+     "Conecta tu casa con internet",
+     "Reparte la conexión",
+     "Crea tu red wifi"
+    ]
+   }
+  },
+  {
+   "texto": "Su colocación y su configuración afectan mucho a la cobertura. Mejor en alto, centrado y lejos de aparatos que interfieran.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Colócalo en alto y centrado",
+     "Aléjalo de microondas y metales",
+     "Actualiza su software"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Es el aparato que conecta tu casa con internet y reparte la conexión entre todos tus dispositivos, por cable o por wifi.",
+  "Colócalo en alto y centrado",
+  "Aléjalo de microondas y metales"
+ ],
+ "fuentes": [
+  "Wikipedia: Router"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#router"
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "id": "glos_12",
+ "serie": "glosario",
+ "titulo": "¿Qué es DNS? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es DNS?",
+ "escenas": [
+  {
+   "texto": "¿Qué es DNS? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "DNS",
+    "significado": "La agenda de internet"
+   }
+  },
+  {
+   "texto": "El DNS traduce los nombres de las webs, como google punto com, en las direcciones numéricas que usan los ordenadores.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "DNS",
+    "acento": "azul",
+    "puntos": [
+     "Traduce nombres a números",
+     "Funciona como una agenda",
+     "Lo da tu operador por defecto"
+    ]
+   }
+  },
+  {
+   "texto": "Si va lento o falla, puedes cambiar a otro DNS. A veces arregla webs que no cargan o mejora un poco la velocidad.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Se puede cambiar en el router",
+     "Arregla algunos fallos de carga",
+     "Elige un servicio fiable"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "El DNS traduce los nombres de las webs, como google punto com, en las direcciones numéricas que usan los ordenadores.",
+  "Se puede cambiar en el router",
+  "Arregla algunos fallos de carga"
+ ],
+ "fuentes": [
+  "Wikipedia: Sistema de nombres de dominio"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#dns"
+ ]
+}

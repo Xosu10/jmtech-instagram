@@ -87,12 +87,13 @@
   },
   {
    "fecha": "2026-11-23",
-   "idea": 81,
-   "id": "idea_081",
+   "idea": null,
+   "id": "especial_bf_1",
    "estado": "pendiente",
-   "titulo": "¿Realmente se nota la diferencia entre jugar a 30, 60 y 120 FPS?",
-   "cat": "I",
-   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+   "titulo": "Black Friday: antes de comprar, mira esto",
+   "cat": "S",
+   "serie": "especial",
+   "nota": "Especial Black Friday."
   },
   {
    "fecha": "2026-11-24",
@@ -114,21 +115,23 @@
   },
   {
    "fecha": "2026-11-27",
-   "idea": 91,
-   "id": "idea_091",
+   "idea": null,
+   "id": "especial_bf_2",
    "estado": "pendiente",
-   "titulo": "¿Por qué los GTA tienen emisoras de radio y anuncios inventados?",
-   "cat": "J",
-   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+   "titulo": "Black Friday en JM TECH: precios especiales",
+   "cat": "S",
+   "serie": "especial",
+   "nota": "Especial Black Friday."
   },
   {
    "fecha": "2026-11-30",
-   "idea": 41,
-   "id": "idea_041",
+   "idea": null,
+   "id": "especial_bf_3",
    "estado": "pendiente",
-   "titulo": "¿Por qué la inteligencia artificial está encareciendo la memoria RAM? (incluye la 42: SSD)",
-   "cat": "E",
-   "nota": "Datos que cambian: se verifican justo antes de montar el vídeo."
+   "titulo": "Cyber Monday en JM TECH: todavía estás a tiempo",
+   "cat": "S",
+   "serie": "especial",
+   "nota": "Especial Black Friday."
   },
   {
    "fecha": "2026-12-02",
@@ -1318,6 +1321,33 @@
    "titulo": "¿Qué hacen los NPC cuando no los estás mirando?",
    "cat": "H",
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-09-03",
+   "idea": 81,
+   "id": "idea_081",
+   "estado": "pendiente",
+   "titulo": "¿Realmente se nota la diferencia entre jugar a 30, 60 y 120 FPS?",
+   "cat": "I",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-09-06",
+   "idea": 91,
+   "id": "idea_091",
+   "estado": "pendiente",
+   "titulo": "¿Por qué los GTA tienen emisoras de radio y anuncios inventados?",
+   "cat": "J",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-09-08",
+   "idea": 41,
+   "id": "idea_041",
+   "estado": "pendiente",
+   "titulo": "¿Por qué la inteligencia artificial está encareciendo la memoria RAM? (incluye la 42: SSD)",
+   "cat": "E",
+   "nota": "Datos que cambian: se verifican justo antes de montar el vídeo."
   },
   {
    "fecha": "2027-09-14",

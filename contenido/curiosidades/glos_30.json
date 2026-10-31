@@ -1,0 +1,66 @@
+{
+ "id": "glos_30",
+ "serie": "glosario",
+ "titulo": "¿Qué es Malware? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es Malware?",
+ "escenas": [
+  {
+   "texto": "¿Qué es Malware? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "Malware",
+    "significado": "Software malicioso"
+   }
+  },
+  {
+   "texto": "Malware es cualquier programa hecho para causar daño o espiar: virus, troyanos, programas espía o ransomware.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "Malware",
+    "acento": "azul",
+    "puntos": [
+     "Virus y troyanos",
+     "Programas espía",
+     "Ransomware"
+    ]
+   }
+  },
+  {
+   "texto": "Llega por correos, descargas y anuncios. Evita programas de origen dudoso, mantén todo actualizado y haz copias de seguridad.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Descarga de fuentes oficiales",
+     "Mantén todo actualizado",
+     "Haz copias de seguridad"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Malware es cualquier programa hecho para causar daño o espiar: virus, troyanos, programas espía o ransomware.",
+  "Descarga de fuentes oficiales",
+  "Mantén todo actualizado"
+ ],
+ "fuentes": [
+  "INCIBE: malware",
+  "Wikipedia: Malware"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#malware"
+ ]
+}

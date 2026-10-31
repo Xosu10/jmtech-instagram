@@ -1,0 +1,65 @@
+{
+ "id": "glos_07",
+ "serie": "glosario",
+ "titulo": "¿Qué es Thunderbolt? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es Thunderbolt?",
+ "escenas": [
+  {
+   "texto": "¿Qué es Thunderbolt? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "Thunderbolt",
+    "significado": "Conexión de alta velocidad sobre USB-C"
+   }
+  },
+  {
+   "texto": "Es una conexión muy rápida que usa el mismo conector que el USB-C. Sirve para datos, vídeo y carga, todo por un solo cable.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "Thunderbolt",
+    "acento": "azul",
+    "puntos": [
+     "Mucho más rápida que un USB normal",
+     "Usa el conector USB-C",
+     "Sirve para datos, vídeo y carga"
+    ]
+   }
+  },
+  {
+   "texto": "Se usa en discos externos rápidos, monitores y estaciones de trabajo. Si no los tienes, probablemente no la necesitas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Discos externos muy rápidos",
+     "Monitores y docks",
+     "Para el uso normal, no hace falta"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Es una conexión muy rápida que usa el mismo conector que el USB-C.",
+  "Discos externos muy rápidos",
+  "Monitores y docks"
+ ],
+ "fuentes": [
+  "Wikipedia: Thunderbolt (interfaz)"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#thunderbolt"
+ ]
+}

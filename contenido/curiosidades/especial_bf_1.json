@@ -1,0 +1,70 @@
+{
+ "id": "especial_bf_1",
+ "serie": "especial",
+ "titulo": "Black Friday: antes de comprar, mira esto",
+ "titulo_pantalla": "Black Friday: antes de comprar",
+ "emoji": "🛒",
+ "cierre_lineas": [
+  "Black Friday en JM TECH",
+  "Precios especiales el viernes"
+ ],
+ "hashtags": [
+  "#blackfriday",
+  "#ciberlunes",
+  "#informatica",
+  "#pcgamer",
+  "#murcia",
+  "#jmtech"
+ ],
+ "escenas": [
+  {
+   "texto": "Se acerca el Black Friday. Antes de comprar nada, hay un truco que te puede ahorrar dinero.",
+   "imagen": "pc_premium_rgb_negro_ambiente_01.png"
+  },
+  {
+   "texto": "Pregúntate si tu equipo necesita una pieza nueva, o solo una puesta a punto. Muchas veces, una limpieza o un SSD le dan años de vida.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Antes de comprar",
+    "titulo": "¿Pieza nueva o puesta a punto?",
+    "acento": "naranja",
+    "puntos": [
+     "Una limpieza a fondo",
+     "Cambiar el disco por un SSD",
+     "Ampliar la memoria"
+    ]
+   }
+  },
+  {
+   "texto": "Y cuidado con los chollos falsos: compara el precio real, desconfía de las webs desconocidas y comprueba que la pieza sea compatible.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Ojo",
+    "titulo": "Chollos que no lo son",
+    "acento": "azul",
+    "puntos": [
+     "Compara el precio real",
+     "Desconfía de webs desconocidas",
+     "Comprueba la compatibilidad"
+    ]
+   }
+  },
+  {
+   "texto": "Y el viernes, en JM TECH tendremos precios especiales en servicios seleccionados. Estate atento.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "VIERNES 27",
+    "linea2": "Precios especiales en JM TECH",
+    "acento": "naranja"
+   }
+  },
+  {
+   "texto": "¿Dudas antes de comprar? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "descripcion": "🛒 Se acerca el Black Friday. Antes de comprar nada:\n\n• ¿Tu equipo necesita una pieza nueva o solo una puesta a punto? A veces una limpieza o un SSD le dan años de vida.\n• Cuidado con los chollos falsos: compara el precio real, desconfía de webs desconocidas y comprueba la compatibilidad.\n\n🔥 El viernes 27, precios especiales en servicios seleccionados de JM TECH. ¡Estate atento!\n\n🧩 No vendemos hardware: te asesoramos sobre qué comprar y lo instalamos.\n📩 Escríbenos por MD y te decimos el precio especial. 📍 Servicio solo en Murcia: a domicilio, en tu casa o en nuestro taller.",
+ "fuentes": [
+  "Recomendaciones generales de compra segura (OCU y FACUA)"
+ ]
+}

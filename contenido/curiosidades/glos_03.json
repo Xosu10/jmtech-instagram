@@ -1,0 +1,66 @@
+{
+ "id": "glos_03",
+ "serie": "glosario",
+ "titulo": "¿Qué es VPN? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es VPN?",
+ "escenas": [
+  {
+   "texto": "¿Qué es VPN? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "VPN",
+    "significado": "Red privada virtual"
+   }
+  },
+  {
+   "texto": "Una VPN cifra tu conexión y la hace pasar por un servidor intermedio, de modo que los demás ven el servidor y no tu dirección.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "VPN",
+    "acento": "azul",
+    "puntos": [
+     "Cifra tu conexión",
+     "Pasa por un servidor intermedio",
+     "Cambia la dirección que ven los demás"
+    ]
+   }
+  },
+  {
+   "texto": "Sirve para estar más protegido en un wifi público o conectarte a la red de tu empresa. Pero no te hace invisible ni anónimo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Útil en wifis públicas",
+     "Conecta con la red de la empresa",
+     "No te hace anónimo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Una VPN cifra tu conexión y la hace pasar por un servidor intermedio, de modo que los demás ven el servidor y no tu dirección.",
+  "Útil en wifis públicas",
+  "Conecta con la red de la empresa"
+ ],
+ "fuentes": [
+  "Wikipedia: Red privada virtual",
+  "INCIBE: qué es una VPN"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#vpn"
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "id": "diag_03",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: el portátil se calienta mucho",
+ "titulo_pantalla": "Diagnóstico: portátil muy caliente",
+ "escenas": [
+  {
+   "texto": "El portátil quema y hace ruido sin parar.",
+   "imagen": "portatil_polvo_aislado_01.png"
+  },
+  {
+   "texto": "Lo más habitual es polvo en las rejillas, pasta térmica seca, o demasiados programas abiertos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Polvo en rejillas y ventilador",
+     "Pasta térmica seca",
+     "Demasiados programas en segundo plano"
+    ]
+   }
+  },
+  {
+   "texto": "Úsalo sobre una superficie dura, limpia las rejillas por fuera y cierra lo que no uses.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Úsalo sobre una superficie dura",
+     "Limpia las rejillas por fuera",
+     "Cierra programas que no uses"
+    ]
+   }
+  },
+  {
+   "texto": "Si se apaga solo o sigue igual, hay que abrirlo y limpiarlo por dentro.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "Se apaga solo por el calor",
+     "Sigue muy caliente tras limpiar",
+     "El ventilador hace ruidos raros"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: polvo en rejillas y ventilador, pasta térmica seca, demasiados programas en segundo plano.",
+  "Prueba: úsalo sobre una superficie dura.",
+  "Técnico si: se apaga solo por el calor."
+ ],
+ "fuentes": [
+  "Corsair: temperaturas y refrigeración",
+  "Wikipedia: Refrigeración de computadoras"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#portatil"
+ ]
+}

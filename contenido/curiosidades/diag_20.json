@@ -1,0 +1,77 @@
+{
+ "id": "diag_20",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: el PC se cuelga al jugar",
+ "titulo_pantalla": "Diagnóstico: el PC se cuelga jugando",
+ "escenas": [
+  {
+   "texto": "En plena partida, la imagen se congela.",
+   "imagen": "pc_se_apaga_calor_aislado_01.png"
+  },
+  {
+   "texto": "Lo habitual es calor, controladores desactualizados, o la RAM o la fuente con fallos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Calor en la gráfica o el procesador",
+     "Controladores desactualizados",
+     "Memoria RAM o fuente con problemas"
+    ]
+   }
+  },
+  {
+   "texto": "Vigila las temperaturas, actualiza los controladores de la gráfica y prueba la RAM.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Vigila las temperaturas",
+     "Actualiza los controladores de la gráfica",
+     "Prueba la RAM con la herramienta de Windows"
+    ]
+   }
+  },
+  {
+   "texto": "Si pasa en todos los juegos o salta un pantallazo azul, hay que diagnosticarlo a fondo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "Pasa en todos los juegos",
+     "Aparece un pantallazo azul",
+     "Las temperaturas son muy altas"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: calor en la gráfica o el procesador, controladores desactualizados, memoria ram o fuente con problemas.",
+  "Prueba: vigila las temperaturas.",
+  "Técnico si: pasa en todos los juegos."
+ ],
+ "fuentes": [
+  "Wikipedia: Estrangulamiento térmico",
+  "NVIDIA: guía de solución de cuelgues"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#gaming"
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "id": "diag_13",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: el ventilador va siempre a tope",
+ "titulo_pantalla": "Diagnóstico: ventilador siempre a tope",
+ "escenas": [
+  {
+   "texto": "El ventilador suena como un avión aunque no hagas nada.",
+   "imagen": "ventilador_ruido_aislado_01.png"
+  },
+  {
+   "texto": "Casi siempre es polvo, programas trabajando en segundo plano, o pasta térmica seca.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Polvo acumulado",
+     "Procesos en segundo plano",
+     "Pasta térmica seca"
+    ]
+   }
+  },
+  {
+   "texto": "Mira qué programa gasta más, limpia las rejillas y revisa la temperatura del procesador.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Mira qué programa gasta más",
+     "Limpia las rejillas y el polvo",
+     "Revisa la temperatura"
+    ]
+   }
+  },
+  {
+   "texto": "Si la temperatura sigue alta tras limpiar, toca revisar la refrigeración y la pasta.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "La temperatura sigue muy alta",
+     "El ventilador vibra o chirría",
+     "Se apaga por el calor"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: polvo acumulado, procesos en segundo plano, pasta térmica seca.",
+  "Prueba: mira qué programa gasta más.",
+  "Técnico si: la temperatura sigue muy alta."
+ ],
+ "fuentes": [
+  "Corsair: por qué hace ruido un PC"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#ventiladores"
+ ]
+}

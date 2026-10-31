@@ -1,0 +1,66 @@
+{
+ "id": "glos_28",
+ "serie": "glosario",
+ "titulo": "¿Qué es Cifrado? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es Cifrado?",
+ "escenas": [
+  {
+   "texto": "¿Qué es Cifrado? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "Cifrado",
+    "significado": "Datos ilegibles sin la clave"
+   }
+  },
+  {
+   "texto": "Es una técnica que convierte los datos en algo ilegible para quien no tenga la clave. Sirve para proteger mensajes, archivos y conexiones.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "Cifrado",
+    "acento": "azul",
+    "puntos": [
+     "Convierte datos en ilegibles",
+     "Solo se leen con la clave",
+     "Protege mensajes y archivos"
+    ]
+   }
+  },
+  {
+   "texto": "El candado de la web, los mensajes cifrados y el cifrado del disco lo usan. Si pierdes la clave, puedes perder los datos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "El candado de las webs",
+     "Mensajería segura",
+     "Cifrado del disco: guarda la clave"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Es una técnica que convierte los datos en algo ilegible para quien no tenga la clave.",
+  "El candado de las webs",
+  "Mensajería segura"
+ ],
+ "fuentes": [
+  "Wikipedia: Cifrado",
+  "Microsoft: cifrado de dispositivos"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#cifrado"
+ ]
+}

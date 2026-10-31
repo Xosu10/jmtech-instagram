@@ -1,0 +1,76 @@
+{
+ "id": "diag_12",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: el PC tarda mucho en apagarse",
+ "titulo_pantalla": "Diagnóstico: el PC tarda en apagarse",
+ "escenas": [
+  {
+   "texto": "Das a apagar y pasan minutos hasta que se apaga.",
+   "imagen": "arranque_lento_aislado_01.png"
+  },
+  {
+   "texto": "Suelen ser programas que no se cierran, actualizaciones pendientes, o un disco lento.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Programas que no se cierran",
+     "Actualizaciones pendientes",
+     "Disco lento o con errores"
+    ]
+   }
+  },
+  {
+   "texto": "Guarda y cierra todo antes de apagar, instala las actualizaciones pendientes y reinicia.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Guarda y cierra todo antes de apagar",
+     "Instala las actualizaciones pendientes",
+     "Reinicia en lugar de apagar"
+    ]
+   }
+  },
+  {
+   "texto": "Si siempre tienes que forzar el apagado, puede haber un fallo del sistema o del disco.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "Se queda colgado sin apagarse",
+     "Lo fuerzas con el botón cada vez",
+     "Aparecen errores al apagar"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: programas que no se cierran, actualizaciones pendientes, disco lento o con errores.",
+  "Prueba: guarda y cierra todo antes de apagar.",
+  "Técnico si: se queda colgado sin apagarse."
+ ],
+ "fuentes": [
+  "Microsoft: solucionar problemas al apagar Windows"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#windows"
+ ]
+}

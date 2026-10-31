@@ -1,0 +1,66 @@
+{
+ "id": "glos_09",
+ "serie": "glosario",
+ "titulo": "¿Qué es Firewall? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es Firewall?",
+ "escenas": [
+  {
+   "texto": "¿Qué es Firewall? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "Firewall",
+    "significado": "Cortafuegos"
+   }
+  },
+  {
+   "texto": "Es un filtro que controla qué conexiones pueden entrar y salir de tu equipo o de tu red. Bloquea las sospechosas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "Firewall",
+    "acento": "azul",
+    "puntos": [
+     "Filtra las conexiones",
+     "Puede estar en el equipo o en el router",
+     "Bloquea lo sospechoso"
+    ]
+   }
+  },
+  {
+   "texto": "Windows ya trae uno activado. Conviene dejarlo encendido, y solo permitir programas que conozcas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Déjalo siempre activado",
+     "Permite solo programas conocidos",
+     "Revisa las excepciones de vez en cuando"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Es un filtro que controla qué conexiones pueden entrar y salir de tu equipo o de tu red.",
+  "Déjalo siempre activado",
+  "Permite solo programas conocidos"
+ ],
+ "fuentes": [
+  "Wikipedia: Cortafuegos (informática)",
+  "Microsoft: firewall de Windows"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#firewall"
+ ]
+}

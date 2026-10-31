@@ -1,0 +1,81 @@
+{
+ "id": "diag_11",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: el teclado escribe letras raras",
+ "titulo_pantalla": "Diagnóstico: el teclado escribe cosas raras",
+ "escenas": [
+  {
+   "texto": "Pulsas una tecla y sale otro símbolo.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "TECLADO",
+    "linea2": "Escribe símbolos que no son",
+    "acento": "naranja"
+   }
+  },
+  {
+   "texto": "Casi siempre es el idioma del teclado, una tecla especial activa, o suciedad debajo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Idioma o distribución de teclado equivocados",
+     "Bloqueo numérico o teclas especiales activas",
+     "Suciedad bajo las teclas"
+    ]
+   }
+  },
+  {
+   "texto": "Cambia la distribución de teclado en el sistema, revisa las teclas especiales y limpia con aire.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Cambia la distribución en el sistema",
+     "Pulsa Bloq Num y la tecla de función",
+     "Limpia las teclas con aire"
+    ]
+   }
+  },
+  {
+   "texto": "Si hay teclas que no responden o se derramó líquido, mejor que lo revise un técnico.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "Teclas que no responden en absoluto",
+     "Derrame de líquido",
+     "Falla en todas las aplicaciones y en la BIOS"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: idioma o distribución de teclado equivocados, bloqueo numérico o teclas especiales activas, suciedad bajo las teclas.",
+  "Prueba: cambia la distribución en el sistema.",
+  "Técnico si: teclas que no responden en absoluto."
+ ],
+ "fuentes": [
+  "Microsoft: cambiar la distribución del teclado"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#teclado"
+ ]
+}

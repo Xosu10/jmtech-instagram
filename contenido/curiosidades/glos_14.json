@@ -1,0 +1,66 @@
+{
+ "id": "glos_14",
+ "serie": "glosario",
+ "titulo": "¿Qué es Ransomware? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es Ransomware?",
+ "escenas": [
+  {
+   "texto": "¿Qué es Ransomware? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "Ransomware",
+    "significado": "El virus que secuestra tus archivos"
+   }
+  },
+  {
+   "texto": "Es un programa malicioso que cifra tus archivos y te pide un rescate para devolvértelos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "Ransomware",
+    "acento": "azul",
+    "puntos": [
+     "Cifra tus archivos",
+     "Pide un pago para recuperarlos",
+     "Llega por correos o descargas"
+    ]
+   }
+  },
+  {
+   "texto": "La mejor defensa es tener copia de seguridad fuera del equipo y mantener todo actualizado. Pagar no asegura recuperar nada.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Copia de seguridad fuera del equipo",
+     "Sistema y programas al día",
+     "Pagar no asegura nada"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Es un programa malicioso que cifra tus archivos y te pide un rescate para devolvértelos.",
+  "Copia de seguridad fuera del equipo",
+  "Sistema y programas al día"
+ ],
+ "fuentes": [
+  "INCIBE: ransomware",
+  "Wikipedia: Ransomware"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#ransomware"
+ ]
+}

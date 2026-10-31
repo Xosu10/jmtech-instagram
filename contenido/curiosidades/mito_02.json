@@ -1,0 +1,66 @@
+{
+ "id": "mito_02",
+ "serie": "mito",
+ "titulo": "¿Mito o realidad? Los Mac no tienen virus",
+ "titulo_pantalla": "¿Mito o realidad?",
+ "escenas": [
+  {
+   "texto": "¿Mito o realidad? Los Mac no tienen virus.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Los Mac no tienen virus",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es un mito. Tienen menos, pero existen: el malware para Mac existe, y los engaños para robar datos funcionan en cualquier equipo.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Los Mac no tienen virus",
+    "revelar": true,
+    "veredicto": "MITO"
+   }
+  },
+  {
+   "texto": "Menos virus no es ningún virus: mantén el sistema al día y desconfía de los enlaces y los programas dudosos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que debes saber",
+    "titulo": "Las claves",
+    "acento": "azul",
+    "puntos": [
+     "Menos virus no es ninguno",
+     "El engaño afecta a todos los sistemas",
+     "Mantén el sistema actualizado"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧐",
+ "puntos": [
+  "MITO: Tienen menos, pero existen: el malware para Mac existe, y los engaños para robar datos funcionan en cualquier equipo.",
+  "Menos virus no es ninguno",
+  "El engaño afecta a todos los sistemas"
+ ],
+ "fuentes": [
+  "Apple: seguridad de macOS",
+  "Wikipedia: Malware"
+ ],
+ "hashtags": [
+  "#mitoorealidad",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#mac"
+ ]
+}

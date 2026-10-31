@@ -1,0 +1,81 @@
+{
+ "id": "diag_19",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: la imagen se ve borrosa en el monitor o la tele",
+ "titulo_pantalla": "Diagnóstico: imagen borrosa",
+ "escenas": [
+  {
+   "texto": "La pantalla se ve borrosa, aunque no sea tu vista.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "IMAGEN BORROSA",
+    "linea2": "En el monitor o en la tele",
+    "acento": "naranja"
+   }
+  },
+  {
+   "texto": "Casi siempre es una resolución mal configurada, un cable inadecuado, o el escalado de Windows.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Resolución mal configurada",
+     "Cable o puerto inadecuado",
+     "Escalado de Windows"
+    ]
+   }
+  },
+  {
+   "texto": "Pon la resolución recomendada, cambia de cable o de puerto, y ajusta el escalado.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Pon la resolución recomendada",
+     "Cambia de cable o de puerto",
+     "Ajusta el escalado en Windows"
+    ]
+   }
+  },
+  {
+   "texto": "Si sigue igual con otro cable y en otro equipo, el problema es de la pantalla.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "Sigue borrosa con otro cable",
+     "Hay manchas o líneas fijas",
+     "Falla en otro equipo también"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: resolución mal configurada, cable o puerto inadecuado, escalado de windows.",
+  "Prueba: pon la resolución recomendada.",
+  "Técnico si: sigue borrosa con otro cable."
+ ],
+ "fuentes": [
+  "Microsoft: cambiar la resolución de pantalla"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#monitor"
+ ]
+}

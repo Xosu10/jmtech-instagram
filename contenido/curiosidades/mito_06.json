@@ -1,0 +1,66 @@
+{
+ "id": "mito_06",
+ "serie": "mito",
+ "titulo": "¿Mito o realidad? Los cargadores que no son originales siempre estropean el móvil",
+ "titulo_pantalla": "¿Mito o realidad?",
+ "escenas": [
+  {
+   "texto": "¿Mito o realidad? Los cargadores que no son originales siempre estropean el móvil.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Los cargadores que no son originales siempre estropean el móvil",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es verdad a medias. Uno de calidad y certificado funciona bien, pero los muy baratos y sin certificar pueden dañar la batería o ser peligrosos.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Los cargadores que no son originales siempre estropean el móvil",
+    "revelar": true,
+    "veredicto": "A MEDIAS"
+   }
+  },
+  {
+   "texto": "Busca marcas fiables con certificación, desconfía de los extremadamente baratos y usa la potencia adecuada.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que debes saber",
+    "titulo": "Las claves",
+    "acento": "azul",
+    "puntos": [
+     "Marcas fiables y certificación CE",
+     "Desconfía de los muy baratos",
+     "Usa la potencia adecuada"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧐",
+ "puntos": [
+  "A MEDIAS: Uno de calidad y certificado funciona bien, pero los muy baratos y sin certificar pueden dañar la batería o ser peligrosos.",
+  "Marcas fiables y certificación CE",
+  "Desconfía de los muy baratos"
+ ],
+ "fuentes": [
+  "Wikipedia: Cargador de batería",
+  "Wikipedia: Marcado CE"
+ ],
+ "hashtags": [
+  "#mitoorealidad",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#cargador"
+ ]
+}

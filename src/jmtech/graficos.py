@@ -470,7 +470,71 @@ def _rotulo(t, dur, params):
     return _salida(im)
 
 
-TIPOS = ("flujo", "barras", "tarjeta", "resumen", "pasos", "dato", "mito", "linea", "comparar", "bits", "terminal", "rotulo")
+def _veredicto(t, dur, params):
+    """«¿Mito o realidad?»: la afirmación y, al revelarla, un sello grande con el veredicto."""
+    p = t / max(dur, 0.01)
+    im, d = _lienzo()
+    colores = {"MITO": ROJO, "REALIDAD": BLUE, "A MEDIAS": NARANJA}
+    _texto(d, (ANCHO / 2, 55), "¿MITO O REALIDAD?", font("Bold", 52), NARANJA, 1.0)
+    _tarjeta_base(d, 20, 110, 920, 340, (90, 110, 160), 1.0)
+    _texto_multilinea(d, ANCHO / 2, 225, "«" + params["afirmacion"] + "»", font("Bold", 40), BLANCO, _paso(p, 0.0, 0.2), 820, 52, "mm")
+    if not params.get("revelar"):
+        pulso = 0.55 + 0.45 * math.sin(t * 5)
+        _texto(d, (ANCHO / 2, 440), "?", font("Bold", 190), NARANJA, pulso)
+        return _salida(im)
+    veredicto = params["veredicto"]
+    color = colores.get(veredicto, BLUE)
+    a = _paso(p, 0.05, 0.35)
+    esc = 1.0 + 0.9 * (1 - a)
+    sello = Image.new("RGBA", (ANCHO * S, 240 * S), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(sello, "RGBA")
+    f = _ajustar(veredicto, "Bold", 96, 640)
+    ancho = int(f.getlength(veredicto) / S) + 110
+    sd.rounded_rectangle([(ANCHO - ancho) / 2 * S, 20 * S, (ANCHO + ancho) / 2 * S, 220 * S], 30 * S, fill=(8, 14, 30, 235), outline=color + (255,), width=10 * S)
+    sd.text((ANCHO / 2 * S, 120 * S), veredicto, font=f, fill=color + (255,), anchor="mm")
+    sello = sello.resize((ANCHO, 240), Image.LANCZOS).rotate(-5, resample=Image.BICUBIC, expand=False)
+    if esc > 1.001:
+        sello = sello.resize((int(ANCHO * esc), int(240 * esc)), Image.LANCZOS)
+    x, y = (ANCHO - sello.width) // 2, 440 - sello.height // 2
+    base = im.resize((ANCHO, ALTO), Image.LANCZOS)
+    capa = Image.new("RGBA", base.size, (0, 0, 0, 0))
+    capa.alpha_composite(sello.convert("RGBA"), (max(x, 0), max(y, 0))) if x >= 0 and y >= 0 else capa.alpha_composite(sello.crop((-min(x, 0), -min(y, 0), sello.width, sello.height)), (max(x, 0), max(y, 0)))
+    alfa = capa.getchannel("A").point(lambda v: int(v * a))
+    capa.putalpha(alfa)
+    base.alpha_composite(capa)
+    return base
+
+
+def _cuenta(t, dur, params):
+    """Cuenta atrás 3, 2, 1 con un anillo que se cierra."""
+    p = min(max(t / max(dur, 0.01), 0), 0.999)
+    im, d = _lienzo()
+    n = 3 - int(p * 3)
+    local = (p * 3) % 1.0
+    a = 1 - local ** 3
+    _texto(d, (ANCHO / 2, 262), str(n), font("Bold", int(300 + 60 * (1 - local))), NARANJA, a)
+    d.arc([(ANCHO / 2 - 190) * S, 90 * S, (ANCHO / 2 + 190) * S, 470 * S], -90, -90 + 360 * (1 - local), fill=(255, 255, 255, 200), width=12 * S)
+    return _salida(im)
+
+
+def _termino(t, dur, params):
+    """Palabra del glosario en grande, con su significado debajo."""
+    p = t / max(dur, 0.01)
+    im, d = _lienzo()
+    acento = ACENTOS.get(params.get("acento", "azul"), BLUE)
+    a = _paso(p, 0.03, 0.25)
+    _tarjeta_base(d, 20, 20, 920, 540, acento, 1.0)
+    _texto(d, (ANCHO / 2, 110), "GLOSARIO EN 30 SEGUNDOS", font("Medium", 28), acento, 1.0)
+    f = _ajustar(params["termino"], "Bold", 150, 840)
+    _texto(d, (ANCHO / 2, 270 + 16 * (1 - a)), params["termino"], f, BLANCO, a)
+    _linea(d, [(ANCHO / 2 - 90, 370), (ANCHO / 2 + 90 * _paso(p, 0.1, 0.4), 370)], acento, 8)
+    if params.get("significado"):
+        _texto_multilinea(d, ANCHO / 2, 450, params["significado"], font("Medium", 36), (190, 205, 235), _paso(p, 0.2, 0.45), 820, 46, "mm")
+    return _salida(im)
+
+
+TIPOS = ("flujo", "barras", "tarjeta", "resumen", "pasos", "dato", "mito", "linea", "comparar", "bits", "terminal", "rotulo",
+         "veredicto", "cuenta", "termino")
 
 
 def grafico(tipo, params, t, dur):
@@ -498,4 +562,10 @@ def grafico(tipo, params, t, dur):
         return _terminal(t, dur, params)
     if tipo == "rotulo":
         return _rotulo(t, dur, params)
+    if tipo == "veredicto":
+        return _veredicto(t, dur, params)
+    if tipo == "cuenta":
+        return _cuenta(t, dur, params)
+    if tipo == "termino":
+        return _termino(t, dur, params)
     raise ValueError(f"Tipo de gráfico desconocido: {tipo}")

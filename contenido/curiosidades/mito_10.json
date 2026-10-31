@@ -1,0 +1,65 @@
+{
+ "id": "mito_10",
+ "serie": "mito",
+ "titulo": "¿Mito o realidad? Los antivirus de pago siempre protegen mejor que el de Windows",
+ "titulo_pantalla": "¿Mito o realidad?",
+ "escenas": [
+  {
+   "texto": "¿Mito o realidad? Los antivirus de pago siempre protegen mejor que el de Windows.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Los antivirus de pago siempre protegen mejor que el de Windows",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es verdad a medias. Para la mayoría de usuarios, el de Windows basta con buenos hábitos. Los de pago añaden extras, pero no son imprescindibles.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Los antivirus de pago siempre protegen mejor que el de Windows",
+    "revelar": true,
+    "veredicto": "A MEDIAS"
+   }
+  },
+  {
+   "texto": "Mantén Windows actualizado, cuidado con los enlaces y adjuntos, y valora extras solo si los necesitas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que debes saber",
+    "titulo": "Las claves",
+    "acento": "azul",
+    "puntos": [
+     "Mantén Windows actualizado",
+     "Cuidado con enlaces y adjuntos",
+     "Extras solo si los necesitas"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧐",
+ "puntos": [
+  "A MEDIAS: Para la mayoría de usuarios, el de Windows basta con buenos hábitos. Los de pago añaden extras, pero no son imprescindibles.",
+  "Mantén Windows actualizado",
+  "Cuidado con enlaces y adjuntos"
+ ],
+ "fuentes": [
+  "Microsoft: seguridad de Windows y Defender"
+ ],
+ "hashtags": [
+  "#mitoorealidad",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#antivirus"
+ ]
+}

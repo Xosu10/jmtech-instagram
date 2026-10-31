@@ -1,0 +1,66 @@
+{
+ "id": "glos_15",
+ "serie": "glosario",
+ "titulo": "¿Qué es Cookies? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es Cookies?",
+ "escenas": [
+  {
+   "texto": "¿Qué es Cookies? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "Cookies",
+    "significado": "Pequeños archivos de las webs"
+   }
+  },
+  {
+   "texto": "Son pequeños archivos que una web guarda en tu navegador. Sirven para recordarte, mantener tu sesión o personalizar anuncios.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "Cookies",
+    "acento": "azul",
+    "puntos": [
+     "Las guarda tu navegador",
+     "Recuerdan tu sesión",
+     "Algunas sirven para publicidad"
+    ]
+   }
+  },
+  {
+   "texto": "Por eso las webs te piden permiso. Puedes aceptar solo las necesarias y borrarlas cuando quieras desde el navegador.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Acepta solo las necesarias",
+     "Bórralas desde el navegador",
+     "Revisa los permisos de cada web"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Son pequeños archivos que una web guarda en tu navegador.",
+  "Acepta solo las necesarias",
+  "Bórralas desde el navegador"
+ ],
+ "fuentes": [
+  "Wikipedia: Cookie (informática)",
+  "AEPD: guía sobre cookies"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#cookies"
+ ]
+}

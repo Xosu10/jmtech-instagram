@@ -1,0 +1,77 @@
+{
+ "id": "diag_01",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: mi PC no enciende",
+ "titulo_pantalla": "Diagnóstico: el PC no enciende",
+ "escenas": [
+  {
+   "texto": "Pulsas el botón y no pasa nada. Vamos a ver qué puede ser.",
+   "imagen": "boton_encendido_aislado_01.png"
+  },
+  {
+   "texto": "Casi siempre es falta de corriente, una fuente averiada, o un fallo de la RAM o de la placa.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Sin corriente en el cable o la regleta",
+     "Fuente de alimentación averiada",
+     "RAM o placa base con fallo"
+    ]
+   }
+  },
+  {
+   "texto": "Prueba otra toma y otro cable, comprueba el interruptor de la fuente, y desconecta todo menos lo básico.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Prueba otra toma y otro cable",
+     "Mira el interruptor de la fuente",
+     "Desconecta todo menos lo básico"
+    ]
+   }
+  },
+  {
+   "texto": "Si huele a quemado, salta el térmico o sigue sin dar señales de vida, deja de probar.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "Huele a quemado o salta el térmico",
+     "Hace clic y no arranca",
+     "Sigue sin dar señales de vida"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: sin corriente en el cable o la regleta, fuente de alimentación averiada, ram o placa base con fallo.",
+  "Prueba: prueba otra toma y otro cable.",
+  "Técnico si: huele a quemado o salta el térmico."
+ ],
+ "fuentes": [
+  "Microsoft: solucionar problemas de arranque del PC",
+  "Wikipedia: Fuente de alimentación"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#pc"
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "id": "especial_bf_3",
+ "serie": "especial",
+ "titulo": "Cyber Monday en JM TECH: todavía estás a tiempo",
+ "titulo_pantalla": "Cyber Monday en JM TECH",
+ "emoji": "💻",
+ "cierre_lineas": [
+  "Cyber Monday en JM TECH",
+  "Todavía estás a tiempo"
+ ],
+ "hashtags": [
+  "#blackfriday",
+  "#ciberlunes",
+  "#informatica",
+  "#pcgamer",
+  "#murcia",
+  "#jmtech"
+ ],
+ "escenas": [
+  {
+   "texto": "Hoy es Cyber Monday, y todavía estás a tiempo de aprovechar nuestros precios especiales.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "CYBER MONDAY",
+    "linea2": "Todavía estás a tiempo",
+    "acento": "naranja"
+   }
+  },
+  {
+   "texto": "Si has comprado una pieza este fin de semana, te la instalamos. Comprobamos que es compatible, y dejamos tu equipo a punto.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Si ya has comprado",
+    "titulo": "Nos encargamos de todo",
+    "acento": "azul",
+    "puntos": [
+     "Instalamos la pieza",
+     "Comprobamos la compatibilidad",
+     "Dejamos tu equipo a punto"
+    ]
+   }
+  },
+  {
+   "texto": "Y si todavía dudas qué comprar, te asesoramos para que no pagues por lo que no necesitas.",
+   "imagen": "empresa_asesoramiento_comparativa_aislado_01.png"
+  },
+  {
+   "texto": "Cyber Monday en JM TECH. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "descripcion": "💻 CYBER MONDAY en JM TECH: todavía estás a tiempo de aprovechar nuestros precios especiales en servicios seleccionados.\n\n• ¿Has comprado una pieza? Te la instalamos y comprobamos la compatibilidad.\n• ¿Dudas qué comprar? Te asesoramos para que no pagues por lo que no necesitas.\n\n🧩 No vendemos hardware: te asesoramos sobre qué comprar y lo instalamos.\n📩 Escríbenos por MD y te decimos el precio especial. 📍 Servicio solo en Murcia: a domicilio, en tu casa o en nuestro taller.",
+ "fuentes": []
+}

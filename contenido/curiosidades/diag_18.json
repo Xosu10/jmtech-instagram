@@ -1,0 +1,81 @@
+{
+ "id": "diag_18",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: Windows no se actualiza",
+ "titulo_pantalla": "Diagnóstico: Windows no se actualiza",
+ "escenas": [
+  {
+   "texto": "La actualización se queda parada o da error una y otra vez.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "WINDOWS",
+    "linea2": "No se actualiza",
+    "acento": "naranja"
+   }
+  },
+  {
+   "texto": "Suele ser poco espacio, archivos de actualización dañados, o una conexión inestable.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Poco espacio en el disco",
+     "Archivos de actualización dañados",
+     "Conexión inestable"
+    ]
+   }
+  },
+  {
+   "texto": "Libera espacio, ejecuta el solucionador de Windows Update, reinicia y vuelve a intentarlo.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Libera espacio",
+     "Ejecuta el solucionador de Windows Update",
+     "Reinicia y vuelve a intentarlo"
+    ]
+   }
+  },
+  {
+   "texto": "Si el mismo error se repite o el equipo queda en bucle, conviene repararlo antes de que empeore.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "Se repite el mismo error",
+     "El equipo queda en bucle",
+     "Es un equipo de trabajo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: poco espacio en el disco, archivos de actualización dañados, conexión inestable.",
+  "Prueba: libera espacio.",
+  "Técnico si: se repite el mismo error."
+ ],
+ "fuentes": [
+  "Microsoft: solucionar problemas de Windows Update"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#windows"
+ ]
+}

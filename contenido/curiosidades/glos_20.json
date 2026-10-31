@@ -1,0 +1,65 @@
+{
+ "id": "glos_20",
+ "serie": "glosario",
+ "titulo": "¿Qué es TDP? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es TDP?",
+ "escenas": [
+  {
+   "texto": "¿Qué es TDP? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "TDP",
+    "significado": "Potencia térmica de diseño"
+   }
+  },
+  {
+   "texto": "Indica cuánto calor debe poder evacuar el sistema de refrigeración de un procesador o una gráfica funcionando de forma normal.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "TDP",
+    "acento": "azul",
+    "puntos": [
+     "Mide el calor, no el consumo exacto",
+     "Es un valor orientativo",
+     "Ayuda a elegir el disipador"
+    ]
+   }
+  },
+  {
+   "texto": "Úsalo para elegir un refrigerador con margen. Un procesador de alto consumo con un disipador pequeño acabará recortando su rendimiento.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Elige un disipador con margen",
+     "Más TDP, más calor que sacar",
+     "Un disipador corto limita el rendimiento"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Indica cuánto calor debe poder evacuar el sistema de refrigeración de un procesador o una gráfica funcionando de forma normal.",
+  "Elige un disipador con margen",
+  "Más TDP, más calor que sacar"
+ ],
+ "fuentes": [
+  "Wikipedia: Potencia de diseño térmico"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#tdp"
+ ]
+}

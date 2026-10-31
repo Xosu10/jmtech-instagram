@@ -1,0 +1,65 @@
+{
+ "id": "glos_19",
+ "serie": "glosario",
+ "titulo": "¿Qué es Overclocking? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es Overclocking?",
+ "escenas": [
+  {
+   "texto": "¿Qué es Overclocking? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "Overclocking",
+    "significado": "Subir la velocidad por encima de fábrica"
+   }
+  },
+  {
+   "texto": "Consiste en hacer funcionar un procesador o una gráfica a más velocidad de la que indica el fabricante.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "Overclocking",
+    "acento": "azul",
+    "puntos": [
+     "Más velocidad que la de fábrica",
+     "Genera más calor",
+     "Gasta más energía"
+    ]
+   }
+  },
+  {
+   "texto": "Puedes ganar algo de rendimiento, pero con riesgos: más calor, menos estabilidad y, si te pasas, daños. No es para principiantes.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Ganas algo de rendimiento",
+     "Necesita buena refrigeración",
+     "Si te pasas, puedes dañar la pieza"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Consiste en hacer funcionar un procesador o una gráfica a más velocidad de la que indica el fabricante.",
+  "Ganas algo de rendimiento",
+  "Necesita buena refrigeración"
+ ],
+ "fuentes": [
+  "Wikipedia: Overclocking"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#overclock"
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "id": "diag_10",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: el disco al cien por cien en el Administrador de tareas",
+ "titulo_pantalla": "Diagnóstico: disco siempre al máximo",
+ "escenas": [
+  {
+   "texto": "El PC va lentísimo y el disco aparece al máximo.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "DISCO AL MÁXIMO",
+    "linea2": "Y el PC va lentísimo",
+    "acento": "naranja"
+   }
+  },
+  {
+   "texto": "Suele ser un disco duro viejo, una actualización trabajando, o muy poco espacio libre.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Un disco duro viejo o con errores",
+     "Una actualización o antivirus trabajando",
+     "Muy poco espacio libre"
+    ]
+   }
+  },
+  {
+   "texto": "Espera a que terminen las actualizaciones, libera espacio, y si usas disco duro, cámbialo por un SSD.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Espera a que terminen las actualizaciones",
+     "Libera espacio",
+     "Cambia el disco duro por un SSD"
+    ]
+   }
+  },
+  {
+   "texto": "Si hace clics o aparecen errores de lectura, haz copia de lo importante y pide ayuda enseguida.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "Hace ruidos o clics",
+     "Tarda minutos en abrir cualquier cosa",
+     "Aparecen errores de lectura"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: un disco duro viejo o con errores, una actualización o antivirus trabajando, muy poco espacio libre.",
+  "Prueba: espera a que terminen las actualizaciones.",
+  "Técnico si: hace ruidos o clics."
+ ],
+ "fuentes": [
+  "Microsoft: solucionar el uso elevado del disco",
+  "Wikipedia: Unidad de estado sólido"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#disco"
+ ]
+}

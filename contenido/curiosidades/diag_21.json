@@ -1,0 +1,76 @@
+{
+ "id": "diag_21",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: aviso de que no hay espacio en el disco",
+ "titulo_pantalla": "Diagnóstico: el disco está lleno",
+ "escenas": [
+  {
+   "texto": "Windows te avisa de que te quedas sin espacio.",
+   "imagen": "ssd_capacidad_aislado_01.png"
+  },
+  {
+   "texto": "Suelen ser archivos grandes, descargas y temporales acumulados, o un disco pequeño para lo que usas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Archivos grandes y descargas",
+     "Copias antiguas y temporales",
+     "Un disco pequeño para lo que usas"
+    ]
+   }
+  },
+  {
+   "texto": "Usa el liberador de espacio, revisa descargas y vídeos, y mueve lo grande a un disco externo.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Usa el liberador de espacio",
+     "Revisa descargas y vídeos",
+     "Mueve lo grande a un disco externo"
+    ]
+   }
+  },
+  {
+   "texto": "Si necesitas más capacidad, podemos ampliar el disco sin perder tus datos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "Necesitas más espacio de forma permanente",
+     "No sabes qué ocupa tanto",
+     "El PC va lento por falta de espacio"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: archivos grandes y descargas, copias antiguas y temporales, un disco pequeño para lo que usas.",
+  "Prueba: usa el liberador de espacio.",
+  "Técnico si: necesitas más espacio de forma permanente."
+ ],
+ "fuentes": [
+  "Microsoft: liberar espacio en el disco"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#almacenamiento"
+ ]
+}

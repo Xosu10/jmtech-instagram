@@ -1,0 +1,65 @@
+{
+ "id": "glos_29",
+ "serie": "glosario",
+ "titulo": "¿Qué es Código abierto? Glosario informático en menos de un minuto",
+ "titulo_pantalla": "¿Qué es Código abierto?",
+ "escenas": [
+  {
+   "texto": "¿Qué es Código abierto? Te lo explico en menos de un minuto.",
+   "grafico": "termino",
+   "params": {
+    "termino": "Código abierto",
+    "significado": "Programas cuyo código es público"
+   }
+  },
+  {
+   "texto": "Un programa de código abierto publica su código para que cualquiera pueda verlo, usarlo y mejorarlo, bajo unas condiciones.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué es",
+    "titulo": "Código abierto",
+    "acento": "azul",
+    "puntos": [
+     "El código es público",
+     "Cualquiera puede revisarlo",
+     "Se puede mejorar entre todos"
+    ]
+   }
+  },
+  {
+   "texto": "Linux, Firefox o VLC son ejemplos. Suelen ser muy transparentes, aunque cada programa depende de quién lo mantenga.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué te importa",
+    "titulo": "En tu día a día",
+    "acento": "naranja",
+    "puntos": [
+     "Linux, Firefox y VLC",
+     "Suelen ser transparentes",
+     "Depende de quién lo mantenga"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📖",
+ "puntos": [
+  "Un programa de código abierto publica su código para que cualquiera pueda verlo, usarlo y mejorarlo, bajo unas condiciones.",
+  "Linux, Firefox y VLC",
+  "Suelen ser transparentes"
+ ],
+ "fuentes": [
+  "Wikipedia: Código abierto"
+ ],
+ "hashtags": [
+  "#glosario",
+  "#informatica",
+  "#tecnologia",
+  "#aprende",
+  "#murcia",
+  "#codigoabierto"
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "id": "mito_12",
+ "serie": "mito",
+ "titulo": "¿Mito o realidad? Hay que desfragmentar el SSD",
+ "titulo_pantalla": "¿Mito o realidad?",
+ "escenas": [
+  {
+   "texto": "¿Mito o realidad? Hay que desfragmentar el SSD.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Hay que desfragmentar el SSD",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es un mito. Desfragmentar sirve en los discos duros mecánicos. En un SSD no mejora nada y solo gasta escrituras.",
+   "grafico": "veredicto",
+   "params": {
+    "afirmacion": "Hay que desfragmentar el SSD",
+    "revelar": true,
+    "veredicto": "MITO"
+   }
+  },
+  {
+   "texto": "En disco duro, de vez en cuando; en SSD no hace falta, y Windows ya lo cuida solo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que debes saber",
+    "titulo": "Las claves",
+    "acento": "azul",
+    "puntos": [
+     "Disco duro: sí, de vez en cuando",
+     "SSD: no hace falta",
+     "Windows ya lo cuida solo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes dudas con tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧐",
+ "puntos": [
+  "MITO: Desfragmentar sirve en los discos duros mecánicos. En un SSD no mejora nada y solo gasta escrituras.",
+  "Disco duro: sí, de vez en cuando",
+  "SSD: no hace falta"
+ ],
+ "fuentes": [
+  "Microsoft: optimizar unidades en Windows",
+  "Wikipedia: Desfragmentación"
+ ],
+ "hashtags": [
+  "#mitoorealidad",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#ssd"
+ ]
+}

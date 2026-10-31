@@ -1,0 +1,81 @@
+{
+ "id": "diag_22",
+ "serie": "diagnostico",
+ "titulo": "Diagnóstico exprés: la impresora no imprime",
+ "titulo_pantalla": "Diagnóstico: la impresora no imprime",
+ "escenas": [
+  {
+   "texto": "Das a imprimir y no sale nada.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "IMPRESORA",
+    "linea2": "Das a imprimir y no sale nada",
+    "acento": "naranja"
+   }
+  },
+  {
+   "texto": "Suele ser que está sin conexión, que hay una cola de impresión atascada, o que falta tinta.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas más probables",
+    "titulo": "Suele ser esto",
+    "acento": "naranja",
+    "puntos": [
+     "Impresora sin conexión o apagada",
+     "Cola de impresión atascada",
+     "Controlador dañado o falta de tinta"
+    ]
+   }
+  },
+  {
+   "texto": "Mira que esté encendida y conectada, borra la cola de impresión y reinstala el controlador.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Mira que esté encendida y conectada",
+     "Borra la cola de impresión",
+     "Reinstala el controlador"
+    ]
+   }
+  },
+  {
+   "texto": "Si el equipo no la encuentra o la usa toda la empresa, conviene configurarla bien.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Llama a un técnico si",
+    "titulo": "No sigas probando",
+    "acento": "azul",
+    "puntos": [
+     "Sale con rayas o manchas",
+     "No la encuentra el equipo",
+     "Es de uso en la empresa"
+    ]
+   }
+  },
+  {
+   "texto": "¿Sigue igual? Te lo revisamos. Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🩺",
+ "puntos": [
+  "Causas: impresora sin conexión o apagada, cola de impresión atascada, controlador dañado o falta de tinta.",
+  "Prueba: mira que esté encendida y conectada.",
+  "Técnico si: sale con rayas o manchas."
+ ],
+ "fuentes": [
+  "Microsoft: solucionar problemas de impresión"
+ ],
+ "cierre_lineas": [
+  "¿Sigue sin funcionar?",
+  "Te lo revisamos en Murcia"
+ ],
+ "hashtags": [
+  "#diagnosticoexpres",
+  "#informatica",
+  "#soportetecnico",
+  "#averias",
+  "#murcia",
+  "#impresora"
+ ]
+}

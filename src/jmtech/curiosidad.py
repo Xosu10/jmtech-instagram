@@ -108,7 +108,9 @@ def descripcion_de(e: dict) -> str:
 
 def construir_descripcion(e: dict) -> str:
     fuentes = "\n".join(f"• {f}" for f in e.get("fuentes", []))
-    cabecera_fuentes = "📚 Fuentes consultadas:" if fuentes else "ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado."
+    cabecera_fuentes = ("📚 Fuentes consultadas:" if fuentes else
+                        "ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado."
+                        if e.get("serie") == "automatizacion" else "ℹ️ Contenido informativo y orientativo.")
     etiquetas = " ".join(h if h.startswith("#") else f"#{h}" for h in hashtags_de(e))
     return (f"{e.get('descripcion') or descripcion_de(e)}\n\n"
             f"{cabecera_fuentes}\n{fuentes}\n\n"
@@ -518,6 +520,44 @@ def generar_video(espec, salida, musica=None, inicio_musica=10.0, sintetizador=s
     return salida, total
 
 
+# ---------- Banco: vídeos montados sin fecha asignada ----------
+def montar_banco(carpeta, musica_dir, avisar=print):
+    """Monta los vídeos que existen como ficha pero aún no están en el plan. Se guardan en carpeta/banco/ sin fecha."""
+    carpeta = Path(carpeta)
+    (carpeta / "banco").mkdir(parents=True, exist_ok=True)
+    ruta_banco = carpeta / "banco.json"
+    banco = {v["id"]: v for v in json.loads(ruta_banco.read_text(encoding="utf-8"))["videos"]} if ruta_banco.exists() else {}
+    plan_ids = {p["id"] for p in json.loads((RAIZ / "contenido" / "plan_curiosidades.json").read_text(encoding="utf-8"))["plan"]}
+    pistas = sorted(Path(musica_dir).glob("*.mp3")) if musica_dir and Path(musica_dir).exists() else []
+    hechos, esperando = [], []
+    for k, ruta in enumerate(sorted(CARPETA_ESPECS.glob("*.json"))):
+        espec = cargar_espec(ruta)
+        if espec["id"] in plan_ids or espec["id"] in {v["id"] for v in cargar_cola(carpeta)}:
+            continue
+        fallos = problemas_espec(espec)
+        if fallos:
+            avisar(f"{espec['id']}: el guion tiene problemas: {'; '.join(fallos)}")
+            continue
+        try:
+            h = huella(espec)
+        except FileNotFoundError as e:
+            esperando.append((espec["id"], str(e)))
+            continue
+        previo = banco.get(espec["id"])
+        if previo and previo.get("huella") == h and (carpeta / previo["video"]).exists():
+            continue
+        pista, inicio = (pistas[(k * 5) % len(pistas)], float(8 + (k * 11) % 30)) if pistas else (None, 10.0)
+        avisar(f"Montando {espec['id']}")
+        salida = carpeta / "banco" / f"{espec['id']}.mp4"
+        generar_video(espec, salida, pista, inicio)
+        banco[espec["id"]] = {"id": espec["id"], "video": f"banco/{salida.name}", "titulo": espec["titulo"], "serie": espec.get("serie", ""),
+                              "pie": construir_descripcion(espec), "huella": h}
+        ruta_banco.write_text(json.dumps({"videos": sorted(banco.values(), key=lambda v: v["id"])}, ensure_ascii=False, indent=2) + "\n",
+                              encoding="utf-8")
+        hechos.append(espec["id"])
+    return hechos, esperando
+
+
 # ---------- Cola y publicación ----------
 def cargar_cola(carpeta) -> list[dict]:
     ruta = Path(carpeta) / "cola.json"
@@ -666,7 +706,7 @@ def curiosidad_hoy(carpeta, ahora_utc=None, *, dry_run=False, ignorar_hora=False
 
 def main():
     p = argparse.ArgumentParser(prog="jmtech.curiosidad")
-    p.add_argument("orden", choices=["render", "comprobar", "encolar", "publicar", "hoy", "pendientes", "montar"])
+    p.add_argument("orden", choices=["render", "comprobar", "encolar", "publicar", "hoy", "pendientes", "montar", "banco"])
     p.add_argument("--musica-dir", default="", help="montar: carpeta con las canciones (mp3)")
     p.add_argument("--hasta", default="", help="montar: última fecha del plan que se monta (AAAA-MM-DD)")
     p.add_argument("--provisional", action="store_true", help="montar: usar imágenes provisionales si faltan las definitivas")
@@ -685,6 +725,12 @@ def main():
     try:
         if a.orden == "hoy":
             curiosidad_hoy(a.carpeta, dry_run=a.dry_run, ignorar_hora=a.ignorar_hora)
+            return 0
+        if a.orden == "banco":
+            hechos, esperando = montar_banco(a.carpeta, a.musica_dir)
+            print(f"Montados ahora: {len(hechos)}")
+            for id_video, motivo in esperando:
+                print(f"  espera · {id_video}: {motivo}")
             return 0
         if a.orden == "montar":
             if not a.carpeta:
