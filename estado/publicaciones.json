@@ -143,6 +143,21 @@
       "permalink": "https://www.instagram.com/reel/DfKk2VdgUqc/",
       "publicado_utc": "2026-10-31T16:22:08Z",
       "retraso_min": 0
+    },
+    {
+      "fecha": "2026-10-31",
+      "tema": "movil_pantalla",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_movil_pantalla.mp4",
+      "asset": "movil_pantalla_nueva_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": true,
+      "tipo": "reel",
+      "media_id": "18143480248607572",
+      "permalink": "https://www.instagram.com/reel/DfKlAlYBAhl/",
+      "publicado_utc": "2026-10-31T16:23:33Z",
+      "retraso_min": 0
     }
   ]
 }
