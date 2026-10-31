@@ -173,6 +173,21 @@
       "permalink": "https://www.instagram.com/reel/DfKlP1Cu7_C/",
       "publicado_utc": "2026-10-31T16:25:38Z",
       "retraso_min": 0
+    },
+    {
+      "fecha": "2026-10-31",
+      "tema": "custom_loop",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_custom_loop.mp4",
+      "asset": "refrigeracion_custom_loop_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": true,
+      "tipo": "reel",
+      "media_id": "17966992566226058",
+      "permalink": "https://www.instagram.com/reel/DfKlaBzsZCS/",
+      "publicado_utc": "2026-10-31T16:27:02Z",
+      "retraso_min": 0
     }
   ]
 }

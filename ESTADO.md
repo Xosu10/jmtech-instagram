@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-10-31 17:25 (hora de Madrid)_
+_Actualizado: 2026-10-31 17:27 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 12
-- Última: 2026-10-31 · https://www.instagram.com/reel/DfKlP1Cu7_C/
+- Publicaciones hechas: 13
+- Última: 2026-10-31 · https://www.instagram.com/reel/DfKlaBzsZCS/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-10-31 (fuera de calendario) · reel | PC de alta gama (custom loop) | reel | 0 min | https://www.instagram.com/reel/DfKlaBzsZCS/ |
 | 2026-10-31 (fuera de calendario) · reel | Limpieza y pasta térmica de sobremesa | reel | 0 min | https://www.instagram.com/reel/DfKlP1Cu7_C/ |
 | 2026-10-31 (fuera de calendario) · reel | Cambio de pantalla de móvil | reel | 0 min | https://www.instagram.com/reel/DfKlAlYBAhl/ |
 | 2026-10-31 (fuera de calendario) · reel | Servicio técnico en remoto | reel | 0 min | https://www.instagram.com/reel/DfKk2VdgUqc/ |
@@ -19,7 +20,6 @@ _Actualizado: 2026-10-31 17:25 (hora de Madrid)_
 | 2026-10-31 (fuera de calendario) | Asesoramiento personalizado | B | 0 min | https://www.instagram.com/p/DfKYLCgl6lf/ |
 | 2026-10-31 (fuera de calendario) | PC de alta gama (custom loop) | A | 0 min | https://www.instagram.com/p/DfKYE0GoBI2/ |
 | 2026-10-31 (fuera de calendario) | Limpieza y pasta térmica de sobremesa | B | 0 min | https://www.instagram.com/p/DfKX-SrEsBY/ |
-| 2026-10-31 (fuera de calendario) | movil_pantalla_conector | C | 0 min | https://www.instagram.com/p/DfKX5HmjYlU/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
