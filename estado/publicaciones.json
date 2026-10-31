@@ -55,6 +55,20 @@
       "permalink": "https://www.instagram.com/p/DfKX-SrEsBY/",
       "publicado_utc": "2026-10-31T14:29:46Z",
       "retraso_min": 0
+    },
+    {
+      "fecha": "2026-10-31",
+      "tema": "custom_loop",
+      "estilo": "A",
+      "variante": 0,
+      "imagen": "prueba_2026-10-31_153034_custom_loop.jpg",
+      "asset": "refrigeracion_custom_loop_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": true,
+      "media_id": "18116248682331322",
+      "permalink": "https://www.instagram.com/p/DfKYE0GoBI2/",
+      "publicado_utc": "2026-10-31T14:30:37Z",
+      "retraso_min": 0
     }
   ]
 }

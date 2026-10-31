@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-10-31 15:29 (hora de Madrid)_
+_Actualizado: 2026-10-31 15:30 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 4
-- Última: 2026-10-31 · https://www.instagram.com/p/DfKX-SrEsBY/
+- Publicaciones hechas: 5
+- Última: 2026-10-31 · https://www.instagram.com/p/DfKYE0GoBI2/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-10-31 (fuera de calendario) | PC de alta gama (custom loop) | A | 0 min | https://www.instagram.com/p/DfKYE0GoBI2/ |
 | 2026-10-31 (fuera de calendario) | Pasta térmica y limpieza (sobremesa y portátil) | B | 0 min | https://www.instagram.com/p/DfKX-SrEsBY/ |
 | 2026-10-31 (fuera de calendario) | Móvil: cambio de pantalla y de conector de carga | C | 0 min | https://www.instagram.com/p/DfKX5HmjYlU/ |
 | 2026-10-31 (fuera de calendario) | Servicio técnico en remoto | A | 0 min | https://www.instagram.com/p/DfKXxUWmBHV/ |
