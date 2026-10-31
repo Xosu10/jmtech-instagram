@@ -1,0 +1,988 @@
+{
+ "plan": [
+  {
+   "fecha": "2026-11-02",
+   "idea": 8,
+   "id": "02_por_que_se_calienta_la_cpu",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es el thermal throttling y por qué tu PC pierde potencia?",
+   "cat": "A"
+  },
+  {
+   "fecha": "2026-11-04",
+   "idea": null,
+   "id": "03_ram_e_ia",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es la RAM y por qué es tan importante para la IA? (mezcla de las ideas 2, 41 y 44)",
+   "cat": "E"
+  },
+  {
+   "fecha": "2026-11-06",
+   "idea": 11,
+   "id": "04_limpieza_del_pc",
+   "estado": "montado, en cola",
+   "titulo": "¿Cada cuánto tiempo deberías limpiar tu ordenador?",
+   "cat": "B"
+  },
+  {
+   "fecha": "2026-11-09",
+   "idea": 1,
+   "id": "01_aire_o_liquida",
+   "estado": "esperando imagen P-01",
+   "titulo": "¿Refrigeración líquida o por aire? ¿Cuál es realmente mejor?",
+   "cat": "A"
+  },
+  {
+   "fecha": "2026-11-11",
+   "idea": 3,
+   "id": "idea_003",
+   "estado": "pendiente",
+   "titulo": "¿SSD SATA o NVMe? ¿Notarás realmente la diferencia?",
+   "cat": "A"
+  },
+  {
+   "fecha": "2026-11-13",
+   "idea": 61,
+   "id": "idea_061",
+   "estado": "pendiente",
+   "titulo": "¿Sabías que PlayStation nació de un proyecto entre Nintendo y Sony?",
+   "cat": "G",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2026-11-16",
+   "idea": 12,
+   "id": "idea_012",
+   "estado": "pendiente",
+   "titulo": "¿Cada cuánto hay que cambiar la pasta térmica?",
+   "cat": "B"
+  },
+  {
+   "fecha": "2026-11-18",
+   "idea": 71,
+   "id": "idea_071",
+   "estado": "pendiente",
+   "titulo": "¿Qué hacen los NPC cuando no los estás mirando?",
+   "cat": "H",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2026-11-20",
+   "idea": 21,
+   "id": "idea_021",
+   "estado": "pendiente",
+   "titulo": "Mi ordenador enciende, pero no aparece imagen. ¿Qué puede estar pasando?",
+   "cat": "C"
+  },
+  {
+   "fecha": "2026-11-23",
+   "idea": 81,
+   "id": "idea_081",
+   "estado": "pendiente",
+   "titulo": "¿Realmente se nota la diferencia entre jugar a 30, 60 y 120 FPS?",
+   "cat": "I",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2026-11-25",
+   "idea": 31,
+   "id": "idea_031",
+   "estado": "pendiente",
+   "titulo": "¿Cómo dar una segunda vida a un ordenador antiguo por poco dinero?",
+   "cat": "D"
+  },
+  {
+   "fecha": "2026-11-27",
+   "idea": 91,
+   "id": "idea_091",
+   "estado": "pendiente",
+   "titulo": "¿Por qué los GTA tienen emisoras de radio y anuncios inventados?",
+   "cat": "J",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2026-11-30",
+   "idea": 41,
+   "id": "idea_041",
+   "estado": "pendiente",
+   "titulo": "¿Por qué la inteligencia artificial está encareciendo la memoria RAM? (incluye la 42: SSD)",
+   "cat": "E",
+   "nota": "Datos que cambian: se verifican justo antes de montar el vídeo."
+  },
+  {
+   "fecha": "2026-12-02",
+   "idea": 101,
+   "id": "idea_101",
+   "estado": "pendiente",
+   "titulo": "¿Por qué los videojuegos antiguos eran mucho más difíciles?",
+   "cat": "K",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2026-12-04",
+   "idea": 51,
+   "id": "idea_051",
+   "estado": "pendiente",
+   "titulo": "¿Por qué un SSD de 1 TB no muestra 1.000 GB disponibles en Windows?",
+   "cat": "F"
+  },
+  {
+   "fecha": "2026-12-07",
+   "idea": 111,
+   "id": "idea_111",
+   "estado": "pendiente",
+   "titulo": "¿Por qué el icono de guardar sigue siendo un disquete?",
+   "cat": "L"
+  },
+  {
+   "fecha": "2026-12-09",
+   "idea": 4,
+   "id": "idea_004",
+   "estado": "pendiente",
+   "titulo": "¿Qué es el cuello de botella de un PC?",
+   "cat": "A"
+  },
+  {
+   "fecha": "2026-12-11",
+   "idea": 63,
+   "id": "idea_063",
+   "estado": "pendiente",
+   "titulo": "¿Por qué Tetris es tan adictivo?",
+   "cat": "G",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2026-12-14",
+   "idea": 13,
+   "id": "idea_013",
+   "estado": "pendiente",
+   "titulo": "¿Es malo tener el ordenador en el suelo?",
+   "cat": "B"
+  },
+  {
+   "fecha": "2026-12-16",
+   "idea": 72,
+   "id": "idea_072",
+   "estado": "pendiente",
+   "titulo": "¿Qué ocurre si consigues llegar al límite del mapa de un videojuego?",
+   "cat": "H",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2026-12-18",
+   "idea": 22,
+   "id": "idea_022",
+   "estado": "pendiente",
+   "titulo": "¿Por qué tu PC se apaga cuando estás jugando?",
+   "cat": "C"
+  },
+  {
+   "fecha": "2026-12-21",
+   "idea": 82,
+   "id": "idea_082",
+   "estado": "pendiente",
+   "titulo": "¿Qué es mejor para jugar: resolución 4K o más FPS?",
+   "cat": "I",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2026-12-23",
+   "idea": 32,
+   "id": "idea_032",
+   "estado": "pendiente",
+   "titulo": "¿Es mejor comprar un PC montado o hacerlo por piezas?",
+   "cat": "D"
+  },
+  {
+   "fecha": "2026-12-25",
+   "idea": 92,
+   "id": "idea_092",
+   "estado": "pendiente",
+   "titulo": "¿Por qué se tarda tantos años en desarrollar un GTA?",
+   "cat": "J",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2026-12-28",
+   "idea": 43,
+   "id": "idea_043",
+   "estado": "pendiente",
+   "titulo": "¿Las tarjetas gráficas son cada vez más caras por culpa de la IA?",
+   "cat": "E",
+   "nota": "Datos que cambian: se verifican justo antes de montar el vídeo."
+  },
+  {
+   "fecha": "2026-12-30",
+   "idea": 102,
+   "id": "idea_102",
+   "estado": "pendiente",
+   "titulo": "¿Qué era el famoso anillo rojo de la muerte de Xbox 360?",
+   "cat": "K",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-01-01",
+   "idea": 52,
+   "id": "idea_052",
+   "estado": "pendiente",
+   "titulo": "¿Por qué reiniciar el ordenador puede solucionar tantos problemas?",
+   "cat": "F"
+  },
+  {
+   "fecha": "2027-01-04",
+   "idea": 112,
+   "id": "idea_112",
+   "estado": "pendiente",
+   "titulo": "¿De dónde viene el nombre Bluetooth y qué tiene que ver con un rey vikingo?",
+   "cat": "L"
+  },
+  {
+   "fecha": "2027-01-06",
+   "idea": 5,
+   "id": "idea_005",
+   "estado": "pendiente",
+   "titulo": "¿Más ventiladores significa mejor refrigeración?",
+   "cat": "A"
+  },
+  {
+   "fecha": "2027-01-08",
+   "idea": 64,
+   "id": "idea_064",
+   "estado": "pendiente",
+   "titulo": "¿Qué es el famoso código Konami y de dónde viene?",
+   "cat": "G",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-01-11",
+   "idea": 14,
+   "id": "idea_014",
+   "estado": "pendiente",
+   "titulo": "¿Es malo dejar el ordenador encendido las 24 horas?",
+   "cat": "B"
+  },
+  {
+   "fecha": "2027-01-13",
+   "idea": 73,
+   "id": "idea_073",
+   "estado": "pendiente",
+   "titulo": "¿Por qué los desarrolladores esconden habitaciones secretas?",
+   "cat": "H",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-01-15",
+   "idea": 23,
+   "id": "idea_023",
+   "estado": "pendiente",
+   "titulo": "¿Qué significa un pantallazo azul de Windows?",
+   "cat": "C"
+  },
+  {
+   "fecha": "2027-01-18",
+   "idea": 83,
+   "id": "idea_083",
+   "estado": "pendiente",
+   "titulo": "¿Qué es el ping y por qué puede arruinarte una partida?",
+   "cat": "I",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-01-20",
+   "idea": 33,
+   "id": "idea_033",
+   "estado": "pendiente",
+   "titulo": "¿Qué componentes deberías mejorar primero para ganar rendimiento?",
+   "cat": "D"
+  },
+  {
+   "fecha": "2027-01-22",
+   "idea": 93,
+   "id": "idea_093",
+   "estado": "pendiente",
+   "titulo": "¿Cómo consiguen los videojuegos de mundo abierto simular ciudades llenas de vida?",
+   "cat": "J",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-01-25",
+   "idea": 44,
+   "id": "idea_044",
+   "estado": "pendiente",
+   "titulo": "¿Qué ordenador necesitas para ejecutar inteligencia artificial en casa?",
+   "cat": "E",
+   "nota": "Datos que cambian: se verifican justo antes de montar el vídeo."
+  },
+  {
+   "fecha": "2027-01-27",
+   "idea": 103,
+   "id": "idea_103",
+   "estado": "pendiente",
+   "titulo": "¿Por qué necesitábamos tarjetas de memoria para guardar nuestras partidas?",
+   "cat": "K",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-01-29",
+   "idea": 53,
+   "id": "idea_053",
+   "estado": "pendiente",
+   "titulo": "¿El modo incógnito del navegador te hace invisible en Internet?",
+   "cat": "F"
+  },
+  {
+   "fecha": "2027-02-01",
+   "idea": 113,
+   "id": "idea_113",
+   "estado": "pendiente",
+   "titulo": "¿Por qué las teclas del teclado están colocadas en formato QWERTY?",
+   "cat": "L"
+  },
+  {
+   "fecha": "2027-02-03",
+   "idea": 6,
+   "id": "idea_006",
+   "estado": "pendiente",
+   "titulo": "¿Qué diferencia hay entre DDR4 y DDR5?",
+   "cat": "A"
+  },
+  {
+   "fecha": "2027-02-05",
+   "idea": 65,
+   "id": "idea_065",
+   "estado": "pendiente",
+   "titulo": "¿Por qué todo el mundo soplaba los cartuchos de Nintendo?",
+   "cat": "G",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-02-08",
+   "idea": 15,
+   "id": "idea_015",
+   "estado": "pendiente",
+   "titulo": "¿Qué pasa si nunca limpias tu portátil?",
+   "cat": "B"
+  },
+  {
+   "fecha": "2027-02-10",
+   "idea": 74,
+   "id": "idea_074",
+   "estado": "pendiente",
+   "titulo": "¿Cómo consiguen los speedrunners terminar juegos en pocos minutos?",
+   "cat": "H",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-02-12",
+   "idea": 24,
+   "id": "idea_024",
+   "estado": "pendiente",
+   "titulo": "¿Por qué tu ordenador tarda tanto en arrancar?",
+   "cat": "C"
+  },
+  {
+   "fecha": "2027-02-15",
+   "idea": 84,
+   "id": "idea_084",
+   "estado": "pendiente",
+   "titulo": "¿Qué es el input lag y por qué tu personaje reacciona tarde?",
+   "cat": "I",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-02-17",
+   "idea": 34,
+   "id": "idea_034",
+   "estado": "pendiente",
+   "titulo": "¿Merece la pena comprar un ordenador reacondicionado?",
+   "cat": "D"
+  },
+  {
+   "fecha": "2027-02-19",
+   "idea": 94,
+   "id": "idea_094",
+   "estado": "pendiente",
+   "titulo": "¿Por qué Minecraft tiene gráficos tan simples y sigue siendo tan popular?",
+   "cat": "J",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-02-22",
+   "idea": 45,
+   "id": "idea_045",
+   "estado": "pendiente",
+   "titulo": "¿Qué diferencia hay entre usar ChatGPT y ejecutar una IA en tu propio PC?",
+   "cat": "E"
+  },
+  {
+   "fecha": "2027-02-24",
+   "idea": 104,
+   "id": "idea_104",
+   "estado": "pendiente",
+   "titulo": "¿Cómo guardaban las partidas los videojuegos antes de las memory cards?",
+   "cat": "K",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-02-26",
+   "idea": 54,
+   "id": "idea_054",
+   "estado": "pendiente",
+   "titulo": "¿Es verdad que los ordenadores ya no necesitan antivirus?",
+   "cat": "F"
+  },
+  {
+   "fecha": "2027-03-01",
+   "idea": 114,
+   "id": "idea_114",
+   "estado": "pendiente",
+   "titulo": "¿Por qué los errores informáticos se llaman bugs?",
+   "cat": "L"
+  },
+  {
+   "fecha": "2027-03-03",
+   "idea": 7,
+   "id": "idea_007",
+   "estado": "pendiente",
+   "titulo": "¿Por qué es tan importante la fuente de alimentación?",
+   "cat": "A"
+  },
+  {
+   "fecha": "2027-03-05",
+   "idea": 66,
+   "id": "idea_066",
+   "estado": "pendiente",
+   "titulo": "¿Por qué SEGA dejó de fabricar consolas?",
+   "cat": "G",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-03-08",
+   "idea": 16,
+   "id": "idea_016",
+   "estado": "pendiente",
+   "titulo": "¿Cómo limpiar correctamente un ordenador sin romper nada?",
+   "cat": "B"
+  },
+  {
+   "fecha": "2027-03-10",
+   "idea": 75,
+   "id": "idea_075",
+   "estado": "pendiente",
+   "titulo": "¿Por qué los jefes finales de los videojuegos suelen ser tan difíciles?",
+   "cat": "H",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-03-12",
+   "idea": 25,
+   "id": "idea_025",
+   "estado": "pendiente",
+   "titulo": "¿Por qué tu PC va lento si tiene componentes potentes?",
+   "cat": "C"
+  },
+  {
+   "fecha": "2027-03-15",
+   "idea": 85,
+   "id": "idea_085",
+   "estado": "pendiente",
+   "titulo": "¿Tener 1.000 megas de Internet te hace jugar mejor online?",
+   "cat": "I",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-03-17",
+   "idea": 35,
+   "id": "idea_035",
+   "estado": "pendiente",
+   "titulo": "¿Cuánto dinero necesitas realmente para un PC gaming?",
+   "cat": "D",
+   "nota": "Datos que cambian: se verifican justo antes de montar el vídeo."
+  },
+  {
+   "fecha": "2027-03-19",
+   "idea": 95,
+   "id": "idea_095",
+   "estado": "pendiente",
+   "titulo": "¿Cómo consigue Minecraft generar mundos prácticamente infinitos?",
+   "cat": "J",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-03-22",
+   "idea": 46,
+   "id": "idea_046",
+   "estado": "pendiente",
+   "titulo": "¿Qué es un ordenador con IA y qué hace realmente su NPU?",
+   "cat": "E",
+   "nota": "Datos que cambian: se verifican justo antes de montar el vídeo."
+  },
+  {
+   "fecha": "2027-03-24",
+   "idea": 105,
+   "id": "idea_105",
+   "estado": "pendiente",
+   "titulo": "¿Por qué antes los videojuegos tenían pantallas de carga tan largas?",
+   "cat": "K",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-03-26",
+   "idea": 55,
+   "id": "idea_055",
+   "estado": "pendiente",
+   "titulo": "¿Qué ocurre realmente cuando borras un archivo de tu ordenador?",
+   "cat": "F"
+  },
+  {
+   "fecha": "2027-03-29",
+   "idea": 115,
+   "id": "idea_115",
+   "estado": "pendiente",
+   "titulo": "¿Qué ocurriría si Internet dejara de funcionar durante 24 horas?",
+   "cat": "L"
+  },
+  {
+   "fecha": "2027-03-31",
+   "idea": 9,
+   "id": "idea_009",
+   "estado": "pendiente",
+   "titulo": "¿Más núcleos de procesador significa más velocidad?",
+   "cat": "A"
+  },
+  {
+   "fecha": "2027-04-02",
+   "idea": 67,
+   "id": "idea_067",
+   "estado": "pendiente",
+   "titulo": "¿Cuál fue el primer easter egg de los videojuegos?",
+   "cat": "G",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-04-05",
+   "idea": 17,
+   "id": "idea_017",
+   "estado": "pendiente",
+   "titulo": "¿Una refrigeración líquida necesita mantenimiento?",
+   "cat": "B"
+  },
+  {
+   "fecha": "2027-04-07",
+   "idea": 76,
+   "id": "idea_076",
+   "estado": "pendiente",
+   "titulo": "¿Qué son las paredes invisibles y por qué existen?",
+   "cat": "H",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-04-09",
+   "idea": 26,
+   "id": "idea_026",
+   "estado": "pendiente",
+   "titulo": "¿Por qué tu ordenador se reinicia sin avisar?",
+   "cat": "C"
+  },
+  {
+   "fecha": "2027-04-12",
+   "idea": 86,
+   "id": "idea_086",
+   "estado": "pendiente",
+   "titulo": "¿Es mejor jugar en un monitor gaming o en una televisión?",
+   "cat": "I",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-04-14",
+   "idea": 36,
+   "id": "idea_036",
+   "estado": "pendiente",
+   "titulo": "¿Un ordenador de 2.000 € es el doble de rápido que uno de 1.000 €?",
+   "cat": "D",
+   "nota": "Datos que cambian: se verifican justo antes de montar el vídeo."
+  },
+  {
+   "fecha": "2027-04-16",
+   "idea": 96,
+   "id": "idea_096",
+   "estado": "pendiente",
+   "titulo": "¿Por qué Los Sims hablan un idioma inventado?",
+   "cat": "J",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-04-19",
+   "idea": 47,
+   "id": "idea_047",
+   "estado": "pendiente",
+   "titulo": "¿Por qué los centros de datos necesitan cantidades gigantescas de agua y electricidad?",
+   "cat": "E"
+  },
+  {
+   "fecha": "2027-04-21",
+   "idea": 106,
+   "id": "idea_106",
+   "estado": "pendiente",
+   "titulo": "¿Qué tenía de especial la Dreamcast y por qué fracasó?",
+   "cat": "K",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-04-23",
+   "idea": 56,
+   "id": "idea_056",
+   "estado": "pendiente",
+   "titulo": "¿Por qué los ordenadores tienen una pila en la placa base?",
+   "cat": "F"
+  },
+  {
+   "fecha": "2027-04-26",
+   "idea": 116,
+   "id": "idea_116",
+   "estado": "pendiente",
+   "titulo": "¿Qué es realmente la nube y dónde se guardan nuestras fotografías?",
+   "cat": "L"
+  },
+  {
+   "fecha": "2027-04-28",
+   "idea": 10,
+   "id": "idea_010",
+   "estado": "pendiente",
+   "titulo": "¿Por qué dos tarjetas gráficas con la misma VRAM rinden diferente?",
+   "cat": "A"
+  },
+  {
+   "fecha": "2027-04-30",
+   "idea": 68,
+   "id": "idea_068",
+   "estado": "pendiente",
+   "titulo": "¿Por qué la gente consigue ejecutar DOOM hasta en una calculadora?",
+   "cat": "G",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-05-03",
+   "idea": 18,
+   "id": "idea_018",
+   "estado": "pendiente",
+   "titulo": "¿Por qué tu ordenador hace cada vez más ruido?",
+   "cat": "B"
+  },
+  {
+   "fecha": "2027-05-05",
+   "idea": 77,
+   "id": "idea_077",
+   "estado": "pendiente",
+   "titulo": "¿Cómo consiguen los videojuegos crear mundos gigantescos sin cargarlo todo a la vez?",
+   "cat": "H",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-05-07",
+   "idea": 27,
+   "id": "idea_027",
+   "estado": "pendiente",
+   "titulo": "¿Por qué Windows no detecta toda tu memoria RAM?",
+   "cat": "C"
+  },
+  {
+   "fecha": "2027-05-10",
+   "idea": 87,
+   "id": "idea_087",
+   "estado": "pendiente",
+   "titulo": "¿Los auriculares gaming son realmente mejores que unos normales?",
+   "cat": "I",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-05-12",
+   "idea": 37,
+   "id": "idea_037",
+   "estado": "pendiente",
+   "titulo": "¿Qué errores comete la gente al comprar un portátil?",
+   "cat": "D"
+  },
+  {
+   "fecha": "2027-05-14",
+   "idea": 97,
+   "id": "idea_097",
+   "estado": "pendiente",
+   "titulo": "¿Cómo se generan los miles de planetas de No Man's Sky?",
+   "cat": "J",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-05-17",
+   "idea": 48,
+   "id": "idea_048",
+   "estado": "pendiente",
+   "titulo": "¿Por qué las grandes empresas están invirtiendo tanto dinero en chips para IA?",
+   "cat": "E",
+   "nota": "Datos que cambian: se verifican justo antes de montar el vídeo."
+  },
+  {
+   "fecha": "2027-05-19",
+   "idea": 107,
+   "id": "idea_107",
+   "estado": "pendiente",
+   "titulo": "¿Por qué antes los videojuegos incluían manuales enormes?",
+   "cat": "K",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-05-21",
+   "idea": 57,
+   "id": "idea_057",
+   "estado": "pendiente",
+   "titulo": "¿Puedes romper tu PC al tocar sus componentes con electricidad estática?",
+   "cat": "F"
+  },
+  {
+   "fecha": "2027-05-24",
+   "idea": 117,
+   "id": "idea_117",
+   "estado": "pendiente",
+   "titulo": "¿Por qué los móviles actuales tienen mucha más potencia que los ordenadores antiguos?",
+   "cat": "L"
+  },
+  {
+   "fecha": "2027-05-26",
+   "idea": 2,
+   "id": "idea_002",
+   "estado": "pendiente",
+   "titulo": "¿Necesitas 16, 32 o 64 GB de RAM?",
+   "cat": "A"
+  },
+  {
+   "fecha": "2027-05-28",
+   "idea": 69,
+   "id": "idea_069",
+   "estado": "pendiente",
+   "titulo": "¿Por qué Pokémon se vende en dos versiones diferentes?",
+   "cat": "G",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-05-31",
+   "idea": 19,
+   "id": "idea_019",
+   "estado": "pendiente",
+   "titulo": "¿Es malo usar el portátil siempre enchufado?",
+   "cat": "B"
+  },
+  {
+   "fecha": "2027-06-02",
+   "idea": 78,
+   "id": "idea_078",
+   "estado": "pendiente",
+   "titulo": "¿Por qué las misiones de escolta son tan odiadas por los jugadores?",
+   "cat": "H",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-06-04",
+   "idea": 28,
+   "id": "idea_028",
+   "estado": "pendiente",
+   "titulo": "¿Qué significan los pitidos de tu ordenador al encenderlo?",
+   "cat": "C"
+  },
+  {
+   "fecha": "2027-06-07",
+   "idea": 88,
+   "id": "idea_088",
+   "estado": "pendiente",
+   "titulo": "¿Los mandos inalámbricos tienen más retraso que los de cable?",
+   "cat": "I",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-06-09",
+   "idea": 38,
+   "id": "idea_038",
+   "estado": "pendiente",
+   "titulo": "¿Es mejor un monitor de 144 Hz que uno de 60 Hz?",
+   "cat": "D"
+  },
+  {
+   "fecha": "2027-06-11",
+   "idea": 98,
+   "id": "idea_098",
+   "estado": "pendiente",
+   "titulo": "¿Por qué los videojuegos de terror consiguen asustarnos aunque sepamos que no son reales?",
+   "cat": "J",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-06-14",
+   "idea": 108,
+   "id": "idea_108",
+   "estado": "pendiente",
+   "titulo": "¿Te acuerdas de las demos de videojuegos que venían en las revistas?",
+   "cat": "K",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-06-16",
+   "idea": 109,
+   "id": "idea_109",
+   "estado": "pendiente",
+   "titulo": "¿Por qué antes era tan habitual jugar a pantalla dividida y ahora mucho menos?",
+   "cat": "K",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-06-18",
+   "idea": 58,
+   "id": "idea_058",
+   "estado": "pendiente",
+   "titulo": "¿Por qué los ordenadores utilizan ceros y unos?",
+   "cat": "F"
+  },
+  {
+   "fecha": "2027-06-21",
+   "idea": 118,
+   "id": "idea_118",
+   "estado": "pendiente",
+   "titulo": "¿Cómo nacieron los memes de Internet y por qué se hacen virales?",
+   "cat": "L"
+  },
+  {
+   "fecha": "2027-06-23",
+   "idea": 70,
+   "id": "idea_070",
+   "estado": "pendiente",
+   "titulo": "¿Cuáles fueron los videojuegos que cambiaron la historia de la industria?",
+   "cat": "G"
+  },
+  {
+   "fecha": "2027-06-25",
+   "idea": 20,
+   "id": "idea_020",
+   "estado": "pendiente",
+   "titulo": "¿Cuántos años puede durar un ordenador bien cuidado?",
+   "cat": "B"
+  },
+  {
+   "fecha": "2027-06-28",
+   "idea": 79,
+   "id": "idea_079",
+   "estado": "pendiente",
+   "titulo": "¿Qué secretos de videojuegos tardaron años en descubrirse?",
+   "cat": "H",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-06-30",
+   "idea": 80,
+   "id": "idea_080",
+   "estado": "pendiente",
+   "titulo": "¿Por qué existen los trofeos y logros en los videojuegos?",
+   "cat": "H",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-07-02",
+   "idea": 29,
+   "id": "idea_029",
+   "estado": "pendiente",
+   "titulo": "¿Por qué tu Wi-Fi va lento en el ordenador, pero bien en el móvil?",
+   "cat": "C"
+  },
+  {
+   "fecha": "2027-07-05",
+   "idea": 89,
+   "id": "idea_089",
+   "estado": "pendiente",
+   "titulo": "¿Por qué algunos videojuegos provocan mareos?",
+   "cat": "I",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-07-07",
+   "idea": 39,
+   "id": "idea_039",
+   "estado": "pendiente",
+   "titulo": "¿Qué es más importante para jugar, el procesador o la gráfica?",
+   "cat": "D"
+  },
+  {
+   "fecha": "2027-07-09",
+   "idea": 99,
+   "id": "idea_099",
+   "estado": "pendiente",
+   "titulo": "¿Cómo consigue Mario Kart que las carreras sean tan caóticas y divertidas?",
+   "cat": "J",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-07-12",
+   "idea": 110,
+   "id": "idea_110",
+   "estado": "pendiente",
+   "titulo": "¿Cómo funcionaban las antiguas máquinas recreativas de los salones arcade?",
+   "cat": "K",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-07-14",
+   "idea": 59,
+   "id": "idea_059",
+   "estado": "pendiente",
+   "titulo": "¿Qué pasa si conectas una memoria USB infectada a tu ordenador?",
+   "cat": "F"
+  },
+  {
+   "fecha": "2027-07-16",
+   "idea": 60,
+   "id": "idea_060",
+   "estado": "pendiente",
+   "titulo": "¿Es verdad que Windows se vuelve más lento con los años?",
+   "cat": "F"
+  },
+  {
+   "fecha": "2027-07-19",
+   "idea": 119,
+   "id": "idea_119",
+   "estado": "pendiente",
+   "titulo": "¿Por qué los productos gaming suelen tener tantas luces RGB?",
+   "cat": "L"
+  },
+  {
+   "fecha": "2027-07-21",
+   "idea": 30,
+   "id": "idea_030",
+   "estado": "pendiente",
+   "titulo": "¿Se puede recuperar la información de un disco duro estropeado?",
+   "cat": "C"
+  },
+  {
+   "fecha": "2027-07-23",
+   "idea": 90,
+   "id": "idea_090",
+   "estado": "pendiente",
+   "titulo": "¿Es mejor jugar con teclado y ratón o con mando?",
+   "cat": "I",
+   "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-07-26",
+   "idea": 40,
+   "id": "idea_040",
+   "estado": "pendiente",
+   "titulo": "¿Cuándo merece la pena reparar un ordenador y cuándo comprar otro?",
+   "cat": "D"
+  }
+ ],
+ "descartadas": {
+  "49": "Especulativa: no se puede afirmar nada fiable. Lo esencial lo cubren la 41 y la 43.",
+  "50": "Repite la 44 y la 45 (IA en casa). Se tratará allí.",
+  "62": "Solo se entiende enseñando al personaje, y no podemos usar personajes ni marcas ajenas en las imágenes.",
+  "100": "Es una opinión sobre una marca y sin imágenes propias queda vacía.",
+  "120": "Demasiado vaga: no hay una respuesta concreta que se pueda comprobar."
+ },
+ "fusionadas": {
+  "42": 41
+ }
+}
