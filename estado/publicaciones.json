@@ -113,6 +113,21 @@
       "permalink": "https://www.instagram.com/reel/DfKjWxGhA5d/",
       "publicado_utc": "2026-10-31T16:09:11Z",
       "retraso_min": 0
+    },
+    {
+      "fecha": "2026-10-31",
+      "tema": "montaje_pc",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_montaje_pc.mp4",
+      "asset": "pc_gaming_aio_negro_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": true,
+      "tipo": "reel",
+      "media_id": "18099781967399926",
+      "permalink": "https://www.instagram.com/reel/DfKkruIxNbq/",
+      "publicado_utc": "2026-10-31T16:20:42Z",
+      "retraso_min": 0
     }
   ]
 }
