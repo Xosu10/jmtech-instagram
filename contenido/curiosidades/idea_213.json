@@ -1,0 +1,101 @@
+{
+ "id": "idea_213",
+ "idea": 213,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: presupuestos y facturas en PDF desde un Excel",
+ "titulo_pantalla": "Automatiza esto: facturas en PDF desde Excel",
+ "escenas": [
+  {
+   "texto": "¿Haces presupuestos y facturas a mano, una a una? Se pueden generar solas.",
+   "imagen": "empresa_software_medida_aislado_01.png"
+  },
+  {
+   "texto": "El programa lee una hoja de cálculo, crea cada documento con tu logo y tus datos, y lo envía al cliente.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "facturas.py",
+    "lineas": [
+     "> Leyendo clientes.xlsx...",
+     "[OK] 42 facturas pendientes",
+     "> Generando PDF con tu logo",
+     "[OK] 42 PDF creados",
+     "[OK] Enviadas por correo"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, una factura era un rato. Ahora son decenas en un momento.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Copiar y pegar datos",
+      "Errores de cálculo",
+      "Una hora por lote"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Datos leídos solos",
+      "Cálculos sin errores",
+      "Todo en minutos"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Vemos tu modelo actual, creamos el generador con tu imagen, y lo conectamos con tu forma de trabajar.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Vemos tu modelo actual",
+     "Creamos el generador",
+     "Lo conectamos a tu forma de trabajar"
+    ]
+   }
+  },
+  {
+   "texto": "Y tu equipo se dedica a vender, no a copiar y pegar.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Una herramienta a medida",
+    "acento": "azul",
+    "puntos": [
+     "Menos errores",
+     "Ahorro de horas cada mes",
+     "Con tu logo y tu estilo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu negocio pierde tiempo así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Menos errores",
+  "Ahorro de horas cada mes",
+  "Con tu logo y tu estilo"
+ ],
+ "invitacion": "¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#facturas"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

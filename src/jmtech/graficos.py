@@ -404,7 +404,52 @@ def _bits(t, dur, params):
     return _salida(im)
 
 
-TIPOS = ("flujo", "barras", "tarjeta", "resumen", "pasos", "dato", "mito", "linea", "comparar", "bits")
+def _fuente_mono(tam):
+    from PIL import ImageFont
+    for ruta in (r"C:\Windows\Fonts\consola.ttf", r"C:\Windows\Fonts\cour.ttf", "DejaVuSansMono.ttf"):
+        try:
+            return ImageFont.truetype(ruta, int(round(tam * S)))
+        except OSError:
+            continue
+    return font("Medium", tam)
+
+
+def _terminal(t, dur, params):
+    """Ventana de terminal en la que se «escribe» un script y sus resultados."""
+    p = t / max(dur, 0.01)
+    im, d = _lienzo()
+    _rect(d, 20, 20, 920, 540, (7, 12, 26, 255), 26, outline=(46, 74, 128, 255), w=2)
+    _rect(d, 20, 20, 920, 84, (16, 26, 52, 255), 26)
+    _rect(d, 21, 60, 919, 84, (16, 26, 52, 255))
+    for i, c in enumerate(((255, 95, 86), (255, 189, 46), (39, 201, 63))):
+        _punto(d, 56 + i * 34, 52, 9, c)
+    _texto(d, (470, 52), params.get("titulo", "automatizacion.py"), font("Medium", 26), (150, 170, 205), 1.0)
+    lineas = params["lineas"]
+    f = _fuente_mono(30)
+    escritos = int(sum(len(x) for x in lineas) * min(1.0, p / 0.8))
+    y, ultimo = 130, None
+    for ln in lineas:
+        mostrar = ln[:max(0, min(len(ln), escritos))]
+        escritos -= len(ln)
+        if not mostrar:
+            break
+        color = BLANCO
+        if ln.startswith(("$", ">")):
+            color = AZUL_CLARO
+        elif ln.startswith("[OK]"):
+            color = (60, 220, 130)
+        elif ln.startswith("[!]"):
+            color = NARANJA
+        _texto(d, (56, y), mostrar, f, color, 1.0, "lm")
+        ultimo = (mostrar, y)
+        y += 52
+    if ultimo and int(t * 2.5) % 2 == 0:
+        x = 56 + f.getlength(ultimo[0]) / S + 6
+        _rect(d, x, ultimo[1] - 16, x + 16, ultimo[1] + 16, BLANCO + (255,))
+    return _salida(im)
+
+
+TIPOS = ("flujo", "barras", "tarjeta", "resumen", "pasos", "dato", "mito", "linea", "comparar", "bits", "terminal")
 
 
 def grafico(tipo, params, t, dur):
@@ -428,4 +473,6 @@ def grafico(tipo, params, t, dur):
         return _comparar(t, dur, params)
     if tipo == "bits":
         return _bits(t, dur, params)
+    if tipo == "terminal":
+        return _terminal(t, dur, params)
     raise ValueError(f"Tipo de gráfico desconocido: {tipo}")

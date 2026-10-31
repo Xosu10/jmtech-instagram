@@ -1,0 +1,101 @@
+{
+ "id": "idea_222",
+ "idea": 222,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: un formulario web que avisa a tu equipo al instante",
+ "titulo_pantalla": "Automatiza esto: formulario web con avisos",
+ "escenas": [
+  {
+   "texto": "¿Te llegan solicitudes de clientes y tardas en verlas? Pueden avisarte al instante.",
+   "imagen": "integracion_sistemas_aislado_01.png"
+  },
+  {
+   "texto": "Cuando alguien rellena tu formulario, se guarda en una base de datos, avisa al responsable y el cliente recibe confirmación.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "formulario.py",
+    "lineas": [
+     "> Nueva solicitud web recibida",
+     "[OK] Guardada en la base de datos",
+     "> Avisando al responsable",
+     "[OK] Correo enviado",
+     "[OK] Respuesta automática al cliente"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, una solicitud se podía perder. Ahora no se pierde ninguna.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Solicitudes en el correo",
+      "Se pierden o se ven tarde",
+      "Sin confirmar al cliente"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Todo en una base de datos",
+      "Aviso inmediato",
+      "Confirmación al cliente"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Diseñamos tu formulario, lo conectamos con una base de datos, y programamos los avisos.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Diseñamos tu formulario",
+     "Lo conectamos a una base de datos",
+     "Programamos los avisos"
+    ]
+   }
+  },
+  {
+   "texto": "Y tus clientes notan una respuesta mucho más profesional.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Una aplicación web",
+    "acento": "azul",
+    "puntos": [
+     "Ninguna solicitud se pierde",
+     "Respuesta inmediata",
+     "Imagen más profesional"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu negocio pierde tiempo así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Ninguna solicitud se pierde",
+  "Respuesta inmediata",
+  "Imagen más profesional"
+ ],
+ "invitacion": "¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#web"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "id": "idea_203",
+ "idea": 203,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: resumir los gastos del mes desde el extracto del banco",
+ "titulo_pantalla": "Automatiza esto: resumen de gastos del mes",
+ "escenas": [
+  {
+   "texto": "¿Sabes en qué se va tu dinero cada mes? Un programa puede decírtelo.",
+   "imagen": "empresa_software_medida_aislado_01.png"
+  },
+  {
+   "texto": "El programa lee el archivo de tu banco, clasifica los gastos por categorías y te prepara un resumen con gráficos.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "gastos_mes.py",
+    "lineas": [
+     "> Leyendo extracto del banco...",
+     "[OK] 214 movimientos",
+     "> Clasificando por categorías",
+     "[OK] Informe creado: gastos.xlsx",
+     "[!] Suscripciones repetidas: 3"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, saber tus gastos era una tarde de trabajo. Ahora es un clic.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Mirar el extracto línea a línea",
+      "Sumar a mano en una hoja",
+      "Sin visión clara del mes"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Gastos clasificados solos",
+      "Gráficos claros",
+      "Detecta suscripciones repetidas"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Lo hacemos así: tú nos das un extracto de ejemplo, creamos las categorías a tu gusto, y el programa genera el informe.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Nos das un extracto de ejemplo",
+     "Definimos tus categorías",
+     "El programa crea el informe"
+    ]
+   }
+  },
+  {
+   "texto": "Y todo se queda en tu ordenador: tus datos del banco no se suben a ningún sitio.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Un programa local",
+    "acento": "azul",
+    "puntos": [
+     "Informe mensual al instante",
+     "Tus datos no salen de tu PC",
+     "Detecta gastos repetidos"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes una tarea así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Informe mensual al instante",
+  "Tus datos no salen de tu PC",
+  "Detecta gastos repetidos"
+ ],
+ "invitacion": "¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#finanzaspersonales"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

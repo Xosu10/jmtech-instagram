@@ -1,0 +1,101 @@
+{
+ "id": "idea_210",
+ "idea": 210,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: un panel sencillo del presupuesto de tu hogar",
+ "titulo_pantalla": "Automatiza esto: panel del presupuesto del hogar",
+ "escenas": [
+  {
+   "texto": "¿Quieres controlar el presupuesto de casa sin complicarte? Un panel a medida.",
+   "imagen": "empresa_software_profesional_aislado_01.png"
+  },
+  {
+   "texto": "Una pequeña página web local junta tus ingresos y gastos y te muestra, de un vistazo, cuánto te queda.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "panel_hogar",
+    "lineas": [
+     "> Cargando datos del mes...",
+     "[OK] Ingresos y gastos",
+     "> Calculando lo que queda",
+     "[OK] Panel actualizado",
+     "[!] Vas por encima en ocio"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, hacías cuentas. Ahora tienes un panel.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Hojas sueltas",
+      "Cuentas poco claras",
+      "Sorpresas a fin de mes"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Todo en un panel",
+      "Gráficos claros",
+      "Alertas de gasto"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Primero definimos tus categorías, después creamos el panel web, y se actualiza con tus datos.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Definimos tus categorías",
+     "Creamos el panel web",
+     "Se actualiza con tus datos"
+    ]
+   }
+  },
+  {
+   "texto": "Y funciona en tu casa, sin cuentas ni suscripciones.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Una aplicación web local",
+    "acento": "azul",
+    "puntos": [
+     "Todo de un vistazo",
+     "Sin suscripciones",
+     "Tus datos en tu casa"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes una tarea así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Todo de un vistazo",
+  "Sin suscripciones",
+  "Tus datos en tu casa"
+ ],
+ "invitacion": "¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#presupuesto"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

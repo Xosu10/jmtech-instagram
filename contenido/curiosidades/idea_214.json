@@ -1,0 +1,101 @@
+{
+ "id": "idea_214",
+ "idea": 214,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: correos personalizados enviados en bloque",
+ "titulo_pantalla": "Automatiza esto: correos personalizados en bloque",
+ "escenas": [
+  {
+   "texto": "¿Escribes los mismos correos a muchos clientes? Se pueden personalizar y enviar solos.",
+   "imagen": "integracion_sistemas_aislado_01.png"
+  },
+  {
+   "texto": "El programa toma tu lista de clientes, personaliza cada mensaje con su nombre y lo envía a la hora que tú decidas.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "correos.py",
+    "lineas": [
+     "> Leyendo lista de clientes...",
+     "[OK] 120 contactos con permiso",
+     "> Personalizando cada mensaje",
+     "[OK] 120 correos listos",
+     "[OK] Envío programado 9:00"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, cada correo era un trabajo. Ahora es uno solo para todos.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Copiar y pegar nombres",
+      "Errores en los datos",
+      "Mucho tiempo"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Cada mensaje personalizado",
+      "Sin errores de datos",
+      "Envío a la hora elegida"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Creamos tu plantilla, la conectamos con tu lista, y programamos el envío.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Creamos tu plantilla",
+     "La conectamos con tu lista",
+     "Programamos el envío"
+    ]
+   }
+  },
+  {
+   "texto": "Eso sí: solo a personas que han dado su permiso, como exige la ley.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Una herramienta a medida",
+    "acento": "azul",
+    "puntos": [
+     "Menos trabajo repetitivo",
+     "Mensajes más cercanos",
+     "Siempre con consentimiento"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu negocio pierde tiempo así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Menos trabajo repetitivo",
+  "Mensajes más cercanos",
+  "Siempre con consentimiento"
+ ],
+ "invitacion": "¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#emailmarketing"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

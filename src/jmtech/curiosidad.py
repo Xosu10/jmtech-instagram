@@ -59,7 +59,7 @@ def cargar_espec(ruta) -> dict:
 def problemas_espec(e: dict) -> list[str]:
     """Comprobaciones del guion y de la descripción antes de montar el vídeo."""
     fallos = []
-    for k in ("id", "titulo", "titulo_pantalla", "escenas", "fuentes"):
+    for k in ("id", "titulo", "titulo_pantalla", "escenas") + (() if e.get("serie") else ("fuentes",)):
         if not e.get(k):
             fallos.append(f"falta «{k}»")
     if not e.get("descripcion") and not e.get("puntos"):
@@ -101,16 +101,17 @@ def hashtags_de(e: dict) -> list[str]:
 def descripcion_de(e: dict) -> str:
     """Texto de la publicación generado con los puntos clave del vídeo."""
     emoji = e.get("emoji", "💡")
-    invitacion = INVITACIONES[sum(map(ord, e["id"])) % len(INVITACIONES)]
+    invitacion = e.get("invitacion") or INVITACIONES[sum(map(ord, e["id"])) % len(INVITACIONES)]
     puntos = "\n".join(f"• {p}" for p in e["puntos"])
     return f"{e['titulo']} {emoji}\n\n{puntos}\n\n{invitacion}"
 
 
 def construir_descripcion(e: dict) -> str:
-    fuentes = "\n".join(f"• {f}" for f in e["fuentes"])
+    fuentes = "\n".join(f"• {f}" for f in e.get("fuentes", []))
+    cabecera_fuentes = "📚 Fuentes consultadas:" if fuentes else "ℹ️ Ejemplo ilustrativo de lo que podemos automatizar: cada caso se estudia por separado."
     etiquetas = " ".join(h if h.startswith("#") else f"#{h}" for h in hashtags_de(e))
     return (f"{e.get('descripcion') or descripcion_de(e)}\n\n"
-            f"📚 Fuentes consultadas:\n{fuentes}\n\n"
+            f"{cabecera_fuentes}\n{fuentes}\n\n"
             "🎙️ Voz generada con IA. Imágenes ilustrativas.\n"
             "🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.\n\n"
             f"{etiquetas}")
@@ -246,10 +247,11 @@ def _dibujar_escena(fr, e, rel, alfa):
         _componer_imagen(fr, *e["imagen"], rel, e["dur"], alfa)
 
 
-def _tarjeta_final():
+def _tarjeta_final(lineas=None):
     capa = Image.new("RGBA", (W, CAJA[1]), (0, 0, 0, 0))
     y = 90
-    for texto, tam, color in (("Más curiosidades de informática", 54, BLANCO), ("Lunes, miércoles y viernes", 38, (170, 188, 218))):
+    a, b = lineas or ("Más curiosidades de informática", "Lunes, miércoles y viernes")
+    for texto, tam, color in ((a, 54, BLANCO), (b, 38, (170, 188, 218))):
         t = _capa_texto(texto, font("Bold" if tam > 40 else "Medium", tam), color)
         capa.alpha_composite(t, ((W - t.width) // 2, y))
         y += 90
@@ -384,7 +386,7 @@ def generar_video(espec, salida, musica=None, inicio_musica=10.0, sintetizador=s
         esc = e["esc"]
         e["imagen"] = _imagen_escena(imagen_de_escena(esc, espec["id"])[0]) if esc.get("imagen") and not esc.get("grafico") else None
         e["capas"] = [[_capa_trozo(tr, k) for k in range(len(tr))] for tr in e["trozos"]]
-    final = _tarjeta_final()
+    final = _tarjeta_final(espec.get("cierre_lineas"))
 
     cmd = [_ffmpeg(), "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
            "-i", str(audio), "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-profile:v", "high", "-level", "4.1",

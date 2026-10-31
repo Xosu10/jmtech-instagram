@@ -1,0 +1,101 @@
+{
+ "id": "idea_221",
+ "idea": 221,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: archivar solas las facturas que recibes por correo",
+ "titulo_pantalla": "Automatiza esto: facturas archivadas solas",
+ "escenas": [
+  {
+   "texto": "¿Recibes facturas por correo y las archivas una a una? Se pueden archivar solas.",
+   "imagen": "empresa_software_seguridad_aislado_01.png"
+  },
+  {
+   "texto": "El programa revisa el correo, reconoce cada factura, la guarda por proveedor y fecha, y avisa a tu gestoría.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "archivar_facturas.py",
+    "lineas": [
+     "> Revisando el correo...",
+     "[OK] 27 facturas recibidas",
+     "> Leyendo proveedor y fecha",
+     "[OK] Guardadas por proveedor",
+     "[OK] Resumen enviado a gestoría"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, el cierre de mes era buscar facturas. Ahora ya están ordenadas.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Descargar una a una",
+      "Guardar donde toca",
+      "Se pierde alguna"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Descarga automática",
+      "Guardada por proveedor",
+      "Nada se pierde"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Vemos cómo recibes las facturas, creamos las reglas de archivo, y las dejamos funcionando.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Vemos cómo recibes las facturas",
+     "Creamos las reglas",
+     "Lo dejamos funcionando"
+    ]
+   }
+  },
+  {
+   "texto": "Y tu gestoría recibe todo ordenado.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Una herramienta a medida",
+    "acento": "azul",
+    "puntos": [
+     "Cierres de mes más rápidos",
+     "Nada se pierde",
+     "Gestoría contenta"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu negocio pierde tiempo así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Cierres de mes más rápidos",
+  "Nada se pierde",
+  "Gestoría contenta"
+ ],
+ "invitacion": "¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#gestion"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

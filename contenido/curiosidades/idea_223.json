@@ -1,0 +1,101 @@
+{
+ "id": "idea_223",
+ "idea": 223,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: un registro horario sencillo con panel para tu equipo",
+ "titulo_pantalla": "Automatiza esto: registro horario con panel",
+ "escenas": [
+  {
+   "texto": "¿Llevas el registro de jornada en papel o en una hoja? Se puede hacer más simple.",
+   "imagen": "empresa_software_profesional_aislado_01.png"
+  },
+  {
+   "texto": "Cada persona marca su entrada y su salida, y un panel muestra las horas por persona y por mes.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "registro_horario",
+    "lineas": [
+     "> Entrada registrada: 08:02",
+     "[OK] Salida registrada: 16:05",
+     "> Calculando horas de la semana",
+     "[OK] Panel actualizado",
+     "[OK] Informe mensual listo"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, cerrar el mes llevaba un rato. Ahora tienes el informe listo.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Firmas en papel",
+      "Cálculos a mano",
+      "Informes lentos"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Marcas desde el móvil o el PC",
+      "Horas calculadas solas",
+      "Informe mensual al instante"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Hablamos contigo de cómo trabaja tu equipo, creamos el panel, y lo dejamos a punto.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Hablamos de cómo trabaja tu equipo",
+     "Creamos el panel",
+     "Lo dejamos a punto"
+    ]
+   }
+  },
+  {
+   "texto": "Sirve de apoyo, y conviene consultar con tu gestoría cómo cumplir la normativa.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Una aplicación web",
+    "acento": "azul",
+    "puntos": [
+     "Registro más sencillo",
+     "Informes automáticos",
+     "Menos papeleo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu negocio pierde tiempo así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Registro más sencillo",
+  "Informes automáticos",
+  "Menos papeleo"
+ ],
+ "invitacion": "¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#gestion"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

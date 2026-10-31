@@ -1,0 +1,101 @@
+{
+ "id": "idea_205",
+ "idea": 205,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: convertir y renombrar cientos de archivos de golpe",
+ "titulo_pantalla": "Automatiza esto: renombrar y convertir en lote",
+ "escenas": [
+  {
+   "texto": "¿Tienes que renombrar o convertir cientos de archivos? Se puede hacer de golpe.",
+   "imagen": "programa_local_aislado_01.png"
+  },
+  {
+   "texto": "Un programa recorre la carpeta, convierte todos los archivos al formato que quieres y los renombra con un orden claro.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "convertir_lote.py",
+    "lineas": [
+     "> Leyendo carpeta 'Vídeos móvil'",
+     "[OK] 86 archivos",
+     "> Convirtiendo a formato ligero",
+     "[OK] 86 archivos convertidos",
+     "[OK] Renombrados por fecha"
+    ]
+   }
+  },
+  {
+   "texto": "Lo que antes llevaba una tarde, ahora lleva unos minutos.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Archivo por archivo",
+      "Nombres sin sentido",
+      "Una tarde entera"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Todo de golpe",
+      "Nombres claros por fecha",
+      "Unos minutos"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Nos dices qué formato necesitas, creamos el programa, y lo usas con un solo clic.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Nos dices qué formato necesitas",
+     "Creamos el programa",
+     "Lo usas con un solo clic"
+    ]
+   }
+  },
+  {
+   "texto": "Y lo puedes volver a usar siempre que quieras.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Un programa a tu medida",
+    "acento": "azul",
+    "puntos": [
+     "Cientos de archivos en minutos",
+     "Un clic y listo",
+     "Reutilizable siempre"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes una tarea así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Cientos de archivos en minutos",
+  "Un clic y listo",
+  "Reutilizable siempre"
+ ],
+ "invitacion": "¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#archivos"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

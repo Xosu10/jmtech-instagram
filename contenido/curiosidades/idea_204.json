@@ -1,0 +1,101 @@
+{
+ "id": "idea_204",
+ "idea": 204,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: un aviso cuando baja el precio de lo que quieres comprar",
+ "titulo_pantalla": "Automatiza esto: aviso de bajada de precio",
+ "escenas": [
+  {
+   "texto": "¿Quieres comprar algo y esperas a que baje? Un programa puede vigilarlo por ti.",
+   "imagen": "empresa_soporte_remoto_aislado_02.png"
+  },
+  {
+   "texto": "El programa consulta la web cada cierto tiempo, compara con el límite que tú fijas y te avisa en cuanto se cumple.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "vigilar_precio.py",
+    "lineas": [
+     "> Consultando la tienda...",
+     "[OK] Precio actual leído",
+     "> Comparando con tu límite",
+     "[!] ¡Ha bajado de tu límite!",
+     "[OK] Aviso enviado al móvil"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, eras tú quien vigilaba. Ahora vigila el programa.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Entrar cada día a mirar",
+      "Perder la oportunidad",
+      "Olvidarte del producto"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Vigila por ti, sin descanso",
+      "Aviso al móvil al instante",
+      "Tú fijas el límite"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Primero eliges el producto y tu límite, después creamos el vigilante, y por último te llega el aviso.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Eliges producto y límite",
+     "Creamos el vigilante",
+     "Te llega el aviso al móvil"
+    ]
+   }
+  },
+  {
+   "texto": "Así no tienes que estar pendiente, y compras cuando de verdad te conviene.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Un script con avisos",
+    "acento": "azul",
+    "puntos": [
+     "Compras en el mejor momento",
+     "Sin mirar la web cada día",
+     "Avisos a tu gusto"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes una tarea así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Compras en el mejor momento",
+  "Sin mirar la web cada día",
+  "Avisos a tu gusto"
+ ],
+ "invitacion": "¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#compras"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

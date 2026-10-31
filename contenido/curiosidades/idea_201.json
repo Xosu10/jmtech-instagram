@@ -1,0 +1,101 @@
+{
+ "id": "idea_201",
+ "idea": 201,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: ordenar tus fotos y descargas sin tocar nada",
+ "titulo_pantalla": "Automatiza esto: fotos y descargas ordenadas",
+ "escenas": [
+  {
+   "texto": "¿Tienes miles de fotos y descargas sin ordenar? Esto se puede automatizar.",
+   "imagen": "empresa_script_aislado_01.png"
+  },
+  {
+   "texto": "Un pequeño programa revisa tus carpetas, ordena las fotos por fecha y avisa de las que están duplicadas.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "ordenar_fotos.py",
+    "lineas": [
+     "> Buscando fotos nuevas...",
+     "[OK] 1.248 fotos encontradas",
+     "> Ordenando por fecha y lugar",
+     "[OK] 12 carpetas creadas",
+     "[!] 3 duplicadas, revisadas"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, encontrar una foto era una búsqueda. Ahora cada cosa aparece en su sitio.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Carpetas desordenadas",
+      "Fotos duplicadas",
+      "Buscar lleva un rato"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Todo ordenado por fecha",
+      "Duplicados detectados",
+      "Lo encuentras al momento"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Lo hacemos en tres pasos: nos cuentas cómo quieres tus carpetas, creamos el script a tu medida, y se ejecuta solo cada día.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Nos cuentas cómo quieres tus carpetas",
+     "Creamos el script a tu medida",
+     "Se ejecuta solo cada día"
+    ]
+   }
+  },
+  {
+   "texto": "Y tú ganas tiempo y tranquilidad: no vuelves a ordenar a mano.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Un script en Python",
+    "acento": "azul",
+    "puntos": [
+     "No vuelves a ordenar a mano",
+     "Funciona en tu propio PC",
+     "Tus fotos no salen de tu equipo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes una tarea así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "No vuelves a ordenar a mano",
+  "Funciona en tu propio PC",
+  "Tus fotos no salen de tu equipo"
+ ],
+ "invitacion": "¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#fotos"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

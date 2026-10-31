@@ -1,0 +1,101 @@
+{
+ "id": "idea_211",
+ "idea": 211,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: unir y ordenar tus PDF y documentos escaneados",
+ "titulo_pantalla": "Automatiza esto: PDF unidos y ordenados",
+ "escenas": [
+  {
+   "texto": "¿Tienes papeles escaneados por todas partes? Se pueden unir y ordenar solos.",
+   "imagen": "empresa_instalacion_programas_aislado_01.png"
+  },
+  {
+   "texto": "El programa lee los documentos que escaneas, los une por tipo y fecha, y les pone un nombre claro.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "ordenar_pdf.py",
+    "lineas": [
+     "> Leyendo carpeta 'Escáner'...",
+     "[OK] 53 archivos",
+     "> Uniendo por tipo y fecha",
+     "[OK] 8 PDF finales",
+     "[OK] Nombres claros"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, cada papel era un archivo perdido. Ahora, cada cosa está en su sitio.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "PDF sueltos y sin nombre",
+      "Unir uno a uno",
+      "Buscar es lento"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "PDF agrupados por tipo",
+      "Nombres claros",
+      "Se encuentran al instante"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Nos cuentas cómo quieres tus carpetas, creamos las reglas, y cada documento nuevo se ordena solo.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Nos cuentas tus carpetas",
+     "Creamos las reglas",
+     "Cada documento se ordena solo"
+    ]
+   }
+  },
+  {
+   "texto": "Así tu archivo en casa funciona sin que tengas que mantenerlo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Un script a tu medida",
+    "acento": "azul",
+    "puntos": [
+     "Documentos siempre ordenados",
+     "Búsquedas rápidas",
+     "Sin trabajo manual"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes una tarea así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Documentos siempre ordenados",
+  "Búsquedas rápidas",
+  "Sin trabajo manual"
+ ],
+ "invitacion": "¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#documentos"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

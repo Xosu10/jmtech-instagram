@@ -1,0 +1,101 @@
+{
+ "id": "idea_206",
+ "idea": 206,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: una app de la compra compartida con tu familia",
+ "titulo_pantalla": "Automatiza esto: lista de la compra compartida",
+ "escenas": [
+  {
+   "texto": "¿Cuántas veces has olvidado algo en el súper? Una app a medida lo soluciona.",
+   "imagen": "movil_transferencia_aislado_01.png"
+  },
+  {
+   "texto": "Todos añaden y marcan productos desde su móvil, y la lista se actualiza al instante en el resto de la familia.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "app_compra.apk",
+    "lineas": [
+     "> Añadir: leche",
+     "[OK] Sincronizado con la familia",
+     "> Marcar: pan",
+     "[OK] Lista actualizada en 3 móviles",
+     "[!] Falta: huevos"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, cada uno tenía su lista. Ahora hay una sola, siempre al día.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Mensajes sueltos",
+      "Se compra dos veces lo mismo",
+      "Se olvidan cosas"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Una lista para todos",
+      "Cambios al instante",
+      "Sin duplicados ni olvidos"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Primero pensamos qué necesita tu familia, después creamos la app para Android, y la instalamos en vuestros móviles.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Vemos qué necesita tu familia",
+     "Creamos la app para Android",
+     "La instalamos en vuestros móviles"
+    ]
+   }
+  },
+  {
+   "texto": "Es un ejemplo sencillo, pero la misma idea sirve para tareas del hogar, viajes o reformas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Una app para Android",
+    "acento": "azul",
+    "puntos": [
+     "Una sola lista para todos",
+     "Cambios al instante",
+     "Hecha a vuestra medida"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes una tarea así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Una sola lista para todos",
+  "Cambios al instante",
+  "Hecha a vuestra medida"
+ ],
+ "invitacion": "¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#android"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

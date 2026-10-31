@@ -1,0 +1,101 @@
+{
+ "id": "idea_209",
+ "idea": 209,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: recordatorios para que no se te pase ningún vencimiento",
+ "titulo_pantalla": "Automatiza esto: recordatorios de vencimientos",
+ "escenas": [
+  {
+   "texto": "¿Seguro, ITV, impuestos? Un programa puede recordarte cada vencimiento.",
+   "imagen": "mantenimiento_software_aislado_01.png"
+  },
+  {
+   "texto": "Guardas tus fechas importantes una vez, y el programa te envía un aviso con la antelación que tú elijas.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "vencimientos.py",
+    "lineas": [
+     "> Revisando tus fechas...",
+     "[OK] 9 vencimientos registrados",
+     "[!] Seguro del coche: en 15 días",
+     "> Enviando aviso por correo",
+     "[OK] Aviso enviado"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, dependías de tu memoria. Ahora, de un aviso.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Fechas apuntadas en varios sitios",
+      "Te enteras tarde",
+      "Recargos por olvido"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Todo en un solo lugar",
+      "Aviso con antelación",
+      "Sin sustos"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Recogemos tus fechas, creamos los avisos a tu medida, y los recibes por correo o por mensaje.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Recogemos tus fechas",
+     "Creamos los avisos",
+     "Los recibes en tu móvil"
+    ]
+   }
+  },
+  {
+   "texto": "Nunca más te pasarás una fecha importante.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Un programa con avisos",
+    "acento": "azul",
+    "puntos": [
+     "Sin olvidos ni recargos",
+     "Avisos con la antelación que quieras",
+     "Todo en un solo lugar"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes una tarea así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Sin olvidos ni recargos",
+  "Avisos con la antelación que quieras",
+  "Todo en un solo lugar"
+ ],
+ "invitacion": "¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#recordatorios"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "id": "idea_212",
+ "idea": 212,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: un registro de las caídas de tu internet para reclamar",
+ "titulo_pantalla": "Automatiza esto: registro de caídas de internet",
+ "escenas": [
+  {
+   "texto": "¿Tu internet se cae y no puedes demostrarlo? Un programa lo puede registrar.",
+   "imagen": "empresa_diagnostico_dispositivos_aislado_01.png"
+  },
+  {
+   "texto": "El programa comprueba tu conexión a diario y anota cada caída con su hora y su duración.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "monitor_red.py",
+    "lineas": [
+     "> Comprobando conexión...",
+     "[OK] Conectado",
+     "[!] Sin conexión: 14:32",
+     "[OK] Recuperada: 14:41",
+     "> Informe guardado"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, decías que se caía. Ahora puedes enseñar cuándo y cuánto.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Sin pruebas de las caídas",
+      "Reclamar con palabras",
+      "Sin datos concretos"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Cada caída anotada",
+      "Horas y duración exactas",
+      "Informe para reclamar"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Primero lo instalamos en un equipo de casa, después registra la conexión, y te preparamos un informe claro.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Lo instalamos en tu equipo",
+     "Registra tu conexión",
+     "Te preparamos el informe"
+    ]
+   }
+  },
+  {
+   "texto": "Es un buen apoyo cuando quieres hablar con tu operador con datos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Un programa de vigilancia",
+    "acento": "azul",
+    "puntos": [
+     "Pruebas con fecha y hora",
+     "Informe fácil de enseñar",
+     "Funciona solo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes una tarea así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Pruebas con fecha y hora",
+  "Informe fácil de enseñar",
+  "Funciona solo"
+ ],
+ "invitacion": "¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#internet"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

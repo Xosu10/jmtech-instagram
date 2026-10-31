@@ -1,0 +1,101 @@
+{
+ "id": "idea_215",
+ "idea": 215,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: los pedidos de tu tienda online directos a una hoja de cálculo",
+ "titulo_pantalla": "Automatiza esto: pedidos online a hoja de cálculo",
+ "escenas": [
+  {
+   "texto": "¿Pasas los pedidos de tu tienda online a mano? Pueden llegar solos.",
+   "imagen": "migracion_pc_portatil_aislado_01.png"
+  },
+  {
+   "texto": "El programa consulta tu tienda, añade cada pedido nuevo a una hoja de cálculo y avisa al equipo de envíos.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "pedidos.py",
+    "lineas": [
+     "> Consultando la tienda online...",
+     "[OK] 18 pedidos nuevos",
+     "> Añadiendo a la hoja de pedidos",
+     "[OK] Hoja actualizada",
+     "[OK] Aviso al equipo de envíos"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, cada pedido era un copiar y pegar. Ahora llegan solos.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Copiar pedidos a mano",
+      "Errores de transcripción",
+      "Retrasos en los envíos"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Pedidos añadidos solos",
+      "Datos exactos",
+      "Envíos más rápidos"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Vemos cómo funciona tu tienda, conectamos los pedidos con tu hoja, y avisamos a quien corresponda.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Vemos cómo funciona tu tienda",
+     "Conectamos pedidos y hoja",
+     "Avisamos a quien corresponda"
+    ]
+   }
+  },
+  {
+   "texto": "Y tu equipo trabaja con datos al día, sin teclear nada.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Una integración a medida",
+    "acento": "azul",
+    "puntos": [
+     "Sin copiar pedidos",
+     "Menos errores",
+     "Envíos más ágiles"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu negocio pierde tiempo así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Sin copiar pedidos",
+  "Menos errores",
+  "Envíos más ágiles"
+ ],
+ "invitacion": "¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#ecommerce"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

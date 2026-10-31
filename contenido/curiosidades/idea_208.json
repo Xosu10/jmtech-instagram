@@ -1,0 +1,101 @@
+{
+ "id": "idea_208",
+ "idea": 208,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: tus podcasts descargados solos cada mañana",
+ "titulo_pantalla": "Automatiza esto: podcasts descargados solos",
+ "escenas": [
+  {
+   "texto": "¿Te gusta escuchar podcasts? Pueden estar descargados antes de que te levantes.",
+   "imagen": "empresa_kit_streaming_aislado_01.png"
+  },
+  {
+   "texto": "El programa revisa tus podcasts favoritos, descarga los episodios nuevos y borra los que ya has escuchado.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "podcasts.py",
+    "lineas": [
+     "> Revisando tus programas...",
+     "[OK] 4 episodios nuevos",
+     "> Descargando al móvil",
+     "[OK] Listos para escuchar",
+     "[OK] Borrados los ya oídos"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, preparabas tus podcasts a mano. Ahora te esperan.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Entrar a cada programa",
+      "Descargar uno a uno",
+      "Memoria llena de episodios viejos"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Descarga solo lo nuevo",
+      "Todo listo al despertar",
+      "Borra lo ya escuchado"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Nos dices tus programas, creamos el descargador, y se ejecuta solo cada mañana.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Nos dices tus programas",
+     "Creamos el descargador",
+     "Se ejecuta cada mañana"
+    ]
+   }
+  },
+  {
+   "texto": "Funciona con programas que ofrecen sus episodios de forma libre y pública.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Un script a tu medida",
+    "acento": "azul",
+    "puntos": [
+     "Siempre al día",
+     "Memoria bajo control",
+     "Sin abrir ninguna app"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes una tarea así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Siempre al día",
+  "Memoria bajo control",
+  "Sin abrir ninguna app"
+ ],
+ "invitacion": "¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#podcasts"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "id": "idea_224",
+ "idea": 224,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: sincronizar dos programas sin teclear los datos dos veces",
+ "titulo_pantalla": "Automatiza esto: dos programas sincronizados",
+ "escenas": [
+  {
+   "texto": "¿Metes los mismos datos en dos programas distintos? Se pueden sincronizar solos.",
+   "imagen": "integracion_sistemas_aislado_01.png"
+  },
+  {
+   "texto": "El programa detecta los cambios en un sistema y los copia al otro, siempre con un registro de lo que ha hecho.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "sincronizar.py",
+    "lineas": [
+     "> Leyendo cambios en el programa A",
+     "[OK] 15 clientes nuevos",
+     "> Actualizando el programa B",
+     "[OK] Datos sincronizados",
+     "[OK] Registro de cambios guardado"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, cada dato se escribía dos veces. Ahora, una.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Teclear dos veces",
+      "Datos distintos en cada sitio",
+      "Errores de copia"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Datos copiados solos",
+      "Siempre iguales en ambos",
+      "Registro de cambios"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Analizamos tus dos programas, creamos el conector, y probamos con datos reales.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Analizamos tus dos programas",
+     "Creamos el conector",
+     "Probamos con datos reales"
+    ]
+   }
+  },
+  {
+   "texto": "Y tu equipo deja de duplicar trabajo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Una integración a medida",
+    "acento": "azul",
+    "puntos": [
+     "Cada dato, una sola vez",
+     "Sin errores de copia",
+     "Todo al día en ambos sitios"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu negocio pierde tiempo así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Cada dato, una sola vez",
+  "Sin errores de copia",
+  "Todo al día en ambos sitios"
+ ],
+ "invitacion": "¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#integracion"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "id": "idea_216",
+ "idea": 216,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: un informe semanal que se envía solo",
+ "titulo_pantalla": "Automatiza esto: informe semanal automático",
+ "escenas": [
+  {
+   "texto": "¿Preparas un informe cada lunes con los mismos datos? Puede salir solo.",
+   "imagen": "mantenimiento_software_aislado_01.png"
+  },
+  {
+   "texto": "Cada semana, el programa recoge los datos, crea los gráficos y envía el informe a quien tú indiques.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "informe_semanal.py",
+    "lineas": [
+     "> Recogiendo datos de la semana...",
+     "[OK] Ventas y tareas cargadas",
+     "> Creando gráficos",
+     "[OK] Informe en PDF",
+     "[OK] Enviado a la dirección"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, el informe te ocupaba la mañana del lunes. Ahora llega a primera hora.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Recoger datos a mano",
+      "Gráficos uno a uno",
+      "Informe tarde"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Datos recogidos solos",
+      "Gráficos automáticos",
+      "Informe puntual"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Definimos qué datos necesitas, diseñamos el informe, y lo programamos para que salga solo.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Definimos qué datos necesitas",
+     "Diseñamos el informe",
+     "Lo programamos cada semana"
+    ]
+   }
+  },
+  {
+   "texto": "Y tú dedicas ese tiempo a decidir, no a preparar.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Un informe automático",
+    "acento": "azul",
+    "puntos": [
+     "Informe siempre puntual",
+     "Datos fiables",
+     "Horas liberadas cada semana"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu negocio pierde tiempo así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Informe siempre puntual",
+  "Datos fiables",
+  "Horas liberadas cada semana"
+ ],
+ "invitacion": "¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#informes"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

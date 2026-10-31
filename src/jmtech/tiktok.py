@@ -83,8 +83,10 @@ def _entradas_curiosidades(cola_dir, cfg):
     for p in plan:
         espec = cargar_espec(CARPETA_ESPECS / f"{p['id']}.json")
         v = cola.get(p["id"])
-        salida.append(dict(fecha=p["fecha"], hora=cfg["hora_curiosidad"], tipo="curiosidad", titulo=f"Curiosidad · {espec['titulo']}",
-                           base=f"{p['fecha']}_{cfg['hora_curiosidad'].replace(':', '')}_curiosidad_{slug(espec['titulo_pantalla'])}",
+        serie = espec.get("serie") == "automatizacion"
+        salida.append(dict(fecha=p["fecha"], hora=cfg["hora_curiosidad"], tipo="automatizacion" if serie else "curiosidad",
+                           titulo=(espec["titulo"] if serie else f"Curiosidad · {espec['titulo']}"),
+                           base=f"{p['fecha']}_{cfg['hora_curiosidad'].replace(':', '')}_{'automatiza' if serie else 'curiosidad'}_{slug(espec['titulo_pantalla'])}",
                            descripcion=a_tiktok(v["pie"] if v else construir_descripcion(espec)),
                            origen=(Path(cola_dir) / v["video"]) if v else None))
     return salida
@@ -152,7 +154,7 @@ main{max-width:980px;margin:0 auto;padding:16px}
 .tag{font-size:.75rem;font-weight:700;border-radius:999px;padding:2px 10px;background:var(--azul);color:#fff}.tag.man{background:var(--naranja)}
 .vacio{color:var(--muted);padding:18px;border:1px dashed var(--line);border-radius:12px}
 .card{background:var(--panel);border:1px solid var(--line);border-left:6px solid var(--azul);border-radius:14px;padding:14px 16px;margin:10px 0}
-.card.cur{border-left-color:var(--naranja)}.card.ya{border-left-color:var(--verde)}.card.hecho{opacity:.55}
+.card.cur{border-left-color:var(--naranja)}.card.aut{border-left-color:#8b5cf6}.aut .badge{background:#efe7ff;color:#6d3fe0}.card.ya{border-left-color:var(--verde)}.card.hecho{opacity:.55}
 .cab{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.badge{font-size:.75rem;font-weight:700;border-radius:8px;padding:2px 8px;background:var(--azul-bg);color:var(--azul)}
 .cur .badge{background:var(--naranja-bg);color:var(--naranja)}.ya .badge{background:var(--verde-bg);color:var(--verde)}
 .hora{font-weight:700}.titulo{font-weight:700;font-size:1.05rem;margin:6px 0 8px}
@@ -191,8 +193,8 @@ function copiar(texto,btn){
 }
 function viejo(t,fin){const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();try{document.execCommand('copy')}catch(e){}a.remove();fin()}
 function tarjeta(e){
-  const cls=e.tipo==='curiosidad'?'cur':(e.tipo==='reel_ya_en_instagram'?'ya':'');
-  const nombre={reel:'Reel diario',curiosidad:'Curiosidad',reel_ya_en_instagram:'Ya en Instagram'}[e.tipo];
+  const cls=e.tipo==='curiosidad'?'cur':(e.tipo==='automatizacion'?'aut':(e.tipo==='reel_ya_en_instagram'?'ya':''));
+  const nombre={reel:'Reel diario',curiosidad:'Curiosidad',automatizacion:'Automatiza esto',reel_ya_en_instagram:'Ya en Instagram'}[e.tipo];
   const d=document.createElement('div');d.className='card '+cls+(hechos.has(e.id)?' hecho':'');
   const hora=e.hora?('<span class="hora">'+e.hora+'</span>'):'';
   d.innerHTML='<div class="cab"><span class="badge">'+nombre+'</span>'+hora+'</div><div class="titulo">'+esc(e.titulo)+'</div>'+

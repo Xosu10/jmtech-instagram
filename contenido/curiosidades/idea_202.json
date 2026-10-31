@@ -1,0 +1,101 @@
+{
+ "id": "idea_202",
+ "idea": 202,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: una copia de seguridad que se hace sola cada día",
+ "titulo_pantalla": "Automatiza esto: copia de seguridad diaria",
+ "escenas": [
+  {
+   "texto": "¿Te acuerdas de hacer copia de seguridad? La mayoría, no. Se puede automatizar.",
+   "imagen": "datos_copia_seguridad_aislado_01.png"
+  },
+  {
+   "texto": "Un programa copia cada día solo lo que ha cambiado, en un disco externo, y te avisa cuando termina.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "copia_diaria.py",
+    "lineas": [
+     "> Buscando archivos cambiados...",
+     "[OK] 37 archivos nuevos",
+     "> Copiando al disco externo",
+     "[OK] Copia terminada",
+     "[OK] Aviso enviado a tu móvil"
+    ]
+   }
+  },
+  {
+   "texto": "Antes dependía de tu memoria. Ahora no depende de nadie.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Te olvidas de hacerla",
+      "Copias a mano y a veces",
+      "Sin avisos si falla"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Se hace sola cada día",
+      "Solo copia lo nuevo",
+      "Te avisa si algo falla"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Primero elegimos qué carpetas proteger, después programamos la copia, y por último te avisamos de cada resultado.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Elegimos qué carpetas proteger",
+     "Programamos la copia diaria",
+     "Recibes el aviso del resultado"
+    ]
+   }
+  },
+  {
+   "texto": "Así, si un día falla el disco, tus archivos importantes siguen a salvo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Un script programado",
+    "acento": "azul",
+    "puntos": [
+     "Tus archivos siempre protegidos",
+     "Sin acordarte de nada",
+     "Aviso si hay algún problema"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes una tarea así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Tus archivos siempre protegidos",
+  "Sin acordarte de nada",
+  "Aviso si hay algún problema"
+ ],
+ "invitacion": "¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#copiadeseguridad"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

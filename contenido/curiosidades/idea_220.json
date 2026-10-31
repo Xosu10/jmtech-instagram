@@ -1,0 +1,101 @@
+{
+ "id": "idea_220",
+ "idea": 220,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: copias de seguridad del negocio con aviso si algo falla",
+ "titulo_pantalla": "Automatiza esto: copias del negocio con aviso",
+ "escenas": [
+  {
+   "texto": "Si hoy se estropeara tu servidor, ¿tendrías copia de ayer? Se puede asegurar.",
+   "imagen": "datos_backup_recuperacion_aislado_01.png"
+  },
+  {
+   "texto": "Cada noche, el programa copia los datos del negocio, comprueba que la copia se puede leer y te avisa si algo falla.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "copias_negocio.py",
+    "lineas": [
+     "> Copiando datos del servidor...",
+     "[OK] Copia diaria completada",
+     "> Verificando la copia",
+     "[OK] Verificación correcta",
+     "[!] Aviso enviado si falla"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, descubrías que no había copia cuando ya hacía falta. Ahora lo sabes cada día.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Copias a mano",
+      "Sin saber si funcionan",
+      "Sorpresas el día del fallo"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Copia cada noche",
+      "Copia verificada",
+      "Aviso si falla"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Analizamos qué datos son críticos, programamos la copia, y probamos la recuperación.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Analizamos tus datos críticos",
+     "Programamos la copia",
+     "Probamos la recuperación"
+    ]
+   }
+  },
+  {
+   "texto": "Así, si algo sale mal, tu negocio sigue.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Una copia automática",
+    "acento": "azul",
+    "puntos": [
+     "Copia verificada cada día",
+     "Aviso inmediato si falla",
+     "Recuperación probada"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu negocio pierde tiempo así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Copia verificada cada día",
+  "Aviso inmediato si falla",
+  "Recuperación probada"
+ ],
+ "invitacion": "¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#backup"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

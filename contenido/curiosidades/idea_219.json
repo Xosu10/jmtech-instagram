@@ -1,0 +1,101 @@
+{
+ "id": "idea_219",
+ "idea": 219,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: comparar dos Excel y encontrar las diferencias sin errores",
+ "titulo_pantalla": "Automatiza esto: conciliar dos Excel",
+ "escenas": [
+  {
+   "texto": "¿Comparas dos listados a ojo para ver qué no cuadra? Un programa lo hace en segundos.",
+   "imagen": "datos_migracion_hdd_ssd_aislado_01.png"
+  },
+  {
+   "texto": "El programa carga los dos listados, los compara fila a fila y te enseña solo lo que no coincide.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "conciliar.py",
+    "lineas": [
+     "> Cargando inventario.xlsx",
+     "> Cargando facturas.xlsx",
+     "[OK] 1.940 filas comparadas",
+     "[!] 12 diferencias encontradas",
+     "[OK] Informe de diferencias creado"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, la revisión llevaba horas. Ahora lleva segundos.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Comparar a ojo",
+      "Errores sin ver",
+      "Horas de revisión"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Comparación fila a fila",
+      "Solo ves las diferencias",
+      "Resultado en segundos"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Nos enseñas tus dos listados, definimos qué debe coincidir, y creamos el comparador.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Nos enseñas tus dos listados",
+     "Definimos qué debe coincidir",
+     "Creamos el comparador"
+    ]
+   }
+  },
+  {
+   "texto": "Y los errores se descubren antes de que te cuesten dinero.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Un script a tu medida",
+    "acento": "azul",
+    "puntos": [
+     "Cero errores por cansancio",
+     "Revisión en segundos",
+     "Informe claro"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu negocio pierde tiempo así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Cero errores por cansancio",
+  "Revisión en segundos",
+  "Informe claro"
+ ],
+ "invitacion": "¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#excel"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

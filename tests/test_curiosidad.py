@@ -60,8 +60,10 @@ def test_cada_guion_pasa_las_comprobaciones(ruta):
 
 @pytest.mark.parametrize("ruta", ESPECS, ids=lambda r: r.stem)
 def test_la_descripcion_avisa_de_voz_ia_cita_fuentes_y_marca(ruta):
-    d = cur.construir_descripcion(cur.cargar_espec(ruta))
-    assert "Voz generada con IA" in d and "Fuentes consultadas" in d
+    e = cur.cargar_espec(ruta)
+    d = cur.construir_descripcion(e)
+    assert "Voz generada con IA" in d
+    assert ("Fuentes consultadas" in d) if e.get("fuentes") else ("Ejemplo ilustrativo" in d and e.get("serie") == "automatizacion")
     assert "sin compromiso" in d and "MD" in d and "Murcia" in d
     assert len(d) <= cur.MAX_DESCRIPCION
 
@@ -189,7 +191,7 @@ def test_la_curiosidad_no_bloquea_ni_es_bloqueada_por_la_publicacion_y_el_reel()
 
 def test_el_flujo_de_la_nube_coincide_con_el_calendario():
     texto = (RAIZ / ".github" / "workflows" / "publicar-curiosidad.yml").read_text(encoding="utf-8")
-    assert '"0 15 * * 1,3,5"' in texto and '"0 16 * * 1,3,5"' in texto
+    assert '"0 15 * * 1,2,3,5"' in texto and '"0 16 * * 1,2,3,5"' in texto
     assert cargar_config()["hora_curiosidad"] == "17:00"
 
 
@@ -202,7 +204,7 @@ def test_el_plan_tiene_una_ficha_por_dia_y_fechas_validas():
     from datetime import date
     fechas = [p["fecha"] for p in _plan()]
     assert len(set(fechas)) == len(fechas)
-    assert all(date.fromisoformat(f).weekday() in (0, 2, 4) for f in fechas)       # lunes, miércoles, viernes
+    assert all(date.fromisoformat(f).weekday() in (0, 1, 2, 4) for f in fechas)    # lunes, martes (serie), miércoles, viernes
     assert fechas == sorted(fechas)
     for p in _plan():
         assert (RAIZ / "contenido" / "curiosidades" / f"{p['id']}.json").exists(), p["id"]

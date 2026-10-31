@@ -1,0 +1,101 @@
+{
+ "id": "idea_218",
+ "idea": 218,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: una app para que tu equipo rellene partes de trabajo en el móvil",
+ "titulo_pantalla": "Automatiza esto: app de partes de trabajo",
+ "escenas": [
+  {
+   "texto": "¿Tu equipo apunta los partes de trabajo en papel? Una app los pasa al móvil.",
+   "imagen": "movil_transferencia_aislado_01.png"
+  },
+  {
+   "texto": "El técnico rellena el parte en el móvil, añade fotos y la oficina lo recibe al momento.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "app_partes.apk",
+    "lineas": [
+     "> Nuevo parte de trabajo",
+     "[OK] Cliente y tarea guardados",
+     "> Foto del trabajo añadida",
+     "[OK] Enviado a la oficina",
+     "[OK] Registrado en el sistema"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, el parte llegaba al día siguiente. Ahora llega al terminar.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Partes en papel",
+      "Información que llega tarde",
+      "Datos que se pierden"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Parte desde el móvil",
+      "Llega al momento",
+      "Todo registrado"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Vemos tu parte actual, creamos la app para Android, y la instalamos en los móviles del equipo.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Vemos tu parte actual",
+     "Creamos la app para Android",
+     "La instalamos en el equipo"
+    ]
+   }
+  },
+  {
+   "texto": "Y la oficina deja de teclear lo que ya está escrito.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Una app para Android",
+    "acento": "azul",
+    "puntos": [
+     "Menos papel",
+     "Información al momento",
+     "Sin pérdida de datos"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu negocio pierde tiempo así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Menos papel",
+  "Información al momento",
+  "Sin pérdida de datos"
+ ],
+ "invitacion": "¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#appandroid"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

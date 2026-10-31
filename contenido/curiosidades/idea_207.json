@@ -1,0 +1,101 @@
+{
+ "id": "idea_207",
+ "idea": 207,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: el mantenimiento semanal de tu PC sin hacer nada",
+ "titulo_pantalla": "Automatiza esto: mantenimiento del PC",
+ "escenas": [
+  {
+   "texto": "¿Tu PC se va haciendo más lento? Parte del mantenimiento se puede automatizar.",
+   "imagen": "windows_optimizacion_aislado_01.png"
+  },
+  {
+   "texto": "Cada semana, un programa libera archivos temporales, comprueba las actualizaciones y te deja un pequeño informe.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "mantenimiento.py",
+    "lineas": [
+     "> Limpiando archivos temporales...",
+     "[OK] 3,4 GB liberados",
+     "> Buscando actualizaciones",
+     "[OK] Todo al día",
+     "[OK] Informe guardado"
+    ]
+   }
+  },
+  {
+   "texto": "Antes lo hacías cuando ya iba mal. Ahora se hace antes de que vaya mal.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Te acuerdas cuando va lento",
+      "Mantenimiento a ratos",
+      "Cosas sin actualizar"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Se hace solo cada semana",
+      "Siempre libre de basura",
+      "Actualizado y revisado"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Elegimos qué tareas quieres, las programamos para un día fijo, y recibes un informe breve al terminar.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Elegimos las tareas que quieres",
+     "Las programamos cada semana",
+     "Recibes un informe breve"
+    ]
+   }
+  },
+  {
+   "texto": "Es un mantenimiento ligero que no sustituye una limpieza a fondo, pero ayuda mucho.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Un script programado",
+    "acento": "azul",
+    "puntos": [
+     "PC más ágil",
+     "Sin acordarte de nada",
+     "Informe de cada revisión"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tienes una tarea así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "PC más ágil",
+  "Sin acordarte de nada",
+  "Informe de cada revisión"
+ ],
+ "invitacion": "¿Tienes una tarea repetitiva así? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#mantenimiento"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}

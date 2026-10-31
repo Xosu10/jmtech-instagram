@@ -1,0 +1,101 @@
+{
+ "id": "idea_217",
+ "idea": 217,
+ "serie": "automatizacion",
+ "titulo": "Automatiza esto: un panel web con el stock de tu negocio al día",
+ "titulo_pantalla": "Automatiza esto: panel web de stock",
+ "escenas": [
+  {
+   "texto": "¿Cuánto stock tienes de verdad? Un panel web te lo dice al momento.",
+   "imagen": "empresa_software_profesional_aislado_01.png"
+  },
+  {
+   "texto": "El panel muestra tu inventario en tiempo real y te señala los productos que están por debajo del mínimo.",
+   "grafico": "terminal",
+   "params": {
+    "titulo": "stock_panel",
+    "lineas": [
+     "> Leyendo inventario...",
+     "[OK] 320 referencias",
+     "> Comprobando mínimos",
+     "[!] 6 productos por reponer",
+     "[OK] Panel actualizado"
+    ]
+   }
+  },
+  {
+   "texto": "Antes, el stock era una foto vieja. Ahora es un panel en vivo.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "A mano",
+     "puntos": [
+      "Contar a mano",
+      "Datos desfasados",
+      "Roturas de stock"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Después",
+     "titulo": "Automático",
+     "puntos": [
+      "Inventario en tiempo real",
+      "Alertas de mínimos",
+      "Menos roturas de stock"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Partimos de tu inventario actual, creamos el panel web, y lo conectamos con tus ventas.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Partimos de tu inventario",
+     "Creamos el panel web",
+     "Lo conectamos a tus ventas"
+    ]
+   }
+  },
+  {
+   "texto": "Y puedes mirarlo desde el ordenador o desde el móvil.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué conseguimos",
+    "titulo": "Una aplicación web",
+    "acento": "azul",
+    "puntos": [
+     "Stock siempre al día",
+     "Avisos de reposición",
+     "Visible desde el móvil"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu negocio pierde tiempo así? Cuéntanos tu caso por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚙️",
+ "puntos": [
+  "Stock siempre al día",
+  "Avisos de reposición",
+  "Visible desde el móvil"
+ ],
+ "invitacion": "¿Tu negocio pierde tiempo con esto? Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso. 📍 Servicio en Murcia.",
+ "hashtags": [
+  "#automatizacion",
+  "#python",
+  "#productividad",
+  "#murcia",
+  "#jmtech",
+  "#inventario"
+ ],
+ "cierre_lineas": [
+  "Automatizamos lo repetitivo",
+  "Scripts, apps web y apps Android a medida"
+ ]
+}
