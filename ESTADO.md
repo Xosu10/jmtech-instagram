@@ -1,16 +1,17 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-10-31 14:32 (hora de Madrid)_
+_Actualizado: 2026-10-31 15:27 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 1
-- Última: 2026-10-31 · https://www.instagram.com/p/DfKRXuBAUqQ/
+- Publicaciones hechas: 2
+- Última: 2026-10-31 · https://www.instagram.com/p/DfKXxUWmBHV/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
-| 2026-10-31 (prueba) | Tu PC montado por profesionales | B | 0 min | https://www.instagram.com/p/DfKRXuBAUqQ/ |
+| 2026-10-31 (fuera de calendario) | Servicio técnico en remoto | A | 0 min | https://www.instagram.com/p/DfKXxUWmBHV/ |
+| 2026-10-31 (fuera de calendario) | Tu PC montado por profesionales | B | 0 min | https://www.instagram.com/p/DfKRXuBAUqQ/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
