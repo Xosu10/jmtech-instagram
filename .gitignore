@@ -31,3 +31,6 @@ ADDENDUM_ASSETS.md
 
 # Ficheros temporales del publicador
 .pendiente*.json
+
+# Reels generados
+salida_reels/

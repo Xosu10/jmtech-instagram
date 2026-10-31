@@ -1,0 +1,77 @@
+name: Publicar un reel
+
+# Solo a mano. Genera un reel (texto + asset animados + musica) o usa un video ya subido al repositorio
+# y lo publica en Instagram. Por defecto es PRUEBA EN SECO.
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Prueba en seco (NO publica en Instagram)"
+        type: boolean
+        default: true
+      tema:
+        description: "Tema (id), por ejemplo: tarjeta_grafica"
+        type: string
+        default: "tarjeta_grafica"
+      asset:
+        description: "Archivo del catalogo, por ejemplo: gpu_triple_ventilador_aislado_01.png"
+        type: string
+        default: ""
+      video:
+        description: "Video ya subido al repositorio (ruta), por ejemplo: publicaciones/reels/mi_reel.mp4. Vacio = se genera"
+        type: string
+        default: ""
+
+concurrency:
+  group: publicar-instagram
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  PYTHONPATH: src
+  TZ: Europe/Madrid
+
+jobs:
+  reel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Comprobar ffmpeg
+        run: ffmpeg -version | head -1
+
+      - name: Crear y publicar el reel
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          TEMA: ${{ inputs.tema }}
+          ASSET: ${{ inputs.asset }}
+          VIDEO: ${{ inputs.video }}
+        run: |
+          args=(reel --tema "$TEMA")
+          [ -n "$ASSET" ] && args+=(--asset "$ASSET")
+          [ -n "$VIDEO" ] && args+=(--video "$VIDEO")
+          [ "$DRY_RUN" = "true" ] && args+=(--dry-run)
+          python -m jmtech.publicador "${args[@]}"
+
+      - name: Guardar el estado
+        if: always() && inputs.dry_run != true
+        run: |
+          git config user.name "JM TECH bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add estado ESTADO.md
+          git diff --cached --quiet || git commit -m "chore: estado de las publicaciones (reel)"
+          git pull --rebase origin main
+          git push origin HEAD:main

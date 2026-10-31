@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import re
 import time
+from pathlib import Path
 
 import requests
 
@@ -135,3 +136,44 @@ class ClienteInstagram:
 
     def publicar(self, contenedor):
         return self._llamar("POST", f"{self.ig}/media_publish", creation_id=contenedor)["id"]
+
+    # --- reels ---
+    def crear_contenedor_reel(self, caption, video_url=None, resumable=False, thumb_offset=3000):
+        datos = {"media_type": "REELS", "caption": caption, "share_to_feed": "true", "thumb_offset": str(thumb_offset)}
+        if video_url:
+            datos["video_url"] = video_url
+        if resumable:
+            datos["upload_type"] = "resumable"
+        return self._llamar("POST", f"{self.ig}/media", reintentos=3, **datos)
+
+    def subir_video(self, contenedor, ruta, uri=None):
+        """Subida directa del vídeo a Instagram (sin tener que alojarlo en una dirección pública)."""
+        contenido = Path(ruta).read_bytes()
+        url = uri or f"https://rupload.facebook.com/ig-api-upload/{VERSION_API}/{contenedor}"
+        cabeceras = {"Authorization": f"OAuth {self.token}", "offset": "0", "file_size": str(len(contenido))}
+        try:
+            r = self.sesion.post(url, headers=cabeceras, data=contenido, timeout=600)
+        except requests.RequestException as e:
+            raise ErrorInstagram("No se pudo subir el vídeo a Instagram.", tecnico=ocultar(e, self.token), temporal=True)
+        try:
+            cuerpo = r.json()
+        except ValueError:
+            cuerpo = None
+        if r.status_code >= 400 or not (isinstance(cuerpo, dict) and cuerpo.get("success")):
+            if isinstance(cuerpo, dict) and "error" in cuerpo:
+                raise traducir_error(cuerpo, r.status_code, self.token)
+            raise ErrorInstagram("Instagram no aceptó la subida del vídeo.", tecnico=ocultar(f"HTTP {r.status_code} {cuerpo}", self.token))
+
+    def publicar_reel(self, ruta_video, caption, video_url=None, thumb_offset=3000):
+        """Crea, sube, espera y publica un reel. Devuelve el id del contenido publicado."""
+        try:
+            d = self.crear_contenedor_reel(caption, resumable=True, thumb_offset=thumb_offset)
+            contenedor = d["id"]
+            self.subir_video(contenedor, ruta_video, d.get("uri"))
+        except ErrorInstagram as e:
+            if not video_url:
+                raise
+            print(f"AVISO: la subida directa del vídeo falló ({e.tecnico or e}); se usa la dirección pública.")
+            contenedor = self.crear_contenedor_reel(caption, video_url=video_url, thumb_offset=thumb_offset)["id"]
+        self.esperar_listo(contenedor, maximo_s=600, cada_s=15)
+        return self.publicar(contenedor)

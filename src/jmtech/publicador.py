@@ -228,6 +228,52 @@ def publicar(pend, *, dry_run=False, cliente=None, ruta_estado=None, ahora_utc=N
     return registro
 
 
+# ---------- Reels ----------
+def publicar_reel(tema_id, asset_nombre, video=None, musica=None, musica_inicio=0.0, dry_run=False, cliente=None,
+                  ruta_estado=None, ahora_utc=None):
+    """Genera (si no se da `video`) y publica un reel con el texto y el asset de la publicación."""
+    from .reel import generar_reel
+
+    ahora_utc = ahora_utc or datetime.now(UTC)
+    temas = indice_temas()
+    if tema_id not in temas:
+        raise ErrorPublicacion(f"El tema «{tema_id}» no existe.")
+    t = temas[tema_id]
+    problemas = problemas_tema(t)
+    if problemas:
+        raise ErrorPublicacion("El contenido no pasa las comprobaciones: " + "; ".join(problemas))
+    pie = pie_de_foto(t, 0)
+    asset = indice_assets(cargar_catalogo()).get(asset_nombre) if asset_nombre else None
+    if video and Path(video).exists():
+        ruta = Path(video)
+    else:
+        ruta = generar_reel(t, asset, RAIZ / "salida_reels" / f"reel_{tema_id}.mp4", musica=musica, musica_inicio=musica_inicio)
+    print(f"Reel listo: {ruta.name} ({ruta.stat().st_size / 1e6:.1f} MB)")
+    if dry_run:
+        print(f"PRUEBA EN SECO: no se llama a Instagram. Pie:\n---\n{pie}\n---")
+        return None
+    cliente = cliente or ClienteInstagram(os.environ.get("IG_ACCESS_TOKEN"), os.environ.get("IG_USER_ID", IG_USER_ID))
+    video_url = None
+    try:
+        rel = ruta.resolve().relative_to(RAIZ).as_posix()
+        repo = os.environ.get("GITHUB_REPOSITORY", "Xosu10/jmtech-instagram")
+        video_url = f"https://raw.githubusercontent.com/{repo}/main/{rel}"
+    except ValueError:
+        pass
+    media_id = cliente.publicar_reel(ruta, pie, video_url=video_url)
+    permalink = cliente.permalink(media_id)
+    estado = est.cargar(ruta_estado)
+    ahora = ahora_madrid(ahora_utc)
+    registro = est.registrar(estado, fecha=ahora.date().isoformat(), tema=tema_id, estilo="reel", variante=0,
+                             imagen=ruta.name, asset=asset_nombre or DIBUJO, resultado="publicado", prueba=True, tipo="reel",
+                             media_id=media_id, permalink=permalink,
+                             publicado_utc=ahora_utc.astimezone(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"), retraso_min=0)
+    est.guardar(estado, ruta_estado)
+    est.generar_informe(estado, ahora_utc)
+    print(f"PUBLICADO (reel): {permalink}")
+    return registro
+
+
 # ---------- Prueba en seco de un rango ----------
 def simular(desde: date, hasta: date) -> int:
     """Recorre cada día como si fueran las 19:00 en Madrid, sin tocar Instagram. Devuelve nº de problemas."""
@@ -265,7 +311,7 @@ def _salida_github(clave, valor):
 
 def main(argv=None) -> int:
     p = argparse.ArgumentParser(prog="jmtech.publicador")
-    p.add_argument("orden", choices=["preparar", "publicar", "hoy", "simular", "verificar", "informe"])
+    p.add_argument("orden", choices=["preparar", "publicar", "hoy", "simular", "verificar", "informe", "reel"])
     p.add_argument("fechas", nargs="*", help="solo para simular: DESDE HASTA (AAAA-MM-DD)")
     p.add_argument("--dry-run", action="store_true", help="no llama a Instagram")
     p.add_argument("--ignorar-hora", action="store_true", help="publica aunque no sea la hora (solo manual)")
@@ -273,8 +319,16 @@ def main(argv=None) -> int:
     p.add_argument("--tema")
     p.add_argument("--estilo", choices=["A", "B", "C"])
     p.add_argument("--asset", help="solo para pruebas: archivo del catálogo (o «dibujo»)")
+    p.add_argument("--video", help="reel: vídeo ya creado (si no, se genera)")
+    p.add_argument("--musica", help="reel: canción a usar (si no, música propia)")
+    p.add_argument("--musica-inicio", type=float, default=0.0)
     a = p.parse_args(argv)
     try:
+        if a.orden == "reel":
+            if not a.tema:
+                p.error("reel necesita --tema")
+            publicar_reel(a.tema, a.asset, a.video, a.musica, a.musica_inicio, dry_run=a.dry_run)
+            return 0
         if a.orden in ("preparar", "hoy"):
             pend = preparar(dry_run=a.dry_run, ignorar_hora=a.ignorar_hora, tema=a.tema, estilo=a.estilo,
                             prueba=a.prueba, asset=a.asset)

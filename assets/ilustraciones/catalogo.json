@@ -83,7 +83,7 @@
         "B",
         "C"
       ],
-      "notas_calidad": "Excepción autorizada por José: diseño tipo sobremesa. Renombrada al copiar (el archivo es idéntico). Motas claras en el borde.",
+      "notas_calidad": "Excepción autorizada por José: diseño tipo sobremesa. Renombrada al copiar. Borde retocado por la otra IA (31 oct).",
       "aprobado": true,
       "fecha": "2026-10-31"
     },
@@ -111,7 +111,7 @@
         "B",
         "C"
       ],
-      "notas_calidad": "Excepción autorizada por José. Renombrada al copiar. Motas claras en el borde.",
+      "notas_calidad": "Excepción autorizada por José. Renombrada al copiar. Borde retocado por la otra IA (31 oct).",
       "aprobado": true,
       "fecha": "2026-10-31"
     },
@@ -1783,6 +1783,713 @@
         "C"
       ],
       "notas_calidad": "Muestra la parte trasera de la TV con soporte fijo.",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "ventilador_cambio_aislado_01.png",
+      "original": "ventilador_cambio_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "ventilacion",
+      "etiquetas": [
+        "ventilador",
+        "destornillador",
+        "tornillos"
+      ],
+      "temas": [
+        "cambio_ventilador"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "placa_bios_xmp_aislado_01.png",
+      "original": "placa_bios_xmp_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "placa",
+      "etiquetas": [
+        "placa base",
+        "RAM",
+        "BIOS",
+        "ajustes"
+      ],
+      "temas": [
+        "bios_xmp"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "cpu_instalacion_aislado_01.png",
+      "original": "cpu_instalacion_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "cpu",
+      "etiquetas": [
+        "procesador",
+        "zócalo",
+        "instalación"
+      ],
+      "temas": [
+        "cpu"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "portatil_teclado_cambio_aislado_01.png",
+      "original": "portatil_teclado_cambio_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "portatil",
+      "etiquetas": [
+        "teclado",
+        "portátil",
+        "cambio"
+      ],
+      "temas": [
+        "teclado_portatil"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "portatil_bisagras_aislado_01.png",
+      "original": "portatil_bisagras_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "portatil",
+      "etiquetas": [
+        "bisagras",
+        "portátil",
+        "tornillos"
+      ],
+      "temas": [
+        "bisagras_portatil"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "teclado_limpieza_aislado_01.png",
+      "original": "teclado_limpieza_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "herramientas",
+      "etiquetas": [
+        "teclado",
+        "limpieza",
+        "brocha",
+        "soplador"
+      ],
+      "temas": [
+        "limpieza_teclado"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "tablet_transferencia_aislado_01.png",
+      "original": "tablet_transferencia_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "tablet",
+      "etiquetas": [
+        "tablet",
+        "transferencia",
+        "archivos"
+      ],
+      "temas": [
+        "tablet_transferencia"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "movil_backup_aislado_01.png",
+      "original": "movil_backup_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "movil",
+      "etiquetas": [
+        "móvil",
+        "backup",
+        "nube",
+        "escudo"
+      ],
+      "temas": [
+        "movil_backup"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "windows_optimizacion_aislado_01.png",
+      "original": "windows_optimizacion_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "empresa",
+      "etiquetas": [
+        "optimización",
+        "portátil",
+        "ajustes"
+      ],
+      "temas": [
+        "optimizacion_pc",
+        "optimizacion_windows"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "windows_virus_aislado_01.png",
+      "original": "windows_virus_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "empresa",
+      "etiquetas": [
+        "virus",
+        "malware",
+        "escudo"
+      ],
+      "temas": [
+        "malware"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "sistema_recuperacion_aislado_01.png",
+      "original": "sistema_recuperacion_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "empresa",
+      "etiquetas": [
+        "recuperación",
+        "sistema",
+        "restauración"
+      ],
+      "temas": [
+        "recuperacion_sistema"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "perifericos_setup_aislado_01.png",
+      "original": "perifericos_setup_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "empresa",
+      "etiquetas": [
+        "periféricos",
+        "auriculares",
+        "teclado",
+        "micrófono"
+      ],
+      "temas": [
+        "perifericos"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "windows_formateo_aislado_01.png",
+      "original": "windows_formateo_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "pc",
+      "etiquetas": [
+        "formateo",
+        "instalación",
+        "progreso"
+      ],
+      "temas": [
+        "formateo_windows"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "migracion_pc_portatil_aislado_01.png",
+      "original": "migracion_pc_portatil_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "portatil",
+      "etiquetas": [
+        "migración",
+        "portátil",
+        "archivos"
+      ],
+      "temas": [
+        "migracion_pc"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "integracion_sistemas_aislado_01.png",
+      "original": "integracion_sistemas_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "empresa",
+      "etiquetas": [
+        "integración",
+        "sistemas",
+        "conexión"
+      ],
+      "temas": [
+        "integracion"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "mantenimiento_software_aislado_01.png",
+      "original": "mantenimiento_software_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "empresa",
+      "etiquetas": [
+        "mantenimiento",
+        "software",
+        "actualización"
+      ],
+      "temas": [
+        "mant_software"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "software_seguridad_actualizaciones_aislado_01.png",
+      "original": "software_seguridad_actualizaciones_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "empresa",
+      "etiquetas": [
+        "seguridad",
+        "actualizaciones",
+        "candado"
+      ],
+      "temas": [
+        "mant_seguridad"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "programa_local_aislado_01.png",
+      "original": "programa_local_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "empresa",
+      "etiquetas": [
+        "programa",
+        "aplicación",
+        "escritorio"
+      ],
+      "temas": [
+        "programa_local"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "diagnostico_movil_tablet_aislado_01.png",
+      "original": "diagnostico_movil_tablet_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "empresa",
+      "etiquetas": [
+        "diagnóstico",
+        "móvil",
+        "tablet",
+        "lupa"
+      ],
+      "temas": [
+        "diagnostico_movil_tablet"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "tv_pared_aislado_03.png",
+      "original": "tv_pared_aislado_03.png",
+      "tipo": "aislado",
+      "categoria": "tv",
+      "etiquetas": [
+        "televisor",
+        "soporte articulado",
+        "pared"
+      ],
+      "temas": [
+        "tv_pared"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "consola_generica_ampliacion_ssd_aislado_01.png",
+      "original": "consola_generica_ampliacion_ssd_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "consola",
+      "etiquetas": [
+        "consola",
+        "genérica",
+        "SSD"
+      ],
+      "temas": [
+        "ssd_consola"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Consola genérica de diseño propio.",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "consola_generica_mantenimiento_aislado_01.png",
+      "original": "consola_generica_mantenimiento_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "consola",
+      "etiquetas": [
+        "consola",
+        "genérica",
+        "brocha",
+        "pasta térmica"
+      ],
+      "temas": [
+        "consola_mantenimiento"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Consola genérica de diseño propio.",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "ssd_instalacion_aislado_01.png",
+      "original": "ssd_instalacion_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "ssd",
+      "etiquetas": [
+        "SSD",
+        "M.2",
+        "instalación"
+      ],
+      "temas": [
+        "ssd_hdd"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "tarjeta_grafica_instalacion_aislado_01.png",
+      "original": "tarjeta_grafica_instalacion_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "gpu",
+      "etiquetas": [
+        "tarjeta gráfica",
+        "PCIe",
+        "instalación"
+      ],
+      "temas": [
+        "tarjeta_grafica"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "ram_instalacion_aislado_01.png",
+      "original": "ram_instalacion_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "ram",
+      "etiquetas": [
+        "RAM",
+        "ranura",
+        "instalación"
+      ],
+      "temas": [
+        "ram"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
       "aprobado": true,
       "fecha": "2026-10-31"
     }
