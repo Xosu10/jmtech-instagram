@@ -1,0 +1,65 @@
+{
+ "id": "idea_007",
+ "idea": 7,
+ "titulo": "¿Por qué es tan importante la fuente de alimentación?",
+ "titulo_pantalla": "¿Por qué importa tanto la fuente?",
+ "escenas": [
+  {
+   "texto": "¿Por qué es tan importante la fuente de alimentación?",
+   "imagen": "fuente_alimentacion_aislado_01.png",
+   "provisional": "pc_optimizacion_cpu_ram_aislado_01.png"
+  },
+  {
+   "texto": "Recibe la corriente de casa, la convierte en la que necesita cada pieza y la reparte a la placa, la gráfica y los discos.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Recibe la corriente de casa",
+     "La convierte en la que necesita cada pieza",
+     "La reparte a placa, gráfica y discos"
+    ]
+   }
+  },
+  {
+   "texto": "Y no todas son iguales: una fuente mala puede dar tensiones inestables y dañar otras piezas.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Todas las fuentes son iguales si dan los vatios",
+    "realidad": "Una fuente mala puede dar tensiones inestables y dañar otras piezas."
+   }
+  },
+  {
+   "texto": "Al elegir una, mira que tenga potencia con margen, una certificación de eficiencia y protecciones de una marca fiable.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué mirar",
+    "titulo": "Una fuente fiable",
+    "acento": "azul",
+    "puntos": [
+     "Potencia suficiente, con margen",
+     "Certificación de eficiencia 80 Plus",
+     "Marca y protecciones de calidad"
+    ]
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🔌",
+ "puntos": [
+  "La fuente convierte y reparte la corriente a todas las piezas.",
+  "Una fuente mala puede dañar otras piezas.",
+  "Elige potencia con margen, eficiencia y marca fiable."
+ ],
+ "etiquetas": [
+  "#fuentealimentacion",
+  "#pcgamer",
+  "#hardware"
+ ],
+ "fuentes": [
+  "Wikipedia: Fuente de alimentación",
+  "Corsair: cómo elegir una fuente de alimentación"
+ ]
+}

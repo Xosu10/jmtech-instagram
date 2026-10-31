@@ -1,0 +1,56 @@
+{
+ "id": "idea_016",
+ "idea": 16,
+ "titulo": "¿Cómo limpiar correctamente un ordenador sin romper nada?",
+ "titulo_pantalla": "Cómo limpiar el PC sin romper nada",
+ "escenas": [
+  {
+   "texto": "¿Cómo limpiar correctamente un ordenador sin romper nada?",
+   "imagen": "limpieza_pc_herramientas_aislado_01.png"
+  },
+  {
+   "texto": "Primero, apaga y desenchufa; toca una pieza metálica de la caja para descargarte; y sopla en ráfagas cortas.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Apaga y desenchufa",
+     "Toca una pieza metálica para descargarte",
+     "Sopla en ráfagas cortas"
+    ]
+   }
+  },
+  {
+   "texto": "Y ten cuidado: sujeta el ventilador para que no gire con el aire, no uses aspirador, y nada de líquidos sobre las piezas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Cuidado con",
+    "titulo": "Tres errores típicos",
+    "acento": "naranja",
+    "puntos": [
+     "Sujeta el ventilador para que no gire",
+     "Nada de aspirador: genera estática",
+     "Nunca líquidos sobre las piezas"
+    ]
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧽",
+ "puntos": [
+  "Apaga, desenchufa y descárgate tocando metal.",
+  "Sopla en ráfagas cortas y sujeta el ventilador.",
+  "Nada de aspirador ni líquidos."
+ ],
+ "etiquetas": [
+  "#limpiezapc",
+  "#mantenimiento",
+  "#consejos"
+ ],
+ "fuentes": [
+  "Corsair: cómo limpiar tu PC",
+  "Wikipedia: Descarga electrostática"
+ ]
+}

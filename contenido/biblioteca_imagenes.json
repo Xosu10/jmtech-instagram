@@ -1,0 +1,1112 @@
+{
+ "imagenes": [
+  {
+   "archivo": "ssd_sata_nvme_comparativa_aislado_01.png",
+   "ideas": [
+    3
+   ],
+   "primera_fecha": "2026-11-11",
+   "que": "A la izquierda un SSD SATA de 2,5 pulgadas (carcasa metálica plana) y a la derecha un SSD M.2 NVMe (tarjeta alargada con chips). Mismo tamaño visual; el NVMe con un destello azul algo más intenso (velocidad).",
+   "videos": [
+    "¿SSD SATA o NVMe? ¿Notarás realmente la diferencia?"
+   ]
+  },
+  {
+   "archivo": "consola_disco_aislado_01.png",
+   "ideas": [
+    61,
+    106
+   ],
+   "primera_fecha": "2026-11-13",
+   "que": "Consola moderna genérica de diseño propio con un disco óptico y un rayo de luz de lectura.",
+   "videos": [
+    "¿Sabías que PlayStation nació de un proyecto entre Nintendo y Sony?",
+    "¿Qué tenía de especial la Dreamcast y por qué fracasó?"
+   ]
+  },
+  {
+   "archivo": "consola_retro_aislado_01.png",
+   "ideas": [
+    61,
+    65,
+    66,
+    101,
+    103
+   ],
+   "primera_fecha": "2026-11-13",
+   "que": "Consola de 16 bits de diseño propio: caja gris rectangular con ranura frontal para cartucho y dos mandos con cable. Sin logos ni marcas.",
+   "videos": [
+    "¿Sabías que PlayStation nació de un proyecto entre Nintendo y Sony?",
+    "¿Por qué todo el mundo soplaba los cartuchos de Nintendo?",
+    "¿Por qué SEGA dejó de fabricar consolas?",
+    "¿Por qué los videojuegos antiguos eran mucho más difíciles?",
+    "¿Por qué necesitábamos tarjetas de memoria para guardar nuestras partidas?"
+   ]
+  },
+  {
+   "archivo": "npc_siluetas_aislado_01.png",
+   "ideas": [
+    71
+   ],
+   "primera_fecha": "2026-11-18",
+   "que": "Escena de ciudad de bajo polígono con figuras genéricas sin cara realizando tareas (caminar, sentarse, hablar).",
+   "videos": [
+    "¿Qué hacen los NPC cuando no los estás mirando?"
+   ]
+  },
+  {
+   "archivo": "monitor_sin_senal_aislado_01.png",
+   "ideas": [
+    21
+   ],
+   "primera_fecha": "2026-11-20",
+   "que": "Monitor encendido con pantalla negra y un icono abstracto de cable desconectado en el centro; torre de PC al lado con luz encendida.",
+   "videos": [
+    "Mi ordenador enciende, pero no aparece imagen. ¿Qué puede estar pasando?"
+   ]
+  },
+  {
+   "archivo": "monitor_144hz_aislado_01.png",
+   "ideas": [
+    38,
+    81,
+    82
+   ],
+   "primera_fecha": "2026-11-23",
+   "que": "Monitor gaming plano con una escena abstracta de coche de carreras estilizado y estela de movimiento nítida. Sin texto.",
+   "videos": [
+    "¿Es mejor un monitor de 144 Hz que uno de 60 Hz?",
+    "¿Realmente se nota la diferencia entre jugar a 30, 60 y 120 FPS?",
+    "¿Qué es mejor para jugar: resolución 4K o más FPS?"
+   ]
+  },
+  {
+   "archivo": "pc_antiguo_mejora_aislado_01.png",
+   "ideas": [
+    31
+   ],
+   "primera_fecha": "2026-11-25",
+   "que": "Torre de PC antigua gris con un SSD azul brillante y un módulo de RAM flotando hacia ella, y flechas circulares de renovación.",
+   "videos": [
+    "¿Cómo dar una segunda vida a un ordenador antiguo por poco dinero?"
+   ]
+  },
+  {
+   "archivo": "radio_coche_aislado_01.png",
+   "ideas": [
+    91
+   ],
+   "primera_fecha": "2026-11-27",
+   "que": "Salpicadero de coche con una radio con ondas y botones. Sin texto.",
+   "videos": [
+    "¿Por qué los GTA tienen emisoras de radio y anuncios inventados?"
+   ]
+  },
+  {
+   "archivo": "memoria_ia_demanda_aislado_01.png",
+   "ideas": [
+    41
+   ],
+   "primera_fecha": "2026-11-30",
+   "que": "Módulos de RAM y un SSD apilados con una flecha naranja ascendente y destellos de chip de IA.",
+   "videos": [
+    "¿Por qué la inteligencia artificial está encareciendo la memoria RAM? (incluye la 42: SSD)"
+   ]
+  },
+  {
+   "archivo": "cartucho_generico_aislado_01.png",
+   "ideas": [
+    65,
+    69,
+    101
+   ],
+   "primera_fecha": "2026-12-02",
+   "que": "Cartucho de videojuego genérico gris con pegatina en blanco (sin texto) y conector dorado con polvo; leve soplo de aire.",
+   "videos": [
+    "¿Por qué todo el mundo soplaba los cartuchos de Nintendo?",
+    "¿Por qué Pokémon se vende en dos versiones diferentes?",
+    "¿Por qué los videojuegos antiguos eran mucho más difíciles?"
+   ]
+  },
+  {
+   "archivo": "mando_retro_aislado_01.png",
+   "ideas": [
+    64,
+    101
+   ],
+   "primera_fecha": "2026-12-02",
+   "que": "Mando retro rectangular con cruceta y 4 botones de colores (sin símbolos ni texto), con cable.",
+   "videos": [
+    "¿Qué es el famoso código Konami y de dónde viene?",
+    "¿Por qué los videojuegos antiguos eran mucho más difíciles?"
+   ]
+  },
+  {
+   "archivo": "ssd_capacidad_aislado_01.png",
+   "ideas": [
+    51
+   ],
+   "primera_fecha": "2026-12-04",
+   "que": "SSD M.2 con un gráfico circular abstracto: una porción grande azul y una pequeña gris. Sin números.",
+   "videos": [
+    "¿Por qué un SSD de 1 TB no muestra 1.000 GB disponibles en Windows?"
+   ]
+  },
+  {
+   "archivo": "disquete_aislado_01.png",
+   "ideas": [
+    111
+   ],
+   "primera_fecha": "2026-12-07",
+   "que": "Disquete de 3,5 pulgadas con etiqueta en blanco, con un brillo azul.",
+   "videos": [
+    "¿Por qué el icono de guardar sigue siendo un disquete?"
+   ]
+  },
+  {
+   "archivo": "cuello_botella_aislado_01.png",
+   "ideas": [
+    4
+   ],
+   "primera_fecha": "2026-12-09",
+   "que": "Metáfora: tubería ancha que se estrecha de golpe como el cuello de una botella. Por la parte ancha llegan muchas esferas azules luminosas y por la estrecha salen pocas; sensación de atasco.",
+   "videos": [
+    "¿Qué es el cuello de botella de un PC?"
+   ]
+  },
+  {
+   "archivo": "bloques_cayendo_aislado_01.png",
+   "ideas": [
+    63
+   ],
+   "primera_fecha": "2026-12-11",
+   "que": "Siete piezas geométricas de cuatro cuadrados de colores (formas genéricas) cayendo y encajando en un pozo de cristal.",
+   "videos": [
+    "¿Por qué Tetris es tan adictivo?"
+   ]
+  },
+  {
+   "archivo": "pc_suelo_aislado_01.png",
+   "ideas": [
+    13
+   ],
+   "primera_fecha": "2026-12-14",
+   "que": "Torre de PC apoyada directamente sobre una alfombra gruesa, con pelusas y polvo subiendo hacia sus rejillas inferiores (flechas finas).",
+   "videos": [
+    "¿Es malo tener el ordenador en el suelo?"
+   ]
+  },
+  {
+   "archivo": "mapa_limite_aislado_01.png",
+   "ideas": [
+    72
+   ],
+   "primera_fecha": "2026-12-16",
+   "que": "Isla de bajo polígono flotando; más allá del borde, un vacío azul con rejilla. Un caminito llega hasta el borde.",
+   "videos": [
+    "¿Qué ocurre si consigues llegar al límite del mapa de un videojuego?"
+   ]
+  },
+  {
+   "archivo": "pc_se_apaga_calor_aislado_01.png",
+   "ideas": [
+    22,
+    26
+   ],
+   "primera_fecha": "2026-12-18",
+   "que": "Torre de PC con calor naranja subiendo y el botón de encendido con el símbolo de apagado atenuado.",
+   "videos": [
+    "¿Por qué tu PC se apaga cuando estás jugando?",
+    "¿Por qué tu ordenador se reinicia sin avisar?"
+   ]
+  },
+  {
+   "archivo": "pc_montado_piezas_aislado_01.png",
+   "ideas": [
+    32
+   ],
+   "primera_fecha": "2026-12-23",
+   "que": "A la izquierda un PC montado y cerrado; a la derecha, componentes sueltos ordenados en abanico (placa, procesador, RAM, gráfica, SSD).",
+   "videos": [
+    "¿Es mejor comprar un PC montado o hacerlo por piezas?"
+   ]
+  },
+  {
+   "archivo": "ciudad_viva_aislado_01.png",
+   "ideas": [
+    92,
+    93
+   ],
+   "primera_fecha": "2026-12-25",
+   "que": "Ciudad de bajo polígono en isométrico con muchos puntos de colores moviéndose (peatones y coches).",
+   "videos": [
+    "¿Por qué se tarda tantos años en desarrollar un GTA?",
+    "¿Cómo consiguen los videojuegos de mundo abierto simular ciudades llenas de vida?"
+   ]
+  },
+  {
+   "archivo": "gpu_ia_demanda_aislado_01.png",
+   "ideas": [
+    43
+   ],
+   "primera_fecha": "2026-12-28",
+   "que": "Tarjeta gráfica con un chip de IA brillante a su lado y una flecha naranja ascendente. Sin símbolos de moneda.",
+   "videos": [
+    "¿Las tarjetas gráficas son cada vez más caras por culpa de la IA?"
+   ]
+  },
+  {
+   "archivo": "consola_luz_roja_aislado_01.png",
+   "ideas": [
+    102
+   ],
+   "primera_fecha": "2026-12-30",
+   "que": "Consola moderna genérica negra con un anillo de luz rojo intenso y un icono de aviso.",
+   "videos": [
+    "¿Qué era el famoso anillo rojo de la muerte de Xbox 360?"
+   ]
+  },
+  {
+   "archivo": "reinicio_aislado_01.png",
+   "ideas": [
+    52
+   ],
+   "primera_fecha": "2027-01-01",
+   "que": "Botón de encendido grande con una flecha circular azul alrededor; un portátil de fondo.",
+   "videos": [
+    "¿Por qué reiniciar el ordenador puede solucionar tantos problemas?"
+   ]
+  },
+  {
+   "archivo": "rey_vikingo_aislado_01.png",
+   "ideas": [
+    112
+   ],
+   "primera_fecha": "2027-01-04",
+   "que": "Casco vikingo con cuernos y un brillo azul, y ondas inalámbricas saliendo (sin logotipos).",
+   "videos": [
+    "¿De dónde viene el nombre Bluetooth y qué tiene que ver con un rey vikingo?"
+   ]
+  },
+  {
+   "archivo": "caja_pc_flujo_aire_aislado_01.png",
+   "ideas": [
+    5
+   ],
+   "primera_fecha": "2027-01-06",
+   "que": "Caja de PC con panel lateral transparente, 3 ventiladores delanteros, 1 trasero y 1 superior; flechas de aire azul claro entrando por delante y flechas naranjas saliendo por detrás y por arriba.",
+   "videos": [
+    "¿Más ventiladores significa mejor refrigeración?"
+   ]
+  },
+  {
+   "archivo": "pc_encendido_24h_aislado_01.png",
+   "ideas": [
+    14
+   ],
+   "primera_fecha": "2027-01-11",
+   "que": "Torre de PC con la luz de encendido azul y un reloj analógico grande al lado (solo marcas, sin números): sensación de tiempo continuo.",
+   "videos": [
+    "¿Es malo dejar el ordenador encendido las 24 horas?"
+   ]
+  },
+  {
+   "archivo": "habitacion_secreta_aislado_01.png",
+   "ideas": [
+    73,
+    79
+   ],
+   "primera_fecha": "2027-01-13",
+   "que": "Estantería que se abre revelando una puerta secreta luminosa en azul.",
+   "videos": [
+    "¿Por qué los desarrolladores esconden habitaciones secretas?",
+    "¿Qué secretos de videojuegos tardaron años en descubrirse?"
+   ]
+  },
+  {
+   "archivo": "pantalla_azul_aislado_01.png",
+   "ideas": [
+    23
+   ],
+   "primera_fecha": "2027-01-15",
+   "que": "Monitor con pantalla de color azul liso y una carita triste simple (dos puntos y un arco). Sin texto ni códigos.",
+   "videos": [
+    "¿Qué significa un pantallazo azul de Windows?"
+   ]
+  },
+  {
+   "archivo": "ping_servidor_aislado_01.png",
+   "ideas": [
+    83,
+    85
+   ],
+   "primera_fecha": "2027-01-18",
+   "que": "PC a la izquierda y servidor a la derecha unidos por una línea con un pulso azul y un reloj.",
+   "videos": [
+    "¿Qué es el ping y por qué puede arruinarte una partida?",
+    "¿Tener 1.000 megas de Internet te hace jugar mejor online?"
+   ]
+  },
+  {
+   "archivo": "mejora_prioridad_aislado_01.png",
+   "ideas": [
+    33
+   ],
+   "primera_fecha": "2027-01-20",
+   "que": "Torre de PC en corte con tres componentes resaltados con halo azul (SSD, RAM, gráfica) y flechas de mejora hacia arriba.",
+   "videos": [
+    "¿Qué componentes deberías mejorar primero para ganar rendimiento?"
+   ]
+  },
+  {
+   "archivo": "mundo_abierto_trozos_aislado_01.png",
+   "ideas": [
+    77,
+    93
+   ],
+   "primera_fecha": "2027-01-22",
+   "que": "Mundo isométrico formado por bloques de terreno flotantes: los cercanos iluminados y los lejanos translúcidos.",
+   "videos": [
+    "¿Cómo consiguen los videojuegos crear mundos gigantescos sin cargarlo todo a la vez?",
+    "¿Cómo consiguen los videojuegos de mundo abierto simular ciudades llenas de vida?"
+   ]
+  },
+  {
+   "archivo": "pc_ia_local_aislado_01.png",
+   "ideas": [
+    44,
+    45
+   ],
+   "primera_fecha": "2027-01-25",
+   "que": "Torre de PC con panel transparente; dentro, una gráfica grande con luz azul, y saliendo de la torre una nube de nodos de red neuronal.",
+   "videos": [
+    "¿Qué ordenador necesitas para ejecutar inteligencia artificial en casa?",
+    "¿Qué diferencia hay entre usar ChatGPT y ejecutar una IA en tu propio PC?"
+   ]
+  },
+  {
+   "archivo": "memory_card_aislado_01.png",
+   "ideas": [
+    103,
+    104
+   ],
+   "primera_fecha": "2027-01-27",
+   "que": "Tarjeta de memoria retro genérica (cuadrada, con muesca y contactos) con una consola retro al fondo con la ranura abierta.",
+   "videos": [
+    "¿Por qué necesitábamos tarjetas de memoria para guardar nuestras partidas?",
+    "¿Cómo guardaban las partidas los videojuegos antes de las memory cards?"
+   ]
+  },
+  {
+   "archivo": "incognito_aislado_01.png",
+   "ideas": [
+    53
+   ],
+   "primera_fecha": "2027-01-29",
+   "que": "Ventana de navegador abstracta con sombrero y gafas oscuras en silueta (icono genérico de incógnito) y un ojo con lupa detrás: aun así te ven.",
+   "videos": [
+    "¿El modo incógnito del navegador te hace invisible en Internet?"
+   ]
+  },
+  {
+   "archivo": "maquina_escribir_aislado_01.png",
+   "ideas": [
+    113
+   ],
+   "primera_fecha": "2027-02-01",
+   "que": "Máquina de escribir antigua con varios brazos de tecla enganchados entre sí (atasco). Sin letras en las teclas.",
+   "videos": [
+    "¿Por qué las teclas del teclado están colocadas en formato QWERTY?"
+   ]
+  },
+  {
+   "archivo": "ram_ddr4_ddr5_comparativa_aislado_01.png",
+   "ideas": [
+    6
+   ],
+   "primera_fecha": "2027-02-03",
+   "que": "Dos módulos de RAM lado a lado: el izquierdo más sencillo con disipador gris (DDR4) y el derecho más moderno con disipador negro y luz azul (DDR5). La muesca de los contactos dorados debe estar en posición ligeramente distinta.",
+   "videos": [
+    "¿Qué diferencia hay entre DDR4 y DDR5?"
+   ]
+  },
+  {
+   "archivo": "portatil_polvo_aislado_01.png",
+   "ideas": [
+    15
+   ],
+   "primera_fecha": "2027-02-08",
+   "que": "Portátil con la tapa trasera retirada, mostrando ventilador y disipador cubiertos de polvo gris; un termómetro naranja al lado (sin cifras).",
+   "videos": [
+    "¿Qué pasa si nunca limpias tu portátil?"
+   ]
+  },
+  {
+   "archivo": "cronometro_speedrun_aislado_01.png",
+   "ideas": [
+    74
+   ],
+   "primera_fecha": "2027-02-10",
+   "que": "Cronómetro digital sin cifras (solo segmentos) junto a un mando genérico y una estela de velocidad.",
+   "videos": [
+    "¿Cómo consiguen los speedrunners terminar juegos en pocos minutos?"
+   ]
+  },
+  {
+   "archivo": "arranque_lento_aislado_01.png",
+   "ideas": [
+    24
+   ],
+   "primera_fecha": "2027-02-12",
+   "que": "Portátil con un reloj de arena grande delante y un círculo de carga azul en la pantalla.",
+   "videos": [
+    "¿Por qué tu ordenador tarda tanto en arrancar?"
+   ]
+  },
+  {
+   "archivo": "input_lag_mando_aislado_01.png",
+   "ideas": [
+    84
+   ],
+   "primera_fecha": "2027-02-15",
+   "que": "Mando genérico y, detrás, su estela fantasma retrasada; pantalla de fondo.",
+   "videos": [
+    "¿Qué es el input lag y por qué tu personaje reacciona tarde?"
+   ]
+  },
+  {
+   "archivo": "reacondicionado_aislado_01.png",
+   "ideas": [
+    34
+   ],
+   "primera_fecha": "2027-02-17",
+   "que": "Portátil con aspecto de nuevo rodeado por dos flechas circulares de reciclaje azules y un escudo con marca de verificación (sin texto).",
+   "videos": [
+    "¿Merece la pena comprar un ordenador reacondicionado?"
+   ]
+  },
+  {
+   "archivo": "voxel_mundo_aislado_01.png",
+   "ideas": [
+    94,
+    95
+   ],
+   "primera_fecha": "2027-02-19",
+   "que": "Terreno de cubos (estilo voxel genérico) con árboles de cubos y un río. Sin marcas.",
+   "videos": [
+    "¿Por qué Minecraft tiene gráficos tan simples y sigue siendo tan popular?",
+    "¿Cómo consigue Minecraft generar mundos prácticamente infinitos?"
+   ]
+  },
+  {
+   "archivo": "nube_vs_local_aislado_01.png",
+   "ideas": [
+    45
+   ],
+   "primera_fecha": "2027-02-22",
+   "que": "Izquierda: nube con servidores y flechas hacia un móvil. Derecha: PC de sobremesa con un chip brillante. Mismo tamaño visual.",
+   "videos": [
+    "¿Qué diferencia hay entre usar ChatGPT y ejecutar una IA en tu propio PC?"
+   ]
+  },
+  {
+   "archivo": "antivirus_windows_aislado_01.png",
+   "ideas": [
+    54
+   ],
+   "primera_fecha": "2027-02-26",
+   "que": "Portátil con un escudo azul con marca de verificación integrado en la pantalla.",
+   "videos": [
+    "¿Es verdad que los ordenadores ya no necesitan antivirus?"
+   ]
+  },
+  {
+   "archivo": "polilla_circuito_aislado_01.png",
+   "ideas": [
+    114
+   ],
+   "primera_fecha": "2027-03-01",
+   "que": "Polilla sobre una placa de circuitos de época antigua con relés; luz azul.",
+   "videos": [
+    "¿Por qué los errores informáticos se llaman bugs?"
+   ]
+  },
+  {
+   "archivo": "fuente_alimentacion_aislado_01.png",
+   "ideas": [
+    7
+   ],
+   "primera_fecha": "2027-03-03",
+   "que": "Fuente de alimentación ATX modular de PC en 3/4, con el ventilador grande visible y un haz de cables negros con conectores saliendo ordenados. Destello azul eléctrico de energía.",
+   "videos": [
+    "¿Por qué es tan importante la fuente de alimentación?"
+   ]
+  },
+  {
+   "archivo": "jefe_final_aislado_01.png",
+   "ideas": [
+    75
+   ],
+   "primera_fecha": "2027-03-10",
+   "que": "Silueta de criatura robótica gigante de diseño propio con ojos naranjas ante una puerta enorme.",
+   "videos": [
+    "¿Por qué los jefes finales de los videojuegos suelen ser tan difíciles?"
+   ]
+  },
+  {
+   "archivo": "pc_potente_lento_aislado_01.png",
+   "ideas": [
+    25
+   ],
+   "primera_fecha": "2027-03-12",
+   "que": "PC gaming de gama alta con un caracol azul estilizado al lado (potente pero lento).",
+   "videos": [
+    "¿Por qué tu PC va lento si tiene componentes potentes?"
+   ]
+  },
+  {
+   "archivo": "balanza_precio_rendimiento_aislado_01.png",
+   "ideas": [
+    35,
+    36
+   ],
+   "primera_fecha": "2027-03-17",
+   "que": "Balanza clásica: en un plato monedas genéricas (sin símbolos de moneda) y en el otro un PC gaming.",
+   "videos": [
+    "¿Cuánto dinero necesitas realmente para un PC gaming?",
+    "¿Un ordenador de 2.000 € es el doble de rápido que uno de 1.000 €?"
+   ]
+  },
+  {
+   "archivo": "chip_ia_npu_aislado_01.png",
+   "ideas": [
+    46,
+    48
+   ],
+   "primera_fecha": "2027-03-22",
+   "que": "Chip cuadrado con un núcleo central brillante (NPU) y circuitos radiales azules, flotando sobre una placa abstracta.",
+   "videos": [
+    "¿Qué es un ordenador con IA y qué hace realmente su NPU?",
+    "¿Por qué las grandes empresas están invirtiendo tanto dinero en chips para IA?"
+   ]
+  },
+  {
+   "archivo": "portatil_ia_aislado_01.png",
+   "ideas": [
+    46
+   ],
+   "primera_fecha": "2027-03-22",
+   "que": "Portátil moderno cuya pantalla muestra una red neuronal luminosa abstracta (sin texto) y un chip brillante sobre el teclado.",
+   "videos": [
+    "¿Qué es un ordenador con IA y qué hace realmente su NPU?"
+   ]
+  },
+  {
+   "archivo": "pantalla_carga_aislado_01.png",
+   "ideas": [
+    105
+   ],
+   "primera_fecha": "2027-03-24",
+   "que": "Televisión con una barra de carga larga a medias y un reloj de arena.",
+   "videos": [
+    "¿Por qué antes los videojuegos tenían pantallas de carga tan largas?"
+   ]
+  },
+  {
+   "archivo": "tv_crt_aislado_01.png",
+   "ideas": [
+    105,
+    107,
+    109
+   ],
+   "primera_fecha": "2027-03-24",
+   "que": "Televisión CRT antigua con la pantalla mostrando formas pixeladas abstractas (sin personajes ni logos).",
+   "videos": [
+    "¿Por qué antes los videojuegos tenían pantallas de carga tan largas?",
+    "¿Por qué antes los videojuegos incluían manuales enormes?",
+    "¿Por qué antes era tan habitual jugar a pantalla dividida y ahora mucho menos?"
+   ]
+  },
+  {
+   "archivo": "archivo_borrado_aislado_01.png",
+   "ideas": [
+    55
+   ],
+   "primera_fecha": "2027-03-26",
+   "que": "Documento semitransparente saliendo de una papelera, con fragmentos de datos azules aún visibles en un disco.",
+   "videos": [
+    "¿Qué ocurre realmente cuando borras un archivo de tu ordenador?"
+   ]
+  },
+  {
+   "archivo": "internet_apagado_aislado_01.png",
+   "ideas": [
+    115
+   ],
+   "primera_fecha": "2027-03-29",
+   "que": "Globo terráqueo con un cable de red desenchufado y una señal de corte.",
+   "videos": [
+    "¿Qué ocurriría si Internet dejara de funcionar durante 24 horas?"
+   ]
+  },
+  {
+   "archivo": "cpu_nucleos_aislado_01.png",
+   "ideas": [
+    9,
+    39
+   ],
+   "primera_fecha": "2027-03-31",
+   "que": "Procesador visto desde arriba con la tapa transparente mostrando 8 bloques cuadrados luminosos (núcleos) en azul eléctrico unidos por líneas finas.",
+   "videos": [
+    "¿Más núcleos de procesador significa más velocidad?",
+    "¿Qué es más importante para jugar, el procesador o la gráfica?"
+   ]
+  },
+  {
+   "archivo": "huevo_pascua_pixel_aislado_01.png",
+   "ideas": [
+    67
+   ],
+   "primera_fecha": "2027-04-02",
+   "que": "Un huevo de Pascua con un patrón pixelado azul y naranja, ligeramente abierto, sobre un fondo abstracto de pantalla.",
+   "videos": [
+    "¿Cuál fue el primer easter egg de los videojuegos?"
+   ]
+  },
+  {
+   "archivo": "aio_mantenimiento_aislado_01.png",
+   "ideas": [
+    17
+   ],
+   "primera_fecha": "2027-04-05",
+   "que": "Refrigeración líquida todo en uno (bloque con bomba, dos tubos, radiador con dos ventiladores) con una gota de líquido azul y una llave inglesa pequeña al lado.",
+   "videos": [
+    "¿Una refrigeración líquida necesita mantenimiento?"
+   ]
+  },
+  {
+   "archivo": "pared_invisible_aislado_01.png",
+   "ideas": [
+    76
+   ],
+   "primera_fecha": "2027-04-07",
+   "que": "Camino con una pared de cristal translúcida con reflejos azules que apenas se distingue; destellos que la delatan.",
+   "videos": [
+    "¿Qué son las paredes invisibles y por qué existen?"
+   ]
+  },
+  {
+   "archivo": "monitor_vs_tv_aislado_01.png",
+   "ideas": [
+    86
+   ],
+   "primera_fecha": "2027-04-12",
+   "que": "Un monitor gaming de escritorio a la izquierda y una televisión grande a la derecha, mismo tamaño visual.",
+   "videos": [
+    "¿Es mejor jugar en un monitor gaming o en una televisión?"
+   ]
+  },
+  {
+   "archivo": "globos_dialogo_simbolos_aislado_01.png",
+   "ideas": [
+    96
+   ],
+   "primera_fecha": "2027-04-16",
+   "que": "Globos de diálogo con garabatos y símbolos abstractos (idioma inventado) sobre una casa de bajo polígono.",
+   "videos": [
+    "¿Por qué Los Sims hablan un idioma inventado?"
+   ]
+  },
+  {
+   "archivo": "centro_datos_agua_aislado_01.png",
+   "ideas": [
+    47
+   ],
+   "primera_fecha": "2027-04-19",
+   "que": "Edificio de centro de datos con torres de refrigeración que sueltan vapor, una gota de agua azul grande y un rayo naranja de electricidad.",
+   "videos": [
+    "¿Por qué los centros de datos necesitan cantidades gigantescas de agua y electricidad?"
+   ]
+  },
+  {
+   "archivo": "centro_datos_aislado_01.png",
+   "ideas": [
+    47,
+    48,
+    116
+   ],
+   "primera_fecha": "2027-04-19",
+   "que": "Sala de servidores con filas de racks iluminados en azul y pasillo en perspectiva.",
+   "videos": [
+    "¿Por qué los centros de datos necesitan cantidades gigantescas de agua y electricidad?",
+    "¿Por qué las grandes empresas están invirtiendo tanto dinero en chips para IA?",
+    "¿Qué es realmente la nube y dónde se guardan nuestras fotografías?"
+   ]
+  },
+  {
+   "archivo": "consola_blanca_espiral_aislado_01.png",
+   "ideas": [
+    106
+   ],
+   "primera_fecha": "2027-04-21",
+   "que": "Consola blanca de diseño propio con una espiral naranja decorativa (sin logo) y un mando con una pequeña pantalla.",
+   "videos": [
+    "¿Qué tenía de especial la Dreamcast y por qué fracasó?"
+   ]
+  },
+  {
+   "archivo": "pila_placa_base_aislado_01.png",
+   "ideas": [
+    56
+   ],
+   "primera_fecha": "2027-04-23",
+   "que": "Placa base con la pila de botón (tipo moneda) resaltada con un halo azul.",
+   "videos": [
+    "¿Por qué los ordenadores tienen una pila en la placa base?"
+   ]
+  },
+  {
+   "archivo": "nube_fotos_aislado_01.png",
+   "ideas": [
+    116
+   ],
+   "primera_fecha": "2027-04-26",
+   "que": "Nube con fotos y un servidor dentro, y flechas desde un móvil.",
+   "videos": [
+    "¿Qué es realmente la nube y dónde se guardan nuestras fotografías?"
+   ]
+  },
+  {
+   "archivo": "gpu_memoria_aislado_01.png",
+   "ideas": [
+    10
+   ],
+   "primera_fecha": "2027-04-28",
+   "que": "Tarjeta gráfica moderna en 3/4 con los chips de memoria que rodean al núcleo resaltados con un brillo azul.",
+   "videos": [
+    "¿Por qué dos tarjetas gráficas con la misma VRAM rinden diferente?"
+   ]
+  },
+  {
+   "archivo": "calculadora_pixeles_aislado_01.png",
+   "ideas": [
+    68
+   ],
+   "primera_fecha": "2027-04-30",
+   "que": "Calculadora científica cuya pantalla muestra un pasillo pixelado abstracto.",
+   "videos": [
+    "¿Por qué la gente consigue ejecutar DOOM hasta en una calculadora?"
+   ]
+  },
+  {
+   "archivo": "ventilador_ruido_aislado_01.png",
+   "ideas": [
+    18
+   ],
+   "primera_fecha": "2027-05-03",
+   "que": "Ventilador de PC de 120 mm con arcos de ondas de sonido saliendo en naranja y un pequeño altavoz con ondas más fuertes.",
+   "videos": [
+    "¿Por qué tu ordenador hace cada vez más ruido?"
+   ]
+  },
+  {
+   "archivo": "ram_mal_insertada_aislado_01.png",
+   "ideas": [
+    27
+   ],
+   "primera_fecha": "2027-05-07",
+   "que": "Dos módulos de RAM: uno bien insertado en la placa y otro a medio insertar, inclinado, con un destello de aviso naranja. Sin texto.",
+   "videos": [
+    "¿Por qué Windows no detecta toda tu memoria RAM?"
+   ]
+  },
+  {
+   "archivo": "auriculares_gaming_aislado_01.png",
+   "ideas": [
+    87
+   ],
+   "primera_fecha": "2027-05-10",
+   "que": "Auriculares gaming con micrófono, en 3/4, con un acento azul eléctrico.",
+   "videos": [
+    "¿Los auriculares gaming son realmente mejores que unos normales?"
+   ]
+  },
+  {
+   "archivo": "portatil_compra_errores_aislado_01.png",
+   "ideas": [
+    37
+   ],
+   "primera_fecha": "2027-05-12",
+   "que": "Portátil con una lupa delante inspeccionando sus puertos y una marca de aviso naranja; al lado una lista abstracta de líneas con marcas.",
+   "videos": [
+    "¿Qué errores comete la gente al comprar un portátil?"
+   ]
+  },
+  {
+   "archivo": "planetas_aislado_01.png",
+   "ideas": [
+    97
+   ],
+   "primera_fecha": "2027-05-14",
+   "que": "Cinco planetas distintos y estilizados (anillos, océanos, desierto, helado) alineados con estelas.",
+   "videos": [
+    "¿Cómo se generan los miles de planetas de No Man's Sky?"
+   ]
+  },
+  {
+   "archivo": "manual_juego_aislado_01.png",
+   "ideas": [
+    107
+   ],
+   "primera_fecha": "2027-05-19",
+   "que": "Caja de juego genérica con un manual grueso abierto con diagramas abstractos.",
+   "videos": [
+    "¿Por qué antes los videojuegos incluían manuales enormes?"
+   ]
+  },
+  {
+   "archivo": "estatica_chispa_aislado_01.png",
+   "ideas": [
+    57
+   ],
+   "primera_fecha": "2027-05-21",
+   "que": "Módulo de RAM con una chispa azulada de electricidad estática y una pulsera antiestática al lado.",
+   "videos": [
+    "¿Puedes romper tu PC al tocar sus componentes con electricidad estática?"
+   ]
+  },
+  {
+   "archivo": "movil_vs_pc_antiguo_aislado_01.png",
+   "ideas": [
+    117
+   ],
+   "primera_fecha": "2027-05-24",
+   "que": "Móvil moderno junto a un ordenador antiguo grande beige, mismo tamaño visual.",
+   "videos": [
+    "¿Por qué los móviles actuales tienen mucha más potencia que los ordenadores antiguos?"
+   ]
+  },
+  {
+   "archivo": "portatil_enchufado_aislado_01.png",
+   "ideas": [
+    19
+   ],
+   "primera_fecha": "2027-05-31",
+   "que": "Portátil abierto con el cargador enchufado y sobre él una silueta de batería con rayo (sin números).",
+   "videos": [
+    "¿Es malo usar el portátil siempre enchufado?"
+   ]
+  },
+  {
+   "archivo": "escolta_camino_aislado_01.png",
+   "ideas": [
+    78
+   ],
+   "primera_fecha": "2027-06-02",
+   "que": "Dos figuras genéricas sin cara, una grande y otra más pequeña siguiéndola por un camino con peligros (fosos, flechas).",
+   "videos": [
+    "¿Por qué las misiones de escolta son tan odiadas por los jugadores?"
+   ]
+  },
+  {
+   "archivo": "altavoz_pitidos_aislado_01.png",
+   "ideas": [
+    28
+   ],
+   "primera_fecha": "2027-06-04",
+   "que": "Pequeño zumbador/altavoz de placa base con ondas de sonido naranja saliendo, sobre un trozo de placa.",
+   "videos": [
+    "¿Qué significan los pitidos de tu ordenador al encenderlo?"
+   ]
+  },
+  {
+   "archivo": "mando_inalambrico_aislado_01.png",
+   "ideas": [
+    88,
+    90
+   ],
+   "primera_fecha": "2027-06-07",
+   "que": "Mando moderno genérico de diseño propio con ondas inalámbricas azules saliendo.",
+   "videos": [
+    "¿Los mandos inalámbricos tienen más retraso que los de cable?",
+    "¿Es mejor jugar con teclado y ratón o con mando?"
+   ]
+  },
+  {
+   "archivo": "pasillo_terror_aislado_01.png",
+   "ideas": [
+    98
+   ],
+   "primera_fecha": "2027-06-11",
+   "que": "Pasillo oscuro con una linterna que ilumina una puerta y una silueta lejana; ambiente tenso.",
+   "videos": [
+    "¿Por qué los videojuegos de terror consiguen asustarnos aunque sepamos que no son reales?"
+   ]
+  },
+  {
+   "archivo": "revista_demo_aislado_01.png",
+   "ideas": [
+    108
+   ],
+   "primera_fecha": "2027-06-14",
+   "que": "Revista abierta con portadas abstractas y un CD con etiqueta en blanco.",
+   "videos": [
+    "¿Te acuerdas de las demos de videojuegos que venían en las revistas?"
+   ]
+  },
+  {
+   "archivo": "pantalla_dividida_aislado_01.png",
+   "ideas": [
+    109
+   ],
+   "primera_fecha": "2027-06-16",
+   "que": "Televisión dividida en 4 cuadrantes de colores con 4 mandos conectados.",
+   "videos": [
+    "¿Por qué antes era tan habitual jugar a pantalla dividida y ahora mucho menos?"
+   ]
+  },
+  {
+   "archivo": "memes_aislado_01.png",
+   "ideas": [
+    118
+   ],
+   "primera_fecha": "2027-06-21",
+   "que": "Globos de diálogo abstractos con caras de risa genéricas y flechas de compartir multiplicándose.",
+   "videos": [
+    "¿Cómo nacieron los memes de Internet y por qué se hacen virales?"
+   ]
+  },
+  {
+   "archivo": "pc_longevidad_aislado_01.png",
+   "ideas": [
+    20
+   ],
+   "primera_fecha": "2027-06-25",
+   "que": "Torre de PC cuidada y reluciente con un calendario abstracto de hojas (sin números) detrás y una estrella azul de calidad.",
+   "videos": [
+    "¿Cuántos años puede durar un ordenador bien cuidado?"
+   ]
+  },
+  {
+   "archivo": "trofeos_logros_aislado_01.png",
+   "ideas": [
+    80
+   ],
+   "primera_fecha": "2027-06-30",
+   "que": "Tres copas de trofeo (bronce, plata y oro) en escalera y un mando genérico.",
+   "videos": [
+    "¿Por qué existen los trofeos y logros en los videojuegos?"
+   ]
+  },
+  {
+   "archivo": "router_wifi_aislado_01.png",
+   "ideas": [
+    29
+   ],
+   "primera_fecha": "2027-07-02",
+   "que": "Router wifi moderno con 4 antenas y ondas azules concéntricas; un portátil cerca y un móvil lejos recibiendo la señal.",
+   "videos": [
+    "¿Por qué tu Wi-Fi va lento en el ordenador, pero bien en el móvil?"
+   ]
+  },
+  {
+   "archivo": "mareo_juegos_aislado_01.png",
+   "ideas": [
+    89
+   ],
+   "primera_fecha": "2027-07-05",
+   "que": "Monitor con un túnel en perspectiva y una espiral azul, con un icono de cara mareada.",
+   "videos": [
+    "¿Por qué algunos videojuegos provocan mareos?"
+   ]
+  },
+  {
+   "archivo": "cpu_vs_gpu_aislado_01.png",
+   "ideas": [
+    39
+   ],
+   "primera_fecha": "2027-07-07",
+   "que": "Procesador y tarjeta gráfica enfrentados, de tamaño visual parecido, con un rayo azul entre ambos.",
+   "videos": [
+    "¿Qué es más importante para jugar, el procesador o la gráfica?"
+   ]
+  },
+  {
+   "archivo": "karts_carrera_aislado_01.png",
+   "ideas": [
+    99
+   ],
+   "primera_fecha": "2027-07-09",
+   "que": "Tres karts de dibujo originales (sin personajes) en una curva con objetos genéricos volando.",
+   "videos": [
+    "¿Cómo consigue Mario Kart que las carreras sean tan caóticas y divertidas?"
+   ]
+  },
+  {
+   "archivo": "recreativa_arcade_aislado_01.png",
+   "ideas": [
+    110
+   ],
+   "primera_fecha": "2027-07-12",
+   "que": "Máquina recreativa vertical genérica con pantalla, joystick y botones coloridos, luces azules; sin logos ni personajes.",
+   "videos": [
+    "¿Cómo funcionaban las antiguas máquinas recreativas de los salones arcade?"
+   ]
+  },
+  {
+   "archivo": "usb_infectada_aislado_01.png",
+   "ideas": [
+    59
+   ],
+   "primera_fecha": "2027-07-14",
+   "que": "Memoria USB con un icono de bicho estilizado en rojo/naranja y un triángulo de aviso (sin texto).",
+   "videos": [
+    "¿Qué pasa si conectas una memoria USB infectada a tu ordenador?"
+   ]
+  },
+  {
+   "archivo": "windows_lento_anos_aislado_01.png",
+   "ideas": [
+    60
+   ],
+   "primera_fecha": "2027-07-16",
+   "que": "Portátil con un reloj de arena grande y un calendario abstracto de muchas hojas detrás.",
+   "videos": [
+    "¿Es verdad que Windows se vuelve más lento con los años?"
+   ]
+  },
+  {
+   "archivo": "rgb_luces_aislado_01.png",
+   "ideas": [
+    119
+   ],
+   "primera_fecha": "2027-07-19",
+   "que": "Componentes de PC (RAM, ventiladores, teclado) con iluminación RGB multicolor.",
+   "videos": [
+    "¿Por qué los productos gaming suelen tener tantas luces RGB?"
+   ]
+  },
+  {
+   "archivo": "teclado_raton_gaming_aislado_01.png",
+   "ideas": [
+    90
+   ],
+   "primera_fecha": "2027-07-23",
+   "que": "Teclado mecánico gaming y ratón con luz azul, sin texto en las teclas.",
+   "videos": [
+    "¿Es mejor jugar con teclado y ratón o con mando?"
+   ]
+  },
+  {
+   "archivo": "reparar_o_comprar_aislado_01.png",
+   "ideas": [
+    40
+   ],
+   "primera_fecha": "2027-07-26",
+   "que": "A la izquierda un PC averiado con una grieta y una llave inglesa; a la derecha un PC nuevo con lazo; entre ambos una flecha doble.",
+   "videos": [
+    "¿Cuándo merece la pena reparar un ordenador y cuándo comprar otro?"
+   ]
+  }
+ ]
+}

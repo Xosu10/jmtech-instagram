@@ -1,0 +1,65 @@
+{
+ "id": "idea_065",
+ "idea": 65,
+ "titulo": "¿Por qué todo el mundo soplaba los cartuchos de Nintendo?",
+ "titulo_pantalla": "¿Por qué soplábamos los cartuchos?",
+ "escenas": [
+  {
+   "texto": "¿Por qué todo el mundo soplaba los cartuchos de Nintendo?",
+   "imagen": "cartucho_generico_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "El juego no arrancaba, soplábamos, lo volvíamos a meter, y a veces funcionaba.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El juego no arrancaba",
+     "Soplábamos y lo metíamos de nuevo",
+     "Y a veces funcionaba"
+    ]
+   }
+  },
+  {
+   "texto": "Pero lo que ayudaba era volver a insertarlo. Soplar añadía humedad y podía oxidar los contactos.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Soplar limpiaba el cartucho",
+    "realidad": "Lo que ayudaba era volver a insertarlo; soplar añadía humedad y podía oxidar los contactos."
+   }
+  },
+  {
+   "texto": "Para limpiarlo bien: con la consola apagada, alcohol isopropílico y un bastoncillo, y dejarlo secar.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Cómo se limpia bien",
+    "titulo": "Contactos limpios",
+    "acento": "azul",
+    "puntos": [
+     "Con la consola apagada",
+     "Alcohol isopropílico y bastoncillo",
+     "Deja secar antes de usar"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "💨",
+ "puntos": [
+  "El juego no arrancaba por contactos sucios o mal asentados.",
+  "Lo que ayudaba era volver a insertarlo; soplar añadía humedad.",
+  "Se limpia con alcohol isopropílico y un bastoncillo."
+ ],
+ "etiquetas": [
+  "#nintendo",
+  "#retrogaming",
+  "#nostalgia"
+ ],
+ "fuentes": [
+  "Wikipedia: Nintendo Entertainment System",
+  "iFixit: limpieza de contactos de cartuchos"
+ ]
+}

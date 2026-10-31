@@ -1,0 +1,54 @@
+{
+ "id": "idea_074",
+ "idea": 74,
+ "titulo": "¿Cómo consiguen los speedrunners terminar juegos en pocos minutos?",
+ "titulo_pantalla": "¿Cómo logran los speedrunners sus récords?",
+ "escenas": [
+  {
+   "texto": "¿Cómo consiguen los speedrunners terminar juegos en pocos minutos?",
+   "imagen": "cronometro_speedrun_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Con rutas planificadas al milímetro, trucos y fallos del propio juego, y miles de intentos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "El secreto",
+    "titulo": "Preparación extrema",
+    "acento": "azul",
+    "puntos": [
+     "Rutas planificadas al milímetro",
+     "Trucos y fallos del juego",
+     "Miles de intentos"
+    ]
+   }
+  },
+  {
+   "texto": "Y no hacen trampas: hay reglas y verificación. Las partidas asistidas por herramientas son otra categoría aparte.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Los speedrunners usan programas para hacer trampas",
+    "realidad": "En las categorías normales hay reglas y verificación; las asistidas por herramientas son otra categoría."
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⏱️",
+ "puntos": [
+  "Rutas planificadas, trucos del juego y miles de intentos.",
+  "Hay reglas y verificación: no es hacer trampas.",
+  "Las partidas asistidas por herramientas son otra categoría."
+ ],
+ "etiquetas": [
+  "#speedrun",
+  "#videojuegos",
+  "#gaming"
+ ],
+ "fuentes": [
+  "Wikipedia: Speedrun",
+  "Speedrun.com: reglas generales"
+ ]
+}

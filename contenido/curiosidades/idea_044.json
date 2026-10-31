@@ -1,0 +1,73 @@
+{
+ "id": "idea_044",
+ "idea": 44,
+ "titulo": "¿Qué ordenador necesitas para ejecutar inteligencia artificial en casa?",
+ "titulo_pantalla": "¿Qué PC necesitas para IA en casa?",
+ "escenas": [
+  {
+   "texto": "¿Qué ordenador necesitas para ejecutar inteligencia artificial en casa?",
+   "imagen": "pc_ia_local_aislado_01.png",
+   "provisional": "pc_optimizacion_cpu_ram_aislado_01.png"
+  },
+  {
+   "texto": "Lo más importante es la memoria: el modelo tiene que caber entero, y va mucho mejor en la memoria de la gráfica.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo más importante",
+    "titulo": "La memoria",
+    "acento": "azul",
+    "puntos": [
+     "El modelo debe caber entero",
+     "Mejor en la memoria de la gráfica",
+     "Si no cabe, va mucho más lento"
+    ]
+   }
+  },
+  {
+   "texto": "Un modelo pequeño, ya comprimido, ocupa unos cinco o seis gigas.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "5 a 6 GB",
+    "texto": "ocupa un modelo pequeño de unos 8.000 millones de parámetros, ya comprimido",
+    "pie": "Orientativo, según el modelo"
+   }
+  },
+  {
+   "texto": "Para modelos pequeños, dieciséis gigas de RAM. Para modelos grandes, una gráfica con mucha memoria.",
+   "grafico": "resumen",
+   "params": {
+    "filas": [
+     {
+      "cabecera": "Modelos pequeños",
+      "titulo": "16 GB de RAM",
+      "acento": "azul"
+     },
+     {
+      "cabecera": "Modelos grandes",
+      "titulo": "Gráfica con mucha memoria",
+      "acento": "naranja"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧠",
+ "puntos": [
+  "Lo más importante es la memoria: el modelo debe caber entero.",
+  "Un modelo pequeño comprimido ocupa unos 5 o 6 GB.",
+  "Modelos pequeños: 16 GB de RAM. Grandes: gráfica con mucha memoria."
+ ],
+ "etiquetas": [
+  "#ia",
+  "#pcgamer",
+  "#ram"
+ ],
+ "fuentes": [
+  "Corsair: memoria para modelos de lenguaje locales",
+  "Evetech: requisitos de RAM para modelos de lenguaje"
+ ]
+}

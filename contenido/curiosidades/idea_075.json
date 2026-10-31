@@ -1,0 +1,54 @@
+{
+ "id": "idea_075",
+ "idea": 75,
+ "titulo": "¿Por qué los jefes finales de los videojuegos suelen ser tan difíciles?",
+ "titulo_pantalla": "¿Por qué son tan duros los jefes finales?",
+ "escenas": [
+  {
+   "texto": "¿Por qué los jefes finales suelen ser tan difíciles?",
+   "imagen": "jefe_final_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Ponen a prueba todo lo que has aprendido, son el clímax de la historia y dan sensación de logro cuando los vences.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué",
+    "titulo": "El gran examen",
+    "acento": "azul",
+    "puntos": [
+     "Ponen a prueba lo aprendido",
+     "Son el clímax de la historia",
+     "Dan sensación de logro"
+    ]
+   }
+  },
+  {
+   "texto": "Y no son difíciles porque sí: se diseñan para que aprendas sus patrones y sientas que ha merecido la pena.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Los jefes son difíciles porque sí",
+    "realidad": "Se diseñan para que aprendas sus patrones y sientas que ha merecido la pena."
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "👹",
+ "puntos": [
+  "Ponen a prueba todo lo aprendido y son el clímax.",
+  "Dan sensación de logro al vencerlos.",
+  "Se diseñan para aprender sus patrones."
+ ],
+ "etiquetas": [
+  "#videojuegos",
+  "#jefesfinales",
+  "#gaming"
+ ],
+ "fuentes": [
+  "Wikipedia: Jefe (videojuegos)",
+  "Wikipedia: Diseño de videojuegos"
+ ]
+}

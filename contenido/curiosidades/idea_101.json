@@ -1,0 +1,68 @@
+{
+ "id": "idea_101",
+ "idea": 101,
+ "titulo": "¿Por qué los videojuegos antiguos eran mucho más difíciles?",
+ "titulo_pantalla": "¿Por qué eran tan difíciles los juegos antiguos?",
+ "escenas": [
+  {
+   "texto": "¿Por qué los videojuegos antiguos eran mucho más difíciles?",
+   "imagen": "consola_retro_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "Había poca memoria y, por tanto, poco contenido. La dificultad alargaba la partida. Y casi ninguno permitía guardar.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Antes",
+     "titulo": "Pocos recursos",
+     "puntos": [
+      "Poca memoria: poco contenido",
+      "Dificultad para alargar la partida",
+      "Casi sin guardar partida"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Ahora",
+     "titulo": "Mucho contenido",
+     "puntos": [
+      "Guardado automático",
+      "Tutoriales y niveles de dificultad",
+      "Historias largas"
+     ],
+     "acento": "azul"
+    }
+   }
+  },
+  {
+   "texto": "Además, las recreativas eran un negocio: si pasabas rápido, dejabas de meter monedas. Por eso eran duras y con vidas limitadas.",
+   "imagen": "recreativa_arcade_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "Y casi no había ayudas: sin tutoriales ni guardado, había que aprender a base de repetir.",
+   "imagen": "mando_retro_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "👾",
+ "puntos": [
+  "Poca memoria significaba poco contenido, y la dificultad alargaba la partida.",
+  "Las recreativas vivían de las monedas: eran duras a propósito.",
+  "No había tutoriales ni guardado: se aprendía repitiendo."
+ ],
+ "etiquetas": [
+  "#retro",
+  "#videojuegos",
+  "#nostalgia"
+ ],
+ "fuentes": [
+  "Wikipedia: Historia de los videojuegos",
+  "Wikipedia: Máquina recreativa"
+ ]
+}

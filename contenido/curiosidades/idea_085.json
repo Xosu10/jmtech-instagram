@@ -1,0 +1,74 @@
+{
+ "id": "idea_085",
+ "idea": 85,
+ "titulo": "¿Tener 1.000 megas de Internet te hace jugar mejor online?",
+ "titulo_pantalla": "¿Más megas para jugar mejor?",
+ "escenas": [
+  {
+   "texto": "¿Tener mil megas de Internet te hace jugar mejor online?",
+   "imagen": "ping_servidor_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Un juego online usa muy poca conexión mientras juegas.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "< 1 Mbps",
+    "texto": "es lo que suele usar un juego online mientras juegas",
+    "pie": "Orientativo; las descargas sí piden más"
+   }
+  },
+  {
+   "texto": "Los megas son cuánto cabe a la vez; el ping es cuánto tarda en responder. Para jugar, importa el ping.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Velocidad (megas)",
+     "titulo": "Cuánto cabe",
+     "puntos": [
+      "Importa para descargar",
+      "Y para varios dispositivos",
+      "Y para ver vídeo en alta calidad"
+     ]
+    },
+    "der": {
+     "cabecera": "Latencia (ping)",
+     "titulo": "Cuánto tarda",
+     "puntos": [
+      "Importa para jugar",
+      "Mejor con cable",
+      "Mejor con servidores cercanos"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "Así que más megas no siempre significa menos lag: importan más el ping y la estabilidad.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Más megas, menos lag",
+    "realidad": "Para jugar importan más el ping y la estabilidad que los megas."
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📶",
+ "puntos": [
+  "Un juego online usa muy poca conexión.",
+  "Los megas importan para descargar; el ping, para jugar.",
+  "Importan más el ping y la estabilidad."
+ ],
+ "etiquetas": [
+  "#internet",
+  "#gaming",
+  "#ping"
+ ],
+ "fuentes": [
+  "Wikipedia: Latencia (informática)",
+  "Cloudflare: velocidad frente a latencia"
+ ]
+}

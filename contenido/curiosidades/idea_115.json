@@ -1,0 +1,74 @@
+{
+ "id": "idea_115",
+ "idea": 115,
+ "titulo": "¿Qué ocurriría si Internet dejara de funcionar durante 24 horas?",
+ "titulo_pantalla": "¿Y si Internet se apaga un día?",
+ "escenas": [
+  {
+   "texto": "¿Qué ocurriría si Internet dejara de funcionar durante veinticuatro horas?",
+   "imagen": "internet_apagado_aislado_01.png",
+   "provisional": "empresa_soporte_remoto_aislado_01.png"
+  },
+  {
+   "texto": "Fallarían primero los pagos con tarjeta, la banca online, las comunicaciones y los servicios en la nube.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo primero que fallaría",
+    "titulo": "La vida conectada",
+    "acento": "naranja",
+    "puntos": [
+     "Pagos con tarjeta y banca online",
+     "Mensajes y videollamadas",
+     "Servicios en la nube y teletrabajo"
+    ]
+   }
+  },
+  {
+   "texto": "Seguiría funcionando lo que tengas guardado en tu equipo, la radio y la televisión.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que seguiría",
+    "titulo": "Lo que no depende de la red",
+    "acento": "azul",
+    "puntos": [
+     "Lo guardado en tu equipo",
+     "La radio",
+     "La televisión"
+    ]
+   }
+  },
+  {
+   "texto": "Por eso conviene tener lo importante también guardado en local, algo de efectivo y los mapas descargados.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por si acaso",
+    "titulo": "Prepárate",
+    "acento": "azul",
+    "puntos": [
+     "Guarda lo importante en local",
+     "Ten algo de efectivo",
+     "Descarga mapas y documentos clave"
+    ]
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🌐",
+ "puntos": [
+  "Fallarían pagos, banca online, mensajes y la nube.",
+  "Seguiría lo que tienes guardado en tu equipo.",
+  "Guarda lo importante también en local."
+ ],
+ "etiquetas": [
+  "#internet",
+  "#curiosidadestech",
+  "#tecnologia"
+ ],
+ "fuentes": [
+  "Wikipedia: Apagón de Internet",
+  "NetBlocks: impacto de los cortes de Internet"
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "id": "idea_066",
+ "idea": 66,
+ "titulo": "¿Por qué SEGA dejó de fabricar consolas?",
+ "titulo_pantalla": "¿Por qué SEGA dejó las consolas?",
+ "escenas": [
+  {
+   "texto": "¿Por qué SEGA dejó de fabricar consolas?",
+   "imagen": "consola_retro_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "Tras Dreamcast, SEGA anunció en dos mil uno que dejaba de fabricar consolas y pasó a hacer juegos para todas las plataformas.",
+   "grafico": "linea",
+   "params": {
+    "hitos": [
+     {
+      "cuando": "1998",
+      "texto": "Llega Dreamcast, la última consola de SEGA"
+     },
+     {
+      "cuando": "2001",
+      "texto": "SEGA anuncia que deja de fabricar consolas"
+     },
+     {
+      "cuando": "Hoy",
+      "texto": "Hace juegos para todas las plataformas"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Las causas fueron varias: pérdidas tras la consola anterior, ventas menores de lo esperado y la llegada de PlayStation 2.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Las causas",
+    "titulo": "Una suma de factores",
+    "acento": "naranja",
+    "puntos": [
+     "Pérdidas tras la consola anterior",
+     "Dreamcast vendió menos de lo esperado",
+     "PlayStation 2 llegó con mucha fuerza"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📉",
+ "puntos": [
+  "SEGA dejó de fabricar consolas en 2001, tras Dreamcast.",
+  "Hubo varias causas: pérdidas, pocas ventas y la competencia.",
+  "Hoy hace juegos para todas las plataformas."
+ ],
+ "etiquetas": [
+  "#sega",
+  "#retrogaming",
+  "#historia"
+ ],
+ "fuentes": [
+  "Wikipedia: Dreamcast",
+  "Wikipedia: Sega"
+ ]
+}

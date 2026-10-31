@@ -1,0 +1,63 @@
+{
+ "id": "idea_021",
+ "idea": 21,
+ "titulo": "Mi ordenador enciende, pero no aparece imagen. ¿Qué puede estar pasando?",
+ "titulo_pantalla": "Enciende, pero no hay imagen",
+ "escenas": [
+  {
+   "texto": "Mi ordenador enciende, pero no hay imagen. ¿Qué puede pasar?",
+   "imagen": "monitor_sin_senal_aislado_01.png",
+   "provisional": "perifericos_setup_aislado_01.png"
+  },
+  {
+   "texto": "Antes de asustarte, comprueba que el cable va a la gráfica y no a la placa, y que el monitor está en la entrada correcta.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El cable va a la gráfica, no a la placa",
+     "El monitor está en la entrada correcta",
+     "Prueba con otro cable"
+    ]
+   }
+  },
+  {
+   "texto": "Si sigue igual, apaga, desenchufa y vuelve a encajar bien la RAM y la gráfica. Un módulo mal asentado es de las causas más habituales.",
+   "imagen": "ram_mal_insertada_aislado_01.png",
+   "provisional": "ram_instalacion_aislado_01.png"
+  },
+  {
+   "texto": "Si tampoco funciona, puede ser la gráfica, la fuente, la placa o el procesador, y ya conviene que lo mire un técnico.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Si nada funciona",
+    "titulo": "Puede ser algo más serio",
+    "acento": "naranja",
+    "puntos": [
+     "Gráfica averiada",
+     "Fuente de alimentación",
+     "Placa base o procesador"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🖥️",
+ "puntos": [
+  "Comprueba que el cable va a la gráfica y la entrada del monitor.",
+  "Vuelve a encajar la RAM y la gráfica.",
+  "Si sigue igual, puede ser la gráfica, la fuente o la placa."
+ ],
+ "etiquetas": [
+  "#averias",
+  "#pc",
+  "#soportetecnico"
+ ],
+ "fuentes": [
+  "AMD: soporte, el PC enciende pero no hay imagen",
+  "Ask Leo: qué significa «no signal»",
+  "Evetech: guía de PC sin imagen"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "id": "idea_023",
+ "idea": 23,
+ "titulo": "¿Qué significa un pantallazo azul de Windows?",
+ "titulo_pantalla": "¿Qué es el pantallazo azul?",
+ "escenas": [
+  {
+   "texto": "¿Qué significa un pantallazo azul de Windows?",
+   "imagen": "pantalla_azul_aislado_01.png",
+   "provisional": "windows_optimizacion_aislado_01.png"
+  },
+  {
+   "texto": "Windows detecta un error grave, detiene todo para proteger tus datos, muestra un código y se reinicia.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Windows detecta un error grave",
+     "Detiene todo para proteger tus datos",
+     "Muestra un código y se reinicia"
+    ]
+   }
+  },
+  {
+   "texto": "Las causas más habituales son controladores defectuosos, RAM o disco con fallos y sobrecalentamiento.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas habituales",
+    "titulo": "Casi siempre es esto",
+    "acento": "naranja",
+    "puntos": [
+     "Controladores defectuosos",
+     "RAM o disco con fallos",
+     "Sobrecalentamiento"
+    ]
+   }
+  },
+  {
+   "texto": "Anota el código, quita lo último que instalaste o conectaste y, si se repite, pide un diagnóstico.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Tres pasos",
+    "acento": "azul",
+    "puntos": [
+     "Anota el código de error",
+     "Quita lo último que instalaste",
+     "Si se repite, pide diagnóstico"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🟦",
+ "puntos": [
+  "Windows detiene el sistema al detectar un error grave.",
+  "Suele deberse a controladores, RAM, disco o calor.",
+  "Anota el código y, si se repite, pide un diagnóstico."
+ ],
+ "etiquetas": [
+  "#windows",
+  "#pantallazoazul",
+  "#averias"
+ ],
+ "fuentes": [
+  "Microsoft: solucionar errores de pantalla azul",
+  "Wikipedia: Pantalla azul de la muerte"
+ ]
+}

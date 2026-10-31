@@ -1,0 +1,76 @@
+{
+ "id": "idea_064",
+ "idea": 64,
+ "titulo": "¿Qué es el famoso código Konami y de dónde viene?",
+ "titulo_pantalla": "El código Konami",
+ "escenas": [
+  {
+   "texto": "¿Qué es el famoso código Konami y de dónde viene?",
+   "imagen": "mando_retro_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "Arriba, arriba, abajo, abajo, izquierda, derecha, izquierda, derecha, B, A.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "La secuencia",
+    "titulo": "El código Konami",
+    "acento": "azul",
+    "puntos": [
+     "Arriba, arriba, abajo, abajo",
+     "Izquierda, derecha, izquierda, derecha",
+     "B, A"
+    ]
+   }
+  },
+  {
+   "texto": "Lo creó Kazuhisa Hashimoto para probar el juego Gradius sin morir, y se le olvidó quitarlo. Luego se hizo famoso con Contra, donde daba treinta vidas.",
+   "grafico": "linea",
+   "params": {
+    "hitos": [
+     {
+      "cuando": "1986",
+      "texto": "Hashimoto crea el truco para probar Gradius"
+     },
+     {
+      "cuando": "1988",
+      "texto": "En Contra da treinta vidas y se hace famoso"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Hoy sigue vivo porque es fácil de recordar, aparece en juegos y webs, y es un guiño entre fans.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué sigue vivo",
+    "titulo": "Un guiño entre fans",
+    "acento": "naranja",
+    "puntos": [
+     "Es fácil de recordar",
+     "Aparece en juegos y webs",
+     "Une a varias generaciones"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🕹️",
+ "puntos": [
+  "La secuencia es arriba, arriba, abajo, abajo, izquierda, derecha, izquierda, derecha, B, A.",
+  "Lo creó Kazuhisa Hashimoto para probar Gradius.",
+  "Se hizo famoso con Contra y sigue vivo como guiño."
+ ],
+ "etiquetas": [
+  "#konami",
+  "#retrogaming",
+  "#curiosidadesgamer"
+ ],
+ "fuentes": [
+  "Wikipedia: Código Konami",
+  "Wikipedia: Gradius"
+ ]
+}

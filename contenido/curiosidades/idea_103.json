@@ -1,0 +1,69 @@
+{
+ "id": "idea_103",
+ "idea": 103,
+ "titulo": "¿Por qué necesitábamos tarjetas de memoria para guardar nuestras partidas?",
+ "titulo_pantalla": "¿Por qué hacían falta memory cards?",
+ "escenas": [
+  {
+   "texto": "¿Por qué necesitábamos tarjetas de memoria para guardar las partidas?",
+   "imagen": "memory_card_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "Las consolas no traían disco interno y los CD no se podían escribir, así que se guardaba en una tarjeta aparte.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué existían",
+    "titulo": "Sin disco interno",
+    "acento": "azul",
+    "puntos": [
+     "Las consolas no traían disco interno",
+     "Los CD no se podían escribir",
+     "Te llevabas tus partidas contigo"
+    ]
+   }
+  },
+  {
+   "texto": "Eran minúsculas: la de la primera PlayStation guardaba ciento veintiocho kilobytes, apenas unas pocas partidas.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "128 KB",
+    "texto": "guardaba la tarjeta de la primera PlayStation: unas pocas partidas",
+    "pie": "Capacidad habitual"
+   }
+  },
+  {
+   "texto": "Hoy las consolas llevan disco interno y guardan también en la nube, así que las tarjetas ya no hacen falta.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Hoy",
+    "titulo": "Adiós a las tarjetas",
+    "acento": "naranja",
+    "puntos": [
+     "Disco o SSD interno",
+     "Guardado en la nube",
+     "Ya no hacen falta tarjetas"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "💳",
+ "puntos": [
+  "Las consolas no traían disco interno y los CD no se podían escribir.",
+  "La tarjeta de PlayStation guardaba 128 KB.",
+  "Hoy se guarda en el disco interno y en la nube."
+ ],
+ "etiquetas": [
+  "#retrogaming",
+  "#playstation",
+  "#nostalgia"
+ ],
+ "fuentes": [
+  "Wikipedia: Tarjeta de memoria (videojuegos)",
+  "Wikipedia: PlayStation (consola)"
+ ]
+}

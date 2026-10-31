@@ -1,0 +1,70 @@
+{
+ "id": "idea_113",
+ "idea": 113,
+ "titulo": "¿Por qué las teclas del teclado están colocadas en formato QWERTY?",
+ "titulo_pantalla": "¿Por qué el teclado es QWERTY?",
+ "escenas": [
+  {
+   "texto": "¿Por qué las teclas del teclado están colocadas en formato QWERTY?",
+   "imagen": "maquina_escribir_aislado_01.png",
+   "provisional": "teclado_limpieza_aislado_01.png"
+  },
+  {
+   "texto": "Nació con las primeras máquinas de escribir, en el siglo diecinueve.",
+   "grafico": "linea",
+   "params": {
+    "hitos": [
+     {
+      "cuando": "1868",
+      "texto": "Christopher Sholes patenta una máquina de escribir"
+     },
+     {
+      "cuando": "1873",
+      "texto": "Se comercializa con teclas en formato QWERTY"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "La explicación más popular es que separaba las letras habituales para que los brazos de la máquina no se atascasen.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "La explicación popular",
+    "titulo": "Evitar atascos",
+    "acento": "azul",
+    "puntos": [
+     "Las teclas golpeaban el papel",
+     "Letras seguidas se atascaban",
+     "Se separaron las más usadas"
+    ]
+   }
+  },
+  {
+   "texto": "Pero los historiadores no se ponen de acuerdo, y hoy seguimos con ese orden por costumbre.",
+   "grafico": "mito",
+   "params": {
+    "mito": "El QWERTY se diseñó para escribir más despacio",
+    "realidad": "Es la teoría más popular, pero los historiadores no se ponen de acuerdo."
+   }
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⌨️",
+ "puntos": [
+  "Nació con las primeras máquinas de escribir, en el siglo XIX.",
+  "La teoría popular dice que evitaba atascos.",
+  "Hoy lo usamos por costumbre."
+ ],
+ "etiquetas": [
+  "#teclado",
+  "#historia",
+  "#curiosidadestech"
+ ],
+ "fuentes": [
+  "Wikipedia: QWERTY",
+  "Wikipedia: Christopher Latham Sholes"
+ ]
+}

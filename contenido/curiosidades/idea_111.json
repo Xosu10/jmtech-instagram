@@ -1,0 +1,79 @@
+{
+ "id": "idea_111",
+ "idea": 111,
+ "titulo": "¿Por qué el icono de guardar sigue siendo un disquete?",
+ "titulo_pantalla": "¿Por qué guardar es un disquete?",
+ "escenas": [
+  {
+   "texto": "¿Por qué el icono de guardar sigue siendo un disquete?",
+   "imagen": "disquete_aislado_01.png",
+   "provisional": "datos_backup_recuperacion_aislado_01.png"
+  },
+  {
+   "texto": "El disquete fue durante décadas la forma de guardar archivos. Desapareció, pero su dibujo se quedó.",
+   "grafico": "linea",
+   "params": {
+    "hitos": [
+     {
+      "cuando": "1971",
+      "texto": "IBM presenta el primer disquete"
+     },
+     {
+      "cuando": "1981",
+      "texto": "Sony lanza el de 3,5 pulgadas"
+     },
+     {
+      "cuando": "1998",
+      "texto": "El iMac se vende sin lector de disquetes"
+     },
+     {
+      "cuando": "Hoy",
+      "texto": "Su dibujo sigue siendo el botón de guardar"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Y cabía muy poco: un disquete guardaba menos que una sola foto de un móvil actual.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "1,44 MB",
+    "texto": "cabían en un disquete de 3,5 pulgadas, menos que una foto de móvil",
+    "pie": "Capacidad habitual"
+   }
+  },
+  {
+   "texto": "Se llama metáfora visual: un dibujo que todos reconocemos, aunque el objeto ya no exista.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Se llama",
+    "titulo": "Metáfora visual",
+    "acento": "azul",
+    "puntos": [
+     "Un dibujo que todos reconocen",
+     "Aunque el objeto ya no exista",
+     "Como el teléfono para llamar"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "💾",
+ "puntos": [
+  "El disquete fue durante décadas la forma de guardar archivos.",
+  "Desapareció, pero el icono de guardar se quedó.",
+  "Un disquete guardaba 1,44 MB."
+ ],
+ "etiquetas": [
+  "#historiainformatica",
+  "#disquete",
+  "#curiosidadestech"
+ ],
+ "fuentes": [
+  "Wikipedia: Disquete",
+  "Wikipedia: Esqueumorfismo"
+ ]
+}

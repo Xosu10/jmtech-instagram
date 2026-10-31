@@ -1,0 +1,65 @@
+{
+ "id": "idea_005",
+ "idea": 5,
+ "titulo": "¿Más ventiladores significa mejor refrigeración?",
+ "titulo_pantalla": "¿Más ventiladores, más frío?",
+ "escenas": [
+  {
+   "texto": "¿Más ventiladores significa mejor refrigeración?",
+   "imagen": "caja_pc_flujo_aire_aislado_01.png",
+   "provisional": "pc_gaming_aire_negro_aislado_01.png"
+  },
+  {
+   "texto": "No siempre. Importa más cómo se mueve el aire que cuántos ventiladores hay.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Cuantos más ventiladores, más frío",
+    "realidad": "Importa más cómo se mueve el aire que cuántos ventiladores hay."
+   }
+  },
+  {
+   "texto": "El aire fresco entra por delante, pasa por las piezas calientes y sale por detrás y por arriba.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El aire fresco entra por delante",
+     "Pasa por las piezas calientes",
+     "Sale por detrás y por arriba"
+    ]
+   }
+  },
+  {
+   "texto": "Para acertar, equilibra entrada y salida, pon los ventiladores en el sentido correcto y despeja los cables.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Para acertar",
+    "titulo": "Equilibra entrada y salida",
+    "acento": "azul",
+    "puntos": [
+     "Que entre tanto aire como sale",
+     "Ventiladores en el sentido correcto",
+     "Cables fuera del paso del aire"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🌬️",
+ "puntos": [
+  "Importa más cómo se mueve el aire que cuántos ventiladores hay.",
+  "Entrada por delante, salida por detrás y arriba.",
+  "Equilibra entrada y salida y despeja los cables."
+ ],
+ "etiquetas": [
+  "#ventiladores",
+  "#refrigeracion",
+  "#pcgamer"
+ ],
+ "fuentes": [
+  "Corsair: guía de flujo de aire en la caja",
+  "Wikipedia: Refrigeración de computadoras"
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "id": "idea_046",
+ "idea": 46,
+ "titulo": "¿Qué es un ordenador con IA y qué hace realmente su NPU?",
+ "titulo_pantalla": "¿Qué es un PC con IA y su NPU?",
+ "escenas": [
+  {
+   "texto": "¿Qué es un ordenador con IA y qué hace realmente su NPU?",
+   "imagen": "chip_ia_npu_aislado_01.png",
+   "provisional": "pc_optimizacion_cpu_ram_aislado_01.png"
+  },
+  {
+   "texto": "La NPU es un chip dedicado solo a cálculos de IA. Es muy eficiente, gasta poca batería y libera al procesador.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Procesador",
+     "titulo": "Hace de todo",
+     "puntos": [
+      "Es muy flexible",
+      "Gasta más en tareas de IA",
+      "Se carga de trabajo"
+     ]
+    },
+    "der": {
+     "cabecera": "NPU",
+     "titulo": "Solo para IA",
+     "puntos": [
+      "Muy eficiente",
+      "Gasta poca batería",
+      "Libera al procesador"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "Sirve para difuminar el fondo en videollamadas, transcribir y traducir en directo, y usar funciones de IA sin gastar batería.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Para qué sirve",
+    "titulo": "Tareas de IA diarias",
+    "acento": "azul",
+    "puntos": [
+     "Difuminar el fondo en videollamadas",
+     "Transcribir y traducir en directo",
+     "Funciones de IA sin gastar batería"
+    ]
+   }
+  },
+  {
+   "texto": "Un PC con IA no piensa por ti: es un PC con un chip extra para hacer estas tareas con más eficiencia.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Un PC con IA piensa por ti",
+    "realidad": "Es un PC con un chip extra para ejecutar tareas de IA con más eficiencia."
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🤖",
+ "puntos": [
+  "La NPU es un chip dedicado a cálculos de IA.",
+  "Es eficiente y gasta poca batería.",
+  "Sirve para tareas de IA diarias."
+ ],
+ "etiquetas": [
+  "#npu",
+  "#ia",
+  "#portatiles"
+ ],
+ "fuentes": [
+  "Wikipedia: Unidad de procesamiento neuronal",
+  "Microsoft: requisitos de los PC con Copilot+"
+ ]
+}

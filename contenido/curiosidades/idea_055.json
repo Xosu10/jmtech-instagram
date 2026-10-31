@@ -1,0 +1,80 @@
+{
+ "id": "idea_055",
+ "idea": 55,
+ "titulo": "¿Qué ocurre realmente cuando borras un archivo de tu ordenador?",
+ "titulo_pantalla": "¿Qué pasa al borrar un archivo?",
+ "escenas": [
+  {
+   "texto": "¿Qué ocurre realmente cuando borras un archivo de tu ordenador?",
+   "imagen": "archivo_borrado_aislado_01.png",
+   "provisional": "datos_recuperacion_aislado_01.png"
+  },
+  {
+   "texto": "Al borrar, el sistema solo marca el espacio como libre. Los datos siguen ahí hasta que algo los sobrescribe.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Pulsas «borrar»",
+     "El sistema marca el espacio como libre",
+     "Los datos siguen ahí hasta sobrescribirse"
+    ]
+   }
+  },
+  {
+   "texto": "En un disco duro suelen poder recuperarse. En un SSD, la función TRIM los borra antes y es más difícil.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Disco duro",
+     "titulo": "Más recuperable",
+     "puntos": [
+      "Los datos suelen quedar",
+      "Hasta que se sobrescriben"
+     ]
+    },
+    "der": {
+     "cabecera": "SSD",
+     "titulo": "Más difícil",
+     "puntos": [
+      "TRIM los borra antes",
+      "Recuperar es más difícil"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "Si vas a vender o regalar tu equipo, cifra el disco, restablécelo de fábrica y usa un borrado seguro.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Si vas a vender tu equipo",
+    "titulo": "Borra de verdad",
+    "acento": "azul",
+    "puntos": [
+     "Cifra el disco",
+     "Restablece de fábrica",
+     "Usa un borrado seguro"
+    ]
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🗑️",
+ "puntos": [
+  "Al borrar, el espacio solo se marca como libre.",
+  "En un disco duro suele poder recuperarse.",
+  "Si vendes tu equipo, usa un borrado seguro."
+ ],
+ "etiquetas": [
+  "#seguridad",
+  "#datos",
+  "#privacidad"
+ ],
+ "fuentes": [
+  "Wikipedia: Borrado seguro",
+  "Wikipedia: TRIM (comando)"
+ ]
+}

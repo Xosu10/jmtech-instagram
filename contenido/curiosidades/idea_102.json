@@ -1,0 +1,66 @@
+{
+ "id": "idea_102",
+ "idea": 102,
+ "titulo": "¿Qué era el famoso anillo rojo de la muerte de Xbox 360?",
+ "titulo_pantalla": "El anillo rojo de la muerte",
+ "escenas": [
+  {
+   "texto": "¿Qué era el famoso anillo rojo de la muerte de la Xbox 360?",
+   "imagen": "consola_luz_roja_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "Tres luces rojas parpadeando alrededor del botón: la señal de un fallo grave de hardware.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "3 luces rojas",
+    "texto": "parpadeando alrededor del botón: un fallo grave de hardware",
+    "pie": "Consola Xbox 360"
+   }
+  },
+  {
+   "texto": "La causa principal era el calor: la consola se calentaba mucho, las soldaduras sufrían con los cambios de temperatura y los contactos acababan fallando.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "La consola se calentaba mucho",
+     "Las soldaduras sufrían con el calor y el frío",
+     "Los contactos fallaban y se bloqueaba"
+    ]
+   }
+  },
+  {
+   "texto": "Microsoft tuvo que atender millones de consolas y mejoró la refrigeración en los modelos posteriores.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué pasó después",
+    "titulo": "Se rediseñó la consola",
+    "acento": "azul",
+    "puntos": [
+     "Mejor refrigeración",
+     "Chips más eficientes",
+     "Menos fallos en modelos posteriores"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🔴",
+ "puntos": [
+  "Tres luces rojas parpadeando: un fallo grave de hardware.",
+  "La causa principal era el calor y las soldaduras.",
+  "Microsoft mejoró la refrigeración en modelos posteriores."
+ ],
+ "etiquetas": [
+  "#xbox360",
+  "#retrogaming",
+  "#videojuegos"
+ ],
+ "fuentes": [
+  "Wikipedia: Problemas técnicos de Xbox 360",
+  "Microsoft: comunicado sobre el fallo de las tres luces rojas"
+ ]
+}

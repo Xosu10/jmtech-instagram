@@ -1,0 +1,79 @@
+{
+ "id": "idea_014",
+ "idea": 14,
+ "titulo": "¿Es malo dejar el ordenador encendido las 24 horas?",
+ "titulo_pantalla": "¿Es malo dejar el PC siempre encendido?",
+ "escenas": [
+  {
+   "texto": "¿Es malo dejar el ordenador encendido las veinticuatro horas?",
+   "imagen": "pc_encendido_24h_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Un PC moderno aguanta bien estar encendido. El desgaste importante viene del calor y del polvo, más que del tiempo encendido.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Dejar el PC encendido lo estropea",
+    "realidad": "Un PC moderno aguanta bien: el desgaste viene del calor y del polvo, más que del tiempo encendido."
+   }
+  },
+  {
+   "texto": "Encendido siempre, está listo al instante y sirve para descargas y copias, pero gasta electricidad. Apagado, ahorra, pero tarda en arrancar.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Siempre encendido",
+     "titulo": "Comodidad",
+     "puntos": [
+      "Listo al instante",
+      "Útil para descargas y copias",
+      "Gasta electricidad"
+     ]
+    },
+    "der": {
+     "cabecera": "Apagado",
+     "titulo": "Ahorro",
+     "puntos": [
+      "Ahorra energía",
+      "Descansa",
+      "Tarda en arrancar"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "Lo más práctico es suspenderlo o hibernarlo: gasta muy poco y retoma donde lo dejaste. Y reinícialo de vez en cuando.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo más práctico",
+    "titulo": "Suspende o hiberna",
+    "acento": "azul",
+    "puntos": [
+     "Gasta muy poco",
+     "Retoma donde lo dejaste",
+     "Reinícialo de vez en cuando"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⏱️",
+ "puntos": [
+  "Un PC moderno aguanta bien estar encendido.",
+  "El desgaste viene del calor y del polvo.",
+  "Lo práctico es suspenderlo o hibernarlo."
+ ],
+ "etiquetas": [
+  "#pc",
+  "#consejos",
+  "#mantenimiento"
+ ],
+ "fuentes": [
+  "Corsair: ¿se debe dejar el PC encendido?",
+  "Microsoft: opciones de energía en Windows"
+ ]
+}

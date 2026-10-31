@@ -1,0 +1,71 @@
+{
+ "id": "idea_033",
+ "idea": 33,
+ "titulo": "¿Qué componentes deberías mejorar primero para ganar rendimiento?",
+ "titulo_pantalla": "¿Qué mejorar primero en tu PC?",
+ "escenas": [
+  {
+   "texto": "¿Qué deberías mejorar primero para ganar rendimiento?",
+   "imagen": "mejora_prioridad_aislado_01.png",
+   "provisional": "empresa_asesoramiento_componentes_aislado_01.png"
+  },
+  {
+   "texto": "Por orden: un SSD si aún usas disco duro, más RAM si va justa, y una gráfica si juegas o editas vídeo.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Un SSD, si aún usas disco duro",
+     "Más RAM, si va justa",
+     "Una gráfica, si juegas o editas"
+    ]
+   }
+  },
+  {
+   "texto": "El procesador, casi al final: suele obligar a cambiar la placa y es lo más complejo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Casi al final",
+    "titulo": "El procesador",
+    "acento": "naranja",
+    "puntos": [
+     "Suele exigir cambiar la placa",
+     "Es lo más complejo",
+     "Solo si de verdad lo necesitas"
+    ]
+   }
+  },
+  {
+   "texto": "Antes de comprar, averigua qué te frena: mira qué pieza va al máximo, no cambies a ciegas y pide consejo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Antes de comprar",
+    "titulo": "Mira qué te frena",
+    "acento": "azul",
+    "puntos": [
+     "Mira qué pieza va al máximo",
+     "No cambies a ciegas",
+     "Pide consejo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⬆️",
+ "puntos": [
+  "Primero SSD, luego RAM y después la gráfica.",
+  "El procesador, casi al final.",
+  "Antes de comprar, averigua qué te frena."
+ ],
+ "etiquetas": [
+  "#actualizarpc",
+  "#ssd",
+  "#pcgamer"
+ ],
+ "fuentes": [
+  "Corsair: qué mejorar primero en un PC",
+  "Wikipedia: Ordenador personal"
+ ]
+}

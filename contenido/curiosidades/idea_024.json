@@ -1,0 +1,65 @@
+{
+ "id": "idea_024",
+ "idea": 24,
+ "titulo": "¿Por qué tu ordenador tarda tanto en arrancar?",
+ "titulo_pantalla": "¿Por qué tarda tanto en arrancar?",
+ "escenas": [
+  {
+   "texto": "¿Por qué tu ordenador tarda tanto en arrancar?",
+   "imagen": "arranque_lento_aislado_01.png",
+   "provisional": "windows_optimizacion_aislado_01.png"
+  },
+  {
+   "texto": "Casi siempre es por un disco duro en lugar de SSD, demasiados programas al inicio, o poca RAM y el disco casi lleno.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas habituales",
+    "titulo": "Casi siempre es esto",
+    "acento": "naranja",
+    "puntos": [
+     "Disco duro en lugar de SSD",
+     "Demasiados programas al inicio",
+     "Poca RAM o disco casi lleno"
+    ]
+   }
+  },
+  {
+   "texto": "Para acelerarlo: quita programas del inicio desde el Administrador de tareas, libera espacio, y cambia a SSD si aún usas disco duro.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Quita programas del inicio",
+     "Libera espacio en el disco",
+     "Cambia a SSD si usas disco duro"
+    ]
+   }
+  },
+  {
+   "texto": "Y no esperes milagros con más RAM: si tienes disco duro, el SSD es el cambio que más se nota.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Más RAM siempre arregla un arranque lento",
+    "realidad": "Si tienes un disco duro, el SSD es el cambio que más se nota."
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🐌",
+ "puntos": [
+  "Suele ser el disco duro, los programas de inicio o poca RAM.",
+  "Quita programas del inicio y libera espacio.",
+  "Si usas disco duro, el SSD es lo que más se nota."
+ ],
+ "etiquetas": [
+  "#windows",
+  "#rendimiento",
+  "#ssd"
+ ],
+ "fuentes": [
+  "Microsoft: acelerar el inicio de Windows",
+  "Wikipedia: Unidad de estado sólido"
+ ]
+}

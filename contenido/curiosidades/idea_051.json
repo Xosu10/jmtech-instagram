@@ -1,0 +1,79 @@
+{
+ "id": "idea_051",
+ "idea": 51,
+ "titulo": "¿Por qué un SSD de 1 TB no muestra 1.000 GB disponibles en Windows?",
+ "titulo_pantalla": "¿Por qué mi SSD de 1 TB es de 931 GB?",
+ "escenas": [
+  {
+   "texto": "¿Por qué un SSD de un terabyte no muestra mil gigas en Windows?",
+   "imagen": "ssd_capacidad_aislado_01.png",
+   "provisional": "ssd_nvme_disipador_aislado_01.png"
+  },
+  {
+   "texto": "El fabricante cuenta de mil en mil: un terabyte son un billón de bytes. Windows cuenta de mil veinticuatro en mil veinticuatro.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Fabricante",
+     "titulo": "Cuenta de mil en mil",
+     "puntos": [
+      "1 TB = un billón de bytes",
+      "Un giga = mil millones de bytes"
+     ]
+    },
+    "der": {
+     "cabecera": "Windows",
+     "titulo": "Cuenta de 1.024 en 1.024",
+     "puntos": [
+      "Mide en otra unidad",
+      "Muestra menos gigas",
+      "Es la misma capacidad"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "Con esa cuenta, tu terabyte son unos novecientos treinta y un gigas. No falta nada: solo se cuenta distinto.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "931 GB",
+    "texto": "es lo que muestra Windows en un SSD de 1 TB: no falta nada",
+    "pie": "Cálculo: 1 TB entre 1.024 tres veces"
+   }
+  },
+  {
+   "texto": "Además, una parte la ocupan Windows y las particiones de recuperación.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Y ojo",
+    "titulo": "Parte del espacio ya está usado",
+    "acento": "naranja",
+    "puntos": [
+     "Archivos de Windows",
+     "Particiones de recuperación",
+     "Reservas internas del SSD"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🔢",
+ "puntos": [
+  "El fabricante cuenta de mil en mil; Windows, de 1.024 en 1.024.",
+  "Un SSD de 1 TB muestra unos 931 GB.",
+  "Además, Windows y la recuperación ocupan espacio."
+ ],
+ "etiquetas": [
+  "#ssd",
+  "#windows",
+  "#almacenamiento"
+ ],
+ "fuentes": [
+  "Wikipedia: Byte, gigabyte y gibibyte",
+  "Microsoft: capacidad del disco en Windows"
+ ]
+}

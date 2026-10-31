@@ -1,0 +1,76 @@
+{
+ "id": "idea_063",
+ "idea": 63,
+ "titulo": "¿Por qué Tetris es tan adictivo?",
+ "titulo_pantalla": "¿Por qué Tetris engancha tanto?",
+ "escenas": [
+  {
+   "texto": "¿Por qué Tetris es tan adictivo?",
+   "imagen": "bloques_cayendo_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "Lo creó Alexey Pajitnov en Moscú, en mil novecientos ochenta y cuatro, y llegó a todo el mundo con la Game Boy.",
+   "grafico": "linea",
+   "params": {
+    "hitos": [
+     {
+      "cuando": "1984",
+      "texto": "Alexey Pajitnov crea Tetris en Moscú"
+     },
+     {
+      "cuando": "1989",
+      "texto": "Llega a la Game Boy y se vuelve un fenómeno mundial"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Las reglas se entienden en segundos, cada línea completada es una pequeña recompensa y siempre parece que te falta una más.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué engancha",
+    "titulo": "Metas pequeñas",
+    "acento": "azul",
+    "puntos": [
+     "Reglas muy simples",
+     "Recompensas rápidas",
+     "Siempre «una más»"
+    ]
+   }
+  },
+  {
+   "texto": "Tanto, que existe el efecto Tetris: después de jugar mucho, tu cerebro sigue viendo piezas encajando.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Se llama",
+    "titulo": "Efecto Tetris",
+    "acento": "naranja",
+    "puntos": [
+     "Ves piezas al cerrar los ojos",
+     "Pasa con tareas repetitivas",
+     "Tu cerebro sigue practicando"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧩",
+ "puntos": [
+  "Lo creó Alexey Pajitnov en 1984 y llegó al mundo con la Game Boy en 1989.",
+  "Reglas simples, recompensas rápidas y siempre «una más».",
+  "Existe el efecto Tetris: sigues viendo piezas al cerrar los ojos."
+ ],
+ "etiquetas": [
+  "#tetris",
+  "#videojuegos",
+  "#psicologia"
+ ],
+ "fuentes": [
+  "Wikipedia: Tetris",
+  "Wikipedia: Efecto Tetris"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "id": "idea_034",
+ "idea": 34,
+ "titulo": "¿Merece la pena comprar un ordenador reacondicionado?",
+ "titulo_pantalla": "¿Merece la pena un PC reacondicionado?",
+ "escenas": [
+  {
+   "texto": "¿Merece la pena comprar un ordenador reacondicionado?",
+   "imagen": "reacondicionado_aislado_01.png",
+   "provisional": "empresa_asesoramiento_comparativa_aislado_01.png"
+  },
+  {
+   "texto": "Cuesta menos que uno nuevo y es más sostenible. Pero puede traer la batería gastada y marcas, y depende mucho del vendedor.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "A favor",
+     "titulo": "Más económico",
+     "puntos": [
+      "Cuesta menos que nuevo",
+      "Es más sostenible",
+      "Se prueba antes de venderlo"
+     ]
+    },
+    "der": {
+     "cabecera": "Riesgos",
+     "titulo": "Ojo con esto",
+     "puntos": [
+      "Batería con desgaste",
+      "Aspecto con marcas",
+      "Depende del vendedor"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "Antes de comprar, fíjate en el vendedor, en el estado de la batería y la pantalla, y en que la cobertura y la devolución sean claras.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Antes de comprar",
+    "titulo": "Comprueba tres cosas",
+    "acento": "azul",
+    "puntos": [
+     "Vendedor de confianza",
+     "Estado de batería y pantalla",
+     "Cobertura y devolución claras"
+    ]
+   }
+  },
+  {
+   "texto": "Si quieres, te asesoramos antes de comprarlo.",
+   "imagen": "empresa_asesoramiento_comparativa_aislado_01.png"
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "♻️",
+ "puntos": [
+  "Cuesta menos y es más sostenible.",
+  "Ojo con la batería, el aspecto y el vendedor.",
+  "Comprueba cobertura y devolución antes de comprar."
+ ],
+ "etiquetas": [
+  "#reacondicionado",
+  "#comprarpc",
+  "#portatil"
+ ],
+ "fuentes": [
+  "Wikipedia: Producto reacondicionado",
+  "Corsair: comprar un PC reacondicionado"
+ ]
+}

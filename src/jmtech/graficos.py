@@ -279,7 +279,126 @@ def _pasos(t, dur, params):
     return _salida(im)
 
 
-TIPOS = ("flujo", "barras", "tarjeta", "resumen", "pasos")
+ROJO = (255, 85, 100)
+ACENTOS["rojo"] = ROJO
+
+
+def _envolver(texto, f, ancho):
+    lineas, actual = [], ""
+    for palabra in texto.split():
+        prueba = (actual + " " + palabra).strip()
+        if actual and f.getlength(prueba) / S > ancho:
+            lineas.append(actual)
+            actual = palabra
+        else:
+            actual = prueba
+    return lineas + [actual]
+
+
+def _texto_multilinea(d, x, y, texto, f, color, alfa, ancho, interlinea, anchor="lm"):
+    lineas = _envolver(texto, f, ancho)
+    y0 = y - interlinea * (len(lineas) - 1) / 2
+    for i, ln in enumerate(lineas):
+        _texto(d, (x, y0 + i * interlinea), ln, f, color, alfa, anchor)
+    return len(lineas)
+
+
+def _dato(t, dur, params):
+    """Una cifra enorme con su explicación."""
+    p = t / max(dur, 0.01)
+    im, d = _lienzo()
+    acento = ACENTOS.get(params.get("acento", "azul"), BLUE)
+    a = _paso(p, 0.04, 0.30)
+    _tarjeta_base(d, 20, 20, 920, 540, acento, 1.0)
+    _texto(d, (ANCHO / 2, 230), params["cifra"], _ajustar(params["cifra"], "Bold", int(120 + 40 * a), 820), acento, min(1, a * 2))
+    _texto_multilinea(d, ANCHO / 2, 380, params["texto"], font("Bold", 42), BLANCO, _paso(p, 0.25, 0.45), 800, 56, "mm")
+    if params.get("pie"):
+        _texto(d, (ANCHO / 2, 495), params["pie"], font("Medium", 28), (150, 170, 205), _paso(p, 0.5, 0.7))
+    return _salida(im)
+
+
+def _mito(t, dur, params):
+    """Mito tachado y, debajo, la realidad."""
+    p = t / max(dur, 0.01)
+    im, d = _lienzo()
+    a1, a2, tacha = _paso(p, 0.04, 0.22), _paso(p, 0.42, 0.62), _paso(p, 0.30, 0.42)
+    _tarjeta_base(d, 20, 20, 920, 255, ROJO, a1)
+    _texto(d, (60, 62), "MITO", font("Bold", 28), ROJO, a1, "lm")
+    n = _texto_multilinea(d, 60, 160, params["mito"], font("Bold", 40), BLANCO, a1, 780, 52)
+    if tacha > 0.02:
+        _linea(d, [(60, 160), (60 + 800 * tacha, 160)], ROJO, 6)
+    _punto(d, 860, 62, 24, ROJO, int(255 * a1))
+    _linea(d, [(850, 52), (870, 72)], (255, 255, 255), 5)
+    _linea(d, [(870, 52), (850, 72)], (255, 255, 255), 5)
+    if a2 > 0.02:
+        y0 = 285 + 20 * (1 - a2)
+        _tarjeta_base(d, 20, y0, 920, y0 + 255, BLUE, a2)
+        _texto(d, (60, y0 + 42), "REALIDAD", font("Bold", 28), BLUE, a2, "lm")
+        _texto_multilinea(d, 60, y0 + 150, params["realidad"], font("Bold", 40), BLANCO, a2, 780, 52)
+        _punto(d, 860, y0 + 42, 24, BLUE, int(255 * a2))
+        _linea(d, [(848, y0 + 42), (857, y0 + 52), (873, y0 + 32)], (255, 255, 255), 5)
+    return _salida(im)
+
+
+def _linea_tiempo(t, dur, params):
+    """Línea del tiempo vertical con hasta 4 hitos."""
+    p = t / max(dur, 0.01)
+    im, d = _lienzo()
+    hitos = params["hitos"]
+    paso = 500 / len(hitos)
+    _linea(d, [(110, 40), (110, 40 + (len(hitos) - 0.35) * paso * _paso(p, 0.0, 0.85))], (60, 90, 150), 6)
+    for i, h in enumerate(hitos):
+        a = _paso(p, 0.08 + i * 0.2, 0.22 + i * 0.2)
+        if a < 0.02:
+            continue
+        y = 60 + i * paso + 14 * (1 - a)
+        _punto(d, 110, y + 20, 22, BLUE, int(255 * a))
+        _texto(d, (165, y + 6), h["cuando"], font("Bold", 46), BLUE, a, "lm")
+        _texto_multilinea(d, 165, y + paso * 0.42, h["texto"], font("Medium", 32), BLANCO, a, 740, 40)
+    return _salida(im)
+
+
+def _comparar(t, dur, params):
+    """Dos columnas enfrentadas con sus puntos."""
+    p = t / max(dur, 0.01)
+    im, d = _lienzo()
+    for k, (clave, x0) in enumerate((("izq", 20), ("der", 480))):
+        col = params[clave]
+        acento = ACENTOS.get(col.get("acento", "azul" if k == 0 else "naranja"), BLUE)
+        a = _paso(p, 0.04 + k * 0.1, 0.2 + k * 0.1)
+        _tarjeta_base(d, x0, 20, x0 + 440, 540, acento, a)
+        _texto(d, (x0 + 30, 70), col["cabecera"].upper(), font("Bold", 26), acento, a, "lm")
+        _texto_multilinea(d, x0 + 30, 140, col["titulo"], font("Bold", 40), BLANCO, a, 380, 48)
+        y = 235
+        for i, txt in enumerate(col["puntos"]):
+            b = _paso(p, 0.25 + i * 0.16 + k * 0.05, 0.4 + i * 0.16 + k * 0.05)
+            if b < 0.02:
+                continue
+            lineas = _envolver(txt, font("Medium", 30), 350)
+            _punto(d, x0 + 38, y + 14, 8, acento, int(255 * b))
+            for j, ln in enumerate(lineas):
+                _texto(d, (x0 + 62, y + 14 + j * 36 + 8 * (1 - b)), ln, font("Medium", 30), BLANCO, b, "lm")
+            y += 36 * len(lineas) + 28
+    return _salida(im)
+
+
+def _bits(t, dur, params):
+    """Lluvia de ceros y unos con un texto grande encima."""
+    p = t / max(dur, 0.01)
+    im, d = _lienzo()
+    f = font("Bold", 34)
+    for i in range(20):
+        for j in range(14):
+            v = (i * 7 + j * 13 + int(t * 5 + i * 3)) % 2
+            y = (j * 40 + t * 40 * (0.6 + (i % 5) * 0.15)) % 560
+            _texto(d, (25 + i * 46, y), str(v), f, BLUE if v else (60, 90, 150), 0.55 - 0.35 * (y / 560), "mm")
+    a = _paso(p, 0.05, 0.3)
+    _rect(d, 90, 190, 850, 370, (8, 16, 36, int(235 * a)), 30, outline=BLUE + (int(255 * a),), w=3)
+    _texto_multilinea(d, ANCHO / 2, 280, params["texto"], font("Bold", 52), BLANCO, a, 700, 64, "mm")
+    return _salida(im)
+
+
+TIPOS = ("flujo", "barras", "tarjeta", "resumen", "pasos", "dato", "mito", "linea", "comparar", "bits")
 
 
 def grafico(tipo, params, t, dur):
@@ -293,4 +412,14 @@ def grafico(tipo, params, t, dur):
         return _resumen(t, dur, params)
     if tipo == "pasos":
         return _pasos(t, dur, params)
+    if tipo == "dato":
+        return _dato(t, dur, params)
+    if tipo == "mito":
+        return _mito(t, dur, params)
+    if tipo == "linea":
+        return _linea_tiempo(t, dur, params)
+    if tipo == "comparar":
+        return _comparar(t, dur, params)
+    if tipo == "bits":
+        return _bits(t, dur, params)
     raise ValueError(f"Tipo de gráfico desconocido: {tipo}")

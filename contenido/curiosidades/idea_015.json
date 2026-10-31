@@ -1,0 +1,71 @@
+{
+ "id": "idea_015",
+ "idea": 15,
+ "titulo": "¿Qué pasa si nunca limpias tu portátil?",
+ "titulo_pantalla": "¿Qué pasa si no limpias el portátil?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si nunca limpias tu portátil?",
+   "imagen": "portatil_polvo_aislado_01.png",
+   "provisional": "portatil_limpieza_aislado_01.png"
+  },
+  {
+   "texto": "El polvo tapa el ventilador y las rejillas, el calor no sale y el portátil se calienta y hace más ruido.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El polvo tapa ventilador y rejillas",
+     "El calor no puede salir",
+     "El portátil se calienta y hace ruido"
+    ]
+   }
+  },
+  {
+   "texto": "Con el tiempo, los problemas crecen: va más lento por el calor, se apaga o se bloquea, y los componentes sufren más.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Con el tiempo",
+    "titulo": "Los problemas crecen",
+    "acento": "naranja",
+    "puntos": [
+     "Va más lento por el calor",
+     "Se apaga o se bloquea",
+     "Los componentes sufren más"
+    ]
+   }
+  },
+  {
+   "texto": "Límpialo cada pocos meses, no lo uses sobre camas ni mantas, y si lleva años, que lo abran por dentro.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Prevenir es fácil",
+    "acento": "azul",
+    "puntos": [
+     "Limpia las rejillas cada pocos meses",
+     "No lo uses sobre camas o mantas",
+     "Si lleva años, abrirlo y limpiarlo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "💻",
+ "puntos": [
+  "El polvo tapa el ventilador y el calor no sale.",
+  "Con el tiempo va más lento y puede apagarse.",
+  "Límpialo cada pocos meses."
+ ],
+ "etiquetas": [
+  "#portatil",
+  "#mantenimiento",
+  "#limpieza"
+ ],
+ "fuentes": [
+  "Wikipedia: Refrigeración de computadoras",
+  "Corsair: cómo limpiar tu PC"
+ ]
+}

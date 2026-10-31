@@ -1,0 +1,52 @@
+{
+ "id": "idea_095",
+ "idea": 95,
+ "titulo": "¿Cómo consigue Minecraft generar mundos prácticamente infinitos?",
+ "titulo_pantalla": "¿Cómo genera Minecraft mundos infinitos?",
+ "escenas": [
+  {
+   "texto": "¿Cómo consigue Minecraft generar mundos prácticamente infinitos?",
+   "imagen": "voxel_mundo_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Una semilla, que es solo un número, decide cómo es el mundo. El juego genera únicamente el trozo que visitas, y lo hace siempre igual.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Una semilla decide el mundo",
+     "El juego genera solo el trozo que visitas",
+     "Con la misma semilla, siempre igual"
+    ]
+   }
+  },
+  {
+   "texto": "Por eso casi no ocupa espacio: el límite del mundo está a unos treinta millones de bloques en cada dirección.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "30 millones",
+    "texto": "de bloques en cada dirección: el límite del mundo",
+    "pie": "Cifra aproximada"
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🌍",
+ "puntos": [
+  "Una semilla decide cómo es el mundo.",
+  "El juego genera solo el trozo que visitas.",
+  "Con la misma semilla, el mundo es igual."
+ ],
+ "etiquetas": [
+  "#minecraft",
+  "#videojuegos",
+  "#curiosidadesgamer"
+ ],
+ "fuentes": [
+  "Wikipedia: Minecraft",
+  "Wikipedia: Generación procedural"
+ ]
+}

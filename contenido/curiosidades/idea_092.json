@@ -1,0 +1,71 @@
+{
+ "id": "idea_092",
+ "idea": 92,
+ "titulo": "¿Por qué se tarda tantos años en desarrollar un GTA?",
+ "titulo_pantalla": "¿Por qué tarda tanto un GTA?",
+ "escenas": [
+  {
+   "texto": "¿Por qué se tarda tantos años en desarrollar un GTA?",
+   "imagen": "ciudad_viva_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Porque no es solo un juego: es una ciudad entera con miles de personajes, misiones, sonido y detalles que hay que crear y probar.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hay detrás",
+    "titulo": "Miles de detalles",
+    "acento": "azul",
+    "puntos": [
+     "Ciudades con miles de personajes",
+     "Equipos muy grandes durante años",
+     "Pruebas y pulido constantes"
+    ]
+   }
+  },
+  {
+   "texto": "El proceso es largo: se diseña el mundo, se crean misiones, personajes y sonido, y se prueba y se pule durante años.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Se diseña el mundo",
+     "Se crean misiones, personajes y sonido",
+     "Se prueba y se pule durante años"
+    ]
+   }
+  },
+  {
+   "texto": "Y cada entrega quiere superar a la anterior, con más detalle, mundos más vivos y más tecnología que desarrollar.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Y además",
+    "titulo": "Cada entrega sube el listón",
+    "acento": "naranja",
+    "puntos": [
+     "Gráficos más detallados",
+     "Mundos más vivos",
+     "Más tecnología que desarrollar"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🏙️",
+ "puntos": [
+  "Es una ciudad entera con miles de detalles.",
+  "Se diseña, se crea y se prueba durante años.",
+  "Cada entrega quiere superar a la anterior."
+ ],
+ "etiquetas": [
+  "#gta",
+  "#videojuegos",
+  "#desarrollo"
+ ],
+ "fuentes": [
+  "Wikipedia: Grand Theft Auto V",
+  "Wikipedia: Desarrollo de videojuegos"
+ ]
+}

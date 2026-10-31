@@ -1,0 +1,71 @@
+{
+ "id": "idea_045",
+ "idea": 45,
+ "titulo": "¿Qué diferencia hay entre usar ChatGPT y ejecutar una IA en tu propio PC?",
+ "titulo_pantalla": "IA en la nube o en tu PC",
+ "escenas": [
+  {
+   "texto": "¿Qué diferencia hay entre usar una IA en la nube y ejecutarla en tu propio PC?",
+   "imagen": "nube_vs_local_aislado_01.png",
+   "provisional": "pc_optimizacion_cpu_ram_aislado_01.png"
+  },
+  {
+   "texto": "En la nube, los modelos son enormes y potentes, pero necesitas internet y tus datos viajan a sus servidores. En tu PC, todo es más privado y funciona sin conexión, pero los modelos son más pequeños.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "En la nube",
+     "titulo": "Potencia",
+     "puntos": [
+      "Modelos enormes y potentes",
+      "Necesita internet",
+      "Tus datos viajan a sus servidores"
+     ]
+    },
+    "der": {
+     "cabecera": "En tu PC",
+     "titulo": "Privacidad",
+     "puntos": [
+      "Tus datos no salen del equipo",
+      "Funciona sin internet",
+      "Modelos más pequeños"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "Elige según lo que necesites: máxima calidad, la nube; privacidad, tu PC; y para probar, empieza por la nube.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Cuál elegir",
+    "titulo": "Según tu caso",
+    "acento": "azul",
+    "puntos": [
+     "Máxima calidad: la nube",
+     "Privacidad: tu propio PC",
+     "Para probar: empieza por la nube"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "☁️",
+ "puntos": [
+  "En la nube hay más potencia pero tus datos viajan a sus servidores.",
+  "En tu PC hay más privacidad pero modelos más pequeños.",
+  "Elige según lo que necesites."
+ ],
+ "etiquetas": [
+  "#ia",
+  "#privacidad",
+  "#nube"
+ ],
+ "fuentes": [
+  "Corsair: IA en local frente a IA en la nube",
+  "Wikipedia: Modelo de lenguaje grande"
+ ]
+}

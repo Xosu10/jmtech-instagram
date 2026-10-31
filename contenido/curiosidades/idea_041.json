@@ -1,0 +1,81 @@
+{
+ "id": "idea_041",
+ "idea": 41,
+ "titulo": "¿Por qué la inteligencia artificial está encareciendo la RAM y los SSD?",
+ "titulo_pantalla": "¿Por qué sube la RAM?",
+ "escenas": [
+  {
+   "texto": "¿Por qué la inteligencia artificial está encareciendo la RAM y los SSD?",
+   "imagen": "memoria_ia_demanda_aislado_01.png",
+   "provisional": "ram_ddr5_par_aislado_01.png"
+  },
+  {
+   "texto": "Los centros de datos de IA necesitan memoria en cantidades enormes. Los fabricantes dedican a ella cada vez más producción, y queda menos para la RAM y los SSD de tu PC.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "La IA necesita memoria en cantidades enormes",
+     "Los fabricantes le dedican más producción",
+     "Queda menos para la RAM y los SSD de tu PC"
+    ]
+   }
+  },
+  {
+   "texto": "Con menos memoria disponible y mucha demanda, los precios suben, y algún fabricante ha dejado de vender memoria al público.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "El efecto",
+    "titulo": "Todo se encarece",
+    "acento": "naranja",
+    "puntos": [
+     "Menos memoria para el público",
+     "Precios de RAM y SSD al alza",
+     "Menos fabricantes en el mercado"
+    ]
+   }
+  },
+  {
+   "texto": "Varios fabricantes avisan de que la escasez podría alargarse hasta dos mil veintisiete.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "2027",
+    "texto": "es el año hasta el que algunos fabricantes ven posible la escasez de memoria",
+    "pie": "Previsión de la industria"
+   }
+  },
+  {
+   "texto": "Si necesitas memoria, compra solo la que de verdad usas y pide consejo antes de comprar.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consejo",
+    "titulo": "Compra con cabeza",
+    "acento": "azul",
+    "puntos": [
+     "Mira cuánta RAM usas de verdad",
+     "Aprovecha lo que ya tienes",
+     "Pide consejo antes de comprar"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📈",
+ "puntos": [
+  "La IA necesita memoria en cantidades enormes y los fabricantes le dedican más producción.",
+  "Queda menos para la RAM y los SSD de tu PC, y se encarecen.",
+  "Algunos fabricantes ven la escasez hasta 2027."
+ ],
+ "etiquetas": [
+  "#ram",
+  "#ssd",
+  "#inteligenciaartificial"
+ ],
+ "fuentes": [
+  "Tom's Hardware: la crisis de precios de la RAM",
+  "TrendForce: oferta de DRAM y memoria HBM",
+  "Samsung (CES 2026): aviso sobre la escasez de memoria"
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "id": "idea_081",
+ "idea": 81,
+ "titulo": "¿Realmente se nota la diferencia entre jugar a 30, 60 y 120 FPS?",
+ "titulo_pantalla": "30, 60 o 120 FPS: ¿se nota?",
+ "escenas": [
+  {
+   "texto": "¿Se nota de verdad la diferencia entre treinta, sesenta y ciento veinte imágenes por segundo?",
+   "imagen": "monitor_144hz_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Los FPS son las imágenes que ves cada segundo. Cuantas más, más fluido se ve el movimiento.",
+   "grafico": "barras",
+   "params": {
+    "titulo": "Imágenes que ves cada segundo",
+    "items": [
+     {
+      "etiqueta": "30 FPS",
+      "valor": 30,
+      "texto": "30 imágenes",
+      "acento": "azul"
+     },
+     {
+      "etiqueta": "60 FPS",
+      "valor": 60,
+      "texto": "60 imágenes",
+      "acento": "azul"
+     },
+     {
+      "etiqueta": "120 FPS",
+      "valor": 120,
+      "texto": "120 imágenes",
+      "acento": "naranja"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Y no, el ojo no se queda en los treinta. Mucha gente nota la diferencia, sobre todo en juegos rápidos.",
+   "grafico": "mito",
+   "params": {
+    "mito": "El ojo humano no ve más de treinta fotogramas",
+    "realidad": "Muchas personas notan claramente la diferencia entre sesenta y ciento veinte, sobre todo en juegos rápidos."
+   }
+  },
+  {
+   "texto": "Pero para aprovechar ciento veinte necesitas un monitor que los muestre, una gráfica que los produzca y un cable compatible.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Para disfrutarlo necesitas",
+    "titulo": "Tres cosas",
+    "acento": "azul",
+    "puntos": [
+     "Un monitor de 120 Hz o más",
+     "Una gráfica que dé esos FPS",
+     "Un cable compatible"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎯",
+ "puntos": [
+  "Los FPS son las imágenes que ves cada segundo.",
+  "Muchas personas notan la diferencia entre 60 y 120 FPS.",
+  "Necesitas monitor, gráfica y cable que lo permitan."
+ ],
+ "etiquetas": [
+  "#fps",
+  "#gaming",
+  "#monitor"
+ ],
+ "fuentes": [
+  "Wikipedia: Fotogramas por segundo y frecuencia de actualización",
+  "NVIDIA: guía de FPS y tasa de refresco"
+ ]
+}

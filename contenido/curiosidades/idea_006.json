@@ -1,0 +1,79 @@
+{
+ "id": "idea_006",
+ "idea": 6,
+ "titulo": "¿Qué diferencia hay entre DDR4 y DDR5?",
+ "titulo_pantalla": "DDR4 o DDR5: ¿qué cambia?",
+ "escenas": [
+  {
+   "texto": "¿Qué diferencia hay entre DDR cuatro y DDR cinco?",
+   "imagen": "ram_ddr4_ddr5_comparativa_aislado_01.png",
+   "provisional": "ram_ddr5_par_aislado_01.png"
+  },
+  {
+   "texto": "La DDR5 es más rápida de serie, gestiona su energía en el propio módulo y permite módulos de más capacidad.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "DDR4",
+     "titulo": "La veterana",
+     "puntos": [
+      "Muy asentada y probada",
+      "Hasta unos 3.200 de serie",
+      "Para placas antiguas"
+     ]
+    },
+    "der": {
+     "cabecera": "DDR5",
+     "titulo": "La nueva",
+     "puntos": [
+      "Desde 4.800 de serie",
+      "Gestiona su energía ella misma",
+      "Módulos de más capacidad"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "Pero en el día a día la mejora suele ser modesta. Se nota más en tareas muy exigentes.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Con DDR5, todo va mucho más rápido",
+    "realidad": "En el día a día la mejora suele ser modesta; se nota más en tareas muy exigentes."
+   }
+  },
+  {
+   "texto": "Y ojo: no son compatibles. La muesca está en otro sitio, y tu placa solo admite un tipo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Ojo",
+    "titulo": "No encajan entre sí",
+    "acento": "naranja",
+    "puntos": [
+     "La muesca está en otro sitio",
+     "Tu placa solo admite un tipo",
+     "Cambiar de tipo suele exigir otra placa"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧠",
+ "puntos": [
+  "La DDR5 es más rápida de serie y gestiona su energía en el módulo.",
+  "En el día a día la mejora suele ser modesta.",
+  "DDR4 y DDR5 no son compatibles entre sí."
+ ],
+ "etiquetas": [
+  "#ram",
+  "#ddr5",
+  "#pcgamer"
+ ],
+ "fuentes": [
+  "Wikipedia: DDR4 SDRAM y DDR5 SDRAM",
+  "Corsair: diferencias entre DDR4 y DDR5"
+ ]
+}

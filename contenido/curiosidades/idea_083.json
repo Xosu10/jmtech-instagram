@@ -1,0 +1,85 @@
+{
+ "id": "idea_083",
+ "idea": 83,
+ "titulo": "¿Qué es el ping y por qué puede arruinarte una partida?",
+ "titulo_pantalla": "¿Qué es el ping?",
+ "escenas": [
+  {
+   "texto": "¿Qué es el ping y por qué puede arruinarte una partida?",
+   "imagen": "ping_servidor_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Es el tiempo que tarda un mensaje en ir de tu PC al servidor del juego y volver, y se mide en milisegundos.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Tu PC envía una acción",
+     "El servidor la recibe y responde",
+     "Tu pantalla la muestra"
+    ]
+   }
+  },
+  {
+   "texto": "Con menos de treinta, perfecto. Entre treinta y ochenta, aceptable. Con más de cien, se nota el retraso.",
+   "grafico": "barras",
+   "params": {
+    "titulo": "Ping orientativo, en milisegundos",
+    "nota": "Cifras orientativas",
+    "items": [
+     {
+      "etiqueta": "Excelente",
+      "valor": 25,
+      "texto": "menos de 30 ms",
+      "acento": "azul"
+     },
+     {
+      "etiqueta": "Aceptable",
+      "valor": 60,
+      "texto": "de 30 a 80 ms",
+      "acento": "azul"
+     },
+     {
+      "etiqueta": "Se nota",
+      "valor": 120,
+      "texto": "más de 100 ms",
+      "acento": "naranja"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Para mejorarlo, usa cable en lugar de wifi, elige servidores cercanos y cierra descargas mientras juegas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Cómo mejorarlo",
+    "titulo": "Tres trucos",
+    "acento": "azul",
+    "puntos": [
+     "Cable en lugar de wifi",
+     "Servidores cercanos",
+     "Cierra descargas al jugar"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📶",
+ "puntos": [
+  "El ping es el tiempo de ida y vuelta al servidor, en milisegundos.",
+  "Menos de 30 ms, perfecto; más de 100 ms, se nota.",
+  "Usa cable, elige servidores cercanos y cierra descargas."
+ ],
+ "etiquetas": [
+  "#ping",
+  "#gaming",
+  "#internet"
+ ],
+ "fuentes": [
+  "Wikipedia: Ping (programa)",
+  "Cloudflare: qué es la latencia"
+ ]
+}

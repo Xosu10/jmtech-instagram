@@ -1,0 +1,65 @@
+{
+ "id": "idea_052",
+ "idea": 52,
+ "titulo": "¿Por qué reiniciar el ordenador puede solucionar tantos problemas?",
+ "titulo_pantalla": "¿Por qué reiniciar lo arregla todo?",
+ "escenas": [
+  {
+   "texto": "¿Por qué reiniciar el ordenador soluciona tantos problemas?",
+   "imagen": "reinicio_aislado_01.png",
+   "provisional": "windows_optimizacion_aislado_01.png"
+  },
+  {
+   "texto": "Al reiniciar se limpia la memoria RAM, se cierran procesos atascados y se recargan controladores y servicios.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Limpia la memoria RAM",
+     "Cierra procesos atascados",
+     "Recarga controladores y servicios"
+    ]
+   }
+  },
+  {
+   "texto": "No es cosa de aficionados: es la forma más rápida y segura de empezar de cero.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Reiniciar es una solución de aficionados",
+    "realidad": "Es la forma más rápida y segura de empezar de cero."
+   }
+  },
+  {
+   "texto": "Ojo: apagar no es lo mismo que reiniciar. Con el inicio rápido de Windows, apagar guarda parte del sistema.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Ojo",
+    "titulo": "Apagar no es reiniciar",
+    "acento": "naranja",
+    "puntos": [
+     "Con inicio rápido, apagar guarda parte",
+     "Reiniciar sí lo limpia todo",
+     "Reinicia de vez en cuando"
+    ]
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🔄",
+ "puntos": [
+  "Al reiniciar se limpia la RAM y se cierran procesos atascados.",
+  "Es la forma más rápida de empezar de cero.",
+  "Con inicio rápido, apagar no es lo mismo que reiniciar."
+ ],
+ "etiquetas": [
+  "#windows",
+  "#consejos",
+  "#soportetecnico"
+ ],
+ "fuentes": [
+  "Microsoft: inicio rápido de Windows",
+  "Wikipedia: Reinicio (informática)"
+ ]
+}

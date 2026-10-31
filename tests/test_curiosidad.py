@@ -68,8 +68,10 @@ def test_la_descripcion_avisa_de_voz_ia_cita_fuentes_y_marca(ruta):
 
 def test_un_guion_con_precios_o_demasiado_largo_se_rechaza():
     e = cur.cargar_espec(ESPECS[0])
-    e["escenas"][0]["texto"] = "Cuesta 50 euros y es gratis."
-    assert any("euros" in f or "gratis" in f for f in cur.problemas_espec(e))
+    e["escenas"][0]["texto"] = "Es gratis y con un descuento del 20 %."
+    assert any("gratis" in f or "descuento" in f for f in cur.problemas_espec(e))
+    e["escenas"][0]["texto"] = "Un SSD cuesta más y los precios de la RAM suben."      # el mercado sí se puede comentar
+    assert cur.problemas_espec(e) == []
     e = cur.cargar_espec(ESPECS[0])
     e["escenas"][1]["texto"] = "palabra " * 200
     assert any("palabras" in f for f in cur.problemas_espec(e))

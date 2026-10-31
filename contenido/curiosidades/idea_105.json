@@ -1,0 +1,65 @@
+{
+ "id": "idea_105",
+ "idea": 105,
+ "titulo": "¿Por qué antes los videojuegos tenían pantallas de carga tan largas?",
+ "titulo_pantalla": "¿Por qué tardaban tanto en cargar?",
+ "escenas": [
+  {
+   "texto": "¿Por qué antes los videojuegos tenían pantallas de carga tan largas?",
+   "imagen": "pantalla_carga_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "El juego estaba en un disco lento, había que copiar el nivel a la memoria, y hasta entonces tocaba esperar.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El juego estaba en un disco lento",
+     "Copiaba el nivel a la memoria",
+     "Hasta entonces, tocaba esperar"
+    ]
+   }
+  },
+  {
+   "texto": "Para disimularlo, usaban ascensores y pasillos largos, consejos en pantalla, o cargaban en segundo plano.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Cómo lo disimulaban",
+    "titulo": "Trucos para no aburrir",
+    "acento": "azul",
+    "puntos": [
+     "Ascensores y pasillos largos",
+     "Consejos en pantalla",
+     "Carga en segundo plano"
+    ]
+   }
+  },
+  {
+   "texto": "Hoy los SSD las acortan mucho, pero las cargas no han desaparecido: solo se disimulan mejor.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Ya no hay pantallas de carga",
+    "realidad": "El SSD las acorta mucho, pero siguen existiendo: solo se disimulan mejor."
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⏳",
+ "puntos": [
+  "Antes el juego estaba en un disco lento.",
+  "Se disimulaba con ascensores y pasillos.",
+  "Los SSD las acortan mucho."
+ ],
+ "etiquetas": [
+  "#retrogaming",
+  "#nostalgia",
+  "#videojuegos"
+ ],
+ "fuentes": [
+  "Wikipedia: Pantalla de carga",
+  "Wikipedia: Unidad de estado sólido"
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "id": "idea_112",
+ "idea": 112,
+ "titulo": "¿De dónde viene el nombre Bluetooth y qué tiene que ver con un rey vikingo?",
+ "titulo_pantalla": "¿Por qué se llama Bluetooth?",
+ "escenas": [
+  {
+   "texto": "¿De dónde viene el nombre Bluetooth y qué tiene que ver con un rey vikingo?",
+   "imagen": "rey_vikingo_aislado_01.png",
+   "provisional": "empresa_kit_streaming_aislado_01.png"
+  },
+  {
+   "texto": "Harald Blåtand, rey de Dinamarca en el siglo décimo, unió a pueblos enfrentados. Su apodo significa «diente azul».",
+   "grafico": "linea",
+   "params": {
+    "hitos": [
+     {
+      "cuando": "Siglo X",
+      "texto": "El rey Harald Blåtand une a pueblos enfrentados"
+     },
+     {
+      "cuando": "1997",
+      "texto": "Un ingeniero propone su nombre para el proyecto"
+     },
+     {
+      "cuando": "Hoy",
+      "texto": "El logo mezcla sus iniciales en letras rúnicas"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "La idea era la misma: el rey unió pueblos y la tecnología uniría dispositivos de distintas marcas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "La idea",
+    "titulo": "Unir lo que estaba separado",
+    "acento": "azul",
+    "puntos": [
+     "El rey unió territorios",
+     "Bluetooth une móviles, auriculares y PC",
+     "Por eso se eligió su nombre"
+    ]
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🦷",
+ "puntos": [
+  "Harald Blåtand fue un rey vikingo que unió pueblos.",
+  "Su apodo significa «diente azul».",
+  "Bluetooth une dispositivos de distintas marcas."
+ ],
+ "etiquetas": [
+  "#bluetooth",
+  "#historia",
+  "#curiosidadestech"
+ ],
+ "fuentes": [
+  "Wikipedia: Bluetooth",
+  "Wikipedia: Harald I de Dinamarca"
+ ]
+}

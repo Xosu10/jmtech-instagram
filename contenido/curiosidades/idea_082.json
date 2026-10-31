@@ -1,0 +1,80 @@
+{
+ "id": "idea_082",
+ "idea": 82,
+ "titulo": "¿Qué es mejor para jugar: resolución 4K o más FPS?",
+ "titulo_pantalla": "¿4K o más FPS?",
+ "escenas": [
+  {
+   "texto": "¿Qué es mejor para jugar: resolución 4K o más FPS?",
+   "imagen": "monitor_144hz_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Más resolución da una imagen más nítida. Más FPS da un movimiento más fluido y una respuesta más rápida.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Más resolución",
+     "titulo": "4K",
+     "puntos": [
+      "Imagen más nítida",
+      "Mucho detalle",
+      "Pide una gráfica potente"
+     ]
+    },
+    "der": {
+     "cabecera": "Más FPS",
+     "titulo": "Fluidez",
+     "puntos": [
+      "Movimiento más suave",
+      "Respuesta más rápida",
+      "Ideal en juegos competitivos"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "Y ojo: el 4K tiene cuatro veces más píxeles que Full HD, y la gráfica tiene que dibujarlos todos.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "4 veces",
+    "texto": "más píxeles tiene el 4K que el Full HD",
+    "pie": "3840 × 2160 frente a 1920 × 1080"
+   }
+  },
+  {
+   "texto": "Elige según lo que juegues: en competitivos, más FPS; en aventuras y cine, más resolución.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Elige según",
+    "titulo": "Lo que juegas",
+    "acento": "azul",
+    "puntos": [
+     "Competitivos: más FPS",
+     "Aventuras y cine: más resolución",
+     "Si dudas, busca el equilibrio"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "El 4K da más nitidez; más FPS da más fluidez.",
+  "El 4K tiene 4 veces más píxeles que Full HD.",
+  "Competitivos: más FPS. Aventuras: más resolución."
+ ],
+ "etiquetas": [
+  "#4k",
+  "#fps",
+  "#gaming"
+ ],
+ "fuentes": [
+  "Wikipedia: Resolución 4K",
+  "NVIDIA: guía de FPS y resolución"
+ ]
+}

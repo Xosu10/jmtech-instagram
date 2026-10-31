@@ -1,0 +1,60 @@
+{
+ "id": "idea_114",
+ "idea": 114,
+ "titulo": "¿Por qué los errores informáticos se llaman bugs?",
+ "titulo_pantalla": "¿Por qué se llaman «bugs»?",
+ "escenas": [
+  {
+   "texto": "¿Por qué los errores informáticos se llaman bugs?",
+   "imagen": "polilla_circuito_aislado_01.png",
+   "provisional": "datos_recuperacion_aislado_01.png"
+  },
+  {
+   "texto": "La palabra bug, bicho, ya se usaba para fallos técnicos. Y en mil novecientos cuarenta y siete, una polilla se quedó atrapada en un relé del Harvard Mark Dos.",
+   "grafico": "linea",
+   "params": {
+    "hitos": [
+     {
+      "cuando": "1878",
+      "texto": "Edison habla de «bugs» para los fallos técnicos"
+     },
+     {
+      "cuando": "1947",
+      "texto": "Una polilla se atasca en un relé del Harvard Mark II"
+     },
+     {
+      "cuando": "Hoy",
+      "texto": "Bug es cualquier error de programa"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Así que el primer bug no fue la polilla: pero sí fue el primero literal, y se pegó en el cuaderno.",
+   "grafico": "mito",
+   "params": {
+    "mito": "El primer bug fue una polilla",
+    "realidad": "El término ya existía; la polilla fue el primer bug literal y se pegó en el cuaderno."
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🪲",
+ "puntos": [
+  "Bug significa bicho y ya se usaba para fallos técnicos.",
+  "En 1947 una polilla se atascó en un relé del Harvard Mark II.",
+  "Hoy un bug es cualquier error de programa."
+ ],
+ "etiquetas": [
+  "#bug",
+  "#historiainformatica",
+  "#programacion"
+ ],
+ "fuentes": [
+  "Wikipedia: Error de software",
+  "Smithsonian: la polilla del Harvard Mark II"
+ ]
+}

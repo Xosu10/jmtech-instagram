@@ -1,0 +1,59 @@
+{
+ "id": "idea_071",
+ "idea": 71,
+ "titulo": "¿Qué hacen los NPC cuando no los estás mirando?",
+ "titulo_pantalla": "¿Qué hacen los NPC cuando no miras?",
+ "escenas": [
+  {
+   "texto": "¿Qué hacen los personajes del juego cuando no los estás mirando?",
+   "imagen": "npc_siluetas_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Casi siempre, nada. En la mayoría de juegos solo existen mientras estás cerca de ellos.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Los personajes del juego siguen con su vida aunque no los veas",
+    "realidad": "En la mayoría de juegos solo existen cuando estás cerca: si no, se pausan."
+   }
+  },
+  {
+   "texto": "Los juegos solo calculan lo que tienes cerca. Todo lo demás se pausa para no gastar procesador y memoria.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "El truco",
+    "titulo": "Ahorrar recursos",
+    "acento": "azul",
+    "puntos": [
+     "Solo se calcula lo cercano",
+     "Lo lejano se pausa o desaparece",
+     "Así el juego va fluido"
+    ]
+   }
+  },
+  {
+   "texto": "Pero algunos juegos les dan rutinas: van a trabajar, comen y duermen, por si te cruzas con ellos.",
+   "imagen": "mundo_abierto_trozos_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🕹️",
+ "puntos": [
+  "En la mayoría de juegos, los NPC solo existen mientras estás cerca.",
+  "Se pausan para ahorrar procesador y memoria.",
+  "Algunos juegos les dan rutinas diarias."
+ ],
+ "etiquetas": [
+  "#videojuegos",
+  "#npc",
+  "#gaming"
+ ],
+ "fuentes": [
+  "Wikipedia: Personaje no jugable",
+  "Wikipedia: Inteligencia artificial en videojuegos"
+ ]
+}

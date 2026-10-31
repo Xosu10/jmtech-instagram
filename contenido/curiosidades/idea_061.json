@@ -1,0 +1,75 @@
+{
+ "id": "idea_061",
+ "idea": 61,
+ "titulo": "¿Sabías que PlayStation nació de un proyecto entre Nintendo y Sony?",
+ "titulo_pantalla": "El origen de PlayStation",
+ "escenas": [
+  {
+   "texto": "¿Sabías que PlayStation nació de un proyecto entre Nintendo y Sony?",
+   "imagen": "consola_disco_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "A finales de los ochenta, Sony y Nintendo acordaron crear un lector de CD para la Super Nintendo. Nintendo canceló el acuerdo y Sony siguió adelante sola.",
+   "grafico": "linea",
+   "params": {
+    "hitos": [
+     {
+      "cuando": "1988",
+      "texto": "Sony y Nintendo acuerdan crear un lector de CD"
+     },
+     {
+      "cuando": "1991",
+      "texto": "Nintendo se alía con otra empresa y rompe el acuerdo"
+     },
+     {
+      "cuando": "1994",
+      "texto": "Sony lanza su propia consola: PlayStation"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Un CD guardaba unos seiscientos cincuenta megas, mucho más que los cartuchos de la época.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "650 MB",
+    "texto": "cabían en un CD, mucho más que en un cartucho de la época",
+    "pie": "Valor aproximado"
+   }
+  },
+  {
+   "texto": "Aquel cambio de cartucho a disco permitió juegos más grandes, con música y vídeo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "El resultado",
+    "titulo": "Nace PlayStation",
+    "acento": "azul",
+    "puntos": [
+     "Disco en lugar de cartucho",
+     "Juegos mucho más grandes",
+     "Una rivalidad histórica"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "En 1988 Sony y Nintendo acordaron crear un lector de CD.",
+  "Nintendo rompió el acuerdo en 1991 y Sony siguió sola.",
+  "En 1994 salió la primera PlayStation."
+ ],
+ "etiquetas": [
+  "#playstation",
+  "#videojuegos",
+  "#historia"
+ ],
+ "fuentes": [
+  "Wikipedia: PlayStation (consola)",
+  "Wikipedia: Historia de Sony y Nintendo"
+ ]
+}

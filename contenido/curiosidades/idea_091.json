@@ -1,0 +1,65 @@
+{
+ "id": "idea_091",
+ "idea": 91,
+ "titulo": "¿Por qué los GTA tienen emisoras de radio y anuncios inventados?",
+ "titulo_pantalla": "La radio de los GTA",
+ "escenas": [
+  {
+   "texto": "¿Por qué los GTA tienen emisoras de radio con anuncios inventados?",
+   "imagen": "radio_coche_aislado_01.png",
+   "provisional": "perifericos_setup_aislado_01.png"
+  },
+  {
+   "texto": "Mezclan canciones reales con programas y anuncios inventados que parodian marcas, noticias y modas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hay en la radio",
+    "titulo": "Música real, humor inventado",
+    "acento": "azul",
+    "puntos": [
+     "Canciones de artistas reales",
+     "Programas de tertulia inventados",
+     "Anuncios que parodian marcas"
+    ]
+   }
+  },
+  {
+   "texto": "Es una forma de criticar con humor la sociedad de consumo, la política y la televisión del país que retratan.",
+   "imagen": "ciudad_viva_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Y de paso, la ciudad suena viva, cada época tiene su ambiente y los trayectos se hacen más cortos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Y de paso",
+    "titulo": "Una ciudad que suena viva",
+    "acento": "naranja",
+    "puntos": [
+     "Ambienta cada época",
+     "Hace más corto el trayecto",
+     "Hace creíble el mundo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📻",
+ "puntos": [
+  "Mezclan canciones reales con programas y anuncios inventados.",
+  "Parodian la sociedad de consumo, la política y la tele.",
+  "Hacen la ciudad más viva y creíble."
+ ],
+ "etiquetas": [
+  "#gta",
+  "#videojuegos",
+  "#curiosidadesgamer"
+ ],
+ "fuentes": [
+  "Wikipedia: Grand Theft Auto",
+  "Wikipedia: Emisoras de radio de la saga Grand Theft Auto"
+ ]
+}

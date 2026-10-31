@@ -1,0 +1,70 @@
+{
+ "id": "idea_012",
+ "idea": 12,
+ "titulo": "¿Cada cuánto hay que cambiar la pasta térmica?",
+ "titulo_pantalla": "¿Cada cuánto cambiar la pasta térmica?",
+ "escenas": [
+  {
+   "texto": "¿Cada cuánto hay que cambiar la pasta térmica?",
+   "imagen": "cpu_pasta_termica_aislado_01.png"
+  },
+  {
+   "texto": "La pasta térmica rellena los huecos diminutos entre el procesador y el disipador, para que el calor pase mejor.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El procesador genera calor",
+     "La pasta llena los huecos microscópicos",
+     "El disipador se lleva el calor"
+    ]
+   }
+  },
+  {
+   "texto": "Con el tiempo se seca. Como norma, una buena pasta aguanta entre tres y cinco años, según el uso.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "3 a 5 años",
+    "texto": "es lo que suele aguantar una buena pasta térmica",
+    "pie": "Orientativo: depende del uso y la calidad"
+   }
+  },
+  {
+   "texto": "Cámbiala antes si el procesador se calienta más de lo normal, si el PC pierde velocidad, o siempre que quites el disipador.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Cámbiala antes si",
+    "titulo": "Señales de aviso",
+    "acento": "naranja",
+    "puntos": [
+     "La temperatura sube sin motivo",
+     "El PC pierde velocidad",
+     "Has quitado el disipador"
+    ]
+   }
+  },
+  {
+   "texto": "Si no tienes experiencia, mejor que lo haga un técnico: una mala aplicación puede empeorar las cosas.",
+   "imagen": "cpu_instalacion_aislado_01.png"
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧴",
+ "puntos": [
+  "Una buena pasta térmica suele aguantar entre 3 y 5 años.",
+  "Cámbiala antes si el procesador se calienta de más o pierde velocidad.",
+  "Cámbiala siempre que quites el disipador."
+ ],
+ "etiquetas": [
+  "#pastatermica",
+  "#pcgamer",
+  "#mantenimiento"
+ ],
+ "fuentes": [
+  "WePC: cada cuánto cambiar la pasta térmica",
+  "CG Director: cuánto dura la pasta térmica",
+  "Corsair: guía de pasta térmica"
+ ]
+}

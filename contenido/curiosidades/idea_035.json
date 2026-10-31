@@ -1,0 +1,73 @@
+{
+ "id": "idea_035",
+ "idea": 35,
+ "titulo": "¿Cuánto dinero necesitas realmente para un PC gaming?",
+ "titulo_pantalla": "¿Cuánto cuesta un buen PC gaming?",
+ "escenas": [
+  {
+   "texto": "¿Cuánto dinero necesitas realmente para un PC gaming?",
+   "imagen": "balanza_precio_rendimiento_aislado_01.png",
+   "provisional": "empresa_asesoramiento_comparativa_aislado_01.png"
+  },
+  {
+   "texto": "No hay una cifra única: depende de la resolución y los FPS que busques.",
+   "grafico": "resumen",
+   "params": {
+    "filas": [
+     {
+      "cabecera": "Full HD fluido",
+      "titulo": "Gama de entrada",
+      "acento": "azul"
+     },
+     {
+      "cabecera": "2K con mucho detalle",
+      "titulo": "Gama media",
+      "acento": "azul"
+     },
+     {
+      "cabecera": "4K y muchos FPS",
+      "titulo": "Gama alta",
+      "acento": "naranja"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "Casi siempre, la gráfica es la pieza que más pesa en el presupuesto, seguida del procesador. Y no olvides la fuente, la caja y la refrigeración.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Dónde va el dinero",
+    "titulo": "El reparto",
+    "acento": "azul",
+    "puntos": [
+     "La gráfica, lo que más pesa",
+     "Un procesador acorde",
+     "Fuente, caja y refrigeración"
+    ]
+   }
+  },
+  {
+   "texto": "Si nos cuentas tu presupuesto, te asesoramos para sacarle el máximo.",
+   "imagen": "empresa_asesoramiento_componentes_aislado_01.png"
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "💶",
+ "puntos": [
+  "Depende de la resolución y los FPS que busques.",
+  "La gráfica es la pieza que más pesa en el presupuesto.",
+  "No olvides fuente, caja y refrigeración."
+ ],
+ "etiquetas": [
+  "#pcgaming",
+  "#presupuesto",
+  "#comprarpc"
+ ],
+ "fuentes": [
+  "Wikipedia: Computadora para videojuegos",
+  "Corsair: cómo repartir el presupuesto de un PC gaming"
+ ]
+}

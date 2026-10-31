@@ -1,0 +1,69 @@
+{
+ "id": "idea_094",
+ "idea": 94,
+ "titulo": "¿Por qué Minecraft tiene gráficos tan simples y sigue siendo tan popular?",
+ "titulo_pantalla": "¿Por qué triunfa Minecraft?",
+ "escenas": [
+  {
+   "texto": "¿Por qué Minecraft tiene gráficos tan simples y sigue siendo tan popular?",
+   "imagen": "voxel_mundo_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Porque cualquier ordenador lo mueve, el estilo de cubos se entiende a la primera y deja la imaginación al jugador.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué funciona",
+    "titulo": "Simple y potente",
+    "acento": "azul",
+    "puntos": [
+     "Cualquier ordenador lo mueve",
+     "Los cubos se entienden a la primera",
+     "Deja volar la imaginación"
+    ]
+   }
+  },
+  {
+   "texto": "Y se ha convertido en el videojuego más vendido de la historia, con más de trescientos millones de copias.",
+   "grafico": "dato",
+   "params": {
+    "cifra": "300 millones",
+    "texto": "de copias vendidas: el videojuego más vendido de la historia",
+    "pie": "Cifra aproximada"
+   }
+  },
+  {
+   "texto": "Además, es fácil de ampliar con mods, el ordenador genera los mundos y todo se construye con bloques.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Y además",
+    "titulo": "Un mundo sin límites",
+    "acento": "naranja",
+    "puntos": [
+     "Fácil de ampliar con mods",
+     "Mundos generados por el ordenador",
+     "Todo se construye con bloques"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⛏️",
+ "puntos": [
+  "Cualquier ordenador lo mueve y el estilo de cubos se entiende a la primera.",
+  "Es el videojuego más vendido de la historia.",
+  "Se amplía con mods y genera mundos solo."
+ ],
+ "etiquetas": [
+  "#minecraft",
+  "#videojuegos",
+  "#curiosidadesgamer"
+ ],
+ "fuentes": [
+  "Wikipedia: Minecraft",
+  "Mojang: historia de Minecraft"
+ ]
+}

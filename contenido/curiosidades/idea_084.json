@@ -1,0 +1,71 @@
+{
+ "id": "idea_084",
+ "idea": 84,
+ "titulo": "¿Qué es el input lag y por qué tu personaje reacciona tarde?",
+ "titulo_pantalla": "¿Qué es el input lag?",
+ "escenas": [
+  {
+   "texto": "¿Qué es el input lag y por qué tu personaje reacciona tarde?",
+   "imagen": "input_lag_mando_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Es el retraso entre que pulsas un botón y ves la acción en pantalla.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Pulsas el botón",
+     "El PC y el juego procesan la acción",
+     "La pantalla la muestra"
+    ]
+   }
+  },
+  {
+   "texto": "Se pierde un poco de tiempo en cada paso: en el mando o el ratón, en el PC y el juego, y en la pantalla o la tele.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Dónde se pierde tiempo",
+    "titulo": "Tres sitios",
+    "acento": "naranja",
+    "puntos": [
+     "En el mando o el ratón",
+     "En el PC y el juego",
+     "En la pantalla o la tele"
+    ]
+   }
+  },
+  {
+   "texto": "Para reducirlo, activa el modo juego de la tele, sube los FPS y baja los gráficos, y usa cable.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Cómo reducirlo",
+    "titulo": "Tres ajustes",
+    "acento": "azul",
+    "puntos": [
+     "Activa el modo juego de la tele",
+     "Sube los FPS y baja los gráficos",
+     "Usa cable y puertos directos"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "El input lag es el retraso entre pulsar y ver la acción.",
+  "Se pierde tiempo en el mando, en el PC y en la pantalla.",
+  "Activa el modo juego, sube los FPS y usa cable."
+ ],
+ "etiquetas": [
+  "#inputlag",
+  "#gaming",
+  "#monitor"
+ ],
+ "fuentes": [
+  "Wikipedia: Input lag",
+  "NVIDIA: latencia del sistema en juegos"
+ ]
+}

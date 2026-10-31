@@ -1,0 +1,65 @@
+{
+ "id": "idea_025",
+ "idea": 25,
+ "titulo": "¿Por qué tu PC va lento si tiene componentes potentes?",
+ "titulo_pantalla": "¿Por qué va lento un PC potente?",
+ "escenas": [
+  {
+   "texto": "¿Por qué tu PC va lento si tiene componentes potentes?",
+   "imagen": "pc_potente_lento_aislado_01.png",
+   "provisional": "pc_optimizacion_cpu_ram_aislado_01.png"
+  },
+  {
+   "texto": "Casi siempre es por el calor, los programas en segundo plano o un disco lleno o muy lento.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Causas habituales",
+    "titulo": "La potencia no basta",
+    "acento": "naranja",
+    "puntos": [
+     "Calor: el procesador baja su velocidad",
+     "Programas en segundo plano",
+     "Disco lleno o muy lento"
+    ]
+   }
+  },
+  {
+   "texto": "Mira las temperaturas y el uso en el Administrador de tareas, quita lo que no uses y comprueba virus y controladores.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Mira temperaturas y uso",
+     "Quita programas innecesarios",
+     "Comprueba virus y controladores"
+    ]
+   }
+  },
+  {
+   "texto": "Si es potente, no puede ir lento. Pero la potencia solo sirve si el calor, el disco y el software acompañan.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Si es potente, no puede ir lento",
+    "realidad": "La potencia solo sirve si el calor, el disco y el software acompañan."
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🐢",
+ "puntos": [
+  "Suele ser calor, programas en segundo plano o disco lleno.",
+  "Revisa temperaturas, programas y virus.",
+  "La potencia solo sirve si el resto acompaña."
+ ],
+ "etiquetas": [
+  "#rendimiento",
+  "#pcgamer",
+  "#windows"
+ ],
+ "fuentes": [
+  "Microsoft: mejorar el rendimiento de Windows",
+  "Wikipedia: Estrangulamiento térmico"
+ ]
+}

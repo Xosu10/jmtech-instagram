@@ -1,0 +1,65 @@
+{
+ "id": "idea_072",
+ "idea": 72,
+ "titulo": "¿Qué ocurre si consigues llegar al límite del mapa de un videojuego?",
+ "titulo_pantalla": "¿Qué hay al límite del mapa?",
+ "escenas": [
+  {
+   "texto": "¿Qué ocurre si llegas al límite del mapa de un videojuego?",
+   "imagen": "mapa_limite_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Casi siempre hay un truco para que no llegues: montañas, mar infranqueable, paredes invisibles o zonas que te devuelven al camino.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Cómo lo disimulan",
+    "titulo": "Los límites del mapa",
+    "acento": "azul",
+    "puntos": [
+     "Montañas o mar infranqueables",
+     "Paredes invisibles",
+     "Zonas que te hacen volver"
+    ]
+   }
+  },
+  {
+   "texto": "Si te lo saltas con un truco, lo normal es encontrar un mundo vacío: sin texturas, sin objetos, a veces sin suelo.",
+   "imagen": "pared_invisible_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Otros juegos hacen que el mapa dé la vuelta: llegas al borde y apareces por el otro lado, como en un planeta.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Otros juegos",
+    "titulo": "Un mapa que da la vuelta",
+    "acento": "naranja",
+    "puntos": [
+     "Sales por un lado",
+     "Entras por el contrario",
+     "Como si fuera un planeta"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🗺️",
+ "puntos": [
+  "Los juegos disimulan el límite con montañas, mar o paredes invisibles.",
+  "Si te lo saltas, el mundo suele estar vacío.",
+  "Otros juegos hacen que el mapa dé la vuelta."
+ ],
+ "etiquetas": [
+  "#videojuegos",
+  "#gaming",
+  "#curiosidadesgamer"
+ ],
+ "fuentes": [
+  "Wikipedia: Pared invisible (videojuegos)",
+  "Wikipedia: Fuera de límites (videojuegos)"
+ ]
+}

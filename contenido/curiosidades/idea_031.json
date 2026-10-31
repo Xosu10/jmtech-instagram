@@ -1,0 +1,62 @@
+{
+ "id": "idea_031",
+ "idea": 31,
+ "titulo": "¿Cómo dar una segunda vida a un ordenador antiguo por poco dinero?",
+ "titulo_pantalla": "Segunda vida para un PC antiguo",
+ "escenas": [
+  {
+   "texto": "¿Se puede dar una segunda vida a un ordenador antiguo sin gastar mucho?",
+   "imagen": "pc_antiguo_mejora_aislado_01.png",
+   "provisional": "pc_limpieza_aislado_01.png"
+  },
+  {
+   "texto": "Sí. Primero, cambia el disco duro por un SSD, que es la mejora que más se nota. Después, amplía la memoria si va justa.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Cambia el disco duro por un SSD",
+     "Amplía la RAM si va justa",
+     "Limpia el polvo y renueva la pasta térmica"
+    ]
+   }
+  },
+  {
+   "texto": "Si tu PC no cumple los requisitos de Windows 11, puedes instalar una versión ligera de Linux.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Si no cumple Windows 11",
+    "titulo": "Prueba con Linux",
+    "acento": "azul",
+    "puntos": [
+     "Sistema ligero y actual",
+     "Sin pagar licencia",
+     "Ideal para navegar y ofimática"
+    ]
+   }
+  },
+  {
+   "texto": "Eso sí: si el procesador es muy antiguo, llega un punto en que compensa comprar otro.",
+   "imagen": "reparar_o_comprar_aislado_01.png",
+   "provisional": "empresa_asesoramiento_comparativa_aislado_01.png"
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "♻️",
+ "puntos": [
+  "Cambiar el disco duro por un SSD es la mejora que más se nota.",
+  "Amplía la RAM si va justa y limpia el polvo.",
+  "Si no cumple Windows 11, prueba con Linux."
+ ],
+ "etiquetas": [
+  "#pcantiguo",
+  "#ssd",
+  "#actualizar"
+ ],
+ "fuentes": [
+  "Microsoft: requisitos de Windows 11 y fin de soporte de Windows 10",
+  "Corsair: cómo mejorar un PC antiguo"
+ ]
+}

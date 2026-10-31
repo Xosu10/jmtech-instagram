@@ -1,0 +1,79 @@
+{
+ "id": "idea_013",
+ "idea": 13,
+ "titulo": "¿Es malo tener el ordenador en el suelo?",
+ "titulo_pantalla": "¿Es malo tener el PC en el suelo?",
+ "escenas": [
+  {
+   "texto": "¿Es malo tener el ordenador en el suelo?",
+   "imagen": "pc_suelo_aislado_01.png",
+   "provisional": "pc_limpieza_aislado_01.png"
+  },
+  {
+   "texto": "Lo ideal es no tenerlo abajo: allí hay más polvo, más riesgo de golpes y de líquidos, y una alfombra puede tapar las entradas de aire.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "En el suelo",
+     "titulo": "Más riesgos",
+     "puntos": [
+      "Más polvo y pelusas",
+      "Golpes y líquidos",
+      "La alfombra tapa el aire"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Elevado",
+     "titulo": "Más sano",
+     "puntos": [
+      "Aire más limpio",
+      "Lejos de golpes y fregonas",
+      "Mejor ventilación"
+     ]
+    }
+   }
+  },
+  {
+   "texto": "Y no, abajo no se enfría mejor: el aire del suelo trae más polvo, y eso perjudica más que ayuda.",
+   "grafico": "mito",
+   "params": {
+    "mito": "En el suelo se enfría mejor porque está más fresco",
+    "realidad": "El aire cercano al suelo trae más polvo, y eso perjudica más de lo que ayuda."
+   }
+  },
+  {
+   "texto": "Si no te queda otra, ponlo sobre una base, lejos de la alfombra, y límpialo más a menudo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Si lo tienes que dejar abajo",
+    "titulo": "Como mínimo, elévalo",
+    "acento": "azul",
+    "puntos": [
+     "Sobre una base o soporte",
+     "Lejos de la alfombra",
+     "Límpialo con más frecuencia"
+    ]
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🧹",
+ "puntos": [
+  "En el suelo hay más polvo, golpes y líquidos.",
+  "Una alfombra puede tapar las entradas de aire.",
+  "Si no queda otra, elévalo y límpialo más a menudo."
+ ],
+ "etiquetas": [
+  "#pcgamer",
+  "#mantenimiento",
+  "#consejos"
+ ],
+ "fuentes": [
+  "Corsair: dónde colocar tu PC",
+  "Darkflash: cómo cuidar tu PC"
+ ]
+}

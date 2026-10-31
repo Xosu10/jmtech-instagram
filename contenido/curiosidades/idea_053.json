@@ -1,0 +1,79 @@
+{
+ "id": "idea_053",
+ "idea": 53,
+ "titulo": "¿El modo incógnito del navegador te hace invisible en Internet?",
+ "titulo_pantalla": "¿El modo incógnito te hace invisible?",
+ "escenas": [
+  {
+   "texto": "¿El modo incógnito te hace invisible en Internet?",
+   "imagen": "incognito_aislado_01.png",
+   "provisional": "windows_virus_aislado_01.png"
+  },
+  {
+   "texto": "No. Solo evita que tu navegador guarde historial y cookies en ese equipo.",
+   "grafico": "mito",
+   "params": {
+    "mito": "El modo incógnito te hace invisible en Internet",
+    "realidad": "Solo evita que tu navegador guarde historial y cookies en ese equipo."
+   }
+  },
+  {
+   "texto": "Oculta lo que se guarda en tu equipo, pero no tu conexión: las webs, tu empresa o tu operador siguen viendo lo mismo.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Lo que oculta",
+     "titulo": "En tu equipo",
+     "puntos": [
+      "El historial",
+      "Las cookies al cerrar",
+      "Datos de formularios"
+     ]
+    },
+    "der": {
+     "cabecera": "Lo que no oculta",
+     "titulo": "En la red",
+     "puntos": [
+      "Tu conexión (la IP)",
+      "Lo que ven las webs",
+      "Lo que ve tu operador o empresa"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "Si quieres más privacidad, revisa los permisos de cada web, cierra sesión en tus cuentas y valora una red privada virtual de confianza.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Más privacidad",
+    "titulo": "Tres hábitos",
+    "acento": "azul",
+    "puntos": [
+     "Revisa los permisos de cada web",
+     "Cierra sesión en tus cuentas",
+     "Valora una VPN de confianza"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🕶️",
+ "puntos": [
+  "El modo incógnito solo evita guardar historial y cookies en tu equipo.",
+  "No oculta tu conexión a webs, empresas ni operadores.",
+  "Para más privacidad, revisa permisos y cierra sesiones."
+ ],
+ "etiquetas": [
+  "#privacidad",
+  "#navegador",
+  "#internet"
+ ],
+ "fuentes": [
+  "Google Chrome: ayuda sobre el modo incógnito",
+  "Mozilla: qué hace la navegación privada"
+ ]
+}

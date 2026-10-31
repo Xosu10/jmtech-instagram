@@ -1,0 +1,65 @@
+{
+ "id": "idea_043",
+ "idea": 43,
+ "titulo": "¿Las tarjetas gráficas son cada vez más caras por culpa de la IA?",
+ "titulo_pantalla": "¿La IA encarece las gráficas?",
+ "escenas": [
+  {
+   "texto": "¿Las tarjetas gráficas son cada vez más caras por culpa de la IA?",
+   "imagen": "gpu_ia_demanda_aislado_01.png",
+   "provisional": "gpu_triple_ventilador_aislado_01.png"
+  },
+  {
+   "texto": "Las empresas de IA compran gráficas por miles, los fabricantes priorizan los chips para centros de datos, y a los jugadores les quedan menos.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Las empresas de IA compran gráficas por miles",
+     "Los fabricantes priorizan los centros de datos",
+     "Para los jugadores quedan menos, y cuestan más"
+    ]
+   }
+  },
+  {
+   "texto": "Pero la IA no es la única culpable: también influyen el coste de la memoria y de fabricar los chips.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Las gráficas suben solo por culpa de la IA",
+    "realidad": "Influye mucho, pero también el coste de la memoria y de fabricar los chips."
+   }
+  },
+  {
+   "texto": "Si vas a comprar una, compara bien y no pagues por más potencia de la que usarás.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Si vas a comprar",
+    "titulo": "Piensa antes de comprar",
+    "acento": "azul",
+    "puntos": [
+     "Compara modelos y reseñas",
+     "No compres más de lo que usas",
+     "Valora la gama media"
+    ]
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "📈",
+ "puntos": [
+  "Las empresas de IA compran gráficas por miles y los fabricantes priorizan los centros de datos.",
+  "No es la única causa: también influyen la memoria y la fabricación.",
+  "Si vas a comprar, compara y no pagues por potencia que no usarás."
+ ],
+ "etiquetas": [
+  "#graficas",
+  "#inteligenciaartificial",
+  "#pcgamer"
+ ],
+ "fuentes": [
+  "Tom's Hardware: demanda de GPU para IA",
+  "Wikipedia: Unidad de procesamiento gráfico"
+ ]
+}

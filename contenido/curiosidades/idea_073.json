@@ -1,0 +1,60 @@
+{
+ "id": "idea_073",
+ "idea": 73,
+ "titulo": "¿Por qué los desarrolladores esconden habitaciones secretas?",
+ "titulo_pantalla": "¿Por qué hay habitaciones secretas?",
+ "escenas": [
+  {
+   "texto": "¿Por qué los desarrolladores esconden habitaciones secretas en los juegos?",
+   "imagen": "habitacion_secreta_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Por varios motivos: premiar a quien explora, dejar la firma del equipo y hacer un guiño a los fans.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué las esconden",
+    "titulo": "Premiar la curiosidad",
+    "acento": "azul",
+    "puntos": [
+     "Premiar a quien explora",
+     "Dejar la firma del equipo",
+     "Hacer un guiño a los fans"
+    ]
+   }
+  },
+  {
+   "texto": "A veces nacen de contenido sobrante: zonas de pruebas o ideas descartadas que se dejan ocultas en lugar de borrarlas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "A veces",
+    "titulo": "Contenido sobrante",
+    "acento": "naranja",
+    "puntos": [
+     "Zonas de pruebas olvidadas",
+     "Ideas descartadas",
+     "Se ocultan en vez de borrarse"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚪",
+ "puntos": [
+  "Premian a quien explora y dejan la firma del equipo.",
+  "A veces son zonas de pruebas o ideas descartadas.",
+  "Son un guiño a los fans."
+ ],
+ "etiquetas": [
+  "#videojuegos",
+  "#easteregg",
+  "#gaming"
+ ],
+ "fuentes": [
+  "Wikipedia: Huevo de Pascua (medios)",
+  "Wikipedia: Desarrollo de videojuegos"
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "id": "idea_003",
+ "idea": 3,
+ "titulo": "¿SSD SATA o NVMe? ¿Notarás realmente la diferencia?",
+ "titulo_pantalla": "SSD SATA o NVMe: ¿se nota?",
+ "escenas": [
+  {
+   "texto": "¿SSD SATA o NVMe? ¿Se nota de verdad la diferencia?",
+   "imagen": "ssd_sata_nvme_comparativa_aislado_01.png",
+   "provisional": "ssd_nvme_disipador_aislado_01.png"
+  },
+  {
+   "texto": "Un SATA llega a unos quinientos cincuenta megas por segundo. Un NVMe supera los tres mil, y los más rápidos, los siete mil.",
+   "grafico": "barras",
+   "params": {
+    "titulo": "Velocidad máxima aproximada, en MB por segundo",
+    "nota": "Cifras orientativas, según el modelo",
+    "items": [
+     {
+      "etiqueta": "SSD SATA",
+      "valor": 550,
+      "texto": "unos 550",
+      "acento": "azul"
+     },
+     {
+      "etiqueta": "NVMe de gama media",
+      "valor": 3500,
+      "texto": "más de 3.000",
+      "acento": "azul"
+     },
+     {
+      "etiqueta": "NVMe de gama alta",
+      "valor": 7000,
+      "texto": "más de 7.000",
+      "acento": "naranja"
+     }
+    ]
+   }
+  },
+  {
+   "texto": "El SATA va de sobra para el día a día. El NVMe brilla con archivos enormes y vídeo, pero necesita ranura M.2 y se calienta más.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "SSD SATA",
+     "titulo": "Más sencillo",
+     "puntos": [
+      "Va de sobra en el día a día",
+      "Compatible con casi todo",
+      "Suele costar menos"
+     ]
+    },
+    "der": {
+     "cabecera": "SSD NVMe",
+     "titulo": "Más rápido",
+     "puntos": [
+      "Brilla con archivos enormes",
+      "Necesita ranura M.2",
+      "Se calienta más"
+     ]
+    }
+   }
+  },
+  {
+   "texto": "Y no esperes milagros: para arrancar Windows y abrir programas, la diferencia apenas se nota.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Con un NVMe, Windows arranca el triple de rápido",
+    "realidad": "Para arrancar y abrir programas, la diferencia apenas se nota."
+   }
+  },
+  {
+   "texto": "El gran salto es pasar de un disco duro a cualquier SSD.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que de verdad cambia tu PC",
+    "titulo": "De disco duro a SSD",
+    "acento": "azul",
+    "puntos": [
+     "Arranca en segundos",
+     "Los programas abren al momento",
+     "Funciona en silencio"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "💾",
+ "puntos": [
+  "El SATA va de sobra para el día a día (unos 550 MB/s).",
+  "El NVMe supera los 3.000 MB/s y brilla con archivos enormes.",
+  "Para arrancar y abrir programas apenas se nota.",
+  "El gran salto es pasar de disco duro a SSD."
+ ],
+ "etiquetas": [
+  "#ssd",
+  "#nvme",
+  "#pcgamer"
+ ],
+ "fuentes": [
+  "Wikipedia: Serial ATA y NVM Express",
+  "Corsair: guía de SSD SATA y NVMe"
+ ]
+}

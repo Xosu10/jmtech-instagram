@@ -1,0 +1,60 @@
+{
+ "id": "idea_104",
+ "idea": 104,
+ "titulo": "¿Cómo guardaban las partidas los videojuegos antes de las memory cards?",
+ "titulo_pantalla": "¿Cómo se guardaba antes?",
+ "escenas": [
+  {
+   "texto": "¿Cómo guardaban las partidas los videojuegos antes de las tarjetas de memoria?",
+   "imagen": "cartucho_generico_aislado_01.png",
+   "provisional": "consola_generica_mantenimiento_aislado_01.png"
+  },
+  {
+   "texto": "De tres formas: con contraseñas que anotabas en papel, con cartuchos que llevaban una pila dentro, o sin guardar: empezabas siempre de cero.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Tres sistemas",
+    "titulo": "Guardar antes",
+    "acento": "azul",
+    "puntos": [
+     "Contraseñas anotadas en papel",
+     "Cartuchos con pila interna",
+     "Nada: empezar siempre de cero"
+    ]
+   }
+  },
+  {
+   "texto": "La pila tenía su problema: cuando se agotaba, se perdían las partidas. Hoy hay quien las cambia.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "El problema",
+    "titulo": "Cuando la pila se agotaba",
+    "acento": "naranja",
+    "puntos": [
+     "Se perdían las partidas",
+     "Algunas duran décadas",
+     "Hoy se pueden reemplazar"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🔋",
+ "puntos": [
+  "Antes se guardaba con contraseñas, con pilas o no se guardaba.",
+  "Cuando la pila se agotaba, se perdían las partidas.",
+  "Hoy se pueden reemplazar."
+ ],
+ "etiquetas": [
+  "#retrogaming",
+  "#nostalgia",
+  "#videojuegos"
+ ],
+ "fuentes": [
+  "Wikipedia: Memoria de cartucho con pila",
+  "Wikipedia: Contraseña (videojuegos)"
+ ]
+}

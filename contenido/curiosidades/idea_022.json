@@ -1,0 +1,82 @@
+{
+ "id": "idea_022",
+ "idea": 22,
+ "titulo": "¿Por qué tu PC se apaga cuando estás jugando?",
+ "titulo_pantalla": "¿Por qué se apaga mi PC jugando?",
+ "escenas": [
+  {
+   "texto": "¿Por qué tu PC se apaga cuando estás jugando?",
+   "imagen": "pc_se_apaga_calor_aislado_01.png",
+   "provisional": "pc_limpieza_aislado_01.png"
+  },
+  {
+   "texto": "Casi siempre es por calor o por electricidad. Si se calienta de más, se apaga para protegerse. Y si la fuente no aguanta los picos de consumo, también.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Calor",
+     "titulo": "Se protege",
+     "puntos": [
+      "Polvo en los ventiladores",
+      "Pasta térmica vieja",
+      "Apagado de seguridad"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Electricidad",
+     "titulo": "La fuente falla",
+     "puntos": [
+      "No da la potencia que hace falta",
+      "Fuente desgastada",
+      "Picos de consumo al jugar"
+     ]
+    }
+   }
+  },
+  {
+   "texto": "Empieza por limpiar el polvo, vigilar las temperaturas y comprobar que la fuente es suficiente.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Limpia el polvo",
+     "Vigila las temperaturas",
+     "Comprueba que la fuente es suficiente"
+    ]
+   }
+  },
+  {
+   "texto": "Si sigue pasando, puede ser la gráfica, la RAM o el sistema, y conviene hacer un diagnóstico.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Si sigue pasando",
+    "titulo": "Hay que diagnosticar",
+    "acento": "naranja",
+    "puntos": [
+     "Gráfica o RAM con fallos",
+     "Controladores dañados",
+     "Fuente a punto de fallar"
+    ]
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🔌",
+ "puntos": [
+  "Casi siempre es calor o la fuente de alimentación.",
+  "Limpia el polvo, vigila temperaturas y revisa la fuente.",
+  "Si sigue, puede ser la gráfica, la RAM o el sistema."
+ ],
+ "etiquetas": [
+  "#averias",
+  "#pcgamer",
+  "#soportetecnico"
+ ],
+ "fuentes": [
+  "Corsair: por qué se apaga el PC al jugar",
+  "Evetech: PC que se apaga jugando"
+ ]
+}

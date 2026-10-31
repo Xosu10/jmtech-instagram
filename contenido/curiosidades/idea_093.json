@@ -1,0 +1,65 @@
+{
+ "id": "idea_093",
+ "idea": 93,
+ "titulo": "¿Cómo consiguen los videojuegos de mundo abierto simular ciudades llenas de vida?",
+ "titulo_pantalla": "¿Cómo simulan ciudades vivas?",
+ "escenas": [
+  {
+   "texto": "¿Cómo simulan los videojuegos ciudades llenas de vida?",
+   "imagen": "ciudad_viva_aislado_01.png",
+   "provisional": "pc_gaming_azul_ambiente_01.png"
+  },
+  {
+   "texto": "Es casi todo un truco: solo se simula lo cercano, los lejanos son versiones simples y se reutilizan modelos y animaciones.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "El truco",
+    "titulo": "Una ilusión",
+    "acento": "azul",
+    "puntos": [
+     "Solo se simula lo cercano",
+     "Los lejanos son versiones simples",
+     "Se reutilizan modelos y animaciones"
+    ]
+   }
+  },
+  {
+   "texto": "Funciona por capas: cerca, personajes detallados; a media distancia, versiones más simples; y lejos, solo luces y movimiento.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Cerca: personajes detallados",
+     "A media distancia: versiones simples",
+     "Lejos: solo luces y movimiento"
+    ]
+   }
+  },
+  {
+   "texto": "No cada habitante vive una vida completa; solo lo parece.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Cada habitante tiene su vida completa",
+    "realidad": "Casi todo es un truco para que parezca que hay vida."
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🌆",
+ "puntos": [
+  "Solo se simula lo cercano.",
+  "Cerca, detalle; lejos, versiones simples.",
+  "Casi todo es un truco para parecer vivo."
+ ],
+ "etiquetas": [
+  "#mundoabierto",
+  "#videojuegos",
+  "#curiosidadesgamer"
+ ],
+ "fuentes": [
+  "Wikipedia: Nivel de detalle",
+  "Wikipedia: Videojuego de mundo abierto"
+ ]
+}

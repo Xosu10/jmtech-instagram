@@ -1,0 +1,75 @@
+{
+ "id": "idea_032",
+ "idea": 32,
+ "titulo": "¿Es mejor comprar un PC montado o hacerlo por piezas?",
+ "titulo_pantalla": "¿PC montado o por piezas?",
+ "escenas": [
+  {
+   "texto": "¿Es mejor comprar un PC montado o hacerlo por piezas?",
+   "imagen": "pc_montado_piezas_aislado_01.png",
+   "provisional": "empresa_asesoramiento_comparativa_aislado_01.png"
+  },
+  {
+   "texto": "El montado viene listo y tienes un único sitio al que reclamar. Por piezas eliges cada componente y lo ajustas a lo que necesitas.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "PC montado",
+     "titulo": "Listo para usar",
+     "puntos": [
+      "Cero complicaciones",
+      "Un único sitio al que reclamar",
+      "Piezas a veces genéricas"
+     ]
+    },
+    "der": {
+     "cabecera": "Por piezas",
+     "titulo": "A tu medida",
+     "puntos": [
+      "Eliges cada componente",
+      "Mejor ajustado a tu uso",
+      "Más tiempo y conocimiento"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "Elige según tu caso: poco tiempo, montado; control total, por piezas; y si dudas, un montaje a medida.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Elige según",
+    "titulo": "Tu caso",
+    "acento": "azul",
+    "puntos": [
+     "Poco tiempo: montado",
+     "Control total: por piezas",
+     "Dudas: un montaje a medida"
+    ]
+   }
+  },
+  {
+   "texto": "Y si no te decides, nosotros te asesoramos y te lo montamos.",
+   "imagen": "empresa_asesoramiento_componentes_aislado_01.png"
+  },
+  {
+   "texto": "¿Te pasa algo parecido? Cuéntanoslo por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🛠️",
+ "puntos": [
+  "El montado viene listo; por piezas eliges cada componente.",
+  "Elige según tu tiempo y tu control sobre el equipo.",
+  "Podemos asesorarte y montártelo."
+ ],
+ "etiquetas": [
+  "#montajepc",
+  "#pcgamer",
+  "#comprarpc"
+ ],
+ "fuentes": [
+  "Corsair: PC montado frente a PC por piezas",
+  "Wikipedia: Ordenador personal"
+ ]
+}

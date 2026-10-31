@@ -1,0 +1,54 @@
+{
+ "id": "idea_054",
+ "idea": 54,
+ "titulo": "¿Es verdad que los ordenadores ya no necesitan antivirus?",
+ "titulo_pantalla": "¿Ya no hace falta antivirus?",
+ "escenas": [
+  {
+   "texto": "¿Es verdad que los ordenadores ya no necesitan antivirus?",
+   "imagen": "antivirus_windows_aislado_01.png",
+   "provisional": "windows_virus_aislado_01.png"
+  },
+  {
+   "texto": "Windows ya incluye uno, Microsoft Defender, y suele bastar si lo mantienes actualizado.",
+   "grafico": "mito",
+   "params": {
+    "mito": "Los ordenadores ya no necesitan antivirus",
+    "realidad": "Windows incluye uno (Microsoft Defender) y suele bastar si lo mantienes actualizado."
+   }
+  },
+  {
+   "texto": "Lo que de verdad te protege es actualizar, no abrir enlaces dudosos y tener copias de seguridad.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Lo que de verdad protege",
+    "titulo": "Hábitos seguros",
+    "acento": "azul",
+    "puntos": [
+     "Actualiza Windows y programas",
+     "No abras enlaces ni adjuntos dudosos",
+     "Haz copias de seguridad"
+    ]
+   }
+  },
+  {
+   "texto": "¿Dudas con tu PC? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🛡️",
+ "puntos": [
+  "Windows incluye Microsoft Defender y suele bastar.",
+  "Lo importante son los hábitos: actualizar y no abrir enlaces dudosos.",
+  "Haz copias de seguridad."
+ ],
+ "etiquetas": [
+  "#antivirus",
+  "#seguridad",
+  "#windows"
+ ],
+ "fuentes": [
+  "Microsoft: seguridad de Windows y Defender",
+  "Wikipedia: Microsoft Defender"
+ ]
+}

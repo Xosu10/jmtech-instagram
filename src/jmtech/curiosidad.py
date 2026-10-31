@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import hashlib
 import json
 import math
 import os
@@ -21,7 +22,22 @@ from .assets import cargar_catalogo, indice
 from .base import BLUE, LOGO_OSCURO, RAIZ, S, _lockup, font
 from .graficos import TIPOS, grafico
 from .reel import FPS, W, H, _capa_cta, _fondo, _ffmpeg, _poner, _suave
-from .validacion import problemas_texto
+from .validacion import _CONTACTO
+
+# En los vídeos de curiosidades se puede hablar de precios del mercado (la RAM sube, una gráfica cuesta...), pero no
+# ofrecer descuentos, ofertas ni garantías ni dar datos de contacto: eso queda solo para las publicaciones comerciales.
+_PROHIBIDO_CURIOSIDAD = re.compile(r"\bdescuentos?\b|\bofertas?\b|\bgratis\b|\bgratuit\w*|\bgarant[ií]\w*|\brebajas?\b|%", re.IGNORECASE)
+
+
+def problemas_texto(texto: str) -> list[str]:
+    fallos = []
+    m = _PROHIBIDO_CURIOSIDAD.search(texto)
+    if m:
+        fallos.append(f"contiene «{m.group(0)}» (sin descuentos, ofertas, garantías ni porcentajes)")
+    m = _CONTACTO.search(texto)
+    if m:
+        fallos.append(f"contiene datos de contacto («{m.group(0)}»): el contacto es solo por MD")
+    return fallos
 
 VOZ = "es-ES-XimenaNeural"
 VELOCIDAD = "+4%"
@@ -43,9 +59,12 @@ def cargar_espec(ruta) -> dict:
 def problemas_espec(e: dict) -> list[str]:
     """Comprobaciones del guion y de la descripción antes de montar el vídeo."""
     fallos = []
-    for k in ("id", "titulo", "titulo_pantalla", "escenas", "descripcion", "hashtags", "fuentes"):
+    for k in ("id", "titulo", "titulo_pantalla", "escenas", "fuentes"):
         if not e.get(k):
             fallos.append(f"falta «{k}»")
+    if not e.get("descripcion") and not e.get("puntos"):
+        fallos.append("falta «descripcion» (o «puntos» para generarla)")
+    e = {**e, "hashtags": hashtags_de(e), "descripcion": e.get("descripcion") or descripcion_de(e)}
     if not 4 <= len(e.get("escenas", [])) <= 9:
         fallos.append("debe tener entre 4 y 9 escenas")
     palabras = 0
@@ -66,10 +85,31 @@ def problemas_espec(e: dict) -> list[str]:
     return fallos
 
 
+BASE_HASHTAGS = ["#informatica", "#curiosidades", "#tecnologia", "#murcia"]
+INVITACIONES = ["¿Dudas con tu PC? Escríbenos por MD.", "¿Quieres que lo revisemos por ti? Escríbenos por MD.",
+                "¿Te pasa algo parecido? Cuéntanoslo por MD.", "Si tu equipo necesita ayuda, escríbenos por MD."]
+
+
+def hashtags_de(e: dict) -> list[str]:
+    """Los de la ficha o, si no hay, los comunes más las etiquetas propias del tema."""
+    if e.get("hashtags"):
+        return e["hashtags"]
+    extra = [h if h.startswith("#") else f"#{h}" for h in e.get("etiquetas", [])]
+    return BASE_HASHTAGS + [h for h in extra if h not in BASE_HASHTAGS]
+
+
+def descripcion_de(e: dict) -> str:
+    """Texto de la publicación generado con los puntos clave del vídeo."""
+    emoji = e.get("emoji", "💡")
+    invitacion = INVITACIONES[sum(map(ord, e["id"])) % len(INVITACIONES)]
+    puntos = "\n".join(f"• {p}" for p in e["puntos"])
+    return f"{e['titulo']} {emoji}\n\n{puntos}\n\n{invitacion}"
+
+
 def construir_descripcion(e: dict) -> str:
     fuentes = "\n".join(f"• {f}" for f in e["fuentes"])
-    etiquetas = " ".join(h if h.startswith("#") else f"#{h}" for h in e["hashtags"])
-    return (f"{e['descripcion']}\n\n"
+    etiquetas = " ".join(h if h.startswith("#") else f"#{h}" for h in hashtags_de(e))
+    return (f"{e.get('descripcion') or descripcion_de(e)}\n\n"
             f"📚 Fuentes consultadas:\n{fuentes}\n\n"
             "🎙️ Voz generada con IA. Imágenes ilustrativas.\n"
             "🔧 JM TECH · Servicio técnico y soluciones tecnológicas en Murcia. Presupuesto sin compromiso por MD.\n\n"
@@ -286,9 +326,12 @@ def resolver_imagen(nombre, id_video):
     cat = indice(cargar_catalogo())
     if nombre in cat:
         return cat[nombre].ruta
-    for base in (CARPETA_IMAGENES / id_video, CARPETA_IMAGENES):
+    for base in (CARPETA_IMAGENES / id_video, CARPETA_IMAGENES / "biblioteca", CARPETA_IMAGENES):
         if (base / nombre).exists():
             return base / nombre
+    if CARPETA_IMAGENES.exists():                      # entregada en la carpeta de otro vídeo: sirve igual
+        for ruta in CARPETA_IMAGENES.rglob(nombre):
+            return ruta
     raise FileNotFoundError(f"No encuentro la imagen «{nombre}» (catálogo ni carpeta compartida).")
 
 
@@ -403,15 +446,67 @@ def guardar_cola(carpeta, videos) -> None:
     ruta.write_text(json.dumps({"videos": videos}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def encolar(espec, fecha, carpeta, musica=None, inicio_musica=10.0):
+def encolar(espec, fecha, carpeta, musica=None, inicio_musica=10.0, extra=None):
     """Crea el vídeo, lo guarda en la carpeta de la cola y lo anota para publicarlo en `fecha` (AAAA-MM-DD)."""
     carpeta = Path(carpeta)
     carpeta.mkdir(parents=True, exist_ok=True)
     ruta, dur = generar_video(espec, carpeta / f"{espec['id']}.mp4", musica, inicio_musica)
     videos = [v for v in cargar_cola(carpeta) if v["id"] != espec["id"]]
-    videos.append({"fecha": fecha, "id": espec["id"], "video": ruta.name, "pie": construir_descripcion(espec)})
+    videos.append({"fecha": fecha, "id": espec["id"], "video": ruta.name, "pie": construir_descripcion(espec), **(extra or {})})
     guardar_cola(carpeta, videos)
     return ruta, dur
+
+
+VERSION_MOTOR = "1"          # súbela si cambia el aspecto del vídeo: todos se montan de nuevo
+
+
+def huella(espec) -> str:
+    """Resumen del guion y de las imágenes usadas: si no cambia, no hace falta montar el vídeo otra vez."""
+    h = hashlib.sha1(json.dumps(espec, sort_keys=True, ensure_ascii=False).encode("utf-8"))
+    h.update(VERSION_MOTOR.encode())
+    for esc in espec["escenas"]:
+        if esc.get("imagen") and not esc.get("grafico"):
+            ruta, provisional = imagen_de_escena(esc, espec["id"])
+            h.update(f"{ruta.name}:{ruta.stat().st_size}:{provisional}".encode())
+    return h.hexdigest()[:16]
+
+
+def montar_plan(carpeta, musica_dir, hasta=None, provisional=False, avisar=print):
+    """Monta y encola los vídeos del plan cuyas imágenes ya están (o, con `provisional`, usando las provisionales).
+
+    Solo repite los que han cambiado desde la última vez. Devuelve (montados, esperando)."""
+    plan = json.loads((RAIZ / "contenido" / "plan_curiosidades.json").read_text(encoding="utf-8"))["plan"]
+    pistas = sorted(Path(musica_dir).glob("*.mp3")) if musica_dir and Path(musica_dir).exists() else []
+    cola = {v["id"]: v for v in cargar_cola(carpeta)}
+    montados, esperando = [], []
+    for k, p in enumerate(plan):
+        if hasta and p["fecha"] > hasta:
+            break
+        ruta_espec = CARPETA_ESPECS / f"{p['id']}.json"
+        if not ruta_espec.exists():
+            continue
+        espec = cargar_espec(ruta_espec)
+        fallos = problemas_espec(espec)
+        if fallos:
+            avisar(f"{p['id']}: el guion tiene problemas: {'; '.join(fallos)}")
+            continue
+        pendientes = imagenes_pendientes(espec)
+        try:
+            h = huella(espec)
+        except FileNotFoundError as e:
+            esperando.append((p["fecha"], p["id"], str(e)))
+            continue
+        if pendientes and not provisional:
+            esperando.append((p["fecha"], p["id"], "faltan " + ", ".join(a for a, _ in pendientes)))
+            continue
+        previo = cola.get(p["id"])
+        if previo and previo.get("huella") == h and previo.get("fecha") == p["fecha"] and (Path(carpeta) / previo["video"]).exists():
+            continue
+        pista, inicio = (pistas[(k * 7) % len(pistas)], float(8 + (k * 13) % 30)) if pistas else (None, 10.0)
+        avisar(f"Montando {p['fecha']} · {p['id']} ({'definitivo' if not pendientes else 'con imágenes provisionales'})")
+        encolar(espec, p["fecha"], carpeta, pista, inicio, {"huella": h, "definitivo": not pendientes})
+        montados.append((p["fecha"], p["id"]))
+    return montados, esperando
 
 
 def publicar_curiosidad(video, pie, id_video, fecha, *, dry_run=False, cliente=None, ruta_estado=None, ahora_utc=None,
@@ -485,7 +580,10 @@ def curiosidad_hoy(carpeta, ahora_utc=None, *, dry_run=False, ignorar_hora=False
 
 def main():
     p = argparse.ArgumentParser(prog="jmtech.curiosidad")
-    p.add_argument("orden", choices=["render", "comprobar", "encolar", "publicar", "hoy", "pendientes"])
+    p.add_argument("orden", choices=["render", "comprobar", "encolar", "publicar", "hoy", "pendientes", "montar"])
+    p.add_argument("--musica-dir", default="", help="montar: carpeta con las canciones (mp3)")
+    p.add_argument("--hasta", default="", help="montar: última fecha del plan que se monta (AAAA-MM-DD)")
+    p.add_argument("--provisional", action="store_true", help="montar: usar imágenes provisionales si faltan las definitivas")
     p.add_argument("espec", nargs="?")
     p.add_argument("--salida", default="curiosidad.mp4")
     p.add_argument("--musica", default="")
@@ -501,6 +599,14 @@ def main():
     try:
         if a.orden == "hoy":
             curiosidad_hoy(a.carpeta, dry_run=a.dry_run, ignorar_hora=a.ignorar_hora)
+            return 0
+        if a.orden == "montar":
+            if not a.carpeta:
+                p.error("montar necesita --carpeta")
+            montados, esperando = montar_plan(a.carpeta, a.musica_dir, a.hasta or None, a.provisional)
+            print(f"Montados ahora: {len(montados)}")
+            for fecha, id_video, motivo in esperando:
+                print(f"  espera · {fecha} · {id_video}: {motivo}")
             return 0
         if a.orden == "pendientes":
             hay = False

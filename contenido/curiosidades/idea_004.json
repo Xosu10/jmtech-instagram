@@ -1,0 +1,94 @@
+{
+ "id": "idea_004",
+ "idea": 4,
+ "titulo": "¿Qué es el cuello de botella de un PC?",
+ "titulo_pantalla": "¿Qué es el cuello de botella?",
+ "escenas": [
+  {
+   "texto": "¿Qué es el cuello de botella de un PC?",
+   "imagen": "cuello_botella_aislado_01.png",
+   "provisional": "pc_optimizacion_cpu_ram_aislado_01.png"
+  },
+  {
+   "texto": "Es cuando una pieza es tan lenta que frena a todas las demás, aunque estas sean muy potentes.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Una pieza va al límite",
+     "El resto tiene que esperarla",
+     "El conjunto rinde menos de lo que podría"
+    ]
+   }
+  },
+  {
+   "texto": "Por ejemplo, una gráfica muy potente con un procesador muy modesto: la gráfica se queda esperando.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Procesador modesto",
+     "titulo": "El que frena",
+     "puntos": [
+      "Va al máximo",
+      "No da órdenes a tiempo"
+     ],
+     "acento": "naranja"
+    },
+    "der": {
+     "cabecera": "Gráfica potente",
+     "titulo": "Se queda esperando",
+     "puntos": [
+      "Trabaja a medias",
+      "Potencia desperdiciada"
+     ]
+    }
+   }
+  },
+  {
+   "texto": "Para detectarlo, mira qué pieza va al máximo mientras las demás van holgadas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Cómo detectarlo",
+    "titulo": "Una al máximo, otras a medias",
+    "acento": "azul",
+    "puntos": [
+     "Abre el Administrador de tareas al jugar",
+     "Mira el uso del procesador y la gráfica",
+     "La que va al máximo es la que frena"
+    ]
+   }
+  },
+  {
+   "texto": "La solución es equilibrar: no hace falta lo más caro, sino que las piezas vayan acordes entre sí.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Cómo arreglarlo",
+    "titulo": "Equilibra las piezas",
+    "acento": "naranja",
+    "puntos": [
+     "Mejora la pieza que frena",
+     "Ajusta resolución y gráficos",
+     "Elige piezas equilibradas"
+    ]
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🍾",
+ "puntos": [
+  "Un cuello de botella es una pieza que frena a las demás.",
+  "Se detecta viendo qué pieza va al máximo mientras otras van holgadas.",
+  "Se arregla equilibrando las piezas."
+ ],
+ "etiquetas": [
+  "#cuellodebotella",
+  "#pcgamer",
+  "#rendimiento"
+ ],
+ "fuentes": [
+  "Wikipedia: Cuello de botella (informática)",
+  "Corsair: guía sobre cuellos de botella en un PC"
+ ]
+}
