@@ -41,6 +41,20 @@
       "permalink": "https://www.instagram.com/p/DfKX5HmjYlU/",
       "publicado_utc": "2026-10-31T14:29:03Z",
       "retraso_min": 0
+    },
+    {
+      "fecha": "2026-10-31",
+      "tema": "pasta_limpieza",
+      "estilo": "B",
+      "variante": 0,
+      "imagen": "prueba_2026-10-31_152943_pasta_limpieza.jpg",
+      "asset": "pc_limpieza_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": true,
+      "media_id": "18129826498782053",
+      "permalink": "https://www.instagram.com/p/DfKX-SrEsBY/",
+      "publicado_utc": "2026-10-31T14:29:46Z",
+      "retraso_min": 0
     }
   ]
 }
