@@ -1,0 +1,231 @@
+{
+  "marca": "JM TECH",
+  "lema": "Servicio técnico y soluciones tecnológicas",
+  "reglas": {
+    "voz": "plural de empresa ('nos encargamos'), cercano pero profesional, solo la marca (nunca nombre propio)",
+    "contacto": "solo por MD; sin precios, sin teléfono, sin web",
+    "ubicacion": "Murcia; a domicilio, recogida del equipo en casa o en el taller de Murcia",
+    "presupuesto": "siempre 'sin compromiso'"
+  },
+  "temas": [
+    {
+      "id": "streaming",
+      "nombre": "Empieza a hacer streaming",
+      "chip": "STREAMING",
+      "titulo_linea1": "Empieza a hacer",
+      "titulo_linea2_azul": "streaming",
+      "subtitulo": "Pack completo: lo dejamos todo listo para tu primer directo.",
+      "puntos": [
+        "Montaje de tu PC",
+        "Instalación de drivers",
+        "Plataformas de gaming y streaming",
+        "Configuración de OBS"
+      ],
+      "ilustracion": "monitor con botón de play, etiqueta LIVE y barras de ecualizador (ya existe en referencia/make_posts.py)",
+      "texto_alternativo": "Publicación de JM TECH: pack completo de iniciación al streaming con montaje de PC, drivers, plataformas y OBS.",
+      "pies_de_foto": [
+        "🎮 ¿Quieres empezar a hacer streaming y no sabes por dónde empezar?\n\nNos encargamos de todo: montamos tu PC, instalamos los drivers y las plataformas de gaming y streaming, y dejamos OBS configurado para que solo tengas que darle a “Directo”.\n\nTú juegas. Nosotros hacemos que funcione.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Murcia · A domicilio, recogida en casa o en nuestro taller\n\n#JMTech #Streaming #OBS #MontajePC #Murcia #ServicioTecnico",
+        "Tu primer directo merece empezar bien 🔴\n\nCon nuestro pack de iniciación te entregamos el equipo listo: PC montado, drivers, plataformas instaladas y OBS configurado.\n\nSin tutoriales interminables ni pruebas a ciegas.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Murcia · Vamos a tu casa o lo traes a nuestro taller\n\n#JMTech #Streaming #OBS #PCGaming #Murcia #SolucionesTecnologicas"
+      ]
+    },
+    {
+      "id": "montaje_pc",
+      "nombre": "Tu PC montado por profesionales",
+      "chip": "MONTAJE PC",
+      "titulo_linea1": "Tu PC montado",
+      "titulo_linea2_azul": "por profesionales",
+      "subtitulo": "Montaje completo, con la opción de dejarlo listo para usar.",
+      "puntos": [
+        "Montaje completo de tu PC",
+        "Opción con Windows y drivers instalados",
+        "Listo para encender y usar",
+        "A domicilio o en nuestro taller"
+      ],
+      "ilustracion": "torre de PC con panel lateral transparente y componentes iluminados en azul",
+      "texto_alternativo": "Publicación de JM TECH: montaje de PC, con opción de instalación de Windows y drivers.",
+      "pies_de_foto": [
+        "🖥️ ¿Tienes los componentes y no sabes cómo montarlos?\n\nNos encargamos del montaje de tu PC y, si quieres, lo dejamos listo para usar con Windows y los drivers instalados.\n\nTú te olvidas de cables, tornillos y manuales.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Murcia · A domicilio, recogida en casa o en nuestro taller\n\n#JMTech #MontajePC #PCGamer #Murcia #ServicioTecnico #Informatica",
+        "Un PC bien montado se nota 💻\n\nMontaje completo de tu equipo y, si lo prefieres, instalación de Windows y drivers incluida para que lo enciendas y funcione.\n\nNos encargamos de todo el proceso.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Murcia · Vamos a tu casa o lo traes a nuestro taller\n\n#JMTech #MontajePC #PCGaming #Murcia #Hardware #SolucionesTecnologicas"
+      ]
+    },
+    {
+      "id": "custom_loop",
+      "nombre": "PC de alta gama (custom loop)",
+      "chip": "ALTA GAMA",
+      "titulo_linea1": "PC de alta gama",
+      "titulo_linea2_azul": "con custom loop",
+      "subtitulo": "Montaje de refrigeración líquida rígida e instalación de Windows.",
+      "puntos": [
+        "Montaje de custom loop rígido",
+        "Instalación de Windows",
+        "Para equipos de alto rendimiento",
+        "Presupuesto a medida"
+      ],
+      "ilustracion": "torre de PC con tubos rígidos de refrigeración líquida en azul y bloque de agua",
+      "texto_alternativo": "Publicación de JM TECH: montaje de custom loop rígido y Windows para PC de alta gama.",
+      "pies_de_foto": [
+        "💧 ¿Sueñas con un PC de refrigeración líquida?\n\nNos encargamos del montaje de custom loop rígido y de la instalación de Windows, para que tu equipo de alta gama quede listo para rendir.\n\nUn trabajo a medida para un equipo a medida.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Murcia · A domicilio, recogida en casa o en nuestro taller\n\n#JMTech #CustomLoop #WaterCooling #PCGaming #Murcia #MontajePC",
+        "Cuando el PC es tu pasión, el montaje también importa ⚙️\n\nMontamos tu custom loop rígido y dejamos Windows instalado para que solo te preocupes de disfrutarlo.\n\nCada montaje es distinto, así que preparamos el presupuesto según tu proyecto.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Murcia · Vamos a tu casa o lo traes a nuestro taller\n\n#JMTech #CustomLoop #LiquidCooling #Hardware #Murcia #PCGamer"
+      ]
+    },
+    {
+      "id": "consola_mantenimiento",
+      "nombre": "Tu consola como el primer día",
+      "chip": "CONSOLAS",
+      "titulo_linea1": "Tu consola como",
+      "titulo_linea2_azul": "el primer día",
+      "subtitulo": "Limpieza y pasta térmica para cuidar tu consola.",
+      "puntos": [
+        "Limpieza de polvo interior",
+        "Cambio de pasta térmica",
+        "Mantenimiento preventivo",
+        "Recogida en tu casa si lo necesitas"
+      ],
+      "ilustracion": "mando de consola genérico (sin marcas) junto a una consola genérica con destellos de limpieza",
+      "texto_alternativo": "Publicación de JM TECH: mantenimiento de consolas con limpieza y cambio de pasta térmica.",
+      "pies_de_foto": [
+        "🎮 ¿Tu consola hace ruido o se calienta más de lo normal?\n\nCon una limpieza interior y un cambio de pasta térmica cuidamos tu consola para que siga funcionando como el primer día.\n\nNos encargamos de todo; si lo necesitas, recogemos el equipo en tu casa.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Murcia · A domicilio, recogida en casa o en nuestro taller\n\n#JMTech #Consolas #Gaming #Mantenimiento #Murcia #ServicioTecnico",
+        "El polvo es el enemigo silencioso de tu consola 🌬️\n\nHacemos la limpieza y el cambio de pasta térmica para que trabaje en mejores condiciones.\n\nPrevenir hoy puede ahorrarte una avería mañana.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Murcia · Vamos a tu casa o lo traes a nuestro taller\n\n#JMTech #Consolas #Gaming #PastaTermica #Murcia #ServicioTecnico"
+      ]
+    },
+    {
+      "id": "ssd_consola",
+      "nombre": "Más espacio para tu consola",
+      "chip": "SSD",
+      "titulo_linea1": "Más espacio",
+      "titulo_linea2_azul": "para tu consola",
+      "subtitulo": "Ampliamos el almacenamiento de tu consola con un SSD.",
+      "puntos": [
+        "Instalación del SSD",
+        "Más espacio para tus juegos",
+        "Instalación profesional",
+        "A domicilio o en nuestro taller"
+      ],
+      "ilustracion": "SSD genérico con destellos azules y una barra de almacenamiento que se llena",
+      "texto_alternativo": "Publicación de JM TECH: ampliación de SSD en consolas.",
+      "pies_de_foto": [
+        "💾 ¿Tu consola se ha quedado sin espacio?\n\nAmpliamos el almacenamiento con un SSD para que tengas más sitio para tus juegos, sin tener que borrar para instalar otros.\n\nNos encargamos de la instalación.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Murcia · A domicilio, recogida en casa o en nuestro taller\n\n#JMTech #SSD #Consolas #Gaming #Murcia #Almacenamiento",
+        "Menos borrar juegos, más jugar 🕹️\n\nAmplía el espacio de tu consola con un SSD instalado por nosotros.\n\nTe explicamos las opciones que hay para tu modelo.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Murcia · Vamos a tu casa o lo traes a nuestro taller\n\n#JMTech #SSD #Gaming #Consolas #Murcia #ServicioTecnico"
+      ]
+    },
+    {
+      "id": "recuperacion_datos",
+      "nombre": "Recupera tus datos",
+      "chip": "DATOS",
+      "titulo_linea1": "Recupera tus",
+      "titulo_linea2_azul": "datos",
+      "subtitulo": "Analizamos tu caso y te explicamos qué se puede hacer.",
+      "puntos": [
+        "Análisis de tu caso",
+        "Recuperación de archivos",
+        "Te explicamos las opciones",
+        "Cuanto menos lo uses, mejor"
+      ],
+      "ilustracion": "disco duro abierto con una flecha de recuperación y archivos que vuelven",
+      "texto_alternativo": "Publicación de JM TECH: recuperación de datos de discos y dispositivos.",
+      "pies_de_foto": [
+        "¿Fotos, documentos o proyectos que creías perdidos? 💾\n\nSi has perdido archivos, antes de formatear o seguir usando el disco, escríbenos. Cuanto menos se toque el dispositivo, más posibilidades hay de recuperar la información.\n\nAnalizamos tu caso y te explicamos qué se puede hacer.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Murcia · A domicilio, recogida en casa o en nuestro taller\n\n#JMTech #RecuperacionDeDatos #Murcia #ServicioTecnico #Informatica",
+        "Un disco que no responde no siempre significa que todo esté perdido 💽\n\nNo podemos prometerte resultados antes de analizarlo, pero sí estudiar tu caso y explicarte con claridad qué opciones hay.\n\nSi no lo tocas mientras tanto, mejor.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Murcia · Vamos a tu casa o lo traes a nuestro taller\n\n#JMTech #RecuperacionDeDatos #Backup #Murcia #SolucionesTecnologicas"
+      ]
+    },
+    {
+      "id": "diagnostico",
+      "nombre": "¿Qué le pasa a tu equipo?",
+      "chip": "DIAGNÓSTICO",
+      "titulo_linea1": "¿Qué le pasa",
+      "titulo_linea2_azul": "a tu equipo?",
+      "subtitulo": "Primero saber qué falla; después, decidir.",
+      "puntos": [
+        "Diagnóstico completo de PC",
+        "Diagnóstico de hardware",
+        "Diagnóstico de software",
+        "Diagnóstico de tablets"
+      ],
+      "ilustracion": "lupa sobre un portátil o PC con una marca de verificación y un icono de herramienta",
+      "texto_alternativo": "Publicación de JM TECH: diagnóstico de PC, hardware, software y tablets.",
+      "pies_de_foto": [
+        "🔍 ¿Tu equipo va lento, se apaga o simplemente no sabes qué le pasa?\n\nHacemos diagnóstico de hardware, de software o completo del PC, y también de tablets, para saber qué falla antes de decidir nada.\n\nPrimero entender el problema; después, elegir la solución.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Murcia · A domicilio, recogida en casa o en nuestro taller\n\n#JMTech #Diagnostico #ServicioTecnico #Murcia #Informatica #Reparacion",
+        "Antes de arreglar, hay que entender qué pasa 🧠\n\nRevisamos tu PC o tu tablet: hardware, software o diagnóstico completo, según lo que necesites.\n\nTe contamos el problema con claridad y las opciones que tienes.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Murcia · Vamos a tu casa o lo traes a nuestro taller\n\n#JMTech #Diagnostico #PC #Tablet #Murcia #SolucionesTecnologicas"
+      ]
+    },
+    {
+      "id": "tv_pared",
+      "nombre": "Tu TV en la pared",
+      "chip": "TV EN PARED",
+      "titulo_linea1": "Tu TV",
+      "titulo_linea2_azul": "en la pared",
+      "subtitulo": "Instalación de televisores en pared, en tu casa.",
+      "puntos": [
+        "TV de hasta 43 pulgadas",
+        "TV de 43 pulgadas en adelante",
+        "Instalación a domicilio",
+        "Presupuesto según tu televisor"
+      ],
+      "ilustracion": "televisor plano colgado en una pared con soporte y un sofá simple debajo",
+      "texto_alternativo": "Publicación de JM TECH: instalación de televisores en pared a domicilio.",
+      "pies_de_foto": [
+        "📺 Tu tele en la pared, en vez de ocupar mueble.\n\nNos encargamos de instalar tu televisor en la pared, tanto si es de hasta 43 pulgadas como si es de 43 en adelante.\n\nVamos a tu casa.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Murcia · Servicio a domicilio\n\n#JMTech #InstalacionTV #TV #Hogar #Murcia #ServicioTecnico",
+        "Gana espacio y comodidad en tu salón 🛋️\n\nInstalamos tu televisor en la pared, ya sea de hasta 43 pulgadas o de 43 en adelante.\n\nNos desplazamos a tu casa.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Murcia · Servicio a domicilio\n\n#JMTech #InstalacionTV #SoporteTV #Hogar #Murcia #SolucionesTecnologicas"
+      ]
+    },
+    {
+      "id": "windows",
+      "nombre": "Windows como nuevo",
+      "chip": "WINDOWS",
+      "titulo_linea1": "Windows",
+      "titulo_linea2_azul": "como nuevo",
+      "subtitulo": "Formateo, instalación, optimización y recuperación del sistema.",
+      "puntos": [
+        "Formateo + instalación de Windows",
+        "Instalación de Windows",
+        "Optimización de Windows",
+        "Recuperación del sistema"
+      ],
+      "ilustracion": "ventana de sistema genérica (sin logos de terceros) con engranaje y barra de progreso",
+      "texto_alternativo": "Publicación de JM TECH: formateo, instalación, optimización y recuperación de Windows.",
+      "pies_de_foto": [
+        "💻 ¿Tu PC va lento, da errores o necesita empezar de cero?\n\nNos encargamos del formateo e instalación de Windows, de optimizarlo y, si algo falla, de recuperar el sistema.\n\nLo dejamos listo para que vuelvas a usarlo con normalidad.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Murcia · A domicilio, recogida en casa o en nuestro taller\n\n#JMTech #Windows #Formateo #Optimizacion #Murcia #ServicioTecnico",
+        "Un buen arranque cambia cómo usas tu PC ⚡\n\nFormateo, instalación de Windows, optimización y recuperación del sistema: lo dejamos listo para que trabajes o juegues sin sustos.\n\nTe explicamos qué necesita tu equipo antes de empezar.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Murcia · Vamos a tu casa o lo traes a nuestro taller\n\n#JMTech #Windows #PC #Rendimiento #Murcia #SolucionesTecnologicas"
+      ]
+    },
+    {
+      "id": "bateria_portatil",
+      "nombre": "Portátil con batería nueva",
+      "chip": "PORTÁTILES",
+      "titulo_linea1": "Portátil con",
+      "titulo_linea2_azul": "batería nueva",
+      "subtitulo": "Cambio de batería para volver a usarlo sin enchufe.",
+      "puntos": [
+        "Cambio de batería de portátil",
+        "Recupera tu autonomía",
+        "A domicilio o en nuestro taller"
+      ],
+      "ilustracion": "portátil abierto con icono de batería llena y un rayo",
+      "texto_alternativo": "Publicación de JM TECH: cambio de batería de portátil.",
+      "pies_de_foto": [
+        "🔋 ¿Tu portátil dura cada vez menos sin enchufar?\n\nCambiamos la batería de tu portátil para que recuperes autonomía y puedas volver a usarlo sin depender del cargador.\n\nNos encargamos de todo.\n\n📩 ¿Quieres presupuesto sin compromiso? Escríbenos por MD.\n📍 Murcia · A domicilio, recogida en casa o en nuestro taller\n\n#JMTech #Portatil #Bateria #ServicioTecnico #Murcia #Informatica",
+        "Un portátil que no aguanta la batería pierde su gracia 🔌\n\nNos encargamos del cambio de batería para que vuelvas a moverte con él.\n\nSi lo necesitas, recogemos el equipo en tu casa.\n\n📩 Pide presupuesto sin compromiso por MD.\n📍 Murcia · Vamos a tu casa o lo traes a nuestro taller\n\n#JMTech #Portatil #Bateria #Reparacion #Murcia #SolucionesTecnologicas"
+      ]
+    },
+    {
+      "id": "automatizacion",
+      "nombre": "Automatización de procesos",
+      "chip": "EMPRESAS",
+      "titulo_linea1": "Automatiza",
+      "titulo_linea2_azul": "tus procesos",
+      "subtitulo": "Ahorra tiempo en las tareas repetitivas de tu negocio.",
+      "puntos": [
+        "Tareas repetitivas automatizadas",
+        "Soluciones a medida",
+        "Para autónomos y empresas",
+        "Te explicamos cómo hacerlo"
+      ],
+      "ilustracion": "engranajes conectados con flechas y un reloj, estilo limpio y profesional",
+      "texto_alternativo": "Publicación de JM TECH: automatización de procesos para autónomos y empresas.",
+      "pies_de_foto": [
+        "⚙️ ¿Cuántas horas pierdes cada semana en tareas repetitivas?\n\nAutomatizamos procesos de tu negocio para que dediques ese tiempo a lo que de verdad importa: tus clientes.\n\nSoluciones a medida para autónomos y empresas.\n\n📩 Cuéntanos tu caso por MD y te preparamos presupuesto sin compromiso.\n📍 Murcia\n\n#JMTech #Automatizacion #Productividad #Empresas #Murcia #SolucionesTecnologicas",
+        "Lo que se repite todos los días, se puede automatizar 🚀\n\nAnalizamos cómo trabajas y te proponemos cómo ahorrar tiempo en tareas manuales.\n\nCada negocio es distinto, así que partimos de tu caso.\n\n📩 Escríbenos por MD y te preparamos presupuesto sin compromiso.\n📍 Murcia\n\n#JMTech #Automatizacion #Autonomos #Empresas #Murcia #Productividad"
+      ]
+    }
+  ]
+}

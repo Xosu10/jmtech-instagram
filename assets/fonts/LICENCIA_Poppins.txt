@@ -1,0 +1,3 @@
+Poppins (c) The Poppins Project Authors (https://github.com/itfoundry/Poppins)
+Licencia: SIL Open Font License 1.1 (https://openfontlicense.org)
+Se permite usar, copiar y redistribuir la fuente (incluido su uso comercial).

@@ -1,0 +1,27 @@
+# --- Notas privadas de trabajo (no van al repositorio público) ---
+CLAUDE.md
+PROMPT_MAESTRO.md
+LEEME_PRIMERO.txt
+PROGRESO.md
+
+# --- Secretos: NUNCA se suben ---
+.env
+.env.*
+*.pem
+*.key
+secrets*
+*token*.txt
+
+# --- Python ---
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# --- Temporales y salidas de prueba ---
+previsualizacion/
+salida_prueba/
+*.log
+.DS_Store
+Thumbs.db
