@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-10-31 17:20 (hora de Madrid)_
+_Actualizado: 2026-10-31 17:22 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 9
-- Última: 2026-10-31 · https://www.instagram.com/reel/DfKkruIxNbq/
+- Publicaciones hechas: 10
+- Última: 2026-10-31 · https://www.instagram.com/reel/DfKk2VdgUqc/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-10-31 (fuera de calendario) · reel | Servicio técnico en remoto | reel | 0 min | https://www.instagram.com/reel/DfKk2VdgUqc/ |
 | 2026-10-31 (fuera de calendario) · reel | Tu PC montado por profesionales | reel | 0 min | https://www.instagram.com/reel/DfKkruIxNbq/ |
 | 2026-10-31 (fuera de calendario) · reel | Instalación de tarjeta gráfica | reel | 0 min | https://www.instagram.com/reel/DfKjWxGhA5d/ |
 | 2026-10-31 (fuera de calendario) · reel | Instalación de tarjeta gráfica | reel | 0 min | https://www.instagram.com/reel/DfKhf3xougq/ |

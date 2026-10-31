@@ -128,6 +128,21 @@
       "permalink": "https://www.instagram.com/reel/DfKkruIxNbq/",
       "publicado_utc": "2026-10-31T16:20:42Z",
       "retraso_min": 0
+    },
+    {
+      "fecha": "2026-10-31",
+      "tema": "soporte_remoto",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_soporte_remoto.mp4",
+      "asset": "empresa_soporte_remoto_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": true,
+      "tipo": "reel",
+      "media_id": "18039510083849117",
+      "permalink": "https://www.instagram.com/reel/DfKk2VdgUqc/",
+      "publicado_utc": "2026-10-31T16:22:08Z",
+      "retraso_min": 0
     }
   ]
 }
