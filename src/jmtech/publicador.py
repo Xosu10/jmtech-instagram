@@ -24,6 +24,8 @@ import requests
 
 from . import estado as est
 from .base import RAIZ
+from .assets import DIBUJO, Selector, cargar_catalogo
+from .assets import indice as indice_assets
 from .calendario import Publicacion, cargar_config, es_dia_publicable, publicacion_del_dia
 from .contenido import indice_temas, pie_de_foto
 from .instagram import ClienteInstagram, ErrorInstagram, ocultar
@@ -75,7 +77,8 @@ class Decision:
     prueba: bool = False
 
 
-def decidir(ahora_utc, cfg, estado, *, ignorar_hora=False, tema=None, estilo=None, prueba=False) -> Decision:
+def decidir(ahora_utc, cfg, estado, *, ignorar_hora=False, tema=None, estilo=None, prueba=False,
+            catalogo=None, asset=None) -> Decision:
     ahora = ahora_madrid(ahora_utc)
     hoy = ahora.date()
     if prueba:
@@ -83,7 +86,10 @@ def decidir(ahora_utc, cfg, estado, *, ignorar_hora=False, tema=None, estilo=Non
         tema = tema or next(iter(temas))
         if tema not in temas:
             raise ErrorPublicacion(f"El tema «{tema}» no existe. Temas: {', '.join(temas)}")
-        return Decision("publicar", "prueba manual", hoy, Publicacion(hoy, "rotacion", tema, estilo or "A", 0, 0), True)
+        estilo = estilo or "A"
+        if asset is None and catalogo is not None:
+            asset = Selector(catalogo, cfg["semilla"]).elegir(tema, estilo)
+        return Decision("publicar", "prueba manual", hoy, Publicacion(hoy, "rotacion", tema, estilo, 0, 0, None, asset), True)
     if cfg.get("pausado"):
         return Decision("omitir", "el sistema está pausado (config/calendario.json)", hoy)
     if not es_dia_publicable(hoy, cfg):
@@ -93,16 +99,19 @@ def decidir(ahora_utc, cfg, estado, *, ignorar_hora=False, tema=None, estilo=Non
                                   f"({cfg['hora_publicacion']} + {VENTANA_MIN} min)", hoy)
     if est.publicado_el(estado, hoy):
         return Decision("omitir", "ya se publicó hoy (evita duplicados)", hoy)
-    return Decision("publicar", "toca publicar", hoy, publicacion_del_dia(hoy, cfg))
+    return Decision("publicar", "toca publicar", hoy, publicacion_del_dia(hoy, cfg, catalogo))
 
 
 # ---------- Preparar la imagen ----------
 def preparar(ahora_utc=None, *, dry_run=False, ignorar_hora=False, tema=None, estilo=None, prueba=False,
-             cfg=None, estado=None, carpeta=None, ruta_pendiente=RUTA_PENDIENTE) -> dict | None:
+             asset=None, cfg=None, estado=None, carpeta=None, ruta_pendiente=RUTA_PENDIENTE,
+             catalogo=None) -> dict | None:
     cfg = cfg or cargar_config()
     estado = est.cargar() if estado is None else estado
+    catalogo = cargar_catalogo() if catalogo is None else catalogo
     ahora = ahora_madrid(ahora_utc)
-    d = decidir(ahora_utc, cfg, estado, ignorar_hora=ignorar_hora, tema=tema, estilo=estilo, prueba=prueba)
+    d = decidir(ahora_utc, cfg, estado, ignorar_hora=ignorar_hora, tema=tema, estilo=estilo, prueba=prueba,
+                catalogo=catalogo, asset=asset)
     Path(ruta_pendiente).unlink(missing_ok=True)
     if d.accion == "omitir":
         print(f"No se publica: {d.motivo}.")
@@ -117,7 +126,10 @@ def preparar(ahora_utc=None, *, dry_run=False, ignorar_hora=False, tema=None, es
         raise ErrorPublicacion("El contenido no pasa las comprobaciones: " + "; ".join(fallos))
     pie = pie_de_foto(t, pub.variante)
     nombre = f"prueba_{d.fecha.isoformat()}_{ahora:%H%M}.jpg" if prueba else f"{d.fecha.isoformat()}.jpg"
-    img, info = renderizar(t, pub.estilo)
+    objeto_asset = indice_assets(catalogo).get(pub.asset)
+    if pub.asset not in (None, DIBUJO) and objeto_asset is None:
+        raise ErrorPublicacion(f"El asset «{pub.asset}» no está en el catálogo de assets aprobados.")
+    img, info = renderizar(t, pub.estilo, objeto_asset)
     if info["avisos"]:
         raise ErrorPublicacion("La maquetación tiene problemas: " + "; ".join(info["avisos"]))
     ruta = guardar_jpeg(img, (carpeta or (CARPETA_DRY if dry_run else CARPETA_IMAGENES)) / nombre)
@@ -125,9 +137,10 @@ def preparar(ahora_utc=None, *, dry_run=False, ignorar_hora=False, tema=None, es
     if fallos:
         raise ErrorPublicacion("La imagen no es válida: " + "; ".join(fallos))
     pend = dict(fecha=d.fecha.isoformat(), tema=pub.tema_id, estilo=pub.estilo, variante=pub.variante, archivo=nombre,
-                pie=pie, alt=t["texto_alternativo"], prueba=prueba)
+                pie=pie, alt=t["texto_alternativo"], prueba=prueba, asset=pub.asset or DIBUJO)
     Path(ruta_pendiente).write_text(json.dumps(pend, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Preparado: {t['nombre']} · estilo {pub.estilo} · pie nº {pub.variante % len(t['pies_de_foto']) + 1} · {nombre}")
+    print(f"Preparado: {t['nombre']} · estilo {pub.estilo} · pie nº {pub.variante % len(t['pies_de_foto']) + 1} · "
+          f"imagen {pend['asset']} · {nombre}")
     return pend
 
 
@@ -203,7 +216,8 @@ def publicar(pend, *, dry_run=False, cliente=None, ruta_estado=None, ahora_utc=N
     if retraso > AVISO_RETRASO_MIN and not pend["prueba"]:
         print(f"::warning::La publicación salió con {retraso} minutos de retraso (GitHub tardó en lanzar el flujo).")
     registro = est.registrar(estado, fecha=pend["fecha"], tema=pend["tema"], estilo=pend["estilo"],
-                             variante=pend["variante"], imagen=pend["archivo"], resultado="publicado",
+                             variante=pend["variante"], imagen=pend["archivo"], asset=pend.get("asset"),
+                             resultado="publicado",
                              prueba=pend["prueba"], media_id=media_id, permalink=permalink,
                              publicado_utc=ahora_utc.astimezone(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
                              retraso_min=retraso)
@@ -230,7 +244,7 @@ def simular(desde: date, hasta: date) -> int:
                 otra = preparar(ahora, dry_run=True, cfg=cfg, estado=estado, ruta_pendiente=RAIZ / ".pendiente_simulacion.json")
                 if otra is not None:
                     raise ErrorPublicacion("la segunda ejecución del mismo día no debería publicar")
-                print(f"| {dia} | ✔ {pend['tema']} · {pend['estilo']} |")
+                print(f"| {dia} | ✔ {pend['tema']} · {pend['estilo']} · {pend['asset']} |")
             else:
                 print(f"| {dia} | – no toca |")
         except ErrorPublicacion as e:
@@ -258,10 +272,12 @@ def main(argv=None) -> int:
     p.add_argument("--prueba", action="store_true", help="publicación de prueba: no cuenta como la del día")
     p.add_argument("--tema")
     p.add_argument("--estilo", choices=["A", "B", "C"])
+    p.add_argument("--asset", help="solo para pruebas: archivo del catálogo (o «dibujo»)")
     a = p.parse_args(argv)
     try:
         if a.orden in ("preparar", "hoy"):
-            pend = preparar(dry_run=a.dry_run, ignorar_hora=a.ignorar_hora, tema=a.tema, estilo=a.estilo, prueba=a.prueba)
+            pend = preparar(dry_run=a.dry_run, ignorar_hora=a.ignorar_hora, tema=a.tema, estilo=a.estilo,
+                            prueba=a.prueba, asset=a.asset)
             _salida_github("hay_publicacion", "true" if pend else "false")
             if a.orden == "hoy" and pend:
                 publicar(pend, dry_run=a.dry_run)

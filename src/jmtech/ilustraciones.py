@@ -6,7 +6,9 @@ from __future__ import annotations
 
 import math
 
-from .base import BLUE, BLUE_DARK, WHITE, font
+from PIL import Image, ImageDraw
+
+from .base import BLUE, BLUE_DARK, S, WHITE, font
 
 SCREEN = (8, 18, 42)
 LUZ = (110, 185, 255)
@@ -366,8 +368,62 @@ REGISTRO = {
 }
 
 
-def dibujar(c, tema_id, slot, dark):
-    """Dibuja la ilustración del tema dentro del hueco slot=(x, y, ancho, alto)."""
+# Ilustración dibujada que sirve de plan B para cada publicación mientras no haya assets aprobados
+RESPALDO = {
+    "diagnostico": "diagnostico", "asesoramiento": "diagnostico", "montaje_pc": "montaje_pc",
+    "custom_loop": "custom_loop", "tarjeta_grafica": "montaje_pc", "ssd_hdd": "ssd_consola",
+    "migracion_hdd_ssd": "recuperacion_datos", "pasta_limpieza": "consola_mantenimiento",
+    "windows_programas": "windows", "backup_recuperacion": "recuperacion_datos", "gaming": "montaje_pc",
+    "streaming": "streaming", "movil_pantalla_conector": "diagnostico", "movil_bateria": "bateria_portatil",
+    "movil_transferencia": "diagnostico", "tablet": "diagnostico", "tv_pared": "tv_pared",
+    "ssd_consola": "ssd_consola", "consola_mantenimiento": "consola_mantenimiento",
+    "script_software": "automatizacion", "bateria_portatil": "bateria_portatil",
+    # temas de la versión anterior (11 temas)
+    "recuperacion_datos": "recuperacion_datos", "windows": "windows", "automatizacion": "automatizacion",
+}
+
+
+def dibujar_asset(c, asset, slot, dark):
+    """Coloca un asset del catálogo en el hueco, tal cual: se escala al colocarlo, el archivo no se toca."""
+    x, y, w, h = slot
+    im = Image.open(asset.ruta).convert("RGBA")
+    if asset.tipo == "aislado":
+        caja = im.getchannel("A").point(lambda v: 255 if v > 20 else 0).getbbox()
+        im = im.crop(caja)                                  # solo en memoria: quita el aire transparente al centrar
+        k = min(w / im.width, h / im.height)
+        tw, th = int(im.width * k), int(im.height * k)
+        px, py = x + (w - tw) / 2, y + (h - th) / 2
+        if dark:
+            c.glow((px - 24, py - 10, px + tw + 24, py + th + 24), BLUE, 70, 38)
+        else:
+            c.glow((px + tw * 0.08, py + th - 10, px + tw * 0.92, py + th + 16), (16, 30, 70), 70, 10)
+        c.paste(im.resize((tw * S, th * S), Image.LANCZOS), px, py)
+    else:                                                    # escena de ambiente 2:3: se muestra como tarjeta
+        ch = h
+        cw = ch * im.width / im.height
+        if cw > w:
+            cw, ch = w, w * im.height / im.width
+        px, py = x + (w - cw) / 2, y + (h - ch) / 2
+        if dark:
+            c.glow((px - 20, py - 10, px + cw + 20, py + ch + 20), BLUE, 80, 34)
+        else:
+            c.glow((px + cw * 0.05, py + ch - 8, px + cw * 0.95, py + ch + 14), (16, 30, 70), 70, 10)
+        foto = im.convert("RGB").resize((int(cw * S), int(ch * S)), Image.LANCZOS)
+        mascara = Image.new("L", foto.size, 0)
+        ImageDraw.Draw(mascara).rounded_rectangle([0, 0, foto.width - 1, foto.height - 1], 26 * S, fill=255)
+        c.im.paste(foto, (int(px * S), int(py * S)), mascara)
+        c.d = ImageDraw.Draw(c.im)
+        c.rr((px, py, px + cw, py + ch), 26, outline=BLUE if dark else (150, 182, 230), width=3 if dark else 2)
+
+
+def dibujar(c, tema_id, slot, dark, asset=None):
+    """Dibuja la imagen de la publicación en el hueco slot=(x, y, ancho, alto).
+
+    Con `asset` coloca el asset del catálogo; sin él (o con el respaldo "dibujo") dibuja la ilustración propia.
+    """
+    if asset is not None:
+        return dibujar_asset(c, asset, slot, dark)
+    tema_id = RESPALDO.get(tema_id, tema_id)
     if tema_id == "streaming":
         return ilu_streaming(c, slot, dark)
     x, y, w, h = slot

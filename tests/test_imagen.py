@@ -1,14 +1,23 @@
-"""Imágenes: los 11 temas × 3 estilos se generan sin problemas de maquetación y como JPEG válido."""
+"""Imágenes: los 21 temas × 3 estilos (con asset) se generan sin problemas de maquetación y como JPEG válido."""
 import pytest
 from PIL import Image
 
+from jmtech.assets import Selector, cargar_catalogo, indice
+from jmtech.calendario import cargar_config
 from jmtech.contenido import cargar_temas
-from jmtech.ilustraciones import REGISTRO
+from jmtech.ilustraciones import REGISTRO, RESPALDO
 from jmtech.render import ESTILOS, guardar_jpeg, renderizar
 from jmtech.validacion import problemas_imagen
 
 TEMAS = cargar_temas()
+CATALOGO = cargar_catalogo()
+POR_NOMBRE = indice(CATALOGO)
 CASOS = [(t, e) for t in TEMAS for e in ESTILOS]
+
+
+def asset_de(tema_id, estilo):
+    cands = Selector(CATALOGO, cargar_config()["semilla"]).candidatos(tema_id, estilo)
+    return POR_NOMBRE.get(next((c for c in cands if c != "dibujo"), "dibujo"))
 
 
 @pytest.fixture(scope="module")
@@ -16,13 +25,14 @@ def generadas(tmp_path_factory):
     carpeta = tmp_path_factory.mktemp("imagenes")
     salida = {}
     for t, e in CASOS:
-        img, info = renderizar(t, e)
+        img, info = renderizar(t, e, asset_de(t["id"], e))
         salida[(t["id"], e)] = (guardar_jpeg(img, carpeta / f"{t['id']}_{e}.jpg"), info)
     return salida
 
 
 def test_cada_tema_tiene_ilustracion_de_respaldo():
-    assert set(REGISTRO) | {"streaming"} == {t["id"] for t in TEMAS}
+    for t in TEMAS:
+        assert RESPALDO[t["id"]] in REGISTRO or RESPALDO[t["id"]] == "streaming", t["id"]
 
 
 def test_sin_problemas_de_maquetacion(generadas):
@@ -43,6 +53,13 @@ def test_tamano_de_letra_razonable(generadas):
     for k, (_, info) in generadas.items():
         assert info["titulo_size"] >= 80, k
         assert info["puntos_size"] >= 26, k
+
+
+@pytest.mark.parametrize("tema", TEMAS, ids=[t["id"] for t in TEMAS])
+def test_el_respaldo_dibujado_tambien_funciona(tema, tmp_path):
+    img, info = renderizar(tema, "A")
+    assert info["avisos"] == [] and info["asset"] == "dibujo"
+    assert problemas_imagen(guardar_jpeg(img, tmp_path / "x.jpg")) == []
 
 
 def test_estilo_desconocido_da_error():

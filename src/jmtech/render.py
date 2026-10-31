@@ -9,7 +9,7 @@ from PIL import Image, ImageCms, ImageDraw
 from . import ilustraciones
 from .base import (BLUE, H, INK, MUTED, S, W, WHITE, Canvas, equilibrar, font, lockup, partir)
 
-PIE_DEFECTO = "Murcia  ·  A domicilio o en nuestro taller"
+PIE_DEFECTO = "Servicio solo en Murcia  ·  A domicilio o en nuestro taller"
 MARGEN = 64
 ANCHO_TEXTO = W - 2 * MARGEN
 CTA_Y = 1045
@@ -128,7 +128,7 @@ def puntos(c, items, x, top, bottom, maxw, color, info):
 
 
 # ---------- Estilo A: claro futurista ----------
-def estilo_a(tema, info):
+def estilo_a(tema, info, asset=None):
     c = Canvas()
     c.gradient((248, 251, 255), (222, 235, 255))
     c.grid((150, 185, 235), 70)
@@ -139,7 +139,7 @@ def estilo_a(tema, info):
     chip(c, W - 64, 78, tema["chip"], False)
     titulo(c, tema, 300, INK, info)
     sub_fin = subtitulo(c, tema["subtitulo"], 560, MUTED, info)
-    ilustraciones.dibujar(c, tema["id"], (690, 672, 320, 340), False)
+    ilustraciones.dibujar(c, tema["id"], (690, 672, 320, 340), False, asset)
     fin = puntos(c, tema["puntos"], 64, 672, 1012, 480, INK, info)
     if sub_fin > 672:
         info["avisos"].append("El subtítulo toca la lista de puntos")
@@ -148,7 +148,7 @@ def estilo_a(tema, info):
 
 
 # ---------- Estilo B: oscuro futurista ----------
-def estilo_b(tema, info):
+def estilo_b(tema, info, asset=None):
     c = Canvas((7, 12, 24))
     c.gradient((9, 15, 30), (5, 9, 18))
     c.glow((520, -200, 1300, 560), BLUE, 120, 90)
@@ -160,7 +160,7 @@ def estilo_b(tema, info):
     titulo(c, tema, 300, (244, 248, 255), info)
     sub_fin = subtitulo(c, tema["subtitulo"], 560, (160, 178, 208), info)
     c.rr((64, 650, 650, 1020), 28, fill=(12, 24, 50), outline=(30, 74, 140), width=2.5)
-    ilustraciones.dibujar(c, tema["id"], (688, 672, 330, 330), True)
+    ilustraciones.dibujar(c, tema["id"], (688, 672, 330, 330), True, asset)
     puntos(c, tema["puntos"], 100, 684, 986, 440, (236, 243, 255), info)
     if sub_fin > 646:
         info["avisos"].append("El subtítulo toca el panel de puntos")
@@ -169,7 +169,7 @@ def estilo_b(tema, info):
 
 
 # ---------- Estilo C: mezcla (arriba oscuro, abajo claro) ----------
-def estilo_c(tema, info):
+def estilo_c(tema, info, asset=None):
     c = Canvas()
     c.gradient((248, 251, 255), (226, 238, 255))
     c.grid((150, 185, 235), 60, region=(0, 600, W, H))
@@ -186,7 +186,7 @@ def estilo_c(tema, info):
     chip(c, W - 64, 78, tema["chip"], True)
     titulo(c, tema, 290, (244, 248, 255), info)
     sub_fin = subtitulo(c, tema["subtitulo"], 545, (170, 188, 218), info)
-    ilustraciones.dibujar(c, tema["id"], (718, 722, 296, 306), False)
+    ilustraciones.dibujar(c, tema["id"], (718, 722, 296, 306), False, asset)
     puntos(c, tema["puntos"], 64, 772, 1010, 540, INK, info)
     if sub_fin > 630:
         info["avisos"].append("El subtítulo toca la diagonal")
@@ -197,12 +197,15 @@ def estilo_c(tema, info):
 _ESTILO = {"A": estilo_a, "B": estilo_b, "C": estilo_c}
 
 
-def renderizar(tema, estilo):
-    """Devuelve (imagen RGB 1080x1350, info). info['avisos'] lista cualquier problema de maquetación."""
+def renderizar(tema, estilo, asset=None):
+    """Devuelve (imagen RGB 1080x1350, info). info['avisos'] lista cualquier problema de maquetación.
+
+    `asset` es un jmtech.assets.Asset; sin él se usa la ilustración dibujada de respaldo.
+    """
     if estilo not in _ESTILO:
         raise ValueError(f"Estilo desconocido: {estilo!r} (usa A, B o C)")
-    info = {"avisos": [], "tema": tema["id"], "estilo": estilo}
-    c, color_pie = _ESTILO[estilo](tema, info)
+    info = {"avisos": [], "tema": tema["id"], "estilo": estilo, "asset": asset.archivo if asset else "dibujo"}
+    c, color_pie = _ESTILO[estilo](tema, info, asset)
     c.text((W / 2, 1255), tema.get("pie_imagen", PIE_DEFECTO), font("Medium", 28), color_pie, anchor="mm")
     return c.a_rgb(), info
 

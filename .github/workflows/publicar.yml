@@ -28,6 +28,10 @@ on:
         type: choice
         options: ["A", "B", "C"]
         default: "A"
+      asset:
+        description: "Archivo del catalogo (solo para pruebas), por ejemplo: consola_blanca_ampliacion_ssd_aislado_01.png"
+        type: string
+        default: ""
 
 concurrency:
   group: publicar-instagram
@@ -63,8 +67,10 @@ jobs:
           IGNORAR_HORA: ${{ inputs.ignorar_hora }}
           TEMA: ${{ inputs.tema }}
           ESTILO: ${{ inputs.estilo }}
+          ASSET: ${{ inputs.asset }}
         run: |
           args=()
+          [ -n "$ASSET" ] && args+=(--asset "$ASSET")
           [ "$DRY_RUN" = "true" ] && args+=(--dry-run)
           [ "$PRUEBA" = "true" ] && args+=(--prueba --estilo "$ESTILO")
           [ "$IGNORAR_HORA" = "true" ] && args+=(--ignorar-hora)

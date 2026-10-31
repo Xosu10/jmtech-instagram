@@ -12,6 +12,8 @@ from datetime import date
 
 from PIL import Image, ImageDraw
 
+from .assets import Selector, cargar_catalogo
+from .assets import indice as indice_assets
 from .base import RAIZ, font
 from .calendario import cargar_config, planificar
 from .contenido import cargar_temas, indice_temas, pie_de_foto
@@ -26,6 +28,9 @@ MESES = ["", "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "ag
 def hoja_contactos():
     temas = cargar_temas()
     destino = SALIDA / "hoja_contactos"
+    catalogo = cargar_catalogo()
+    nombres = indice_assets(catalogo)
+    semilla = cargar_config()["semilla"]
     tw, th, margen, cab = 360, 450, 16, 64
     hoja = Image.new("RGB", (margen + len(temas) * (tw + margen), cab + 3 * (th + margen) + margen), (240, 244, 250))
     d = ImageDraw.Draw(hoja)
@@ -34,7 +39,9 @@ def hoja_contactos():
         x = margen + i * (tw + margen)
         d.text((x, 18), t["id"], font=font("Bold", 13), fill=(16, 22, 36))
         for j, e in enumerate(ESTILOS):
-            img, info = renderizar(t, e)
+            cands = Selector(catalogo, semilla).candidatos(t["id"], e)
+            elegido = next((c for c in cands if c != "dibujo"), "dibujo")       # en la hoja se prefiere el asset
+            img, info = renderizar(t, e, nombres.get(elegido))
             guardar_jpeg(img, destino / f"{t['id']}_{e}.jpg")
             avisos += [f"{t['id']} {e}: {a}" for a in info["avisos"]]
             hoja.paste(img.resize((tw, th), Image.LANCZOS), (x, cab + j * (th + margen)))
@@ -46,7 +53,9 @@ def hoja_contactos():
 def mes(anio, mes_n):
     cfg = cargar_config()
     ultimo = date(anio, mes_n, calendar.monthrange(anio, mes_n)[1])
-    plan = [p for p in planificar(ultimo, cfg) if p.fecha.month == mes_n and p.fecha.year == anio]
+    catalogo = cargar_catalogo()
+    nombres = indice_assets(catalogo)
+    plan = [p for p in planificar(ultimo, cfg, catalogo=catalogo) if p.fecha.month == mes_n and p.fecha.year == anio]
     temas = indice_temas()
     destino = SALIDA / f"{MESES[mes_n]}_{anio}"
     previstas = {p["fecha"]: p for p in cfg.get("campanas_previstas", [])}
@@ -57,7 +66,7 @@ def mes(anio, mes_n):
             nota = f"Campaña: {p.campana_id}"
             continue
         t = temas[p.tema_id]
-        img, info = renderizar(t, p.estilo)
+        img, info = renderizar(t, p.estilo, nombres.get(p.asset))
         avisos += [f"{p.fecha} {t['id']} {p.estilo}: {a}" for a in info["avisos"]]
         archivo = f"{p.fecha.isoformat()}.jpg"
         guardar_jpeg(img, destino / archivo)
@@ -71,7 +80,7 @@ def mes(anio, mes_n):
         celdas.append(
             f"<tr><td><img src='{archivo}' width='220'></td>"
             f"<td><b>{DIAS[p.fecha.weekday()]} {p.fecha.day}</b><br>{html.escape(t['nombre'])}<br>"
-            f"Estilo {p.estilo} · pie nº {p.variante % len(t['pies_de_foto']) + 1}"
+            f"Estilo {p.estilo} · pie nº {p.variante % len(t['pies_de_foto']) + 1} · imagen: {p.asset}"
             f"<br><i>{html.escape(nota)}</i></td>"
             f"<td><pre>{html.escape(pie)}</pre></td></tr>"
         )

@@ -23,6 +23,7 @@ class Publicacion:
     variante: int          # índice del pie de foto
     ciclo: int             # nº de ciclo de temas (0, 1, 2...)
     campana_id: str | None = None
+    asset: str | None = None   # archivo del catálogo, "dibujo" (ilustración de respaldo) o None si no se pidió catálogo
 
 
 def completar_config(cfg: dict) -> dict:
@@ -68,12 +69,19 @@ def _ciclos(elementos, semilla):
         anterior, n = ciclo[-1], n + 1
 
 
-def planificar(hasta: date, cfg: dict | None = None, temas: list[dict] | None = None) -> list[Publicacion]:
-    """Plan desde `fecha_inicio` hasta `hasta` (incluida). Las campañas no consumen turno de la rotación."""
+def planificar(hasta: date, cfg: dict | None = None, temas: list[dict] | None = None,
+               catalogo=None) -> list[Publicacion]:
+    """Plan desde `fecha_inicio` hasta `hasta` (incluida). Las campañas no consumen turno de la rotación.
+
+    Si se pasa el catálogo de assets, cada publicación incluye el asset elegido (sin repetir dos días seguidos).
+    """
+    from .assets import Selector
+
     cfg = cfg or cargar_config()
     ids = [t["id"] for t in (temas or cargar_temas())]
     temas_it = ((n, t) for n, ciclo in _ciclos(ids, cfg["semilla"]) for t in ciclo)
     estilos_it = (e for _, ciclo in _ciclos(ESTILOS, cfg["semilla"] + 7) for e in ciclo)
+    selector = Selector(catalogo, cfg["semilla"]) if catalogo is not None else None
     plan = []
     for dia in dias_publicables(hasta, cfg):
         estilo = next(estilos_it)
@@ -82,12 +90,13 @@ def planificar(hasta: date, cfg: dict | None = None, temas: list[dict] | None = 
             plan.append(Publicacion(dia, "campana", None, estilo, 0, -1, camp["id"]))
             continue
         ciclo, tema = next(temas_it)
-        plan.append(Publicacion(dia, "rotacion", tema, estilo, ciclo, ciclo))
+        asset = selector.elegir(tema, estilo) if selector else None
+        plan.append(Publicacion(dia, "rotacion", tema, estilo, ciclo, ciclo, None, asset))
     return plan
 
 
-def publicacion_del_dia(dia: date, cfg: dict | None = None) -> Publicacion | None:
+def publicacion_del_dia(dia: date, cfg: dict | None = None, catalogo=None) -> Publicacion | None:
     cfg = cfg or cargar_config()
     if not es_dia_publicable(dia, cfg):
         return None
-    return planificar(dia, cfg)[-1]
+    return planificar(dia, cfg, catalogo=catalogo)[-1]

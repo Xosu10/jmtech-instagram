@@ -1,5 +1,856 @@
 {
   "version": 1,
-  "descripcion": "Inventario de assets de imagen aprobados.",
-  "entradas": []
+  "descripcion": "Inventario de assets aprobados. Los archivos son copias exactas de los generados por la otra IA.",
+  "entradas": [
+    {
+      "archivo": "bateria_portatil_aislado_01.png",
+      "original": "bateria_portatil_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "bateria",
+      "etiquetas": [
+        "batería",
+        "portátil"
+      ],
+      "temas": [
+        "bateria_portatil"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "consola_abierta_aislado_01.png",
+      "original": "consola_abierta_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "consola",
+      "etiquetas": [
+        "consola",
+        "ventilación",
+        "genérica"
+      ],
+      "temas": [
+        "consola_mantenimiento",
+        "ssd_consola"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Consola genérica abierta.",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "consola_blanca_abierta_aislado_01.png",
+      "original": "consola_ps5_abierta_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "consola",
+      "etiquetas": [
+        "consola",
+        "blanca",
+        "ventilación"
+      ],
+      "temas": [
+        "consola_mantenimiento",
+        "ssd_consola"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Excepción autorizada por José: diseño tipo sobremesa. Renombrada al copiar (el archivo es idéntico). Motas claras en el borde.",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "consola_blanca_ampliacion_ssd_aislado_01.png",
+      "original": "consola_ps5_ampliacion_ssd_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "consola",
+      "etiquetas": [
+        "consola",
+        "blanca",
+        "SSD"
+      ],
+      "temas": [
+        "ssd_consola"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Excepción autorizada por José. Renombrada al copiar. Motas claras en el borde.",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "consola_blanca_mantenimiento_aislado_01.png",
+      "original": "consola_ps5_mantenimiento_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "consola",
+      "etiquetas": [
+        "consola",
+        "blanca",
+        "pasta térmica",
+        "brocha"
+      ],
+      "temas": [
+        "consola_mantenimiento"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Excepción autorizada por José. Renombrada al copiar.",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "datos_migracion_hdd_ssd_aislado_01.png",
+      "original": "datos_migracion_hdd_ssd_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "datos",
+      "etiquetas": [
+        "HDD",
+        "SSD",
+        "migración"
+      ],
+      "temas": [
+        "migracion_hdd_ssd",
+        "backup_recuperacion",
+        "ssd_hdd"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Margen justo (0,4 %).",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "empresa_diagnostico_dispositivos_aislado_01.png",
+      "original": "empresa_diagnostico_dispositivos_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "empresa",
+      "etiquetas": [
+        "diagnóstico",
+        "lupa",
+        "portátil",
+        "móvil"
+      ],
+      "temas": [
+        "diagnostico"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "empresa_kit_streaming_aislado_01.png",
+      "original": "empresa_kit_streaming_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "empresa",
+      "etiquetas": [
+        "streaming",
+        "micrófono",
+        "cámara"
+      ],
+      "temas": [
+        "streaming"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "empresa_software_medida_aislado_01.png",
+      "original": "empresa_software_medida_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "empresa",
+      "etiquetas": [
+        "software",
+        "scripts",
+        "automatización"
+      ],
+      "temas": [
+        "script_software"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "gpu_triple_ventilador_aislado_01.png",
+      "original": "gpu_triple_ventilador_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "gpu",
+      "etiquetas": [
+        "tarjeta gráfica"
+      ],
+      "temas": [
+        "tarjeta_grafica",
+        "montaje_pc",
+        "gaming"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "hdd_abierto_aislado_01.png",
+      "original": "hdd_abierto_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "hdd",
+      "etiquetas": [
+        "disco duro"
+      ],
+      "temas": [
+        "ssd_hdd",
+        "backup_recuperacion",
+        "migracion_hdd_ssd"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "herramientas_kit_precision_aislado_01.png",
+      "original": "herramientas_kit_precision_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "herramientas",
+      "etiquetas": [
+        "destornilladores",
+        "kit"
+      ],
+      "temas": [
+        "diagnostico",
+        "tarjeta_grafica",
+        "pasta_limpieza",
+        "montaje_pc"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "movil_cambio_bateria_aislado_01.png",
+      "original": "movil_cambio_bateria_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "movil",
+      "etiquetas": [
+        "móvil",
+        "batería"
+      ],
+      "temas": [
+        "movil_bateria"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Aprobado con reserva: silueta de móvil muy reconocible, sin logos.",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "movil_pantalla_conector_aislado_01.png",
+      "original": "movil_pantalla_conector_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "movil",
+      "etiquetas": [
+        "móvil",
+        "pantalla",
+        "conector USB-C"
+      ],
+      "temas": [
+        "movil_pantalla_conector"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Aprobado con reserva: silueta de móvil muy reconocible, sin logos.",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "pc_gaming_aio_blanco_aislado_01.png",
+      "original": "pc_gaming_aio_blanco_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "pc",
+      "etiquetas": [
+        "gaming",
+        "AIO",
+        "blanco"
+      ],
+      "temas": [
+        "montaje_pc",
+        "gaming"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Blanco sobre fondo claro: contraste a vigilar.",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "pc_gaming_aio_negro_aislado_01.png",
+      "original": "pc_gaming_aio_negro_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "pc",
+      "etiquetas": [
+        "gaming",
+        "AIO",
+        "negro"
+      ],
+      "temas": [
+        "montaje_pc",
+        "gaming"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "pc_gaming_aire_blanco_aislado_01.png",
+      "original": "pc_gaming_aire_blanco_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "pc",
+      "etiquetas": [
+        "gaming",
+        "aire",
+        "blanco"
+      ],
+      "temas": [
+        "montaje_pc",
+        "gaming"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Blanco sobre fondo claro: contraste a vigilar.",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "pc_gaming_aire_negro_aislado_01.png",
+      "original": "pc_gaming_aire_negro_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "pc",
+      "etiquetas": [
+        "gaming",
+        "aire",
+        "negro"
+      ],
+      "temas": [
+        "montaje_pc",
+        "gaming"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "pc_setup_premium_completo_aislado_01.png",
+      "original": "pc_setup_premium_completo_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "pc",
+      "etiquetas": [
+        "setup",
+        "escritorio",
+        "monitor"
+      ],
+      "temas": [
+        "streaming",
+        "gaming"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Margen justo (0,6 %).",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "placa_base_aislado_01.png",
+      "original": "placa_base_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "placa",
+      "etiquetas": [
+        "placa base"
+      ],
+      "temas": [
+        "montaje_pc",
+        "tarjeta_grafica",
+        "diagnostico"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "ram_ddr5_par_aislado_01.png",
+      "original": "ram_ddr5_par_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "ram",
+      "etiquetas": [
+        "memoria RAM"
+      ],
+      "temas": [
+        "tarjeta_grafica",
+        "montaje_pc"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Margen justo (0,9 %).",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "ssd_nvme_disipador_aislado_01.png",
+      "original": "ssd_nvme_disipador_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "ssd",
+      "etiquetas": [
+        "SSD",
+        "NVMe"
+      ],
+      "temas": [
+        "ssd_hdd",
+        "ssd_consola",
+        "migracion_hdd_ssd",
+        "tarjeta_grafica"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "tablet_pantalla_bateria_aislado_01.png",
+      "original": "tablet_pantalla_bateria_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "tablet",
+      "etiquetas": [
+        "tablet",
+        "pantalla",
+        "batería"
+      ],
+      "temas": [
+        "tablet"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Margen justo (1,1 %).",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "tv_soporte_pared_aislado_01.png",
+      "original": "tv_soporte_pared_aislado_01.png",
+      "tipo": "aislado",
+      "categoria": "tv",
+      "etiquetas": [
+        "televisor",
+        "soporte"
+      ],
+      "temas": [
+        "tv_pared"
+      ],
+      "tamano_px": [
+        1254,
+        1254
+      ],
+      "transparencia": true,
+      "zona_libre": "ninguna",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "pc_gaming_azul_ambiente_01.png",
+      "original": "pc_gaming_azul_ambiente_01.png",
+      "tipo": "ambiente",
+      "categoria": "pc",
+      "etiquetas": [
+        "gaming",
+        "azul"
+      ],
+      "temas": [
+        "montaje_pc",
+        "gaming"
+      ],
+      "tamano_px": [
+        1024,
+        1536
+      ],
+      "transparencia": false,
+      "zona_libre": "arriba",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "pc_premium_rgb_blanco_ambiente_01.png",
+      "original": "pc_premium_rgb_blanco_ambiente_01.png",
+      "tipo": "ambiente",
+      "categoria": "pc",
+      "etiquetas": [
+        "premium",
+        "RGB",
+        "blanco"
+      ],
+      "temas": [
+        "montaje_pc",
+        "gaming"
+      ],
+      "tamano_px": [
+        1024,
+        1536
+      ],
+      "transparencia": false,
+      "zona_libre": "arriba",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "pc_premium_rgb_negro_ambiente_01.png",
+      "original": "pc_premium_rgb_negro_ambiente_01.png",
+      "tipo": "ambiente",
+      "categoria": "pc",
+      "etiquetas": [
+        "premium",
+        "RGB",
+        "negro"
+      ],
+      "temas": [
+        "montaje_pc",
+        "gaming"
+      ],
+      "tamano_px": [
+        1024,
+        1536
+      ],
+      "transparencia": false,
+      "zona_libre": "arriba",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "pc_setup_completo_rgb_ambiente_01.png",
+      "original": "pc_setup_completo_rgb_ambiente_01.png",
+      "tipo": "ambiente",
+      "categoria": "pc",
+      "etiquetas": [
+        "setup",
+        "streaming",
+        "escritorio"
+      ],
+      "temas": [
+        "streaming",
+        "gaming"
+      ],
+      "tamano_px": [
+        1024,
+        1536
+      ],
+      "transparencia": false,
+      "zona_libre": "arriba",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "refrigeracion_custom_loop_ambiente_01.png",
+      "original": "refrigeracion_custom_loop_ambiente_01.png",
+      "tipo": "ambiente",
+      "categoria": "refrigeracion",
+      "etiquetas": [
+        "custom loop",
+        "tubos rígidos"
+      ],
+      "temas": [
+        "custom_loop"
+      ],
+      "tamano_px": [
+        1024,
+        1536
+      ],
+      "transparencia": false,
+      "zona_libre": "arriba",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Ilustrativo: no usar como esquema de montaje.",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    },
+    {
+      "archivo": "fondo_circuitos_fondo_01.png",
+      "original": "fondo_circuitos_fondo_01.png",
+      "tipo": "fondo",
+      "categoria": "fondo",
+      "etiquetas": [
+        "circuitos",
+        "azul"
+      ],
+      "temas": [],
+      "tamano_px": [
+        1024,
+        1536
+      ],
+      "transparencia": false,
+      "zona_libre": "centro",
+      "estilos_compatibles": [
+        "A",
+        "B",
+        "C"
+      ],
+      "notas_calidad": "Sin uso por ahora (fondo genérico).",
+      "aprobado": true,
+      "fecha": "2026-10-31"
+    }
+  ]
 }

@@ -29,15 +29,15 @@ def test_nunca_el_mismo_tema_dos_dias_seguidos():
     assert all(a.tema_id != b.tema_id for a, b in zip(rot, rot[1:]))
 
 
-def test_cada_ciclo_trae_los_11_temas_sin_repetir():
+def test_cada_ciclo_trae_los_21_temas_sin_repetir():
     ids = {t["id"] for t in cargar_temas()}
-    assert len(ids) == 11
+    assert len(ids) == 21
     rot = [p for p in planificar(FIN, config()) if p.tipo == "rotacion"]
     ciclos = {}
     for p in rot:
         ciclos.setdefault(p.ciclo, []).append(p.tema_id)
-    completos = [v for v in ciclos.values() if len(v) == 11]
-    assert len(completos) > 40
+    completos = [v for v in ciclos.values() if len(v) == 21]
+    assert len(completos) > 30
     assert all(set(v) == ids for v in completos)
 
 

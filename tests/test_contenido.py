@@ -7,9 +7,9 @@ from jmtech.validacion import MAX_PIE, problemas_pie, problemas_texto, problemas
 TEMAS = cargar_temas()
 
 
-def test_hay_11_temas_con_ids_unicos():
+def test_hay_21_temas_con_ids_unicos():
     ids = [t["id"] for t in TEMAS]
-    assert len(ids) == 11 == len(set(ids))
+    assert len(ids) == 21 == len(set(ids))
 
 
 @pytest.mark.parametrize("tema", TEMAS, ids=[t["id"] for t in TEMAS])
@@ -18,15 +18,16 @@ def test_tema_cumple_las_reglas(tema):
 
 
 @pytest.mark.parametrize("tema", TEMAS, ids=[t["id"] for t in TEMAS])
-def test_tiene_al_menos_dos_pies_y_caben_en_instagram(tema):
-    assert len(tema["pies_de_foto"]) >= 2
+def test_tiene_al_menos_tres_pies_y_caben_en_instagram(tema):
+    assert len(tema["pies_de_foto"]) >= 3
     assert all(len(p) <= MAX_PIE for p in tema["pies_de_foto"])
 
 
 def test_la_variante_se_da_la_vuelta():
     t = TEMAS[0]
-    assert pie_de_foto(t, 0) != pie_de_foto(t, 1)
-    assert pie_de_foto(t, 2) == pie_de_foto(t, 0)
+    n = len(t["pies_de_foto"])
+    assert len({pie_de_foto(t, i) for i in range(n)}) == n
+    assert pie_de_foto(t, n) == pie_de_foto(t, 0)
 
 
 @pytest.mark.parametrize("malo", [
@@ -37,8 +38,11 @@ def test_detecta_precios_ofertas_y_contacto(malo):
 
 
 def test_el_pie_debe_tener_5_o_6_hashtags_y_md():
-    ok = "Hola\n📩 Pide presupuesto sin compromiso por MD.\n#a #b #c #d #e"
+    ok = ("Hola\n📩 Pide presupuesto sin compromiso por MD.\n"
+          "📍 Solo en Murcia · Recogida a domicilio, servicio en tu casa o entrega en nuestro taller.\n#a #b #c #d #e")
     assert problemas_pie(ok) == []
+    assert problemas_pie(ok.replace("Solo en Murcia", "En la zona"))                  # debe decir «solo en Murcia»
+    assert problemas_pie(ok.replace("domicilio", "x").replace("casa", "y"))            # debe explicar cómo se presta
     assert problemas_pie(ok.replace("#e", ""))                 # 4 hashtags
     assert problemas_pie(ok + " #f #g")                        # 7 hashtags
     assert problemas_pie(ok.replace("sin compromiso", ""))
