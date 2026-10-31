@@ -158,6 +158,21 @@
       "permalink": "https://www.instagram.com/reel/DfKlAlYBAhl/",
       "publicado_utc": "2026-10-31T16:23:33Z",
       "retraso_min": 0
+    },
+    {
+      "fecha": "2026-10-31",
+      "tema": "pasta_limpieza",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_pasta_limpieza.mp4",
+      "asset": "pc_limpieza_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": true,
+      "tipo": "reel",
+      "media_id": "18131824954691184",
+      "permalink": "https://www.instagram.com/reel/DfKlP1Cu7_C/",
+      "publicado_utc": "2026-10-31T16:25:38Z",
+      "retraso_min": 0
     }
   ]
 }
