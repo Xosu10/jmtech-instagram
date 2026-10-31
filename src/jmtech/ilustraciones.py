@@ -377,7 +377,7 @@ RESPALDO = {
     "streaming": "streaming", "movil_pantalla_conector": "diagnostico", "movil_bateria": "bateria_portatil",
     "movil_transferencia": "diagnostico", "tablet": "diagnostico", "tv_pared": "tv_pared",
     "ssd_consola": "ssd_consola", "consola_mantenimiento": "consola_mantenimiento",
-    "script_software": "automatizacion", "bateria_portatil": "bateria_portatil",
+    "script_software": "automatizacion", "bateria_portatil": "bateria_portatil", "soporte_remoto": "diagnostico",
     # temas de la versión anterior (11 temas)
     "recuperacion_datos": "recuperacion_datos", "windows": "windows", "automatizacion": "automatizacion",
 }

@@ -7,9 +7,9 @@ from jmtech.validacion import MAX_PIE, problemas_pie, problemas_texto, problemas
 TEMAS = cargar_temas()
 
 
-def test_hay_21_temas_con_ids_unicos():
+def test_hay_22_temas_con_ids_unicos():
     ids = [t["id"] for t in TEMAS]
-    assert len(ids) == 21 == len(set(ids))
+    assert len(ids) == 22 == len(set(ids))
 
 
 @pytest.mark.parametrize("tema", TEMAS, ids=[t["id"] for t in TEMAS])
