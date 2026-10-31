@@ -16,7 +16,9 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 
 from .assets import cargar_catalogo, indice
-from .base import BLUE, S, font, lockup, equilibrar, partir
+from functools import lru_cache
+
+from .base import BLUE, LOGO_OSCURO, S, _lockup, equilibrar, font, partir
 from .contenido import indice_temas
 
 W, H, FPS, DUR = 1080, 1920, 30, 9.0
@@ -44,8 +46,8 @@ def _capa_texto(texto, f, color, pad=8):
 def _capa_punto(texto, f, ancho_max):
     """Punto de la lista: casilla azul con marca + texto (una o dos líneas)."""
     lineas = equilibrar(MED, partir(MED, texto, f, ancho_max - 90), f)
-    lh = 44
-    alto = max(58, len(lineas) * lh + 10)
+    lh = 40
+    alto = max(54, len(lineas) * lh + 8)
     im = Image.new("RGBA", (ancho_max * S, alto * S), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
     cy = alto // 2
@@ -204,23 +206,32 @@ def preparar_musica(ruta_audio, ruta_wav, dur=DUR, inicio=0.0):
 
 FLOTE = 8              # px que sube y baja el asset
 SOBREPASO = 1.1        # el asset crece hasta un 10 % al entrar
-HUECO = 40             # separación mínima entre el asset y el texto (arriba y abajo)
+HUECO = 34             # separación mínima entre el asset y el texto (arriba y abajo)
 Y_CTA = 1490
+
+
+@lru_cache(maxsize=None)
+def _logo_reel():
+    """Logo del reel: más grande que en las publicaciones y con la frase bien separada del nombre."""
+    grande = _lockup(Image.open(LOGO_OSCURO).convert("RGBA"), mw=350, tw=560, gap=36)
+    return grande.resize((grande.width // S, grande.height // S), Image.LANCZOS)
 
 
 def calcular_geometria(tema):
     """Capas de texto y posiciones de un reel. Reparte el espacio para que el asset nunca toque el texto."""
     l1, l2 = tema["titulo_linea1"], tema["titulo_linea2_azul"]
-    size = 96
+    size = 84
     while size > 60 and max(font("Bold", size).getlength(l1), font("Bold", size).getlength(l2)) / S > 940:
         size -= 2
     t1 = _capa_texto(l1, font("Bold", size), BLANCO)
     t2 = _capa_texto(l2, font("Bold", size), BLUE)
     f_sub = font("Regular", 34)
     sub = [_capa_texto(ln, f_sub, (170, 188, 218)) for ln in equilibrar(MED, partir(MED, tema["subtitulo"], f_sub, 900), f_sub)]
-    puntos = [_capa_punto(p, font("Medium", 33), 900) for p in tema["puntos"]]
+    puntos = [_capa_punto(p, font("Medium", 31), 900) for p in tema["puntos"]]
     cta = _capa_cta()
-    y_logo, y_t1 = 250, 430
+    logo = _logo_reel()
+    y_logo = 205                                   # más alto
+    y_t1 = y_logo + logo.height + 36               # y bien separado del título
     y_t2 = y_t1 + t1.height - 14
     y_sub = y_t2 + t2.height + 4
     y_sub_fin = y_sub + 44 * len(sub)
@@ -230,7 +241,7 @@ def calcular_geometria(tema):
     ys_puntos = [y_puntos + sum(alto_puntos[:i]) + gap * i for i in range(len(puntos))]
     zona_arriba, zona_abajo = y_sub_fin + HUECO, y_puntos - HUECO
     alto_caja = max(120, int((zona_abajo - zona_arriba - 2 * FLOTE) / SOBREPASO))
-    return dict(t1=t1, t2=t2, sub=sub, puntos=puntos, cta=cta, y_logo=y_logo, y_t1=y_t1, y_t2=y_t2, y_sub=y_sub,
+    return dict(logo=logo, t1=t1, t2=t2, sub=sub, puntos=puntos, cta=cta, y_logo=y_logo, y_t1=y_t1, y_t2=y_t2, y_sub=y_sub,
                 y_sub_fin=y_sub_fin, y_puntos=y_puntos, ys_puntos=ys_puntos, y_cta=Y_CTA, alto_caja=alto_caja,
                 zona_asset=(zona_arriba, zona_abajo), y_asset_centro=(zona_arriba + zona_abajo) / 2)
 
@@ -242,9 +253,8 @@ def generar_reel(tema, asset, salida, previsualizar=None, dur=DUR, musica=None, 
     salida = Path(salida)
     salida.parent.mkdir(parents=True, exist_ok=True)
     fondo = _fondo()
-    logo = lockup(True).resize((lockup(True).width // S, lockup(True).height // S), Image.LANCZOS)
     g = calcular_geometria(tema)
-    t1, t2, sub, puntos, cta = g["t1"], g["t2"], g["sub"], g["puntos"], g["cta"]
+    logo, t1, t2, sub, puntos, cta = g["logo"], g["t1"], g["t2"], g["sub"], g["puntos"], g["cta"]
     y_logo, y_t1, y_t2, y_sub = g["y_logo"], g["y_t1"], g["y_t2"], g["y_sub"]
     ys_puntos, y_cta, y_asset_centro = g["ys_puntos"], g["y_cta"], g["y_asset_centro"]
     aset = _capa_asset(asset, (840, g["alto_caja"])) if asset else None
