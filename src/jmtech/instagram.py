@@ -162,7 +162,12 @@ class ClienteInstagram:
         if r.status_code >= 400 or not (isinstance(cuerpo, dict) and cuerpo.get("success")):
             if isinstance(cuerpo, dict) and "error" in cuerpo:
                 raise traducir_error(cuerpo, r.status_code, self.token)
-            raise ErrorInstagram("Instagram no aceptó la subida del vídeo.", tecnico=ocultar(f"HTTP {r.status_code} {cuerpo}", self.token))
+            try:
+                estado = self._llamar("GET", contenedor, reintentos=1, fields="status,status_code,video_status")
+            except Exception as e2:
+                estado = f"(no se pudo consultar el estado del contenedor: {e2})"
+            raise ErrorInstagram("Instagram no aceptó la subida del vídeo.",
+                                 tecnico=ocultar(f"HTTP {r.status_code} {cuerpo} · contenedor {contenedor} · uri {url} · bytes {len(contenido)} · estado: {estado}", self.token))
 
     def publicar_reel(self, ruta_video, caption, video_url=None, thumb_offset=3000):
         """Crea, sube, espera y publica un reel. Devuelve el id del contenido publicado."""
