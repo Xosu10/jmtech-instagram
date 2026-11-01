@@ -1,0 +1,58 @@
+{
+ "id": "nunca_03",
+ "serie": "nunca",
+ "titulo": "Nunca hagas esto: limpiar la pantalla con limpiacristales",
+ "titulo_pantalla": "Nunca hagas esto",
+ "escenas": [
+  {
+   "texto": "Nunca hagas esto: limpiar la pantalla con limpiacristales.",
+   "imagen": "limpieza_pantalla_aislado_01.png"
+  },
+  {
+   "texto": "Los productos con amoníaco o alcohol fuerte pueden dañar el recubrimiento de la pantalla y dejarla con manchas permanentes.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué es mala idea",
+    "titulo": "Lo que puede pasar",
+    "acento": "rojo",
+    "puntos": [
+     "Dañan el recubrimiento",
+     "Dejan manchas permanentes",
+     "Si entra líquido, se estropea"
+    ]
+   }
+  },
+  {
+   "texto": "Usa un paño de microfibra ligeramente humedecido con agua, nunca pulverices sobre la pantalla, y límpiala apagada.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Apaga la pantalla",
+     "Microfibra apenas húmeda",
+     "Nunca pulverices sobre ella"
+    ]
+   }
+  },
+  {
+   "texto": "¿Ya lo has hecho o tienes dudas? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚫",
+ "puntos": [
+  "Riesgo: dañan el recubrimiento.",
+  "Riesgo: dejan manchas permanentes.",
+  "En su lugar: apaga la pantalla."
+ ],
+ "fuentes": [
+  "Apple y Samsung: cómo limpiar pantallas"
+ ],
+ "hashtags": [
+  "#nuncahagasesto",
+  "#informatica",
+  "#consejos",
+  "#tecnologia",
+  "#murcia",
+  "#pantalla"
+ ]
+}

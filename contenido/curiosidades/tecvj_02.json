@@ -1,0 +1,58 @@
+{
+ "id": "tecvj_02",
+ "serie": "tecvj",
+ "titulo": "La tecnología detrás del videojuego: la inteligencia artificial de los enemigos",
+ "titulo_pantalla": "Tecnología de juegos: la inteligencia artificial de los enemigos",
+ "escenas": [
+  {
+   "texto": "¿Los enemigos de un videojuego piensan? Ni mucho menos, pero lo parece.",
+   "imagen": "jefe_final_aislado_01.png"
+  },
+  {
+   "texto": "Suelen seguir reglas y estados: ven o escuchan al jugador, eligen una acción y la ejecutan, por ejemplo perseguir, esconderse o atacar.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Ven o escuchan al jugador",
+     "Eligen una acción",
+     "Persiguen, se esconden o atacan"
+    ]
+   }
+  },
+  {
+   "texto": "No tienen que ser listos, sino creíbles. Muchos juegos hasta les dan errores a propósito para que sea justo y divertido.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En los videojuegos",
+    "titulo": "Reglas y estados",
+    "acento": "azul",
+    "puntos": [
+     "Árboles de comportamiento",
+     "Errores a propósito",
+     "Que sea creíble y justo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "Ven o escuchan al jugador.",
+  "Eligen una acción.",
+  "Árboles de comportamiento."
+ ],
+ "fuentes": [
+  "Wikipedia: Inteligencia artificial en videojuegos"
+ ],
+ "hashtags": [
+  "#tecnologiavideojuegos",
+  "#videojuegos",
+  "#gaming",
+  "#curiosidades",
+  "#murcia",
+  "#ia"
+ ]
+}

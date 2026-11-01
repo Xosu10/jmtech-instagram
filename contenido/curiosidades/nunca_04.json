@@ -1,0 +1,59 @@
+{
+ "id": "nunca_04",
+ "serie": "nunca",
+ "titulo": "Nunca hagas esto: seguir usando una batería hinchada",
+ "titulo_pantalla": "Nunca hagas esto",
+ "escenas": [
+  {
+   "texto": "Nunca hagas esto: seguir usando una batería hinchada.",
+   "imagen": "bateria_hinchada_aislado_01.png"
+  },
+  {
+   "texto": "Una batería hinchada tiene gas en su interior. Si se pincha, se aplasta o se carga, puede incendiarse.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué es mala idea",
+    "titulo": "Lo que puede pasar",
+    "acento": "rojo",
+    "puntos": [
+     "Gas acumulado en el interior",
+     "Riesgo de incendio",
+     "Puede dañar el equipo por dentro"
+    ]
+   }
+  },
+  {
+   "texto": "Apaga el equipo, no lo cargues, no pinches la batería y llévala a un técnico o a un punto de reciclaje.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Apaga y desenchufa",
+     "No la cargues ni la pinches",
+     "Llévala a un técnico o a reciclaje"
+    ]
+   }
+  },
+  {
+   "texto": "¿Ya lo has hecho o tienes dudas? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚫",
+ "puntos": [
+  "Riesgo: gas acumulado en el interior.",
+  "Riesgo: riesgo de incendio.",
+  "En su lugar: apaga y desenchufa."
+ ],
+ "fuentes": [
+  "Wikipedia: Batería de ion de litio",
+  "Apple: baterías hinchadas"
+ ],
+ "hashtags": [
+  "#nuncahagasesto",
+  "#informatica",
+  "#consejos",
+  "#tecnologia",
+  "#murcia",
+  "#bateria"
+ ]
+}

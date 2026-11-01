@@ -1,0 +1,63 @@
+{
+ "id": "tecvj_16",
+ "serie": "tecvj",
+ "titulo": "La tecnología detrás del videojuego: la conducción",
+ "titulo_pantalla": "Tecnología de juegos: la conducción",
+ "escenas": [
+  {
+   "texto": "¿Por qué algunos coches de videojuego se conducen tan distinto?",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "CONDUCCIÓN",
+    "linea2": "Simulación o arcade",
+    "acento": "rosa"
+   }
+  },
+  {
+   "texto": "Los simuladores calculan neumáticos, peso y suspensión. Los juegos arcade simplifican y exageran para que sea más fácil y divertido.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Simuladores: neumáticos y suspensión",
+     "Arcade: simplifican y exageran",
+     "Cada uno busca algo distinto"
+    ]
+   }
+  },
+  {
+   "texto": "No es mejor uno que otro: el realismo da exigencia, y el arcade da diversión inmediata.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En los videojuegos",
+    "titulo": "Simulación o arcade",
+    "acento": "azul",
+    "puntos": [
+     "Más realismo, más dificultad",
+     "Más arcade, más diversión",
+     "Depende del estilo del juego"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "Simuladores: neumáticos y suspensión.",
+  "Arcade: simplifican y exageran.",
+  "Más realismo, más dificultad."
+ ],
+ "fuentes": [
+  "Wikipedia: Videojuego de carreras"
+ ],
+ "hashtags": [
+  "#tecnologiavideojuegos",
+  "#videojuegos",
+  "#gaming",
+  "#curiosidades",
+  "#murcia",
+  "#carreras"
+ ]
+}

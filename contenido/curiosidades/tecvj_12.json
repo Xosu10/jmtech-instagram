@@ -1,0 +1,63 @@
+{
+ "id": "tecvj_12",
+ "serie": "tecvj",
+ "titulo": "La tecnología detrás del videojuego: el agua",
+ "titulo_pantalla": "Tecnología de juegos: el agua",
+ "escenas": [
+  {
+   "texto": "¿Cómo se crea un mar o un río que parezca real?",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "AGUA",
+    "linea2": "Olas, reflejos y transparencias",
+    "acento": "rosa"
+   }
+  },
+  {
+   "texto": "Se mezclan olas calculadas con fórmulas, reflejos del entorno y un material transparente que cambia de color con la profundidad.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Olas calculadas con fórmulas",
+     "Reflejos del entorno",
+     "Color según la profundidad"
+    ]
+   }
+  },
+  {
+   "texto": "Casi todo ocurre en la tarjeta gráfica, y por eso el agua es una de las cosas que más se nota al cambiar de gráfica.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En los videojuegos",
+    "titulo": "Agua en tiempo real",
+    "acento": "azul",
+    "puntos": [
+     "Olas con fórmulas",
+     "Reflejos y transparencia",
+     "Cuesta potencia gráfica"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "Olas calculadas con fórmulas.",
+  "Reflejos del entorno.",
+  "Olas con fórmulas."
+ ],
+ "fuentes": [
+  "Wikipedia: Simulación de fluidos"
+ ],
+ "hashtags": [
+  "#tecnologiavideojuegos",
+  "#videojuegos",
+  "#gaming",
+  "#curiosidades",
+  "#murcia",
+  "#agua"
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "id": "vfd_17",
+ "serie": "vfd",
+ "titulo": "¿Verdadero, falso o depende? Una gráfica más cara siempre rinde más en todo",
+ "titulo_pantalla": "¿Verdadero, falso o depende?",
+ "escenas": [
+  {
+   "texto": "¿Verdadero, falso o depende? Una gráfica más cara siempre rinde más en todo.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Una gráfica más cara siempre rinde más en todo",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Depende. Depende de lo que hagas. Con un procesador flojo o una resolución baja, la diferencia se pierde.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Una gráfica más cara siempre rinde más en todo",
+    "revelar": true,
+    "veredicto": "DEPENDE"
+   }
+  },
+  {
+   "texto": "Rinde más cuando el resto del equipo acompaña, y menos cuando se estrecha por otra pieza.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Sí, cuando",
+     "titulo": "Se cumple",
+     "puntos": [
+      "Resolución alta",
+      "Procesador a la altura"
+     ],
+     "acento": "azul"
+    },
+    "der": {
+     "cabecera": "No, cuando",
+     "titulo": "No se cumple",
+     "puntos": [
+      "Resolución baja",
+      "Procesador que frena"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos en tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚖️",
+ "puntos": [
+  "Depende: Depende de lo que hagas. Con un procesador flojo o una resolución baja, la diferencia se pierde.",
+  "Resolución alta",
+  "Resolución baja"
+ ],
+ "fuentes": [
+  "NVIDIA: guía de componentes para jugar"
+ ],
+ "hashtags": [
+  "#verdaderofalsoodepende",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#tarjetagrafica"
+ ]
+}

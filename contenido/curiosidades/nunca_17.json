@@ -1,0 +1,63 @@
+{
+ "id": "nunca_17",
+ "serie": "nunca",
+ "titulo": "Nunca hagas esto: desenchufar un disco externo mientras copia",
+ "titulo_pantalla": "Nunca hagas esto",
+ "escenas": [
+  {
+   "texto": "Nunca hagas esto: desenchufar un disco externo mientras copia.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "COPIANDO",
+    "linea2": "No lo desconectes",
+    "acento": "rosa"
+   }
+  },
+  {
+   "texto": "Si se interrumpe la escritura, los archivos pueden corromperse e incluso estropearse el sistema de archivos del disco.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué es mala idea",
+    "titulo": "Lo que puede pasar",
+    "acento": "rojo",
+    "puntos": [
+     "Archivos corruptos",
+     "El disco puede dar error",
+     "Puedes perder lo copiado"
+    ]
+   }
+  },
+  {
+   "texto": "Espera a que termine la copia y usa la opción de expulsar de forma segura antes de desconectar.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Espera a que termine la copia",
+     "Pulsa «expulsar»",
+     "Retira el disco cuando lo indique"
+    ]
+   }
+  },
+  {
+   "texto": "¿Ya lo has hecho o tienes dudas? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚫",
+ "puntos": [
+  "Riesgo: archivos corruptos.",
+  "Riesgo: el disco puede dar error.",
+  "En su lugar: espera a que termine la copia."
+ ],
+ "fuentes": [
+  "Microsoft: quitar dispositivos de almacenamiento de forma segura"
+ ],
+ "hashtags": [
+  "#nuncahagasesto",
+  "#informatica",
+  "#consejos",
+  "#tecnologia",
+  "#murcia",
+  "#discoexterno"
+ ]
+}

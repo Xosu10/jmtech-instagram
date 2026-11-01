@@ -1,0 +1,59 @@
+{
+ "id": "nunca_08",
+ "serie": "nunca",
+ "titulo": "Nunca hagas esto: mezclar módulos de RAM sin comprobarlo",
+ "titulo_pantalla": "Nunca hagas esto",
+ "escenas": [
+  {
+   "texto": "Nunca hagas esto: mezclar módulos de RAM sin comprobarlo.",
+   "imagen": "ram_modulos_distintos_aislado_01.png"
+  },
+  {
+   "texto": "Módulos de distinta velocidad o marca pueden trabajar a la menor velocidad, dar errores o impedir que el equipo arranque.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué es mala idea",
+    "titulo": "Lo que puede pasar",
+    "acento": "rojo",
+    "puntos": [
+     "Van a la velocidad del más lento",
+     "Pueden dar errores o cuelgues",
+     "A veces no arranca"
+    ]
+   }
+  },
+  {
+   "texto": "Lo ideal es comprar un kit idéntico. Si ampliar, comprueba la compatibilidad con tu placa antes de comprar.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Compra un kit idéntico",
+     "Comprueba la lista de compatibilidad",
+     "Prueba la RAM tras instalarla"
+    ]
+   }
+  },
+  {
+   "texto": "¿Ya lo has hecho o tienes dudas? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚫",
+ "puntos": [
+  "Riesgo: van a la velocidad del más lento.",
+  "Riesgo: pueden dar errores o cuelgues.",
+  "En su lugar: compra un kit idéntico."
+ ],
+ "fuentes": [
+  "Corsair: cómo mezclar módulos de RAM",
+  "Wikipedia: Memoria de acceso aleatorio"
+ ],
+ "hashtags": [
+  "#nuncahagasesto",
+  "#informatica",
+  "#consejos",
+  "#tecnologia",
+  "#murcia",
+  "#ram"
+ ]
+}

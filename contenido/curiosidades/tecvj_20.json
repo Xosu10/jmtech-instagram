@@ -1,0 +1,58 @@
+{
+ "id": "tecvj_20",
+ "serie": "tecvj",
+ "titulo": "La tecnología detrás del videojuego: los mods",
+ "titulo_pantalla": "Tecnología de juegos: los mods",
+ "escenas": [
+  {
+   "texto": "¿Cómo se puede cambiar un videojuego que ya está hecho?",
+   "imagen": "voxel_mundo_aislado_01.png"
+  },
+  {
+   "texto": "Algunos juegos dejan abiertas herramientas y archivos para que la comunidad añada cambios: nuevos objetos, mapas, reglas o gráficos.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El juego deja archivos abiertos",
+     "La comunidad crea cambios",
+     "Se instalan sobre el juego"
+    ]
+   }
+  },
+  {
+   "texto": "Los mods han dado lugar a juegos enteros, y hay que descargarlos solo de fuentes de confianza.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En los videojuegos",
+    "titulo": "Cambios de la comunidad",
+    "acento": "azul",
+    "puntos": [
+     "Nuevos mapas y objetos",
+     "Mejoras gráficas",
+     "Descarga solo de fuentes fiables"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "El juego deja archivos abiertos.",
+  "La comunidad crea cambios.",
+  "Nuevos mapas y objetos."
+ ],
+ "fuentes": [
+  "Wikipedia: Mod (videojuegos)"
+ ],
+ "hashtags": [
+  "#tecnologiavideojuegos",
+  "#videojuegos",
+  "#gaming",
+  "#curiosidades",
+  "#murcia",
+  "#mods"
+ ]
+}

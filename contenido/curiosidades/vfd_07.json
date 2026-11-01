@@ -1,0 +1,77 @@
+{
+ "id": "vfd_07",
+ "serie": "vfd",
+ "titulo": "¿Verdadero, falso o depende? La pasta térmica cara es mucho mejor",
+ "titulo_pantalla": "¿Verdadero, falso o depende?",
+ "escenas": [
+  {
+   "texto": "¿Verdadero, falso o depende? La pasta térmica cara es mucho mejor.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "La pasta térmica cara es mucho mejor",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Depende. Entre pastas de buena calidad, la diferencia suele ser pequeña. Lo importante es aplicarla bien.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "La pasta térmica cara es mucho mejor",
+    "revelar": true,
+    "veredicto": "DEPENDE"
+   }
+  },
+  {
+   "texto": "Una pasta mala sí se nota. Pero entre una buena y una carísima, la diferencia es mínima.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Sí, cuando",
+     "titulo": "Se cumple",
+     "puntos": [
+      "Comparas con una pasta muy mala",
+      "Overclock con mucha carga"
+     ],
+     "acento": "azul"
+    },
+    "der": {
+     "cabecera": "No, cuando",
+     "titulo": "No se cumple",
+     "puntos": [
+      "Comparas dos buenas",
+      "Uso normal"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos en tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚖️",
+ "puntos": [
+  "Depende: Entre pastas de buena calidad, la diferencia suele ser pequeña. Lo importante es aplicarla bien.",
+  "Comparas con una pasta muy mala",
+  "Comparas dos buenas"
+ ],
+ "fuentes": [
+  "Corsair: guía de pasta térmica"
+ ],
+ "hashtags": [
+  "#verdaderofalsoodepende",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#pastatermica"
+ ]
+}

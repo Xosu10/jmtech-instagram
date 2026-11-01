@@ -1,0 +1,78 @@
+{
+ "id": "vfd_04",
+ "serie": "vfd",
+ "titulo": "¿Verdadero, falso o depende? Un VPN te hace anónimo",
+ "titulo_pantalla": "¿Verdadero, falso o depende?",
+ "escenas": [
+  {
+   "texto": "¿Verdadero, falso o depende? Un VPN te hace anónimo.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Un VPN te hace anónimo",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es falso. Oculta tu conexión a las webs y a tu operador, pero el propio VPN te ve, y las cuentas donde inicias sesión te identifican.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Un VPN te hace anónimo",
+    "revelar": true,
+    "veredicto": "FALSO"
+   }
+  },
+  {
+   "texto": "Protege tu conexión en redes públicas, pero no te vuelve invisible ni borra tus datos.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Sí, cuando",
+     "titulo": "Se cumple",
+     "puntos": [
+      "En un wifi público",
+      "Para ocultar tu conexión al operador"
+     ],
+     "acento": "azul"
+    },
+    "der": {
+     "cabecera": "No, cuando",
+     "titulo": "No se cumple",
+     "puntos": [
+      "Si inicias sesión en tus cuentas",
+      "Si tu VPN guarda registros"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos en tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚖️",
+ "puntos": [
+  "Falso: Oculta tu conexión a las webs y a tu operador, pero el propio VPN te ve, y las cuentas donde inicias sesión te identifican.",
+  "En un wifi público",
+  "Si inicias sesión en tus cuentas"
+ ],
+ "fuentes": [
+  "INCIBE: qué es una VPN",
+  "Wikipedia: Red privada virtual"
+ ],
+ "hashtags": [
+  "#verdaderofalsoodepende",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#vpn"
+ ]
+}

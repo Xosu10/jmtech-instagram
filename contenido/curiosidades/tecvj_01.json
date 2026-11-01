@@ -1,0 +1,59 @@
+{
+ "id": "tecvj_01",
+ "serie": "tecvj",
+ "titulo": "La tecnología detrás del videojuego: la física",
+ "titulo_pantalla": "Tecnología de juegos: la física",
+ "escenas": [
+  {
+   "texto": "¿Cómo hace un videojuego para que las cosas caigan y choquen como en la vida real?",
+   "imagen": "karts_carrera_aislado_01.png"
+  },
+  {
+   "texto": "El juego calcula las fuerzas sobre cada objeto en cada imagen, detecta los choques y lo mueve todo según unas leyes físicas simplificadas.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Calcula las fuerzas en cada imagen",
+     "Detecta los choques",
+     "Mueve los objetos según la física"
+    ]
+   }
+  },
+  {
+   "texto": "Para ir rápido, los objetos se simplifican con cajas y esferas invisibles, y solo se calcula lo que está cerca del jugador.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En los videojuegos",
+    "titulo": "Física simplificada",
+    "acento": "azul",
+    "puntos": [
+     "Cajas y esferas invisibles",
+     "Solo lo cercano se calcula",
+     "Coches, cuerpos y objetos"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "Calcula las fuerzas en cada imagen.",
+  "Detecta los choques.",
+  "Cajas y esferas invisibles."
+ ],
+ "fuentes": [
+  "Wikipedia: Motor de física",
+  "Wikipedia: Detección de colisiones"
+ ],
+ "hashtags": [
+  "#tecnologiavideojuegos",
+  "#videojuegos",
+  "#gaming",
+  "#curiosidades",
+  "#murcia",
+  "#fisica"
+ ]
+}

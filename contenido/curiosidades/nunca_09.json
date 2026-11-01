@@ -1,0 +1,59 @@
+{
+ "id": "nunca_09",
+ "serie": "nunca",
+ "titulo": "Nunca hagas esto: abrir la fuente de alimentación",
+ "titulo_pantalla": "Nunca hagas esto",
+ "escenas": [
+  {
+   "texto": "Nunca hagas esto: abrir la fuente de alimentación.",
+   "imagen": "fuente_abierta_condensadores_aislado_01.png"
+  },
+  {
+   "texto": "Los condensadores de una fuente almacenan carga durante mucho tiempo, aunque esté desenchufada, y pueden dar una descarga peligrosa.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué es mala idea",
+    "titulo": "Lo que puede pasar",
+    "acento": "rojo",
+    "puntos": [
+     "Condensadores con carga peligrosa",
+     "Riesgo de descarga eléctrica",
+     "No es una pieza reparable en casa"
+    ]
+   }
+  },
+  {
+   "texto": "Si falla, no la abras: cámbiala por una nueva o llévala a un técnico.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "No quites la tapa",
+     "Cámbiala por una nueva",
+     "Consulta con un técnico"
+    ]
+   }
+  },
+  {
+   "texto": "¿Ya lo has hecho o tienes dudas? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚫",
+ "puntos": [
+  "Riesgo: condensadores con carga peligrosa.",
+  "Riesgo: riesgo de descarga eléctrica.",
+  "En su lugar: no quites la tapa."
+ ],
+ "fuentes": [
+  "Wikipedia: Fuente de alimentación",
+  "Wikipedia: Condensador eléctrico"
+ ],
+ "hashtags": [
+  "#nuncahagasesto",
+  "#informatica",
+  "#consejos",
+  "#tecnologia",
+  "#murcia",
+  "#seguridad"
+ ]
+}

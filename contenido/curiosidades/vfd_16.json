@@ -1,0 +1,77 @@
+{
+ "id": "vfd_16",
+ "serie": "vfd",
+ "titulo": "¿Verdadero, falso o depende? Windows 11 va más lento que Windows 10",
+ "titulo_pantalla": "¿Verdadero, falso o depende?",
+ "escenas": [
+  {
+   "texto": "¿Verdadero, falso o depende? Windows 11 va más lento que Windows 10.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Windows 11 va más lento que Windows 10",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Depende. En equipos modernos van parecido. En equipos justos, Windows 11 puede notarse algo más pesado.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Windows 11 va más lento que Windows 10",
+    "revelar": true,
+    "veredicto": "DEPENDE"
+   }
+  },
+  {
+   "texto": "Depende de tu equipo, de tus programas y de cómo lo tengas configurado.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Sí, cuando",
+     "titulo": "Se cumple",
+     "puntos": [
+      "Equipo moderno y bien cuidado",
+      "Con un SSD"
+     ],
+     "acento": "azul"
+    },
+    "der": {
+     "cabecera": "No, cuando",
+     "titulo": "No se cumple",
+     "puntos": [
+      "Equipo antiguo",
+      "Con disco duro"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos en tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚖️",
+ "puntos": [
+  "Depende: En equipos modernos van parecido. En equipos justos, Windows 11 puede notarse algo más pesado.",
+  "Equipo moderno y bien cuidado",
+  "Equipo antiguo"
+ ],
+ "fuentes": [
+  "Microsoft: requisitos de Windows 11"
+ ],
+ "hashtags": [
+  "#verdaderofalsoodepende",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#windows"
+ ]
+}

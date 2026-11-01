@@ -1,0 +1,59 @@
+{
+ "id": "nunca_14",
+ "serie": "nunca",
+ "titulo": "Nunca hagas esto: instalar programas crackeados",
+ "titulo_pantalla": "Nunca hagas esto",
+ "escenas": [
+  {
+   "texto": "Nunca hagas esto: instalar programas crackeados.",
+   "imagen": "usb_infectada_aislado_01.png"
+  },
+  {
+   "texto": "Los programas pirateados suelen incluir virus y troyanos, roban contraseñas y no reciben actualizaciones de seguridad.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué es mala idea",
+    "titulo": "Lo que puede pasar",
+    "acento": "rojo",
+    "puntos": [
+     "Traen virus y troyanos",
+     "Roban contraseñas y datos",
+     "Sin actualizaciones de seguridad"
+    ]
+   }
+  },
+  {
+   "texto": "Usa programas oficiales, de código abierto o con prueba legal. Y si necesitas un programa, te asesoramos.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Descarga desde la web oficial",
+     "Busca alternativas de código abierto",
+     "Pide consejo antes de instalar"
+    ]
+   }
+  },
+  {
+   "texto": "¿Ya lo has hecho o tienes dudas? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚫",
+ "puntos": [
+  "Riesgo: traen virus y troyanos.",
+  "Riesgo: roban contraseñas y datos.",
+  "En su lugar: descarga desde la web oficial."
+ ],
+ "fuentes": [
+  "INCIBE: riesgos del software pirata",
+  "Wikipedia: Malware"
+ ],
+ "hashtags": [
+  "#nuncahagasesto",
+  "#informatica",
+  "#consejos",
+  "#tecnologia",
+  "#murcia",
+  "#seguridad"
+ ]
+}

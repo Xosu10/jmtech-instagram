@@ -1,0 +1,72 @@
+{
+ "id": "quepasa_14",
+ "serie": "quepasa",
+ "titulo": "¿Qué pasa si borras la carpeta System treinta y dos de Windows?",
+ "titulo_pantalla": "¿Qué pasa si…?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si borras la carpeta System treinta y dos de Windows?",
+   "imagen": "pantalla_azul_aislado_01.png"
+  },
+  {
+   "texto": "Esa carpeta contiene archivos esenciales de Windows. Windows suele impedir borrarla, y si lo logras, el sistema deja de funcionar.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Borras archivos esenciales del sistema",
+     "Windows deja de funcionar",
+     "No vuelve a arrancar"
+    ]
+   }
+  },
+  {
+   "texto": "No hay marcha atrás sencilla: la única solución es reinstalar Windows, y a veces se pierden datos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consecuencias",
+    "titulo": "Lo que acabas notando",
+    "acento": "naranja",
+    "puntos": [
+     "Windows no arranca",
+     "Pantallazos azules",
+     "Hay que reinstalar el sistema"
+    ]
+   }
+  },
+  {
+   "texto": "Nunca borres carpetas del sistema, aunque te lo pidan en internet como broma.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Mejor así",
+    "acento": "azul",
+    "puntos": [
+     "No borres carpetas del sistema",
+     "Desconfía de los retos de internet",
+     "Haz copia de seguridad"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te ha pasado? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🤔",
+ "puntos": [
+  "Borras archivos esenciales del sistema.",
+  "Windows no arranca.",
+  "Mejor: no borres carpetas del sistema."
+ ],
+ "fuentes": [
+  "Microsoft: archivos y carpetas del sistema de Windows"
+ ],
+ "hashtags": [
+  "#quepasasi",
+  "#informatica",
+  "#curiosidades",
+  "#tecnologia",
+  "#murcia",
+  "#windows"
+ ]
+}

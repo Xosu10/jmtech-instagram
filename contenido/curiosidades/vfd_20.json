@@ -1,0 +1,77 @@
+{
+ "id": "vfd_20",
+ "serie": "vfd",
+ "titulo": "¿Verdadero, falso o depende? Los archivos borrados se pueden recuperar siempre",
+ "titulo_pantalla": "¿Verdadero, falso o depende?",
+ "escenas": [
+  {
+   "texto": "¿Verdadero, falso o depende? Los archivos borrados se pueden recuperar siempre.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Los archivos borrados se pueden recuperar siempre",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es falso. A menudo se pueden recuperar, pero no siempre. Depende del tipo de disco y de si se ha vuelto a escribir encima.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Los archivos borrados se pueden recuperar siempre",
+    "revelar": true,
+    "veredicto": "FALSO"
+   }
+  },
+  {
+   "texto": "Se recuperan mejor si actúas pronto y no usas el disco. En SSD con TRIM, la recuperación es mucho más difícil.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Sí, cuando",
+     "titulo": "Se cumple",
+     "puntos": [
+      "Disco duro, si actúas pronto",
+      "No has escrito encima"
+     ],
+     "acento": "azul"
+    },
+    "der": {
+     "cabecera": "No, cuando",
+     "titulo": "No se cumple",
+     "puntos": [
+      "SSD con TRIM",
+      "Se escribió encima"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos en tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚖️",
+ "puntos": [
+  "Falso: A menudo se pueden recuperar, pero no siempre. Depende del tipo de disco y de si se ha vuelto a escribir encima.",
+  "Disco duro, si actúas pronto",
+  "SSD con TRIM"
+ ],
+ "fuentes": [
+  "Wikipedia: Recuperación de datos"
+ ],
+ "hashtags": [
+  "#verdaderofalsoodepende",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#datos"
+ ]
+}

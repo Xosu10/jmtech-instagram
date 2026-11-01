@@ -1,0 +1,63 @@
+{
+ "id": "nunca_15",
+ "serie": "nunca",
+ "titulo": "Nunca hagas esto: usar la misma contraseña en todas partes",
+ "titulo_pantalla": "Nunca hagas esto",
+ "escenas": [
+  {
+   "texto": "Nunca hagas esto: usar la misma contraseña en todas partes.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "MISMA CLAVE",
+    "linea2": "Una sola filtración y caen todas",
+    "acento": "rosa"
+   }
+  },
+  {
+   "texto": "Si una web sufre una filtración, los atacantes prueban esa clave en tu correo, tu banco y tus redes.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué es mala idea",
+    "titulo": "Lo que puede pasar",
+    "acento": "rojo",
+    "puntos": [
+     "Una filtración afecta a todo",
+     "Prueban tu clave en otros sitios",
+     "Pueden entrar en tu correo"
+    ]
+   }
+  },
+  {
+   "texto": "Usa una contraseña distinta y larga para cada servicio, con un gestor de contraseñas, y activa la verificación en dos pasos.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Una clave distinta por servicio",
+     "Usa un gestor de contraseñas",
+     "Activa la verificación en dos pasos"
+    ]
+   }
+  },
+  {
+   "texto": "¿Ya lo has hecho o tienes dudas? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚫",
+ "puntos": [
+  "Riesgo: una filtración afecta a todo.",
+  "Riesgo: prueban tu clave en otros sitios.",
+  "En su lugar: una clave distinta por servicio."
+ ],
+ "fuentes": [
+  "INCIBE: contraseñas seguras"
+ ],
+ "hashtags": [
+  "#nuncahagasesto",
+  "#informatica",
+  "#consejos",
+  "#tecnologia",
+  "#murcia",
+  "#contrasenas"
+ ]
+}

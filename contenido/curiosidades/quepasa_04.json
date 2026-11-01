@@ -1,0 +1,78 @@
+{
+ "id": "quepasa_04",
+ "serie": "quepasa",
+ "titulo": "¿Qué pasa si nunca actualizas Windows?",
+ "titulo_pantalla": "¿Qué pasa si…?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si nunca actualizas Windows?",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "SIN ACTUALIZAR",
+    "linea2": "Meses y años de parches sin instalar",
+    "acento": "naranja"
+   }
+  },
+  {
+   "texto": "Cada mes se corrigen fallos de seguridad. Si no actualizas, tu equipo sigue teniendo esos agujeros abiertos.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Se acumulan fallos de seguridad",
+     "Los programas dejan de ser compatibles",
+     "El equipo queda expuesto"
+    ]
+   }
+  },
+  {
+   "texto": "Con el tiempo, las aplicaciones nuevas dejan de funcionar y el equipo es más fácil de atacar.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consecuencias",
+    "titulo": "Lo que acabas notando",
+    "acento": "naranja",
+    "puntos": [
+     "Más riesgo de virus y ataques",
+     "Programas que dejan de funcionar",
+     "Errores sin corregir"
+    ]
+   }
+  },
+  {
+   "texto": "Instala las actualizaciones de seguridad cuanto antes, y haz copia de seguridad antes de las grandes.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Mejor así",
+    "acento": "azul",
+    "puntos": [
+     "Activa las actualizaciones",
+     "Haz copia antes de las grandes",
+     "Reinicia cuando te lo pida"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te ha pasado? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🤔",
+ "puntos": [
+  "Se acumulan fallos de seguridad.",
+  "Más riesgo de virus y ataques.",
+  "Mejor: activa las actualizaciones."
+ ],
+ "fuentes": [
+  "Microsoft: Windows Update",
+  "INCIBE: la importancia de actualizar"
+ ],
+ "hashtags": [
+  "#quepasasi",
+  "#informatica",
+  "#curiosidades",
+  "#tecnologia",
+  "#murcia",
+  "#windows"
+ ]
+}

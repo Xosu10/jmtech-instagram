@@ -1,0 +1,77 @@
+{
+ "id": "vfd_12",
+ "serie": "vfd",
+ "titulo": "¿Verdadero, falso o depende? Desenchufar el cargador al llegar al cien por cien salva la batería",
+ "titulo_pantalla": "¿Verdadero, falso o depende?",
+ "escenas": [
+  {
+   "texto": "¿Verdadero, falso o depende? Desenchufar el cargador al llegar al cien por cien salva la batería.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Desenchufar el cargador al llegar al cien por cien salva la batería",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Depende. Los móviles modernos dejan de cargar solos, pero el calor y estar siempre al máximo desgastan algo más.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Desenchufar el cargador al llegar al cien por cien salva la batería",
+    "revelar": true,
+    "veredicto": "DEPENDE"
+   }
+  },
+  {
+   "texto": "Ayuda si lo cargas de noche con calor. Si no, la diferencia es pequeña.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Sí, cuando",
+     "titulo": "Se cumple",
+     "puntos": [
+      "Con mucho calor",
+      "Si lo dejas muchos días enchufado"
+     ],
+     "acento": "azul"
+    },
+    "der": {
+     "cabecera": "No, cuando",
+     "titulo": "No se cumple",
+     "puntos": [
+      "Carga normal, con cargador bueno",
+      "Activas la carga optimizada"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos en tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚖️",
+ "puntos": [
+  "Depende: Los móviles modernos dejan de cargar solos, pero el calor y estar siempre al máximo desgastan algo más.",
+  "Con mucho calor",
+  "Carga normal, con cargador bueno"
+ ],
+ "fuentes": [
+  "Battery University: cómo alargar la vida de una batería"
+ ],
+ "hashtags": [
+  "#verdaderofalsoodepende",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#bateria"
+ ]
+}

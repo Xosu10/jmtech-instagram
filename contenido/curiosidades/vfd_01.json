@@ -1,0 +1,77 @@
+{
+ "id": "vfd_01",
+ "serie": "vfd",
+ "titulo": "¿Verdadero, falso o depende? Más RAM significa más FPS",
+ "titulo_pantalla": "¿Verdadero, falso o depende?",
+ "escenas": [
+  {
+   "texto": "¿Verdadero, falso o depende? Más RAM significa más FPS.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Más RAM significa más FPS",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Depende. Solo ayuda si te faltaba memoria. Si ya tienes suficiente, los FPS dependen sobre todo de la gráfica y del procesador.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Más RAM significa más FPS",
+    "revelar": true,
+    "veredicto": "DEPENDE"
+   }
+  },
+  {
+   "texto": "Más RAM mejora los FPS si el juego se quedaba sin memoria, y no cambia nada si ya tenías de sobra.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Sí, cuando",
+     "titulo": "Se cumple",
+     "puntos": [
+      "Te quedabas sin memoria",
+      "Juegos que piden mucha"
+     ],
+     "acento": "azul"
+    },
+    "der": {
+     "cabecera": "No, cuando",
+     "titulo": "No se cumple",
+     "puntos": [
+      "Ya tienes suficiente",
+      "El límite es la gráfica"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos en tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚖️",
+ "puntos": [
+  "Depende: Solo ayuda si te faltaba memoria. Si ya tienes suficiente, los FPS dependen sobre todo de la gráfica y del procesador.",
+  "Te quedabas sin memoria",
+  "Ya tienes suficiente"
+ ],
+ "fuentes": [
+  "Corsair: cuánta RAM necesitas para jugar"
+ ],
+ "hashtags": [
+  "#verdaderofalsoodepende",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#ram"
+ ]
+}

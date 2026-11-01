@@ -1,0 +1,73 @@
+{
+ "id": "quepasa_16",
+ "serie": "quepasa",
+ "titulo": "¿Qué pasa si pones la RAM en la ranura equivocada?",
+ "titulo_pantalla": "¿Qué pasa si…?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si pones la RAM en la ranura equivocada?",
+   "imagen": "ram_mal_insertada_aislado_01.png"
+  },
+  {
+   "texto": "Con dos módulos, hay ranuras recomendadas. Si no las usas, la memoria puede trabajar con un solo canal, y rinde menos.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Colocas el módulo en otra ranura",
+     "La placa trabaja con un solo canal",
+     "Pierdes rendimiento"
+    ]
+   }
+  },
+  {
+   "texto": "En algunos casos, el equipo ni siquiera arranca, o te muestra errores de memoria.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consecuencias",
+    "titulo": "Lo que acabas notando",
+    "acento": "naranja",
+    "puntos": [
+     "Menos rendimiento",
+     "A veces no arranca",
+     "Pitidos o errores"
+    ]
+   }
+  },
+  {
+   "texto": "Mira el manual de la placa: indica qué ranuras usar con uno, dos o cuatro módulos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Mejor así",
+    "acento": "azul",
+    "puntos": [
+     "Consulta el manual de la placa",
+     "Usa las ranuras recomendadas",
+     "Comprueba que está bien encajada"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te ha pasado? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🤔",
+ "puntos": [
+  "Colocas el módulo en otra ranura.",
+  "Menos rendimiento.",
+  "Mejor: consulta el manual de la placa."
+ ],
+ "fuentes": [
+  "Corsair: cómo instalar la RAM",
+  "Wikipedia: Memoria de doble canal"
+ ],
+ "hashtags": [
+  "#quepasasi",
+  "#informatica",
+  "#curiosidades",
+  "#tecnologia",
+  "#murcia",
+  "#ram"
+ ]
+}

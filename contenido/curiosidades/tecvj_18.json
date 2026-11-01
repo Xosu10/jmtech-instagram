@@ -1,0 +1,58 @@
+{
+ "id": "tecvj_18",
+ "serie": "tecvj",
+ "titulo": "La tecnología detrás del videojuego: cómo se guardan las partidas",
+ "titulo_pantalla": "Tecnología de juegos: cómo se guardan las partidas",
+ "escenas": [
+  {
+   "texto": "¿Qué hay dentro de una partida guardada?",
+   "imagen": "memory_card_aislado_01.png"
+  },
+  {
+   "texto": "Es un archivo con los datos que describen tu progreso: dónde estás, qué llevas y qué has hecho, escritos en un formato que el juego sabe leer.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Dónde estás",
+     "Qué llevas",
+     "Qué has hecho ya"
+    ]
+   }
+  },
+  {
+   "texto": "Al cargar la partida, el juego lee el archivo y reconstruye el mundo tal y como estaba.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En los videojuegos",
+    "titulo": "Un archivo con tu progreso",
+    "acento": "azul",
+    "puntos": [
+     "Posición e inventario",
+     "Misiones y decisiones",
+     "Se reconstruye al cargar"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "Dónde estás.",
+  "Qué llevas.",
+  "Posición e inventario."
+ ],
+ "fuentes": [
+  "Wikipedia: Partida guardada"
+ ],
+ "hashtags": [
+  "#tecnologiavideojuegos",
+  "#videojuegos",
+  "#gaming",
+  "#curiosidades",
+  "#murcia",
+  "#partidas"
+ ]
+}

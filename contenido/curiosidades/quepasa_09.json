@@ -1,0 +1,72 @@
+{
+ "id": "quepasa_09",
+ "serie": "quepasa",
+ "titulo": "¿Qué pasa si nunca limpias el ordenador?",
+ "titulo_pantalla": "¿Qué pasa si…?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si nunca limpias el ordenador?",
+   "imagen": "pc_polvo_interior_aislado_01.png"
+  },
+  {
+   "texto": "El polvo se acumula en los ventiladores y en el disipador, el aire pasa peor y el calor se queda dentro.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El polvo tapa ventiladores y rejillas",
+     "El calor no sale",
+     "Todo trabaja más caliente y más ruidoso"
+    ]
+   }
+  },
+  {
+   "texto": "Con el tiempo, el equipo va más lento, hace más ruido y se desgasta antes.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consecuencias",
+    "titulo": "Lo que acabas notando",
+    "acento": "naranja",
+    "puntos": [
+     "Más ruido",
+     "Más temperatura",
+     "Menos vida útil"
+    ]
+   }
+  },
+  {
+   "texto": "Límpialo cada pocos meses con aire a presión y, si lleva años, revisa también la pasta.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Mejor así",
+    "acento": "azul",
+    "puntos": [
+     "Limpieza cada pocos meses",
+     "Aire a presión y brocha",
+     "Revisa la pasta térmica"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te ha pasado? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🤔",
+ "puntos": [
+  "El polvo tapa ventiladores y rejillas.",
+  "Más ruido.",
+  "Mejor: limpieza cada pocos meses."
+ ],
+ "fuentes": [
+  "Corsair: cómo limpiar tu PC y cada cuánto"
+ ],
+ "hashtags": [
+  "#quepasasi",
+  "#informatica",
+  "#curiosidades",
+  "#tecnologia",
+  "#murcia",
+  "#limpieza"
+ ]
+}

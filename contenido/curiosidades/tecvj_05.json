@@ -1,0 +1,59 @@
+{
+ "id": "tecvj_05",
+ "serie": "tecvj",
+ "titulo": "La tecnología detrás del videojuego: cómo se sincronizan los jugadores online",
+ "titulo_pantalla": "Tecnología de juegos: cómo se sincronizan los jugadores online",
+ "escenas": [
+  {
+   "texto": "¿Cómo ven todos lo mismo en una partida online con retraso?",
+   "imagen": "ping_servidor_aislado_01.png"
+  },
+  {
+   "texto": "Tu equipo predice lo que va a pasar, el servidor confirma lo que de verdad ocurrió, y si hay diferencia, corrige la imagen.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Tu equipo predice",
+     "El servidor confirma",
+     "Se corrige si hay diferencia"
+    ]
+   }
+  },
+  {
+   "texto": "En juegos de lucha se usa el rollback: se retrocede unos instantes y se vuelve a calcular, para que el retraso apenas se note.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En los videojuegos",
+    "titulo": "Predicción y rollback",
+    "acento": "azul",
+    "puntos": [
+     "Predecir tus movimientos",
+     "Corregir con el servidor",
+     "Rollback en juegos de lucha"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "Tu equipo predice.",
+  "El servidor confirma.",
+  "Predecir tus movimientos."
+ ],
+ "fuentes": [
+  "Wikipedia: Netcode",
+  "Wikipedia: Latencia en videojuegos"
+ ],
+ "hashtags": [
+  "#tecnologiavideojuegos",
+  "#videojuegos",
+  "#gaming",
+  "#curiosidades",
+  "#murcia",
+  "#netcode"
+ ]
+}

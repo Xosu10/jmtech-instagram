@@ -1,0 +1,77 @@
+{
+ "id": "vfd_10",
+ "serie": "vfd",
+ "titulo": "¿Verdadero, falso o depende? El modo incógnito te protege de los virus",
+ "titulo_pantalla": "¿Verdadero, falso o depende?",
+ "escenas": [
+  {
+   "texto": "¿Verdadero, falso o depende? El modo incógnito te protege de los virus.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "El modo incógnito te protege de los virus",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es falso. Solo evita que el navegador guarde el historial y las cookies. Un virus se descarga igual.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "El modo incógnito te protege de los virus",
+    "revelar": true,
+    "veredicto": "FALSO"
+   }
+  },
+  {
+   "texto": "El modo incógnito no analiza descargas ni bloquea malware, así que no sustituye a ninguna protección.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Sí, cuando",
+     "titulo": "Se cumple",
+     "puntos": [
+      "Para no guardar historial",
+      "En un equipo compartido"
+     ],
+     "acento": "azul"
+    },
+    "der": {
+     "cabecera": "No, cuando",
+     "titulo": "No se cumple",
+     "puntos": [
+      "Para evitar virus",
+      "Para ocultar tu actividad en internet"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos en tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚖️",
+ "puntos": [
+  "Falso: Solo evita que el navegador guarde el historial y las cookies. Un virus se descarga igual.",
+  "Para no guardar historial",
+  "Para evitar virus"
+ ],
+ "fuentes": [
+  "Wikipedia: Navegación privada"
+ ],
+ "hashtags": [
+  "#verdaderofalsoodepende",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#privacidad"
+ ]
+}

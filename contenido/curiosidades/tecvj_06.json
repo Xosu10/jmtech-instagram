@@ -1,0 +1,59 @@
+{
+ "id": "tecvj_06",
+ "serie": "tecvj",
+ "titulo": "La tecnología detrás del videojuego: el sonido en tres dimensiones",
+ "titulo_pantalla": "Tecnología de juegos: el sonido en tres dimensiones",
+ "escenas": [
+  {
+   "texto": "¿Cómo sabes de dónde viene un disparo con solo oírlo?",
+   "imagen": "auriculares_gaming_aislado_01.png"
+  },
+  {
+   "texto": "El juego modifica el volumen, el retraso y el filtro del sonido para cada oído, de modo que tu cerebro lo coloque en el espacio.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Cambia el volumen entre oídos",
+     "Añade un pequeño retraso",
+     "Filtra el sonido como lo haría tu cabeza"
+    ]
+   }
+  },
+  {
+   "texto": "Con unos buenos auriculares, puedes saber si algo está delante, detrás, arriba o abajo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En los videojuegos",
+    "titulo": "Audio espacial",
+    "acento": "azul",
+    "puntos": [
+     "Delante o detrás",
+     "Arriba o abajo",
+     "Cerca o lejos"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "Cambia el volumen entre oídos.",
+  "Añade un pequeño retraso.",
+  "Delante o detrás."
+ ],
+ "fuentes": [
+  "Wikipedia: Audio posicional 3D",
+  "Wikipedia: Función de transferencia relacionada con la cabeza"
+ ],
+ "hashtags": [
+  "#tecnologiavideojuegos",
+  "#videojuegos",
+  "#gaming",
+  "#curiosidades",
+  "#murcia",
+  "#audio"
+ ]
+}

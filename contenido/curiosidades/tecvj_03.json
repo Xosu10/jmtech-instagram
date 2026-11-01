@@ -1,0 +1,58 @@
+{
+ "id": "tecvj_03",
+ "serie": "tecvj",
+ "titulo": "La tecnología detrás del videojuego: no dibujar lo que no ves",
+ "titulo_pantalla": "Tecnología de juegos: no dibujar lo que no ves",
+ "escenas": [
+  {
+   "texto": "¿Cómo dibuja un juego un mundo gigantesco sin que tu equipo explote?",
+   "imagen": "mundo_abierto_trozos_aislado_01.png"
+  },
+  {
+   "texto": "La clave es no dibujar lo que no ves. El juego descarta lo que queda fuera de la pantalla o tapado por otros objetos.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Descarta lo que queda fuera de pantalla",
+     "Descarta lo que está tapado",
+     "Dibuja solo lo visible"
+    ]
+   }
+  },
+  {
+   "texto": "Esta técnica se llama oclusión, y permite que ciudades enormes funcionen con tarjetas gráficas normales.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En los videojuegos",
+    "titulo": "Oclusión",
+    "acento": "azul",
+    "puntos": [
+     "Lo fuera de pantalla no se dibuja",
+     "Lo tapado tampoco",
+     "Más fluidez con menos esfuerzo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "Descarta lo que queda fuera de pantalla.",
+  "Descarta lo que está tapado.",
+  "Lo fuera de pantalla no se dibuja."
+ ],
+ "fuentes": [
+  "Wikipedia: Occlusion culling"
+ ],
+ "hashtags": [
+  "#tecnologiavideojuegos",
+  "#videojuegos",
+  "#gaming",
+  "#curiosidades",
+  "#murcia",
+  "#oclusion"
+ ]
+}

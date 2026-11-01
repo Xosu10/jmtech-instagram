@@ -1,0 +1,63 @@
+{
+ "id": "nunca_13",
+ "serie": "nunca",
+ "titulo": "Nunca hagas esto: apagar el PC con el botón durante una actualización",
+ "titulo_pantalla": "Nunca hagas esto",
+ "escenas": [
+  {
+   "texto": "Nunca hagas esto: apagar el PC con el botón durante una actualización.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "ACTUALIZANDO",
+    "linea2": "No apagues el equipo",
+    "acento": "rosa"
+   }
+  },
+  {
+   "texto": "Si cortas la corriente en plena actualización, los archivos del sistema se quedan a medias y Windows puede no volver a arrancar.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué es mala idea",
+    "titulo": "Lo que puede pasar",
+    "acento": "rojo",
+    "puntos": [
+     "Archivos del sistema a medias",
+     "Windows puede no arrancar",
+     "Puedes perder datos"
+    ]
+   }
+  },
+  {
+   "texto": "Espera con paciencia, con el portátil enchufado. Si lleva muchísimo tiempo, pide ayuda antes de forzar el apagado.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Deja el equipo enchufado",
+     "Espera con paciencia",
+     "Si se bloquea, pide ayuda"
+    ]
+   }
+  },
+  {
+   "texto": "¿Ya lo has hecho o tienes dudas? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚫",
+ "puntos": [
+  "Riesgo: archivos del sistema a medias.",
+  "Riesgo: windows puede no arrancar.",
+  "En su lugar: deja el equipo enchufado."
+ ],
+ "fuentes": [
+  "Microsoft: solucionar problemas de Windows Update"
+ ],
+ "hashtags": [
+  "#nuncahagasesto",
+  "#informatica",
+  "#consejos",
+  "#tecnologia",
+  "#murcia",
+  "#windows"
+ ]
+}

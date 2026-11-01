@@ -1,0 +1,58 @@
+{
+ "id": "tecvj_17",
+ "serie": "tecvj",
+ "titulo": "La tecnología detrás del videojuego: los mundos sin pantallas de carga",
+ "titulo_pantalla": "Tecnología de juegos: los mundos sin pantallas de carga",
+ "escenas": [
+  {
+   "texto": "¿Por qué ya casi no hay pantallas de carga en los mundos abiertos?",
+   "imagen": "ciudad_viva_aislado_01.png"
+  },
+  {
+   "texto": "El juego carga en segundo plano los trozos del mundo que están cerca de ti, y descarga los lejanos mientras avanzas.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Carga lo cercano",
+     "Descarga lo lejano",
+     "Todo en segundo plano"
+    ]
+   }
+  },
+  {
+   "texto": "Los SSD rápidos han hecho esto posible, porque leen los datos mucho más rápido que un disco duro.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En los videojuegos",
+    "titulo": "Carga continua",
+    "acento": "azul",
+    "puntos": [
+     "Sin pantallas de carga",
+     "Gracias a los SSD",
+     "Todo se carga mientras juegas"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "Carga lo cercano.",
+  "Descarga lo lejano.",
+  "Sin pantallas de carga."
+ ],
+ "fuentes": [
+  "Wikipedia: Carga continua en videojuegos"
+ ],
+ "hashtags": [
+  "#tecnologiavideojuegos",
+  "#videojuegos",
+  "#gaming",
+  "#curiosidades",
+  "#murcia",
+  "#ssd"
+ ]
+}

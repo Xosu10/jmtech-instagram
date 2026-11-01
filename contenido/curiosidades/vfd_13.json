@@ -1,0 +1,77 @@
+{
+ "id": "vfd_13",
+ "serie": "vfd",
+ "titulo": "¿Verdadero, falso o depende? El 4K siempre se ve mejor que el Full HD",
+ "titulo_pantalla": "¿Verdadero, falso o depende?",
+ "escenas": [
+  {
+   "texto": "¿Verdadero, falso o depende? El 4K siempre se ve mejor que el Full HD.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "El 4K siempre se ve mejor que el Full HD",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Depende. Depende del tamaño de la pantalla y de lo lejos que te sientes. En una pantalla pequeña, apenas se nota.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "El 4K siempre se ve mejor que el Full HD",
+    "revelar": true,
+    "veredicto": "DEPENDE"
+   }
+  },
+  {
+   "texto": "Se aprecia en pantallas grandes y de cerca. En una pantalla pequeña o muy lejos, la diferencia se pierde.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Sí, cuando",
+     "titulo": "Se cumple",
+     "puntos": [
+      "Pantalla grande y cerca",
+      "Contenido en 4K"
+     ],
+     "acento": "azul"
+    },
+    "der": {
+     "cabecera": "No, cuando",
+     "titulo": "No se cumple",
+     "puntos": [
+      "Pantalla pequeña",
+      "Sentado muy lejos"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos en tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚖️",
+ "puntos": [
+  "Depende: Depende del tamaño de la pantalla y de lo lejos que te sientes. En una pantalla pequeña, apenas se nota.",
+  "Pantalla grande y cerca",
+  "Pantalla pequeña"
+ ],
+ "fuentes": [
+  "Wikipedia: Resolución 4K"
+ ],
+ "hashtags": [
+  "#verdaderofalsoodepende",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#4k"
+ ]
+}

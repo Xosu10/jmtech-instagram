@@ -1,0 +1,63 @@
+{
+ "id": "tecvj_15",
+ "serie": "tecvj",
+ "titulo": "La tecnología detrás del videojuego: la destrucción",
+ "titulo_pantalla": "Tecnología de juegos: la destrucción",
+ "escenas": [
+  {
+   "texto": "¿Cómo consigue un juego que las paredes se rompan en mil pedazos?",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "DESTRUCCIÓN",
+    "linea2": "Paredes que se rompen",
+    "acento": "rosa"
+   }
+  },
+  {
+   "texto": "Muchas veces el objeto ya viene dividido en piezas, que se mantienen unidas hasta que un impacto las separa.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Objeto dividido en piezas",
+     "Unidas hasta el impacto",
+     "El golpe las separa"
+    ]
+   }
+  },
+  {
+   "texto": "Así se controla cuántos pedazos hay y la física puede ir rápida, sin que el equipo se quede sin potencia.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En los videojuegos",
+    "titulo": "Piezas prefabricadas",
+    "acento": "azul",
+    "puntos": [
+     "Controlan el número de pedazos",
+     "Física más rápida",
+     "Efectos de polvo y humo"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "Objeto dividido en piezas.",
+  "Unidas hasta el impacto.",
+  "Controlan el número de pedazos."
+ ],
+ "fuentes": [
+  "Wikipedia: Destrucción en videojuegos"
+ ],
+ "hashtags": [
+  "#tecnologiavideojuegos",
+  "#videojuegos",
+  "#gaming",
+  "#curiosidades",
+  "#murcia",
+  "#destruccion"
+ ]
+}

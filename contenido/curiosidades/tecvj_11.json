@@ -1,0 +1,63 @@
+{
+ "id": "tecvj_11",
+ "serie": "tecvj",
+ "titulo": "La tecnología detrás del videojuego: las sombras",
+ "titulo_pantalla": "Tecnología de juegos: las sombras",
+ "escenas": [
+  {
+   "texto": "¿Cómo calcula un juego las sombras de todo lo que ves?",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "SOMBRAS",
+    "linea2": "Cómo se calculan en tiempo real",
+    "acento": "rosa"
+   }
+  },
+  {
+   "texto": "Desde el punto de vista de la luz, el juego dibuja una imagen de lo que ve, y con ella sabe qué zonas quedan en sombra.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Mira desde la luz",
+     "Guarda lo que ve",
+     "Marca las zonas en sombra"
+    ]
+   }
+  },
+  {
+   "texto": "Es una técnica rápida y muy usada. El trazado de rayos es más realista, pero también más exigente.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En los videojuegos",
+    "titulo": "Mapas de sombras",
+    "acento": "azul",
+    "puntos": [
+     "Rápido y muy usado",
+     "El trazado de rayos es más realista",
+     "Pero exige más potencia"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "Mira desde la luz.",
+  "Guarda lo que ve.",
+  "Rápido y muy usado."
+ ],
+ "fuentes": [
+  "Wikipedia: Mapeado de sombras"
+ ],
+ "hashtags": [
+  "#tecnologiavideojuegos",
+  "#videojuegos",
+  "#gaming",
+  "#curiosidades",
+  "#murcia",
+  "#sombras"
+ ]
+}

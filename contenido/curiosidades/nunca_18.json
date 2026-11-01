@@ -1,0 +1,64 @@
+{
+ "id": "nunca_18",
+ "serie": "nunca",
+ "titulo": "Nunca hagas esto: descargar controladores de webs no oficiales",
+ "titulo_pantalla": "Nunca hagas esto",
+ "escenas": [
+  {
+   "texto": "Nunca hagas esto: descargar controladores de webs no oficiales.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "DRIVERS",
+    "linea2": "Solo de la web del fabricante",
+    "acento": "rosa"
+   }
+  },
+  {
+   "texto": "Muchas webs de controladores incluyen programas no deseados o malware, y los controladores equivocados pueden dar fallos graves.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué es mala idea",
+    "titulo": "Lo que puede pasar",
+    "acento": "rojo",
+    "puntos": [
+     "Pueden traer malware",
+     "Controladores equivocados",
+     "Fallos y pantallazos azules"
+    ]
+   }
+  },
+  {
+   "texto": "Descarga siempre los controladores desde la web oficial del fabricante o desde Windows Update.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Web oficial del fabricante",
+     "O Windows Update",
+     "Comprueba tu modelo exacto"
+    ]
+   }
+  },
+  {
+   "texto": "¿Ya lo has hecho o tienes dudas? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚫",
+ "puntos": [
+  "Riesgo: pueden traer malware.",
+  "Riesgo: controladores equivocados.",
+  "En su lugar: web oficial del fabricante."
+ ],
+ "fuentes": [
+  "Microsoft: actualizar controladores",
+  "INCIBE: descargas seguras"
+ ],
+ "hashtags": [
+  "#nuncahagasesto",
+  "#informatica",
+  "#consejos",
+  "#tecnologia",
+  "#murcia",
+  "#drivers"
+ ]
+}

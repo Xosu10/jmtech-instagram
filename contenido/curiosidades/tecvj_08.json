@@ -1,0 +1,63 @@
+{
+ "id": "tecvj_08",
+ "serie": "tecvj",
+ "titulo": "La tecnología detrás del videojuego: los motores de videojuegos",
+ "titulo_pantalla": "Tecnología de juegos: los motores de videojuegos",
+ "escenas": [
+  {
+   "texto": "¿Qué es un motor de videojuegos y por qué lo usan casi todos?",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "MOTOR",
+    "linea2": "La base de casi todos los juegos",
+    "acento": "rosa"
+   }
+  },
+  {
+   "texto": "Un motor es un conjunto de herramientas que ya resuelven lo común: dibujar gráficos, calcular la física, reproducir sonido y manejar los controles.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Dibuja gráficos",
+     "Calcula la física",
+     "Gestiona sonido y controles"
+    ]
+   }
+  },
+  {
+   "texto": "Así, los equipos se centran en el juego y no en reinventar lo básico. Unreal y Unity son dos ejemplos muy conocidos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En los videojuegos",
+    "titulo": "Herramientas ya hechas",
+    "acento": "azul",
+    "puntos": [
+     "Unreal y Unity",
+     "Menos trabajo repetido",
+     "Juegos más rápidos de crear"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "Dibuja gráficos.",
+  "Calcula la física.",
+  "Unreal y Unity."
+ ],
+ "fuentes": [
+  "Wikipedia: Motor de videojuego"
+ ],
+ "hashtags": [
+  "#tecnologiavideojuegos",
+  "#videojuegos",
+  "#gaming",
+  "#curiosidades",
+  "#murcia",
+  "#motor"
+ ]
+}

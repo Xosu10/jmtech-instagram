@@ -1,0 +1,59 @@
+{
+ "id": "nunca_05",
+ "serie": "nunca",
+ "titulo": "Nunca hagas esto: usar un cargador sin certificar",
+ "titulo_pantalla": "Nunca hagas esto",
+ "escenas": [
+  {
+   "texto": "Nunca hagas esto: usar un cargador sin certificar.",
+   "imagen": "cargador_usb_barato_aislado_01.png"
+  },
+  {
+   "texto": "Los cargadores muy baratos y sin marcado pueden entregar tensión inestable y calentarse mucho, y dañar la batería o provocar un accidente.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué es mala idea",
+    "titulo": "Lo que puede pasar",
+    "acento": "rojo",
+    "puntos": [
+     "Tensión inestable",
+     "Se calientan en exceso",
+     "Pueden dañar el móvil"
+    ]
+   }
+  },
+  {
+   "texto": "Compra cargadores de marcas fiables con marcado CE, y usa la potencia adecuada para tu dispositivo.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Busca marcas fiables",
+     "Comprueba el marcado CE",
+     "Usa la potencia adecuada"
+    ]
+   }
+  },
+  {
+   "texto": "¿Ya lo has hecho o tienes dudas? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚫",
+ "puntos": [
+  "Riesgo: tensión inestable.",
+  "Riesgo: se calientan en exceso.",
+  "En su lugar: busca marcas fiables."
+ ],
+ "fuentes": [
+  "Wikipedia: Marcado CE",
+  "OCU: cargadores y seguridad"
+ ],
+ "hashtags": [
+  "#nuncahagasesto",
+  "#informatica",
+  "#consejos",
+  "#tecnologia",
+  "#murcia",
+  "#cargador"
+ ]
+}

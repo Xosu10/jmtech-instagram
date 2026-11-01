@@ -1,0 +1,72 @@
+{
+ "id": "quepasa_15",
+ "serie": "quepasa",
+ "titulo": "¿Qué pasa si abres un archivo adjunto de un correo sospechoso?",
+ "titulo_pantalla": "¿Qué pasa si…?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si abres un archivo adjunto de un correo sospechoso?",
+   "imagen": "windows_virus_aislado_01.png"
+  },
+  {
+   "texto": "Si el archivo es un programa malicioso, se instala sin que te des cuenta, y empieza a actuar.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Se ejecuta un programa malicioso",
+     "Se instala sin avisar",
+     "Empieza a robar o cifrar datos"
+    ]
+   }
+  },
+  {
+   "texto": "Puede cifrar tus archivos y pedir un rescate, o espiar lo que escribes.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consecuencias",
+    "titulo": "Lo que acabas notando",
+    "acento": "naranja",
+    "puntos": [
+     "Robo de contraseñas",
+     "Archivos cifrados",
+     "Equipo controlado por otros"
+    ]
+   }
+  },
+  {
+   "texto": "No abras adjuntos inesperados, comprueba el remitente y, si dudas, pregunta.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Mejor así",
+    "acento": "azul",
+    "puntos": [
+     "Mira el remitente",
+     "No abras adjuntos inesperados",
+     "Si dudas, pregunta"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te ha pasado? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🤔",
+ "puntos": [
+  "Se ejecuta un programa malicioso.",
+  "Robo de contraseñas.",
+  "Mejor: mira el remitente."
+ ],
+ "fuentes": [
+  "INCIBE: cómo detectar un correo fraudulento"
+ ],
+ "hashtags": [
+  "#quepasasi",
+  "#informatica",
+  "#curiosidades",
+  "#tecnologia",
+  "#murcia",
+  "#phishing"
+ ]
+}

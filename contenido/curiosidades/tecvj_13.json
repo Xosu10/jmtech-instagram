@@ -1,0 +1,63 @@
+{
+ "id": "tecvj_13",
+ "serie": "tecvj",
+ "titulo": "La tecnología detrás del videojuego: la hierba y el pelo",
+ "titulo_pantalla": "Tecnología de juegos: la hierba y el pelo",
+ "escenas": [
+  {
+   "texto": "¿Cómo dibuja un juego millones de briznas de hierba?",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "HIERBA",
+    "linea2": "Millones de briznas",
+    "acento": "rosa"
+   }
+  },
+  {
+   "texto": "Dibuja una sola brizna y la repite millones de veces con pequeños cambios. La tarjeta gráfica se encarga de moverlas con el viento.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Una brizna base",
+     "Se repite millones de veces",
+     "El viento las mueve"
+    ]
+   }
+  },
+  {
+   "texto": "Este truco se llama instanciación, y sirve para la hierba, los árboles, el pelo y las multitudes.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En los videojuegos",
+    "titulo": "Instanciación",
+    "acento": "azul",
+    "puntos": [
+     "Hierba y bosques",
+     "Pelo y plumas",
+     "Multitudes"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "Una brizna base.",
+  "Se repite millones de veces.",
+  "Hierba y bosques."
+ ],
+ "fuentes": [
+  "Wikipedia: Instanciación de geometría"
+ ],
+ "hashtags": [
+  "#tecnologiavideojuegos",
+  "#videojuegos",
+  "#gaming",
+  "#curiosidades",
+  "#murcia",
+  "#graficos"
+ ]
+}

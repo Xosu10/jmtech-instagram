@@ -1,0 +1,73 @@
+{
+ "id": "quepasa_10",
+ "serie": "quepasa",
+ "titulo": "¿Qué pasa si haces overclock sin refrigerar bien?",
+ "titulo_pantalla": "¿Qué pasa si…?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si haces overclock sin refrigerar bien?",
+   "imagen": "cpu_calor_aislado_01.png"
+  },
+  {
+   "texto": "Subir la velocidad consume más energía y genera más calor. Si el disipador no da abasto, la temperatura sube demasiado.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Subes la velocidad y el voltaje",
+     "El procesador genera más calor",
+     "La refrigeración no da abasto"
+    ]
+   }
+  },
+  {
+   "texto": "En el mejor caso, el procesador baja su velocidad. En el peor, se acorta su vida útil.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consecuencias",
+    "titulo": "Lo que acabas notando",
+    "acento": "naranja",
+    "puntos": [
+     "Cuelgues e inestabilidad",
+     "El procesador baja su velocidad",
+     "Desgaste prematuro"
+    ]
+   }
+  },
+  {
+   "texto": "Haz overclock solo con buena refrigeración, subidas pequeñas y vigilando temperaturas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Mejor así",
+    "acento": "azul",
+    "puntos": [
+     "Mejora antes la refrigeración",
+     "Sube poco a poco",
+     "Vigila las temperaturas"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te ha pasado? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🤔",
+ "puntos": [
+  "Subes la velocidad y el voltaje.",
+  "Cuelgues e inestabilidad.",
+  "Mejor: mejora antes la refrigeración."
+ ],
+ "fuentes": [
+  "Wikipedia: Overclocking",
+  "Corsair: guía de overclocking"
+ ],
+ "hashtags": [
+  "#quepasasi",
+  "#informatica",
+  "#curiosidades",
+  "#tecnologia",
+  "#murcia",
+  "#overclock"
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "id": "quepasa_18",
+ "serie": "quepasa",
+ "titulo": "¿Qué pasa si te quedas sin espacio en el móvil?",
+ "titulo_pantalla": "¿Qué pasa si…?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si te quedas sin espacio en el móvil?",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "SIN ESPACIO",
+    "linea2": "El móvil casi lleno",
+    "acento": "naranja"
+   }
+  },
+  {
+   "texto": "El móvil necesita espacio libre para trabajar. Cuando está casi lleno, todo va más lento y hay fallos.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "La memoria se llena",
+     "El sistema no puede trabajar con margen",
+     "Todo va más lento"
+    ]
+   }
+  },
+  {
+   "texto": "Dejas de poder hacer fotos, actualizar o descargar, y el sistema se vuelve más lento.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consecuencias",
+    "titulo": "Lo que acabas notando",
+    "acento": "naranja",
+    "puntos": [
+     "Apps que fallan",
+     "No puedes hacer fotos",
+     "No instala actualizaciones"
+    ]
+   }
+  },
+  {
+   "texto": "Borra lo que no uses, pasa fotos a la nube o al ordenador, y revisa las aplicaciones grandes.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Mejor así",
+    "acento": "azul",
+    "puntos": [
+     "Copia las fotos y bórralas del móvil",
+     "Desinstala apps que no uses",
+     "Revisa descargas y mensajes"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te ha pasado? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🤔",
+ "puntos": [
+  "La memoria se llena.",
+  "Apps que fallan.",
+  "Mejor: copia las fotos y bórralas del móvil."
+ ],
+ "fuentes": [
+  "Apple y Google: liberar espacio de almacenamiento"
+ ],
+ "hashtags": [
+  "#quepasasi",
+  "#informatica",
+  "#curiosidades",
+  "#tecnologia",
+  "#murcia",
+  "#movil"
+ ]
+}

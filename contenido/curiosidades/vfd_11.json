@@ -1,0 +1,77 @@
+{
+ "id": "vfd_11",
+ "serie": "vfd",
+ "titulo": "¿Verdadero, falso o depende? Linux no tiene virus",
+ "titulo_pantalla": "¿Verdadero, falso o depende?",
+ "escenas": [
+  {
+   "texto": "¿Verdadero, falso o depende? Linux no tiene virus.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Linux no tiene virus",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es falso. Hay menos, pero existen. Y los engaños para robar contraseñas funcionan en cualquier sistema.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Linux no tiene virus",
+    "revelar": true,
+    "veredicto": "FALSO"
+   }
+  },
+  {
+   "texto": "Es menos atacado en escritorio, pero no es inmune, sobre todo en servidores.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Sí, cuando",
+     "titulo": "Se cumple",
+     "puntos": [
+      "Menos programas maliciosos",
+      "Instalación desde repositorios"
+     ],
+     "acento": "azul"
+    },
+    "der": {
+     "cabecera": "No, cuando",
+     "titulo": "No se cumple",
+     "puntos": [
+      "Engaños por correo o web",
+      "Servidores mal configurados"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos en tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚖️",
+ "puntos": [
+  "Falso: Hay menos, pero existen. Y los engaños para robar contraseñas funcionan en cualquier sistema.",
+  "Menos programas maliciosos",
+  "Engaños por correo o web"
+ ],
+ "fuentes": [
+  "Wikipedia: Seguridad en Linux"
+ ],
+ "hashtags": [
+  "#verdaderofalsoodepende",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#linux"
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "id": "tecvj_14",
+ "serie": "tecvj",
+ "titulo": "La tecnología detrás del videojuego: el día y la noche",
+ "titulo_pantalla": "Tecnología de juegos: el día y la noche",
+ "escenas": [
+  {
+   "texto": "¿Cómo cambian el día, la noche y el tiempo en un juego?",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "DÍA Y NOCHE",
+    "linea2": "Un cielo que cambia",
+    "acento": "rosa"
+   }
+  },
+  {
+   "texto": "El juego mueve el sol y la luna con un reloj interno, y con ellos cambian la luz, el color del cielo y las sombras.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Un reloj interno",
+     "Se mueve el sol y la luna",
+     "Cambian la luz y el cielo"
+    ]
+   }
+  },
+  {
+   "texto": "El clima se genera igual: nubes, lluvia y niebla cambian el aspecto y a veces hasta la forma de jugar.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En los videojuegos",
+    "titulo": "Clima y luz dinámicos",
+    "acento": "azul",
+    "puntos": [
+     "Reloj interno",
+     "Lluvia, nubes y niebla",
+     "Cambia también la jugabilidad"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "Un reloj interno.",
+  "Se mueve el sol y la luna.",
+  "Reloj interno."
+ ],
+ "fuentes": [
+  "Wikipedia: Ciclo día-noche en videojuegos"
+ ],
+ "hashtags": [
+  "#tecnologiavideojuegos",
+  "#videojuegos",
+  "#gaming",
+  "#curiosidades",
+  "#murcia",
+  "#clima"
+ ]
+}

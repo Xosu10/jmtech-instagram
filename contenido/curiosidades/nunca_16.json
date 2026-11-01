@@ -1,0 +1,58 @@
+{
+ "id": "nunca_16",
+ "serie": "nunca",
+ "titulo": "Nunca hagas esto: instalar dos antivirus a la vez",
+ "titulo_pantalla": "Nunca hagas esto",
+ "escenas": [
+  {
+   "texto": "Nunca hagas esto: instalar dos antivirus a la vez.",
+   "imagen": "antivirus_windows_aislado_01.png"
+  },
+  {
+   "texto": "Dos antivirus compiten por analizar los mismos archivos, ralentizan el equipo y pueden bloquearse entre sí.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué es mala idea",
+    "titulo": "Lo que puede pasar",
+    "acento": "rojo",
+    "puntos": [
+     "Se estorban entre sí",
+     "El equipo va más lento",
+     "Pueden dejar huecos de seguridad"
+    ]
+   }
+  },
+  {
+   "texto": "Usa solo uno. Windows ya trae Microsoft Defender, que suele bastar con buenos hábitos.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Deja solo uno",
+     "Defender suele bastar",
+     "Mantén todo actualizado"
+    ]
+   }
+  },
+  {
+   "texto": "¿Ya lo has hecho o tienes dudas? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚫",
+ "puntos": [
+  "Riesgo: se estorban entre sí.",
+  "Riesgo: el equipo va más lento.",
+  "En su lugar: deja solo uno."
+ ],
+ "fuentes": [
+  "Microsoft: seguridad de Windows y Defender"
+ ],
+ "hashtags": [
+  "#nuncahagasesto",
+  "#informatica",
+  "#consejos",
+  "#tecnologia",
+  "#murcia",
+  "#antivirus"
+ ]
+}

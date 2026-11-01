@@ -1,0 +1,77 @@
+{
+ "id": "vfd_09",
+ "serie": "vfd",
+ "titulo": "¿Verdadero, falso o depende? Los móviles de gama alta duran más",
+ "titulo_pantalla": "¿Verdadero, falso o depende?",
+ "escenas": [
+  {
+   "texto": "¿Verdadero, falso o depende? Los móviles de gama alta duran más.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Los móviles de gama alta duran más",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Depende. Suelen tener mejores materiales y más años de actualizaciones, pero la batería se desgasta igual.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Los móviles de gama alta duran más",
+    "revelar": true,
+    "veredicto": "DEPENDE"
+   }
+  },
+  {
+   "texto": "Duran más en actualizaciones y calidad, y no necesariamente más en batería.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Sí, cuando",
+     "titulo": "Se cumple",
+     "puntos": [
+      "Más años de actualizaciones",
+      "Mejores materiales"
+     ],
+     "acento": "azul"
+    },
+    "der": {
+     "cabecera": "No, cuando",
+     "titulo": "No se cumple",
+     "puntos": [
+      "La batería se gasta igual",
+      "Si se cae, se rompe igual"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos en tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚖️",
+ "puntos": [
+  "Depende: Suelen tener mejores materiales y más años de actualizaciones, pero la batería se desgasta igual.",
+  "Más años de actualizaciones",
+  "La batería se gasta igual"
+ ],
+ "fuentes": [
+  "Wikipedia: Teléfono inteligente"
+ ],
+ "hashtags": [
+  "#verdaderofalsoodepende",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#movil"
+ ]
+}

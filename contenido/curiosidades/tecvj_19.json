@@ -1,0 +1,63 @@
+{
+ "id": "tecvj_19",
+ "serie": "tecvj",
+ "titulo": "La tecnología detrás del videojuego: los sistemas anti trampas",
+ "titulo_pantalla": "Tecnología de juegos: los sistemas anti trampas",
+ "escenas": [
+  {
+   "texto": "¿Cómo sabe un juego online que alguien está haciendo trampas?",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "ANTI TRAMPAS",
+    "linea2": "Vigilan que juegues limpio",
+    "acento": "rosa"
+   }
+  },
+  {
+   "texto": "Combinan programas que vigilan tu equipo, análisis del servidor, que detecta comportamientos imposibles, y reportes de otros jugadores.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Vigilan el equipo",
+     "El servidor busca lo imposible",
+     "Cuentan los reportes de jugadores"
+    ]
+   }
+  },
+  {
+   "texto": "Algunos sistemas se instalan a un nivel muy profundo del sistema, y por eso generan debate sobre la privacidad.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En los videojuegos",
+    "titulo": "Un juego de ratón y gato",
+    "acento": "azul",
+    "puntos": [
+     "Programas de vigilancia",
+     "Análisis en el servidor",
+     "Debate sobre la privacidad"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "Vigilan el equipo.",
+  "El servidor busca lo imposible.",
+  "Programas de vigilancia."
+ ],
+ "fuentes": [
+  "Wikipedia: Sistema anti trampas"
+ ],
+ "hashtags": [
+  "#tecnologiavideojuegos",
+  "#videojuegos",
+  "#gaming",
+  "#curiosidades",
+  "#murcia",
+  "#anticheat"
+ ]
+}

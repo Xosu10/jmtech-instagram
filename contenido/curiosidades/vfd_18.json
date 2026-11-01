@@ -1,0 +1,78 @@
+{
+ "id": "vfd_18",
+ "serie": "vfd",
+ "titulo": "¿Verdadero, falso o depende? El 5G es más rápido que la fibra",
+ "titulo_pantalla": "¿Verdadero, falso o depende?",
+ "escenas": [
+  {
+   "texto": "¿Verdadero, falso o depende? El 5G es más rápido que la fibra.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "El 5G es más rápido que la fibra",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Depende. En el mejor de los casos puede ser muy rápido, pero la fibra suele ser más estable y consistente.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "El 5G es más rápido que la fibra",
+    "revelar": true,
+    "veredicto": "DEPENDE"
+   }
+  },
+  {
+   "texto": "El 5G depende de la cobertura y de cuánta gente la use. La fibra da una velocidad más constante.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Sí, cuando",
+     "titulo": "Se cumple",
+     "puntos": [
+      "Buena cobertura y poca gente",
+      "No tienes fibra"
+     ],
+     "acento": "azul"
+    },
+    "der": {
+     "cabecera": "No, cuando",
+     "titulo": "No se cumple",
+     "puntos": [
+      "Zonas con poca cobertura",
+      "Muchos usuarios a la vez"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos en tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚖️",
+ "puntos": [
+  "Depende: En el mejor de los casos puede ser muy rápido, pero la fibra suele ser más estable y consistente.",
+  "Buena cobertura y poca gente",
+  "Zonas con poca cobertura"
+ ],
+ "fuentes": [
+  "Wikipedia: 5G",
+  "Wikipedia: Fibra óptica"
+ ],
+ "hashtags": [
+  "#verdaderofalsoodepende",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#5g"
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "id": "vfd_05",
+ "serie": "vfd",
+ "titulo": "¿Verdadero, falso o depende? El wifi 6 siempre es más rápido que el wifi 5",
+ "titulo_pantalla": "¿Verdadero, falso o depende?",
+ "escenas": [
+  {
+   "texto": "¿Verdadero, falso o depende? El wifi 6 siempre es más rápido que el wifi 5.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "El wifi 6 siempre es más rápido que el wifi 5",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Depende. Necesitas un router y un dispositivo compatibles, y que tu conexión a internet pueda aprovecharlo.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "El wifi 6 siempre es más rápido que el wifi 5",
+    "revelar": true,
+    "veredicto": "DEPENDE"
+   }
+  },
+  {
+   "texto": "Es más rápido cuando todos los elementos lo admiten, y apenas cambia si alguno se queda en la versión anterior.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Sí, cuando",
+     "titulo": "Se cumple",
+     "puntos": [
+      "Router y dispositivo compatibles",
+      "Hay muchos aparatos conectados"
+     ],
+     "acento": "azul"
+    },
+    "der": {
+     "cabecera": "No, cuando",
+     "titulo": "No se cumple",
+     "puntos": [
+      "Tu móvil o PC es antiguo",
+      "Tu contratación de internet es lenta"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos en tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚖️",
+ "puntos": [
+  "Depende: Necesitas un router y un dispositivo compatibles, y que tu conexión a internet pueda aprovecharlo.",
+  "Router y dispositivo compatibles",
+  "Tu móvil o PC es antiguo"
+ ],
+ "fuentes": [
+  "Wikipedia: Wi-Fi 6"
+ ],
+ "hashtags": [
+  "#verdaderofalsoodepende",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#wifi"
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "id": "quepasa_05",
+ "serie": "quepasa",
+ "titulo": "¿Qué pasa si dejas el móvil al sol en el coche?",
+ "titulo_pantalla": "¿Qué pasa si…?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si dejas el móvil al sol en el coche?",
+   "imagen": "movil_salpicadero_sol_aislado_01.png"
+  },
+  {
+   "texto": "Un coche al sol se calienta muchísimo por dentro. El móvil sube de temperatura y se protege apagándose o reduciendo la batería.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El interior del coche se calienta mucho",
+     "El móvil sube de temperatura",
+     "Se apaga o limita la carga para protegerse"
+    ]
+   }
+  },
+  {
+   "texto": "Con calor extremo, la batería envejece mucho más rápido y puede llegar a hincharse.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consecuencias",
+    "titulo": "Lo que acabas notando",
+    "acento": "naranja",
+    "puntos": [
+     "La pantalla se oscurece o se apaga",
+     "Se desgasta la batería",
+     "Riesgo de hinchazón"
+    ]
+   }
+  },
+  {
+   "texto": "No lo dejes en el coche al sol, y si se calienta, déjalo enfriar antes de cargarlo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Mejor así",
+    "acento": "azul",
+    "puntos": [
+     "No lo dejes al sol",
+     "Déjalo enfriar",
+     "No lo cargues si está muy caliente"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te ha pasado? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🤔",
+ "puntos": [
+  "El interior del coche se calienta mucho.",
+  "La pantalla se oscurece o se apaga.",
+  "Mejor: no lo dejes al sol."
+ ],
+ "fuentes": [
+  "Apple: temperaturas de uso recomendadas",
+  "Wikipedia: Batería de ion de litio"
+ ],
+ "hashtags": [
+  "#quepasasi",
+  "#informatica",
+  "#curiosidades",
+  "#tecnologia",
+  "#murcia",
+  "#movil"
+ ]
+}

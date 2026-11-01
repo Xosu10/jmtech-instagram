@@ -1,0 +1,77 @@
+{
+ "id": "vfd_19",
+ "serie": "vfd",
+ "titulo": "¿Verdadero, falso o depende? Formatear el PC lo deja como nuevo",
+ "titulo_pantalla": "¿Verdadero, falso o depende?",
+ "escenas": [
+  {
+   "texto": "¿Verdadero, falso o depende? Formatear el PC lo deja como nuevo.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Formatear el PC lo deja como nuevo",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Depende. Quita el software acumulado, pero no arregla un hardware viejo ni un disco duro lento.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Formatear el PC lo deja como nuevo",
+    "revelar": true,
+    "veredicto": "DEPENDE"
+   }
+  },
+  {
+   "texto": "Mejora un PC lento por software y no hace nada si la causa es la parte física.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Sí, cuando",
+     "titulo": "Se cumple",
+     "puntos": [
+      "El problema era software",
+      "Mucha basura acumulada"
+     ],
+     "acento": "azul"
+    },
+    "der": {
+     "cabecera": "No, cuando",
+     "titulo": "No se cumple",
+     "puntos": [
+      "El disco duro es viejo",
+      "Falla una pieza"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos en tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚖️",
+ "puntos": [
+  "Depende: Quita el software acumulado, pero no arregla un hardware viejo ni un disco duro lento.",
+  "El problema era software",
+  "El disco duro es viejo"
+ ],
+ "fuentes": [
+  "Microsoft: restablecer el PC"
+ ],
+ "hashtags": [
+  "#verdaderofalsoodepende",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#windows"
+ ]
+}

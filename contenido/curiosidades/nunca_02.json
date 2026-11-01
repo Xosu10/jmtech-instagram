@@ -1,0 +1,59 @@
+{
+ "id": "nunca_02",
+ "serie": "nunca",
+ "titulo": "Nunca hagas esto: limpiar el PC con un aspirador",
+ "titulo_pantalla": "Nunca hagas esto",
+ "escenas": [
+  {
+   "texto": "Nunca hagas esto: limpiar el PC con un aspirador.",
+   "imagen": "aspirador_placa_base_aislado_01.png"
+  },
+  {
+   "texto": "El aspirador genera electricidad estática, que puede dañar los componentes, y su succión puede hacer girar los ventiladores demasiado rápido.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué es mala idea",
+    "titulo": "Lo que puede pasar",
+    "acento": "rojo",
+    "puntos": [
+     "Estática que daña componentes",
+     "Ventiladores que giran de más",
+     "Puede arrancar piezas pequeñas"
+    ]
+   }
+  },
+  {
+   "texto": "Usa aire a presión en ráfagas cortas, sujeta el ventilador para que no gire, y ayúdate de una brocha suave.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Apaga y desenchufa",
+     "Aire a presión en ráfagas cortas",
+     "Sujeta el ventilador y usa brocha"
+    ]
+   }
+  },
+  {
+   "texto": "¿Ya lo has hecho o tienes dudas? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚫",
+ "puntos": [
+  "Riesgo: estática que daña componentes.",
+  "Riesgo: ventiladores que giran de más.",
+  "En su lugar: apaga y desenchufa."
+ ],
+ "fuentes": [
+  "Corsair: cómo limpiar tu PC",
+  "Wikipedia: Descarga electrostática"
+ ],
+ "hashtags": [
+  "#nuncahagasesto",
+  "#informatica",
+  "#consejos",
+  "#tecnologia",
+  "#murcia",
+  "#limpieza"
+ ]
+}

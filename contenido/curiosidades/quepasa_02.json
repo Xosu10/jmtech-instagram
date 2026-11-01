@@ -1,0 +1,73 @@
+{
+ "id": "quepasa_02",
+ "serie": "quepasa",
+ "titulo": "¿Qué pasa si enciendes un PC sin el disipador del procesador?",
+ "titulo_pantalla": "¿Qué pasa si…?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si enciendes un PC sin el disipador del procesador?",
+   "imagen": "cpu_calor_aislado_01.png"
+  },
+  {
+   "texto": "El procesador no tiene por dónde soltar el calor, y la temperatura se dispara en pocos segundos. Los modelos actuales se apagan solos para protegerse.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El procesador no puede soltar calor",
+     "La temperatura se dispara en segundos",
+     "La protección apaga el equipo"
+    ]
+   }
+  },
+  {
+   "texto": "Casi siempre se apaga antes de romperse, pero si falla la protección, el daño puede ser permanente.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consecuencias",
+    "titulo": "Lo que acabas notando",
+    "acento": "naranja",
+    "puntos": [
+     "Apagado inmediato",
+     "Riesgo de daño si no actúa la protección",
+     "Posibles fallos posteriores"
+    ]
+   }
+  },
+  {
+   "texto": "Nunca lo enciendas sin disipador, ni siquiera unos segundos para probar.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Mejor así",
+    "acento": "azul",
+    "puntos": [
+     "Monta siempre el disipador",
+     "Con su pasta térmica",
+     "Comprueba la temperatura al arrancar"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te ha pasado? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🤔",
+ "puntos": [
+  "El procesador no puede soltar calor.",
+  "Apagado inmediato.",
+  "Mejor: monta siempre el disipador."
+ ],
+ "fuentes": [
+  "Wikipedia: Estrangulamiento térmico",
+  "Intel y AMD: protección térmica de procesadores"
+ ],
+ "hashtags": [
+  "#quepasasi",
+  "#informatica",
+  "#curiosidades",
+  "#tecnologia",
+  "#murcia",
+  "#procesador"
+ ]
+}

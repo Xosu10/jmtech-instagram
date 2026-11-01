@@ -1,0 +1,58 @@
+{
+ "id": "tecvj_09",
+ "serie": "tecvj",
+ "titulo": "La tecnología detrás del videojuego: jugar desde la nube",
+ "titulo_pantalla": "Tecnología de juegos: jugar desde la nube",
+ "escenas": [
+  {
+   "texto": "¿Cómo se juega a un videojuego que no está en tu equipo?",
+   "imagen": "nube_vs_local_aislado_01.png"
+  },
+  {
+   "texto": "El juego se ejecuta en un servidor potente. Allí se genera el vídeo, te lo envían por internet, y tus pulsaciones viajan de vuelta.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El juego corre en un servidor",
+     "Te envían el vídeo",
+     "Tus pulsaciones viajan de vuelta"
+    ]
+   }
+  },
+  {
+   "texto": "Necesitas buena conexión y poca latencia, pero no hace falta un equipo potente.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En los videojuegos",
+    "titulo": "Videojuego en la nube",
+    "acento": "azul",
+    "puntos": [
+     "No hace falta equipo potente",
+     "Necesita buena conexión",
+     "La latencia importa mucho"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "El juego corre en un servidor.",
+  "Te envían el vídeo.",
+  "No hace falta equipo potente."
+ ],
+ "fuentes": [
+  "Wikipedia: Juego en la nube"
+ ],
+ "hashtags": [
+  "#tecnologiavideojuegos",
+  "#videojuegos",
+  "#gaming",
+  "#curiosidades",
+  "#murcia",
+  "#cloudgaming"
+ ]
+}

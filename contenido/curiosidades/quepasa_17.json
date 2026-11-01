@@ -1,0 +1,73 @@
+{
+ "id": "quepasa_17",
+ "serie": "quepasa",
+ "titulo": "¿Qué pasa si usas un cable HDMI antiguo con un monitor de alta frecuencia?",
+ "titulo_pantalla": "¿Qué pasa si…?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si usas un cable HDMI antiguo con un monitor de alta frecuencia?",
+   "imagen": "monitor_144hz_aislado_01.png"
+  },
+  {
+   "texto": "Un cable antiguo no puede llevar tantos datos, así que el monitor se limita a menos imágenes por segundo.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El cable no admite tantos datos",
+     "La imagen se limita a menos imágenes por segundo",
+     "No aprovechas el monitor"
+    ]
+   }
+  },
+  {
+   "texto": "Pagas por un monitor rápido, y el cable te lo frena sin que lo notes.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consecuencias",
+    "titulo": "Lo que acabas notando",
+    "acento": "naranja",
+    "puntos": [
+     "Menos FPS que los esperados",
+     "Resolución limitada",
+     "Parpadeos o fallos"
+    ]
+   }
+  },
+  {
+   "texto": "Usa un cable DisplayPort o HDMI moderno, y activa la frecuencia en Windows.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Mejor así",
+    "acento": "azul",
+    "puntos": [
+     "Cable moderno",
+     "Frecuencia activada en Windows",
+     "Puerto compatible en la gráfica"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te ha pasado? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🤔",
+ "puntos": [
+  "El cable no admite tantos datos.",
+  "Menos FPS que los esperados.",
+  "Mejor: cable moderno."
+ ],
+ "fuentes": [
+  "Wikipedia: HDMI",
+  "Wikipedia: DisplayPort"
+ ],
+ "hashtags": [
+  "#quepasasi",
+  "#informatica",
+  "#curiosidades",
+  "#tecnologia",
+  "#murcia",
+  "#monitor"
+ ]
+}

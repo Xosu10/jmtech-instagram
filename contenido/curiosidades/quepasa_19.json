@@ -1,0 +1,78 @@
+{
+ "id": "quepasa_19",
+ "serie": "quepasa",
+ "titulo": "¿Qué pasa si se va la luz mientras actualizas la BIOS?",
+ "titulo_pantalla": "¿Qué pasa si…?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si se va la luz mientras actualizas la BIOS?",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "SIN LUZ",
+    "linea2": "En plena actualización de la BIOS",
+    "acento": "naranja"
+   }
+  },
+  {
+   "texto": "Si se corta la corriente a mitad, la BIOS queda a medias y la placa puede no arrancar.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "La actualización se queda a medias",
+     "La BIOS queda dañada",
+     "La placa no arranca"
+    ]
+   }
+  },
+  {
+   "texto": "Algunas placas tienen BIOS doble o recuperación, pero otras quedan inservibles.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consecuencias",
+    "titulo": "Lo que acabas notando",
+    "acento": "naranja",
+    "puntos": [
+     "La placa no arranca",
+     "Hay que reprogramar el chip",
+     "A veces, placa nueva"
+    ]
+   }
+  },
+  {
+   "texto": "Actualiza solo si es necesario, con el equipo enchufado a un SAI o con la batería cargada.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Mejor así",
+    "acento": "azul",
+    "puntos": [
+     "Actualiza solo si hace falta",
+     "Con alimentación estable",
+     "Sigue las instrucciones del fabricante"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te ha pasado? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🤔",
+ "puntos": [
+  "La actualización se queda a medias.",
+  "La placa no arranca.",
+  "Mejor: actualiza solo si hace falta."
+ ],
+ "fuentes": [
+  "Wikipedia: BIOS",
+  "Wikipedia: Sistema de alimentación ininterrumpida"
+ ],
+ "hashtags": [
+  "#quepasasi",
+  "#informatica",
+  "#curiosidades",
+  "#tecnologia",
+  "#murcia",
+  "#bios"
+ ]
+}

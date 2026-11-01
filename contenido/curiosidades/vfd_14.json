@@ -1,0 +1,78 @@
+{
+ "id": "vfd_14",
+ "serie": "vfd",
+ "titulo": "¿Verdadero, falso o depende? Los SSD se estropean pronto por escribir tanto",
+ "titulo_pantalla": "¿Verdadero, falso o depende?",
+ "escenas": [
+  {
+   "texto": "¿Verdadero, falso o depende? Los SSD se estropean pronto por escribir tanto.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Los SSD se estropean pronto por escribir tanto",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es falso. Los SSD actuales soportan cantidades enormes de escritura. En uso normal, duran muchos años.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Los SSD se estropean pronto por escribir tanto",
+    "revelar": true,
+    "veredicto": "FALSO"
+   }
+  },
+  {
+   "texto": "Lo que sí desgasta es un uso intensivo continuo, como servidores o edición muy pesada.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Sí, cuando",
+     "titulo": "Se cumple",
+     "puntos": [
+      "Uso de oficina y juegos",
+      "Un SSD con espacio libre"
+     ],
+     "acento": "azul"
+    },
+    "der": {
+     "cabecera": "No, cuando",
+     "titulo": "No se cumple",
+     "puntos": [
+      "Servidores y edición continua",
+      "SSD muy lleno siempre"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos en tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚖️",
+ "puntos": [
+  "Falso: Los SSD actuales soportan cantidades enormes de escritura. En uso normal, duran muchos años.",
+  "Uso de oficina y juegos",
+  "Servidores y edición continua"
+ ],
+ "fuentes": [
+  "Wikipedia: Unidad de estado sólido",
+  "Wikipedia: TBW"
+ ],
+ "hashtags": [
+  "#verdaderofalsoodepende",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#ssd"
+ ]
+}

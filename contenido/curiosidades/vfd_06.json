@@ -1,0 +1,77 @@
+{
+ "id": "vfd_06",
+ "serie": "vfd",
+ "titulo": "¿Verdadero, falso o depende? Un monitor de 144 hercios mejora tu juego",
+ "titulo_pantalla": "¿Verdadero, falso o depende?",
+ "escenas": [
+  {
+   "texto": "¿Verdadero, falso o depende? Un monitor de 144 hercios mejora tu juego.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Un monitor de 144 hercios mejora tu juego",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Depende. Solo si tu equipo da más de sesenta imágenes por segundo, y el monitor está bien configurado.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Un monitor de 144 hercios mejora tu juego",
+    "revelar": true,
+    "veredicto": "DEPENDE"
+   }
+  },
+  {
+   "texto": "Se nota mucho con juegos rápidos y un equipo potente. Si tu equipo da sesenta, es dinero que no aprovechas.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Sí, cuando",
+     "titulo": "Se cumple",
+     "puntos": [
+      "Tu equipo da más de 60 FPS",
+      "Juegas a juegos rápidos"
+     ],
+     "acento": "azul"
+    },
+    "der": {
+     "cabecera": "No, cuando",
+     "titulo": "No se cumple",
+     "puntos": [
+      "Tu equipo da 60 FPS",
+      "No lo activas en Windows"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos en tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚖️",
+ "puntos": [
+  "Depende: Solo si tu equipo da más de sesenta imágenes por segundo, y el monitor está bien configurado.",
+  "Tu equipo da más de 60 FPS",
+  "Tu equipo da 60 FPS"
+ ],
+ "fuentes": [
+  "Wikipedia: Frecuencia de actualización"
+ ],
+ "hashtags": [
+  "#verdaderofalsoodepende",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#monitor"
+ ]
+}

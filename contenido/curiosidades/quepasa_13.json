@@ -1,0 +1,73 @@
+{
+ "id": "quepasa_13",
+ "serie": "quepasa",
+ "titulo": "¿Qué pasa si instalas Linux en un ordenador viejo?",
+ "titulo_pantalla": "¿Qué pasa si…?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si instalas Linux en un ordenador viejo?",
+   "imagen": "pc_antiguo_mejora_aislado_01.png"
+  },
+  {
+   "texto": "Las versiones ligeras de Linux necesitan menos memoria y procesador que Windows, así que un equipo viejo suele ir más ágil.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Instalas una versión ligera",
+     "El sistema usa menos recursos",
+     "El equipo vuelve a ir fluido"
+    ]
+   }
+  },
+  {
+   "texto": "Es ideal para navegar, ofimática y vídeo, pero algunos programas y juegos de Windows no funcionan igual.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consecuencias",
+    "titulo": "Lo que acabas notando",
+    "acento": "naranja",
+    "puntos": [
+     "Arranca mucho más rápido",
+     "Recibe actualizaciones de seguridad",
+     "No pagas licencia"
+    ]
+   }
+  },
+  {
+   "texto": "Pruébalo desde un pendrive antes de instalar, y haz copia de tus archivos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Mejor así",
+    "acento": "azul",
+    "puntos": [
+     "Pruébalo desde un pendrive",
+     "Haz copia de tus archivos",
+     "Elige una versión ligera"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te ha pasado? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🤔",
+ "puntos": [
+  "Instalas una versión ligera.",
+  "Arranca mucho más rápido.",
+  "Mejor: pruébalo desde un pendrive."
+ ],
+ "fuentes": [
+  "Wikipedia: Linux",
+  "Wikipedia: Distribución Linux"
+ ],
+ "hashtags": [
+  "#quepasasi",
+  "#informatica",
+  "#curiosidades",
+  "#tecnologia",
+  "#murcia",
+  "#linux"
+ ]
+}

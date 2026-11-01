@@ -1,0 +1,63 @@
+{
+ "id": "nunca_19",
+ "serie": "nunca",
+ "titulo": "Nunca hagas esto: mover un PC con disco duro mientras está encendido",
+ "titulo_pantalla": "Nunca hagas esto",
+ "escenas": [
+  {
+   "texto": "Nunca hagas esto: mover un PC con disco duro mientras está encendido.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "EN MARCHA",
+    "linea2": "No lo muevas",
+    "acento": "rosa"
+   }
+  },
+  {
+   "texto": "Un golpe o una sacudida con el disco funcionando puede hacer que las cabezas rocen el plato y dañen los datos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué es mala idea",
+    "titulo": "Lo que puede pasar",
+    "acento": "rojo",
+    "puntos": [
+     "Las cabezas pueden rozar el plato",
+     "Daño físico a los datos",
+     "Puede ser irrecuperable"
+    ]
+   }
+  },
+  {
+   "texto": "Apaga el equipo antes de moverlo, espera a que se detengan los ventiladores y transpórtalo con cuidado.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Apaga el equipo",
+     "Espera a que se pare todo",
+     "Muévelo con cuidado"
+    ]
+   }
+  },
+  {
+   "texto": "¿Ya lo has hecho o tienes dudas? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚫",
+ "puntos": [
+  "Riesgo: las cabezas pueden rozar el plato.",
+  "Riesgo: daño físico a los datos.",
+  "En su lugar: apaga el equipo."
+ ],
+ "fuentes": [
+  "Wikipedia: Unidad de disco duro"
+ ],
+ "hashtags": [
+  "#nuncahagasesto",
+  "#informatica",
+  "#consejos",
+  "#tecnologia",
+  "#murcia",
+  "#discoduro"
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "id": "nunca_01",
+ "serie": "nunca",
+ "titulo": "Nunca hagas esto: conectar los cables modulares de otra fuente de alimentación",
+ "titulo_pantalla": "Nunca hagas esto",
+ "escenas": [
+  {
+   "texto": "Nunca hagas esto: conectar los cables modulares de otra fuente de alimentación.",
+   "imagen": "cables_modulares_fuente_aislado_01.png"
+  },
+  {
+   "texto": "Cada fabricante, e incluso cada modelo, cambia la posición de los cables en el conector. Si no coincide, puedes quemar la placa, la gráfica o los discos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué es mala idea",
+    "titulo": "Lo que puede pasar",
+    "acento": "rojo",
+    "puntos": [
+     "Los pines cambian entre marcas y modelos",
+     "Puedes quemar placa, gráfica o discos",
+     "La pérdida puede ser total"
+    ]
+   }
+  },
+  {
+   "texto": "Usa siempre los cables que vienen con tu fuente, o los oficiales de ese modelo exacto. Si pierdes uno, pídelo al fabricante.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Usa los cables de tu fuente",
+     "Si falta uno, pide el oficial de tu modelo",
+     "Ante la duda, no lo conectes"
+    ]
+   }
+  },
+  {
+   "texto": "¿Ya lo has hecho o tienes dudas? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚫",
+ "puntos": [
+  "Riesgo: los pines cambian entre marcas y modelos.",
+  "Riesgo: puedes quemar placa, gráfica o discos.",
+  "En su lugar: usa los cables de tu fuente."
+ ],
+ "fuentes": [
+  "Corsair: compatibilidad de cables de fuentes modulares",
+  "Wikipedia: Fuente de alimentación"
+ ],
+ "hashtags": [
+  "#nuncahagasesto",
+  "#informatica",
+  "#consejos",
+  "#tecnologia",
+  "#murcia",
+  "#fuentealimentacion"
+ ]
+}

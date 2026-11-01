@@ -1,0 +1,58 @@
+{
+ "id": "nunca_10",
+ "serie": "nunca",
+ "titulo": "Nunca hagas esto: usar el portátil sobre la cama",
+ "titulo_pantalla": "Nunca hagas esto",
+ "escenas": [
+  {
+   "texto": "Nunca hagas esto: usar el portátil sobre la cama.",
+   "imagen": "portatil_sobre_cama_aislado_01.png"
+  },
+  {
+   "texto": "Las mantas y los edredones tapan las rejillas de ventilación, el portátil se calienta de más y puede ralentizarse o apagarse.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué es mala idea",
+    "titulo": "Lo que puede pasar",
+    "acento": "rojo",
+    "puntos": [
+     "Se tapan las rejillas",
+     "Sube la temperatura",
+     "Va más lento y se desgasta"
+    ]
+   }
+  },
+  {
+   "texto": "Úsalo sobre una superficie dura y plana, o con una base elevadora que deje respirar al equipo.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Superficie dura y plana",
+     "O una base elevadora",
+     "Limpia las rejillas de vez en cuando"
+    ]
+   }
+  },
+  {
+   "texto": "¿Ya lo has hecho o tienes dudas? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚫",
+ "puntos": [
+  "Riesgo: se tapan las rejillas.",
+  "Riesgo: sube la temperatura.",
+  "En su lugar: superficie dura y plana."
+ ],
+ "fuentes": [
+  "Corsair: refrigeración de portátiles"
+ ],
+ "hashtags": [
+  "#nuncahagasesto",
+  "#informatica",
+  "#consejos",
+  "#tecnologia",
+  "#murcia",
+  "#portatil"
+ ]
+}

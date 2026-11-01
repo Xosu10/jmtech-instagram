@@ -1,0 +1,58 @@
+{
+ "id": "tecvj_10",
+ "serie": "tecvj",
+ "titulo": "La tecnología detrás del videojuego: la animación con huesos",
+ "titulo_pantalla": "Tecnología de juegos: la animación con huesos",
+ "escenas": [
+  {
+   "texto": "¿Cómo se mueve un personaje en un videojuego?",
+   "imagen": "captura_movimiento_aislado_01.png"
+  },
+  {
+   "texto": "Cada personaje lleva dentro un esqueleto de huesos. Se mueven los huesos, y la piel y la ropa los siguen.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Tiene un esqueleto interno",
+     "Se mueven los huesos",
+     "La piel y la ropa los siguen"
+    ]
+   }
+  },
+  {
+   "texto": "Estas animaciones pueden grabarse con captura de movimiento o crearse a mano, y se mezclan según lo que hagas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En los videojuegos",
+    "titulo": "Animación esquelética",
+    "acento": "azul",
+    "puntos": [
+     "Captura de movimiento",
+     "Animación a mano",
+     "Se mezclan en tiempo real"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "Tiene un esqueleto interno.",
+  "Se mueven los huesos.",
+  "Captura de movimiento."
+ ],
+ "fuentes": [
+  "Wikipedia: Animación esquelética"
+ ],
+ "hashtags": [
+  "#tecnologiavideojuegos",
+  "#videojuegos",
+  "#gaming",
+  "#curiosidades",
+  "#murcia",
+  "#animacion"
+ ]
+}

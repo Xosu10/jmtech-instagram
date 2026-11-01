@@ -1,0 +1,77 @@
+{
+ "id": "vfd_15",
+ "serie": "vfd",
+ "titulo": "¿Verdadero, falso o depende? Los antivirus ralentizan el PC",
+ "titulo_pantalla": "¿Verdadero, falso o depende?",
+ "escenas": [
+  {
+   "texto": "¿Verdadero, falso o depende? Los antivirus ralentizan el PC.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Los antivirus ralentizan el PC",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Depende. Los buenos pesan poco. Los que cargan muchas funciones extra o los que se duplican sí lo notan.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Los antivirus ralentizan el PC",
+    "revelar": true,
+    "veredicto": "DEPENDE"
+   }
+  },
+  {
+   "texto": "Un antivirus ligero apenas se nota. Dos antivirus a la vez, sí.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Sí, cuando",
+     "titulo": "Se cumple",
+     "puntos": [
+      "Antivirus con muchas funciones",
+      "Dos antivirus a la vez"
+     ],
+     "acento": "azul"
+    },
+    "der": {
+     "cabecera": "No, cuando",
+     "titulo": "No se cumple",
+     "puntos": [
+      "Antivirus ligero",
+      "Defender de Windows"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos en tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚖️",
+ "puntos": [
+  "Depende: Los buenos pesan poco. Los que cargan muchas funciones extra o los que se duplican sí lo notan.",
+  "Antivirus con muchas funciones",
+  "Antivirus ligero"
+ ],
+ "fuentes": [
+  "Microsoft: seguridad de Windows"
+ ],
+ "hashtags": [
+  "#verdaderofalsoodepende",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#antivirus"
+ ]
+}

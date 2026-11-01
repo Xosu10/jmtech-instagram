@@ -474,8 +474,8 @@ def _veredicto(t, dur, params):
     """«¿Mito o realidad?»: la afirmación y, al revelarla, un sello grande con el veredicto."""
     p = t / max(dur, 0.01)
     im, d = _lienzo()
-    colores = {"MITO": ROJO, "REALIDAD": BLUE, "A MEDIAS": NARANJA}
-    _texto(d, (ANCHO / 2, 55), "¿MITO O REALIDAD?", font("Bold", 52), NARANJA, 1.0)
+    colores = {"MITO": ROJO, "REALIDAD": BLUE, "A MEDIAS": NARANJA, "VERDADERO": BLUE, "FALSO": ROJO, "DEPENDE": NARANJA}
+    _texto(d, (ANCHO / 2, 55), params.get("cabecera", "¿MITO O REALIDAD?"), font("Bold", 52), NARANJA, 1.0)
     _tarjeta_base(d, 20, 110, 920, 340, (90, 110, 160), 1.0)
     _texto_multilinea(d, ANCHO / 2, 225, "«" + params["afirmacion"] + "»", font("Bold", 40), BLANCO, _paso(p, 0.0, 0.2), 820, 52, "mm")
     if not params.get("revelar"):

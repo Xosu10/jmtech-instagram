@@ -1,0 +1,63 @@
+{
+ "id": "tecvj_04",
+ "serie": "tecvj",
+ "titulo": "La tecnología detrás del videojuego: los shaders",
+ "titulo_pantalla": "Tecnología de juegos: los shaders",
+ "escenas": [
+  {
+   "texto": "¿Quién decide el color de cada punto de la pantalla en un videojuego?",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "SHADERS",
+    "linea2": "El color de cada píxel",
+    "acento": "rosa"
+   }
+  },
+  {
+   "texto": "Los shaders son pequeños programas que se ejecutan en la tarjeta gráfica y calculan el color de cada píxel, según la luz, el material y la cámara.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Cada píxel pasa por un programa",
+     "Se calcula luz, material y cámara",
+     "Resulta el color final"
+    ]
+   }
+  },
+  {
+   "texto": "Con ellos se crean el agua, el metal, la piel, el humo o los reflejos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En los videojuegos",
+    "titulo": "Programas en la gráfica",
+    "acento": "azul",
+    "puntos": [
+     "Agua y metal",
+     "Piel y humo",
+     "Reflejos y sombras"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "Cada píxel pasa por un programa.",
+  "Se calcula luz, material y cámara.",
+  "Agua y metal."
+ ],
+ "fuentes": [
+  "Wikipedia: Shader"
+ ],
+ "hashtags": [
+  "#tecnologiavideojuegos",
+  "#videojuegos",
+  "#gaming",
+  "#curiosidades",
+  "#murcia",
+  "#shaders"
+ ]
+}

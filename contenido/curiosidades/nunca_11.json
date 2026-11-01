@@ -1,0 +1,59 @@
+{
+ "id": "nunca_11",
+ "serie": "nunca",
+ "titulo": "Nunca hagas esto: acercar imanes potentes a un disco duro",
+ "titulo_pantalla": "Nunca hagas esto",
+ "escenas": [
+  {
+   "texto": "Nunca hagas esto: acercar imanes potentes a un disco duro.",
+   "imagen": "iman_disco_duro_aislado_01.png"
+  },
+  {
+   "texto": "Un imán muy potente puede alterar los datos de un disco duro mecánico. En un SSD no afecta, pero no hay motivo para arriesgarse.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué es mala idea",
+    "titulo": "Lo que puede pasar",
+    "acento": "rojo",
+    "puntos": [
+     "Puede alterar datos del disco",
+     "Afecta a discos mecánicos",
+     "El daño puede no tener vuelta atrás"
+    ]
+   }
+  },
+  {
+   "texto": "Aleja imanes potentes de discos duros y haz copia de seguridad de lo importante.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Imanes fuera del disco",
+     "Haz copia de seguridad",
+     "Guarda los discos en sitio seguro"
+    ]
+   }
+  },
+  {
+   "texto": "¿Ya lo has hecho o tienes dudas? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚫",
+ "puntos": [
+  "Riesgo: puede alterar datos del disco.",
+  "Riesgo: afecta a discos mecánicos.",
+  "En su lugar: imanes fuera del disco."
+ ],
+ "fuentes": [
+  "Wikipedia: Unidad de disco duro",
+  "Wikipedia: Desmagnetización"
+ ],
+ "hashtags": [
+  "#nuncahagasesto",
+  "#informatica",
+  "#consejos",
+  "#tecnologia",
+  "#murcia",
+  "#discoduro"
+ ]
+}

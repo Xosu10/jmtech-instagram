@@ -1,0 +1,73 @@
+{
+ "id": "quepasa_01",
+ "serie": "quepasa",
+ "titulo": "¿Qué pasa si utilizas un ordenador sin pasta térmica?",
+ "titulo_pantalla": "¿Qué pasa si…?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si utilizas un ordenador sin pasta térmica?",
+   "imagen": "cpu_sin_pasta_aislado_01.png"
+  },
+  {
+   "texto": "Sin pasta, quedan huecos microscópicos de aire entre el procesador y el disipador, y el calor no pasa bien. El procesador sube de temperatura en segundos.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El calor no pasa bien al disipador",
+     "El procesador se calienta en segundos",
+     "Se frena o se apaga para protegerse"
+    ]
+   }
+  },
+  {
+   "texto": "Para protegerse, el procesador reduce su velocidad o se apaga. Si ocurre a menudo, se desgasta antes.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consecuencias",
+    "titulo": "Lo que acabas notando",
+    "acento": "naranja",
+    "puntos": [
+     "Rendimiento muy bajo",
+     "Apagados repentinos",
+     "Desgaste si se repite"
+    ]
+   }
+  },
+  {
+   "texto": "Aplica siempre un poco de pasta, y no la reutilices después de desmontar el disipador.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Mejor así",
+    "acento": "azul",
+    "puntos": [
+     "Limpia la pasta vieja",
+     "Aplica una pequeña cantidad nueva",
+     "Monta el disipador con presión pareja"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te ha pasado? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🤔",
+ "puntos": [
+  "El calor no pasa bien al disipador.",
+  "Rendimiento muy bajo.",
+  "Mejor: limpia la pasta vieja."
+ ],
+ "fuentes": [
+  "Corsair: guía de pasta térmica",
+  "Wikipedia: Pasta térmica"
+ ],
+ "hashtags": [
+  "#quepasasi",
+  "#informatica",
+  "#curiosidades",
+  "#tecnologia",
+  "#murcia",
+  "#pastatermica"
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "id": "quepasa_11",
+ "serie": "quepasa",
+ "titulo": "¿Qué pasa si apagas el router por la noche?",
+ "titulo_pantalla": "¿Qué pasa si…?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si apagas el router por la noche?",
+   "imagen": "router_apagado_aislado_01.png"
+  },
+  {
+   "texto": "No pasa nada malo: ahorras algo de energía, pero al encenderlo tarda unos minutos en reconectar.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Se corta la conexión de toda la casa",
+     "Al encender, tarda unos minutos en reconectar",
+     "Los aparatos conectados pierden internet"
+    ]
+   }
+  },
+  {
+   "texto": "Eso sí, si tienes alarmas, cámaras o domótica, se quedan sin conexión mientras está apagado.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consecuencias",
+    "titulo": "Lo que acabas notando",
+    "acento": "naranja",
+    "puntos": [
+     "Ahorro mínimo de energía",
+     "Alarmas o cámaras sin conexión",
+     "Esperar al reconectar"
+    ]
+   }
+  },
+  {
+   "texto": "Apágalo si no lo vas a usar y no tienes nada conectado. Si no, déjalo encendido.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Mejor así",
+    "acento": "azul",
+    "puntos": [
+     "Apágalo si te vas unos días",
+     "Déjalo si hay alarmas o cámaras",
+     "Reinícialo solo si falla"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te ha pasado? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🤔",
+ "puntos": [
+  "Se corta la conexión de toda la casa.",
+  "Ahorro mínimo de energía.",
+  "Mejor: apágalo si te vas unos días."
+ ],
+ "fuentes": [
+  "Wikipedia: Router"
+ ],
+ "hashtags": [
+  "#quepasasi",
+  "#informatica",
+  "#curiosidades",
+  "#tecnologia",
+  "#murcia",
+  "#router"
+ ]
+}

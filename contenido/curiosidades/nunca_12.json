@@ -1,0 +1,58 @@
+{
+ "id": "nunca_12",
+ "serie": "nunca",
+ "titulo": "Nunca hagas esto: cargar un móvil que se ha mojado",
+ "titulo_pantalla": "Nunca hagas esto",
+ "escenas": [
+  {
+   "texto": "Nunca hagas esto: cargar un móvil que se ha mojado.",
+   "imagen": "movil_mojado_aislado_01.png"
+  },
+  {
+   "texto": "Cargarlo con humedad en el conector puede provocar un cortocircuito y corroer los contactos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué es mala idea",
+    "titulo": "Lo que puede pasar",
+    "acento": "rojo",
+    "puntos": [
+     "Riesgo de cortocircuito",
+     "Corrosión del conector",
+     "Puede dejarlo inservible"
+    ]
+   }
+  },
+  {
+   "texto": "Apágalo, sécalo por fuera sin calor directo, no lo cargues y llévalo a un técnico lo antes posible.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Apágalo al instante",
+     "Sécalo por fuera, sin calor",
+     "Llévalo a un técnico"
+    ]
+   }
+  },
+  {
+   "texto": "¿Ya lo has hecho o tienes dudas? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚫",
+ "puntos": [
+  "Riesgo: riesgo de cortocircuito.",
+  "Riesgo: corrosión del conector.",
+  "En su lugar: apágalo al instante."
+ ],
+ "fuentes": [
+  "Wikipedia: Daños por agua en dispositivos electrónicos"
+ ],
+ "hashtags": [
+  "#nuncahagasesto",
+  "#informatica",
+  "#consejos",
+  "#tecnologia",
+  "#murcia",
+  "#movil"
+ ]
+}

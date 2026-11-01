@@ -1,0 +1,58 @@
+{
+ "id": "nunca_07",
+ "serie": "nunca",
+ "titulo": "Nunca hagas esto: usar un cable de carga roto o pelado",
+ "titulo_pantalla": "Nunca hagas esto",
+ "escenas": [
+  {
+   "texto": "Nunca hagas esto: usar un cable de carga roto o pelado.",
+   "imagen": "cable_cargador_danado_aislado_01.png"
+  },
+  {
+   "texto": "Si se ven los hilos, hay riesgo de cortocircuito y de descarga, y el cable puede calentarse o provocar un incendio.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué es mala idea",
+    "titulo": "Lo que puede pasar",
+    "acento": "rojo",
+    "puntos": [
+     "Riesgo de cortocircuito",
+     "Posible descarga eléctrica",
+     "Puede calentarse e incendiarse"
+    ]
+   }
+  },
+  {
+   "texto": "Cámbialo por uno nuevo y de calidad. No lo repares con cinta, que no es una solución segura.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Deja de usarlo ya",
+     "Cámbialo por uno de calidad",
+     "No lo arregles con cinta"
+    ]
+   }
+  },
+  {
+   "texto": "¿Ya lo has hecho o tienes dudas? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚫",
+ "puntos": [
+  "Riesgo: riesgo de cortocircuito.",
+  "Riesgo: posible descarga eléctrica.",
+  "En su lugar: deja de usarlo ya."
+ ],
+ "fuentes": [
+  "OCU: cables de carga y seguridad"
+ ],
+ "hashtags": [
+  "#nuncahagasesto",
+  "#informatica",
+  "#consejos",
+  "#tecnologia",
+  "#murcia",
+  "#cable"
+ ]
+}

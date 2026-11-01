@@ -1,0 +1,73 @@
+{
+ "id": "quepasa_06",
+ "serie": "quepasa",
+ "titulo": "¿Qué pasa si conectas una gráfica potente a una fuente demasiado pequeña?",
+ "titulo_pantalla": "¿Qué pasa si…?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si conectas una gráfica potente a una fuente demasiado pequeña?",
+   "imagen": "fuente_pequena_gpu_aislado_01.png"
+  },
+  {
+   "texto": "En plena partida, la gráfica pide mucha potencia, y una fuente pequeña no puede darla.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "La gráfica pide más potencia de la que hay",
+     "La fuente se sobrecarga",
+     "El equipo se apaga o se reinicia"
+    ]
+   }
+  },
+  {
+   "texto": "En el mejor caso, el equipo se apaga cuando más lo usas. En el peor, la fuente se estropea.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consecuencias",
+    "titulo": "Lo que acabas notando",
+    "acento": "naranja",
+    "puntos": [
+     "Apagados y reinicios",
+     "Cuelgues al jugar",
+     "Riesgo de dañar la fuente"
+    ]
+   }
+  },
+  {
+   "texto": "Comprueba la potencia recomendada por el fabricante de la gráfica y deja margen.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Mejor así",
+    "acento": "azul",
+    "puntos": [
+     "Mira la fuente recomendada",
+     "Elige una de calidad",
+     "Deja margen de potencia"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te ha pasado? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🤔",
+ "puntos": [
+  "La gráfica pide más potencia de la que hay.",
+  "Apagados y reinicios.",
+  "Mejor: mira la fuente recomendada."
+ ],
+ "fuentes": [
+  "Wikipedia: Fuente de alimentación",
+  "Corsair: cómo elegir una fuente"
+ ],
+ "hashtags": [
+  "#quepasasi",
+  "#informatica",
+  "#curiosidades",
+  "#tecnologia",
+  "#murcia",
+  "#fuentealimentacion"
+ ]
+}

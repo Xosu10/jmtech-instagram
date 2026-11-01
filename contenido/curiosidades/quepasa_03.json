@@ -1,0 +1,72 @@
+{
+ "id": "quepasa_03",
+ "serie": "quepasa",
+ "titulo": "¿Qué pasa si sacas un pendrive mientras se está copiando?",
+ "titulo_pantalla": "¿Qué pasa si…?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si sacas un pendrive mientras se está copiando?",
+   "imagen": "pendrive_medio_sacado_aislado_01.png"
+  },
+  {
+   "texto": "La escritura se corta en mitad del proceso, y el archivo queda a medias o corrupto.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Se interrumpe la escritura",
+     "El archivo queda a medias",
+     "El pendrive puede dar error"
+    ]
+   }
+  },
+  {
+   "texto": "En el peor caso, el sistema de archivos del pendrive se daña y te pide formatearlo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consecuencias",
+    "titulo": "Lo que acabas notando",
+    "acento": "naranja",
+    "puntos": [
+     "Archivos corruptos",
+     "El pendrive pide formatear",
+     "Pérdida de datos"
+    ]
+   }
+  },
+  {
+   "texto": "Espera a que termine la copia y expulsa el dispositivo antes de sacarlo.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Mejor así",
+    "acento": "azul",
+    "puntos": [
+     "Espera a que termine",
+     "Pulsa expulsar",
+     "Retíralo cuando lo indique"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te ha pasado? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🤔",
+ "puntos": [
+  "Se interrumpe la escritura.",
+  "Archivos corruptos.",
+  "Mejor: espera a que termine."
+ ],
+ "fuentes": [
+  "Microsoft: quitar dispositivos de almacenamiento de forma segura"
+ ],
+ "hashtags": [
+  "#quepasasi",
+  "#informatica",
+  "#curiosidades",
+  "#tecnologia",
+  "#murcia",
+  "#pendrive"
+ ]
+}

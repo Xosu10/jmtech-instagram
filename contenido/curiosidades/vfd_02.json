@@ -1,0 +1,77 @@
+{
+ "id": "vfd_02",
+ "serie": "vfd",
+ "titulo": "¿Verdadero, falso o depende? Un SSD es más rápido que un disco duro",
+ "titulo_pantalla": "¿Verdadero, falso o depende?",
+ "escenas": [
+  {
+   "texto": "¿Verdadero, falso o depende? Un SSD es más rápido que un disco duro.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Un SSD es más rápido que un disco duro",
+    "revelar": false
+   }
+  },
+  {
+   "texto": "Piénsalo. Tres, dos, uno.",
+   "grafico": "cuenta",
+   "params": {}
+  },
+  {
+   "texto": "Es verdadero. En casi todo: arrancar, abrir programas y copiar archivos pequeños son muchísimo más rápidos en un SSD.",
+   "grafico": "veredicto",
+   "params": {
+    "cabecera": "¿VERDADERO, FALSO O DEPENDE?",
+    "afirmacion": "Un SSD es más rápido que un disco duro",
+    "revelar": true,
+    "veredicto": "VERDADERO"
+   }
+  },
+  {
+   "texto": "Es verdad en el uso normal. La excepción es el espacio barato: para guardar archivos, un disco duro sigue valiendo.",
+   "grafico": "comparar",
+   "params": {
+    "izq": {
+     "cabecera": "Sí, cuando",
+     "titulo": "Se cumple",
+     "puntos": [
+      "Arrancar y abrir programas",
+      "Copiar muchos archivos"
+     ],
+     "acento": "azul"
+    },
+    "der": {
+     "cabecera": "No, cuando",
+     "titulo": "No se cumple",
+     "puntos": [
+      "Para archivar sin prisa",
+      "Si el SSD está casi lleno"
+     ],
+     "acento": "naranja"
+    }
+   }
+  },
+  {
+   "texto": "¿Quieres que lo revisemos en tu equipo? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "⚖️",
+ "puntos": [
+  "Verdadero: En casi todo: arrancar, abrir programas y copiar archivos pequeños son muchísimo más rápidos en un SSD.",
+  "Arrancar y abrir programas",
+  "Para archivar sin prisa"
+ ],
+ "fuentes": [
+  "Wikipedia: Unidad de estado sólido"
+ ],
+ "hashtags": [
+  "#verdaderofalsoodepende",
+  "#informatica",
+  "#tecnologia",
+  "#curiosidades",
+  "#murcia",
+  "#ssd"
+ ]
+}

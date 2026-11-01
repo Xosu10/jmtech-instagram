@@ -1,0 +1,63 @@
+{
+ "id": "tecvj_07",
+ "serie": "tecvj",
+ "titulo": "La tecnología detrás del videojuego: las texturas y su tamaño",
+ "titulo_pantalla": "Tecnología de juegos: las texturas y su tamaño",
+ "escenas": [
+  {
+   "texto": "¿Cómo usa un juego tantas imágenes sin que se acabe la memoria?",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "TEXTURAS",
+    "linea2": "Imágenes que cubren los objetos",
+    "acento": "rosa"
+   }
+  },
+  {
+   "texto": "Cada textura tiene varias versiones de menos tamaño. Según lo lejos que esté el objeto, el juego usa una más pequeña y ligera.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Cada textura tiene versiones reducidas",
+     "Lo lejano usa la pequeña",
+     "Lo cercano usa la grande"
+    ]
+   }
+  },
+  {
+   "texto": "Estas versiones se llaman mipmaps, y ahorran memoria y evitan efectos extraños en las texturas lejanas.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "En los videojuegos",
+    "titulo": "Mipmaps",
+    "acento": "azul",
+    "puntos": [
+     "Menos memoria",
+     "Mejor aspecto a distancia",
+     "Más fluidez"
+    ]
+   }
+  },
+  {
+   "texto": "¿Tu consola o tu PC necesitan ayuda? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🎮",
+ "puntos": [
+  "Cada textura tiene versiones reducidas.",
+  "Lo lejano usa la pequeña.",
+  "Menos memoria."
+ ],
+ "fuentes": [
+  "Wikipedia: Mipmap"
+ ],
+ "hashtags": [
+  "#tecnologiavideojuegos",
+  "#videojuegos",
+  "#gaming",
+  "#curiosidades",
+  "#murcia",
+  "#texturas"
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "id": "quepasa_12",
+ "serie": "quepasa",
+ "titulo": "¿Qué pasa si usas el móvil mientras se carga?",
+ "titulo_pantalla": "¿Qué pasa si…?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si usas el móvil mientras se carga?",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "MIENTRAS CARGA",
+    "linea2": "¿Es malo usarlo?",
+    "acento": "naranja"
+   }
+  },
+  {
+   "texto": "Carga y consume a la vez, así que se calienta más y la carga es más lenta.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "La batería carga y descarga a la vez",
+     "El móvil se calienta más",
+     "Se carga más despacio"
+    ]
+   }
+  },
+  {
+   "texto": "No es peligroso con un cargador de calidad, pero con un cargador malo el calor aumenta mucho.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consecuencias",
+    "titulo": "Lo que acabas notando",
+    "acento": "naranja",
+    "puntos": [
+     "Algo más de calor",
+     "Carga más lenta",
+     "Ligero desgaste si es habitual"
+    ]
+   }
+  },
+  {
+   "texto": "Si puedes, evita los juegos pesados mientras carga, y usa un cargador certificado.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Mejor así",
+    "acento": "azul",
+    "puntos": [
+     "Evita juegos pesados al cargar",
+     "Usa un cargador certificado",
+     "Quita la funda si se calienta"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te ha pasado? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🤔",
+ "puntos": [
+  "La batería carga y descarga a la vez.",
+  "Algo más de calor.",
+  "Mejor: evita juegos pesados al cargar."
+ ],
+ "fuentes": [
+  "Apple y Google: cuidado de la batería"
+ ],
+ "hashtags": [
+  "#quepasasi",
+  "#informatica",
+  "#curiosidades",
+  "#tecnologia",
+  "#murcia",
+  "#bateria"
+ ]
+}

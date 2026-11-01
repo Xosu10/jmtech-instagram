@@ -1,0 +1,73 @@
+{
+ "id": "quepasa_07",
+ "serie": "quepasa",
+ "titulo": "¿Qué pasa si llenas el SSD hasta arriba?",
+ "titulo_pantalla": "¿Qué pasa si…?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si llenas el SSD hasta arriba?",
+   "imagen": "ssd_capacidad_aislado_01.png"
+  },
+  {
+   "texto": "Los SSD necesitan espacio libre para gestionar los datos. Cuando se llenan, escriben peor y todo va más lento.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Se queda sin espacio libre",
+     "El SSD trabaja con menos margen",
+     "El equipo se vuelve lento"
+    ]
+   }
+  },
+  {
+   "texto": "Además, Windows necesita espacio para actualizar y trabajar, y si no lo tiene, empiezan los errores.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consecuencias",
+    "titulo": "Lo que acabas notando",
+    "acento": "naranja",
+    "puntos": [
+     "Más lentitud",
+     "Más desgaste",
+     "Fallos de actualizaciones"
+    ]
+   }
+  },
+  {
+   "texto": "Deja siempre una parte libre y mueve lo que no uses a otro disco o a la nube.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Mejor así",
+    "acento": "azul",
+    "puntos": [
+     "Deja espacio libre",
+     "Mueve archivos grandes",
+     "Revisa qué ocupa más"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te ha pasado? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🤔",
+ "puntos": [
+  "Se queda sin espacio libre.",
+  "Más lentitud.",
+  "Mejor: deja espacio libre."
+ ],
+ "fuentes": [
+  "Wikipedia: Unidad de estado sólido",
+  "Microsoft: liberar espacio en el disco"
+ ],
+ "hashtags": [
+  "#quepasasi",
+  "#informatica",
+  "#curiosidades",
+  "#tecnologia",
+  "#murcia",
+  "#ssd"
+ ]
+}

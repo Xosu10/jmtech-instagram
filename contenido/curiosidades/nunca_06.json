@@ -1,0 +1,58 @@
+{
+ "id": "nunca_06",
+ "serie": "nunca",
+ "titulo": "Nunca hagas esto: dejar el móvil cargando debajo de la almohada",
+ "titulo_pantalla": "Nunca hagas esto",
+ "escenas": [
+  {
+   "texto": "Nunca hagas esto: dejar el móvil cargando debajo de la almohada.",
+   "imagen": "movil_bajo_almohada_aislado_01.png"
+  },
+  {
+   "texto": "El móvil se calienta al cargar, y bajo la almohada no puede disipar ese calor. Con un cargador malo, el riesgo aumenta.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué es mala idea",
+    "titulo": "Lo que puede pasar",
+    "acento": "rojo",
+    "puntos": [
+     "El calor no puede escapar",
+     "Desgasta la batería",
+     "Riesgo con cargadores malos"
+    ]
+   }
+  },
+  {
+   "texto": "Carga el móvil sobre una superficie dura y ventilada, con un cargador de calidad.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "Superficie dura y ventilada",
+     "Cargador de calidad",
+     "Sin fundas gruesas al cargar"
+    ]
+   }
+  },
+  {
+   "texto": "¿Ya lo has hecho o tienes dudas? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚫",
+ "puntos": [
+  "Riesgo: el calor no puede escapar.",
+  "Riesgo: desgasta la batería.",
+  "En su lugar: superficie dura y ventilada."
+ ],
+ "fuentes": [
+  "Apple y Google: recomendaciones de carga"
+ ],
+ "hashtags": [
+  "#nuncahagasesto",
+  "#informatica",
+  "#consejos",
+  "#tecnologia",
+  "#murcia",
+  "#movil"
+ ]
+}

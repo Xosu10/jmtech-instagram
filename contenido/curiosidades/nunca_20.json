@@ -1,0 +1,58 @@
+{
+ "id": "nunca_20",
+ "serie": "nunca",
+ "titulo": "Nunca hagas esto: pulsar un enlace de un mensaje urgente",
+ "titulo_pantalla": "Nunca hagas esto",
+ "escenas": [
+  {
+   "texto": "Nunca hagas esto: pulsar un enlace de un mensaje urgente.",
+   "imagen": "windows_virus_aislado_01.png"
+  },
+  {
+   "texto": "Los mensajes que meten prisa, como un paquete retenido o una cuenta bloqueada, suelen ser engaños para robar tus datos.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Por qué es mala idea",
+    "titulo": "Lo que puede pasar",
+    "acento": "rojo",
+    "puntos": [
+     "Pueden robar tus datos",
+     "Instalar programas maliciosos",
+     "Suplantar a tu banco"
+    ]
+   }
+  },
+  {
+   "texto": "No pulses el enlace. Entra a la web oficial por tu cuenta, o llama al número que figura en la web oficial.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "No pulses el enlace",
+     "Entra a la web oficial por tu cuenta",
+     "Si dudas, pregunta"
+    ]
+   }
+  },
+  {
+   "texto": "¿Ya lo has hecho o tienes dudas? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🚫",
+ "puntos": [
+  "Riesgo: pueden robar tus datos.",
+  "Riesgo: instalar programas maliciosos.",
+  "En su lugar: no pulses el enlace."
+ ],
+ "fuentes": [
+  "INCIBE: qué es el phishing"
+ ],
+ "hashtags": [
+  "#nuncahagasesto",
+  "#informatica",
+  "#consejos",
+  "#tecnologia",
+  "#murcia",
+  "#phishing"
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "id": "quepasa_20",
+ "serie": "quepasa",
+ "titulo": "¿Qué pasa si usas un SSD NVMe sin disipador?",
+ "titulo_pantalla": "¿Qué pasa si…?",
+ "escenas": [
+  {
+   "texto": "¿Qué pasa si usas un SSD NVMe sin disipador?",
+   "imagen": "ssd_nvme_disipador_aislado_01.png"
+  },
+  {
+   "texto": "Los SSD NVMe se calientan cuando trabajan mucho, y si superan cierta temperatura, bajan su velocidad.",
+   "grafico": "pasos",
+   "params": {
+    "pasos": [
+     "El SSD se calienta al trabajar mucho",
+     "Llega a una temperatura alta",
+     "Reduce su velocidad para protegerse"
+    ]
+   }
+  },
+  {
+   "texto": "Para el uso diario casi no se nota, pero al copiar archivos enormes la velocidad puede caer mucho.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consecuencias",
+    "titulo": "Lo que acabas notando",
+    "acento": "naranja",
+    "puntos": [
+     "Velocidad que cae en copias largas",
+     "Algo más de desgaste",
+     "Rendimiento irregular"
+    ]
+   }
+  },
+  {
+   "texto": "Muchas placas traen disipador para el SSD. Si no, un disipador sencillo basta.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Qué hacer",
+    "titulo": "Mejor así",
+    "acento": "azul",
+    "puntos": [
+     "Usa el disipador de la placa",
+     "O compra uno sencillo",
+     "Vigila la temperatura al copiar"
+    ]
+   }
+  },
+  {
+   "texto": "¿Te ha pasado? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "emoji": "🤔",
+ "puntos": [
+  "El SSD se calienta al trabajar mucho.",
+  "Velocidad que cae en copias largas.",
+  "Mejor: usa el disipador de la placa."
+ ],
+ "fuentes": [
+  "Wikipedia: NVM Express",
+  "Corsair: refrigeración de SSD NVMe"
+ ],
+ "hashtags": [
+  "#quepasasi",
+  "#informatica",
+  "#curiosidades",
+  "#tecnologia",
+  "#murcia",
+  "#ssd"
+ ]
+}
