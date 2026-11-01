@@ -299,3 +299,11 @@ def test_el_flujo_de_las_noticias_coincide_con_el_calendario():
 def test_los_guiones_de_noticias_pasan_las_comprobaciones():
     for ruta in (RAIZ / "contenido" / "noticias").glob("*.json"):
         assert cur.problemas_espec(cur.cargar_espec(ruta)) == [], ruta.name
+
+
+def test_la_url_publica_de_respaldo_no_toca_nada_fuera_de_github_actions(tmp_path, monkeypatch):
+    monkeypatch.delenv("GITHUB_ACTIONS", raising=False)
+    v = tmp_path / "v.mp4"
+    v.write_bytes(b"x")
+    assert cur._publicar_url_publica(v, "x.mp4") is None
+    assert not (cur.RAIZ / "salida_curiosidades").exists()

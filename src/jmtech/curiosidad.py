@@ -633,6 +633,30 @@ def montar_plan(carpeta, musica_dir, hasta=None, provisional=False, avisar=print
     return montados, esperando
 
 
+def _publicar_url_publica(ruta, nombre):
+    """Copia el vídeo a una carpeta pública del repositorio y lo sube, para que Instagram pueda
+    descargarlo si la subida directa falla (ver `ClienteInstagram.publicar_reel`). Solo actúa dentro de
+    GitHub Actions (nunca en local ni en los tests, para no tocar el repositorio real). Nunca lanza: si
+    algo falla (sin red, sin permiso de escritura), se sigue sin dirección de respaldo."""
+    if os.environ.get("GITHUB_ACTIONS") != "true":
+        return None
+    try:
+        destino = RAIZ / "salida_curiosidades" / nombre
+        destino.parent.mkdir(parents=True, exist_ok=True)
+        destino.write_bytes(Path(ruta).read_bytes())
+        subprocess.run(["git", "add", "--", str(destino)], cwd=RAIZ, check=True, capture_output=True)
+        if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=RAIZ).returncode != 0:
+            subprocess.run(["git", "commit", "-m", f"chore: vídeo público para Instagram ({nombre})"],
+                           cwd=RAIZ, check=True, capture_output=True)
+            subprocess.run(["git", "pull", "--rebase", "origin", "main"], cwd=RAIZ, check=True, capture_output=True)
+            subprocess.run(["git", "push", "origin", "HEAD:main"], cwd=RAIZ, check=True, capture_output=True)
+        repo = os.environ.get("GITHUB_REPOSITORY", "Xosu10/jmtech-instagram")
+        return f"https://raw.githubusercontent.com/{repo}/main/salida_curiosidades/{nombre}"
+    except Exception as e:
+        print(f"AVISO: no se pudo preparar la dirección pública de respaldo ({e}).")
+        return None
+
+
 def publicar_curiosidad(video, pie, id_video, fecha, *, dry_run=False, cliente=None, ruta_estado=None, ahora_utc=None,
                         cfg=None, prueba=False, tipo="curiosidad", clave_hora="hora_curiosidad"):
     """Sube el vídeo como reel y lo anota en el estado (tipo «curiosidad» o «noticias»). No repite si ya está en Instagram."""
@@ -655,7 +679,8 @@ def publicar_curiosidad(video, pie, id_video, fecha, *, dry_run=False, cliente=N
         media_id, permalink = previo["id"], previo.get("permalink")
         print("Instagram ya tiene este vídeo; se anota sin repetirlo.")
     else:
-        media_id = cliente.publicar_reel(ruta, pie)
+        video_url = None if prueba else _publicar_url_publica(ruta, f"{id_video}.mp4")
+        media_id = cliente.publicar_reel(ruta, pie, video_url=video_url)
         permalink = cliente.permalink(media_id)
     from .facebook import compartir_en_facebook
     fb = None if previo else compartir_en_facebook(cfg, ruta, pie)

@@ -60,6 +60,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Configurar git (hace falta antes de publicar, por si hay que subir un video de respaldo)
+        run: |
+          git config user.name "JM TECH bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - name: Descargar la musica (repositorio privado)
         if: env.TIENE_CLAVE == 'true'
         uses: actions/checkout@v4

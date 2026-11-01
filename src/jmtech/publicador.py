@@ -268,13 +268,8 @@ def publicar_reel(tema_id, asset_nombre, video=None, musica=None, musica_inicio=
         print(f"PRUEBA EN SECO: no se llama a Instagram. Pie:\n---\n{pie}\n---")
         return None
     cliente = cliente or ClienteInstagram(os.environ.get("IG_ACCESS_TOKEN"), os.environ.get("IG_USER_ID", IG_USER_ID))
-    video_url = None
-    try:
-        rel = ruta.resolve().relative_to(RAIZ).as_posix()
-        repo = os.environ.get("GITHUB_REPOSITORY", "Xosu10/jmtech-instagram")
-        video_url = f"https://raw.githubusercontent.com/{repo}/main/{rel}"
-    except ValueError:
-        pass
+    from .curiosidad import _publicar_url_publica
+    video_url = _publicar_url_publica(ruta, ruta.name)
     media_id = cliente.publicar_reel(ruta, pie, video_url=video_url)
     permalink = cliente.permalink(media_id)
     estado = est.cargar(ruta_estado)
@@ -345,7 +340,9 @@ def reel_hoy(ahora_utc=None, *, dry_run=False, ignorar_hora=False, cfg=None, est
         media_id, permalink = previo["id"], previo.get("permalink")
         print("Instagram ya tiene el reel de hoy; se anota sin repetirlo.")
     else:
-        media_id = cliente.publicar_reel(ruta, pie)
+        from .curiosidad import _publicar_url_publica
+        video_url = _publicar_url_publica(ruta, ruta.name)
+        media_id = cliente.publicar_reel(ruta, pie, video_url=video_url)
         permalink = cliente.permalink(media_id)
     fb = None if previo else compartir_en_facebook(cfg, ruta, pie)
     ahora = ahora_madrid(ahora_utc)
