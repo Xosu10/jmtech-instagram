@@ -782,6 +782,9 @@ def main():
                                 dry_run=a.dry_run, prueba=True)
     except ErrorInstagram as e:
         print(f"::error::{ocultar(e)}")
+        tecnico = getattr(e, "tecnico", "")
+        if tecnico:
+            print(f"Detalle técnico: {tecnico}")
         return 1
     return 0
 
