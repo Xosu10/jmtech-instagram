@@ -9,6 +9,16 @@
    "cat": "A"
   },
   {
+   "fecha": "2026-11-03",
+   "idea": null,
+   "id": "mito_02",
+   "estado": "montado, en cola",
+   "titulo": "¿Mito o realidad? Los Mac no tienen virus",
+   "cat": "S",
+   "serie": "mito",
+   "nota": "Serie «Mito o realidad»."
+  },
+  {
    "fecha": "2026-11-04",
    "idea": null,
    "id": "03_ram_e_ia",
@@ -17,12 +27,42 @@
    "cat": "E"
   },
   {
+   "fecha": "2026-11-05",
+   "idea": null,
+   "id": "diag_03",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: el portátil se calienta mucho",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2026-11-06",
    "idea": 11,
    "id": "04_limpieza_del_pc",
    "estado": "montado, en cola",
    "titulo": "¿Cada cuánto tiempo deberías limpiar tu ordenador?",
    "cat": "B"
+  },
+  {
+   "fecha": "2026-11-07",
+   "idea": null,
+   "id": "nunca_02",
+   "estado": "montado, en cola",
+   "titulo": "Nunca hagas esto: limpiar el PC con un aspirador",
+   "cat": "S",
+   "serie": "nunca",
+   "nota": "Serie «Nunca hagas esto»."
+  },
+  {
+   "fecha": "2026-11-08",
+   "idea": null,
+   "id": "tecvj_15",
+   "estado": "montado, en cola",
+   "titulo": "La tecnología detrás del videojuego: la destrucción",
+   "cat": "S",
+   "serie": "tecvj",
+   "nota": "Serie «La tecnología detrás del videojuego»."
   },
   {
    "fecha": "2026-11-09",
@@ -51,6 +91,16 @@
    "cat": "A"
   },
   {
+   "fecha": "2026-11-12",
+   "idea": null,
+   "id": "glos_09",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es Firewall? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
+  },
+  {
    "fecha": "2026-11-13",
    "idea": 61,
    "id": "idea_061",
@@ -60,12 +110,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2026-11-14",
+   "idea": null,
+   "id": "quepasa_20",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué pasa si usas un SSD NVMe sin disipador?",
+   "cat": "S",
+   "serie": "quepasa",
+   "nota": "Serie «¿Qué pasa si…?»."
+  },
+  {
+   "fecha": "2026-11-15",
+   "idea": null,
+   "id": "glos_27",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es Verificación en dos pasos? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
+  },
+  {
    "fecha": "2026-11-16",
    "idea": 12,
    "id": "idea_012",
    "estado": "pendiente",
    "titulo": "¿Cada cuánto hay que cambiar la pasta térmica?",
    "cat": "B"
+  },
+  {
+   "fecha": "2026-11-17",
+   "idea": null,
+   "id": "vfd_19",
+   "estado": "montado, en cola",
+   "titulo": "¿Verdadero, falso o depende? Formatear el PC lo deja como nuevo",
+   "cat": "S",
+   "serie": "vfd",
+   "nota": "Serie «Verdadero, falso o depende»."
   },
   {
    "fecha": "2026-11-18",
@@ -78,12 +158,42 @@
    "nota": "Especial con tráileres oficiales (Rockstar)."
   },
   {
+   "fecha": "2026-11-19",
+   "idea": null,
+   "id": "diag_20",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: el PC se cuelga al jugar",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2026-11-20",
    "idea": 21,
    "id": "idea_021",
    "estado": "pendiente",
    "titulo": "Mi ordenador enciende, pero no aparece imagen. ¿Qué puede estar pasando?",
    "cat": "C"
+  },
+  {
+   "fecha": "2026-11-21",
+   "idea": null,
+   "id": "nunca_08",
+   "estado": "montado, en cola",
+   "titulo": "Nunca hagas esto: mezclar módulos de RAM sin comprobarlo",
+   "cat": "S",
+   "serie": "nunca",
+   "nota": "Serie «Nunca hagas esto»."
+  },
+  {
+   "fecha": "2026-11-22",
+   "idea": null,
+   "id": "tecvj_14",
+   "estado": "montado, en cola",
+   "titulo": "La tecnología detrás del videojuego: el día y la noche",
+   "cat": "S",
+   "serie": "tecvj",
+   "nota": "Serie «La tecnología detrás del videojuego»."
   },
   {
    "fecha": "2026-11-23",
@@ -114,6 +224,16 @@
    "cat": "D"
   },
   {
+   "fecha": "2026-11-26",
+   "idea": null,
+   "id": "glos_28",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es Cifrado? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
+  },
+  {
    "fecha": "2026-11-27",
    "idea": null,
    "id": "especial_bf_2",
@@ -122,6 +242,26 @@
    "cat": "S",
    "serie": "especial",
    "nota": "Especial Black Friday."
+  },
+  {
+   "fecha": "2026-11-28",
+   "idea": null,
+   "id": "quepasa_05",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué pasa si dejas el móvil al sol en el coche?",
+   "cat": "S",
+   "serie": "quepasa",
+   "nota": "Serie «¿Qué pasa si…?»."
+  },
+  {
+   "fecha": "2026-11-29",
+   "idea": null,
+   "id": "glos_01",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es BIOS? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
   },
   {
    "fecha": "2026-11-30",
@@ -134,6 +274,16 @@
    "nota": "Especial Black Friday."
   },
   {
+   "fecha": "2026-12-01",
+   "idea": null,
+   "id": "mito_05",
+   "estado": "montado, en cola",
+   "titulo": "¿Mito o realidad? Borrar la caché siempre acelera el dispositivo",
+   "cat": "S",
+   "serie": "mito",
+   "nota": "Serie «Mito o realidad»."
+  },
+  {
    "fecha": "2026-12-02",
    "idea": 101,
    "id": "idea_101",
@@ -143,12 +293,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2026-12-03",
+   "idea": null,
+   "id": "diag_04",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: el ratón va a saltos",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2026-12-04",
    "idea": 51,
    "id": "idea_051",
    "estado": "pendiente",
    "titulo": "¿Por qué un SSD de 1 TB no muestra 1.000 GB disponibles en Windows?",
    "cat": "F"
+  },
+  {
+   "fecha": "2026-12-05",
+   "idea": null,
+   "id": "nunca_03",
+   "estado": "montado, en cola",
+   "titulo": "Nunca hagas esto: limpiar la pantalla con limpiacristales",
+   "cat": "S",
+   "serie": "nunca",
+   "nota": "Serie «Nunca hagas esto»."
+  },
+  {
+   "fecha": "2026-12-06",
+   "idea": null,
+   "id": "tecvj_20",
+   "estado": "montado, en cola",
+   "titulo": "La tecnología detrás del videojuego: los mods",
+   "cat": "S",
+   "serie": "tecvj",
+   "nota": "Serie «La tecnología detrás del videojuego»."
   },
   {
    "fecha": "2026-12-07",
@@ -177,6 +357,16 @@
    "cat": "A"
   },
   {
+   "fecha": "2026-12-10",
+   "idea": null,
+   "id": "glos_21",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es VRAM? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
+  },
+  {
    "fecha": "2026-12-11",
    "idea": 63,
    "id": "idea_063",
@@ -186,12 +376,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2026-12-12",
+   "idea": null,
+   "id": "quepasa_02",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué pasa si enciendes un PC sin el disipador del procesador?",
+   "cat": "S",
+   "serie": "quepasa",
+   "nota": "Serie «¿Qué pasa si…?»."
+  },
+  {
+   "fecha": "2026-12-13",
+   "idea": null,
+   "id": "glos_02",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es TPM? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
+  },
+  {
    "fecha": "2026-12-14",
    "idea": 13,
    "id": "idea_013",
    "estado": "pendiente",
    "titulo": "¿Es malo tener el ordenador en el suelo?",
    "cat": "B"
+  },
+  {
+   "fecha": "2026-12-15",
+   "idea": null,
+   "id": "vfd_20",
+   "estado": "montado, en cola",
+   "titulo": "¿Verdadero, falso o depende? Los archivos borrados se pueden recuperar siempre",
+   "cat": "S",
+   "serie": "vfd",
+   "nota": "Serie «Verdadero, falso o depende»."
   },
   {
    "fecha": "2026-12-16",
@@ -203,12 +423,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2026-12-17",
+   "idea": null,
+   "id": "diag_08",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: la batería del móvil dura muy poco",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2026-12-18",
    "idea": 22,
    "id": "idea_022",
    "estado": "pendiente",
    "titulo": "¿Por qué tu PC se apaga cuando estás jugando?",
    "cat": "C"
+  },
+  {
+   "fecha": "2026-12-19",
+   "idea": null,
+   "id": "nunca_10",
+   "estado": "montado, en cola",
+   "titulo": "Nunca hagas esto: usar el portátil sobre la cama",
+   "cat": "S",
+   "serie": "nunca",
+   "nota": "Serie «Nunca hagas esto»."
+  },
+  {
+   "fecha": "2026-12-20",
+   "idea": null,
+   "id": "tecvj_16",
+   "estado": "montado, en cola",
+   "titulo": "La tecnología detrás del videojuego: la conducción",
+   "cat": "S",
+   "serie": "tecvj",
+   "nota": "Serie «La tecnología detrás del videojuego»."
   },
   {
    "fecha": "2026-12-21",
@@ -238,6 +488,16 @@
    "cat": "D"
   },
   {
+   "fecha": "2026-12-24",
+   "idea": null,
+   "id": "glos_25",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es Ancho de banda? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
+  },
+  {
    "fecha": "2026-12-25",
    "idea": 92,
    "id": "idea_092",
@@ -245,6 +505,26 @@
    "titulo": "¿Por qué se tarda tantos años en desarrollar un GTA?",
    "cat": "J",
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2026-12-26",
+   "idea": null,
+   "id": "quepasa_13",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué pasa si instalas Linux en un ordenador viejo?",
+   "cat": "S",
+   "serie": "quepasa",
+   "nota": "Serie «¿Qué pasa si…?»."
+  },
+  {
+   "fecha": "2026-12-27",
+   "idea": null,
+   "id": "glos_29",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es Código abierto? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
   },
   {
    "fecha": "2026-12-28",
@@ -256,6 +536,16 @@
    "nota": "Datos que cambian: se verifican justo antes de montar el vídeo."
   },
   {
+   "fecha": "2026-12-29",
+   "idea": null,
+   "id": "mito_15",
+   "estado": "montado, en cola",
+   "titulo": "¿Mito o realidad? Una contraseña con símbolos raros es más segura que una larga",
+   "cat": "S",
+   "serie": "mito",
+   "nota": "Serie «Mito o realidad»."
+  },
+  {
    "fecha": "2026-12-30",
    "idea": 102,
    "id": "idea_102",
@@ -263,6 +553,16 @@
    "titulo": "¿Qué era el famoso anillo rojo de la muerte de Xbox 360?",
    "cat": "K",
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2026-12-31",
+   "idea": null,
+   "id": "diag_02",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: Windows se queda reiniciándose",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
   },
   {
    "fecha": "2027-01-01",
@@ -273,12 +573,42 @@
    "cat": "F"
   },
   {
+   "fecha": "2027-01-02",
+   "idea": null,
+   "id": "nunca_06",
+   "estado": "montado, en cola",
+   "titulo": "Nunca hagas esto: dejar el móvil cargando debajo de la almohada",
+   "cat": "S",
+   "serie": "nunca",
+   "nota": "Serie «Nunca hagas esto»."
+  },
+  {
+   "fecha": "2027-01-03",
+   "idea": null,
+   "id": "tecvj_01",
+   "estado": "montado, en cola",
+   "titulo": "La tecnología detrás del videojuego: la física",
+   "cat": "S",
+   "serie": "tecvj",
+   "nota": "Serie «La tecnología detrás del videojuego»."
+  },
+  {
    "fecha": "2027-01-04",
    "idea": 112,
    "id": "idea_112",
    "estado": "pendiente",
    "titulo": "¿De dónde viene el nombre Bluetooth y qué tiene que ver con un rey vikingo?",
    "cat": "L"
+  },
+  {
+   "fecha": "2027-01-05",
+   "idea": null,
+   "id": "vfd_10",
+   "estado": "montado, en cola",
+   "titulo": "¿Verdadero, falso o depende? El modo incógnito te protege de los virus",
+   "cat": "S",
+   "serie": "vfd",
+   "nota": "Serie «Verdadero, falso o depende»."
   },
   {
    "fecha": "2027-01-06",
@@ -289,6 +619,16 @@
    "cat": "A"
   },
   {
+   "fecha": "2027-01-07",
+   "idea": null,
+   "id": "glos_12",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es DNS? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
+  },
+  {
    "fecha": "2027-01-08",
    "idea": 64,
    "id": "idea_064",
@@ -296,6 +636,26 @@
    "titulo": "¿Qué es el famoso código Konami y de dónde viene?",
    "cat": "G",
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-01-09",
+   "idea": null,
+   "id": "quepasa_11",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué pasa si apagas el router por la noche?",
+   "cat": "S",
+   "serie": "quepasa",
+   "nota": "Serie «¿Qué pasa si…?»."
+  },
+  {
+   "fecha": "2027-01-10",
+   "idea": null,
+   "id": "glos_18",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es Firmware? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
   },
   {
    "fecha": "2027-01-11",
@@ -325,12 +685,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-01-14",
+   "idea": null,
+   "id": "diag_15",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: el USB no se reconoce",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2027-01-15",
    "idea": 23,
    "id": "idea_023",
    "estado": "pendiente",
    "titulo": "¿Qué significa un pantallazo azul de Windows?",
    "cat": "C"
+  },
+  {
+   "fecha": "2027-01-16",
+   "idea": null,
+   "id": "nunca_17",
+   "estado": "montado, en cola",
+   "titulo": "Nunca hagas esto: desenchufar un disco externo mientras copia",
+   "cat": "S",
+   "serie": "nunca",
+   "nota": "Serie «Nunca hagas esto»."
+  },
+  {
+   "fecha": "2027-01-17",
+   "idea": null,
+   "id": "tecvj_08",
+   "estado": "montado, en cola",
+   "titulo": "La tecnología detrás del videojuego: los motores de videojuegos",
+   "cat": "S",
+   "serie": "tecvj",
+   "nota": "Serie «La tecnología detrás del videojuego»."
   },
   {
    "fecha": "2027-01-18",
@@ -342,12 +732,32 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-01-19",
+   "idea": null,
+   "id": "mito_11",
+   "estado": "montado, en cola",
+   "titulo": "¿Mito o realidad? Más gigahercios significa un procesador mejor",
+   "cat": "S",
+   "serie": "mito",
+   "nota": "Serie «Mito o realidad»."
+  },
+  {
    "fecha": "2027-01-20",
    "idea": 33,
    "id": "idea_033",
    "estado": "pendiente",
    "titulo": "¿Qué componentes deberías mejorar primero para ganar rendimiento?",
    "cat": "D"
+  },
+  {
+   "fecha": "2027-01-21",
+   "idea": null,
+   "id": "glos_04",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es HDMI? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
   },
   {
    "fecha": "2027-01-22",
@@ -357,6 +767,26 @@
    "titulo": "¿Cómo consiguen los videojuegos de mundo abierto simular ciudades llenas de vida?",
    "cat": "J",
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-01-23",
+   "idea": null,
+   "id": "quepasa_06",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué pasa si conectas una gráfica potente a una fuente demasiado pequeña?",
+   "cat": "S",
+   "serie": "quepasa",
+   "nota": "Serie «¿Qué pasa si…?»."
+  },
+  {
+   "fecha": "2027-01-24",
+   "idea": null,
+   "id": "glos_11",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es Dirección IP? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
   },
   {
    "fecha": "2027-01-25",
@@ -387,12 +817,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-01-28",
+   "idea": null,
+   "id": "diag_16",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: el portátil no carga",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2027-01-29",
    "idea": 53,
    "id": "idea_053",
    "estado": "pendiente",
    "titulo": "¿El modo incógnito del navegador te hace invisible en Internet?",
    "cat": "F"
+  },
+  {
+   "fecha": "2027-01-30",
+   "idea": null,
+   "id": "nunca_01",
+   "estado": "montado, en cola",
+   "titulo": "Nunca hagas esto: conectar los cables modulares de otra fuente de alimentación",
+   "cat": "S",
+   "serie": "nunca",
+   "nota": "Serie «Nunca hagas esto»."
+  },
+  {
+   "fecha": "2027-01-31",
+   "idea": null,
+   "id": "tecvj_02",
+   "estado": "montado, en cola",
+   "titulo": "La tecnología detrás del videojuego: la inteligencia artificial de los enemigos",
+   "cat": "S",
+   "serie": "tecvj",
+   "nota": "Serie «La tecnología detrás del videojuego»."
   },
   {
    "fecha": "2027-02-01",
@@ -403,12 +863,32 @@
    "cat": "L"
   },
   {
+   "fecha": "2027-02-02",
+   "idea": null,
+   "id": "vfd_17",
+   "estado": "montado, en cola",
+   "titulo": "¿Verdadero, falso o depende? Una gráfica más cara siempre rinde más en todo",
+   "cat": "S",
+   "serie": "vfd",
+   "nota": "Serie «Verdadero, falso o depende»."
+  },
+  {
    "fecha": "2027-02-03",
    "idea": 6,
    "id": "idea_006",
    "estado": "pendiente",
    "titulo": "¿Qué diferencia hay entre DDR4 y DDR5?",
    "cat": "A"
+  },
+  {
+   "fecha": "2027-02-04",
+   "idea": null,
+   "id": "glos_13",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es Phishing? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
   },
   {
    "fecha": "2027-02-05",
@@ -418,6 +898,26 @@
    "titulo": "¿Por qué todo el mundo soplaba los cartuchos de Nintendo?",
    "cat": "G",
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-02-06",
+   "idea": null,
+   "id": "quepasa_15",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué pasa si abres un archivo adjunto de un correo sospechoso?",
+   "cat": "S",
+   "serie": "quepasa",
+   "nota": "Serie «¿Qué pasa si…?»."
+  },
+  {
+   "fecha": "2027-02-07",
+   "idea": null,
+   "id": "diag_13",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: el ventilador va siempre a tope",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
   },
   {
    "fecha": "2027-02-08",
@@ -447,12 +947,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-02-11",
+   "idea": null,
+   "id": "diag_11",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: el teclado escribe letras raras",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2027-02-12",
    "idea": 24,
    "id": "idea_024",
    "estado": "pendiente",
    "titulo": "¿Por qué tu ordenador tarda tanto en arrancar?",
    "cat": "C"
+  },
+  {
+   "fecha": "2027-02-13",
+   "idea": null,
+   "id": "nunca_11",
+   "estado": "montado, en cola",
+   "titulo": "Nunca hagas esto: acercar imanes potentes a un disco duro",
+   "cat": "S",
+   "serie": "nunca",
+   "nota": "Serie «Nunca hagas esto»."
+  },
+  {
+   "fecha": "2027-02-14",
+   "idea": null,
+   "id": "tecvj_09",
+   "estado": "montado, en cola",
+   "titulo": "La tecnología detrás del videojuego: jugar desde la nube",
+   "cat": "S",
+   "serie": "tecvj",
+   "nota": "Serie «La tecnología detrás del videojuego»."
   },
   {
    "fecha": "2027-02-15",
@@ -464,12 +994,32 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-02-16",
+   "idea": null,
+   "id": "mito_07",
+   "estado": "montado, en cola",
+   "titulo": "¿Mito o realidad? Vaciar la papelera de reciclaje acelera el PC",
+   "cat": "S",
+   "serie": "mito",
+   "nota": "Serie «Mito o realidad»."
+  },
+  {
    "fecha": "2027-02-17",
    "idea": 34,
    "id": "idea_034",
    "estado": "pendiente",
    "titulo": "¿Merece la pena comprar un ordenador reacondicionado?",
    "cat": "D"
+  },
+  {
+   "fecha": "2027-02-18",
+   "idea": null,
+   "id": "glos_23",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es Reescalado? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
   },
   {
    "fecha": "2027-02-19",
@@ -479,6 +1029,26 @@
    "titulo": "¿Por qué Minecraft tiene gráficos tan simples y sigue siendo tan popular?",
    "cat": "J",
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-02-20",
+   "idea": null,
+   "id": "quepasa_16",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué pasa si pones la RAM en la ranura equivocada?",
+   "cat": "S",
+   "serie": "quepasa",
+   "nota": "Serie «¿Qué pasa si…?»."
+  },
+  {
+   "fecha": "2027-02-21",
+   "idea": null,
+   "id": "glos_07",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es Thunderbolt? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
   },
   {
    "fecha": "2027-02-22",
@@ -508,12 +1078,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-02-25",
+   "idea": null,
+   "id": "diag_17",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: el Bluetooth no conecta",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2027-02-26",
    "idea": 54,
    "id": "idea_054",
    "estado": "pendiente",
    "titulo": "¿Es verdad que los ordenadores ya no necesitan antivirus?",
    "cat": "F"
+  },
+  {
+   "fecha": "2027-02-27",
+   "idea": null,
+   "id": "nunca_07",
+   "estado": "montado, en cola",
+   "titulo": "Nunca hagas esto: usar un cable de carga roto o pelado",
+   "cat": "S",
+   "serie": "nunca",
+   "nota": "Serie «Nunca hagas esto»."
+  },
+  {
+   "fecha": "2027-02-28",
+   "idea": null,
+   "id": "tecvj_04",
+   "estado": "montado, en cola",
+   "titulo": "La tecnología detrás del videojuego: los shaders",
+   "cat": "S",
+   "serie": "tecvj",
+   "nota": "Serie «La tecnología detrás del videojuego»."
   },
   {
    "fecha": "2027-03-01",
@@ -524,12 +1124,32 @@
    "cat": "L"
   },
   {
+   "fecha": "2027-03-02",
+   "idea": null,
+   "id": "vfd_11",
+   "estado": "montado, en cola",
+   "titulo": "¿Verdadero, falso o depende? Linux no tiene virus",
+   "cat": "S",
+   "serie": "vfd",
+   "nota": "Serie «Verdadero, falso o depende»."
+  },
+  {
    "fecha": "2027-03-03",
    "idea": 7,
    "id": "idea_007",
    "estado": "pendiente",
    "titulo": "¿Por qué es tan importante la fuente de alimentación?",
    "cat": "A"
+  },
+  {
+   "fecha": "2027-03-04",
+   "idea": null,
+   "id": "glos_24",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es Latencia? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
   },
   {
    "fecha": "2027-03-05",
@@ -539,6 +1159,26 @@
    "titulo": "¿Por qué SEGA dejó de fabricar consolas?",
    "cat": "G",
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-03-06",
+   "idea": null,
+   "id": "quepasa_07",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué pasa si llenas el SSD hasta arriba?",
+   "cat": "S",
+   "serie": "quepasa",
+   "nota": "Serie «¿Qué pasa si…?»."
+  },
+  {
+   "fecha": "2027-03-07",
+   "idea": null,
+   "id": "mito_01",
+   "estado": "montado, en cola",
+   "titulo": "¿Mito o realidad? Cerrar las aplicaciones del móvil ahorra batería",
+   "cat": "S",
+   "serie": "mito",
+   "nota": "Serie «Mito o realidad»."
   },
   {
    "fecha": "2027-03-08",
@@ -568,12 +1208,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-03-11",
+   "idea": null,
+   "id": "diag_19",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: la imagen se ve borrosa en el monitor o la tele",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2027-03-12",
    "idea": 25,
    "id": "idea_025",
    "estado": "pendiente",
    "titulo": "¿Por qué tu PC va lento si tiene componentes potentes?",
    "cat": "C"
+  },
+  {
+   "fecha": "2027-03-13",
+   "idea": null,
+   "id": "nunca_04",
+   "estado": "montado, en cola",
+   "titulo": "Nunca hagas esto: seguir usando una batería hinchada",
+   "cat": "S",
+   "serie": "nunca",
+   "nota": "Serie «Nunca hagas esto»."
+  },
+  {
+   "fecha": "2027-03-14",
+   "idea": null,
+   "id": "tecvj_17",
+   "estado": "montado, en cola",
+   "titulo": "La tecnología detrás del videojuego: los mundos sin pantallas de carga",
+   "cat": "S",
+   "serie": "tecvj",
+   "nota": "Serie «La tecnología detrás del videojuego»."
   },
   {
    "fecha": "2027-03-15",
@@ -585,6 +1255,16 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-03-16",
+   "idea": null,
+   "id": "mito_06",
+   "estado": "montado, en cola",
+   "titulo": "¿Mito o realidad? Los cargadores que no son originales siempre estropean el móvil",
+   "cat": "S",
+   "serie": "mito",
+   "nota": "Serie «Mito o realidad»."
+  },
+  {
    "fecha": "2027-03-17",
    "idea": 35,
    "id": "idea_035",
@@ -594,6 +1274,16 @@
    "nota": "Datos que cambian: se verifican justo antes de montar el vídeo."
   },
   {
+   "fecha": "2027-03-18",
+   "idea": null,
+   "id": "glos_06",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es USB-C? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
+  },
+  {
    "fecha": "2027-03-19",
    "idea": 95,
    "id": "idea_095",
@@ -601,6 +1291,26 @@
    "titulo": "¿Cómo consigue Minecraft generar mundos prácticamente infinitos?",
    "cat": "J",
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-03-20",
+   "idea": null,
+   "id": "quepasa_18",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué pasa si te quedas sin espacio en el móvil?",
+   "cat": "S",
+   "serie": "quepasa",
+   "nota": "Serie «¿Qué pasa si…?»."
+  },
+  {
+   "fecha": "2027-03-21",
+   "idea": null,
+   "id": "vfd_18",
+   "estado": "montado, en cola",
+   "titulo": "¿Verdadero, falso o depende? El 5G es más rápido que la fibra",
+   "cat": "S",
+   "serie": "vfd",
+   "nota": "Serie «Verdadero, falso o depende»."
   },
   {
    "fecha": "2027-03-22",
@@ -631,12 +1341,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-03-25",
+   "idea": null,
+   "id": "diag_18",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: Windows no se actualiza",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2027-03-26",
    "idea": 55,
    "id": "idea_055",
    "estado": "pendiente",
    "titulo": "¿Qué ocurre realmente cuando borras un archivo de tu ordenador?",
    "cat": "F"
+  },
+  {
+   "fecha": "2027-03-27",
+   "idea": null,
+   "id": "nunca_18",
+   "estado": "montado, en cola",
+   "titulo": "Nunca hagas esto: descargar controladores de webs no oficiales",
+   "cat": "S",
+   "serie": "nunca",
+   "nota": "Serie «Nunca hagas esto»."
+  },
+  {
+   "fecha": "2027-03-28",
+   "idea": null,
+   "id": "tecvj_05",
+   "estado": "montado, en cola",
+   "titulo": "La tecnología detrás del videojuego: cómo se sincronizan los jugadores online",
+   "cat": "S",
+   "serie": "tecvj",
+   "nota": "Serie «La tecnología detrás del videojuego»."
   },
   {
    "fecha": "2027-03-29",
@@ -647,12 +1387,32 @@
    "cat": "L"
   },
   {
+   "fecha": "2027-03-30",
+   "idea": null,
+   "id": "vfd_07",
+   "estado": "montado, en cola",
+   "titulo": "¿Verdadero, falso o depende? La pasta térmica cara es mucho mejor",
+   "cat": "S",
+   "serie": "vfd",
+   "nota": "Serie «Verdadero, falso o depende»."
+  },
+  {
    "fecha": "2027-03-31",
    "idea": 9,
    "id": "idea_009",
    "estado": "pendiente",
    "titulo": "¿Más núcleos de procesador significa más velocidad?",
    "cat": "A"
+  },
+  {
+   "fecha": "2027-04-01",
+   "idea": null,
+   "id": "glos_30",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es Malware? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
   },
   {
    "fecha": "2027-04-02",
@@ -664,12 +1424,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-04-03",
+   "idea": null,
+   "id": "quepasa_09",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué pasa si nunca limpias el ordenador?",
+   "cat": "S",
+   "serie": "quepasa",
+   "nota": "Serie «¿Qué pasa si…?»."
+  },
+  {
+   "fecha": "2027-04-04",
+   "idea": null,
+   "id": "mito_04",
+   "estado": "montado, en cola",
+   "titulo": "¿Mito o realidad? Cargar el móvil toda la noche lo estropea",
+   "cat": "S",
+   "serie": "mito",
+   "nota": "Serie «Mito o realidad»."
+  },
+  {
    "fecha": "2027-04-05",
    "idea": 17,
    "id": "idea_017",
    "estado": "pendiente",
    "titulo": "¿Una refrigeración líquida necesita mantenimiento?",
    "cat": "B"
+  },
+  {
+   "fecha": "2027-04-06",
+   "idea": null,
+   "id": "mito_09",
+   "estado": "montado, en cola",
+   "titulo": "¿Mito o realidad? El wifi de 5 gigahercios llega más lejos que el de 2,4",
+   "cat": "S",
+   "serie": "mito",
+   "nota": "Serie «Mito o realidad»."
   },
   {
    "fecha": "2027-04-07",
@@ -681,12 +1471,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-04-08",
+   "idea": null,
+   "id": "diag_14",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: la pantalla parpadea",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2027-04-09",
    "idea": 26,
    "id": "idea_026",
    "estado": "pendiente",
    "titulo": "¿Por qué tu ordenador se reinicia sin avisar?",
    "cat": "C"
+  },
+  {
+   "fecha": "2027-04-10",
+   "idea": null,
+   "id": "nunca_16",
+   "estado": "montado, en cola",
+   "titulo": "Nunca hagas esto: instalar dos antivirus a la vez",
+   "cat": "S",
+   "serie": "nunca",
+   "nota": "Serie «Nunca hagas esto»."
+  },
+  {
+   "fecha": "2027-04-11",
+   "idea": null,
+   "id": "tecvj_06",
+   "estado": "montado, en cola",
+   "titulo": "La tecnología detrás del videojuego: el sonido en tres dimensiones",
+   "cat": "S",
+   "serie": "tecvj",
+   "nota": "Serie «La tecnología detrás del videojuego»."
   },
   {
    "fecha": "2027-04-12",
@@ -717,6 +1537,16 @@
    "nota": "Datos que cambian: se verifican justo antes de montar el vídeo."
   },
   {
+   "fecha": "2027-04-15",
+   "idea": null,
+   "id": "glos_03",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es VPN? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
+  },
+  {
    "fecha": "2027-04-16",
    "idea": 96,
    "id": "idea_096",
@@ -726,12 +1556,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-04-17",
+   "idea": null,
+   "id": "quepasa_14",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué pasa si borras la carpeta System treinta y dos de Windows?",
+   "cat": "S",
+   "serie": "quepasa",
+   "nota": "Serie «¿Qué pasa si…?»."
+  },
+  {
+   "fecha": "2027-04-18",
+   "idea": null,
+   "id": "vfd_14",
+   "estado": "montado, en cola",
+   "titulo": "¿Verdadero, falso o depende? Los SSD se estropean pronto por escribir tanto",
+   "cat": "S",
+   "serie": "vfd",
+   "nota": "Serie «Verdadero, falso o depende»."
+  },
+  {
    "fecha": "2027-04-19",
    "idea": 47,
    "id": "idea_047",
    "estado": "pendiente",
    "titulo": "¿Por qué los centros de datos necesitan cantidades gigantescas de agua y electricidad?",
    "cat": "E"
+  },
+  {
+   "fecha": "2027-04-20",
+   "idea": null,
+   "id": "vfd_01",
+   "estado": "montado, en cola",
+   "titulo": "¿Verdadero, falso o depende? Más RAM significa más FPS",
+   "cat": "S",
+   "serie": "vfd",
+   "nota": "Serie «Verdadero, falso o depende»."
   },
   {
    "fecha": "2027-04-21",
@@ -743,12 +1603,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-04-22",
+   "idea": null,
+   "id": "diag_10",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: el disco al cien por cien en el Administrador de tareas",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2027-04-23",
    "idea": 56,
    "id": "idea_056",
    "estado": "pendiente",
    "titulo": "¿Por qué los ordenadores tienen una pila en la placa base?",
    "cat": "F"
+  },
+  {
+   "fecha": "2027-04-24",
+   "idea": null,
+   "id": "nunca_19",
+   "estado": "montado, en cola",
+   "titulo": "Nunca hagas esto: mover un PC con disco duro mientras está encendido",
+   "cat": "S",
+   "serie": "nunca",
+   "nota": "Serie «Nunca hagas esto»."
+  },
+  {
+   "fecha": "2027-04-25",
+   "idea": null,
+   "id": "tecvj_19",
+   "estado": "montado, en cola",
+   "titulo": "La tecnología detrás del videojuego: los sistemas anti trampas",
+   "cat": "S",
+   "serie": "tecvj",
+   "nota": "Serie «La tecnología detrás del videojuego»."
   },
   {
    "fecha": "2027-04-26",
@@ -777,6 +1667,16 @@
    "cat": "A"
   },
   {
+   "fecha": "2027-04-29",
+   "idea": null,
+   "id": "glos_15",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es Cookies? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
+  },
+  {
    "fecha": "2027-04-30",
    "idea": 68,
    "id": "idea_068",
@@ -786,12 +1686,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-05-01",
+   "idea": null,
+   "id": "quepasa_17",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué pasa si usas un cable HDMI antiguo con un monitor de alta frecuencia?",
+   "cat": "S",
+   "serie": "quepasa",
+   "nota": "Serie «¿Qué pasa si…?»."
+  },
+  {
+   "fecha": "2027-05-02",
+   "idea": null,
+   "id": "mito_14",
+   "estado": "montado, en cola",
+   "titulo": "¿Mito o realidad? Reiniciar el router cada día es necesario",
+   "cat": "S",
+   "serie": "mito",
+   "nota": "Serie «Mito o realidad»."
+  },
+  {
    "fecha": "2027-05-03",
    "idea": 18,
    "id": "idea_018",
    "estado": "pendiente",
    "titulo": "¿Por qué tu ordenador hace cada vez más ruido?",
    "cat": "B"
+  },
+  {
+   "fecha": "2027-05-04",
+   "idea": null,
+   "id": "mito_18",
+   "estado": "montado, en cola",
+   "titulo": "¿Mito o realidad? Los virus solo vienen de páginas raras",
+   "cat": "S",
+   "serie": "mito",
+   "nota": "Serie «Mito o realidad»."
   },
   {
    "fecha": "2027-05-05",
@@ -803,12 +1733,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-05-06",
+   "idea": null,
+   "id": "diag_05",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: no sale sonido",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2027-05-07",
    "idea": 27,
    "id": "idea_027",
    "estado": "pendiente",
    "titulo": "¿Por qué Windows no detecta toda tu memoria RAM?",
    "cat": "C"
+  },
+  {
+   "fecha": "2027-05-08",
+   "idea": null,
+   "id": "nunca_14",
+   "estado": "montado, en cola",
+   "titulo": "Nunca hagas esto: instalar programas crackeados",
+   "cat": "S",
+   "serie": "nunca",
+   "nota": "Serie «Nunca hagas esto»."
+  },
+  {
+   "fecha": "2027-05-09",
+   "idea": null,
+   "id": "tecvj_10",
+   "estado": "montado, en cola",
+   "titulo": "La tecnología detrás del videojuego: la animación con huesos",
+   "cat": "S",
+   "serie": "tecvj",
+   "nota": "Serie «La tecnología detrás del videojuego»."
   },
   {
    "fecha": "2027-05-10",
@@ -838,6 +1798,16 @@
    "cat": "D"
   },
   {
+   "fecha": "2027-05-13",
+   "idea": null,
+   "id": "glos_20",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es TDP? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
+  },
+  {
    "fecha": "2027-05-14",
    "idea": 97,
    "id": "idea_097",
@@ -845,6 +1815,26 @@
    "titulo": "¿Cómo se generan los miles de planetas de No Man's Sky?",
    "cat": "J",
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-05-15",
+   "idea": null,
+   "id": "quepasa_12",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué pasa si usas el móvil mientras se carga?",
+   "cat": "S",
+   "serie": "quepasa",
+   "nota": "Serie «¿Qué pasa si…?»."
+  },
+  {
+   "fecha": "2027-05-16",
+   "idea": null,
+   "id": "vfd_13",
+   "estado": "montado, en cola",
+   "titulo": "¿Verdadero, falso o depende? El 4K siempre se ve mejor que el Full HD",
+   "cat": "S",
+   "serie": "vfd",
+   "nota": "Serie «Verdadero, falso o depende»."
   },
   {
    "fecha": "2027-05-17",
@@ -856,6 +1846,16 @@
    "nota": "Datos que cambian: se verifican justo antes de montar el vídeo."
   },
   {
+   "fecha": "2027-05-18",
+   "idea": null,
+   "id": "vfd_03",
+   "estado": "montado, en cola",
+   "titulo": "¿Verdadero, falso o depende? Una fuente con más vatios gasta más",
+   "cat": "S",
+   "serie": "vfd",
+   "nota": "Serie «Verdadero, falso o depende»."
+  },
+  {
    "fecha": "2027-05-19",
    "idea": 107,
    "id": "idea_107",
@@ -865,12 +1865,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-05-20",
+   "idea": null,
+   "id": "diag_07",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: el móvil se calienta",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2027-05-21",
    "idea": 57,
    "id": "idea_057",
    "estado": "pendiente",
    "titulo": "¿Puedes romper tu PC al tocar sus componentes con electricidad estática?",
    "cat": "F"
+  },
+  {
+   "fecha": "2027-05-22",
+   "idea": null,
+   "id": "nunca_20",
+   "estado": "montado, en cola",
+   "titulo": "Nunca hagas esto: pulsar un enlace de un mensaje urgente",
+   "cat": "S",
+   "serie": "nunca",
+   "nota": "Serie «Nunca hagas esto»."
+  },
+  {
+   "fecha": "2027-05-23",
+   "idea": null,
+   "id": "tecvj_12",
+   "estado": "montado, en cola",
+   "titulo": "La tecnología detrás del videojuego: el agua",
+   "cat": "S",
+   "serie": "tecvj",
+   "nota": "Serie «La tecnología detrás del videojuego»."
   },
   {
    "fecha": "2027-05-24",
@@ -899,6 +1929,16 @@
    "cat": "A"
   },
   {
+   "fecha": "2027-05-27",
+   "idea": null,
+   "id": "glos_26",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es NFC? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
+  },
+  {
    "fecha": "2027-05-28",
    "idea": 69,
    "id": "idea_069",
@@ -908,12 +1948,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-05-29",
+   "idea": null,
+   "id": "quepasa_01",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué pasa si utilizas un ordenador sin pasta térmica?",
+   "cat": "S",
+   "serie": "quepasa",
+   "nota": "Serie «¿Qué pasa si…?»."
+  },
+  {
+   "fecha": "2027-05-30",
+   "idea": null,
+   "id": "mito_03",
+   "estado": "montado, en cola",
+   "titulo": "¿Mito o realidad? Más megapíxeles significa mejor cámara",
+   "cat": "S",
+   "serie": "mito",
+   "nota": "Serie «Mito o realidad»."
+  },
+  {
    "fecha": "2027-05-31",
    "idea": 19,
    "id": "idea_019",
    "estado": "pendiente",
    "titulo": "¿Es malo usar el portátil siempre enchufado?",
    "cat": "B"
+  },
+  {
+   "fecha": "2027-06-01",
+   "idea": null,
+   "id": "mito_20",
+   "estado": "montado, en cola",
+   "titulo": "¿Mito o realidad? Los programas optimizadores aceleran tu PC",
+   "cat": "S",
+   "serie": "mito",
+   "nota": "Serie «Mito o realidad»."
   },
   {
    "fecha": "2027-06-02",
@@ -925,12 +1995,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-06-03",
+   "idea": null,
+   "id": "diag_22",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: la impresora no imprime",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2027-06-04",
    "idea": 28,
    "id": "idea_028",
    "estado": "pendiente",
    "titulo": "¿Qué significan los pitidos de tu ordenador al encenderlo?",
    "cat": "C"
+  },
+  {
+   "fecha": "2027-06-05",
+   "idea": null,
+   "id": "nunca_05",
+   "estado": "montado, en cola",
+   "titulo": "Nunca hagas esto: usar un cargador sin certificar",
+   "cat": "S",
+   "serie": "nunca",
+   "nota": "Serie «Nunca hagas esto»."
+  },
+  {
+   "fecha": "2027-06-06",
+   "idea": null,
+   "id": "tecvj_18",
+   "estado": "montado, en cola",
+   "titulo": "La tecnología detrás del videojuego: cómo se guardan las partidas",
+   "cat": "S",
+   "serie": "tecvj",
+   "nota": "Serie «La tecnología detrás del videojuego»."
   },
   {
    "fecha": "2027-06-07",
@@ -960,6 +2060,16 @@
    "cat": "D"
   },
   {
+   "fecha": "2027-06-10",
+   "idea": null,
+   "id": "glos_17",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es Controlador? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
+  },
+  {
    "fecha": "2027-06-11",
    "idea": 98,
    "id": "idea_098",
@@ -967,6 +2077,26 @@
    "titulo": "¿Por qué los videojuegos de terror consiguen asustarnos aunque sepamos que no son reales?",
    "cat": "J",
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-06-12",
+   "idea": null,
+   "id": "quepasa_04",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué pasa si nunca actualizas Windows?",
+   "cat": "S",
+   "serie": "quepasa",
+   "nota": "Serie «¿Qué pasa si…?»."
+  },
+  {
+   "fecha": "2027-06-13",
+   "idea": null,
+   "id": "vfd_15",
+   "estado": "montado, en cola",
+   "titulo": "¿Verdadero, falso o depende? Los antivirus ralentizan el PC",
+   "cat": "S",
+   "serie": "vfd",
+   "nota": "Serie «Verdadero, falso o depende»."
   },
   {
    "fecha": "2027-06-14",
@@ -978,6 +2108,16 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-06-15",
+   "idea": null,
+   "id": "vfd_08",
+   "estado": "montado, en cola",
+   "titulo": "¿Verdadero, falso o depende? Más núcleos es mejor para jugar",
+   "cat": "S",
+   "serie": "vfd",
+   "nota": "Serie «Verdadero, falso o depende»."
+  },
+  {
    "fecha": "2027-06-16",
    "idea": 109,
    "id": "idea_109",
@@ -987,12 +2127,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-06-17",
+   "idea": null,
+   "id": "diag_23",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: el móvil no carga",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2027-06-18",
    "idea": 58,
    "id": "idea_058",
    "estado": "pendiente",
    "titulo": "¿Por qué los ordenadores utilizan ceros y unos?",
    "cat": "F"
+  },
+  {
+   "fecha": "2027-06-19",
+   "idea": null,
+   "id": "nunca_12",
+   "estado": "montado, en cola",
+   "titulo": "Nunca hagas esto: cargar un móvil que se ha mojado",
+   "cat": "S",
+   "serie": "nunca",
+   "nota": "Serie «Nunca hagas esto»."
+  },
+  {
+   "fecha": "2027-06-20",
+   "idea": null,
+   "id": "tecvj_07",
+   "estado": "montado, en cola",
+   "titulo": "La tecnología detrás del videojuego: las texturas y su tamaño",
+   "cat": "S",
+   "serie": "tecvj",
+   "nota": "Serie «La tecnología detrás del videojuego»."
   },
   {
    "fecha": "2027-06-21",
@@ -1021,12 +2191,42 @@
    "cat": "G"
   },
   {
+   "fecha": "2027-06-24",
+   "idea": null,
+   "id": "glos_14",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es Ransomware? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
+  },
+  {
    "fecha": "2027-06-25",
    "idea": 20,
    "id": "idea_020",
    "estado": "pendiente",
    "titulo": "¿Cuántos años puede durar un ordenador bien cuidado?",
    "cat": "B"
+  },
+  {
+   "fecha": "2027-06-26",
+   "idea": null,
+   "id": "quepasa_10",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué pasa si haces overclock sin refrigerar bien?",
+   "cat": "S",
+   "serie": "quepasa",
+   "nota": "Serie «¿Qué pasa si…?»."
+  },
+  {
+   "fecha": "2027-06-27",
+   "idea": null,
+   "id": "mito_13",
+   "estado": "montado, en cola",
+   "titulo": "¿Mito o realidad? Tapar la cámara web es una paranoia",
+   "cat": "S",
+   "serie": "mito",
+   "nota": "Serie «Mito o realidad»."
   },
   {
    "fecha": "2027-06-28",
@@ -1038,6 +2238,16 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-06-29",
+   "idea": null,
+   "id": "mito_19",
+   "estado": "montado, en cola",
+   "titulo": "¿Mito o realidad? Actualizar siempre al instante es lo mejor",
+   "cat": "S",
+   "serie": "mito",
+   "nota": "Serie «Mito o realidad»."
+  },
+  {
    "fecha": "2027-06-30",
    "idea": 80,
    "id": "idea_080",
@@ -1047,12 +2257,42 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-07-01",
+   "idea": null,
+   "id": "diag_09",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: tengo wifi pero no hay internet",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2027-07-02",
    "idea": 29,
    "id": "idea_029",
    "estado": "pendiente",
    "titulo": "¿Por qué tu Wi-Fi va lento en el ordenador, pero bien en el móvil?",
    "cat": "C"
+  },
+  {
+   "fecha": "2027-07-03",
+   "idea": null,
+   "id": "nunca_15",
+   "estado": "montado, en cola",
+   "titulo": "Nunca hagas esto: usar la misma contraseña en todas partes",
+   "cat": "S",
+   "serie": "nunca",
+   "nota": "Serie «Nunca hagas esto»."
+  },
+  {
+   "fecha": "2027-07-04",
+   "idea": null,
+   "id": "tecvj_11",
+   "estado": "montado, en cola",
+   "titulo": "La tecnología detrás del videojuego: las sombras",
+   "cat": "S",
+   "serie": "tecvj",
+   "nota": "Serie «La tecnología detrás del videojuego»."
   },
   {
    "fecha": "2027-07-05",
@@ -1064,12 +2304,32 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-07-06",
+   "idea": null,
+   "id": "vfd_12",
+   "estado": "montado, en cola",
+   "titulo": "¿Verdadero, falso o depende? Desenchufar el cargador al llegar al cien por cien salva la batería",
+   "cat": "S",
+   "serie": "vfd",
+   "nota": "Serie «Verdadero, falso o depende»."
+  },
+  {
    "fecha": "2027-07-07",
    "idea": 39,
    "id": "idea_039",
    "estado": "pendiente",
    "titulo": "¿Qué es más importante para jugar, el procesador o la gráfica?",
    "cat": "D"
+  },
+  {
+   "fecha": "2027-07-08",
+   "idea": null,
+   "id": "glos_08",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es RAID? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
   },
   {
    "fecha": "2027-07-09",
@@ -1079,6 +2339,26 @@
    "titulo": "¿Cómo consigue Mario Kart que las carreras sean tan caóticas y divertidas?",
    "cat": "J",
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-07-10",
+   "idea": null,
+   "id": "quepasa_08",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué pasa si tienes un PC sin antivirus?",
+   "cat": "S",
+   "serie": "quepasa",
+   "nota": "Serie «¿Qué pasa si…?»."
+  },
+  {
+   "fecha": "2027-07-11",
+   "idea": null,
+   "id": "vfd_16",
+   "estado": "montado, en cola",
+   "titulo": "¿Verdadero, falso o depende? Windows 11 va más lento que Windows 10",
+   "cat": "S",
+   "serie": "vfd",
+   "nota": "Serie «Verdadero, falso o depende»."
   },
   {
    "fecha": "2027-07-12",
@@ -1108,12 +2388,42 @@
    "cat": "F"
   },
   {
+   "fecha": "2027-07-15",
+   "idea": null,
+   "id": "diag_21",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: aviso de que no hay espacio en el disco",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2027-07-16",
    "idea": 60,
    "id": "idea_060",
    "estado": "pendiente",
    "titulo": "¿Es verdad que Windows se vuelve más lento con los años?",
    "cat": "F"
+  },
+  {
+   "fecha": "2027-07-17",
+   "idea": null,
+   "id": "nunca_13",
+   "estado": "montado, en cola",
+   "titulo": "Nunca hagas esto: apagar el PC con el botón durante una actualización",
+   "cat": "S",
+   "serie": "nunca",
+   "nota": "Serie «Nunca hagas esto»."
+  },
+  {
+   "fecha": "2027-07-18",
+   "idea": null,
+   "id": "tecvj_13",
+   "estado": "montado, en cola",
+   "titulo": "La tecnología detrás del videojuego: la hierba y el pelo",
+   "cat": "S",
+   "serie": "tecvj",
+   "nota": "Serie «La tecnología detrás del videojuego»."
   },
   {
    "fecha": "2027-07-19",
@@ -1124,12 +2434,32 @@
    "cat": "L"
   },
   {
+   "fecha": "2027-07-20",
+   "idea": null,
+   "id": "mito_12",
+   "estado": "montado, en cola",
+   "titulo": "¿Mito o realidad? Hay que desfragmentar el SSD",
+   "cat": "S",
+   "serie": "mito",
+   "nota": "Serie «Mito o realidad»."
+  },
+  {
    "fecha": "2027-07-21",
    "idea": 30,
    "id": "idea_030",
    "estado": "pendiente",
    "titulo": "¿Se puede recuperar la información de un disco duro estropeado?",
    "cat": "C"
+  },
+  {
+   "fecha": "2027-07-22",
+   "idea": null,
+   "id": "glos_22",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es Trazado de rayos? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
   },
   {
    "fecha": "2027-07-23",
@@ -1139,6 +2469,26 @@
    "titulo": "¿Es mejor jugar con teclado y ratón o con mando?",
    "cat": "I",
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-07-24",
+   "idea": null,
+   "id": "quepasa_03",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué pasa si sacas un pendrive mientras se está copiando?",
+   "cat": "S",
+   "serie": "quepasa",
+   "nota": "Serie «¿Qué pasa si…?»."
+  },
+  {
+   "fecha": "2027-07-25",
+   "idea": null,
+   "id": "vfd_09",
+   "estado": "montado, en cola",
+   "titulo": "¿Verdadero, falso o depende? Los móviles de gama alta duran más",
+   "cat": "S",
+   "serie": "vfd",
+   "nota": "Serie «Verdadero, falso o depende»."
   },
   {
    "fecha": "2027-07-26",
@@ -1168,6 +2518,16 @@
    "nota": "Segunda lista de ideas."
   },
   {
+   "fecha": "2027-07-29",
+   "idea": null,
+   "id": "diag_24",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: pantallazo azul que se repite",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2027-07-30",
    "idea": 129,
    "id": "idea_129",
@@ -1175,6 +2535,26 @@
    "titulo": "¿Por qué el símbolo de encendido tiene esa forma?",
    "cat": "F",
    "nota": "Segunda lista de ideas."
+  },
+  {
+   "fecha": "2027-07-31",
+   "idea": null,
+   "id": "nunca_09",
+   "estado": "montado, en cola",
+   "titulo": "Nunca hagas esto: abrir la fuente de alimentación",
+   "cat": "S",
+   "serie": "nunca",
+   "nota": "Serie «Nunca hagas esto»."
+  },
+  {
+   "fecha": "2027-08-01",
+   "idea": null,
+   "id": "tecvj_03",
+   "estado": "montado, en cola",
+   "titulo": "La tecnología detrás del videojuego: no dibujar lo que no ves",
+   "cat": "S",
+   "serie": "tecvj",
+   "nota": "Serie «La tecnología detrás del videojuego»."
   },
   {
    "fecha": "2027-08-02",
@@ -1186,6 +2566,16 @@
    "nota": "Segunda lista de ideas."
   },
   {
+   "fecha": "2027-08-03",
+   "idea": null,
+   "id": "vfd_04",
+   "estado": "montado, en cola",
+   "titulo": "¿Verdadero, falso o depende? Un VPN te hace anónimo",
+   "cat": "S",
+   "serie": "vfd",
+   "nota": "Serie «Verdadero, falso o depende»."
+  },
+  {
    "fecha": "2027-08-04",
    "idea": 123,
    "id": "idea_123",
@@ -1195,6 +2585,16 @@
    "nota": "Segunda lista de ideas."
   },
   {
+   "fecha": "2027-08-05",
+   "idea": null,
+   "id": "glos_10",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es Router? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
+  },
+  {
    "fecha": "2027-08-06",
    "idea": 130,
    "id": "idea_130",
@@ -1202,6 +2602,26 @@
    "titulo": "¿Cómo sabe tu móvil que lo estás girando?",
    "cat": "F",
    "nota": "Segunda lista de ideas."
+  },
+  {
+   "fecha": "2027-08-07",
+   "idea": null,
+   "id": "quepasa_19",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué pasa si se va la luz mientras actualizas la BIOS?",
+   "cat": "S",
+   "serie": "quepasa",
+   "nota": "Serie «¿Qué pasa si…?»."
+  },
+  {
+   "fecha": "2027-08-08",
+   "idea": null,
+   "id": "mito_08",
+   "estado": "montado, en cola",
+   "titulo": "¿Mito o realidad? Hay que expulsar siempre el pendrive antes de sacarlo",
+   "cat": "S",
+   "serie": "mito",
+   "nota": "Serie «Mito o realidad»."
   },
   {
    "fecha": "2027-08-09",
@@ -1232,6 +2652,16 @@
    "nota": "Segunda lista de ideas."
   },
   {
+   "fecha": "2027-08-12",
+   "idea": null,
+   "id": "diag_01",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: mi PC no enciende",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2027-08-13",
    "idea": 122,
    "id": "idea_122",
@@ -1239,6 +2669,16 @@
    "titulo": "¿Por qué el creador de Flappy Bird decidió eliminar su propio juego?",
    "cat": "G",
    "nota": "Segunda lista de ideas."
+  },
+  {
+   "fecha": "2027-08-15",
+   "idea": null,
+   "id": "glos_05",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es DisplayPort? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
   },
   {
    "fecha": "2027-08-16",
@@ -1250,6 +2690,16 @@
    "nota": "Segunda lista de ideas."
   },
   {
+   "fecha": "2027-08-17",
+   "idea": null,
+   "id": "mito_10",
+   "estado": "montado, en cola",
+   "titulo": "¿Mito o realidad? Los antivirus de pago siempre protegen mejor que el de Windows",
+   "cat": "S",
+   "serie": "mito",
+   "nota": "Serie «Mito o realidad»."
+  },
+  {
    "fecha": "2027-08-18",
    "idea": 133,
    "id": "idea_133",
@@ -1259,6 +2709,16 @@
    "nota": "Segunda lista de ideas."
   },
   {
+   "fecha": "2027-08-19",
+   "idea": null,
+   "id": "glos_19",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es Overclocking? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
+  },
+  {
    "fecha": "2027-08-20",
    "idea": 125,
    "id": "idea_125",
@@ -1266,6 +2726,16 @@
    "titulo": "¿Qué pasó con Messenger y por qué desapareció?",
    "cat": "L",
    "nota": "Segunda lista de ideas."
+  },
+  {
+   "fecha": "2027-08-22",
+   "idea": null,
+   "id": "vfd_02",
+   "estado": "montado, en cola",
+   "titulo": "¿Verdadero, falso o depende? Un SSD es más rápido que un disco duro",
+   "cat": "S",
+   "serie": "vfd",
+   "nota": "Serie «Verdadero, falso o depende»."
   },
   {
    "fecha": "2027-08-23",
@@ -1296,6 +2766,16 @@
    "nota": "Segunda lista de ideas."
   },
   {
+   "fecha": "2027-08-26",
+   "idea": null,
+   "id": "diag_06",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: la webcam no funciona",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2027-08-27",
    "idea": 128,
    "id": "idea_128",
@@ -1303,6 +2783,16 @@
    "titulo": "¿Por qué el botón de «Me gusta» cambió las redes sociales?",
    "cat": "L",
    "nota": "Segunda lista de ideas."
+  },
+  {
+   "fecha": "2027-08-29",
+   "idea": null,
+   "id": "mito_16",
+   "estado": "montado, en cola",
+   "titulo": "¿Mito o realidad? Meter el móvil mojado en arroz lo seca",
+   "cat": "S",
+   "serie": "mito",
+   "nota": "Serie «Mito o realidad»."
   },
   {
    "fecha": "2027-08-30",
@@ -1314,6 +2804,16 @@
    "nota": "Segunda lista de ideas."
   },
   {
+   "fecha": "2027-08-31",
+   "idea": null,
+   "id": "vfd_05",
+   "estado": "montado, en cola",
+   "titulo": "¿Verdadero, falso o depende? El wifi 6 siempre es más rápido que el wifi 5",
+   "cat": "S",
+   "serie": "vfd",
+   "nota": "Serie «Verdadero, falso o depende»."
+  },
+  {
    "fecha": "2027-09-01",
    "idea": 71,
    "id": "idea_071",
@@ -1321,6 +2821,16 @@
    "titulo": "¿Qué hacen los NPC cuando no los estás mirando?",
    "cat": "H",
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
+  },
+  {
+   "fecha": "2027-09-02",
+   "idea": null,
+   "id": "glos_16",
+   "estado": "montado, en cola",
+   "titulo": "¿Qué es Caché? Glosario informático en menos de un minuto",
+   "cat": "S",
+   "serie": "glosario",
+   "nota": "Serie «Glosario en menos de un minuto»."
   },
   {
    "fecha": "2027-09-03",
@@ -1332,6 +2842,16 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-09-05",
+   "idea": null,
+   "id": "diag_12",
+   "estado": "montado, en cola",
+   "titulo": "Diagnóstico exprés: el PC tarda mucho en apagarse",
+   "cat": "S",
+   "serie": "diagnostico",
+   "nota": "Serie «Diagnóstico exprés»."
+  },
+  {
    "fecha": "2027-09-06",
    "idea": 91,
    "id": "idea_091",
@@ -1341,6 +2861,16 @@
    "nota": "Imágenes genéricas: sin personajes, logos ni capturas de juegos."
   },
   {
+   "fecha": "2027-09-07",
+   "idea": null,
+   "id": "mito_17",
+   "estado": "montado, en cola",
+   "titulo": "¿Mito o realidad? El modo oscuro siempre ahorra batería",
+   "cat": "S",
+   "serie": "mito",
+   "nota": "Serie «Mito o realidad»."
+  },
+  {
    "fecha": "2027-09-08",
    "idea": 41,
    "id": "idea_041",
@@ -1348,6 +2878,16 @@
    "titulo": "¿Por qué la inteligencia artificial está encareciendo la memoria RAM? (incluye la 42: SSD)",
    "cat": "E",
    "nota": "Datos que cambian: se verifican justo antes de montar el vídeo."
+  },
+  {
+   "fecha": "2027-09-12",
+   "idea": null,
+   "id": "vfd_06",
+   "estado": "montado, en cola",
+   "titulo": "¿Verdadero, falso o depende? Un monitor de 144 hercios mejora tu juego",
+   "cat": "S",
+   "serie": "vfd",
+   "nota": "Serie «Verdadero, falso o depende»."
   },
   {
    "fecha": "2027-09-14",

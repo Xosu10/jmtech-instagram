@@ -4,6 +4,8 @@
     "fecha_inicio: primer dia en que puede publicarse (solo cuentan de lunes a viernes).",
     "dias_sin_publicar: lista de fechas AAAA-MM-DD en las que NO se publica (festivos, vacaciones).",
     "pausado: true detiene todas las publicaciones automaticas; false las reanuda.",
+    "posts: false deja en pausa solo la publicacion de las 19:00 (el reel y la curiosidad siguen). Ponlo en true cuando haya seguidores.",
+    "curiosidades: cada dia (tambien sabados y domingos) sale el video que diga la cola de jmtech-musica.",
     "semilla: numero que fija el orden de los temas. Mientras no cambie, el orden es siempre el mismo.",
     "campanas: publicaciones especiales que sustituyen a la rotacion en una fecha concreta (Fase 7).",
     "campanas_previstas: recordatorio de campanas por disenar. No se publican hasta pasarlas a 'campanas'."
@@ -13,6 +15,7 @@
   "hora_publicacion": "19:00",
   "hora_reel": "15:00",
   "reels": true,
+  "posts": false,
   "hora_curiosidad": "17:00",
   "curiosidades": true,
   "facebook_page_id": "",

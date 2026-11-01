@@ -194,12 +194,12 @@ def test_la_curiosidad_no_bloquea_ni_es_bloqueada_por_la_publicacion_y_el_reel()
     from jmtech.publicador import decidir
     solo_curiosidad = {"publicaciones": [{"fecha": "2026-11-02", "resultado": "publicado", "prueba": False, "tipo": "curiosidad"}]}
     assert decidir(utc(2026, 11, 2, 14), cfg(), solo_curiosidad, tipo="reel").accion == "publicar"
-    assert decidir(utc(2026, 11, 2, 18), cfg(), solo_curiosidad, tipo="post").accion == "publicar"
+    assert decidir(utc(2026, 11, 2, 18), cfg(posts=True), solo_curiosidad, tipo="post").accion == "publicar"
 
 
 def test_el_flujo_de_la_nube_coincide_con_el_calendario():
     texto = (RAIZ / ".github" / "workflows" / "publicar-curiosidad.yml").read_text(encoding="utf-8")
-    assert '"0 15 * * 1,2,3,5"' in texto and '"0 16 * * 1,2,3,5"' in texto
+    assert '"0 15 * * *"' in texto and '"0 16 * * *"' in texto       # todos los días, también fines de semana
     assert cargar_config()["hora_curiosidad"] == "17:00"
 
 
@@ -212,7 +212,9 @@ def test_el_plan_tiene_una_ficha_por_dia_y_fechas_validas():
     from datetime import date
     fechas = [p["fecha"] for p in _plan()]
     assert len(set(fechas)) == len(fechas)
-    assert all(date.fromisoformat(f).weekday() in (0, 1, 2, 4) for f in fechas)    # lunes, martes (serie), miércoles, viernes
+    assert len(fechas) == 312 and fechas[0] == "2026-11-02"
+    semana = {date.fromisoformat(f).weekday() for f in fechas}
+    assert semana == {0, 1, 2, 3, 4, 5, 6}                                         # hay vídeo cualquier día de la semana
     assert fechas == sorted(fechas)
     for p in _plan():
         assert (RAIZ / "contenido" / "curiosidades" / f"{p['id']}.json").exists(), p["id"]

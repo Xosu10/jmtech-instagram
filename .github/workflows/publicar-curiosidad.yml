@@ -1,6 +1,6 @@
 name: Publicar la curiosidad de informatica
 
-# VIDEO DE CURIOSIDADES: lunes, martes, miercoles y viernes a las 17:00 (los martes solo el 2.o y 4.o de cada mes: serie Automatiza esto) (hora de Madrid).
+# VIDEO DE CURIOSIDADES: todos los dias (tambien sabados y domingos) a las 17:00, hora de Madrid. Cada dia toca el video que diga la cola.
 # Los videos ya montados (voz, imagenes, subtitulos) y su calendario estan en el repositorio privado jmtech-musica,
 # carpeta curiosidades/ (cola.json dice que video toca cada dia). Aqui solo se sube el que toca hoy.
 # GitHub programa en UTC. Madrid = UTC+1 en invierno y UTC+2 en verano: DOS disparos (15:00 y 16:00 UTC) y el programa
@@ -10,8 +10,8 @@ name: Publicar la curiosidad de informatica
 
 on:
   schedule:
-    - cron: "0 15 * * 1,2,3,5"
-    - cron: "0 16 * * 1,2,3,5"
+    - cron: "0 15 * * *"
+    - cron: "0 16 * * *"
   workflow_dispatch:
     inputs:
       dry_run:

@@ -675,7 +675,7 @@ def publicar_curiosidad(video, pie, id_video, fecha, *, dry_run=False, cliente=N
 
 def curiosidad_hoy(carpeta, ahora_utc=None, *, dry_run=False, ignorar_hora=False, cfg=None, estado=None, cliente=None,
                    ruta_estado=None):
-    """Publica el vídeo de la cola que toca hoy (lunes, miércoles y viernes a las 17:00 de Madrid)."""
+    """Publica el vídeo de la cola que toca hoy (cada día a las 17:00 de Madrid, también fines de semana)."""
     from datetime import datetime
     from . import estado as est
     from .calendario import cargar_config

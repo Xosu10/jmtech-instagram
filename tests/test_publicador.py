@@ -7,7 +7,13 @@ import requests
 
 from jmtech import estado as est
 from jmtech import publicador
-from jmtech.calendario import cargar_config
+from jmtech.calendario import cargar_config as _cargar_config
+
+
+def cargar_config():
+    c = _cargar_config()
+    c["posts"] = True                      # el post de las 19:00 está en pausa en la configuración real
+    return c
 from jmtech.instagram import ClienteInstagram, ErrorInstagram, ocultar, traducir_error
 
 TOKEN = "EAA" + "x" * 40          # falso, construido aquí para no dejar nada con forma de token en el código

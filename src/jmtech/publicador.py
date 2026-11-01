@@ -99,6 +99,8 @@ def decidir(ahora_utc, cfg, estado, *, ignorar_hora=False, tema=None, estilo=Non
     clave = "hora_reel" if tipo == "reel" else "hora_publicacion"
     if tipo == "reel" and not cfg.get("reels", True):
         return Decision("omitir", "los reels están desactivados (config/calendario.json)", hoy)
+    if tipo == "post" and not cfg.get("posts", True):
+        return Decision("omitir", "las publicaciones de las 19:00 están desactivadas (config/calendario.json)", hoy)
     if not ignorar_hora and not en_ventana(ahora, cfg, clave):
         return Decision("omitir", f"en Madrid son las {ahora:%H:%M}, fuera de la ventana de publicación "
                                   f"({cfg[clave]} + {VENTANA_MIN} min)", hoy)

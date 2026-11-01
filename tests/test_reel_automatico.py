@@ -47,7 +47,7 @@ def test_el_reel_y_la_publicacion_son_independientes_el_mismo_dia():
     assert accion(utc(2026, 11, 2, 14), solo_post) == "publicar"                       # el post no bloquea el reel
     solo_reel = {"publicaciones": [{"fecha": "2026-11-02", "resultado": "publicado", "prueba": False, "tipo": "reel"}]}
     assert accion(utc(2026, 11, 2, 14), solo_reel) == "omitir"                         # un reel por día
-    assert decidir(utc(2026, 11, 2, 18), cfg(), solo_reel, tipo="post").accion == "publicar"   # el reel no bloquea el post
+    assert decidir(utc(2026, 11, 2, 18), cfg(posts=True), solo_reel, tipo="post").accion == "publicar"   # el reel no bloquea el post
 
 
 def test_pausa_fines_de_semana_y_reels_desactivados():
@@ -56,9 +56,16 @@ def test_pausa_fines_de_semana_y_reels_desactivados():
     assert accion(utc(2026, 11, 7, 14)) == "omitir"                                      # sábado
 
 
+def test_el_post_de_las_19_esta_pausado_y_no_afecta_al_reel():
+    assert cargar_config()["posts"] is False                                               # pausado hasta tener seguidores
+    assert decidir(utc(2026, 11, 2, 18), cfg(), VACIO, tipo="post").accion == "omitir"
+    assert decidir(utc(2026, 11, 2, 18), cfg(posts=True), VACIO, tipo="post").accion == "publicar"
+    assert accion(utc(2026, 11, 2, 14)) == "publicar"                                      # el reel sigue saliendo
+
+
 def test_el_reel_y_la_publicacion_del_dia_usan_el_mismo_servicio_y_la_misma_imagen():
     a = decidir(utc(2026, 11, 2, 14), cfg(), VACIO, tipo="reel", catalogo=publicador.cargar_catalogo()).publicacion
-    b = decidir(utc(2026, 11, 2, 18), cfg(), VACIO, tipo="post", catalogo=publicador.cargar_catalogo()).publicacion
+    b = decidir(utc(2026, 11, 2, 18), cfg(posts=True), VACIO, tipo="post", catalogo=publicador.cargar_catalogo()).publicacion
     assert (a.tema_id, a.asset, a.variante) == (b.tema_id, b.asset, b.variante)
 
 

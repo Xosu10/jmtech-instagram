@@ -15,6 +15,7 @@ def utc(a, m, d, h, mi=0):
 
 def cfg(**cambios):
     c = cargar_config()
+    c["posts"] = True                      # el post de las 19:00 está en pausa en la configuración real
     c.update(cambios)
     return completar_config(c)
 

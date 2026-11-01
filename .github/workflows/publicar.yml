@@ -1,6 +1,6 @@
 name: Publicar en Instagram
 
-# PUBLICACION AUTOMATICA: lunes a viernes a las 19:00 (hora de Madrid).
+# PUBLICACION AUTOMATICA: lunes a viernes a las 19:00 (hora de Madrid). EN PAUSA desde el inicio ("posts": false en config/calendario.json): el anuncio sale solo como reel a las 15:00. Cuando haya seguidores, poner "posts": true.
 # GitHub programa en UTC. Hora de Madrid = UTC+1 en invierno y UTC+2 en verano, asi que hay DOS disparos
 # (17:00 y 18:00 UTC) y el programa solo publica si en Madrid son las 19:00-20:30 (y nunca dos veces el mismo dia).
 # Para PAUSAR: en config/calendario.json pon "pausado": true.
