@@ -249,3 +249,53 @@ def test_gta_vi_se_dice_gta_seis_sin_cambiar_el_numero_de_palabras():
     voz = cur._pronunciar(texto)
     assert "GTA seis" in voz and "Vice City" in voz and "VIVA" in voz
     assert len(voz.split()) == len(texto.split())
+
+
+# ---------- Las noticias de la semana (domingos a las 19:00, cola propia) ----------
+@pytest.fixture
+def cola_noticias(cola):
+    carpeta = cola / "noticias"
+    carpeta.mkdir()
+    (carpeta / "n.mp4").write_bytes(b"video")
+    (carpeta / "cola.json").write_text(json.dumps({"videos": [
+        {"fecha": "2026-11-01", "id": "noticias_1", "video": "n.mp4", "pie": "Pie de noticias"}]}), encoding="utf-8")
+    return cola
+
+
+@pytest.mark.parametrize("ahora, publica", [
+    (utc(2026, 11, 1, 17, 59), False),    # invierno: 18:59 en Madrid, todavía no
+    (utc(2026, 11, 1, 18, 0), True),      # 19:00
+    (utc(2026, 11, 1, 19, 29), True),     # 20:29
+    (utc(2026, 11, 1, 19, 30), False),    # 20:30, demasiado tarde
+])
+def test_ventana_de_las_noticias_de_las_19(cola_noticias, ahora, publica):
+    ig = FalsoInstagram()
+    r = cur.noticias_hoy(cola_noticias, ahora, cfg=cfg(), estado=VACIO, cliente=ig, ruta_estado=cola_noticias / "e.json")
+    assert bool(r) is publica and len(ig.subidos) == int(publica)
+
+
+def test_las_noticias_tienen_cola_propia_y_no_bloquean_a_la_curiosidad(cola_noticias):
+    ig, ruta = FalsoInstagram(), cola_noticias / "e.json"
+    r = cur.noticias_hoy(cola_noticias, utc(2026, 11, 1, 18), cfg=cfg(), cliente=ig, ruta_estado=ruta)
+    assert r["tipo"] == "noticias" and r["fecha"] == "2026-11-01" and ig.subidos == [("n.mp4", "Pie de noticias")]
+    assert cur.noticias_hoy(cola_noticias, utc(2026, 11, 1, 19), cfg=cfg(), cliente=ig, ruta_estado=ruta) is None   # no se repite
+    # la cola de curiosidades no se mezcla con la de noticias, ni al revés
+    assert cur.curiosidad_hoy(cola_noticias, utc(2026, 11, 1, 16), cfg=cfg(), cliente=ig, ruta_estado=ruta) is None
+    assert cur.curiosidad_hoy(cola_noticias, utc(2026, 11, 2, 16), cfg=cfg(), cliente=ig, ruta_estado=ruta)["tipo"] == "curiosidad"
+
+
+def test_noticias_se_pueden_pausar(cola_noticias):
+    ig = FalsoInstagram()
+    assert cur.noticias_hoy(cola_noticias, utc(2026, 11, 1, 18), cfg=cfg(noticias=False), estado=VACIO, cliente=ig) is None
+    assert ig.subidos == []
+
+
+def test_el_flujo_de_las_noticias_coincide_con_el_calendario():
+    texto = (RAIZ / ".github" / "workflows" / "publicar-noticias.yml").read_text(encoding="utf-8")
+    assert '"0 17 * * 0"' in texto and '"0 18 * * 0"' in texto and "noticias --carpeta musica/curiosidades" in texto
+    assert cargar_config()["hora_noticias"] == "19:00" and cargar_config()["noticias"] is True
+
+
+def test_los_guiones_de_noticias_pasan_las_comprobaciones():
+    for ruta in (RAIZ / "contenido" / "noticias").glob("*.json"):
+        assert cur.problemas_espec(cur.cargar_espec(ruta)) == [], ruta.name

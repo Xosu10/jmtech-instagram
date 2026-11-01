@@ -634,8 +634,8 @@ def montar_plan(carpeta, musica_dir, hasta=None, provisional=False, avisar=print
 
 
 def publicar_curiosidad(video, pie, id_video, fecha, *, dry_run=False, cliente=None, ruta_estado=None, ahora_utc=None,
-                        cfg=None, prueba=False):
-    """Sube el vídeo como reel y lo anota en el estado (tipo «curiosidad»). No repite si ya está en Instagram."""
+                        cfg=None, prueba=False, tipo="curiosidad", clave_hora="hora_curiosidad"):
+    """Sube el vídeo como reel y lo anota en el estado (tipo «curiosidad» o «noticias»). No repite si ya está en Instagram."""
     from datetime import datetime
     from . import estado as est
     from .instagram import ClienteInstagram
@@ -645,7 +645,7 @@ def publicar_curiosidad(video, pie, id_video, fecha, *, dry_run=False, cliente=N
     ahora_utc = ahora_utc or datetime.now(UTC)
     cfg = cfg or cargar_config()
     ruta = Path(video)
-    print(f"Curiosidad lista: {id_video} ({ruta.stat().st_size / 1e6:.1f} MB)")
+    print(f"{tipo.capitalize()} listo: {id_video} ({ruta.stat().st_size / 1e6:.1f} MB)")
     if dry_run:
         print(f"PRUEBA EN SECO: no se llama a Instagram. Pie:\n---\n{pie}\n---")
         return None
@@ -659,22 +659,22 @@ def publicar_curiosidad(video, pie, id_video, fecha, *, dry_run=False, cliente=N
         permalink = cliente.permalink(media_id)
     from .facebook import compartir_en_facebook
     fb = None if previo else compartir_en_facebook(cfg, ruta, pie)
-    retraso = 0 if prueba else retraso_min(ahora_madrid(ahora_utc), cfg, "hora_curiosidad")
+    retraso = 0 if prueba else retraso_min(ahora_madrid(ahora_utc), cfg, clave_hora)
     if retraso > AVISO_RETRASO_MIN:
-        print(f"::warning::La curiosidad salió con {retraso} minutos de retraso.")
+        print(f"::warning::El vídeo ({tipo}) salió con {retraso} minutos de retraso.")
     estado = est.cargar(ruta_estado)
-    registro = est.registrar(estado, fecha=fecha, tema=id_video, estilo="curiosidad", variante=0, imagen=ruta.name,
-                             asset="curiosidad", resultado="publicado", prueba=False, tipo="curiosidad",
+    registro = est.registrar(estado, fecha=fecha, tema=id_video, estilo=tipo, variante=0, imagen=ruta.name,
+                             asset=tipo, resultado="publicado", prueba=False, tipo=tipo,
                              media_id=media_id, permalink=permalink,
                              publicado_utc=ahora_utc.astimezone(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"), retraso_min=retraso, **(fb or {}))
     est.guardar(estado, ruta_estado)
     est.generar_informe(estado, ahora_utc)
-    print(f"PUBLICADO (curiosidad): {permalink}")
+    print(f"PUBLICADO ({tipo}): {permalink}")
     return registro
 
 
 def curiosidad_hoy(carpeta, ahora_utc=None, *, dry_run=False, ignorar_hora=False, cfg=None, estado=None, cliente=None,
-                   ruta_estado=None):
+                   ruta_estado=None, tipo="curiosidad", clave_hora="hora_curiosidad", clave_ajuste="curiosidades", subcarpeta=""):
     """Publica el vídeo de la cola que toca hoy (cada día a las 17:00 de Madrid, también fines de semana)."""
     from datetime import datetime
     from . import estado as est
@@ -683,30 +683,37 @@ def curiosidad_hoy(carpeta, ahora_utc=None, *, dry_run=False, ignorar_hora=False
 
     ahora_utc = ahora_utc or datetime.now(UTC)
     cfg = cfg or cargar_config()
-    if cfg.get("pausado") or not cfg.get("curiosidades", True):
-        print("No hay curiosidad: el sistema está pausado.")
+    if cfg.get("pausado") or not cfg.get(clave_ajuste, True):
+        print(f"No hay {tipo}: el sistema está pausado.")
         return None
     ahora = ahora_madrid(ahora_utc)
     estado = est.cargar(ruta_estado) if estado is None else estado
-    if not ignorar_hora and not en_ventana(ahora, cfg, "hora_curiosidad"):
-        print(f"No hay curiosidad ahora: fuera de la ventana de las {cfg['hora_curiosidad']}.")
+    if not ignorar_hora and not en_ventana(ahora, cfg, clave_hora):
+        print(f"No hay {tipo} ahora: fuera de la ventana de las {cfg[clave_hora]}.")
         return None
     hoy = ahora.date().isoformat()
-    if any(p.get("tipo") == "curiosidad" and p["fecha"] == hoy and p.get("resultado") == "publicado" for p in estado["publicaciones"]):
-        print("No hay curiosidad ahora: ya se publicó hoy.")
+    if any(p.get("tipo") == tipo and p["fecha"] == hoy and p.get("resultado") == "publicado" for p in estado["publicaciones"]):
+        print(f"No hay {tipo} ahora: ya se publicó hoy.")
         return None
+    carpeta = Path(carpeta) / subcarpeta
     toca = [v for v in cargar_cola(carpeta) if v["fecha"] == hoy]
     if not toca:
-        print(f"No hay curiosidad ahora: no hay ningún vídeo en la cola para {hoy}.")
+        print(f"No hay {tipo} ahora: no hay ningún vídeo en la cola para {hoy}.")
         return None
     v = toca[0]
-    return publicar_curiosidad(Path(carpeta) / v["video"], v["pie"], v["id"], hoy, dry_run=dry_run, cliente=cliente,
-                               ruta_estado=ruta_estado, ahora_utc=ahora_utc, cfg=cfg)
+    return publicar_curiosidad(carpeta / v["video"], v["pie"], v["id"], hoy, dry_run=dry_run, cliente=cliente,
+                               ruta_estado=ruta_estado, ahora_utc=ahora_utc, cfg=cfg, tipo=tipo, clave_hora=clave_hora)
+
+
+def noticias_hoy(carpeta, ahora_utc=None, **kw):
+    """Publica «Las noticias de la semana» si hoy toca (domingos a las 19:00 de Madrid; cola propia en carpeta/noticias)."""
+    return curiosidad_hoy(carpeta, ahora_utc, tipo="noticias", clave_hora="hora_noticias", clave_ajuste="noticias",
+                          subcarpeta="noticias", **kw)
 
 
 def main():
     p = argparse.ArgumentParser(prog="jmtech.curiosidad")
-    p.add_argument("orden", choices=["render", "comprobar", "encolar", "publicar", "hoy", "pendientes", "montar", "banco"])
+    p.add_argument("orden", choices=["render", "comprobar", "encolar", "publicar", "hoy", "noticias", "pendientes", "montar", "banco"])
     p.add_argument("--musica-dir", default="", help="montar: carpeta con las canciones (mp3)")
     p.add_argument("--hasta", default="", help="montar: última fecha del plan que se monta (AAAA-MM-DD)")
     p.add_argument("--provisional", action="store_true", help="montar: usar imágenes provisionales si faltan las definitivas")
@@ -725,6 +732,9 @@ def main():
     try:
         if a.orden == "hoy":
             curiosidad_hoy(a.carpeta, dry_run=a.dry_run, ignorar_hora=a.ignorar_hora)
+            return 0
+        if a.orden == "noticias":
+            noticias_hoy(a.carpeta, dry_run=a.dry_run, ignorar_hora=a.ignorar_hora)
             return 0
         if a.orden == "banco":
             hechos, esperando = montar_banco(a.carpeta, a.musica_dir)

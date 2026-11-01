@@ -1,0 +1,79 @@
+name: Publicar las noticias de la semana
+
+# LAS NOTICIAS DE LA SEMANA: cada domingo a las 19:00 (hora de Madrid). Es un video extra, aparte de la curiosidad de las 17:00.
+# Se prepara a mano cada semana (semiautomatico): el video se revisa y se deja en la cola del repositorio privado jmtech-musica,
+# carpeta curiosidades/noticias/ (cola.json dice cual toca cada domingo). Aqui solo se sube el que toca hoy.
+# GitHub programa en UTC. Madrid = UTC+1 en invierno y UTC+2 en verano: DOS disparos (17:00 y 18:00 UTC) y el programa
+# solo publica si en Madrid son las 19:00-20:30 (y nunca dos veces el mismo dia).
+# Para PAUSAR: en config/calendario.json pon "noticias": false (o "pausado": true para todo).
+# A mano (Run workflow): prueba en seco por defecto; con "ignorar_hora" publica el video que toque hoy aunque no sea la hora.
+
+on:
+  schedule:
+    - cron: "0 17 * * 0"
+    - cron: "0 18 * * 0"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Prueba en seco (NO publica en Instagram)"
+        type: boolean
+        default: true
+      ignorar_hora:
+        description: "Publicar el video que toque hoy aunque no sea la hora (solo manual)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: publicar-noticias
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  PYTHONPATH: src
+  TZ: Europe/Madrid
+
+jobs:
+  noticias:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Descargar los videos (repositorio privado)
+        uses: actions/checkout@v4
+        with:
+          repository: Xosu10/jmtech-musica
+          ssh-key: ${{ secrets.MUSICA_DEPLOY_KEY }}
+          path: musica
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Publicar las noticias de hoy
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          IGNORAR_HORA: ${{ inputs.ignorar_hora }}
+        run: |
+          args=(noticias --carpeta musica/curiosidades)
+          [ "$IGNORAR_HORA" = "true" ] && args+=(--ignorar-hora)
+          [ "$DRY_RUN" = "true" ] && args+=(--dry-run)
+          python -m jmtech.curiosidad "${args[@]}"
+
+      - name: Guardar el estado
+        if: always() && inputs.dry_run != true
+        run: |
+          git config user.name "JM TECH bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add estado ESTADO.md
+          git diff --cached --quiet || git commit -m "chore: estado de las publicaciones (noticias)"
+          git pull --rebase origin main
+          git push origin HEAD:main

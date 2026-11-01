@@ -1,0 +1,96 @@
+{
+ "id": "noticias_2026_11_01",
+ "titulo": "Las noticias de la semana en informática",
+ "titulo_pantalla": "Noticias de la semana",
+ "emoji": "📰",
+ "max_palabras": 175,
+ "escenas": [
+  {
+   "texto": "Esto es lo más importante de la semana en informática: un MacBook táctil, precios con señales mixtas y un rumor de NVIDIA.",
+   "grafico": "rotulo",
+   "params": {
+    "linea1": "LA SEMANA EN INFORMÁTICA",
+    "linea2": "Del 26 de octubre al 1 de noviembre",
+    "acento": "azul"
+   }
+  },
+  {
+   "texto": "Apple presentó el MacBook Pro con pantalla OLED táctil, algo que hasta ahora evitaba. Admite hasta ciento veintiocho gigas de memoria y el de catorce pulgadas parte de tres mil trescientos cuarenta y nueve euros. Llega a las tiendas el seis de noviembre.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Apple",
+    "titulo": "MacBook Pro con pantalla táctil",
+    "acento": "azul",
+    "puntos": [
+     "Pantalla OLED táctil",
+     "Hasta 128 GB de memoria",
+     "Desde 3.349 € el de 14 pulgadas"
+    ]
+   }
+  },
+  {
+   "texto": "En precios, señales mixtas. Según HardZone, los SSD han bajado un trece por ciento en China tras meses de subidas. Pero se espera que las Radeon RX 9000 vuelvan a encarecerse en noviembre.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Precios del hardware",
+    "titulo": "Señales mixtas",
+    "acento": "naranja",
+    "puntos": [
+     "SSD en China: 13 por ciento más baratos",
+     "Radeon RX 9000: subida prevista en noviembre",
+     "La memoria sigue siendo la clave"
+    ]
+   }
+  },
+  {
+   "texto": "Y un rumor: según filtraciones, NVIDIA prepararía una RTX 5080 con más memoria de vídeo, pensada para la inteligencia artificial en local. Todavía no está confirmado.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Rumor",
+    "titulo": "RTX 5080 con más memoria",
+    "acento": "rojo",
+    "puntos": [
+     "Más memoria de vídeo",
+     "Pensada para IA en local",
+     "Sin confirmar por NVIDIA"
+    ]
+   }
+  },
+  {
+   "texto": "Un consejo: si vas a comprar ahora, no te guíes solo por los titulares. Comprueba que la pieza sea compatible y que el precio sea real.",
+   "grafico": "tarjeta",
+   "params": {
+    "cabecera": "Consejo de la semana",
+    "titulo": "Antes de comprar",
+    "acento": "azul",
+    "puntos": [
+     "Compara el precio real",
+     "Comprueba la compatibilidad",
+     "Pregunta si tienes dudas"
+    ]
+   }
+  },
+  {
+   "texto": "Cada domingo, las noticias de la semana. ¿Dudas antes de comprar? Escríbenos por mensaje.",
+   "cierre": true
+  }
+ ],
+ "puntos": [
+  "Apple presenta un MacBook Pro con pantalla OLED táctil: hasta 128 GB y desde 3.349 € el de 14 pulgadas.",
+  "Precios: los SSD bajan en China y se espera una nueva subida de las Radeon RX 9000 en noviembre.",
+  "Rumor sin confirmar: una RTX 5080 con más memoria de vídeo para IA en local."
+ ],
+ "hashtags": [
+  "#noticiastech",
+  "#informatica",
+  "#tecnologia",
+  "#hardware",
+  "#murcia",
+  "#jmtech"
+ ],
+ "fuentes": [
+  "Geektopia: Apple renueva el MacBook Pro con pantalla OLED táctil (28/10/2026)",
+  "HardZone: titulares de hardware del 29 y 30 de octubre de 2026",
+  "MuyComputer: las Radeon RX 9000 volverán a subir de precio en noviembre (30/10/2026)"
+ ]
+}

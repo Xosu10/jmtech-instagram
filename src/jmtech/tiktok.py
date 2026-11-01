@@ -92,6 +92,13 @@ def _entradas_curiosidades(cola_dir, cfg):
     return salida
 
 
+def _entradas_noticias(cola_dir, cfg):
+    """«Las noticias de la semana»: una por domingo, con su propia cola."""
+    return [dict(fecha=v["fecha"], hora=cfg["hora_noticias"], tipo="noticias", titulo="Las noticias de la semana",
+                 base=f"{v['fecha']}_{cfg['hora_noticias'].replace(':', '')}_noticias_semana", descripcion=a_tiktok(v["pie"]),
+                 origen=Path(cola_dir) / "noticias" / v["video"]) for v in cargar_cola(Path(cola_dir) / "noticias")]
+
+
 # ---------- Creación de la carpeta ----------
 def preparar(carpeta, hasta: date, cola_dir, musica_dir, avisar=print):
     from .reel import generar_reel
@@ -101,7 +108,7 @@ def preparar(carpeta, hasta: date, cola_dir, musica_dir, avisar=print):
     cfg = cargar_config()
     catalogo = cargar_catalogo()
     entradas = (_entradas_publicadas_hoy(catalogo, musica_dir) + _entradas_reels(hasta, cfg, catalogo, musica_dir)
-                + [e for e in _entradas_curiosidades(cola_dir, cfg) if e["fecha"] <= hasta.isoformat()])
+                + [e for e in _entradas_curiosidades(cola_dir, cfg) + _entradas_noticias(cola_dir, cfg) if e["fecha"] <= hasta.isoformat()])
     datos = []
     for e in entradas:
         nombre = f"{e['base']}.mp4"
@@ -121,7 +128,7 @@ def preparar(carpeta, hasta: date, cola_dir, musica_dir, avisar=print):
                           ruta=str(destino), descripcion=e["descripcion"], listo=listo and destino.exists()))
     vigentes = {d["archivo"] for d in datos}
     for viejo in (carpeta / "videos").glob("*.mp4"):                    # vídeos de curiosidades cuya fecha cambió: fuera
-        if viejo.name not in vigentes and any(k in viejo.name for k in ("_curiosidad_", "_automatiza_", "_especial_")):
+        if viejo.name not in vigentes and any(k in viejo.name for k in ("_curiosidad_", "_automatiza_", "_especial_", "_noticias_")):
             viejo.unlink()
     datos.sort(key=lambda d: (d["fecha"], d["hora"] or "00:00", d["tipo"]))
     (carpeta / "calendario.html").write_text(_HTML.replace("__DATOS__", json.dumps(
@@ -197,8 +204,8 @@ function copiar(texto,btn){
 }
 function viejo(t,fin){const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();try{document.execCommand('copy')}catch(e){}a.remove();fin()}
 function tarjeta(e){
-  const cls=e.tipo==='curiosidad'?'cur':(e.tipo==='automatizacion'?'aut':(e.tipo==='reel_ya_en_instagram'?'ya':''));
-  const nombre={reel:'Reel diario',curiosidad:'Curiosidad',automatizacion:'Automatiza esto',reel_ya_en_instagram:'Ya en Instagram'}[e.tipo];
+  const cls=e.tipo==='curiosidad'?'cur':(e.tipo==='automatizacion'||e.tipo==='noticias'?'aut':(e.tipo==='reel_ya_en_instagram'?'ya':''));
+  const nombre={reel:'Reel diario',curiosidad:'Curiosidad',automatizacion:'Automatiza esto',noticias:'Noticias de la semana',reel_ya_en_instagram:'Ya en Instagram'}[e.tipo];
   const d=document.createElement('div');d.className='card '+cls+(hechos.has(e.id)?' hecho':'');
   const hora=e.hora?('<span class="hora">'+e.hora+'</span>'):'';
   d.innerHTML='<div class="cab"><span class="badge">'+nombre+'</span>'+hora+'</div><div class="titulo">'+esc(e.titulo)+'</div>'+
