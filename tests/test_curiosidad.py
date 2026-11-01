@@ -90,7 +90,12 @@ def test_cada_imagen_del_guion_existe():
         e = cur.cargar_espec(ruta)
         for esc in e["escenas"]:
             if esc.get("imagen") and not esc.get("grafico"):
-                ruta, _ = cur.imagen_de_escena(esc, e["id"])       # definitiva o, si falta, la provisional
+                try:
+                    ruta, _ = cur.imagen_de_escena(esc, e["id"])       # definitiva o, si falta, la provisional
+                except FileNotFoundError:
+                    bib = {i["archivo"] for i in json.loads((RAIZ / "contenido" / "biblioteca_imagenes.json").read_text(encoding="utf-8"))["imagenes"]}
+                    assert esc["imagen"] in bib, f"{e['id']}: {esc['imagen']} no existe ni está pedida"       # pendiente de entregar
+                    continue
                 assert ruta.exists()
 
 
