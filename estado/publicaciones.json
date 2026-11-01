@@ -203,6 +203,21 @@
       "permalink": "https://www.instagram.com/reel/DfKljrWNaNS/",
       "publicado_utc": "2026-10-31T16:28:20Z",
       "retraso_min": 0
+    },
+    {
+      "fecha": "2026-11-01",
+      "tema": "noticias_2026_11_01",
+      "estilo": "noticias",
+      "variante": 0,
+      "imagen": "noticias_2026_11_01.mp4",
+      "asset": "noticias",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "noticias",
+      "media_id": "18150128506547590",
+      "permalink": "https://www.instagram.com/reel/DfNdVxvIODE/",
+      "publicado_utc": "2026-11-01T19:13:42Z",
+      "retraso_min": 73
     }
   ]
 }
