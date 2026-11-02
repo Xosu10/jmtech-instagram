@@ -188,7 +188,9 @@ def ya_en_instagram(cliente, pie, ahora_utc, tipo="post"):
                 if ahora_utc - ts < timedelta(hours=24):
                     return m
     except (ErrorInstagram, KeyError, ValueError) as e:
-        print(f"AVISO: no se pudo comprobar lo ya publicado en Instagram ({ocultar(e)}).")
+        raise ErrorPublicacion(
+            "No se pudo comprobar lo ya publicado en Instagram; se detiene el intento para evitar duplicados."
+        ) from e
     return None
 
 

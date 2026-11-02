@@ -11,9 +11,16 @@ name: Publicar la curiosidad de informatica
 on:
   schedule:
     - cron: "0 15 * * *"
+    - cron: "17,43 15 * * *"
     - cron: "0 16 * * *"
+    - cron: "17,43 16 * * *"
+    - cron: "17 17 * * *"
   workflow_dispatch:
     inputs:
+      fecha_objetivo:
+        description: "Fecha Madrid AAAA-MM-DD del disparo externo; vacía para ejecución manual"
+        type: string
+        default: ""
       dry_run:
         description: "Prueba en seco (NO publica en Instagram)"
         type: boolean
@@ -40,6 +47,11 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+
+      - name: Rechazar disparos de otro día
+        env:
+          FECHA_OBJETIVO: ${{ inputs.fecha_objetivo }}
+        run: python -m jmtech.control_horario fecha "$FECHA_OBJETIVO"
 
       - name: Configurar git (hace falta antes de publicar, por si hay que subir un video de respaldo)
         run: |
@@ -72,6 +84,10 @@ jobs:
           [ "$IGNORAR_HORA" = "true" ] && args+=(--ignorar-hora)
           [ "$DRY_RUN" = "true" ] && args+=(--dry-run)
           python -m jmtech.curiosidad "${args[@]}"
+
+      - name: Comprobar publicación real
+        if: success() && inputs.dry_run != true
+        run: python -m jmtech.control_horario resultado curiosidad
 
       - name: Guardar el estado
         if: always() && inputs.dry_run != true
