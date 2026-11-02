@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-01 20:13 (hora de Madrid)_
+_Actualizado: 2026-11-02 19:35 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 15
-- Última: 2026-11-01 · https://www.instagram.com/reel/DfNdVxvIODE/
+- Publicaciones hechas: 16
+- Última: 2026-11-02 · https://www.instagram.com/reel/DfP9qHVybIW/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-02 · reel | Eliminación de virus y malware | reel | 275 min | https://www.instagram.com/reel/DfP9qHVybIW/ |
 | 2026-11-01 | noticias_2026_11_01 | noticias | 73 min | https://www.instagram.com/reel/DfNdVxvIODE/ |
 | 2026-10-31 (fuera de calendario) · reel | Asesoramiento personalizado | reel | 0 min | https://www.instagram.com/reel/DfKljrWNaNS/ |
 | 2026-10-31 (fuera de calendario) · reel | PC de alta gama (custom loop) | reel | 0 min | https://www.instagram.com/reel/DfKlaBzsZCS/ |
@@ -19,7 +20,6 @@ _Actualizado: 2026-11-01 20:13 (hora de Madrid)_
 | 2026-10-31 (fuera de calendario) · reel | Tu PC montado por profesionales | reel | 0 min | https://www.instagram.com/reel/DfKkruIxNbq/ |
 | 2026-10-31 (fuera de calendario) · reel | Instalación de tarjeta gráfica | reel | 0 min | https://www.instagram.com/reel/DfKjWxGhA5d/ |
 | 2026-10-31 (fuera de calendario) · reel | Instalación de tarjeta gráfica | reel | 0 min | https://www.instagram.com/reel/DfKhf3xougq/ |
-| 2026-10-31 (fuera de calendario) | Asesoramiento personalizado | B | 0 min | https://www.instagram.com/p/DfKYLCgl6lf/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |

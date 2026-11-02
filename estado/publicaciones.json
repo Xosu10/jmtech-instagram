@@ -218,6 +218,22 @@
       "permalink": "https://www.instagram.com/reel/DfNdVxvIODE/",
       "publicado_utc": "2026-11-01T19:13:42Z",
       "retraso_min": 73
+    },
+    {
+      "fecha": "2026-11-02",
+      "tema": "malware",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_2026-11-02.mp4",
+      "asset": "windows_virus_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "reel",
+      "media_id": "17943143688380725",
+      "permalink": "https://www.instagram.com/reel/DfP9qHVybIW/",
+      "publicado_utc": "2026-11-02T18:35:04Z",
+      "retraso_min": 275,
+      "musica": "arpmedia-synthwave-retro-80s-569468.mp3"
     }
   ]
 }
