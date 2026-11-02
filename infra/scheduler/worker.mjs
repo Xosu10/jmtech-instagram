@@ -39,7 +39,7 @@ async function github(env, path, init = {}, fetcher = fetch) {
     headers: {Authorization: `Bearer ${env.GITHUB_DISPATCH_TOKEN}`,
       "User-Agent": "jmtech-scheduler", Accept: "application/vnd.github+json",
       "Content-Type": "application/json", ...init.headers},
-    redirect: "error", signal: AbortSignal.timeout(15000),
+    redirect: "manual", signal: AbortSignal.timeout(15000),
   });
   if (!response.ok) throw new Error(`GitHub HTTP ${response.status}`);
   return response.status === 204 ? null : response.json();
@@ -93,7 +93,8 @@ export default {
       const pending = await reconcile(env);
       return Response.json({status: pending.some(r => r.overdue) ? "missing_publication" : "ok", pending},
         {status: pending.some(r => r.overdue) ? 503 : 200, headers: {"Cache-Control": "no-store"}});
-    } catch {
+    } catch (e) {
+      console.error("health check failed", e && e.stack || String(e));
       return Response.json({status: "check_failed"}, {status: 503, headers: {"Cache-Control": "no-store"}});
     }
   },

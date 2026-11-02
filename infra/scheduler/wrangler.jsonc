@@ -3,6 +3,6 @@
   "main": "worker.mjs",
   "compatibility_date": "2026-11-02",
   "triggers": {"crons": ["*/5 * * * *"]},
-  "vars": {"ENABLED": "0"},
+  "vars": {"ENABLED": "1"},
   "observability": {"enabled": true}
 }

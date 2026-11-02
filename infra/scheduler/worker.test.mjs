@@ -43,3 +43,15 @@ test("dispatch carries target date; health checks never dispatch", async () => {
   const body=JSON.parse(requests.at(-1)[1].body);
   assert.deepEqual(body.inputs,{dry_run:false,ignorar_hora:false,fecha_objetivo:"2026-11-02"});
 });
+
+test("github() uses a redirect mode the Workers runtime accepts", async () => {
+  const seen = [];
+  const fetcher = async (url, init) => {
+    seen.push(init.redirect);
+    const data = url.includes("calendario.json") ? {content: btoa(JSON.stringify(cfg))} :
+      url.includes("publicaciones.json") ? {content: btoa(JSON.stringify(empty))} : {workflow_runs: []};
+    return Response.json(data);
+  };
+  await reconcile({GITHUB_DISPATCH_TOKEN: "t"}, {fetcher});
+  assert.ok(seen.length > 0 && seen.every(r => r === "follow" || r === "manual"), seen.join(","));
+});
