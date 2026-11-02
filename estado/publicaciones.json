@@ -234,6 +234,21 @@
       "publicado_utc": "2026-11-02T18:35:04Z",
       "retraso_min": 275,
       "musica": "arpmedia-synthwave-retro-80s-569468.mp3"
+    },
+    {
+      "fecha": "2026-11-02",
+      "tema": "02_por_que_se_calienta_la_cpu",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "02_por_que_se_calienta_la_cpu.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "17939603043123141",
+      "permalink": "https://www.instagram.com/reel/DfP9rw_RoF1/",
+      "publicado_utc": "2026-11-02T18:38:01Z",
+      "retraso_min": 158
     }
   ]
 }
