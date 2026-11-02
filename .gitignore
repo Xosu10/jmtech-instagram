@@ -37,3 +37,4 @@ salida_reels/
 
 # Musica descargada del repositorio privado
 musica/
+infra/scheduler/.wrangler/
