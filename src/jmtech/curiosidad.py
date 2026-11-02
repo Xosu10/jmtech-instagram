@@ -335,6 +335,9 @@ def resolver_imagen(nombre, id_video):
     cat = indice(cargar_catalogo())
     if nombre in cat:
         return cat[nombre].ruta
+    incluida = RAIZ / "assets" / "curiosidades" / nombre
+    if incluida.is_file():
+        return incluida
     for base in (CARPETA_IMAGENES / id_video, CARPETA_IMAGENES / "biblioteca", CARPETA_IMAGENES):
         if (base / nombre).exists():
             return base / nombre
