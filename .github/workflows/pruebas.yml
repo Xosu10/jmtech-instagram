@@ -2,7 +2,7 @@ name: Pruebas automaticas
 
 on:
   push:
-    paths: ["src/**", "tests/**", "contenido/**", "config/**", "assets/**", "requirements.txt", ".github/workflows/**"]
+    paths: ["src/**", "tests/**", "contenido/**", "config/**", "assets/**", "requirements.txt", ".github/workflows/**", "infra/**"]
   pull_request:
   workflow_dispatch:
 
@@ -24,3 +24,6 @@ jobs:
         env:
           PYTHONPATH: src
       - run: pytest -q
+
+      - name: Probar disparador externo sin publicar
+        run: node --test infra/scheduler/worker.test.mjs

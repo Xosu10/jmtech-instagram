@@ -303,6 +303,7 @@ def test_los_guiones_de_noticias_pasan_las_comprobaciones():
 
 def test_la_url_publica_de_respaldo_no_toca_nada_fuera_de_github_actions(tmp_path, monkeypatch):
     monkeypatch.delenv("GITHUB_ACTIONS", raising=False)
+    monkeypatch.setattr(cur, "RAIZ", tmp_path)
     v = tmp_path / "v.mp4"
     v.write_bytes(b"x")
     assert cur._publicar_url_publica(v, "x.mp4") is None
