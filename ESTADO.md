@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-02 19:38 (hora de Madrid)_
+_Actualizado: 2026-11-03 15:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 17
-- Última: 2026-11-02 · https://www.instagram.com/reel/DfP9rw_RoF1/
+- Publicaciones hechas: 18
+- Última: 2026-11-03 · https://www.instagram.com/reel/DfSDIetAZh-/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-03 · reel | Optimización de PC gaming | reel | 1 min | https://www.instagram.com/reel/DfSDIetAZh-/ |
 | 2026-11-02 | 02_por_que_se_calienta_la_cpu | curiosidad | 158 min | https://www.instagram.com/reel/DfP9rw_RoF1/ |
 | 2026-11-02 · reel | Eliminación de virus y malware | reel | 275 min | https://www.instagram.com/reel/DfP9qHVybIW/ |
 | 2026-11-01 | noticias_2026_11_01 | noticias | 73 min | https://www.instagram.com/reel/DfNdVxvIODE/ |
@@ -19,12 +20,10 @@ _Actualizado: 2026-11-02 19:38 (hora de Madrid)_
 | 2026-10-31 (fuera de calendario) · reel | Cambio de pantalla de móvil | reel | 0 min | https://www.instagram.com/reel/DfKlAlYBAhl/ |
 | 2026-10-31 (fuera de calendario) · reel | Servicio técnico en remoto | reel | 0 min | https://www.instagram.com/reel/DfKk2VdgUqc/ |
 | 2026-10-31 (fuera de calendario) · reel | Tu PC montado por profesionales | reel | 0 min | https://www.instagram.com/reel/DfKkruIxNbq/ |
-| 2026-10-31 (fuera de calendario) · reel | Instalación de tarjeta gráfica | reel | 0 min | https://www.instagram.com/reel/DfKjWxGhA5d/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
 |---|---|---|
-| lun 2026-11-02 | Eliminación de virus y malware | A |
 | mar 2026-11-03 | Optimización de PC gaming | C |
 | mié 2026-11-04 | Configuración BIOS/UEFI y XMP/EXPO | B |
 | jue 2026-11-05 | Instalación y sustitución de componentes | C |
@@ -34,6 +33,7 @@ _Actualizado: 2026-11-02 19:38 (hora de Madrid)_
 | mié 2026-11-11 | Tu consola como el primer día | A |
 | jue 2026-11-12 | Transferencia de datos de tablet | C |
 | vie 2026-11-13 | Limpieza de portátil | B |
+| lun 2026-11-16 | Cambio de bisagras de portátil | C |
 
 ## Campañas por diseñar
 - 2026-11-23: Aviso previo de Black Friday (oferta por decidir)

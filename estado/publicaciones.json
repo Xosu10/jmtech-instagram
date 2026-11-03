@@ -249,6 +249,22 @@
       "permalink": "https://www.instagram.com/reel/DfP9rw_RoF1/",
       "publicado_utc": "2026-11-02T18:38:01Z",
       "retraso_min": 158
+    },
+    {
+      "fecha": "2026-11-03",
+      "tema": "gaming",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_2026-11-03.mp4",
+      "asset": "pc_premium_rgb_blanco_ambiente_01.png",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "reel",
+      "media_id": "18077480261757481",
+      "permalink": "https://www.instagram.com/reel/DfSDIetAZh-/",
+      "publicado_utc": "2026-11-03T14:01:23Z",
+      "retraso_min": 1,
+      "musica": "lnplusmusic-synthwave-80s-retro-background-music-400483.mp3"
     }
   ]
 }
