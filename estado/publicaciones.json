@@ -265,6 +265,21 @@
       "publicado_utc": "2026-11-03T14:01:23Z",
       "retraso_min": 1,
       "musica": "lnplusmusic-synthwave-80s-retro-background-music-400483.mp3"
+    },
+    {
+      "fecha": "2026-11-03",
+      "tema": "mito_02",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "mito_02.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "18110438248909331",
+      "permalink": "https://www.instagram.com/reel/DfSQ1hsT4_L/",
+      "publicado_utc": "2026-11-03T16:01:12Z",
+      "retraso_min": 1
     }
   ]
 }
