@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-03 17:01 (hora de Madrid)_
+_Actualizado: 2026-11-04 15:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 19
-- Última: 2026-11-03 · https://www.instagram.com/reel/DfSQ1hsT4_L/
+- Publicaciones hechas: 20
+- Última: 2026-11-04 · https://www.instagram.com/reel/DfUn5dNzStI/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-04 · reel | Configuración BIOS/UEFI y XMP/EXPO | reel | 1 min | https://www.instagram.com/reel/DfUn5dNzStI/ |
 | 2026-11-03 | mito_02 | curiosidad | 1 min | https://www.instagram.com/reel/DfSQ1hsT4_L/ |
 | 2026-11-03 · reel | Optimización de PC gaming | reel | 1 min | https://www.instagram.com/reel/DfSDIetAZh-/ |
 | 2026-11-02 | 02_por_que_se_calienta_la_cpu | curiosidad | 158 min | https://www.instagram.com/reel/DfP9rw_RoF1/ |
@@ -19,12 +20,10 @@ _Actualizado: 2026-11-03 17:01 (hora de Madrid)_
 | 2026-10-31 (fuera de calendario) · reel | PC de alta gama (custom loop) | reel | 0 min | https://www.instagram.com/reel/DfKlaBzsZCS/ |
 | 2026-10-31 (fuera de calendario) · reel | Limpieza y pasta térmica de sobremesa | reel | 0 min | https://www.instagram.com/reel/DfKlP1Cu7_C/ |
 | 2026-10-31 (fuera de calendario) · reel | Cambio de pantalla de móvil | reel | 0 min | https://www.instagram.com/reel/DfKlAlYBAhl/ |
-| 2026-10-31 (fuera de calendario) · reel | Servicio técnico en remoto | reel | 0 min | https://www.instagram.com/reel/DfKk2VdgUqc/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
 |---|---|---|
-| mar 2026-11-03 | Optimización de PC gaming | C |
 | mié 2026-11-04 | Configuración BIOS/UEFI y XMP/EXPO | B |
 | jue 2026-11-05 | Instalación y sustitución de componentes | C |
 | vie 2026-11-06 | Instalación de programas | B |
@@ -34,6 +33,7 @@ _Actualizado: 2026-11-03 17:01 (hora de Madrid)_
 | jue 2026-11-12 | Transferencia de datos de tablet | C |
 | vie 2026-11-13 | Limpieza de portátil | B |
 | lun 2026-11-16 | Cambio de bisagras de portátil | C |
+| mar 2026-11-17 | Cambio de conector de carga de móvil | A |
 
 ## Campañas por diseñar
 - 2026-11-23: Aviso previo de Black Friday (oferta por decidir)

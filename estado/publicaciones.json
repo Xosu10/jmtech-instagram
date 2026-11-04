@@ -280,6 +280,22 @@
       "permalink": "https://www.instagram.com/reel/DfSQ1hsT4_L/",
       "publicado_utc": "2026-11-03T16:01:12Z",
       "retraso_min": 1
+    },
+    {
+      "fecha": "2026-11-04",
+      "tema": "bios_xmp",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_2026-11-04.mp4",
+      "asset": "placa_base_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "reel",
+      "media_id": "18079166960729598",
+      "permalink": "https://www.instagram.com/reel/DfUn5dNzStI/",
+      "publicado_utc": "2026-11-04T14:01:08Z",
+      "retraso_min": 1,
+      "musica": "the_mountain-midnight-synthwave-317752.mp3"
     }
   ]
 }
