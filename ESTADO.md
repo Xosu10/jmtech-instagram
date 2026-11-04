@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-04 15:01 (hora de Madrid)_
+_Actualizado: 2026-11-04 17:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 20
-- Última: 2026-11-04 · https://www.instagram.com/reel/DfUn5dNzStI/
+- Publicaciones hechas: 21
+- Última: 2026-11-04 · https://www.instagram.com/reel/DfU1xMMSHXJ/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-04 | 03_ram_e_ia | curiosidad | 1 min | https://www.instagram.com/reel/DfU1xMMSHXJ/ |
 | 2026-11-04 · reel | Configuración BIOS/UEFI y XMP/EXPO | reel | 1 min | https://www.instagram.com/reel/DfUn5dNzStI/ |
 | 2026-11-03 | mito_02 | curiosidad | 1 min | https://www.instagram.com/reel/DfSQ1hsT4_L/ |
 | 2026-11-03 · reel | Optimización de PC gaming | reel | 1 min | https://www.instagram.com/reel/DfSDIetAZh-/ |
@@ -19,7 +20,6 @@ _Actualizado: 2026-11-04 15:01 (hora de Madrid)_
 | 2026-10-31 (fuera de calendario) · reel | Asesoramiento personalizado | reel | 0 min | https://www.instagram.com/reel/DfKljrWNaNS/ |
 | 2026-10-31 (fuera de calendario) · reel | PC de alta gama (custom loop) | reel | 0 min | https://www.instagram.com/reel/DfKlaBzsZCS/ |
 | 2026-10-31 (fuera de calendario) · reel | Limpieza y pasta térmica de sobremesa | reel | 0 min | https://www.instagram.com/reel/DfKlP1Cu7_C/ |
-| 2026-10-31 (fuera de calendario) · reel | Cambio de pantalla de móvil | reel | 0 min | https://www.instagram.com/reel/DfKlAlYBAhl/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |

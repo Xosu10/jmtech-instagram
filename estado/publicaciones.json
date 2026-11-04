@@ -296,6 +296,21 @@
       "publicado_utc": "2026-11-04T14:01:08Z",
       "retraso_min": 1,
       "musica": "the_mountain-midnight-synthwave-317752.mp3"
+    },
+    {
+      "fecha": "2026-11-04",
+      "tema": "03_ram_e_ia",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "03_ram_e_ia.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "17959594887017716",
+      "permalink": "https://www.instagram.com/reel/DfU1xMMSHXJ/",
+      "publicado_utc": "2026-11-04T16:01:50Z",
+      "retraso_min": 1
     }
   ]
 }
