@@ -311,6 +311,22 @@
       "permalink": "https://www.instagram.com/reel/DfU1xMMSHXJ/",
       "publicado_utc": "2026-11-04T16:01:50Z",
       "retraso_min": 1
+    },
+    {
+      "fecha": "2026-11-05",
+      "tema": "componentes",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_2026-11-05.mp4",
+      "asset": "herramientas_kit_precision_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "reel",
+      "media_id": "18170010349472764",
+      "permalink": "https://www.instagram.com/reel/DfXMrhgyM2U/",
+      "publicado_utc": "2026-11-05T14:01:02Z",
+      "retraso_min": 1,
+      "musica": "wbmstudio-80s-always-with-me-retrowave-amp-synth-pop-457166.mp3"
     }
   ]
 }
