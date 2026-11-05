@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-05 15:01 (hora de Madrid)_
+_Actualizado: 2026-11-05 17:02 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 22
-- Última: 2026-11-05 · https://www.instagram.com/reel/DfXMrhgyM2U/
+- Publicaciones hechas: 23
+- Última: 2026-11-05 · https://www.instagram.com/reel/DfXas5IOyrJ/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-05 | diag_03 | curiosidad | 2 min | https://www.instagram.com/reel/DfXas5IOyrJ/ |
 | 2026-11-05 · reel | Instalación y sustitución de componentes | reel | 1 min | https://www.instagram.com/reel/DfXMrhgyM2U/ |
 | 2026-11-04 | 03_ram_e_ia | curiosidad | 1 min | https://www.instagram.com/reel/DfU1xMMSHXJ/ |
 | 2026-11-04 · reel | Configuración BIOS/UEFI y XMP/EXPO | reel | 1 min | https://www.instagram.com/reel/DfUn5dNzStI/ |
@@ -19,7 +20,6 @@ _Actualizado: 2026-11-05 15:01 (hora de Madrid)_
 | 2026-11-02 · reel | Eliminación de virus y malware | reel | 275 min | https://www.instagram.com/reel/DfP9qHVybIW/ |
 | 2026-11-01 | noticias_2026_11_01 | noticias | 73 min | https://www.instagram.com/reel/DfNdVxvIODE/ |
 | 2026-10-31 (fuera de calendario) · reel | Asesoramiento personalizado | reel | 0 min | https://www.instagram.com/reel/DfKljrWNaNS/ |
-| 2026-10-31 (fuera de calendario) · reel | PC de alta gama (custom loop) | reel | 0 min | https://www.instagram.com/reel/DfKlaBzsZCS/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |

@@ -327,6 +327,21 @@
       "publicado_utc": "2026-11-05T14:01:02Z",
       "retraso_min": 1,
       "musica": "wbmstudio-80s-always-with-me-retrowave-amp-synth-pop-457166.mp3"
+    },
+    {
+      "fecha": "2026-11-05",
+      "tema": "diag_03",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "diag_03.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "18437431294199838",
+      "permalink": "https://www.instagram.com/reel/DfXas5IOyrJ/",
+      "publicado_utc": "2026-11-05T16:02:08Z",
+      "retraso_min": 2
     }
   ]
 }
