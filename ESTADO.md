@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-06 15:00 (hora de Madrid)_
+_Actualizado: 2026-11-06 17:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 24
-- Última: 2026-11-06 · https://www.instagram.com/reel/DfZxd9uslqo/
+- Publicaciones hechas: 25
+- Última: 2026-11-06 · https://www.instagram.com/reel/DfZ_NVyO3Uh/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-06 | 04_limpieza_del_pc | curiosidad | 1 min | https://www.instagram.com/reel/DfZ_NVyO3Uh/ |
 | 2026-11-06 · reel | Instalación de programas | reel | 0 min | https://www.instagram.com/reel/DfZxd9uslqo/ |
 | 2026-11-05 | diag_03 | curiosidad | 2 min | https://www.instagram.com/reel/DfXas5IOyrJ/ |
 | 2026-11-05 · reel | Instalación y sustitución de componentes | reel | 1 min | https://www.instagram.com/reel/DfXMrhgyM2U/ |
@@ -19,7 +20,6 @@ _Actualizado: 2026-11-06 15:00 (hora de Madrid)_
 | 2026-11-03 · reel | Optimización de PC gaming | reel | 1 min | https://www.instagram.com/reel/DfSDIetAZh-/ |
 | 2026-11-02 | 02_por_que_se_calienta_la_cpu | curiosidad | 158 min | https://www.instagram.com/reel/DfP9rw_RoF1/ |
 | 2026-11-02 · reel | Eliminación de virus y malware | reel | 275 min | https://www.instagram.com/reel/DfP9qHVybIW/ |
-| 2026-11-01 | noticias_2026_11_01 | noticias | 73 min | https://www.instagram.com/reel/DfNdVxvIODE/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |

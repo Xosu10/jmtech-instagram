@@ -358,6 +358,21 @@
       "publicado_utc": "2026-11-06T14:00:59Z",
       "retraso_min": 0,
       "musica": "alex-morgan-neon-synthwave-drive-537447.mp3"
+    },
+    {
+      "fecha": "2026-11-06",
+      "tema": "04_limpieza_del_pc",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "04_limpieza_del_pc.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "17865727737693495",
+      "permalink": "https://www.instagram.com/reel/DfZ_NVyO3Uh/",
+      "publicado_utc": "2026-11-06T16:01:08Z",
+      "retraso_min": 1
     }
   ]
 }
