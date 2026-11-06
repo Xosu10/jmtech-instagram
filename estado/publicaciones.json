@@ -342,6 +342,22 @@
       "permalink": "https://www.instagram.com/reel/DfXas5IOyrJ/",
       "publicado_utc": "2026-11-05T16:02:08Z",
       "retraso_min": 2
+    },
+    {
+      "fecha": "2026-11-06",
+      "tema": "programas",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_2026-11-06.mp4",
+      "asset": "empresa_software_profesional_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "reel",
+      "media_id": "18115591196032112",
+      "permalink": "https://www.instagram.com/reel/DfZxd9uslqo/",
+      "publicado_utc": "2026-11-06T14:00:59Z",
+      "retraso_min": 0,
+      "musica": "alex-morgan-neon-synthwave-drive-537447.mp3"
     }
   ]
 }

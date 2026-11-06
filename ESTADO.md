@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-05 17:02 (hora de Madrid)_
+_Actualizado: 2026-11-06 15:00 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 23
-- Última: 2026-11-05 · https://www.instagram.com/reel/DfXas5IOyrJ/
+- Publicaciones hechas: 24
+- Última: 2026-11-06 · https://www.instagram.com/reel/DfZxd9uslqo/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-06 · reel | Instalación de programas | reel | 0 min | https://www.instagram.com/reel/DfZxd9uslqo/ |
 | 2026-11-05 | diag_03 | curiosidad | 2 min | https://www.instagram.com/reel/DfXas5IOyrJ/ |
 | 2026-11-05 · reel | Instalación y sustitución de componentes | reel | 1 min | https://www.instagram.com/reel/DfXMrhgyM2U/ |
 | 2026-11-04 | 03_ram_e_ia | curiosidad | 1 min | https://www.instagram.com/reel/DfU1xMMSHXJ/ |
@@ -19,12 +20,10 @@ _Actualizado: 2026-11-05 17:02 (hora de Madrid)_
 | 2026-11-02 | 02_por_que_se_calienta_la_cpu | curiosidad | 158 min | https://www.instagram.com/reel/DfP9rw_RoF1/ |
 | 2026-11-02 · reel | Eliminación de virus y malware | reel | 275 min | https://www.instagram.com/reel/DfP9qHVybIW/ |
 | 2026-11-01 | noticias_2026_11_01 | noticias | 73 min | https://www.instagram.com/reel/DfNdVxvIODE/ |
-| 2026-10-31 (fuera de calendario) · reel | Asesoramiento personalizado | reel | 0 min | https://www.instagram.com/reel/DfKljrWNaNS/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
 |---|---|---|
-| jue 2026-11-05 | Instalación y sustitución de componentes | C |
 | vie 2026-11-06 | Instalación de programas | B |
 | lun 2026-11-09 | Recuperación de datos | A |
 | mar 2026-11-10 | Integración de sistemas | B |
@@ -34,6 +33,7 @@ _Actualizado: 2026-11-05 17:02 (hora de Madrid)_
 | lun 2026-11-16 | Cambio de bisagras de portátil | C |
 | mar 2026-11-17 | Cambio de conector de carga de móvil | A |
 | mié 2026-11-18 | Limpieza y pasta térmica de sobremesa | C |
+| jue 2026-11-19 | Cambio de ventilador | A |
 
 ## Campañas por diseñar
 - 2026-11-23: Aviso previo de Black Friday (oferta por decidir)
