@@ -373,6 +373,21 @@
       "permalink": "https://www.instagram.com/reel/DfZ_NVyO3Uh/",
       "publicado_utc": "2026-11-06T16:01:08Z",
       "retraso_min": 1
+    },
+    {
+      "fecha": "2026-11-07",
+      "tema": "nunca_02",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "nunca_02.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "17992864983116801",
+      "permalink": "https://www.instagram.com/reel/Dfcj_XATtWj/",
+      "publicado_utc": "2026-11-07T16:01:01Z",
+      "retraso_min": 1
     }
   ]
 }
