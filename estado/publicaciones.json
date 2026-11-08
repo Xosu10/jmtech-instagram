@@ -388,6 +388,21 @@
       "permalink": "https://www.instagram.com/reel/Dfcj_XATtWj/",
       "publicado_utc": "2026-11-07T16:01:01Z",
       "retraso_min": 1
+    },
+    {
+      "fecha": "2026-11-08",
+      "tema": "tecvj_15",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "tecvj_15.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "18155673172532553",
+      "permalink": "https://www.instagram.com/reel/DffI3W8Tpw3/",
+      "publicado_utc": "2026-11-08T16:01:05Z",
+      "retraso_min": 1
     }
   ]
 }

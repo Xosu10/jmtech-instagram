@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-07 17:01 (hora de Madrid)_
+_Actualizado: 2026-11-08 17:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 26
-- Última: 2026-11-07 · https://www.instagram.com/reel/Dfcj_XATtWj/
+- Publicaciones hechas: 27
+- Última: 2026-11-08 · https://www.instagram.com/reel/DffI3W8Tpw3/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-08 | tecvj_15 | curiosidad | 1 min | https://www.instagram.com/reel/DffI3W8Tpw3/ |
 | 2026-11-07 | nunca_02 | curiosidad | 1 min | https://www.instagram.com/reel/Dfcj_XATtWj/ |
 | 2026-11-06 | 04_limpieza_del_pc | curiosidad | 1 min | https://www.instagram.com/reel/DfZ_NVyO3Uh/ |
 | 2026-11-06 · reel | Instalación de programas | reel | 0 min | https://www.instagram.com/reel/DfZxd9uslqo/ |
@@ -19,7 +20,6 @@ _Actualizado: 2026-11-07 17:01 (hora de Madrid)_
 | 2026-11-04 · reel | Configuración BIOS/UEFI y XMP/EXPO | reel | 1 min | https://www.instagram.com/reel/DfUn5dNzStI/ |
 | 2026-11-03 | mito_02 | curiosidad | 1 min | https://www.instagram.com/reel/DfSQ1hsT4_L/ |
 | 2026-11-03 · reel | Optimización de PC gaming | reel | 1 min | https://www.instagram.com/reel/DfSDIetAZh-/ |
-| 2026-11-02 | 02_por_que_se_calienta_la_cpu | curiosidad | 158 min | https://www.instagram.com/reel/DfP9rw_RoF1/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
