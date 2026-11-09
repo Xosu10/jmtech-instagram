@@ -419,6 +419,21 @@
       "publicado_utc": "2026-11-09T14:00:59Z",
       "retraso_min": 0,
       "musica": "prettyjohn1-synthwave-526520.mp3"
+    },
+    {
+      "fecha": "2026-11-09",
+      "tema": "01_aire_o_liquida",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "01_aire_o_liquida.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "18183949684431257",
+      "permalink": "https://www.instagram.com/reel/DfhtsfCM0RK/",
+      "publicado_utc": "2026-11-09T16:01:24Z",
+      "retraso_min": 1
     }
   ]
 }

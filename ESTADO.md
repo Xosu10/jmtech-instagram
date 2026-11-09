@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-09 15:00 (hora de Madrid)_
+_Actualizado: 2026-11-09 17:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 28
-- Última: 2026-11-09 · https://www.instagram.com/reel/Dfhf2zmuEsf/
+- Publicaciones hechas: 29
+- Última: 2026-11-09 · https://www.instagram.com/reel/DfhtsfCM0RK/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-09 | 01_aire_o_liquida | curiosidad | 1 min | https://www.instagram.com/reel/DfhtsfCM0RK/ |
 | 2026-11-09 · reel | Recuperación de datos | reel | 0 min | https://www.instagram.com/reel/Dfhf2zmuEsf/ |
 | 2026-11-08 | tecvj_15 | curiosidad | 1 min | https://www.instagram.com/reel/DffI3W8Tpw3/ |
 | 2026-11-07 | nunca_02 | curiosidad | 1 min | https://www.instagram.com/reel/Dfcj_XATtWj/ |
@@ -19,7 +20,6 @@ _Actualizado: 2026-11-09 15:00 (hora de Madrid)_
 | 2026-11-05 · reel | Instalación y sustitución de componentes | reel | 1 min | https://www.instagram.com/reel/DfXMrhgyM2U/ |
 | 2026-11-04 | 03_ram_e_ia | curiosidad | 1 min | https://www.instagram.com/reel/DfU1xMMSHXJ/ |
 | 2026-11-04 · reel | Configuración BIOS/UEFI y XMP/EXPO | reel | 1 min | https://www.instagram.com/reel/DfUn5dNzStI/ |
-| 2026-11-03 | mito_02 | curiosidad | 1 min | https://www.instagram.com/reel/DfSQ1hsT4_L/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
