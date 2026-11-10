@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-10 15:01 (hora de Madrid)_
+_Actualizado: 2026-11-10 17:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 30
-- Última: 2026-11-10 · https://www.instagram.com/reel/DfkEqWfzGQS/
+- Publicaciones hechas: 31
+- Última: 2026-11-10 · https://www.instagram.com/reel/DfkSjFTJCa_/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-10 | idea_201 | curiosidad | 1 min | https://www.instagram.com/reel/DfkSjFTJCa_/ |
 | 2026-11-10 · reel | Integración de sistemas | reel | 1 min | https://www.instagram.com/reel/DfkEqWfzGQS/ |
 | 2026-11-09 | 01_aire_o_liquida | curiosidad | 1 min | https://www.instagram.com/reel/DfhtsfCM0RK/ |
 | 2026-11-09 · reel | Recuperación de datos | reel | 0 min | https://www.instagram.com/reel/Dfhf2zmuEsf/ |
@@ -19,7 +20,6 @@ _Actualizado: 2026-11-10 15:01 (hora de Madrid)_
 | 2026-11-06 · reel | Instalación de programas | reel | 0 min | https://www.instagram.com/reel/DfZxd9uslqo/ |
 | 2026-11-05 | diag_03 | curiosidad | 2 min | https://www.instagram.com/reel/DfXas5IOyrJ/ |
 | 2026-11-05 · reel | Instalación y sustitución de componentes | reel | 1 min | https://www.instagram.com/reel/DfXMrhgyM2U/ |
-| 2026-11-04 | 03_ram_e_ia | curiosidad | 1 min | https://www.instagram.com/reel/DfU1xMMSHXJ/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |

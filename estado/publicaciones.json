@@ -450,6 +450,21 @@
       "publicado_utc": "2026-11-10T14:01:05Z",
       "retraso_min": 1,
       "musica": "the_mountain-synthwave-593074.mp3"
+    },
+    {
+      "fecha": "2026-11-10",
+      "tema": "idea_201",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "idea_201.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "18116474669154008",
+      "permalink": "https://www.instagram.com/reel/DfkSjFTJCa_/",
+      "publicado_utc": "2026-11-10T16:01:16Z",
+      "retraso_min": 1
     }
   ]
 }
