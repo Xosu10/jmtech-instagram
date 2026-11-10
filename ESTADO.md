@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-09 17:01 (hora de Madrid)_
+_Actualizado: 2026-11-10 15:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 29
-- Última: 2026-11-09 · https://www.instagram.com/reel/DfhtsfCM0RK/
+- Publicaciones hechas: 30
+- Última: 2026-11-10 · https://www.instagram.com/reel/DfkEqWfzGQS/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-10 · reel | Integración de sistemas | reel | 1 min | https://www.instagram.com/reel/DfkEqWfzGQS/ |
 | 2026-11-09 | 01_aire_o_liquida | curiosidad | 1 min | https://www.instagram.com/reel/DfhtsfCM0RK/ |
 | 2026-11-09 · reel | Recuperación de datos | reel | 0 min | https://www.instagram.com/reel/Dfhf2zmuEsf/ |
 | 2026-11-08 | tecvj_15 | curiosidad | 1 min | https://www.instagram.com/reel/DffI3W8Tpw3/ |
@@ -19,12 +20,10 @@ _Actualizado: 2026-11-09 17:01 (hora de Madrid)_
 | 2026-11-05 | diag_03 | curiosidad | 2 min | https://www.instagram.com/reel/DfXas5IOyrJ/ |
 | 2026-11-05 · reel | Instalación y sustitución de componentes | reel | 1 min | https://www.instagram.com/reel/DfXMrhgyM2U/ |
 | 2026-11-04 | 03_ram_e_ia | curiosidad | 1 min | https://www.instagram.com/reel/DfU1xMMSHXJ/ |
-| 2026-11-04 · reel | Configuración BIOS/UEFI y XMP/EXPO | reel | 1 min | https://www.instagram.com/reel/DfUn5dNzStI/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
 |---|---|---|
-| lun 2026-11-09 | Recuperación de datos | A |
 | mar 2026-11-10 | Integración de sistemas | B |
 | mié 2026-11-11 | Tu consola como el primer día | A |
 | jue 2026-11-12 | Transferencia de datos de tablet | C |
@@ -34,6 +33,7 @@ _Actualizado: 2026-11-09 17:01 (hora de Madrid)_
 | mié 2026-11-18 | Limpieza y pasta térmica de sobremesa | C |
 | jue 2026-11-19 | Cambio de ventilador | A |
 | vie 2026-11-20 | Migración de PC y portátil | B |
+| lun 2026-11-23 | Desmontaje y limpieza de teclado | C |
 
 ## Campañas por diseñar
 - 2026-11-23: Aviso previo de Black Friday (oferta por decidir)

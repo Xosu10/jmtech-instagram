@@ -434,6 +434,22 @@
       "permalink": "https://www.instagram.com/reel/DfhtsfCM0RK/",
       "publicado_utc": "2026-11-09T16:01:24Z",
       "retraso_min": 1
+    },
+    {
+      "fecha": "2026-11-10",
+      "tema": "integracion",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_2026-11-10.mp4",
+      "asset": "empresa_software_medida_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "reel",
+      "media_id": "18638159311027871",
+      "permalink": "https://www.instagram.com/reel/DfkEqWfzGQS/",
+      "publicado_utc": "2026-11-10T14:01:05Z",
+      "retraso_min": 1,
+      "musica": "the_mountain-synthwave-593074.mp3"
     }
   ]
 }
