@@ -481,6 +481,21 @@
       "publicado_utc": "2026-11-11T14:01:14Z",
       "retraso_min": 1,
       "musica": "9jackjack8-the-retrowave-beat-283274.mp3"
+    },
+    {
+      "fecha": "2026-11-11",
+      "tema": "idea_003",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "idea_003.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "18109273469273702",
+      "permalink": "https://www.instagram.com/reel/Dfm3TwTBWKo/",
+      "publicado_utc": "2026-11-11T16:01:38Z",
+      "retraso_min": 1
     }
   ]
 }
