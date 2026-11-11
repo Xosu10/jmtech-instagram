@@ -465,6 +465,22 @@
       "permalink": "https://www.instagram.com/reel/DfkSjFTJCa_/",
       "publicado_utc": "2026-11-10T16:01:16Z",
       "retraso_min": 1
+    },
+    {
+      "fecha": "2026-11-11",
+      "tema": "consola_mantenimiento",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_2026-11-11.mp4",
+      "asset": "consola_generica_mantenimiento_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "reel",
+      "media_id": "18034093427886491",
+      "permalink": "https://www.instagram.com/reel/DfmpeqWKs95/",
+      "publicado_utc": "2026-11-11T14:01:14Z",
+      "retraso_min": 1,
+      "musica": "9jackjack8-the-retrowave-beat-283274.mp3"
     }
   ]
 }
