@@ -496,6 +496,22 @@
       "permalink": "https://www.instagram.com/reel/Dfm3TwTBWKo/",
       "publicado_utc": "2026-11-11T16:01:38Z",
       "retraso_min": 1
+    },
+    {
+      "fecha": "2026-11-12",
+      "tema": "tablet_transferencia",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_2026-11-12.mp4",
+      "asset": "movil_transferencia_aislado_02.png",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "reel",
+      "media_id": "18084379295709873",
+      "permalink": "https://www.instagram.com/reel/DfpOR64Si6Y/",
+      "publicado_utc": "2026-11-12T14:01:18Z",
+      "retraso_min": 1,
+      "musica": "alex-morgan-synthwave-arcade-retro-nights-573647.mp3"
     }
   ]
 }
