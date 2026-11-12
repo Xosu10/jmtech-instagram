@@ -512,6 +512,21 @@
       "publicado_utc": "2026-11-12T14:01:18Z",
       "retraso_min": 1,
       "musica": "alex-morgan-synthwave-arcade-retro-nights-573647.mp3"
+    },
+    {
+      "fecha": "2026-11-12",
+      "tema": "glos_09",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "glos_09.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "18146560579608000",
+      "permalink": "https://www.instagram.com/reel/DfpcDAShiGb/",
+      "publicado_utc": "2026-11-12T16:01:10Z",
+      "retraso_min": 1
     }
   ]
 }
