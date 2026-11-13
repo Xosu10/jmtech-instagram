@@ -543,6 +543,21 @@
       "publicado_utc": "2026-11-13T14:01:04Z",
       "retraso_min": 1,
       "musica": "delosound-inspiring-motivation-synthwave-398285.mp3"
+    },
+    {
+      "fecha": "2026-11-13",
+      "tema": "idea_061",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "idea_061.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "17954957868298389",
+      "permalink": "https://www.instagram.com/reel/DfsAzErokOv/",
+      "publicado_utc": "2026-11-13T16:01:20Z",
+      "retraso_min": 1
     }
   ]
 }

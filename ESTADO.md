@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-13 15:01 (hora de Madrid)_
+_Actualizado: 2026-11-13 17:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 36
-- Última: 2026-11-13 · https://www.instagram.com/reel/DfrzCudzcZm/
+- Publicaciones hechas: 37
+- Última: 2026-11-13 · https://www.instagram.com/reel/DfsAzErokOv/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-13 | idea_061 | curiosidad | 1 min | https://www.instagram.com/reel/DfsAzErokOv/ |
 | 2026-11-13 · reel | Limpieza de portátil | reel | 1 min | https://www.instagram.com/reel/DfrzCudzcZm/ |
 | 2026-11-12 | glos_09 | curiosidad | 1 min | https://www.instagram.com/reel/DfpcDAShiGb/ |
 | 2026-11-12 · reel | Transferencia de datos de tablet | reel | 1 min | https://www.instagram.com/reel/DfpOR64Si6Y/ |
@@ -19,7 +20,6 @@ _Actualizado: 2026-11-13 15:01 (hora de Madrid)_
 | 2026-11-10 · reel | Integración de sistemas | reel | 1 min | https://www.instagram.com/reel/DfkEqWfzGQS/ |
 | 2026-11-09 | 01_aire_o_liquida | curiosidad | 1 min | https://www.instagram.com/reel/DfhtsfCM0RK/ |
 | 2026-11-09 · reel | Recuperación de datos | reel | 0 min | https://www.instagram.com/reel/Dfhf2zmuEsf/ |
-| 2026-11-08 | tecvj_15 | curiosidad | 1 min | https://www.instagram.com/reel/DffI3W8Tpw3/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
