@@ -527,6 +527,22 @@
       "permalink": "https://www.instagram.com/reel/DfpcDAShiGb/",
       "publicado_utc": "2026-11-12T16:01:10Z",
       "retraso_min": 1
+    },
+    {
+      "fecha": "2026-11-13",
+      "tema": "limpieza_portatil",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_2026-11-13.mp4",
+      "asset": "portatil_teclado_bisagras_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "reel",
+      "media_id": "18343718293287258",
+      "permalink": "https://www.instagram.com/reel/DfrzCudzcZm/",
+      "publicado_utc": "2026-11-13T14:01:04Z",
+      "retraso_min": 1,
+      "musica": "delosound-inspiring-motivation-synthwave-398285.mp3"
     }
   ]
 }
