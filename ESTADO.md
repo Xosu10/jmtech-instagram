@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-13 17:01 (hora de Madrid)_
+_Actualizado: 2026-11-14 17:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 37
-- Última: 2026-11-13 · https://www.instagram.com/reel/DfsAzErokOv/
+- Publicaciones hechas: 38
+- Última: 2026-11-14 · https://www.instagram.com/reel/DfulpfYhSn1/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-14 | quepasa_20 | curiosidad | 1 min | https://www.instagram.com/reel/DfulpfYhSn1/ |
 | 2026-11-13 | idea_061 | curiosidad | 1 min | https://www.instagram.com/reel/DfsAzErokOv/ |
 | 2026-11-13 · reel | Limpieza de portátil | reel | 1 min | https://www.instagram.com/reel/DfrzCudzcZm/ |
 | 2026-11-12 | glos_09 | curiosidad | 1 min | https://www.instagram.com/reel/DfpcDAShiGb/ |
@@ -19,12 +20,10 @@ _Actualizado: 2026-11-13 17:01 (hora de Madrid)_
 | 2026-11-10 | idea_201 | curiosidad | 1 min | https://www.instagram.com/reel/DfkSjFTJCa_/ |
 | 2026-11-10 · reel | Integración de sistemas | reel | 1 min | https://www.instagram.com/reel/DfkEqWfzGQS/ |
 | 2026-11-09 | 01_aire_o_liquida | curiosidad | 1 min | https://www.instagram.com/reel/DfhtsfCM0RK/ |
-| 2026-11-09 · reel | Recuperación de datos | reel | 0 min | https://www.instagram.com/reel/Dfhf2zmuEsf/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
 |---|---|---|
-| vie 2026-11-13 | Limpieza de portátil | B |
 | lun 2026-11-16 | Cambio de bisagras de portátil | C |
 | mar 2026-11-17 | Cambio de conector de carga de móvil | A |
 | mié 2026-11-18 | Limpieza y pasta térmica de sobremesa | C |
@@ -34,6 +33,7 @@ _Actualizado: 2026-11-13 17:01 (hora de Madrid)_
 | mar 2026-11-24 | PC de alta gama (custom loop) | B |
 | mié 2026-11-25 | Software, scripts y apps a medida | A |
 | jue 2026-11-26 | ¿Qué le pasa a tu equipo? | B |
+| vie 2026-11-27 | Automatización de procesos | C |
 
 ## Campañas por diseñar
 - 2026-11-23: Aviso previo de Black Friday (oferta por decidir)

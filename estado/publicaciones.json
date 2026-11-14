@@ -558,6 +558,21 @@
       "permalink": "https://www.instagram.com/reel/DfsAzErokOv/",
       "publicado_utc": "2026-11-13T16:01:20Z",
       "retraso_min": 1
+    },
+    {
+      "fecha": "2026-11-14",
+      "tema": "quepasa_20",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "quepasa_20.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "18116565098145933",
+      "permalink": "https://www.instagram.com/reel/DfulpfYhSn1/",
+      "publicado_utc": "2026-11-14T16:01:14Z",
+      "retraso_min": 1
     }
   ]
 }
