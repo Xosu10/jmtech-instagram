@@ -573,6 +573,21 @@
       "permalink": "https://www.instagram.com/reel/DfulpfYhSn1/",
       "publicado_utc": "2026-11-14T16:01:14Z",
       "retraso_min": 1
+    },
+    {
+      "fecha": "2026-11-15",
+      "tema": "glos_27",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "glos_27.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "17868572352679714",
+      "permalink": "https://www.instagram.com/reel/DfxKcQWB4E9/",
+      "publicado_utc": "2026-11-15T16:01:15Z",
+      "retraso_min": 1
     }
   ]
 }
