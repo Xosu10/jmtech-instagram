@@ -604,6 +604,21 @@
       "publicado_utc": "2026-11-16T14:01:09Z",
       "retraso_min": 1,
       "musica": "9jackjack8-progressive-retrowave-295305.mp3"
+    },
+    {
+      "fecha": "2026-11-16",
+      "tema": "idea_012",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "idea_012.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "17933957847162858",
+      "permalink": "https://www.instagram.com/reel/DfzvPR7hLSO/",
+      "publicado_utc": "2026-11-16T16:01:15Z",
+      "retraso_min": 1
     }
   ]
 }
