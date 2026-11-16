@@ -588,6 +588,22 @@
       "permalink": "https://www.instagram.com/reel/DfxKcQWB4E9/",
       "publicado_utc": "2026-11-15T16:01:15Z",
       "retraso_min": 1
+    },
+    {
+      "fecha": "2026-11-16",
+      "tema": "bisagras_portatil",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_2026-11-16.mp4",
+      "asset": "herramientas_kit_precision_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "reel",
+      "media_id": "18159702049509715",
+      "permalink": "https://www.instagram.com/reel/DfzhcekBbKz/",
+      "publicado_utc": "2026-11-16T14:01:09Z",
+      "retraso_min": 1,
+      "musica": "9jackjack8-progressive-retrowave-295305.mp3"
     }
   ]
 }

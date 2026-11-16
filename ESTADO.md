@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-15 17:01 (hora de Madrid)_
+_Actualizado: 2026-11-16 15:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 39
-- Última: 2026-11-15 · https://www.instagram.com/reel/DfxKcQWB4E9/
+- Publicaciones hechas: 40
+- Última: 2026-11-16 · https://www.instagram.com/reel/DfzhcekBbKz/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-16 · reel | Cambio de bisagras de portátil | reel | 1 min | https://www.instagram.com/reel/DfzhcekBbKz/ |
 | 2026-11-15 | glos_27 | curiosidad | 1 min | https://www.instagram.com/reel/DfxKcQWB4E9/ |
 | 2026-11-14 | quepasa_20 | curiosidad | 1 min | https://www.instagram.com/reel/DfulpfYhSn1/ |
 | 2026-11-13 | idea_061 | curiosidad | 1 min | https://www.instagram.com/reel/DfsAzErokOv/ |
@@ -19,7 +20,6 @@ _Actualizado: 2026-11-15 17:01 (hora de Madrid)_
 | 2026-11-11 | idea_003 | curiosidad | 1 min | https://www.instagram.com/reel/Dfm3TwTBWKo/ |
 | 2026-11-11 · reel | Tu consola como el primer día | reel | 1 min | https://www.instagram.com/reel/DfmpeqWKs95/ |
 | 2026-11-10 | idea_201 | curiosidad | 1 min | https://www.instagram.com/reel/DfkSjFTJCa_/ |
-| 2026-11-10 · reel | Integración de sistemas | reel | 1 min | https://www.instagram.com/reel/DfkEqWfzGQS/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
