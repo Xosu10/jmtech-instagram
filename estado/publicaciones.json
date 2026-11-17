@@ -635,6 +635,21 @@
       "publicado_utc": "2026-11-17T14:01:34Z",
       "retraso_min": 1,
       "musica": "alex-morgan-retrowave-midnight-synthwave-tokyo-drive-587394.mp3"
+    },
+    {
+      "fecha": "2026-11-17",
+      "tema": "vfd_19",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "vfd_19.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "18112690798921773",
+      "permalink": "https://www.instagram.com/reel/Df2UBZ4uT6A/",
+      "publicado_utc": "2026-11-17T16:01:10Z",
+      "retraso_min": 1
     }
   ]
 }

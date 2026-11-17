@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-17 15:01 (hora de Madrid)_
+_Actualizado: 2026-11-17 17:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 42
-- Última: 2026-11-17 · https://www.instagram.com/reel/Df2GSSJC8ZT/
+- Publicaciones hechas: 43
+- Última: 2026-11-17 · https://www.instagram.com/reel/Df2UBZ4uT6A/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-17 | vfd_19 | curiosidad | 1 min | https://www.instagram.com/reel/Df2UBZ4uT6A/ |
 | 2026-11-17 · reel | Cambio de conector de carga de móvil | reel | 1 min | https://www.instagram.com/reel/Df2GSSJC8ZT/ |
 | 2026-11-16 | idea_012 | curiosidad | 1 min | https://www.instagram.com/reel/DfzvPR7hLSO/ |
 | 2026-11-16 · reel | Cambio de bisagras de portátil | reel | 1 min | https://www.instagram.com/reel/DfzhcekBbKz/ |
@@ -19,7 +20,6 @@ _Actualizado: 2026-11-17 15:01 (hora de Madrid)_
 | 2026-11-13 · reel | Limpieza de portátil | reel | 1 min | https://www.instagram.com/reel/DfrzCudzcZm/ |
 | 2026-11-12 | glos_09 | curiosidad | 1 min | https://www.instagram.com/reel/DfpcDAShiGb/ |
 | 2026-11-12 · reel | Transferencia de datos de tablet | reel | 1 min | https://www.instagram.com/reel/DfpOR64Si6Y/ |
-| 2026-11-11 | idea_003 | curiosidad | 1 min | https://www.instagram.com/reel/Dfm3TwTBWKo/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
