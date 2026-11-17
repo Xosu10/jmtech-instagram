@@ -619,6 +619,22 @@
       "permalink": "https://www.instagram.com/reel/DfzvPR7hLSO/",
       "publicado_utc": "2026-11-16T16:01:15Z",
       "retraso_min": 1
+    },
+    {
+      "fecha": "2026-11-17",
+      "tema": "movil_conector",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_2026-11-17.mp4",
+      "asset": "movil_conector_carga_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "reel",
+      "media_id": "18109052351349025",
+      "permalink": "https://www.instagram.com/reel/Df2GSSJC8ZT/",
+      "publicado_utc": "2026-11-17T14:01:34Z",
+      "retraso_min": 1,
+      "musica": "alex-morgan-retrowave-midnight-synthwave-tokyo-drive-587394.mp3"
     }
   ]
 }
