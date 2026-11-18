@@ -650,6 +650,22 @@
       "permalink": "https://www.instagram.com/reel/Df2UBZ4uT6A/",
       "publicado_utc": "2026-11-17T16:01:10Z",
       "retraso_min": 1
+    },
+    {
+      "fecha": "2026-11-18",
+      "tema": "pasta_limpieza",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_2026-11-18.mp4",
+      "asset": "cpu_pasta_termica_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "reel",
+      "media_id": "17996743389061495",
+      "permalink": "https://www.instagram.com/reel/Df4rByWM4Sp/",
+      "publicado_utc": "2026-11-18T14:01:06Z",
+      "retraso_min": 1,
+      "musica": "arpmedia-synthwave-retro-80s-569468.mp3"
     }
   ]
 }

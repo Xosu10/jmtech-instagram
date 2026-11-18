@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-17 17:01 (hora de Madrid)_
+_Actualizado: 2026-11-18 15:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 43
-- Última: 2026-11-17 · https://www.instagram.com/reel/Df2UBZ4uT6A/
+- Publicaciones hechas: 44
+- Última: 2026-11-18 · https://www.instagram.com/reel/Df4rByWM4Sp/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-18 · reel | Limpieza y pasta térmica de sobremesa | reel | 1 min | https://www.instagram.com/reel/Df4rByWM4Sp/ |
 | 2026-11-17 | vfd_19 | curiosidad | 1 min | https://www.instagram.com/reel/Df2UBZ4uT6A/ |
 | 2026-11-17 · reel | Cambio de conector de carga de móvil | reel | 1 min | https://www.instagram.com/reel/Df2GSSJC8ZT/ |
 | 2026-11-16 | idea_012 | curiosidad | 1 min | https://www.instagram.com/reel/DfzvPR7hLSO/ |
@@ -19,12 +20,10 @@ _Actualizado: 2026-11-17 17:01 (hora de Madrid)_
 | 2026-11-13 | idea_061 | curiosidad | 1 min | https://www.instagram.com/reel/DfsAzErokOv/ |
 | 2026-11-13 · reel | Limpieza de portátil | reel | 1 min | https://www.instagram.com/reel/DfrzCudzcZm/ |
 | 2026-11-12 | glos_09 | curiosidad | 1 min | https://www.instagram.com/reel/DfpcDAShiGb/ |
-| 2026-11-12 · reel | Transferencia de datos de tablet | reel | 1 min | https://www.instagram.com/reel/DfpOR64Si6Y/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
 |---|---|---|
-| mar 2026-11-17 | Cambio de conector de carga de móvil | A |
 | mié 2026-11-18 | Limpieza y pasta térmica de sobremesa | C |
 | jue 2026-11-19 | Cambio de ventilador | A |
 | vie 2026-11-20 | Migración de PC y portátil | B |
@@ -34,6 +33,7 @@ _Actualizado: 2026-11-17 17:01 (hora de Madrid)_
 | jue 2026-11-26 | ¿Qué le pasa a tu equipo? | B |
 | vie 2026-11-27 | Automatización de procesos | C |
 | lun 2026-11-30 | Cambio de pantalla de tablet | A |
+| mar 2026-12-01 | Servicio técnico en remoto | B |
 
 ## Campañas por diseñar
 - 2026-11-23: Aviso previo de Black Friday (oferta por decidir)
