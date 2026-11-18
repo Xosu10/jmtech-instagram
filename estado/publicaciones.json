@@ -666,6 +666,21 @@
       "publicado_utc": "2026-11-18T14:01:06Z",
       "retraso_min": 1,
       "musica": "arpmedia-synthwave-retro-80s-569468.mp3"
+    },
+    {
+      "fecha": "2026-11-18",
+      "tema": "especial_gtavi",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "especial_gtavi.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "18105002777178592",
+      "permalink": "https://www.instagram.com/reel/Df447ECA-ZM/",
+      "publicado_utc": "2026-11-18T16:01:47Z",
+      "retraso_min": 1
     }
   ]
 }

@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-18 15:01 (hora de Madrid)_
+_Actualizado: 2026-11-18 17:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 44
-- Última: 2026-11-18 · https://www.instagram.com/reel/Df4rByWM4Sp/
+- Publicaciones hechas: 45
+- Última: 2026-11-18 · https://www.instagram.com/reel/Df447ECA-ZM/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-18 | especial_gtavi | curiosidad | 1 min | https://www.instagram.com/reel/Df447ECA-ZM/ |
 | 2026-11-18 · reel | Limpieza y pasta térmica de sobremesa | reel | 1 min | https://www.instagram.com/reel/Df4rByWM4Sp/ |
 | 2026-11-17 | vfd_19 | curiosidad | 1 min | https://www.instagram.com/reel/Df2UBZ4uT6A/ |
 | 2026-11-17 · reel | Cambio de conector de carga de móvil | reel | 1 min | https://www.instagram.com/reel/Df2GSSJC8ZT/ |
@@ -19,7 +20,6 @@ _Actualizado: 2026-11-18 15:01 (hora de Madrid)_
 | 2026-11-14 | quepasa_20 | curiosidad | 1 min | https://www.instagram.com/reel/DfulpfYhSn1/ |
 | 2026-11-13 | idea_061 | curiosidad | 1 min | https://www.instagram.com/reel/DfsAzErokOv/ |
 | 2026-11-13 · reel | Limpieza de portátil | reel | 1 min | https://www.instagram.com/reel/DfrzCudzcZm/ |
-| 2026-11-12 | glos_09 | curiosidad | 1 min | https://www.instagram.com/reel/DfpcDAShiGb/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
