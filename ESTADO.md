@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-18 17:01 (hora de Madrid)_
+_Actualizado: 2026-11-19 15:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 45
-- Última: 2026-11-18 · https://www.instagram.com/reel/Df447ECA-ZM/
+- Publicaciones hechas: 46
+- Última: 2026-11-19 · https://www.instagram.com/reel/Df7P0XssKD-/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-19 · reel | Cambio de ventilador | reel | 1 min | https://www.instagram.com/reel/Df7P0XssKD-/ |
 | 2026-11-18 | especial_gtavi | curiosidad | 1 min | https://www.instagram.com/reel/Df447ECA-ZM/ |
 | 2026-11-18 · reel | Limpieza y pasta térmica de sobremesa | reel | 1 min | https://www.instagram.com/reel/Df4rByWM4Sp/ |
 | 2026-11-17 | vfd_19 | curiosidad | 1 min | https://www.instagram.com/reel/Df2UBZ4uT6A/ |
@@ -19,12 +20,10 @@ _Actualizado: 2026-11-18 17:01 (hora de Madrid)_
 | 2026-11-15 | glos_27 | curiosidad | 1 min | https://www.instagram.com/reel/DfxKcQWB4E9/ |
 | 2026-11-14 | quepasa_20 | curiosidad | 1 min | https://www.instagram.com/reel/DfulpfYhSn1/ |
 | 2026-11-13 | idea_061 | curiosidad | 1 min | https://www.instagram.com/reel/DfsAzErokOv/ |
-| 2026-11-13 · reel | Limpieza de portátil | reel | 1 min | https://www.instagram.com/reel/DfrzCudzcZm/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
 |---|---|---|
-| mié 2026-11-18 | Limpieza y pasta térmica de sobremesa | C |
 | jue 2026-11-19 | Cambio de ventilador | A |
 | vie 2026-11-20 | Migración de PC y portátil | B |
 | lun 2026-11-23 | Desmontaje y limpieza de teclado | C |
@@ -34,6 +33,7 @@ _Actualizado: 2026-11-18 17:01 (hora de Madrid)_
 | vie 2026-11-27 | Automatización de procesos | C |
 | lun 2026-11-30 | Cambio de pantalla de tablet | A |
 | mar 2026-12-01 | Servicio técnico en remoto | B |
+| mié 2026-12-02 | Cambio de teclado de portátil | C |
 
 ## Campañas por diseñar
 - 2026-11-23: Aviso previo de Black Friday (oferta por decidir)
