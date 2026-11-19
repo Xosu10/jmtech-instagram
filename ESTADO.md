@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-19 15:01 (hora de Madrid)_
+_Actualizado: 2026-11-19 17:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 46
-- Última: 2026-11-19 · https://www.instagram.com/reel/Df7P0XssKD-/
+- Publicaciones hechas: 47
+- Última: 2026-11-19 · https://www.instagram.com/reel/Df7dk-RIarK/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-19 | diag_20 | curiosidad | 1 min | https://www.instagram.com/reel/Df7dk-RIarK/ |
 | 2026-11-19 · reel | Cambio de ventilador | reel | 1 min | https://www.instagram.com/reel/Df7P0XssKD-/ |
 | 2026-11-18 | especial_gtavi | curiosidad | 1 min | https://www.instagram.com/reel/Df447ECA-ZM/ |
 | 2026-11-18 · reel | Limpieza y pasta térmica de sobremesa | reel | 1 min | https://www.instagram.com/reel/Df4rByWM4Sp/ |
@@ -19,7 +20,6 @@ _Actualizado: 2026-11-19 15:01 (hora de Madrid)_
 | 2026-11-16 · reel | Cambio de bisagras de portátil | reel | 1 min | https://www.instagram.com/reel/DfzhcekBbKz/ |
 | 2026-11-15 | glos_27 | curiosidad | 1 min | https://www.instagram.com/reel/DfxKcQWB4E9/ |
 | 2026-11-14 | quepasa_20 | curiosidad | 1 min | https://www.instagram.com/reel/DfulpfYhSn1/ |
-| 2026-11-13 | idea_061 | curiosidad | 1 min | https://www.instagram.com/reel/DfsAzErokOv/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |

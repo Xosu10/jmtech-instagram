@@ -697,6 +697,21 @@
       "publicado_utc": "2026-11-19T14:01:07Z",
       "retraso_min": 1,
       "musica": "lnplusmusic-synthwave-80s-retro-background-music-400483.mp3"
+    },
+    {
+      "fecha": "2026-11-19",
+      "tema": "diag_20",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "diag_20.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "17873564964695160",
+      "permalink": "https://www.instagram.com/reel/Df7dk-RIarK/",
+      "publicado_utc": "2026-11-19T16:01:23Z",
+      "retraso_min": 1
     }
   ]
 }
