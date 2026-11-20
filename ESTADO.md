@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-20 15:00 (hora de Madrid)_
+_Actualizado: 2026-11-20 17:00 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 48
-- Última: 2026-11-20 · https://www.instagram.com/reel/Df90mGpIsoN/
+- Publicaciones hechas: 49
+- Última: 2026-11-20 · https://www.instagram.com/reel/Df-CY8iB3GT/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-20 | idea_021 | curiosidad | 0 min | https://www.instagram.com/reel/Df-CY8iB3GT/ |
 | 2026-11-20 · reel | Migración de PC y portátil | reel | 0 min | https://www.instagram.com/reel/Df90mGpIsoN/ |
 | 2026-11-19 | diag_20 | curiosidad | 1 min | https://www.instagram.com/reel/Df7dk-RIarK/ |
 | 2026-11-19 · reel | Cambio de ventilador | reel | 1 min | https://www.instagram.com/reel/Df7P0XssKD-/ |
@@ -19,7 +20,6 @@ _Actualizado: 2026-11-20 15:00 (hora de Madrid)_
 | 2026-11-17 · reel | Cambio de conector de carga de móvil | reel | 1 min | https://www.instagram.com/reel/Df2GSSJC8ZT/ |
 | 2026-11-16 | idea_012 | curiosidad | 1 min | https://www.instagram.com/reel/DfzvPR7hLSO/ |
 | 2026-11-16 · reel | Cambio de bisagras de portátil | reel | 1 min | https://www.instagram.com/reel/DfzhcekBbKz/ |
-| 2026-11-15 | glos_27 | curiosidad | 1 min | https://www.instagram.com/reel/DfxKcQWB4E9/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |

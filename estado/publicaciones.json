@@ -728,6 +728,21 @@
       "publicado_utc": "2026-11-20T14:00:57Z",
       "retraso_min": 0,
       "musica": "the_mountain-midnight-synthwave-317752.mp3"
+    },
+    {
+      "fecha": "2026-11-20",
+      "tema": "idea_021",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "idea_021.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "18157802215533269",
+      "permalink": "https://www.instagram.com/reel/Df-CY8iB3GT/",
+      "publicado_utc": "2026-11-20T16:00:58Z",
+      "retraso_min": 0
     }
   ]
 }
