@@ -712,6 +712,22 @@
       "permalink": "https://www.instagram.com/reel/Df7dk-RIarK/",
       "publicado_utc": "2026-11-19T16:01:23Z",
       "retraso_min": 1
+    },
+    {
+      "fecha": "2026-11-20",
+      "tema": "migracion_pc",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_2026-11-20.mp4",
+      "asset": "datos_backup_recuperacion_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "reel",
+      "media_id": "18220636813348368",
+      "permalink": "https://www.instagram.com/reel/Df90mGpIsoN/",
+      "publicado_utc": "2026-11-20T14:00:57Z",
+      "retraso_min": 0,
+      "musica": "the_mountain-midnight-synthwave-317752.mp3"
     }
   ]
 }
