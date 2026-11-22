@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-21 17:00 (hora de Madrid)_
+_Actualizado: 2026-11-22 17:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 50
-- Última: 2026-11-21 · https://www.instagram.com/reel/DgAnHKIA2fZ/
+- Publicaciones hechas: 51
+- Última: 2026-11-22 · https://www.instagram.com/reel/DgDMDI-SoQE/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-22 | tecvj_14 | curiosidad | 1 min | https://www.instagram.com/reel/DgDMDI-SoQE/ |
 | 2026-11-21 | nunca_08 | curiosidad | 0 min | https://www.instagram.com/reel/DgAnHKIA2fZ/ |
 | 2026-11-20 | idea_021 | curiosidad | 0 min | https://www.instagram.com/reel/Df-CY8iB3GT/ |
 | 2026-11-20 · reel | Migración de PC y portátil | reel | 0 min | https://www.instagram.com/reel/Df90mGpIsoN/ |
@@ -19,7 +20,6 @@ _Actualizado: 2026-11-21 17:00 (hora de Madrid)_
 | 2026-11-18 · reel | Limpieza y pasta térmica de sobremesa | reel | 1 min | https://www.instagram.com/reel/Df4rByWM4Sp/ |
 | 2026-11-17 | vfd_19 | curiosidad | 1 min | https://www.instagram.com/reel/Df2UBZ4uT6A/ |
 | 2026-11-17 · reel | Cambio de conector de carga de móvil | reel | 1 min | https://www.instagram.com/reel/Df2GSSJC8ZT/ |
-| 2026-11-16 | idea_012 | curiosidad | 1 min | https://www.instagram.com/reel/DfzvPR7hLSO/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
