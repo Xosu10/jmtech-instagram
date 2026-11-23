@@ -789,6 +789,21 @@
       "publicado_utc": "2026-11-23T14:01:02Z",
       "retraso_min": 1,
       "musica": "alex-morgan-synthwave-music-neon-drive-horizon-578508.mp3"
+    },
+    {
+      "fecha": "2026-11-23",
+      "tema": "especial_bf_1",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "especial_bf_1.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "18107038493563634",
+      "permalink": "https://www.instagram.com/reel/DgFw0NxRofC/",
+      "publicado_utc": "2026-11-23T16:01:19Z",
+      "retraso_min": 1
     }
   ]
 }
