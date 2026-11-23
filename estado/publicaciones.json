@@ -773,6 +773,22 @@
       "permalink": "https://www.instagram.com/reel/DgDMDI-SoQE/",
       "publicado_utc": "2026-11-22T16:01:35Z",
       "retraso_min": 1
+    },
+    {
+      "fecha": "2026-11-23",
+      "tema": "limpieza_teclado",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_2026-11-23.mp4",
+      "asset": "herramientas_kit_precision_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "reel",
+      "media_id": "18143527495728844",
+      "permalink": "https://www.instagram.com/reel/DgFi_gmsuNK/",
+      "publicado_utc": "2026-11-23T14:01:02Z",
+      "retraso_min": 1,
+      "musica": "alex-morgan-synthwave-music-neon-drive-horizon-578508.mp3"
     }
   ]
 }
