@@ -820,6 +820,21 @@
       "publicado_utc": "2026-11-24T14:01:15Z",
       "retraso_min": 1,
       "musica": "echoes_of_lumen-neon-synthwave-vibe-554114.mp3"
+    },
+    {
+      "fecha": "2026-11-24",
+      "tema": "idea_213",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "idea_213.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "18136030117862437",
+      "permalink": "https://www.instagram.com/reel/DgIVgdHSuux/",
+      "publicado_utc": "2026-11-24T16:01:02Z",
+      "retraso_min": 1
     }
   ]
 }

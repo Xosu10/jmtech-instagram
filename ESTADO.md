@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-24 15:01 (hora de Madrid)_
+_Actualizado: 2026-11-24 17:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 54
-- Última: 2026-11-24 · https://www.instagram.com/reel/DgIH0DphQ0n/
+- Publicaciones hechas: 55
+- Última: 2026-11-24 · https://www.instagram.com/reel/DgIVgdHSuux/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-24 | idea_213 | curiosidad | 1 min | https://www.instagram.com/reel/DgIVgdHSuux/ |
 | 2026-11-24 · reel | PC de alta gama (custom loop) | reel | 1 min | https://www.instagram.com/reel/DgIH0DphQ0n/ |
 | 2026-11-23 | especial_bf_1 | curiosidad | 1 min | https://www.instagram.com/reel/DgFw0NxRofC/ |
 | 2026-11-23 · reel | Desmontaje y limpieza de teclado | reel | 1 min | https://www.instagram.com/reel/DgFi_gmsuNK/ |
@@ -19,7 +20,6 @@ _Actualizado: 2026-11-24 15:01 (hora de Madrid)_
 | 2026-11-20 · reel | Migración de PC y portátil | reel | 0 min | https://www.instagram.com/reel/Df90mGpIsoN/ |
 | 2026-11-19 | diag_20 | curiosidad | 1 min | https://www.instagram.com/reel/Df7dk-RIarK/ |
 | 2026-11-19 · reel | Cambio de ventilador | reel | 1 min | https://www.instagram.com/reel/Df7P0XssKD-/ |
-| 2026-11-18 | especial_gtavi | curiosidad | 1 min | https://www.instagram.com/reel/Df447ECA-ZM/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
