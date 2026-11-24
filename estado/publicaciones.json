@@ -804,6 +804,22 @@
       "permalink": "https://www.instagram.com/reel/DgFw0NxRofC/",
       "publicado_utc": "2026-11-23T16:01:19Z",
       "retraso_min": 1
+    },
+    {
+      "fecha": "2026-11-24",
+      "tema": "custom_loop",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_2026-11-24.mp4",
+      "asset": "refrigeracion_custom_loop_ambiente_01.png",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "reel",
+      "media_id": "18065102135796371",
+      "permalink": "https://www.instagram.com/reel/DgIH0DphQ0n/",
+      "publicado_utc": "2026-11-24T14:01:15Z",
+      "retraso_min": 1,
+      "musica": "echoes_of_lumen-neon-synthwave-vibe-554114.mp3"
     }
   ]
 }

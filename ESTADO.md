@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-23 17:01 (hora de Madrid)_
+_Actualizado: 2026-11-24 15:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 53
-- Última: 2026-11-23 · https://www.instagram.com/reel/DgFw0NxRofC/
+- Publicaciones hechas: 54
+- Última: 2026-11-24 · https://www.instagram.com/reel/DgIH0DphQ0n/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-24 · reel | PC de alta gama (custom loop) | reel | 1 min | https://www.instagram.com/reel/DgIH0DphQ0n/ |
 | 2026-11-23 | especial_bf_1 | curiosidad | 1 min | https://www.instagram.com/reel/DgFw0NxRofC/ |
 | 2026-11-23 · reel | Desmontaje y limpieza de teclado | reel | 1 min | https://www.instagram.com/reel/DgFi_gmsuNK/ |
 | 2026-11-22 | tecvj_14 | curiosidad | 1 min | https://www.instagram.com/reel/DgDMDI-SoQE/ |
@@ -19,12 +20,10 @@ _Actualizado: 2026-11-23 17:01 (hora de Madrid)_
 | 2026-11-19 | diag_20 | curiosidad | 1 min | https://www.instagram.com/reel/Df7dk-RIarK/ |
 | 2026-11-19 · reel | Cambio de ventilador | reel | 1 min | https://www.instagram.com/reel/Df7P0XssKD-/ |
 | 2026-11-18 | especial_gtavi | curiosidad | 1 min | https://www.instagram.com/reel/Df447ECA-ZM/ |
-| 2026-11-18 · reel | Limpieza y pasta térmica de sobremesa | reel | 1 min | https://www.instagram.com/reel/Df4rByWM4Sp/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
 |---|---|---|
-| lun 2026-11-23 | Desmontaje y limpieza de teclado | C |
 | mar 2026-11-24 | PC de alta gama (custom loop) | B |
 | mié 2026-11-25 | Software, scripts y apps a medida | A |
 | jue 2026-11-26 | ¿Qué le pasa a tu equipo? | B |
@@ -34,6 +33,7 @@ _Actualizado: 2026-11-23 17:01 (hora de Madrid)_
 | mié 2026-12-02 | Cambio de teclado de portátil | C |
 | jue 2026-12-03 | Cambio de batería de tablet | A |
 | vie 2026-12-04 | Reparación de tablet | B |
+| lun 2026-12-07 | Instalación de placa base | A |
 
 ## Campañas por diseñar
 - 2026-11-23: Aviso previo de Black Friday (oferta por decidir)
