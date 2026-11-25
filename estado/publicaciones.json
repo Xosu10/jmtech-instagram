@@ -835,6 +835,22 @@
       "permalink": "https://www.instagram.com/reel/DgIVgdHSuux/",
       "publicado_utc": "2026-11-24T16:01:02Z",
       "retraso_min": 1
+    },
+    {
+      "fecha": "2026-11-25",
+      "tema": "script_software",
+      "estilo": "reel",
+      "variante": 0,
+      "imagen": "reel_2026-11-25.mp4",
+      "asset": "empresa_script_aislado_01.png",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "reel",
+      "media_id": "17922118569526750",
+      "permalink": "https://www.instagram.com/reel/DgKsqEtO5bu/",
+      "publicado_utc": "2026-11-25T14:01:43Z",
+      "retraso_min": 1,
+      "musica": "prettyjohn1-synthwave-526520.mp3"
     }
   ]
 }

@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-24 17:01 (hora de Madrid)_
+_Actualizado: 2026-11-25 15:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 55
-- Última: 2026-11-24 · https://www.instagram.com/reel/DgIVgdHSuux/
+- Publicaciones hechas: 56
+- Última: 2026-11-25 · https://www.instagram.com/reel/DgKsqEtO5bu/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-25 · reel | Software, scripts y apps a medida | reel | 1 min | https://www.instagram.com/reel/DgKsqEtO5bu/ |
 | 2026-11-24 | idea_213 | curiosidad | 1 min | https://www.instagram.com/reel/DgIVgdHSuux/ |
 | 2026-11-24 · reel | PC de alta gama (custom loop) | reel | 1 min | https://www.instagram.com/reel/DgIH0DphQ0n/ |
 | 2026-11-23 | especial_bf_1 | curiosidad | 1 min | https://www.instagram.com/reel/DgFw0NxRofC/ |
@@ -19,12 +20,10 @@ _Actualizado: 2026-11-24 17:01 (hora de Madrid)_
 | 2026-11-20 | idea_021 | curiosidad | 0 min | https://www.instagram.com/reel/Df-CY8iB3GT/ |
 | 2026-11-20 · reel | Migración de PC y portátil | reel | 0 min | https://www.instagram.com/reel/Df90mGpIsoN/ |
 | 2026-11-19 | diag_20 | curiosidad | 1 min | https://www.instagram.com/reel/Df7dk-RIarK/ |
-| 2026-11-19 · reel | Cambio de ventilador | reel | 1 min | https://www.instagram.com/reel/Df7P0XssKD-/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
 |---|---|---|
-| mar 2026-11-24 | PC de alta gama (custom loop) | B |
 | mié 2026-11-25 | Software, scripts y apps a medida | A |
 | jue 2026-11-26 | ¿Qué le pasa a tu equipo? | B |
 | vie 2026-11-27 | Automatización de procesos | C |
@@ -34,6 +33,7 @@ _Actualizado: 2026-11-24 17:01 (hora de Madrid)_
 | jue 2026-12-03 | Cambio de batería de tablet | A |
 | vie 2026-12-04 | Reparación de tablet | B |
 | lun 2026-12-07 | Instalación de placa base | A |
+| mar 2026-12-08 | Instalación de Windows | C |
 
 ## Campañas por diseñar
 - 2026-11-23: Aviso previo de Black Friday (oferta por decidir)
