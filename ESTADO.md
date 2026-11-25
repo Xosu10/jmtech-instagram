@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-25 15:01 (hora de Madrid)_
+_Actualizado: 2026-11-25 17:11 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 56
-- Última: 2026-11-25 · https://www.instagram.com/reel/DgKsqEtO5bu/
+- Publicaciones hechas: 57
+- Última: 2026-11-25 · https://www.instagram.com/reel/DgK7dJQKtQ8/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-25 | idea_031 | curiosidad | 11 min | https://www.instagram.com/reel/DgK7dJQKtQ8/ |
 | 2026-11-25 · reel | Software, scripts y apps a medida | reel | 1 min | https://www.instagram.com/reel/DgKsqEtO5bu/ |
 | 2026-11-24 | idea_213 | curiosidad | 1 min | https://www.instagram.com/reel/DgIVgdHSuux/ |
 | 2026-11-24 · reel | PC de alta gama (custom loop) | reel | 1 min | https://www.instagram.com/reel/DgIH0DphQ0n/ |
@@ -19,7 +20,6 @@ _Actualizado: 2026-11-25 15:01 (hora de Madrid)_
 | 2026-11-21 | nunca_08 | curiosidad | 0 min | https://www.instagram.com/reel/DgAnHKIA2fZ/ |
 | 2026-11-20 | idea_021 | curiosidad | 0 min | https://www.instagram.com/reel/Df-CY8iB3GT/ |
 | 2026-11-20 · reel | Migración de PC y portátil | reel | 0 min | https://www.instagram.com/reel/Df90mGpIsoN/ |
-| 2026-11-19 | diag_20 | curiosidad | 1 min | https://www.instagram.com/reel/Df7dk-RIarK/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
