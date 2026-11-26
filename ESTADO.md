@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-26 15:01 (hora de Madrid)_
+_Actualizado: 2026-11-26 17:00 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 58
-- Última: 2026-11-26 · https://www.instagram.com/reel/DgNRcFhuidv/
+- Publicaciones hechas: 59
+- Última: 2026-11-26 · https://www.instagram.com/reel/DgNfFcDuwuF/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-26 | glos_28 | curiosidad | 0 min | https://www.instagram.com/reel/DgNfFcDuwuF/ |
 | 2026-11-26 · reel | ¿Qué le pasa a tu equipo? | reel | 1 min | https://www.instagram.com/reel/DgNRcFhuidv/ |
 | 2026-11-25 | idea_031 | curiosidad | 11 min | https://www.instagram.com/reel/DgK7dJQKtQ8/ |
 | 2026-11-25 · reel | Software, scripts y apps a medida | reel | 1 min | https://www.instagram.com/reel/DgKsqEtO5bu/ |
@@ -19,7 +20,6 @@ _Actualizado: 2026-11-26 15:01 (hora de Madrid)_
 | 2026-11-23 · reel | Desmontaje y limpieza de teclado | reel | 1 min | https://www.instagram.com/reel/DgFi_gmsuNK/ |
 | 2026-11-22 | tecvj_14 | curiosidad | 1 min | https://www.instagram.com/reel/DgDMDI-SoQE/ |
 | 2026-11-21 | nunca_08 | curiosidad | 0 min | https://www.instagram.com/reel/DgAnHKIA2fZ/ |
-| 2026-11-20 | idea_021 | curiosidad | 0 min | https://www.instagram.com/reel/Df-CY8iB3GT/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
