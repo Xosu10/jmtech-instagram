@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-26 17:00 (hora de Madrid)_
+_Actualizado: 2026-11-27 15:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 59
-- Última: 2026-11-26 · https://www.instagram.com/reel/DgNfFcDuwuF/
+- Publicaciones hechas: 60
+- Última: 2026-11-27 · https://www.instagram.com/reel/DgP2Ne-JrJk/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-27 · reel | Automatización de procesos | reel | 1 min | https://www.instagram.com/reel/DgP2Ne-JrJk/ |
 | 2026-11-26 | glos_28 | curiosidad | 0 min | https://www.instagram.com/reel/DgNfFcDuwuF/ |
 | 2026-11-26 · reel | ¿Qué le pasa a tu equipo? | reel | 1 min | https://www.instagram.com/reel/DgNRcFhuidv/ |
 | 2026-11-25 | idea_031 | curiosidad | 11 min | https://www.instagram.com/reel/DgK7dJQKtQ8/ |
@@ -19,12 +20,10 @@ _Actualizado: 2026-11-26 17:00 (hora de Madrid)_
 | 2026-11-23 | especial_bf_1 | curiosidad | 1 min | https://www.instagram.com/reel/DgFw0NxRofC/ |
 | 2026-11-23 · reel | Desmontaje y limpieza de teclado | reel | 1 min | https://www.instagram.com/reel/DgFi_gmsuNK/ |
 | 2026-11-22 | tecvj_14 | curiosidad | 1 min | https://www.instagram.com/reel/DgDMDI-SoQE/ |
-| 2026-11-21 | nunca_08 | curiosidad | 0 min | https://www.instagram.com/reel/DgAnHKIA2fZ/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
 |---|---|---|
-| jue 2026-11-26 | ¿Qué le pasa a tu equipo? | B |
 | vie 2026-11-27 | Automatización de procesos | C |
 | lun 2026-11-30 | Cambio de pantalla de tablet | A |
 | mar 2026-12-01 | Servicio técnico en remoto | B |
@@ -34,6 +33,7 @@ _Actualizado: 2026-11-26 17:00 (hora de Madrid)_
 | lun 2026-12-07 | Instalación de placa base | A |
 | mar 2026-12-08 | Instalación de Windows | C |
 | mié 2026-12-09 | Recuperación del sistema | B |
+| jue 2026-12-10 | Configuración de periféricos | C |
 
 ## Campañas por diseñar
 - 2026-11-23: Aviso previo de Black Friday (oferta por decidir)
