@@ -1,15 +1,16 @@
 # Estado del publicador de Instagram
-_Actualizado: 2026-11-27 15:01 (hora de Madrid)_
+_Actualizado: 2026-11-27 17:01 (hora de Madrid)_
 
 ## Resumen
 - Sistema: ✅ activo
 - Token de Instagram: no caduca (usuario del sistema). Si algún día falla, se genera otro y se guarda en el secreto `IG_ACCESS_TOKEN`.
-- Publicaciones hechas: 60
-- Última: 2026-11-27 · https://www.instagram.com/reel/DgP2Ne-JrJk/
+- Publicaciones hechas: 61
+- Última: 2026-11-27 · https://www.instagram.com/reel/DgQD7KfSU-H/
 
 ## Últimas publicaciones
 | Fecha | Tema | Estilo | Retraso | Enlace |
 |---|---|---|---|---|
+| 2026-11-27 | especial_bf_2 | curiosidad | 1 min | https://www.instagram.com/reel/DgQD7KfSU-H/ |
 | 2026-11-27 · reel | Automatización de procesos | reel | 1 min | https://www.instagram.com/reel/DgP2Ne-JrJk/ |
 | 2026-11-26 | glos_28 | curiosidad | 0 min | https://www.instagram.com/reel/DgNfFcDuwuF/ |
 | 2026-11-26 · reel | ¿Qué le pasa a tu equipo? | reel | 1 min | https://www.instagram.com/reel/DgNRcFhuidv/ |
@@ -19,7 +20,6 @@ _Actualizado: 2026-11-27 15:01 (hora de Madrid)_
 | 2026-11-24 · reel | PC de alta gama (custom loop) | reel | 1 min | https://www.instagram.com/reel/DgIH0DphQ0n/ |
 | 2026-11-23 | especial_bf_1 | curiosidad | 1 min | https://www.instagram.com/reel/DgFw0NxRofC/ |
 | 2026-11-23 · reel | Desmontaje y limpieza de teclado | reel | 1 min | https://www.instagram.com/reel/DgFi_gmsuNK/ |
-| 2026-11-22 | tecvj_14 | curiosidad | 1 min | https://www.instagram.com/reel/DgDMDI-SoQE/ |
 
 ## Próximas 10 previstas
 | Fecha | Tema | Estilo |
