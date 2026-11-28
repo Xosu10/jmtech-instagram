@@ -928,6 +928,21 @@
       "permalink": "https://www.instagram.com/reel/DgQD7KfSU-H/",
       "publicado_utc": "2026-11-27T16:01:19Z",
       "retraso_min": 1
+    },
+    {
+      "fecha": "2026-11-28",
+      "tema": "quepasa_05",
+      "estilo": "curiosidad",
+      "variante": 0,
+      "imagen": "quepasa_05.mp4",
+      "asset": "curiosidad",
+      "resultado": "publicado",
+      "prueba": false,
+      "tipo": "curiosidad",
+      "media_id": "18127320466716072",
+      "permalink": "https://www.instagram.com/reel/DgSorvZKXxD/",
+      "publicado_utc": "2026-11-28T16:01:01Z",
+      "retraso_min": 1
     }
   ]
 }
